@@ -1,0 +1,1072 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Dialog_Ok" xml:space="preserve">
+        <value>_OK</value>
+    </data>
+    <data name="Dialog_Cancel" xml:space="preserve">
+        <value>_Cancel</value>
+    </data>
+    <data name="SortItem_Mode_Name" xml:space="preserve">
+        <value>_Name</value>
+    </data>
+    <data name="SortItem_Mode_Extension" xml:space="preserve">
+        <value>_Extension</value>
+    </data>
+    <data name="SortItem_Mode_Timestamp" xml:space="preserve">
+        <value>_Timestamp</value>
+    </data>
+    <data name="SortItem_Mode_Size" xml:space="preserve">
+        <value>_Size</value>
+    </data>
+    <data name="SortItem_Mode_Attribute" xml:space="preserve">
+        <value>Att_ribute</value>
+    </data>
+    <data name="SortItem_Order_Ascending" xml:space="preserve">
+        <value>_Ascending</value>
+    </data>
+    <data name="SortItem_Order_Descending" xml:space="preserve">
+        <value>_Descending</value>
+    </data>
+    <data name="Message_AccessDenied" xml:space="preserve">
+        <value>{0}
+
+Access denied.</value>
+    </data>
+    <data name="Label_Edit" xml:space="preserve">
+        <value>Edit</value>
+    </data>
+    <data name="Message_ConfirmDelete" xml:space="preserve">
+        <value>{0}
+
+Do you want to delete this?</value>
+    </data>
+    <data name="Dialog_Yes" xml:space="preserve">
+        <value>_Yes</value>
+    </data>
+    <data name="Dialog_No" xml:space="preserve">
+        <value>_No</value>
+    </data>
+    <data name="Message_FailedToExecuteAssociatedApp" xml:space="preserve">
+        <value>Failed to execute associated app.</value>
+    </data>
+    <data name="Message_FailedToExecuteExternalApp" xml:space="preserve">
+        <value>{0}
+
+Failed to execute external app.
+The external app is not registered or does not exist.</value>
+    </data>
+    <data name="Message_OmittedDueToLargeSize" xml:space="preserve">
+        <value>Omitted due to large size.</value>
+    </data>
+    <data name="Message_BinaryFileCannotBePreviewed" xml:space="preserve">
+        <value>Binary file cannot be previewed.</value>
+    </data>
+    <data name="SortItem_Mode_Folder" xml:space="preserve">
+        <value>_Folder</value>
+    </data>
+    <data name="FileMenu_File" xml:space="preserve">
+        <value>_File</value>
+    </data>
+    <data name="FileMenu_Edit" xml:space="preserve">
+        <value>_Edit</value>
+    </data>
+    <data name="FileMenu_View" xml:space="preserve">
+        <value>_View</value>
+    </data>
+    <data name="FileMenu_Cursor" xml:space="preserve">
+        <value>_Cursor</value>
+    </data>
+    <data name="FileMenu_Folder" xml:space="preserve">
+        <value>F_older</value>
+    </data>
+    <data name="FileMenu_Tool" xml:space="preserve">
+        <value>_Tool</value>
+    </data>
+    <data name="FileMenu_Window" xml:space="preserve">
+        <value>_Window</value>
+    </data>
+    <data name="FileMenu_OpenItem" xml:space="preserve">
+        <value>Open</value>
+    </data>
+    <data name="FileMenu_PreviewItem" xml:space="preserve">
+        <value>Preview</value>
+    </data>
+    <data name="FileMenu_OpenInFileManager" xml:space="preserve">
+        <value>Open in File Manager</value>
+    </data>
+    <data name="FileMenu_OpenInTerminal" xml:space="preserve">
+        <value>Open in Terminal</value>
+    </data>
+    <data name="FileMenu_OpenInAssociatedApp" xml:space="preserve">
+        <value>Open in Associated App</value>
+    </data>
+    <data name="FileMenu_OpenInExternalApp1" xml:space="preserve">
+        <value>Open in External App1</value>
+    </data>
+    <data name="FileMenu_OpenInExternalApp2" xml:space="preserve">
+        <value>Open in External App2</value>
+    </data>
+    <data name="FileMenu_MoveItem" xml:space="preserve">
+        <value>Move...</value>
+    </data>
+    <data name="FileMenu_CopyItem" xml:space="preserve">
+        <value>Copy...</value>
+    </data>
+    <data name="FileMenu_DeleteItem" xml:space="preserve">
+        <value>Delete...</value>
+    </data>
+    <data name="FileMenu_RenameItem" xml:space="preserve">
+        <value>Rename...</value>
+    </data>
+    <data name="FileMenu_ShowProperty" xml:space="preserve">
+        <value>Show Property</value>
+    </data>
+    <data name="FileMenu_ChangeAttributes" xml:space="preserve">
+        <value>Change Attributes...</value>
+    </data>
+    <data name="FileMenu_ChangeTimestamp" xml:space="preserve">
+        <value>Change Timestamp...</value>
+    </data>
+    <data name="FileMenu_CreateFile" xml:space="preserve">
+        <value>New File...</value>
+    </data>
+    <data name="FileMenu_CreateFolder" xml:space="preserve">
+        <value>New Folder...</value>
+    </data>
+    <data name="FileMenu_EmptyTrashCan" xml:space="preserve">
+        <value>Empty Trash Can...</value>
+    </data>
+    <data name="FileMenu_Cut" xml:space="preserve">
+        <value>Cut</value>
+    </data>
+    <data name="FileMenu_CopyItemToClipboard" xml:space="preserve">
+        <value>Copy</value>
+    </data>
+    <data name="FileMenu_PasteItemFromClipboard" xml:space="preserve">
+        <value>Paste</value>
+    </data>
+    <data name="FileMenu_SwitchItemSelection" xml:space="preserve">
+        <value>Switch Selection</value>
+    </data>
+    <data name="FileMenu_SelectAllFiles" xml:space="preserve">
+        <value>Select All Files</value>
+    </data>
+    <data name="FileMenu_SelectAllItems" xml:space="preserve">
+        <value>Select All Items</value>
+    </data>
+    <data name="FileMenu_SelectAllFolders" xml:space="preserve">
+        <value>Select All Folders</value>
+    </data>
+    <data name="FileMenu_SettingsApp" xml:space="preserve">
+        <value>Settings...</value>
+    </data>
+    <data name="FileMenu_SetDisplayMode1" xml:space="preserve">
+        <value>Display Mode #1</value>
+    </data>
+    <data name="FileMenu_SetDisplayMode2" xml:space="preserve">
+        <value>Display Mode #2</value>
+    </data>
+    <data name="FileMenu_SetDisplayMode3" xml:space="preserve">
+        <value>Display Mode #3</value>
+    </data>
+    <data name="FileMenu_SetDisplayMode4" xml:space="preserve">
+        <value>Display Mode #4</value>
+    </data>
+    <data name="FileMenu_SetDisplayMode5" xml:space="preserve">
+        <value>Display Mode #5</value>
+    </data>
+    <data name="FileMenu_SortItems" xml:space="preserve">
+        <value>Sort Items...</value>
+    </data>
+    <data name="FileMenu_FilterItems" xml:space="preserve">
+        <value>Filter Items...</value>
+    </data>
+    <data name="FileMenu_MoveCursorDown" xml:space="preserve">
+        <value>Move Down</value>
+    </data>
+    <data name="FileMenu_MoveCursorLeft" xml:space="preserve">
+        <value>Move Left</value>
+    </data>
+    <data name="FileMenu_MoveCursorRight" xml:space="preserve">
+        <value>Move Right</value>
+    </data>
+    <data name="FileMenu_MoveToFolderTop" xml:space="preserve">
+        <value>Move to Folder Top</value>
+    </data>
+    <data name="FileMenu_MoveToFileTop" xml:space="preserve">
+        <value>Move to File Top</value>
+    </data>
+    <data name="FileMenu_MoveToBottom" xml:space="preserve">
+        <value>Move to Bottom</value>
+    </data>
+    <data name="FileMenu_MoveCursorUp" xml:space="preserve">
+        <value>Move Up</value>
+    </data>
+    <data name="FileMenu_MoveCursorSearchNext" xml:space="preserve">
+        <value>Search Next</value>
+    </data>
+    <data name="FileMenu_MoveCursorSearchPrevious" xml:space="preserve">
+        <value>Search Previous</value>
+    </data>
+    <data name="FileMenu_Bookmark" xml:space="preserve">
+        <value>Bookmark...</value>
+    </data>
+    <data name="FileMenu_MoveToPreviousFolder" xml:space="preserve">
+        <value>Previous Folder</value>
+    </data>
+    <data name="FileMenu_MoveToNextFolder" xml:space="preserve">
+        <value>Next Folder</value>
+    </data>
+    <data name="FileMenu_MoveToRecentFolder" xml:space="preserve">
+        <value>Recent Folder...</value>
+    </data>
+    <data name="FileMenu_MoveToFolder" xml:space="preserve">
+        <value>Move to Folder...</value>
+    </data>
+    <data name="FileMenu_MoveToVolume" xml:space="preserve">
+        <value>Move to Volume</value>
+    </data>
+    <data name="FileMenu_MoveToNetwork" xml:space="preserve">
+        <value>Move to Network...</value>
+    </data>
+    <data name="FileMenu_CompressArchive" xml:space="preserve">
+        <value>Compress Archive...</value>
+    </data>
+    <data name="FileMenu_DecompressArchive" xml:space="preserve">
+        <value>Decompress Archive...</value>
+    </data>
+    <data name="FileMenu_Search" xml:space="preserve">
+        <value>Search</value>
+    </data>
+    <data name="FileMenu_GoNormalMode" xml:space="preserve">
+        <value>Normal</value>
+    </data>
+    <data name="FileMenu_Filter" xml:space="preserve">
+        <value>Filter</value>
+    </data>
+    <data name="FileMenu_SwitchView" xml:space="preserve">
+        <value>Switch View</value>
+    </data>
+    <data name="FileMenu_LoadFolderWindowLayout" xml:space="preserve">
+        <value>Load  Window Size</value>
+    </data>
+    <data name="FileMenu_StoreFolderWindowLayout" xml:space="preserve">
+        <value>Save Window Size</value>
+    </data>
+    <data name="FileMenu_AddFolderWindow" xml:space="preserve">
+        <value>New Folder Window</value>
+    </data>
+    <data name="Message_StoreWindowLayout" xml:space="preserve">
+        <value>Saved window layout.</value>
+    </data>
+    <data name="FileMenu_OpenTrashCan" xml:space="preserve">
+        <value>Open Trash Can</value>
+    </data>
+    <data name="Message_EmptiedTrashCan" xml:space="preserve">
+        <value>Emptied the trash can.</value>
+    </data>
+    <data name="Message_TrashCanAlreadyEmpty" xml:space="preserve">
+        <value>The trash can is already empty.</value>
+    </data>
+    <data name="Dialog_SendToTrashCan" xml:space="preserve">
+        <value>_To Trash Can</value>
+    </data>
+    <data name="FileMenu_MoveToParentFolder" xml:space="preserve">
+        <value>Move to Parent Folder</value>
+    </data>
+    <data name="FileMenu_MoveToVolume1" xml:space="preserve">
+        <value>Move to Volume1</value>
+    </data>
+    <data name="FileMenu_MoveToVolume2" xml:space="preserve">
+        <value>Move to Volume2</value>
+    </data>
+    <data name="FileMenu_MoveToVolume3" xml:space="preserve">
+        <value>Move to Volume3</value>
+    </data>
+    <data name="FileMenu_MoveToVolume4" xml:space="preserve">
+        <value>Move to Volume4</value>
+    </data>
+    <data name="FileMenu_MoveToVolume5" xml:space="preserve">
+        <value>Move to Volume5</value>
+    </data>
+    <data name="Message_CanModifyItemResults_EmptyName" xml:space="preserve">
+        <value>Empty Name</value>
+    </data>
+    <data name="Message_CanModifyItemResults_InvalidCharacterInName" xml:space="preserve">
+        <value>The following characters cannot be used in the name
+{0}</value>
+    </data>
+    <data name="Message_CanModifyItemResults_AlreadyExists" xml:space="preserve">
+        <value>Already Exists</value>
+    </data>
+    <data name="Message_CanModifyItemResults_ParentDoesNotExist" xml:space="preserve">
+        <value>Parent folder does not Exist</value>
+    </data>
+    <data name="Message_CanModifyItemResults_ParentIsNotWritable" xml:space="preserve">
+        <value>Parent folder is not Writable</value>
+    </data>
+    <data name="Message_FailedToCreateFile" xml:space="preserve">
+        <value>Failed to create file.</value>
+    </data>
+    <data name="Message_FailedToCreateFolder" xml:space="preserve">
+        <value>Failed to create folder.</value>
+    </data>
+    <data name="Dialog_Delete" xml:space="preserve">
+        <value>_Delete</value>
+    </data>
+    <data name="Dialog_New" xml:space="preserve">
+        <value>_New</value>
+    </data>
+    <data name="FileMenu_DisplayMode" xml:space="preserve">
+        <value>Display Mode</value>
+    </data>
+    <data name="Message_FailedToRename" xml:space="preserve">
+        <value>Failed to Rename item.</value>
+    </data>
+    <data name="Dialog_Decompress" xml:space="preserve">
+        <value>_Decompress</value>
+    </data>
+    <data name="Dialog_Compress" xml:space="preserve">
+        <value>Com_press</value>
+    </data>
+    <data name="DialogTitle_Confirmation" xml:space="preserve">
+        <value>Confirmation</value>
+    </data>
+    <data name="Message_ConformationEmptyTrashCan" xml:space="preserve">
+        <value>Empty the trash can. This action cannot be undone.
+Do you want to proceed?</value>
+    </data>
+    <data name="UI_Bookmark" xml:space="preserve">
+        <value>_Bookmark</value>
+    </data>
+    <data name="UI_History" xml:space="preserve">
+        <value>_History</value>
+    </data>
+    <data name="Label_ArchiveName" xml:space="preserve">
+        <value>Archive Name</value>
+    </data>
+    <data name="Label_OutputFolder" xml:space="preserve">
+        <value>Output Folder</value>
+    </data>
+    <data name="Message_FailedToSendToTrashCan" xml:space="preserve">
+        <value>Failed to send To trash can.</value>
+    </data>
+    <data name="Message_FailedToDelete" xml:space="preserve">
+        <value>Failed to delete.</value>
+    </data>
+    <data name="UI_Reference" xml:space="preserve">
+        <value>_Reference</value>
+    </data>
+    <data name="Dialog_Rename" xml:space="preserve">
+        <value>_Rename</value>
+    </data>
+    <data name="FileMenu_SelectAll" xml:space="preserve">
+        <value>Select All</value>
+    </data>
+    <data name="FileMenu_FitPreview" xml:space="preserve">
+        <value>Fit Preview</value>
+    </data>
+    <data name="FileMenu_GoBack" xml:space="preserve">
+        <value>Go Back</value>
+    </data>
+    <data name="FileMenu_GoForward" xml:space="preserve">
+        <value>Go Forward</value>
+    </data>
+    <data name="FileMenu_SwitchDetailsPane" xml:space="preserve">
+        <value>Details View</value>
+    </data>
+    <data name="FileMenu_ClearSearchBox" xml:space="preserve">
+        <value>Clear Search Box</value>
+    </data>
+    <data name="OpModes_Search" xml:space="preserve">
+        <value>Search</value>
+    </data>
+    <data name="OpModes_Normal" xml:space="preserve">
+        <value>Normal</value>
+    </data>
+    <data name="OpModes_Filter" xml:space="preserve">
+        <value>Filter</value>
+    </data>
+    <data name="OpModes_Preview" xml:space="preserve">
+        <value>Preview</value>
+    </data>
+    <data name="Message_CompressFoldersAndFiles" xml:space="preserve">
+        <value>Compresses {0:plural:1 folder|{} folders}, {1:plural:1 file|{} files}.</value>
+    </data>
+    <data name="Message_CompressFolders" xml:space="preserve">
+        <value>Compresses {0:plural:1 folder|{} folders}.</value>
+    </data>
+    <data name="Message_CompressFiles" xml:space="preserve">
+        <value>Compresses {0:plural:1 file|{} files}.</value>
+    </data>
+    <data name="Message_CompressItem" xml:space="preserve">
+        <value>Compress `{0}'.</value>
+    </data>
+    <data name="Message_DeleteItem" xml:space="preserve">
+        <value>Delete `{0}'.</value>
+    </data>
+    <data name="Message_DeleteFiles" xml:space="preserve">
+        <value>Delete {0:plural:1 file|{} files}.</value>
+    </data>
+    <data name="Message_DeleteFolders" xml:space="preserve">
+        <value>Delete {0:plural:1 folder|{} folders}.</value>
+    </data>
+    <data name="Message_DeleteFoldersAndFiles" xml:space="preserve">
+        <value>Delete {0:plural:1 folder|{} folders}, {1:plural:1 file|{} files}.</value>
+    </data>
+    <data name="Dialog_Copy" xml:space="preserve">
+        <value>Co_py</value>
+    </data>
+    <data name="Message_CopyItem" xml:space="preserve">
+        <value>Copy `{0}'.</value>
+    </data>
+    <data name="Message_CopyFiles" xml:space="preserve">
+        <value>Copy {0:plural:1 file|{} files}.</value>
+    </data>
+    <data name="Message_CopyFolders" xml:space="preserve">
+        <value>Copy {0:plural:1 folder|{} folders}.</value>
+    </data>
+    <data name="Message_CopyFoldersAndFiles" xml:space="preserve">
+        <value>Copy {0:plural:1 folder|{} folders}, {1:plural:1 file|{} files}.</value>
+    </data>
+    <data name="Label_OutputFolder_Copy" xml:space="preserve">
+        <value>Destination Folder</value>
+    </data>
+    <data name="Message_SpecifiedFolderDoesNotExist" xml:space="preserve">
+        <value>The specified folder does not exist.</value>
+    </data>
+    <data name="Message_CreateNewFolder" xml:space="preserve">
+        <value>Create new folder?</value>
+    </data>
+    <data name="Dialog_Skip" xml:space="preserve">
+        <value>_Skip</value>
+    </data>
+    <data name="Message_CopyItemMethod_WhenTimestampIsNew" xml:space="preserve">
+        <value>{0} when _timestamp is new</value>
+    </data>
+    <data name="Message_CopyItemMethod_Override" xml:space="preserve">
+        <value>_Overwrite</value>
+    </data>
+    <data name="Message_CopyItemMethod_RenameSource" xml:space="preserve">
+        <value>_Rename and {0}</value>
+    </data>
+    <data name="Message_CopyItemMethod_RenameDestination" xml:space="preserve">
+        <value>Rename and {0} _existing {1}</value>
+    </data>
+    <data name="Message_CopyItemMethod_AutoRenameSource" xml:space="preserve">
+        <value>_Automatic naming</value>
+    </data>
+    <data name="Message_CopyItemMethod_AutoRenameDestination" xml:space="preserve">
+        <value>Automatic _naming</value>
+    </data>
+    <data name="CopyItemTypes_Copy" xml:space="preserve">
+        <value>Copy</value>
+    </data>
+    <data name="CopyItemTypes_Move" xml:space="preserve">
+        <value>Move</value>
+    </data>
+    <data name="ItemKinds_Folder" xml:space="preserve">
+        <value>Folder</value>
+    </data>
+    <data name="ItemKinds_File" xml:space="preserve">
+        <value>File</value>
+    </data>
+    <data name="ItemKinds_Unknown" xml:space="preserve">
+        <value>Uhknown</value>
+    </data>
+    <data name="UI_UseSameSettingsGoingForward" xml:space="preserve">
+        <value>Use the same settings going _forward</value>
+    </data>
+    <data name="Message_SameNameItemExisting" xml:space="preserve">
+        <value>{0} with same name exists.
+
+`{1}’</value>
+    </data>
+    <data name="Label_OutputFolder_Move" xml:space="preserve">
+        <value>Destination Folder</value>
+    </data>
+    <data name="Message_MoveItem" xml:space="preserve">
+        <value>Move `{0}'.</value>
+    </data>
+    <data name="Message_MoveFiles" xml:space="preserve">
+        <value>Move {0:plural:1 file|{} files}.</value>
+    </data>
+    <data name="Message_MoveFolders" xml:space="preserve">
+        <value>Move {0:plural:1 folder|{} folders}.</value>
+    </data>
+    <data name="Message_MoveFoldersAndFiles" xml:space="preserve">
+        <value>Move {0:plural:1 folder|{} folders}, {1:plural:1 file|{} files}.</value>
+    </data>
+    <data name="ContextMenu_Copy" xml:space="preserve">
+        <value>_Copy</value>
+    </data>
+    <data name="ContextMenu_Move" xml:space="preserve">
+        <value>_Move</value>
+    </data>
+    <data name="Dialog_AutoRename" xml:space="preserve">
+        <value>_Automatic naming</value>
+    </data>
+    <data name="FileMenu_Exit" xml:space="preserve">
+        <value>Exit</value>
+    </data>
+    <data name="FileMenu_ZoomInPreview" xml:space="preserve">
+        <value>Zoom In</value>
+    </data>
+    <data name="FileMenu_ZoomOutPreview" xml:space="preserve">
+        <value>Zoom Out</value>
+    </data>
+    <data name="FileMenu_MoveToRootFolder" xml:space="preserve">
+        <value>Move to Root Folder</value>
+    </data>
+    <data name="ItemProperty_Metadata_Size" xml:space="preserve">
+        <value>Size</value>
+    </data>
+    <data name="ItemProperty_Metadata_DateModified" xml:space="preserve">
+        <value>Date Modified</value>
+    </data>
+    <data name="ItemProperty_Metadata_Folder" xml:space="preserve">
+        <value>Folder</value>
+    </data>
+    <data name="ItemProperty_Netadata_Image_Dimensions" xml:space="preserve">
+        <value>Dimensions</value>
+    </data>
+    <data name="Message_DraggingItem" xml:space="preserve">
+        <value>Dragging `{0}'.</value>
+    </data>
+    <data name="Message_DraggingFiles" xml:space="preserve">
+        <value>Dragging {0:plural:1 file|{} files}.</value>
+    </data>
+    <data name="Message_DraggingFolders" xml:space="preserve">
+        <value>Dragging {0:plural:1 folder|{} folders}.</value>
+    </data>
+    <data name="Message_DraggingFoldersAndFiles" xml:space="preserve">
+        <value>Dragging {0:plural:1 folder|{} folders}, {1:plural:1 file|{} files}.</value>
+    </data>
+    <data name="FileMenu_MoveToRecentlyUsedFolder" xml:space="preserve">
+        <value>Move to Recently used folder...</value>
+    </data>
+    <data name="DialogTitle_FolderSelection" xml:space="preserve">
+        <value>Select Folder</value>
+    </data>
+    <data name="UI_RecentlyUsed" xml:space="preserve">
+        <value>Recently _Used</value>
+    </data>
+    <data name="UI_Folder" xml:space="preserve">
+        <value>_Folder</value>
+    </data>
+    <data name="StatusBar_AllItemsCount" xml:space="preserve">
+        <value>{0:plural:1 item|{} items}</value>
+    </data>
+    <data name="StatusBar_SelectedItemsCount" xml:space="preserve">
+        <value>{0:plural:1 item|{} items} selected</value>
+    </data>
+    <data name="UI_Today" xml:space="preserve">
+        <value>_Today</value>
+    </data>
+    <data name="UI_Now" xml:space="preserve">
+        <value>_Now</value>
+    </data>
+    <data name="Dialog_Change" xml:space="preserve">
+        <value>C_hange</value>
+    </data>
+    <data name="UI_ProcessInFolders" xml:space="preserve">
+        <value>_Processes items below the folder</value>
+    </data>
+    <data name="ItemProperty_Metadata_Name" xml:space="preserve">
+        <value>Name</value>
+    </data>
+    <data name="ItemProperty_Metadata_Attributes" xml:space="preserve">
+        <value>Attributes</value>
+    </data>
+    <data name="Label_SourceFile_Copy" xml:space="preserve">
+        <value>Source File</value>
+    </data>
+    <data name="Label_SourceFile_Move" xml:space="preserve">
+        <value>Source File</value>
+    </data>
+    <data name="Label_SourceFolder_Copy" xml:space="preserve">
+        <value>Source Folder</value>
+    </data>
+    <data name="Label_SourceFolder_Move" xml:space="preserve">
+        <value>Source Folder</value>
+    </data>
+    <data name="Label_ExistingFile" xml:space="preserve">
+        <value>Existing File</value>
+    </data>
+    <data name="Label_ExistingFolder" xml:space="preserve">
+        <value>Existing Folder</value>
+    </data>
+    <data name="FileMenu_AboutApp" xml:space="preserve">
+        <value>About Filedini...</value>
+    </data>
+    <data name="FileMenu_Help" xml:space="preserve">
+        <value>_Help</value>
+    </data>
+    <data name="FileMenu_CreateSymbolicLink" xml:space="preserve">
+        <value>New Symbolic Link...</value>
+    </data>
+    <data name="FileMenu_SwitchTheme" xml:space="preserve">
+        <value>Switch Theme</value>
+    </data>
+    <data name="Tooltip_Language" xml:space="preserve">
+        <value>Language</value>
+    </data>
+    <data name="FileAttributes_ReadOnly" xml:space="preserve">
+        <value>Read Only</value>
+    </data>
+    <data name="FileAttributes_ReparsePoint" xml:space="preserve">
+        <value>Reparse Point</value>
+    </data>
+    <data name="FileAttributes_Hidden" xml:space="preserve">
+        <value>Hidden</value>
+    </data>
+    <data name="FileAttributes_System" xml:space="preserve">
+        <value>System</value>
+    </data>
+    <data name="FileAttributes_Archive" xml:space="preserve">
+        <value>Archive</value>
+    </data>
+    <data name="Label_ItemName" xml:space="preserve">
+        <value>Item Name</value>
+    </data>
+    <data name="FileMenu_Path" xml:space="preserve">
+        <value>Path</value>
+    </data>
+    <data name="FileMenu_ItemList" xml:space="preserve">
+        <value>Item List</value>
+    </data>
+    <data name="DialogTitle_CrashReporter" xml:space="preserve">
+        <value>Crash Reporter</value>
+    </data>
+    <data name="Label_LinkName" xml:space="preserve">
+        <value>Link Name</value>
+    </data>
+    <data name="Message_FailedToCreateSymbolicLink" xml:space="preserve">
+        <value>Failed to create symbolic link.</value>
+    </data>
+    <data name="Label_Name" xml:space="preserve">
+        <value>Name</value>
+    </data>
+    <data name="Label_NewName" xml:space="preserve">
+        <value>New Name</value>
+    </data>
+    <data name="FileMenu_ShowContextMenu" xml:space="preserve">
+        <value>Show ContextMenu</value>
+    </data>
+    <data name="Settings_Appearance" xml:space="preserve">
+        <value>Appearance</value>
+    </data>
+    <data name="Settings_Font" xml:space="preserve">
+        <value>Font</value>
+    </data>
+    <data name="Settings_ItemList" xml:space="preserve">
+        <value>Item List</value>
+    </data>
+    <data name="Settings_Behavior" xml:space="preserve">
+        <value>Behavior</value>
+    </data>
+    <data name="Settings_ExternalApps" xml:space="preserve">
+        <value>External Apps</value>
+    </data>
+    <data name="Settings_CacheAndBuffer" xml:space="preserve">
+        <value>Cache and Buffer</value>
+    </data>
+    <data name="Settings_AdvancedSettings" xml:space="preserve">
+        <value>Advanced Settings</value>
+    </data>
+    <data name="Settings_Item" xml:space="preserve">
+        <value>Item</value>
+    </data>
+    <data name="Settings_Label_PDFCacheExpireDate" xml:space="preserve">
+        <value>PDF Cache Expire Date</value>
+    </data>
+    <data name="Settings_Label_DefaultFont" xml:space="preserve">
+        <value>Default Font</value>
+    </data>
+    <data name="Settings_Label_DefaultFontSize" xml:space="preserve">
+        <value>Default Font Size</value>
+    </data>
+    <data name="Settings_Label_MonospaceFont" xml:space="preserve">
+        <value>Monospace Font</value>
+    </data>
+    <data name="Settings_Label_MonospaceFontSize" xml:space="preserve">
+        <value>Monospace Font Size</value>
+    </data>
+    <data name="Settings_Label_Margin" xml:space="preserve">
+        <value>Margin</value>
+    </data>
+    <data name="Settings_Environment" xml:space="preserve">
+        <value>Environment</value>
+    </data>
+    <data name="Settings_Label_Language" xml:space="preserve">
+        <value>Language</value>
+    </data>
+    <data name="Settings_Label_Theme" xml:space="preserve">
+        <value>Theme</value>
+    </data>
+    <data name="Cultures_En" xml:space="preserve">
+        <value>English</value>
+    </data>
+    <data name="Cultures_Ja" xml:space="preserve">
+        <value>日本語</value>
+    </data>
+    <data name="Themes_Light" xml:space="preserve">
+        <value>Light</value>
+    </data>
+    <data name="Themes_Dark" xml:space="preserve">
+        <value>Dark</value>
+    </data>
+    <data name="Themes_Default" xml:space="preserve">
+        <value>Default</value>
+    </data>
+    <data name="Settings_Label_NewFileName" xml:space="preserve">
+        <value>New File Name</value>
+    </data>
+    <data name="Settings_Label_NewFolderName" xml:space="preserve">
+        <value>New Folder Name</value>
+    </data>
+    <data name="Settings_Label_ExternalApp1" xml:space="preserve">
+        <value>External Apps1</value>
+    </data>
+    <data name="Settings_Label_ExternalApp2" xml:space="preserve">
+        <value>External Apps2</value>
+    </data>
+    <data name="Settings_Label_Terminal" xml:space="preserve">
+        <value>Terminal</value>
+    </data>
+    <data name="Settings_Label_FileManager" xml:space="preserve">
+        <value>File Manager</value>
+    </data>
+    <data name="Settings_Label_Path" xml:space="preserve">
+        <value>Path</value>
+    </data>
+    <data name="Settings_Label_SelectedItemOptions" xml:space="preserve">
+        <value>Options when item selected</value>
+    </data>
+    <data name="Settings_Label_NotSelectedItemOptions" xml:space="preserve">
+        <value>Options when item not selected</value>
+    </data>
+    <data name="Settings_Label_CanExecuteInFolder" xml:space="preserve">
+        <value>Can Execute in Folder</value>
+    </data>
+    <data name="Settings_Label_Name" xml:space="preserve">
+        <value>Name</value>
+    </data>
+    <data name="Settings_Label_Extension" xml:space="preserve">
+        <value>Extension</value>
+    </data>
+    <data name="Settings_Label_Size" xml:space="preserve">
+        <value>Size</value>
+    </data>
+    <data name="Settings_Label_Timestamp" xml:space="preserve">
+        <value>Timestamp</value>
+    </data>
+    <data name="Settings_Label_Attributes" xml:space="preserve">
+        <value>Attributes</value>
+    </data>
+    <data name="Settings_Label_FolderName" xml:space="preserve">
+        <value>Folder Name</value>
+    </data>
+    <data name="Settings_Label_CombinedNameAndExtension" xml:space="preserve">
+        <value>Combined Name and Extension</value>
+    </data>
+    <data name="Settings_Label_AutoNameWidth" xml:space="preserve">
+        <value>Auto Name Width</value>
+    </data>
+    <data name="Settings_Label_TimestampFormat" xml:space="preserve">
+        <value>Timestamp Format</value>
+    </data>
+    <data name="Settings_Label_Mode1" xml:space="preserve">
+        <value>Display Mode #1</value>
+    </data>
+    <data name="Settings_Label_Mode2" xml:space="preserve">
+        <value>Display Mode #2</value>
+    </data>
+    <data name="Settings_Label_Mode3" xml:space="preserve">
+        <value>Display Mode #3</value>
+    </data>
+    <data name="Settings_Label_Mode4" xml:space="preserve">
+        <value>Display Mode #4</value>
+    </data>
+    <data name="Settings_Label_Mode5" xml:space="preserve">
+        <value>Display Mode #5</value>
+    </data>
+    <data name="Dialog_Title_SelectFont" xml:space="preserve">
+        <value>Select Font</value>
+    </data>
+    <data name="Tooltip_SelectFont" xml:space="preserve">
+        <value>Select Font</value>
+    </data>
+    <data name="Tooltip_SelectFallbackFont" xml:space="preserve">
+        <value>Select Fallback Font</value>
+    </data>
+    <data name="FileMenu_SettingsHotkey" xml:space="preserve">
+        <value>Hotkey Settings...</value>
+    </data>
+    <data name="Settings_Command" xml:space="preserve">
+        <value>Command</value>
+    </data>
+    <data name="Settings_Hotkey" xml:space="preserve">
+        <value>Hotkey</value>
+    </data>
+    <data name="Settings_AddHotkey" xml:space="preserve">
+        <value>Add Hotkey</value>
+    </data>
+    <data name="Settings_RemoveHotkey" xml:space="preserve">
+        <value>Remove `{0}'</value>
+    </data>
+    <data name="FileMenu_SelectHotkeyDialog" xml:space="preserve">
+        <value>Select Hotkey</value>
+    </data>
+    <data name="Message_EnterAnyKeyCombination" xml:space="preserve">
+        <value>Enter any key combination.</value>
+    </data>
+    <data name="Label_AlreadyAssignedTo" xml:space="preserve">
+        <value>Already assigned to</value>
+    </data>
+    <data name="Settings_Theme" xml:space="preserve">
+        <value>Theme</value>
+    </data>
+    <data name="UI_Reset" xml:space="preserve">
+        <value>_Reset</value>
+    </data>
+    <data name="Message_EmptyFile" xml:space="preserve">
+        <value>{0}
+
+Empty file.</value>
+    </data>
+    <data name="Settings_Label_IconSize" xml:space="preserve">
+        <value>Icon Size</value>
+    </data>
+    <data name="ItemLayoutTypes_Icon" xml:space="preserve">
+        <value>Icon</value>
+    </data>
+    <data name="ItemLayoutTypes_List" xml:space="preserve">
+        <value>List</value>
+    </data>
+    <data name="FileMenu_MoveCursorNextPage" xml:space="preserve">
+        <value>Move to Next Page</value>
+    </data>
+    <data name="Settings_Label_IconCacheSize" xml:space="preserve">
+        <value>Icon Cache Size</value>
+    </data>
+    <data name="Settings_Label_ThumbnailCacheSize" xml:space="preserve">
+        <value>Thumbnail Cache Size</value>
+    </data>
+    <data name="Settings_Label_SharedIconCacheSize" xml:space="preserve">
+        <value>Shared Icon Cache Size</value>
+    </data>
+    <data name="Settings_Note_EffectiveAfterRestart" xml:space="preserve">
+        <value>Note: Effective after restart</value>
+    </data>
+    <data name="FileMenu_InitialSearch" xml:space="preserve">
+        <value>Initial Search</value>
+    </data>
+    <data name="FileMenu_EndInitialSearch" xml:space="preserve">
+        <value>End Initial Search</value>
+    </data>
+    <data name="FileMenu_FindItem" xml:space="preserve">
+        <value>Find Item...</value>
+    </data>
+    <data name="Dialog_Close" xml:space="preserve">
+        <value>_Close</value>
+    </data>
+    <data name="Dialog_MoveToSelectedItem" xml:space="preserve">
+        <value>_Move to Selected Item</value>
+    </data>
+    <data name="Label_FoundItems" xml:space="preserve">
+        <value>Found Items</value>
+    </data>
+    <data name="Label_FileName" xml:space="preserve">
+        <value>File Name</value>
+    </data>
+    <data name="FileMenu_SortItemsNameAscending" xml:space="preserve">
+        <value>Name / Ascending</value>
+    </data>
+    <data name="FileMenu_SortItemsExtensionAscending" xml:space="preserve">
+        <value>Extension / Ascending</value>
+    </data>
+    <data name="FileMenu_SortItemsTimestampAscending" xml:space="preserve">
+        <value>Timestamp / Ascending</value>
+    </data>
+    <data name="FileMenu_SortItemsAttributesAscending" xml:space="preserve">
+        <value>Attributes / Ascending</value>
+    </data>
+    <data name="FileMenu_SortItemsFolderAscending" xml:space="preserve">
+        <value>Folder / Ascending</value>
+    </data>
+    <data name="FileMenu_SortItemsSizeAscending" xml:space="preserve">
+        <value>Size / Ascending</value>
+    </data>
+    <data name="FileMenu_SortItemsNameDescending" xml:space="preserve">
+        <value>Name / Descending</value>
+    </data>
+    <data name="FileMenu_SortItemsExtensionDescending" xml:space="preserve">
+        <value>Extension / Descending</value>
+    </data>
+    <data name="FileMenu_SortItemsTimestampDescending" xml:space="preserve">
+        <value>Timestamp / Descending</value>
+    </data>
+    <data name="FileMenu_SortItemsSizeDescending" xml:space="preserve">
+        <value>Size / Descending</value>
+    </data>
+    <data name="FileMenu_SortItemsAttributesDescending" xml:space="preserve">
+        <value>Attributes / Descending</value>
+    </data>
+    <data name="FileMenu_SortItemsFolderDescending" xml:space="preserve">
+        <value>Folder / Descending</value>
+    </data>
+    <data name="FileMenu_Sort" xml:space="preserve">
+        <value>Sort</value>
+    </data>
+    <data name="FileMenu_OpenBookmark" xml:space="preserve">
+        <value>Open Bookmark</value>
+    </data>
+    <data name="FileMenu_OpenBookmark0" xml:space="preserve">
+        <value>Open Bookmark0</value>
+    </data>
+    <data name="FileMenu_OpenBookmark1" xml:space="preserve">
+        <value>Open Bookmark1</value>
+    </data>
+    <data name="FileMenu_OpenBookmark2" xml:space="preserve">
+        <value>Open Bookmark2</value>
+    </data>
+    <data name="FileMenu_OpenBookmark6" xml:space="preserve">
+        <value>Open Bookmark6</value>
+    </data>
+    <data name="FileMenu_OpenBookmark3" xml:space="preserve">
+        <value>Open Bookmark3</value>
+    </data>
+    <data name="FileMenu_OpenBookmark4" xml:space="preserve">
+        <value>Open Bookmark4</value>
+    </data>
+    <data name="FileMenu_OpenBookmark5" xml:space="preserve">
+        <value>Open Bookmark5</value>
+    </data>
+    <data name="FileMenu_OpenBookmark7" xml:space="preserve">
+        <value>Open Bookmark7</value>
+    </data>
+    <data name="FileMenu_OpenBookmark8" xml:space="preserve">
+        <value>Open Bookmark8</value>
+    </data>
+    <data name="FileMenu_OpenBookmark9" xml:space="preserve">
+        <value>Open Bookmark9</value>
+    </data>
+    <data name="FileMenu_SwitchExpandFolders" xml:space="preserve">
+        <value>Expand Folders</value>
+    </data>
+    <data name="Label_Search" xml:space="preserve">
+        <value>Search</value>
+    </data>
+    <data name="Message_CrashReporter_Title" xml:space="preserve">
+        <value>We're Sorry</value>
+    </data>
+    <data name="Message_CrashReporter_Message0" xml:space="preserve">
+        <value>Filedini had a problem and crashed.</value>
+    </data>
+    <data name="Message_CrashReporter_Message1" xml:space="preserve">
+        <value>To help us diagnose and fix the problem, you can send us a crash report.</value>
+    </data>
+    <data name="Message_CrashReporter_Comment" xml:space="preserve">
+        <value>Add a comment:</value>
+    </data>
+    <data name="Message_CrashReporter_RestartFiledini" xml:space="preserve">
+        <value>Restart Filedini</value>
+    </data>
+    <data name="Message_CrashReporter_ExitFiledini" xml:space="preserve">
+        <value>Exit Filedini</value>
+    </data>
+    <data name="Message_CrashReporter_CrashReport" xml:space="preserve">
+        <value>Crash Report:</value>
+    </data>
+    <data name="Message_CrashReporter_Message2" xml:space="preserve">
+        <value>If the mail app does not start, we would appreciate it if you could send it manually.</value>
+    </data>
+    <data name="Message_CrashReporter_CopyEmail" xml:space="preserve">
+        <value>Copy Developer Email Address</value>
+    </data>
+    <data name="Message_CrashReporter_CopyCrashReport" xml:space="preserve">
+        <value>Copy Crash Report</value>
+    </data>
+    <data name="Message_CrashReporter_StartMailApp" xml:space="preserve">
+        <value>Start Mail App...</value>
+    </data>
+    <data name="FileMenu_MoveCursorPreviousPage" xml:space="preserve">
+        <value>Move to Previous Page</value>
+    </data>
+    <data name="Message_SearchLimit" xml:space="preserve">
+        <value>Search results are limited to 100.</value>
+    </data>
+    <data name="Message_FoldersCanntOverwrittenWithFiles" xml:space="preserve">
+        <value>Folders cannot be overwritten with files.</value>
+    </data>
+    <data name="Message_FoldersCanntOverwrittenWithFolders" xml:space="preserve">
+        <value>Folders cannot be overwritten with folders.</value>
+    </data>
+    <data name="UI_Preset" xml:space="preserve">
+        <value>_Preset</value>
+    </data>
+    <data name="UI_PresetX" xml:space="preserve">
+        <value>Preset</value>
+    </data>
+    <data name="UI_ResetX" xml:space="preserve">
+        <value>Reset</value>
+    </data>
+    <data name="FileMenu_SwitcFullScreen" xml:space="preserve">
+        <value>Full Screen</value>
+    </data>
+    <data name="Label_File" xml:space="preserve">
+        <value>File</value>
+    </data>
+    <data name="Label_Folder" xml:space="preserve">
+        <value>Folder</value>
+    </data>
+    <data name="Settings_Label_TextViewerBufferSize" xml:space="preserve">
+        <value>Text Viewer Buffer Size</value>
+    </data>
+    <data name="Settings_Label_BinaryViewerBufferSize" xml:space="preserve">
+        <value>Binary Viewer Buffer Size</value>
+    </data>
+    <data name="Message_Copied" xml:space="preserve">
+        <value>Copied.</value>
+    </data>
+    <data name="Settings_Label_LanguageSelector" xml:space="preserve">
+        <value>Language Selector</value>
+    </data>
+    <data name="Settings_Label_Show" xml:space="preserve">
+        <value>Show</value>
+    </data>
+    <data name="Settings_Label_Hide" xml:space="preserve">
+        <value>Hide</value>
+    </data>
+    <data name="Settings_Label_LayoutByDisplayMode" xml:space="preserve">
+        <value>Layout by Display Mode</value>
+    </data>
+    <data name="Settings_Label_PaletteByTheme" xml:space="preserve">
+        <value>PaletteByTheme</value>
+    </data>
+    <data name="FileMenu_License" xml:space="preserve">
+        <value>License</value>
+    </data>
+    <data name="ItemProperty_Metadata_LinkTarget" xml:space="preserve">
+        <value>Link Target</value>
+    </data>
+</root>
