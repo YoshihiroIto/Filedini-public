@@ -1707,6 +1707,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Trial Ends In.
+        /// </summary>
+        public static string Label_RemainingTrialPeriod {
+            get {
+                return ResourceManager.GetString("Label_RemainingTrialPeriod", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Search.
         /// </summary>
         public static string Label_Search {

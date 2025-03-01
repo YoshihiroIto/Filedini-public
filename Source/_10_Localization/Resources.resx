@@ -1069,4 +1069,7 @@ Empty file.</value>
     <data name="ItemProperty_Metadata_LinkTarget" xml:space="preserve">
         <value>Link Target</value>
     </data>
+    <data name="Label_RemainingTrialPeriod" xml:space="preserve">
+        <value>Trial Ends In</value>
+    </data>
 </root>
