@@ -1055,6 +1055,6 @@
         <value>リンク対象</value>
     </data>
     <data name="Label_RemainingTrialPeriod" xml:space="preserve">
-        <value>トライアル残り期間</value>
+        <value>残りトライアル期間</value>
     </data>
 </root>
