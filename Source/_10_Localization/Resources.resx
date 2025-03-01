@@ -1072,4 +1072,37 @@ Empty file.</value>
     <data name="Label_RemainingTrialPeriod" xml:space="preserve">
         <value>Trial Ends In</value>
     </data>
+    <data name="TrialExpiredView_Title" xml:space="preserve">
+        <value>Trial Period Expired</value>
+    </data>
+    <data name="TrialExpiredView_Description" xml:space="preserve">
+        <value>Your trial period for this app has ended.</value>
+    </data>
+    <data name="TrialExpiredView_TrialInfo" xml:space="preserve">
+        <value>To continue using the app, you need to subscribe and sign in with a Google account.</value>
+    </data>
+    <data name="TrialExpiredView_SubscriptionInfo" xml:space="preserve">
+        <value>You can use the trial for 5 minutes after launching the app or for 30 days after your first sign-in.</value>
+    </data>
+    <data name="TrialExpiredView_BenefitsTitle" xml:space="preserve">
+        <value>🎉 Subscription Benefits 🎉</value>
+    </data>
+    <data name="TrialExpiredView_Benefit1" xml:space="preserve">
+        <value>✅ No time restrictions – use the app without limits</value>
+    </data>
+    <data name="TrialExpiredView_Benefit2" xml:space="preserve">
+        <value>✅ Access all features without restrictions</value>
+    </data>
+    <data name="TrialExpiredView_Benefit3" xml:space="preserve">
+        <value>✅ Receive regular updates and support</value>
+    </data>
+    <data name="TrialExpiredView_Benefit4" xml:space="preserve">
+        <value>✅ Cancel anytime, hassle-free</value>
+    </data>
+    <data name="TrialExpiredView_Subscribe" xml:space="preserve">
+        <value>Subscribe Now</value>
+    </data>
+    <data name="TrialExpiredView_Exit" xml:space="preserve">
+        <value>Exit</value>
+    </data>
 </root>

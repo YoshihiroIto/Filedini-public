@@ -3079,6 +3079,105 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to ✅ No time restrictions – use the app without limits.
+        /// </summary>
+        public static string TrialExpiredView_Benefit1 {
+            get {
+                return ResourceManager.GetString("TrialExpiredView_Benefit1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ✅ Access all features without restrictions.
+        /// </summary>
+        public static string TrialExpiredView_Benefit2 {
+            get {
+                return ResourceManager.GetString("TrialExpiredView_Benefit2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ✅ Receive regular updates and support.
+        /// </summary>
+        public static string TrialExpiredView_Benefit3 {
+            get {
+                return ResourceManager.GetString("TrialExpiredView_Benefit3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ✅ Cancel anytime, hassle-free.
+        /// </summary>
+        public static string TrialExpiredView_Benefit4 {
+            get {
+                return ResourceManager.GetString("TrialExpiredView_Benefit4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 🎉 Subscription Benefits 🎉.
+        /// </summary>
+        public static string TrialExpiredView_BenefitsTitle {
+            get {
+                return ResourceManager.GetString("TrialExpiredView_BenefitsTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Your trial period for this app has ended..
+        /// </summary>
+        public static string TrialExpiredView_Description {
+            get {
+                return ResourceManager.GetString("TrialExpiredView_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Exit.
+        /// </summary>
+        public static string TrialExpiredView_Exit {
+            get {
+                return ResourceManager.GetString("TrialExpiredView_Exit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Subscribe Now.
+        /// </summary>
+        public static string TrialExpiredView_Subscribe {
+            get {
+                return ResourceManager.GetString("TrialExpiredView_Subscribe", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You can use the trial for 5 minutes after launching the app or for 30 days after your first sign-in..
+        /// </summary>
+        public static string TrialExpiredView_SubscriptionInfo {
+            get {
+                return ResourceManager.GetString("TrialExpiredView_SubscriptionInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Trial Period Expired.
+        /// </summary>
+        public static string TrialExpiredView_Title {
+            get {
+                return ResourceManager.GetString("TrialExpiredView_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to To continue using the app, you need to subscribe and sign in with a Google account..
+        /// </summary>
+        public static string TrialExpiredView_TrialInfo {
+            get {
+                return ResourceManager.GetString("TrialExpiredView_TrialInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to _Bookmark.
         /// </summary>
         public static string UI_Bookmark {

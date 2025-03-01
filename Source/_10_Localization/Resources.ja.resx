@@ -1057,4 +1057,37 @@
     <data name="Label_RemainingTrialPeriod" xml:space="preserve">
         <value>残りトライアル期間</value>
     </data>
+    <data name="TrialExpiredView_Title" xml:space="preserve">
+        <value>トライアル期間が終了しました</value>
+    </data>
+    <data name="TrialExpiredView_Description" xml:space="preserve">
+        <value>このアプリのトライアル期間が終了しました。</value>
+    </data>
+    <data name="TrialExpiredView_TrialInfo" xml:space="preserve">
+        <value>アプリ起動後 5分 または 最初のサインインから30日間のトライアルが利用できます。</value>
+    </data>
+    <data name="TrialExpiredView_SubscriptionInfo" xml:space="preserve">
+        <value>継続してご利用いただくには、サブスクリプションのご登録とサインインが必要です。</value>
+    </data>
+    <data name="TrialExpiredView_BenefitsTitle" xml:space="preserve">
+        <value>🎉 サブスクリプションの特典 🎉</value>
+    </data>
+    <data name="TrialExpiredView_Benefit1" xml:space="preserve">
+        <value>✅ 起動時間の制限がなくなり、無制限に利用可能</value>
+    </data>
+    <data name="TrialExpiredView_Benefit2" xml:space="preserve">
+        <value>✅ すべての機能を無制限に利用可能</value>
+    </data>
+    <data name="TrialExpiredView_Benefit3" xml:space="preserve">
+        <value>✅ 定期的なアップデートとサポート</value>
+    </data>
+    <data name="TrialExpiredView_Benefit4" xml:space="preserve">
+        <value>✅ いつでも簡単にキャンセル可能</value>
+    </data>
+    <data name="TrialExpiredView_Subscribe" xml:space="preserve">
+        <value>サブスクリプションを購入</value>
+    </data>
+    <data name="TrialExpiredView_Exit" xml:space="preserve">
+        <value>終了</value>
+    </data>
 </root>
