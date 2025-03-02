@@ -1120,4 +1120,7 @@
     <data name="Label_SignOut" xml:space="preserve">
         <value>ログアウト</value>
     </data>
+    <data name="Label_SignInWithGoogle" xml:space="preserve">
+        <value>Google でログイン</value>
+    </data>
 </root>

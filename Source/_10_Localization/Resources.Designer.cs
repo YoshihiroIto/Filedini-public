@@ -1752,6 +1752,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Sign in with Google.
+        /// </summary>
+        public static string Label_SignInWithGoogle {
+            get {
+                return ResourceManager.GetString("Label_SignInWithGoogle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Sign out.
         /// </summary>
         public static string Label_SignOut {

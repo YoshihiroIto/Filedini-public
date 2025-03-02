@@ -1136,4 +1136,7 @@ Empty file.</value>
     <data name="Label_SignOut" xml:space="preserve">
         <value>Sign out</value>
     </data>
+    <data name="Label_SignInWithGoogle" xml:space="preserve">
+        <value>Sign in with Google</value>
+    </data>
 </root>
