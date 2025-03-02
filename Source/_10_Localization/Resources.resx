@@ -1112,4 +1112,19 @@ Empty file.</value>
     <data name="Trial_TrialStart" xml:space="preserve">
         <value>Trial Start</value>
     </data>
+    <data name="License_CancelSubscription" xml:space="preserve">
+        <value>Cancel Subscription</value>
+    </data>
+    <data name="License_PurchaseSubscription" xml:space="preserve">
+        <value>Purchase Subscription</value>
+    </data>
+    <data name="License_ChangeOrAddPaymentMethod" xml:space="preserve">
+        <value>Change or Add Payment Method</value>
+    </data>
+    <data name="License_ChangeBillingInformation" xml:space="preserve">
+        <value>Billing Information</value>
+    </data>
+    <data name="License_InvoiceHistory" xml:space="preserve">
+        <value>Invoice History</value>
+    </data>
 </root>

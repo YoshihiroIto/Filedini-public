@@ -1096,4 +1096,19 @@
     <data name="Trial_TrialStart" xml:space="preserve">
         <value>トライアル開始</value>
     </data>
+    <data name="License_CancelSubscription" xml:space="preserve">
+        <value>サブスクリプションをキャンセル</value>
+    </data>
+    <data name="License_PurchaseSubscription" xml:space="preserve">
+        <value>サブスクリプションを購入</value>
+    </data>
+    <data name="License_ChangeOrAddPaymentMethod" xml:space="preserve">
+        <value>支払い方法を変更・追加</value>
+    </data>
+    <data name="License_ChangeBillingInformation" xml:space="preserve">
+        <value>請求先情報</value>
+    </data>
+    <data name="License_InvoiceHistory" xml:space="preserve">
+        <value>インボイスの履歴</value>
+    </data>
 </root>

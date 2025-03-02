@@ -1770,6 +1770,51 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Cancel Subscription.
+        /// </summary>
+        public static string License_CancelSubscription {
+            get {
+                return ResourceManager.GetString("License_CancelSubscription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Billing Information.
+        /// </summary>
+        public static string License_ChangeBillingInformation {
+            get {
+                return ResourceManager.GetString("License_ChangeBillingInformation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Change or Add Payment Method.
+        /// </summary>
+        public static string License_ChangeOrAddPaymentMethod {
+            get {
+                return ResourceManager.GetString("License_ChangeOrAddPaymentMethod", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Invoice History.
+        /// </summary>
+        public static string License_InvoiceHistory {
+            get {
+                return ResourceManager.GetString("License_InvoiceHistory", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Purchase Subscription.
+        /// </summary>
+        public static string License_PurchaseSubscription {
+            get {
+                return ResourceManager.GetString("License_PurchaseSubscription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to {0}
         ///
         ///Access denied..
