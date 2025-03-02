@@ -1064,10 +1064,10 @@
         <value>このアプリのトライアル期間が終了しました。</value>
     </data>
     <data name="TrialExpiredView_TrialInfo" xml:space="preserve">
-        <value>アプリ起動後5分または最初のサインインから30日間のトライアルが利用できます。</value>
+        <value>アプリ起動後5分または最初のログインから30日間のトライアルが利用できます。</value>
     </data>
     <data name="TrialExpiredView_SubscriptionInfo" xml:space="preserve">
-        <value>継続してご利用いただくには、サブスクリプションのご購入とサインインが必要です。</value>
+        <value>継続してご利用いただくには、サブスクリプションのご購入とログインが必要です。</value>
     </data>
     <data name="TrialExpiredView_BenefitsTitle" xml:space="preserve">
         <value>🎉 サブスクリプションの特典 🎉</value>
@@ -1115,9 +1115,9 @@
         <value>リロード</value>
     </data>
     <data name="Label_SignIn" xml:space="preserve">
-        <value>サインイン</value>
+        <value>ログイン</value>
     </data>
     <data name="Label_SignOut" xml:space="preserve">
-        <value>サインアウト</value>
+        <value>ログアウト</value>
     </data>
 </root>
