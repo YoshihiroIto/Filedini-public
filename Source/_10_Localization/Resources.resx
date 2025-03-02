@@ -1127,4 +1127,13 @@ Empty file.</value>
     <data name="License_InvoiceHistory" xml:space="preserve">
         <value>Invoice History</value>
     </data>
+    <data name="Label_Reload" xml:space="preserve">
+        <value>Reload</value>
+    </data>
+    <data name="Label_SignIn" xml:space="preserve">
+        <value>Sign in</value>
+    </data>
+    <data name="Label_SignOut" xml:space="preserve">
+        <value>Sign out</value>
+    </data>
 </root>

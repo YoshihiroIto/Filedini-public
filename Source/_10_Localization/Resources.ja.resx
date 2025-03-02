@@ -1111,4 +1111,13 @@
     <data name="License_InvoiceHistory" xml:space="preserve">
         <value>インボイスの履歴</value>
     </data>
+    <data name="Label_Reload" xml:space="preserve">
+        <value>リロード</value>
+    </data>
+    <data name="Label_SignIn" xml:space="preserve">
+        <value>サインイン</value>
+    </data>
+    <data name="Label_SignOut" xml:space="preserve">
+        <value>サインアウト</value>
+    </data>
 </root>

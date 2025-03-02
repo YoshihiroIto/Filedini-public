@@ -1716,6 +1716,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Reload.
+        /// </summary>
+        public static string Label_Reload {
+            get {
+                return ResourceManager.GetString("Label_Reload", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Trial Ends In.
         /// </summary>
         public static string Label_RemainingTrialPeriod {
@@ -1730,6 +1739,24 @@ namespace Filedini.Localization {
         public static string Label_Search {
             get {
                 return ResourceManager.GetString("Label_Search", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sign in.
+        /// </summary>
+        public static string Label_SignIn {
+            get {
+                return ResourceManager.GetString("Label_SignIn", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sign out.
+        /// </summary>
+        public static string Label_SignOut {
+            get {
+                return ResourceManager.GetString("Label_SignOut", resourceCulture);
             }
         }
         
