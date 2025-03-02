@@ -1079,10 +1079,11 @@ Empty file.</value>
         <value>Your trial period for this app has ended.</value>
     </data>
     <data name="TrialExpiredView_TrialInfo" xml:space="preserve">
-        <value>To continue using the app, you need to subscribe and sign in with a Google account.</value>
+        <value>You can use the trial for 5 minutes after launching the app or for 30 days after your first sign-in.</value>
     </data>
     <data name="TrialExpiredView_SubscriptionInfo" xml:space="preserve">
-        <value>You can use the trial for 5 minutes after launching the app or for 30 days after your first sign-in.</value>
+        <value>To continue using the app, you need to subscribe and sign in with a Google account.
+</value>
     </data>
     <data name="TrialExpiredView_BenefitsTitle" xml:space="preserve">
         <value>🎉 Subscription Benefits 🎉</value>
@@ -1099,10 +1100,16 @@ Empty file.</value>
     <data name="TrialExpiredView_Benefit4" xml:space="preserve">
         <value>✅ Cancel anytime, hassle-free</value>
     </data>
-    <data name="TrialExpiredView_Subscribe" xml:space="preserve">
+    <data name="Trial_Subscribe" xml:space="preserve">
         <value>Subscribe Now</value>
     </data>
-    <data name="TrialExpiredView_Exit" xml:space="preserve">
+    <data name="Trial_Exit" xml:space="preserve">
         <value>Exit</value>
+    </data>
+    <data name="DialogTitle_Trial" xml:space="preserve">
+        <value>Trial</value>
+    </data>
+    <data name="Trial_TrialStart" xml:space="preserve">
+        <value>Trial Start</value>
     </data>
 </root>

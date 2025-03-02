@@ -294,6 +294,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Trial.
+        /// </summary>
+        public static string DialogTitle_Trial {
+            get {
+                return ResourceManager.GetString("DialogTitle_Trial", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Archive.
         /// </summary>
         public static string FileAttributes_Archive {
@@ -3079,6 +3088,33 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Exit.
+        /// </summary>
+        public static string Trial_Exit {
+            get {
+                return ResourceManager.GetString("Trial_Exit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Subscribe Now.
+        /// </summary>
+        public static string Trial_Subscribe {
+            get {
+                return ResourceManager.GetString("Trial_Subscribe", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Trial Start.
+        /// </summary>
+        public static string Trial_TrialStart {
+            get {
+                return ResourceManager.GetString("Trial_TrialStart", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to ✅ No time restrictions – use the app without limits.
         /// </summary>
         public static string TrialExpiredView_Benefit1 {
@@ -3133,25 +3169,8 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Exit.
-        /// </summary>
-        public static string TrialExpiredView_Exit {
-            get {
-                return ResourceManager.GetString("TrialExpiredView_Exit", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Subscribe Now.
-        /// </summary>
-        public static string TrialExpiredView_Subscribe {
-            get {
-                return ResourceManager.GetString("TrialExpiredView_Subscribe", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to You can use the trial for 5 minutes after launching the app or for 30 days after your first sign-in..
+        ///   Looks up a localized string similar to To continue using the app, you need to subscribe and sign in with a Google account.
+        ///.
         /// </summary>
         public static string TrialExpiredView_SubscriptionInfo {
             get {
@@ -3169,7 +3188,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to To continue using the app, you need to subscribe and sign in with a Google account..
+        ///   Looks up a localized string similar to You can use the trial for 5 minutes after launching the app or for 30 days after your first sign-in..
         /// </summary>
         public static string TrialExpiredView_TrialInfo {
             get {

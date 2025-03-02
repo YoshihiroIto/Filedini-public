@@ -1064,10 +1064,10 @@
         <value>このアプリのトライアル期間が終了しました。</value>
     </data>
     <data name="TrialExpiredView_TrialInfo" xml:space="preserve">
-        <value>アプリ起動後 5分 または 最初のサインインから30日間のトライアルが利用できます。</value>
+        <value>アプリ起動後5分または最初のサインインから30日間のトライアルが利用できます。</value>
     </data>
     <data name="TrialExpiredView_SubscriptionInfo" xml:space="preserve">
-        <value>継続してご利用いただくには、サブスクリプションのご登録とサインインが必要です。</value>
+        <value>継続してご利用いただくには、サブスクリプションのご購入とサインインが必要です。</value>
     </data>
     <data name="TrialExpiredView_BenefitsTitle" xml:space="preserve">
         <value>🎉 サブスクリプションの特典 🎉</value>
@@ -1084,10 +1084,16 @@
     <data name="TrialExpiredView_Benefit4" xml:space="preserve">
         <value>✅ いつでも簡単にキャンセル可能</value>
     </data>
-    <data name="TrialExpiredView_Subscribe" xml:space="preserve">
+    <data name="Trial_Subscribe" xml:space="preserve">
         <value>サブスクリプションを購入</value>
     </data>
-    <data name="TrialExpiredView_Exit" xml:space="preserve">
+    <data name="Trial_Exit" xml:space="preserve">
         <value>終了</value>
+    </data>
+    <data name="DialogTitle_Trial" xml:space="preserve">
+        <value>トライアル</value>
+    </data>
+    <data name="Trial_TrialStart" xml:space="preserve">
+        <value>トライアル開始</value>
     </data>
 </root>
