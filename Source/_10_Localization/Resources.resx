@@ -1063,8 +1063,8 @@ Empty file.</value>
     <data name="Settings_Label_PaletteByTheme" xml:space="preserve">
         <value>PaletteByTheme</value>
     </data>
-    <data name="FileMenu_License" xml:space="preserve">
-        <value>License...</value>
+    <data name="FileMenu_LicenseManager" xml:space="preserve">
+        <value>License Manager...</value>
     </data>
     <data name="ItemProperty_Metadata_LinkTarget" xml:space="preserve">
         <value>Link Target</value>
@@ -1082,8 +1082,7 @@ Empty file.</value>
         <value>You can use the trial for 5 minutes after launching the app or for 30 days after your first sign-in.</value>
     </data>
     <data name="TrialExpiredView_SubscriptionInfo" xml:space="preserve">
-        <value>To continue using the app, you need to subscribe and sign in with a Google account.
-</value>
+        <value>To continue using the app, you need to subscribe and sign in with a Google account.</value>
     </data>
     <data name="TrialExpiredView_BenefitsTitle" xml:space="preserve">
         <value>🎉 Subscription Benefits 🎉</value>
@@ -1144,5 +1143,11 @@ Empty file.</value>
     </data>
     <data name="Message_CannotConnectGoogle" xml:space="preserve">
         <value>Cannot Connect Google</value>
+    </data>
+    <data name="TrialExpiredView_SignInInstruction" xml:space="preserve">
+        <value>If you have already purchased a subscription, please sign in via the License Manager to continue using the app.</value>
+    </data>
+    <data name="Trial_LicenseManager" xml:space="preserve">
+        <value>License Manager</value>
     </data>
 </root>

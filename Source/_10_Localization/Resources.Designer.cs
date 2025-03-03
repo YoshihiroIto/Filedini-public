@@ -645,11 +645,11 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to License....
+        ///   Looks up a localized string similar to License Manager....
         /// </summary>
-        public static string FileMenu_License {
+        public static string FileMenu_LicenseManager {
             get {
-                return ResourceManager.GetString("FileMenu_License", resourceCulture);
+                return ResourceManager.GetString("FileMenu_LicenseManager", resourceCulture);
             }
         }
         
@@ -3196,6 +3196,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to License Manager.
+        /// </summary>
+        public static string Trial_LicenseManager {
+            get {
+                return ResourceManager.GetString("Trial_LicenseManager", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Subscribe Now.
         /// </summary>
         public static string Trial_Subscribe {
@@ -3268,8 +3277,16 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to To continue using the app, you need to subscribe and sign in with a Google account.
-        ///.
+        ///   Looks up a localized string similar to If you have already purchased a subscription, please sign in via the License Manager to continue using the app..
+        /// </summary>
+        public static string TrialExpiredView_SignInInstruction {
+            get {
+                return ResourceManager.GetString("TrialExpiredView_SignInInstruction", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to To continue using the app, you need to subscribe and sign in with a Google account..
         /// </summary>
         public static string TrialExpiredView_SubscriptionInfo {
             get {

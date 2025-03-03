@@ -1048,8 +1048,8 @@
     <data name="Settings_Label_PaletteByTheme" xml:space="preserve">
         <value>テーマ別パレット</value>
     </data>
-    <data name="FileMenu_License" xml:space="preserve">
-        <value>ライセンス...</value>
+    <data name="FileMenu_LicenseManager" xml:space="preserve">
+        <value>ライセンスマネージャー...</value>
     </data>
     <data name="ItemProperty_Metadata_LinkTarget" xml:space="preserve">
         <value>リンク対象</value>
@@ -1128,5 +1128,11 @@
     </data>
     <data name="Message_CannotConnectGoogle" xml:space="preserve">
         <value>Google に接続できません。</value>
+    </data>
+    <data name="TrialExpiredView_SignInInstruction" xml:space="preserve">
+        <value>ご購入済みであれば、ライセンスマネージャーよりログインの上ご利用ください。</value>
+    </data>
+    <data name="Trial_LicenseManager" xml:space="preserve">
+        <value>ライセンスマネージャー</value>
     </data>
 </root>
