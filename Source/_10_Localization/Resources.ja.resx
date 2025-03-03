@@ -1049,7 +1049,7 @@
         <value>テーマ別パレット</value>
     </data>
     <data name="FileMenu_License" xml:space="preserve">
-        <value>ライセンス</value>
+        <value>ライセンス...</value>
     </data>
     <data name="ItemProperty_Metadata_LinkTarget" xml:space="preserve">
         <value>リンク対象</value>

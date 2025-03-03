@@ -1064,7 +1064,7 @@ Empty file.</value>
         <value>PaletteByTheme</value>
     </data>
     <data name="FileMenu_License" xml:space="preserve">
-        <value>License</value>
+        <value>License...</value>
     </data>
     <data name="ItemProperty_Metadata_LinkTarget" xml:space="preserve">
         <value>Link Target</value>

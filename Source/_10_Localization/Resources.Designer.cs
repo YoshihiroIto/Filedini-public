@@ -645,7 +645,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to License.
+        ///   Looks up a localized string similar to License....
         /// </summary>
         public static string FileMenu_License {
             get {
