@@ -1917,6 +1917,24 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Cannot Connect Google.
+        /// </summary>
+        public static string Message_CannotConnectGoogle {
+            get {
+                return ResourceManager.GetString("Message_CannotConnectGoogle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cannot Start Browser.
+        /// </summary>
+        public static string Message_CannotStartBrowser {
+            get {
+                return ResourceManager.GetString("Message_CannotStartBrowser", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Compresses {0:plural:1 file|{} files}..
         /// </summary>
         public static string Message_CompressFiles {

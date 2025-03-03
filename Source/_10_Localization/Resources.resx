@@ -1139,4 +1139,10 @@ Empty file.</value>
     <data name="Label_SignInWithGoogle" xml:space="preserve">
         <value>Sign in with Google</value>
     </data>
+    <data name="Message_CannotStartBrowser" xml:space="preserve">
+        <value>Cannot Start Browser</value>
+    </data>
+    <data name="Message_CannotConnectGoogle" xml:space="preserve">
+        <value>Cannot Connect Google</value>
+    </data>
 </root>
