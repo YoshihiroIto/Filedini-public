@@ -1130,7 +1130,7 @@
         <value>Google に接続できません。</value>
     </data>
     <data name="TrialExpiredView_SignInInstruction" xml:space="preserve">
-        <value>ご購入済みであれば、ライセンスマネージャーよりログインの上ご利用ください。</value>
+        <value>ご購入済みであれば、ライセンスマネージャーからログインの上ご利用ください。</value>
     </data>
     <data name="Trial_LicenseManager" xml:space="preserve">
         <value>ライセンスマネージャー</value>
