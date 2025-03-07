@@ -1150,4 +1150,13 @@ Empty file.</value>
     <data name="Trial_LicenseManager" xml:space="preserve">
         <value>License Manager</value>
     </data>
+    <data name="Label_ThirdPartyLibraries" xml:space="preserve">
+        <value>Third-party Libraries</value>
+    </data>
+    <data name="Message_CrashReporter_Message3" xml:space="preserve">
+        <value>Crash reports are subject to our Privacy Policy.</value>
+    </data>
+    <data name="Label_PrivacyPolicy" xml:space="preserve">
+        <value>Privacy Policy</value>
+    </data>
 </root>

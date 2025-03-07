@@ -1716,6 +1716,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Privacy Policy.
+        /// </summary>
+        public static string Label_PrivacyPolicy {
+            get {
+                return ResourceManager.GetString("Label_PrivacyPolicy", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Reload.
         /// </summary>
         public static string Label_Reload {
@@ -1802,6 +1811,15 @@ namespace Filedini.Localization {
         public static string Label_SourceFolder_Move {
             get {
                 return ResourceManager.GetString("Label_SourceFolder_Move", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Third-party Libraries.
+        /// </summary>
+        public static string Label_ThirdPartyLibraries {
+            get {
+                return ResourceManager.GetString("Label_ThirdPartyLibraries", resourceCulture);
             }
         }
         
@@ -2159,6 +2177,15 @@ namespace Filedini.Localization {
         public static string Message_CrashReporter_Message2 {
             get {
                 return ResourceManager.GetString("Message_CrashReporter_Message2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Crash reports are subject to our Privacy Policy..
+        /// </summary>
+        public static string Message_CrashReporter_Message3 {
+            get {
+                return ResourceManager.GetString("Message_CrashReporter_Message3", resourceCulture);
             }
         }
         
