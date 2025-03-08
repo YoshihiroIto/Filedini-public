@@ -1144,4 +1144,10 @@
     <data name="Label_PrivacyPolicy" xml:space="preserve">
         <value>プライバシーポリシー</value>
     </data>
+    <data name="Message_BetaTest" xml:space="preserve">
+        <value>このバージョンはベータテスト期間終了までご利用いただけます。
+
+終了日時：{0}
+</value>
+    </data>
 </root>

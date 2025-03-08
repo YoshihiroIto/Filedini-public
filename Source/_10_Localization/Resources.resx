@@ -1159,4 +1159,9 @@ Empty file.</value>
     <data name="Label_PrivacyPolicy" xml:space="preserve">
         <value>Privacy Policy</value>
     </data>
+    <data name="Message_BetaTest" xml:space="preserve">
+        <value>This version will be available until the end of the beta testing period.
+
+End date: {0}</value>
+    </data>
 </root>

@@ -1880,6 +1880,17 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to This version will be available until the end of the beta testing period.
+        ///
+        ///End date: {0}.
+        /// </summary>
+        public static string Message_BetaTest {
+            get {
+                return ResourceManager.GetString("Message_BetaTest", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Binary file cannot be previewed..
         /// </summary>
         public static string Message_BinaryFileCannotBePreviewed {
