@@ -1164,4 +1164,7 @@ Empty file.</value>
 
 End date: {0}</value>
     </data>
+    <data name="Message_BetaTestingPeriodHasEnded" xml:space="preserve">
+        <value>The beta testing period has ended. Please refer to the website for the latest status.</value>
+    </data>
 </root>
