@@ -985,7 +985,7 @@
         <value>メールアプリが起動しない場合、お手数ですが手動でお送りいただけると助かります。</value>
     </data>
     <data name="Message_CrashReporter_CopyEmail" xml:space="preserve">
-        <value>開発者メールアドレスをコピー</value>
+        <value>サポートのメールアドレスをコピー</value>
     </data>
     <data name="Message_CrashReporter_CopyCrashReport" xml:space="preserve">
         <value>クラッシュレポートをコピー</value>

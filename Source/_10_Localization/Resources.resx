@@ -1001,7 +1001,7 @@ Empty file.</value>
         <value>If the mail app does not start, we would appreciate it if you could send it manually.</value>
     </data>
     <data name="Message_CrashReporter_CopyEmail" xml:space="preserve">
-        <value>Copy Developer Email Address</value>
+        <value>Copy Support Email Address</value>
     </data>
     <data name="Message_CrashReporter_CopyCrashReport" xml:space="preserve">
         <value>Copy Crash Report</value>

@@ -2127,7 +2127,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Copy Developer Email Address.
+        ///   Looks up a localized string similar to Copy Support Email Address.
         /// </summary>
         public static string Message_CrashReporter_CopyEmail {
             get {
