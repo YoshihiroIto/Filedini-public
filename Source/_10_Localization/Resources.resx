@@ -1167,4 +1167,13 @@ End date: {0}</value>
     <data name="Message_BetaTestingPeriodHasEnded" xml:space="preserve">
         <value>The beta testing period has ended. Please refer to the website for the latest status.</value>
     </data>
+    <data name="Message_CheckingForNewVersion" xml:space="preserve">
+        <value>Checking for new version</value>
+    </data>
+    <data name="Message_CurrentlyUsingLatestVersion" xml:space="preserve">
+        <value>Currently using the latest version.</value>
+    </data>
+    <data name="Message_NewVersionIsAvailable" xml:space="preserve">
+        <value>There is a new version available.</value>
+    </data>
 </root>

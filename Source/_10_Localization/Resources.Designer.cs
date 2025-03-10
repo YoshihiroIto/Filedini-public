@@ -1973,6 +1973,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Checking for new version.
+        /// </summary>
+        public static string Message_CheckingForNewVersion {
+            get {
+                return ResourceManager.GetString("Message_CheckingForNewVersion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Compresses {0:plural:1 file|{} files}..
         /// </summary>
         public static string Message_CompressFiles {
@@ -2246,6 +2255,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Currently using the latest version..
+        /// </summary>
+        public static string Message_CurrentlyUsingLatestVersion {
+            get {
+                return ResourceManager.GetString("Message_CurrentlyUsingLatestVersion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Delete {0:plural:1 file|{} files}..
         /// </summary>
         public static string Message_DeleteFiles {
@@ -2472,6 +2490,15 @@ namespace Filedini.Localization {
         public static string Message_MoveItem {
             get {
                 return ResourceManager.GetString("Message_MoveItem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to There is a new version available..
+        /// </summary>
+        public static string Message_NewVersionIsAvailable {
+            get {
+                return ResourceManager.GetString("Message_NewVersionIsAvailable", resourceCulture);
             }
         }
         

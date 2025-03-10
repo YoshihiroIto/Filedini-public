@@ -1153,4 +1153,13 @@
     <data name="Message_BetaTestingPeriodHasEnded" xml:space="preserve">
         <value>ベータテスト期間が終了しました。最新状況はウェブサイトを参照ください。</value>
     </data>
+    <data name="Message_CheckingForNewVersion" xml:space="preserve">
+        <value>新バージョン確認中</value>
+    </data>
+    <data name="Message_CurrentlyUsingLatestVersion" xml:space="preserve">
+        <value>最新バージョンを利用中です。</value>
+    </data>
+    <data name="Message_NewVersionIsAvailable" xml:space="preserve">
+        <value>新バージョンがあります。</value>
+    </data>
 </root>
