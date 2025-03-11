@@ -2138,7 +2138,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Add a comment:.
+        ///   Looks up a localized string similar to Please indicate the operation performed before the error:.
         /// </summary>
         public static string Message_CrashReporter_Comment {
             get {

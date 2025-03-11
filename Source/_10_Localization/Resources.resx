@@ -986,7 +986,7 @@ Empty file.</value>
         <value>To help us diagnose and fix the problem, you can send us a crash report.</value>
     </data>
     <data name="Message_CrashReporter_Comment" xml:space="preserve">
-        <value>Add a comment:</value>
+        <value>Please indicate the operation performed before the error:</value>
     </data>
     <data name="Message_CrashReporter_RestartFiledini" xml:space="preserve">
         <value>Restart Filedini</value>

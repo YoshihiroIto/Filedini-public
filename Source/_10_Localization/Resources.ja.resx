@@ -970,7 +970,7 @@
         <value>問題の原因特定と解決のためにご協力いただける方は、 クラッシュレポートの送信をお願いします。</value>
     </data>
     <data name="Message_CrashReporter_Comment" xml:space="preserve">
-        <value>コメントを記入できます:</value>
+        <value>エラーが発生する前に行った操作をご記入ください:</value>
     </data>
     <data name="Message_CrashReporter_ExitFiledini" xml:space="preserve">
         <value>Filedini を終了</value>
