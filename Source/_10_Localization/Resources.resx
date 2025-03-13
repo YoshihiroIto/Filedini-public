@@ -1176,4 +1176,7 @@ End date: {0}</value>
     <data name="Message_NewVersionIsAvailable" xml:space="preserve">
         <value>There is a new version available.</value>
     </data>
+    <data name="FileMenu_Contact" xml:space="preserve">
+        <value>Contact...</value>
+    </data>
 </root>

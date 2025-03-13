@@ -411,6 +411,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Contact....
+        /// </summary>
+        public static string FileMenu_Contact {
+            get {
+                return ResourceManager.GetString("FileMenu_Contact", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Copy....
         /// </summary>
         public static string FileMenu_CopyItem {

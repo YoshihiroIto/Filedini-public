@@ -1162,4 +1162,7 @@
     <data name="Message_NewVersionIsAvailable" xml:space="preserve">
         <value>新バージョンがあります。</value>
     </data>
+    <data name="FileMenu_Contact" xml:space="preserve">
+        <value>お問い合わせ...</value>
+    </data>
 </root>
