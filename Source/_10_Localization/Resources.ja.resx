@@ -1139,7 +1139,7 @@
         <value>サードパーティーライブラリー</value>
     </data>
     <data name="Message_CrashReporter_Message3" xml:space="preserve">
-        <value>クラッシュレポートはプライバシーポリシー元扱われます。</value>
+        <value>クラッシュレポートはプライバシーポリシーの元扱われます。</value>
     </data>
     <data name="Label_PrivacyPolicy" xml:space="preserve">
         <value>プライバシーポリシー</value>
