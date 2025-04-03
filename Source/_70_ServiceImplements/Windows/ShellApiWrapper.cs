@@ -1,5 +1,6 @@
 ﻿using System.Runtime.CompilerServices;
 
+// ReSharper disable once CheckNamespace
 namespace Filedini.ServiceImplements.Windows;
 
 using static WindowsNativeMethods;

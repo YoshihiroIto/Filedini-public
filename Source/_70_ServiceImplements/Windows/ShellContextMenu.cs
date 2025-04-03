@@ -3,6 +3,7 @@ using System.Runtime.InteropServices;
 using Avalonia.Controls;
 using CommunityToolkit.Diagnostics;
 
+// ReSharper disable once CheckNamespace
 namespace Filedini.ServiceImplements.Windows;
 
 using static WindowsNativeMethods;

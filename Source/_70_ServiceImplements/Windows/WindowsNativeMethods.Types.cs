@@ -3,6 +3,7 @@ using System.Runtime.InteropServices;
 using System.Runtime.InteropServices.ComTypes;
 using System.Runtime.InteropServices.Marshalling;
 
+// ReSharper disable once CheckNamespace
 namespace Filedini.ServiceImplements.Windows;
 
 [SuppressMessage("ReSharper", "InconsistentNaming")]

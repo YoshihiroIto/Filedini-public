@@ -4,6 +4,7 @@ using System.Runtime.InteropServices;
 
 [assembly: DisableRuntimeMarshalling]
 
+// ReSharper disable once CheckNamespace
 namespace Filedini.ServiceImplements.Windows;
 
 [SuppressMessage("ReSharper", "InconsistentNaming")]

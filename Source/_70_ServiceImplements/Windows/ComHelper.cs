@@ -1,6 +1,7 @@
 ﻿using System.Runtime.InteropServices;
 using System.Runtime.InteropServices.Marshalling;
 
+// ReSharper disable once CheckNamespace
 namespace Filedini.ServiceImplements.Windows;
 
 internal static class ComHelper
