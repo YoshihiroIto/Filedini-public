@@ -1160,7 +1160,7 @@
         <value>最新バージョンを利用中です。</value>
     </data>
     <data name="Message_NewVersionIsAvailable" xml:space="preserve">
-        <value>新バージョンがあります。</value>
+        <value>新バージョンがリリースされました。</value>
     </data>
     <data name="FileMenu_Contact" xml:space="preserve">
         <value>お問い合わせ...</value>

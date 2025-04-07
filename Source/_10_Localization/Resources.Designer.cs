@@ -2503,7 +2503,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to There is a new version available..
+        ///   Looks up a localized string similar to A new version is now available..
         /// </summary>
         public static string Message_NewVersionIsAvailable {
             get {
