@@ -370,7 +370,9 @@ Do you want to proceed?</value>
         <value>Failed to send To trash can.</value>
     </data>
     <data name="Message_FailedToDelete" xml:space="preserve">
-        <value>Failed to delete.</value>
+        <value>Failed to delete.
+
+{0}</value>
     </data>
     <data name="UI_Reference" xml:space="preserve">
         <value>_Reference</value>
@@ -1178,5 +1180,8 @@ End date: {0}</value>
     </data>
     <data name="FileMenu_Contact" xml:space="preserve">
         <value>Contact...</value>
+    </data>
+    <data name="Dialog_Retry" xml:space="preserve">
+        <value>_Retry</value>
     </data>
 </root>

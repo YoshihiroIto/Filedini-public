@@ -360,7 +360,9 @@
         <value>ごみ箱への送信に失敗しました。</value>
     </data>
     <data name="Message_FailedToDelete" xml:space="preserve">
-        <value>削除時に失敗しました。</value>
+        <value>削除に失敗しました。
+
+{0}</value>
     </data>
     <data name="UI_Reference" xml:space="preserve">
         <value>参照(_R)</value>
@@ -1164,5 +1166,8 @@
     </data>
     <data name="FileMenu_Contact" xml:space="preserve">
         <value>お問い合わせ...</value>
+    </data>
+    <data name="Dialog_Retry" xml:space="preserve">
+        <value>再試行(_R)</value>
     </data>
 </root>

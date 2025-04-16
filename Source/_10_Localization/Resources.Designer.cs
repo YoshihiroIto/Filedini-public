@@ -231,6 +231,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to _Retry.
+        /// </summary>
+        public static string Dialog_Retry {
+            get {
+                return ResourceManager.GetString("Dialog_Retry", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to _To Trash Can.
         /// </summary>
         public static string Dialog_SendToTrashCan {
@@ -2401,7 +2410,9 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Failed to delete..
+        ///   Looks up a localized string similar to Failed to delete.
+        ///
+        ///{0}.
         /// </summary>
         public static string Message_FailedToDelete {
             get {
