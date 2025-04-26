@@ -1177,4 +1177,8 @@
         <value>このファイルは、パスワードで保護されています。
 パスワードを入力してください。</value>
     </data>
+    <data name="Message_InvalidPassword_FailedToDecompressArchive" xml:space="preserve">
+        <value>アーカイブファイルの展開に失敗しました。
+無効なパスワードです。</value>
+    </data>
 </root>

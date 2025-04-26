@@ -1191,4 +1191,9 @@ End date: {0}</value>
         <value>This file is password-protected. 
 Please enter the password.</value>
     </data>
+    <data name="Message_InvalidPassword_FailedToDecompressArchive" xml:space="preserve">
+        <value>Failed to extract the archive file.
+Invalid password.
+</value>
+    </data>
 </root>

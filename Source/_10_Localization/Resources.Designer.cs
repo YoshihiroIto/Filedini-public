@@ -2497,6 +2497,17 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Failed to extract the archive file.
+        ///Invalid password.
+        ///.
+        /// </summary>
+        public static string Message_InvalidPassword_FailedToDecompressArchive {
+            get {
+                return ResourceManager.GetString("Message_InvalidPassword_FailedToDecompressArchive", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Move {0:plural:1 file|{} files}..
         /// </summary>
         public static string Message_MoveFiles {
