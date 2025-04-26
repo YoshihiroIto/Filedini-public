@@ -1170,4 +1170,11 @@
     <data name="Dialog_Retry" xml:space="preserve">
         <value>再試行(_R)</value>
     </data>
+    <data name="DialogTitle_InputPassword" xml:space="preserve">
+        <value>パスワードの入力</value>
+    </data>
+    <data name="Message_EnterPassword" xml:space="preserve">
+        <value>このファイルは、パスワードで保護されています。
+パスワードを入力してください。</value>
+    </data>
 </root>

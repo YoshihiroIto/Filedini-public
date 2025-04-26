@@ -1184,4 +1184,11 @@ End date: {0}</value>
     <data name="Dialog_Retry" xml:space="preserve">
         <value>_Retry</value>
     </data>
+    <data name="DialogTitle_InputPassword" xml:space="preserve">
+        <value>Input Password</value>
+    </data>
+    <data name="Message_EnterPassword" xml:space="preserve">
+        <value>This file is password-protected. 
+Please enter the password.</value>
+    </data>
 </root>

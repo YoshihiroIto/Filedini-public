@@ -303,6 +303,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Input Password.
+        /// </summary>
+        public static string DialogTitle_InputPassword {
+            get {
+                return ResourceManager.GetString("DialogTitle_InputPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Trial.
         /// </summary>
         public static string DialogTitle_Trial {
@@ -2379,6 +2388,16 @@ namespace Filedini.Localization {
         public static string Message_EnterAnyKeyCombination {
             get {
                 return ResourceManager.GetString("Message_EnterAnyKeyCombination", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This file is password-protected. 
+        ///Please enter the password..
+        /// </summary>
+        public static string Message_EnterPassword {
+            get {
+                return ResourceManager.GetString("Message_EnterPassword", resourceCulture);
             }
         }
         
