@@ -1181,4 +1181,7 @@
         <value>アーカイブファイルの展開に失敗しました。
 無効なパスワードです。</value>
     </data>
+    <data name="FileMenu_Volume" xml:space="preserve">
+        <value>ボリューム...</value>
+    </data>
 </root>

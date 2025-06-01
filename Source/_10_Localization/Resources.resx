@@ -1196,4 +1196,7 @@ Please enter the password.</value>
 Invalid password.
 </value>
     </data>
+    <data name="FileMenu_Volume" xml:space="preserve">
+        <value>Volume...</value>
+    </data>
 </root>

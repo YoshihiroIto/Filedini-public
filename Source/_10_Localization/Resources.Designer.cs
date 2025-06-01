@@ -1464,6 +1464,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Volume....
+        /// </summary>
+        public static string FileMenu_Volume {
+            get {
+                return ResourceManager.GetString("FileMenu_Volume", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to _Window.
         /// </summary>
         public static string FileMenu_Window {
