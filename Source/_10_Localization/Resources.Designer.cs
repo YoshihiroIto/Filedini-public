@@ -879,6 +879,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Move to Volume0.
+        /// </summary>
+        public static string FileMenu_MoveToVolume0 {
+            get {
+                return ResourceManager.GetString("FileMenu_MoveToVolume0", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Move to Volume1.
         /// </summary>
         public static string FileMenu_MoveToVolume1 {
@@ -920,6 +929,42 @@ namespace Filedini.Localization {
         public static string FileMenu_MoveToVolume5 {
             get {
                 return ResourceManager.GetString("FileMenu_MoveToVolume5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Move to Volume6.
+        /// </summary>
+        public static string FileMenu_MoveToVolume6 {
+            get {
+                return ResourceManager.GetString("FileMenu_MoveToVolume6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Move to Volume7.
+        /// </summary>
+        public static string FileMenu_MoveToVolume7 {
+            get {
+                return ResourceManager.GetString("FileMenu_MoveToVolume7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Move to Volume8.
+        /// </summary>
+        public static string FileMenu_MoveToVolume8 {
+            get {
+                return ResourceManager.GetString("FileMenu_MoveToVolume8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Move to Volume9.
+        /// </summary>
+        public static string FileMenu_MoveToVolume9 {
+            get {
+                return ResourceManager.GetString("FileMenu_MoveToVolume9", resourceCulture);
             }
         }
         

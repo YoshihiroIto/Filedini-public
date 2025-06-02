@@ -1199,4 +1199,19 @@ Invalid password.
     <data name="FileMenu_Volume" xml:space="preserve">
         <value>Volume...</value>
     </data>
+    <data name="FileMenu_MoveToVolume6" xml:space="preserve">
+        <value>Move to Volume6</value>
+    </data>
+    <data name="FileMenu_MoveToVolume7" xml:space="preserve">
+        <value>Move to Volume7</value>
+    </data>
+    <data name="FileMenu_MoveToVolume8" xml:space="preserve">
+        <value>Move to Volume8</value>
+    </data>
+    <data name="FileMenu_MoveToVolume9" xml:space="preserve">
+        <value>Move to Volume9</value>
+    </data>
+    <data name="FileMenu_MoveToVolume0" xml:space="preserve">
+        <value>Move to Volume0</value>
+    </data>
 </root>

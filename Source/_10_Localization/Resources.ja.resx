@@ -1184,4 +1184,19 @@
     <data name="FileMenu_Volume" xml:space="preserve">
         <value>ボリューム...</value>
     </data>
+    <data name="FileMenu_MoveToVolume0" xml:space="preserve">
+        <value>ボリューム０に移動</value>
+    </data>
+    <data name="FileMenu_MoveToVolume6" xml:space="preserve">
+        <value>ボリューム６に移動</value>
+    </data>
+    <data name="FileMenu_MoveToVolume8" xml:space="preserve">
+        <value>ボリューム８に移動</value>
+    </data>
+    <data name="FileMenu_MoveToVolume7" xml:space="preserve">
+        <value>ボリューム７に移動</value>
+    </data>
+    <data name="FileMenu_MoveToVolume9" xml:space="preserve">
+        <value>ボリューム９に移動</value>
+    </data>
 </root>
