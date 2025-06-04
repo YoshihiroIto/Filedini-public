@@ -28,6 +28,11 @@ internal static partial class WindowsNativeMethods
     [LibraryImport("kernel32.dll", EntryPoint = "GetFileAttributesW", StringMarshalling = StringMarshalling.Utf16)]
     public static partial uint GetFileAttributes(string fileName);
 
+    [LibraryImport("kernel32.dll", StringMarshalling = StringMarshalling.Utf16)]
+    [return: MarshalAs(UnmanagedType.Bool)]
+    public static partial bool GetFileAttributesExW(string lpFileName, GET_FILEEX_INFO_LEVELS fInfoLevelId,
+        out WIN32_FILE_ATTRIBUTE_DATA lpFileInformation);
+
     [LibraryImport("Shell32.dll", EntryPoint = "ShellExecuteExW", StringMarshalling = StringMarshalling.Utf16)]
     [return: MarshalAs(UnmanagedType.Bool)]
     public static partial bool ShellExecuteEx(ref SHELLEXECUTEINFO lpExecInfo);

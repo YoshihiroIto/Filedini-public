@@ -30,6 +30,22 @@ internal static partial class WindowsNativeMethods
                 return new string(p);
         }
     }
+    
+    [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Unicode)]
+    internal struct WIN32_FILE_ATTRIBUTE_DATA
+    {
+        public FileAttributes dwFileAttributes;
+        public FILETIME ftCreationTime;
+        public FILETIME ftLastAccessTime;
+        public FILETIME ftLastWriteTime;
+        public uint nFileSizeHigh;
+        public uint nFileSizeLow;
+    }
+
+    public enum GET_FILEEX_INFO_LEVELS
+    {
+        GetFileExInfoStandard = 0
+    }
 
     [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Auto)]
     public unsafe struct SHELLEXECUTEINFO
@@ -90,7 +106,7 @@ internal static partial class WindowsNativeMethods
         public long i64Size;
         public long i64NumItems;
     }
-    
+
     [StructLayout(LayoutKind.Sequential)]
     public struct CWPSTRUCT
     {
@@ -126,14 +142,14 @@ internal static partial class WindowsNativeMethods
         public int x = x;
         public int y = y;
     }
-    
+
     [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Auto)]
     public struct SHChangeNotifyEntry
     {
         public IntPtr pIdl;
         public bool Recursively;
     }
-    
+
     [GeneratedComInterface]
     [Guid("000214E6-0000-0000-C000-000000000046")]
     public partial interface IShellFolder
@@ -171,7 +187,7 @@ internal static partial class WindowsNativeMethods
         int SetNameOf(IntPtr hwnd, IntPtr pidl, [MarshalAs(UnmanagedType.LPWStr)] string pszName, SHGNO uFlags,
             out IntPtr ppidlOut);
     }
-    
+
     [GeneratedComInterface]
     [Guid("000214e4-0000-0000-c000-000000000046")]
     public partial interface IContextMenu
