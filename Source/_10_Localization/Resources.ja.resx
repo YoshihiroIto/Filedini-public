@@ -1199,4 +1199,16 @@
     <data name="FileMenu_MoveToVolume9" xml:space="preserve">
         <value>ボリューム９に移動</value>
     </data>
+    <data name="Settings_Details" xml:space="preserve">
+        <value>詳細</value>
+    </data>
+    <data name="FolderOpenInAssociatedAppBehaviors_OpenInAssociatedApp" xml:space="preserve">
+        <value>関連アプリで開く</value>
+    </data>
+    <data name="FolderOpenInAssociatedAppBehaviors_MoveFolder" xml:space="preserve">
+        <value>フォルダー移動</value>
+    </data>
+    <data name="Settings_Label_FolderOpenInAssociatedAppBehavior" xml:space="preserve">
+        <value>フォルダーを関連アプリで開く際の振る舞い</value>
+    </data>
 </root>

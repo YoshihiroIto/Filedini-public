@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
 <root>
-    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <xsd:element name="root" msdata:IsDataSet="true">
-            
+
         </xsd:element>
     </xsd:schema>
     <resheader name="resmimetype">
@@ -13,10 +14,14 @@
         <value>1.3</value>
     </resheader>
     <resheader name="reader">
-        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
     </resheader>
     <resheader name="writer">
-        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
     </resheader>
     <data name="Dialog_Ok" xml:space="preserve">
         <value>_OK</value>
@@ -1213,5 +1218,17 @@ Invalid password.
     </data>
     <data name="FileMenu_MoveToVolume0" xml:space="preserve">
         <value>Move to Volume0</value>
+    </data>
+    <data name="Settings_Details" xml:space="preserve">
+        <value>Details</value>
+    </data>
+    <data name="FolderOpenInAssociatedAppBehaviors_OpenInAssociatedApp" xml:space="preserve">
+        <value>Open in Associated App</value>
+    </data>
+    <data name="FolderOpenInAssociatedAppBehaviors_MoveFolder" xml:space="preserve">
+        <value>Move Folder</value>
+    </data>
+    <data name="Settings_Label_FolderOpenInAssociatedAppBehavior" xml:space="preserve">
+        <value>Folder Open in Associated App Behavior</value>
     </data>
 </root>

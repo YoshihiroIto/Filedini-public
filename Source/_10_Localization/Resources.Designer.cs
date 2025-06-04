@@ -1545,6 +1545,24 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Move Folder.
+        /// </summary>
+        public static string FolderOpenInAssociatedAppBehaviors_MoveFolder {
+            get {
+                return ResourceManager.GetString("FolderOpenInAssociatedAppBehaviors_MoveFolder", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open in Associated App.
+        /// </summary>
+        public static string FolderOpenInAssociatedAppBehaviors_OpenInAssociatedApp {
+            get {
+                return ResourceManager.GetString("FolderOpenInAssociatedAppBehaviors_OpenInAssociatedApp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to File.
         /// </summary>
         public static string ItemKinds_File {
@@ -2753,6 +2771,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Details.
+        /// </summary>
+        public static string Settings_Details {
+            get {
+                return ResourceManager.GetString("Settings_Details", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Environment.
         /// </summary>
         public static string Settings_Environment {
@@ -2911,6 +2938,15 @@ namespace Filedini.Localization {
         public static string Settings_Label_FolderName {
             get {
                 return ResourceManager.GetString("Settings_Label_FolderName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Folder Open in Associated App Behavior.
+        /// </summary>
+        public static string Settings_Label_FolderOpenInAssociatedAppBehavior {
+            get {
+                return ResourceManager.GetString("Settings_Label_FolderOpenInAssociatedAppBehavior", resourceCulture);
             }
         }
         
