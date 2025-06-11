@@ -564,6 +564,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Export Settings....
+        /// </summary>
+        public static string FileMenu_ExportSettings {
+            get {
+                return ResourceManager.GetString("FileMenu_ExportSettings", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to _File.
         /// </summary>
         public static string FileMenu_File {
@@ -650,6 +659,15 @@ namespace Filedini.Localization {
         public static string FileMenu_Help {
             get {
                 return ResourceManager.GetString("FileMenu_Help", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Import Settings....
+        /// </summary>
+        public static string FileMenu_ImportSettings {
+            get {
+                return ResourceManager.GetString("FileMenu_ImportSettings", resourceCulture);
             }
         }
         
@@ -1847,6 +1865,15 @@ namespace Filedini.Localization {
         public static string Label_Search {
             get {
                 return ResourceManager.GetString("Label_Search", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Filedini Settings File.
+        /// </summary>
+        public static string Label_SettingsFile {
+            get {
+                return ResourceManager.GetString("Label_SettingsFile", resourceCulture);
             }
         }
         

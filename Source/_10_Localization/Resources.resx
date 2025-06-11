@@ -1231,4 +1231,13 @@ Invalid password.
     <data name="Settings_Label_FolderOpenInAssociatedAppBehavior" xml:space="preserve">
         <value>Folder Open in Associated App Behavior</value>
     </data>
+    <data name="FileMenu_ImportSettings" xml:space="preserve">
+        <value>Import Settings...</value>
+    </data>
+    <data name="FileMenu_ExportSettings" xml:space="preserve">
+        <value>Export Settings...</value>
+    </data>
+    <data name="Label_SettingsFile" xml:space="preserve">
+        <value>Filedini Settings File</value>
+    </data>
 </root>
