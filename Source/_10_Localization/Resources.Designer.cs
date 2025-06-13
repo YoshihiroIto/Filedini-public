@@ -3023,6 +3023,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Last Write.
+        /// </summary>
+        public static string Settings_Label_LastWrite {
+            get {
+                return ResourceManager.GetString("Settings_Label_LastWrite", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Layout by Display Mode.
         /// </summary>
         public static string Settings_Label_LayoutByDisplayMode {

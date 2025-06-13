@@ -1240,4 +1240,7 @@ Invalid password.
     <data name="Label_SettingsFile" xml:space="preserve">
         <value>Filedini Settings File</value>
     </data>
+    <data name="Settings_Label_LastWrite" xml:space="preserve">
+        <value>Last Write</value>
+    </data>
 </root>

@@ -1220,4 +1220,7 @@
     <data name="Label_SettingsFile" xml:space="preserve">
         <value>Filedini 設定ファイル</value>
     </data>
+    <data name="Settings_Label_LastWrite" xml:space="preserve">
+        <value>最終更新</value>
+    </data>
 </root>
