@@ -2744,6 +2744,33 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Days.
+        /// </summary>
+        public static string PeriodUnits_Days {
+            get {
+                return ResourceManager.GetString("PeriodUnits_Days", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hours.
+        /// </summary>
+        public static string PeriodUnits_Hours {
+            get {
+                return ResourceManager.GetString("PeriodUnits_Hours", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Minutes.
+        /// </summary>
+        public static string PeriodUnits_Minutes {
+            get {
+                return ResourceManager.GetString("PeriodUnits_Minutes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Add Hotkey.
         /// </summary>
         public static string Settings_AddHotkey {
@@ -3262,6 +3289,15 @@ namespace Filedini.Localization {
         public static string Settings_Label_TimestampFormat {
             get {
                 return ResourceManager.GetString("Settings_Label_TimestampFormat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Last Write Display.
+        /// </summary>
+        public static string Settings_LastWriteDisplay {
+            get {
+                return ResourceManager.GetString("Settings_LastWriteDisplay", resourceCulture);
             }
         }
         

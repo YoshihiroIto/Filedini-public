@@ -1243,4 +1243,16 @@ Invalid password.
     <data name="Settings_Label_LastWrite" xml:space="preserve">
         <value>Last Write</value>
     </data>
+    <data name="Settings_LastWriteDisplay" xml:space="preserve">
+        <value>Last Write Display</value>
+    </data>
+    <data name="PeriodUnits_Days" xml:space="preserve">
+        <value>Days</value>
+    </data>
+    <data name="PeriodUnits_Hours" xml:space="preserve">
+        <value>Hours</value>
+    </data>
+    <data name="PeriodUnits_Minutes" xml:space="preserve">
+        <value>Minutes</value>
+    </data>
 </root>

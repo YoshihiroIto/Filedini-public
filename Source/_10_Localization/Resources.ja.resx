@@ -1223,4 +1223,16 @@
     <data name="Settings_Label_LastWrite" xml:space="preserve">
         <value>最終更新</value>
     </data>
+    <data name="Settings_LastWriteDisplay" xml:space="preserve">
+        <value>最終書き込み表示</value>
+    </data>
+    <data name="PeriodUnits_Days" xml:space="preserve">
+        <value>日</value>
+    </data>
+    <data name="PeriodUnits_Hours" xml:space="preserve">
+        <value>時</value>
+    </data>
+    <data name="PeriodUnits_Minutes" xml:space="preserve">
+        <value>分</value>
+    </data>
 </root>
