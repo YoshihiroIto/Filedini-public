@@ -1653,6 +1653,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Last Write.
+        /// </summary>
+        public static string ItemProperty_Metadata_LastWrite {
+            get {
+                return ResourceManager.GetString("ItemProperty_Metadata_LastWrite", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Link Target.
         /// </summary>
         public static string ItemProperty_Metadata_LinkTarget {

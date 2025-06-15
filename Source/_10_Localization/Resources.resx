@@ -1255,4 +1255,7 @@ Invalid password.
     <data name="PeriodUnits_Minutes" xml:space="preserve">
         <value>Minutes</value>
     </data>
+    <data name="ItemProperty_Metadata_LastWrite" xml:space="preserve">
+        <value>Last Write</value>
+    </data>
 </root>
