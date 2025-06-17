@@ -2408,6 +2408,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Decompress `{0}&apos;..
+        /// </summary>
+        public static string Message_DecompressItem {
+            get {
+                return ResourceManager.GetString("Message_DecompressItem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Delete {0:plural:1 file|{} files}..
         /// </summary>
         public static string Message_DeleteFiles {
@@ -2679,6 +2688,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Rename `{0}&apos;..
+        /// </summary>
+        public static string Message_RenameItem {
+            get {
+                return ResourceManager.GetString("Message_RenameItem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to {0} with same name exists.
         ///
         ///`{1}’.
@@ -2699,6 +2717,24 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Change `{0}&apos; attributes..
+        /// </summary>
+        public static string Message_SetAttributesItem {
+            get {
+                return ResourceManager.GetString("Message_SetAttributesItem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Change `{0}&apos; timestamp..
+        /// </summary>
+        public static string Message_SetTimestampItem {
+            get {
+                return ResourceManager.GetString("Message_SetTimestampItem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to The specified folder does not exist..
         /// </summary>
         public static string Message_SpecifiedFolderDoesNotExist {
@@ -2713,6 +2749,15 @@ namespace Filedini.Localization {
         public static string Message_StoreWindowLayout {
             get {
                 return ResourceManager.GetString("Message_StoreWindowLayout", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Create a symbolic link for `{0}&apos;..
+        /// </summary>
+        public static string Message_SymbolicLinkItem {
+            get {
+                return ResourceManager.GetString("Message_SymbolicLinkItem", resourceCulture);
             }
         }
         

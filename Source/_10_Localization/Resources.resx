@@ -1261,4 +1261,19 @@ Invalid password.
     <data name="FileMenu_Reload" xml:space="preserve">
         <value>Reload</value>
     </data>
+    <data name="Message_SetAttributesItem" xml:space="preserve">
+        <value>Change `{0}' attributes.</value>
+    </data>
+    <data name="Message_DecompressItem" xml:space="preserve">
+        <value>Decompress `{0}'.</value>
+    </data>
+    <data name="Message_SymbolicLinkItem" xml:space="preserve">
+        <value>Create a symbolic link for `{0}'.</value>
+    </data>
+    <data name="Message_RenameItem" xml:space="preserve">
+        <value>Rename `{0}'.</value>
+    </data>
+    <data name="Message_SetTimestampItem" xml:space="preserve">
+        <value>Change `{0}' timestamp.</value>
+    </data>
 </root>

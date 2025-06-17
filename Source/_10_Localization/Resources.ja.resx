@@ -410,7 +410,7 @@
         <value>{0} 個のファイルを圧縮します。</value>
     </data>
     <data name="Message_CompressItem" xml:space="preserve">
-        <value>`{0}’ を圧縮します。</value>
+        <value>`{0}’  を圧縮します。</value>
     </data>
     <data name="Message_DeleteItem" xml:space="preserve">
         <value>`{0}’ を削除します。</value>
@@ -428,7 +428,7 @@
         <value>コピー(_P)</value>
     </data>
     <data name="Message_CopyItem" xml:space="preserve">
-        <value>`{0}’ をコピーします。</value>
+        <value>`{0}’  をコピーします。</value>
     </data>
     <data name="Message_CopyFiles" xml:space="preserve">
         <value>{0} 個のファイルをコピーします。</value>
@@ -496,7 +496,7 @@
         <value>移動先フォルダー</value>
     </data>
     <data name="Message_MoveItem" xml:space="preserve">
-        <value>`{0}’ を移動します。</value>
+        <value>`{0}’  を移動します。</value>
     </data>
     <data name="Message_MoveFiles" xml:space="preserve">
         <value>{0} 個のファイルを移動します。</value>
@@ -1240,5 +1240,20 @@
     </data>
     <data name="FileMenu_Reload" xml:space="preserve">
         <value>最新の情報に更新</value>
+    </data>
+    <data name="Message_SetAttributesItem" xml:space="preserve">
+        <value>`{0}’  の属性を変更します。</value>
+    </data>
+    <data name="Message_DecompressItem" xml:space="preserve">
+        <value>`{0}’ を展開します。</value>
+    </data>
+    <data name="Message_SymbolicLinkItem" xml:space="preserve">
+        <value>`{0}’  のシンボリックリンクを作成します。</value>
+    </data>
+    <data name="Message_RenameItem" xml:space="preserve">
+        <value>`{0}’ の名前を変更します。</value>
+    </data>
+    <data name="Message_SetTimestampItem" xml:space="preserve">
+        <value>`{0}’  のタイムスタンプを変更します。</value>
     </data>
 </root>
