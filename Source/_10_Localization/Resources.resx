@@ -1258,4 +1258,7 @@ Invalid password.
     <data name="ItemProperty_Metadata_LastWrite" xml:space="preserve">
         <value>Last Write</value>
     </data>
+    <data name="FileMenu_Reload" xml:space="preserve">
+        <value>Reload</value>
+    </data>
 </root>

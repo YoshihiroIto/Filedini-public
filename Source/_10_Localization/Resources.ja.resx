@@ -1238,4 +1238,7 @@
     <data name="ItemProperty_Metadata_LastWrite" xml:space="preserve">
         <value>最終書き込み</value>
     </data>
+    <data name="FileMenu_Reload" xml:space="preserve">
+        <value>最新の情報に更新</value>
+    </data>
 </root>

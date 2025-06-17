@@ -1176,6 +1176,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Reload.
+        /// </summary>
+        public static string FileMenu_Reload {
+            get {
+                return ResourceManager.GetString("FileMenu_Reload", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Rename....
         /// </summary>
         public static string FileMenu_RenameItem {
