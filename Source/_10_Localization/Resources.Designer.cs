@@ -258,6 +258,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Edit Launch Data.
+        /// </summary>
+        public static string Dialog_Title_EditLaunchData {
+            get {
+                return ResourceManager.GetString("Dialog_Title_EditLaunchData", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Select Font.
         /// </summary>
         public static string Dialog_Title_SelectFont {

@@ -1279,4 +1279,7 @@ Invalid password.
     <data name="FileMenu_Launcher" xml:space="preserve">
         <value>Launcher...</value>
     </data>
+    <data name="Dialog_Title_EditLaunchData" xml:space="preserve">
+        <value>Edit Launch Data</value>
+    </data>
 </root>
