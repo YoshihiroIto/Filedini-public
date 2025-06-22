@@ -1257,6 +1257,6 @@
         <value>`{0}’  のタイムスタンプを変更します。</value>
     </data>
     <data name="FileMenu_Launcher" xml:space="preserve">
-        <value>ランチャー</value>
+        <value>ランチャー...</value>
     </data>
 </root>

@@ -1277,6 +1277,6 @@ Invalid password.
         <value>Change `{0}' timestamp.</value>
     </data>
     <data name="FileMenu_Launcher" xml:space="preserve">
-        <value>Launcher</value>
+        <value>Launcher...</value>
     </data>
 </root>

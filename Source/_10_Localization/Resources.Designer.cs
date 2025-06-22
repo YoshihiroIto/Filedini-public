@@ -690,7 +690,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Launcher.
+        ///   Looks up a localized string similar to Launcher....
         /// </summary>
         public static string FileMenu_Launcher {
             get {
