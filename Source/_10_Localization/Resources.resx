@@ -1282,4 +1282,13 @@ Invalid password.
     <data name="Dialog_Title_EditLaunchData" xml:space="preserve">
         <value>Edit Launch Data</value>
     </data>
+    <data name="Settings_Label_App" xml:space="preserve">
+        <value>App</value>
+    </data>
+    <data name="Settings_Label_Options" xml:space="preserve">
+        <value>Options</value>
+    </data>
+    <data name="Settings_Label_Caption" xml:space="preserve">
+        <value>Caption</value>
+    </data>
 </root>

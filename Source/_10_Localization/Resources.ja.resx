@@ -1262,4 +1262,13 @@
     <data name="Dialog_Title_EditLaunchData" xml:space="preserve">
         <value>ランチデータの編集</value>
     </data>
+    <data name="Settings_Label_App" xml:space="preserve">
+        <value>アプリ</value>
+    </data>
+    <data name="Settings_Label_Options" xml:space="preserve">
+        <value>オプション</value>
+    </data>
+    <data name="Settings_Label_Caption" xml:space="preserve">
+        <value>キャプション</value>
+    </data>
 </root>

@@ -2969,6 +2969,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to App.
+        /// </summary>
+        public static string Settings_Label_App {
+            get {
+                return ResourceManager.GetString("Settings_Label_App", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Attributes.
         /// </summary>
         public static string Settings_Label_Attributes {
@@ -3001,6 +3010,15 @@ namespace Filedini.Localization {
         public static string Settings_Label_CanExecuteInFolder {
             get {
                 return ResourceManager.GetString("Settings_Label_CanExecuteInFolder", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Caption.
+        /// </summary>
+        public static string Settings_Label_Caption {
+            get {
+                return ResourceManager.GetString("Settings_Label_Caption", resourceCulture);
             }
         }
         
@@ -3253,6 +3271,15 @@ namespace Filedini.Localization {
         public static string Settings_Label_NotSelectedItemOptions {
             get {
                 return ResourceManager.GetString("Settings_Label_NotSelectedItemOptions", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Options.
+        /// </summary>
+        public static string Settings_Label_Options {
+            get {
+                return ResourceManager.GetString("Settings_Label_Options", resourceCulture);
             }
         }
         
