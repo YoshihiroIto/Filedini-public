@@ -1256,4 +1256,7 @@
     <data name="Message_SetTimestampItem" xml:space="preserve">
         <value>`{0}’  のタイムスタンプを変更します。</value>
     </data>
+    <data name="FileMenu_Launcher" xml:space="preserve">
+        <value>ランチャー</value>
+    </data>
 </root>

@@ -1276,4 +1276,7 @@ Invalid password.
     <data name="Message_SetTimestampItem" xml:space="preserve">
         <value>Change `{0}' timestamp.</value>
     </data>
+    <data name="FileMenu_Launcher" xml:space="preserve">
+        <value>Launcher</value>
+    </data>
 </root>

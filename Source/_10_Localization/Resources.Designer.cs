@@ -690,6 +690,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Launcher.
+        /// </summary>
+        public static string FileMenu_Launcher {
+            get {
+                return ResourceManager.GetString("FileMenu_Launcher", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to License Manager....
         /// </summary>
         public static string FileMenu_LicenseManager {
