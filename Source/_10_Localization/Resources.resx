@@ -1291,4 +1291,19 @@ Invalid password.
     <data name="Settings_Label_Caption" xml:space="preserve">
         <value>Caption</value>
     </data>
+    <data name="Dialog_Title_SelectVariable" xml:space="preserve">
+        <value>Select Variable</value>
+    </data>
+    <data name="Tooltip_AddVariable" xml:space="preserve">
+        <value>Add Variable</value>
+    </data>
+    <data name="VariableDetails_CurrentFile" xml:space="preserve">
+        <value>Current File Name</value>
+    </data>
+    <data name="VariableDetails_CurrentFolder" xml:space="preserve">
+        <value>Current Folder Name</value>
+    </data>
+    <data name="VariableDetails_CurrentFileLine" xml:space="preserve">
+        <value>Current File Line</value>
+    </data>
 </root>

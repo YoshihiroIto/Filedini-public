@@ -276,6 +276,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Select Variable.
+        /// </summary>
+        public static string Dialog_Title_SelectVariable {
+            get {
+                return ResourceManager.GetString("Dialog_Title_SelectVariable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to _Yes.
         /// </summary>
         public static string Dialog_Yes {
@@ -3554,6 +3563,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Add Variable.
+        /// </summary>
+        public static string Tooltip_AddVariable {
+            get {
+                return ResourceManager.GetString("Tooltip_AddVariable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Language.
         /// </summary>
         public static string Tooltip_Language {
@@ -3820,6 +3838,33 @@ namespace Filedini.Localization {
         public static string UI_UseSameSettingsGoingForward {
             get {
                 return ResourceManager.GetString("UI_UseSameSettingsGoingForward", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Current File Name.
+        /// </summary>
+        public static string VariableDetails_CurrentFile {
+            get {
+                return ResourceManager.GetString("VariableDetails_CurrentFile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Current File Line.
+        /// </summary>
+        public static string VariableDetails_CurrentFileLine {
+            get {
+                return ResourceManager.GetString("VariableDetails_CurrentFileLine", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Current Folder Name.
+        /// </summary>
+        public static string VariableDetails_CurrentFolder {
+            get {
+                return ResourceManager.GetString("VariableDetails_CurrentFolder", resourceCulture);
             }
         }
     }
