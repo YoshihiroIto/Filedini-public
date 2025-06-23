@@ -751,10 +751,10 @@ Do you want to proceed?</value>
         <value>New Folder Name</value>
     </data>
     <data name="Settings_Label_ExternalApp1" xml:space="preserve">
-        <value>External Apps1</value>
+        <value>External App1</value>
     </data>
     <data name="Settings_Label_ExternalApp2" xml:space="preserve">
-        <value>External Apps2</value>
+        <value>External App2</value>
     </data>
     <data name="Settings_Label_Terminal" xml:space="preserve">
         <value>Terminal</value>
@@ -1305,5 +1305,14 @@ Invalid password.
     </data>
     <data name="VariableDetails_CurrentFileLine" xml:space="preserve">
         <value>Current File Line</value>
+    </data>
+    <data name="Label_Default" xml:space="preserve">
+        <value>Default</value>
+    </data>
+    <data name="Settings_Label_ExternalApp" xml:space="preserve">
+        <value>External App</value>
+    </data>
+    <data name="Settings_Label_Extensions" xml:space="preserve">
+        <value>Extensions</value>
     </data>
 </root>

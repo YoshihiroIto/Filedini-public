@@ -751,7 +751,7 @@
         <value>アイテム未選択時オプション</value>
     </data>
     <data name="Settings_Label_CanExecuteInFolder" xml:space="preserve">
-        <value>フィルダーで実行可能</value>
+        <value>フォルダーで実行可能</value>
     </data>
     <data name="Settings_Label_Attributes" xml:space="preserve">
         <value>属性</value>
@@ -1285,5 +1285,14 @@
     </data>
     <data name="VariableDetails_CurrentFolder" xml:space="preserve">
         <value>現在のフォルダー名</value>
+    </data>
+    <data name="Label_Default" xml:space="preserve">
+        <value>デフォルト</value>
+    </data>
+    <data name="Settings_Label_ExternalApp" xml:space="preserve">
+        <value>外部アプリ</value>
+    </data>
+    <data name="Settings_Label_Extensions" xml:space="preserve">
+        <value>拡張子</value>
     </data>
 </root>

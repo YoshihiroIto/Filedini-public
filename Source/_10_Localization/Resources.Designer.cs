@@ -1752,6 +1752,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Default.
+        /// </summary>
+        public static string Label_Default {
+            get {
+                return ResourceManager.GetString("Label_Default", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Edit.
         /// </summary>
         public static string Label_Edit {
@@ -3068,7 +3077,25 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to External Apps1.
+        ///   Looks up a localized string similar to Extensions.
+        /// </summary>
+        public static string Settings_Label_Extensions {
+            get {
+                return ResourceManager.GetString("Settings_Label_Extensions", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to External App.
+        /// </summary>
+        public static string Settings_Label_ExternalApp {
+            get {
+                return ResourceManager.GetString("Settings_Label_ExternalApp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to External App1.
         /// </summary>
         public static string Settings_Label_ExternalApp1 {
             get {
@@ -3077,7 +3104,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to External Apps2.
+        ///   Looks up a localized string similar to External App2.
         /// </summary>
         public static string Settings_Label_ExternalApp2 {
             get {
