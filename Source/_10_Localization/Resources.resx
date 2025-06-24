@@ -1315,4 +1315,37 @@ Invalid password.
     <data name="Settings_Label_Extensions" xml:space="preserve">
         <value>Extensions</value>
     </data>
+    <data name="FileMenu_LaunchApp1" xml:space="preserve">
+        <value>Launch App1</value>
+    </data>
+    <data name="FileMenu_LaunchApp2" xml:space="preserve">
+        <value>Launch App2</value>
+    </data>
+    <data name="FileMenu_LaunchApp3" xml:space="preserve">
+        <value>Launch App3</value>
+    </data>
+    <data name="FileMenu_LaunchApp4" xml:space="preserve">
+        <value>Launch App4</value>
+    </data>
+    <data name="FileMenu_LaunchApp5" xml:space="preserve">
+        <value>Launch App5</value>
+    </data>
+    <data name="FileMenu_LaunchApp6" xml:space="preserve">
+        <value>Launch App6</value>
+    </data>
+    <data name="FileMenu_LaunchApp7" xml:space="preserve">
+        <value>Launch App7</value>
+    </data>
+    <data name="FileMenu_LaunchApp8" xml:space="preserve">
+        <value>Launch App8</value>
+    </data>
+    <data name="FileMenu_LaunchApp9" xml:space="preserve">
+        <value>Launch App9</value>
+    </data>
+    <data name="FileMenu_LaunchApp0" xml:space="preserve">
+        <value>Launch App0</value>
+    </data>
+    <data name="FileMenu_LaunchApp" xml:space="preserve">
+        <value>Launch App</value>
+    </data>
 </root>

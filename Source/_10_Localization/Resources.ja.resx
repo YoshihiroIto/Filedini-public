@@ -1295,4 +1295,37 @@
     <data name="Settings_Label_Extensions" xml:space="preserve">
         <value>拡張子</value>
     </data>
+    <data name="FileMenu_LaunchApp0" xml:space="preserve">
+        <value>アプリ０を起動</value>
+    </data>
+    <data name="FileMenu_LaunchApp1" xml:space="preserve">
+        <value>アプリ１を起動</value>
+    </data>
+    <data name="FileMenu_LaunchApp2" xml:space="preserve">
+        <value>アプリ２を起動</value>
+    </data>
+    <data name="FileMenu_LaunchApp3" xml:space="preserve">
+        <value>アプリ３を起動</value>
+    </data>
+    <data name="FileMenu_LaunchApp4" xml:space="preserve">
+        <value>アプリ４を起動</value>
+    </data>
+    <data name="FileMenu_LaunchApp5" xml:space="preserve">
+        <value>アプリ５を起動</value>
+    </data>
+    <data name="FileMenu_LaunchApp7" xml:space="preserve">
+        <value>アプリ７を起動</value>
+    </data>
+    <data name="FileMenu_LaunchApp6" xml:space="preserve">
+        <value>アプリ６を起動</value>
+    </data>
+    <data name="FileMenu_LaunchApp9" xml:space="preserve">
+        <value>アプリ９を起動</value>
+    </data>
+    <data name="FileMenu_LaunchApp8" xml:space="preserve">
+        <value>アプリ８を起動</value>
+    </data>
+    <data name="FileMenu_LaunchApp" xml:space="preserve">
+        <value>アプリを起動</value>
+    </data>
 </root>

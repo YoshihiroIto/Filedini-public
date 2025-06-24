@@ -708,6 +708,105 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Launch App.
+        /// </summary>
+        public static string FileMenu_LaunchApp {
+            get {
+                return ResourceManager.GetString("FileMenu_LaunchApp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Launch App0.
+        /// </summary>
+        public static string FileMenu_LaunchApp0 {
+            get {
+                return ResourceManager.GetString("FileMenu_LaunchApp0", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Launch App1.
+        /// </summary>
+        public static string FileMenu_LaunchApp1 {
+            get {
+                return ResourceManager.GetString("FileMenu_LaunchApp1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Launch App2.
+        /// </summary>
+        public static string FileMenu_LaunchApp2 {
+            get {
+                return ResourceManager.GetString("FileMenu_LaunchApp2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Launch App3.
+        /// </summary>
+        public static string FileMenu_LaunchApp3 {
+            get {
+                return ResourceManager.GetString("FileMenu_LaunchApp3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Launch App4.
+        /// </summary>
+        public static string FileMenu_LaunchApp4 {
+            get {
+                return ResourceManager.GetString("FileMenu_LaunchApp4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Launch App5.
+        /// </summary>
+        public static string FileMenu_LaunchApp5 {
+            get {
+                return ResourceManager.GetString("FileMenu_LaunchApp5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Launch App6.
+        /// </summary>
+        public static string FileMenu_LaunchApp6 {
+            get {
+                return ResourceManager.GetString("FileMenu_LaunchApp6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Launch App7.
+        /// </summary>
+        public static string FileMenu_LaunchApp7 {
+            get {
+                return ResourceManager.GetString("FileMenu_LaunchApp7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Launch App8.
+        /// </summary>
+        public static string FileMenu_LaunchApp8 {
+            get {
+                return ResourceManager.GetString("FileMenu_LaunchApp8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Launch App9.
+        /// </summary>
+        public static string FileMenu_LaunchApp9 {
+            get {
+                return ResourceManager.GetString("FileMenu_LaunchApp9", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Launcher....
         /// </summary>
         public static string FileMenu_Launcher {
