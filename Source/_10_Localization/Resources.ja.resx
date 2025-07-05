@@ -1328,4 +1328,7 @@
     <data name="FileMenu_LaunchApp" xml:space="preserve">
         <value>アプリを起動</value>
     </data>
+    <data name="Label_VolumeSize" xml:space="preserve">
+        <value>{0} / {1} ({2:P1}) 使用中</value>
+    </data>
 </root>
