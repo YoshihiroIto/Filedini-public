@@ -465,6 +465,24 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Copy Full Path to Clipboard.
+        /// </summary>
+        public static string FileMenu_CopyItemFullPathToClipboard {
+            get {
+                return ResourceManager.GetString("FileMenu_CopyItemFullPathToClipboard", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Copy Name to Clipboard.
+        /// </summary>
+        public static string FileMenu_CopyItemNameToClipboard {
+            get {
+                return ResourceManager.GetString("FileMenu_CopyItemNameToClipboard", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Copy.
         /// </summary>
         public static string FileMenu_CopyItemToClipboard {

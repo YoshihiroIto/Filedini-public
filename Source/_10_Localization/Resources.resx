@@ -1351,4 +1351,10 @@ Invalid password.
     <data name="Label_VolumeSize" xml:space="preserve">
         <value>{0} of {1} ({2:P1}) used</value>
     </data>
+    <data name="FileMenu_CopyItemNameToClipboard" xml:space="preserve">
+        <value>Copy Name to Clipboard</value>
+    </data>
+    <data name="FileMenu_CopyItemFullPathToClipboard" xml:space="preserve">
+        <value>Copy Full Path to Clipboard</value>
+    </data>
 </root>

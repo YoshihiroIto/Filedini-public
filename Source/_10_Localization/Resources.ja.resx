@@ -1331,4 +1331,10 @@
     <data name="Label_VolumeSize" xml:space="preserve">
         <value>{0} / {1} ({2:P1}) 使用中</value>
     </data>
+    <data name="FileMenu_CopyItemFullPathToClipboard" xml:space="preserve">
+        <value>フルパスをコピー</value>
+    </data>
+    <data name="FileMenu_CopyItemNameToClipboard" xml:space="preserve">
+        <value>名前をコピー</value>
+    </data>
 </root>
