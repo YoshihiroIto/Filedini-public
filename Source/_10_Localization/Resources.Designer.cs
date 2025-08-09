@@ -3536,6 +3536,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Theme Selector.
+        /// </summary>
+        public static string Settings_Label_ThemeSelector {
+            get {
+                return ResourceManager.GetString("Settings_Label_ThemeSelector", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Thumbnail Cache Size.
         /// </summary>
         public static string Settings_Label_ThumbnailCacheSize {

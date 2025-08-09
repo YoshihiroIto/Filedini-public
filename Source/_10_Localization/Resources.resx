@@ -1357,4 +1357,7 @@ Invalid password.
     <data name="FileMenu_CopyItemFullPathToClipboard" xml:space="preserve">
         <value>Copy Full Path to Clipboard</value>
     </data>
+    <data name="Settings_Label_ThemeSelector" xml:space="preserve">
+        <value>Theme Selector</value>
+    </data>
 </root>

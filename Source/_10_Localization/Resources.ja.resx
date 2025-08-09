@@ -1337,4 +1337,7 @@
     <data name="FileMenu_CopyItemNameToClipboard" xml:space="preserve">
         <value>名前をコピー</value>
     </data>
+    <data name="Settings_Label_ThemeSelector" xml:space="preserve">
+        <value>テーマセレクター</value>
+    </data>
 </root>
