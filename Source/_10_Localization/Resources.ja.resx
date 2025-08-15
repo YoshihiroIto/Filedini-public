@@ -1343,4 +1343,11 @@
     <data name="FileMenu_QuitFiledini" xml:space="preserve">
         <value>Filedini を終了</value>
     </data>
+    <data name="Message_NotImprementYet" xml:space="preserve">
+        <value>この機能は現在開発中です。
+ご利用いただけるまで、今しばらくお待ちください。</value>
+    </data>
+    <data name="DialogTitle_Notice" xml:space="preserve">
+        <value>お知らせ</value>
+    </data>
 </root>

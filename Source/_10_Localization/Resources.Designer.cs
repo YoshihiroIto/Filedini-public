@@ -330,6 +330,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Notice.
+        /// </summary>
+        public static string DialogTitle_Notice {
+            get {
+                return ResourceManager.GetString("DialogTitle_Notice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Trial.
         /// </summary>
         public static string DialogTitle_Trial {
@@ -2846,6 +2855,16 @@ namespace Filedini.Localization {
         public static string Message_NewVersionIsAvailable {
             get {
                 return ResourceManager.GetString("Message_NewVersionIsAvailable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This feature is currently in development.
+        ///Please check back again later..
+        /// </summary>
+        public static string Message_NotImprementYet {
+            get {
+                return ResourceManager.GetString("Message_NotImprementYet", resourceCulture);
             }
         }
         

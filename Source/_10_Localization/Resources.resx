@@ -1363,4 +1363,11 @@ Invalid password.
     <data name="FileMenu_QuitFiledini" xml:space="preserve">
         <value>Quit Filedini</value>
     </data>
+    <data name="Message_NotImprementYet" xml:space="preserve">
+        <value>This feature is currently in development.
+Please check back again later.</value>
+    </data>
+    <data name="DialogTitle_Notice" xml:space="preserve">
+        <value>Notice</value>
+    </data>
 </root>
