@@ -974,7 +974,7 @@
     <data name="Message_CrashReporter_Comment" xml:space="preserve">
         <value>エラーが発生する前に行った操作をご記入ください:</value>
     </data>
-    <data name="Message_CrashReporter_ExitFiledini" xml:space="preserve">
+    <data name="Message_CrashReporter_QuitFiledini" xml:space="preserve">
         <value>Filedini を終了</value>
     </data>
     <data name="Message_CrashReporter_RestartFiledini" xml:space="preserve">
@@ -1339,5 +1339,8 @@
     </data>
     <data name="Settings_Label_ThemeSelector" xml:space="preserve">
         <value>テーマセレクター</value>
+    </data>
+    <data name="FileMenu_QuitFiledini" xml:space="preserve">
+        <value>Filedini を終了</value>
     </data>
 </root>

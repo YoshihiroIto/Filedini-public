@@ -998,8 +998,8 @@ Empty file.</value>
     <data name="Message_CrashReporter_RestartFiledini" xml:space="preserve">
         <value>Restart Filedini</value>
     </data>
-    <data name="Message_CrashReporter_ExitFiledini" xml:space="preserve">
-        <value>Exit Filedini</value>
+    <data name="Message_CrashReporter_QuitFiledini" xml:space="preserve">
+        <value>Quit Filedini</value>
     </data>
     <data name="Message_CrashReporter_CrashReport" xml:space="preserve">
         <value>Crash Report:</value>
@@ -1359,5 +1359,8 @@ Invalid password.
     </data>
     <data name="Settings_Label_ThemeSelector" xml:space="preserve">
         <value>Theme Selector</value>
+    </data>
+    <data name="FileMenu_QuitFiledini" xml:space="preserve">
+        <value>Quit Filedini</value>
     </data>
 </root>

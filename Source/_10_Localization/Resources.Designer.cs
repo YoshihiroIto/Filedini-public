@@ -1320,6 +1320,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Quit Filedini.
+        /// </summary>
+        public static string FileMenu_QuitFiledini {
+            get {
+                return ResourceManager.GetString("FileMenu_QuitFiledini", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Reload.
         /// </summary>
         public static string FileMenu_Reload {
@@ -2480,15 +2489,6 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Exit Filedini.
-        /// </summary>
-        public static string Message_CrashReporter_ExitFiledini {
-            get {
-                return ResourceManager.GetString("Message_CrashReporter_ExitFiledini", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Filedini had a problem and crashed..
         /// </summary>
         public static string Message_CrashReporter_Message0 {
@@ -2521,6 +2521,15 @@ namespace Filedini.Localization {
         public static string Message_CrashReporter_Message3 {
             get {
                 return ResourceManager.GetString("Message_CrashReporter_Message3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Quit Filedini.
+        /// </summary>
+        public static string Message_CrashReporter_QuitFiledini {
+            get {
+                return ResourceManager.GetString("Message_CrashReporter_QuitFiledini", resourceCulture);
             }
         }
         
