@@ -14,6 +14,8 @@ internal sealed class ShellContextMenu
     public static void Show(TopLevel topLevel, FileInfo[] files, int x, int y)
     {
         Guard.IsNotEmpty(files);
+        
+        files = files.Where(f => f.DirectoryName == files[0].DirectoryName).ToArray();
 
         var handleOwner = topLevel.TryGetPlatformHandle()?.Handle;
         if (handleOwner is null)
