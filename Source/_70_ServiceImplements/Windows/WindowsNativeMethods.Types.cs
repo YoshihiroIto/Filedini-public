@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics.CodeAnalysis;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Runtime.InteropServices.ComTypes;
 using System.Runtime.InteropServices.Marshalling;
@@ -24,6 +25,7 @@ internal static partial class WindowsNativeMethods
         public fixed char cFileName[260];
         public fixed char cAlternateFileName[14];
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public string MakeFileNameString()
         {
             fixed (char* p = cFileName)
@@ -32,8 +34,10 @@ internal static partial class WindowsNativeMethods
 
         public bool IsFileNameDotOrDoubleDot
         {
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
             get
             {
+#if false
                 if (cFileName[0] is not '.')
                     return false;
 
@@ -42,6 +46,13 @@ internal static partial class WindowsNativeMethods
 
                 return cFileName[1] is '.' &&
                        cFileName[2] is (char)0;
+#else
+                if (cFileName[0] != '.')
+                    return false;
+
+                var nextTwoChars = Unsafe.ReadUnaligned<uint>(ref Unsafe.As<char, byte>(ref cFileName[1]));
+                return (nextTwoChars & 0xFFFF) == 0 || nextTwoChars == '.';
+#endif
             }
         }
     }
@@ -192,7 +203,8 @@ internal static partial class WindowsNativeMethods
         int GetAttributesOf(uint cidl, [MarshalAs(UnmanagedType.LPArray)] IntPtr[] apidl, ref SFGAO rgfInOut);
 
         [PreserveSig]
-        int GetUIObjectOf(IntPtr hwndOwner, uint cidl, [MarshalAs(UnmanagedType.LPArray)] IntPtr[] apidl, in Guid riid,
+        int GetUIObjectOf(IntPtr hwndOwner, uint cidl, [MarshalAs(UnmanagedType.LPArray)] IntPtr[] apidl,
+            in Guid riid,
             IntPtr rgfReserved, out IntPtr ppv);
 
         [PreserveSig]
