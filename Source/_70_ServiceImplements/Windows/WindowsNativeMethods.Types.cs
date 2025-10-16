@@ -29,8 +29,23 @@ internal static partial class WindowsNativeMethods
             fixed (char* p = cFileName)
                 return new string(p);
         }
+
+        public bool IsFileNameDotOrDoubleDot
+        {
+            get
+            {
+                if (cFileName[0] is not '.')
+                    return false;
+
+                if (cFileName[1] is (char)0)
+                    return true;
+
+                return cFileName[1] is '.' &&
+                       cFileName[2] is (char)0;
+            }
+        }
     }
-    
+
     [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Unicode)]
     internal struct WIN32_FILE_ATTRIBUTE_DATA
     {
