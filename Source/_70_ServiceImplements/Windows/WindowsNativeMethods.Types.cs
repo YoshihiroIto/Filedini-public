@@ -26,10 +26,18 @@ internal static partial class WindowsNativeMethods
         public fixed char cAlternateFileName[14];
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        public string MakeFileNameString()
+        public ReadOnlySpan<char> MakeFileNameString()
         {
             fixed (char* p = cFileName)
-                return new string(p);
+            {
+                var fileNameSpan = new ReadOnlySpan<char>(p, 260);
+                var fileNameLength = fileNameSpan.IndexOf((char)0);
+                
+                if (fileNameLength == -1)
+                    return fileNameSpan;
+
+                return new ReadOnlySpan<char>(p, fileNameLength);
+            }
         }
 
         public bool IsFileNameDotOrDoubleDot
