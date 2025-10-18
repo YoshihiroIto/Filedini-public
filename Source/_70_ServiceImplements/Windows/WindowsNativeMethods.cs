@@ -16,6 +16,10 @@ internal static partial class WindowsNativeMethods
     [LibraryImport("kernel32.dll", EntryPoint = "FindFirstFileExW", StringMarshalling = StringMarshalling.Utf16)]
     public static partial IntPtr FindFirstFileEx(string lpFileName, FINDEX_INFO_LEVELS fInfoLevelId,
         out WIN32_FIND_DATA lpFindFileData, FINDEX_SEARCH_OPS fSearchOp, IntPtr lpSearchFilter, int dwAdditionalFlags);
+    
+    [LibraryImport("kernel32.dll", EntryPoint = "FindFirstFileExW", StringMarshalling = StringMarshalling.Utf16)]
+    public static partial IntPtr FindFirstFileEx(ReadOnlySpan<char> lpFileName, FINDEX_INFO_LEVELS fInfoLevelId,
+        out WIN32_FIND_DATA lpFindFileData, FINDEX_SEARCH_OPS fSearchOp, IntPtr lpSearchFilter, int dwAdditionalFlags);
 
     [LibraryImport("kernel32.dll", EntryPoint = "FindNextFileW")]
     [return: MarshalAs(UnmanagedType.Bool)]
