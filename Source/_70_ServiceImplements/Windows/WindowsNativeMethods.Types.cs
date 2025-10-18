@@ -31,7 +31,7 @@ internal static partial class WindowsNativeMethods
             fixed (char* p = cFileName)
             {
                 var fileNameSpan = new ReadOnlySpan<char>(p, 260);
-                var fileNameLength = fileNameSpan.IndexOf((char)0);
+                var fileNameLength = fileNameSpan.IndexOf('\0');
                 
                 if (fileNameLength == -1)
                     return fileNameSpan;
@@ -49,11 +49,11 @@ internal static partial class WindowsNativeMethods
                 if (cFileName[0] is not '.')
                     return false;
 
-                if (cFileName[1] is (char)0)
+                if (cFileName[1] is '\0')
                     return true;
 
                 return cFileName[1] is '.' &&
-                       cFileName[2] is (char)0;
+                       cFileName[2] is '\0';
 #else
                 if (cFileName[0] != '.')
                     return false;
