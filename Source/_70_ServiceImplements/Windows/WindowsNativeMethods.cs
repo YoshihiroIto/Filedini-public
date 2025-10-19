@@ -96,12 +96,11 @@ internal static partial class WindowsNativeMethods
     public static partial IntPtr CreateFile(string lpFileName, uint dwDesiredAccess, uint dwShareMode,
         IntPtr lpSecurityAttributes, uint dwCreationDisposition, uint dwFlagsAndAttributes, IntPtr hTemplateFile);
 
-    // ★ 修正点: SetLastError = true を削除
     [LibraryImport("kernel32.dll")]
     [return: MarshalAs(UnmanagedType.Bool)]
     public static partial bool GetFileInformationByHandleEx(IntPtr hFile, uint FileInformationClass,
         IntPtr lpFileInformation, uint dwBufferSize);
-    
+
     [LibraryImport("kernel32.dll")]
     internal static partial uint GetLastError();
 }
