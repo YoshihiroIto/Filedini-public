@@ -14,6 +14,16 @@ internal static partial class WindowsNativeMethods
     public const uint CMD_LAST = 30000;
 
     public const int S_OK = 0;
+    
+    internal const uint GENERIC_READ = 0x80000000;
+    internal const uint FILE_SHARE_READ = 0x00000001;
+    internal const uint OPEN_EXISTING = 3;
+    internal const uint FILE_FLAG_BACKUP_SEMANTICS = 0x02000000;
+
+    internal const uint ERROR_NO_MORE_FILES = 18;
+    internal const nint INVALID_HANDLE_VALUE = -1;
+    
+    internal const uint FileIdBothDirectoryInfo = 10;
 
     public static readonly Guid IID_IImageList = new("46EB5926-582E-4017-9FDF-E8998DAA0950");
     public static readonly Guid IID_IShellFolder = new("{000214E6-0000-0000-C000-000000000046}");

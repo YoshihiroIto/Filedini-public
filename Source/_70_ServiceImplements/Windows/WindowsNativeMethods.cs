@@ -16,7 +16,7 @@ internal static partial class WindowsNativeMethods
     [LibraryImport("kernel32.dll", EntryPoint = "FindFirstFileExW", StringMarshalling = StringMarshalling.Utf16)]
     public static partial IntPtr FindFirstFileEx(string lpFileName, FINDEX_INFO_LEVELS fInfoLevelId,
         out WIN32_FIND_DATA lpFindFileData, FINDEX_SEARCH_OPS fSearchOp, IntPtr lpSearchFilter, int dwAdditionalFlags);
-    
+
     [LibraryImport("kernel32.dll", EntryPoint = "FindFirstFileExW", StringMarshalling = StringMarshalling.Utf16)]
     public static partial IntPtr FindFirstFileEx(ReadOnlySpan<char> lpFileName, FINDEX_INFO_LEVELS fInfoLevelId,
         out WIN32_FIND_DATA lpFindFileData, FINDEX_SEARCH_OPS fSearchOp, IntPtr lpSearchFilter, int dwAdditionalFlags);
@@ -90,4 +90,18 @@ internal static partial class WindowsNativeMethods
 
     [LibraryImport("shlwapi.dll", EntryPoint = "StrRetToBufW", StringMarshalling = StringMarshalling.Utf16)]
     public static partial int StrRetToBuf(IntPtr pstr, IntPtr pidl, IntPtr pszBuf, int cchBuf);
+
+
+    [LibraryImport("kernel32.dll", EntryPoint = "CreateFileW", StringMarshalling = StringMarshalling.Utf16)]
+    public static partial IntPtr CreateFile(string lpFileName, uint dwDesiredAccess, uint dwShareMode,
+        IntPtr lpSecurityAttributes, uint dwCreationDisposition, uint dwFlagsAndAttributes, IntPtr hTemplateFile);
+
+    // ★ 修正点: SetLastError = true を削除
+    [LibraryImport("kernel32.dll")]
+    [return: MarshalAs(UnmanagedType.Bool)]
+    public static partial bool GetFileInformationByHandleEx(IntPtr hFile, uint FileInformationClass,
+        IntPtr lpFileInformation, uint dwBufferSize);
+    
+    [LibraryImport("kernel32.dll")]
+    internal static partial uint GetLastError();
 }

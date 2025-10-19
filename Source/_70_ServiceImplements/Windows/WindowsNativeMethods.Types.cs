@@ -32,7 +32,7 @@ internal static partial class WindowsNativeMethods
             {
                 var fileNameSpan = new ReadOnlySpan<char>(p, 260);
                 var fileNameLength = fileNameSpan.IndexOf('\0');
-                
+
                 if (fileNameLength == -1)
                     return fileNameSpan;
 
@@ -182,6 +182,59 @@ internal static partial class WindowsNativeMethods
     {
         public IntPtr pIdl;
         public bool Recursively;
+    }
+
+    [StructLayout(LayoutKind.Sequential, Size = 24)]
+    internal struct FixedChar12;
+
+    [StructLayout(LayoutKind.Explicit)]
+    internal struct FILE_ID_BOTH_DIR_INFO
+    {
+        [FieldOffset(0)]
+        public uint NextEntryOffset;
+
+        [FieldOffset(4)]
+        public uint FileIndex;
+
+        [FieldOffset(8)]
+        public long CreationTime;
+
+        [FieldOffset(16)]
+        public long LastAccessTime;
+
+        [FieldOffset(24)]
+        public long LastWriteTime;
+
+        [FieldOffset(32)]
+        public long ChangeTime;
+
+        [FieldOffset(40)]
+        public long EndOfFile;
+
+        [FieldOffset(48)]
+        public long AllocationSize;
+
+        [FieldOffset(56)]
+        public uint FileAttributes;
+
+        [FieldOffset(60)]
+        public uint FileNameLength;
+
+        [FieldOffset(64)]
+        public uint EaSize;
+
+        [FieldOffset(68)]
+        public byte ShortNameLength;
+
+        // (オフセット 69 はパディング 1 バイト)
+
+        [FieldOffset(70)]
+        public FixedChar12 ShortName; // Size 24
+
+        // (オフセット 94-95 はパディング 2 バイト)
+
+        [FieldOffset(96)]
+        public long FileId;
     }
 
     [GeneratedComInterface]
