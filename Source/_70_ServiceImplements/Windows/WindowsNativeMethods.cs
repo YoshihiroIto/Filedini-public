@@ -91,16 +91,22 @@ internal static partial class WindowsNativeMethods
     [LibraryImport("shlwapi.dll", EntryPoint = "StrRetToBufW", StringMarshalling = StringMarshalling.Utf16)]
     public static partial int StrRetToBuf(IntPtr pstr, IntPtr pidl, IntPtr pszBuf, int cchBuf);
 
-
     [LibraryImport("kernel32.dll", EntryPoint = "CreateFileW", StringMarshalling = StringMarshalling.Utf16)]
     public static partial IntPtr CreateFile(string lpFileName, uint dwDesiredAccess, uint dwShareMode,
         IntPtr lpSecurityAttributes, uint dwCreationDisposition, uint dwFlagsAndAttributes, IntPtr hTemplateFile);
 
-    [LibraryImport("kernel32.dll")]
-    [return: MarshalAs(UnmanagedType.Bool)]
-    public static partial bool GetFileInformationByHandleEx(IntPtr hFile, uint FileInformationClass,
-        IntPtr lpFileInformation, uint dwBufferSize);
-
-    [LibraryImport("kernel32.dll")]
-    internal static partial uint GetLastError();
+    [LibraryImport("ntdll.dll")]
+    internal static partial uint NtQueryDirectoryFile(
+        IntPtr FileHandle,
+        IntPtr Event,
+        IntPtr ApcRoutine,
+        IntPtr ApcContext,
+        out IO_STATUS_BLOCK IoStatusBlock,
+        IntPtr FileInformation,
+        uint Length,
+        uint FileInformationClass,
+        [MarshalAs(UnmanagedType.Bool)] bool ReturnSingleEntry,
+        IntPtr FileName,
+        [MarshalAs(UnmanagedType.Bool)] bool RestartScan
+    );
 }

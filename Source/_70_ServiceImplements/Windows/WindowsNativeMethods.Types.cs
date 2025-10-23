@@ -237,6 +237,13 @@ internal static partial class WindowsNativeMethods
         public long FileId;
     }
 
+    [StructLayout(LayoutKind.Sequential)]
+    internal struct IO_STATUS_BLOCK
+    {
+        public IntPtr StatusOrPointer; // Union of NTSTATUS and PVOID
+        public IntPtr Information; // ULONG_PTR
+    }
+
     [GeneratedComInterface]
     [Guid("000214E6-0000-0000-C000-000000000046")]
     public partial interface IShellFolder

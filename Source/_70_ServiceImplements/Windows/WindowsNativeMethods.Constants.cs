@@ -23,7 +23,10 @@ internal static partial class WindowsNativeMethods
     internal const uint ERROR_NO_MORE_FILES = 18;
     internal const nint INVALID_HANDLE_VALUE = -1;
     
-    internal const uint FileIdBothDirectoryInfo = 10;
+    internal const uint STATUS_SUCCESS = 0x00000000;
+    internal const uint STATUS_NO_MORE_FILES = 0x80000006;
+    
+    internal const uint FileIdBothDirectoryInfo = 37;
 
     public static readonly Guid IID_IImageList = new("46EB5926-582E-4017-9FDF-E8998DAA0950");
     public static readonly Guid IID_IShellFolder = new("{000214E6-0000-0000-C000-000000000046}");
