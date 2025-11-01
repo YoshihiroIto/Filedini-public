@@ -59,7 +59,7 @@ internal static partial class WindowsNativeMethods
                     return false;
 
                 var nextTwoChars = Unsafe.ReadUnaligned<uint>(ref Unsafe.As<char, byte>(ref cFileName[1]));
-                return (nextTwoChars & 0xFFFF) == 0 || nextTwoChars == '.';
+                return (nextTwoChars & 0xFFFF) is 0 || nextTwoChars is '.';
 #endif
             }
         }
