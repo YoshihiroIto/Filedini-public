@@ -55,12 +55,15 @@ internal static partial class WindowsNativeMethods
     public const uint SHGFI_ICON = 0x100;
     public const uint SHGFI_SMALLICON = 0x01;
     public const uint SHGFI_LARGEICON = 0x00;
-    public const uint SHIL_JUMBO = 0x4;
+    public const uint SHGFI_USEFILEATTRIBUTES = 0x10;
     public const uint SHGFI_SYSICONINDEX = 0x000004000;
+    public const uint SHIL_JUMBO = 0x4;
 
     public const uint SHERB_NOCONFIRMATION = 0x00000001;
     public const uint SHERB_NOPROGRESSUI = 0x00000002;
     public const uint SHERB_NOSOUND = 0x00000004;
+
+    public const uint FILE_ATTRIBUTE_DIRECTORY = 0x00000010;
 
     [Flags]
     public enum SHCNF
