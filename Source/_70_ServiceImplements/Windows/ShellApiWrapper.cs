@@ -1,4 +1,6 @@
-﻿using System.Runtime.CompilerServices;
+﻿#if TARGET_WINDOWS
+
+using System.Runtime.CompilerServices;
 
 // ReSharper disable once CheckNamespace
 namespace Filedini.ServiceImplements.Windows;
@@ -63,3 +65,5 @@ internal static class ShellApiWrapper
         return sh.ToStringAndClear();
     }
 }
+
+#endif

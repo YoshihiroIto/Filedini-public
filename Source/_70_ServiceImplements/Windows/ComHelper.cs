@@ -1,4 +1,6 @@
-﻿using System.Runtime.InteropServices;
+﻿#if TARGET_WINDOWS
+
+using System.Runtime.InteropServices;
 using System.Runtime.InteropServices.Marshalling;
 
 // ReSharper disable once CheckNamespace
@@ -13,3 +15,5 @@ internal static class ComHelper
         return (T)ComWrappers.GetOrCreateObjectForComInstance(externalComObject, CreateObjectFlags.None);
     }
 }
+
+#endif

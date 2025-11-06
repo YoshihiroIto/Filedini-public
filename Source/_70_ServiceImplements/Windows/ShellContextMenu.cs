@@ -1,4 +1,6 @@
-﻿using System.Runtime.CompilerServices;
+﻿#if TARGET_WINDOWS
+
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Avalonia.Controls;
 using CommunityToolkit.Diagnostics;
@@ -236,3 +238,5 @@ file class Hook : IDisposable
         return IntPtr.Zero;
     }
 }
+
+#endif

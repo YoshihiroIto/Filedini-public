@@ -1,4 +1,6 @@
-﻿using System.Diagnostics.CodeAnalysis;
+﻿#if TARGET_WINDOWS
+
+using System.Diagnostics.CodeAnalysis;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
@@ -110,3 +112,5 @@ internal static partial class WindowsNativeMethods
         [MarshalAs(UnmanagedType.Bool)] bool RestartScan
     );
 }
+
+#endif
