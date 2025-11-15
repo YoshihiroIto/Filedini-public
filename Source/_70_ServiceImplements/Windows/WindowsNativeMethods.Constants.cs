@@ -1,4 +1,6 @@
-﻿using System.Diagnostics.CodeAnalysis;
+﻿#if TARGET_WINDOWS
+
+using System.Diagnostics.CodeAnalysis;
 
 // ReSharper disable once CheckNamespace
 namespace Filedini.ServiceImplements.Windows;
@@ -463,3 +465,5 @@ internal static partial class WindowsNativeMethods
         SH_NOTIFY = 0x0401,
     }
 }
+
+#endif

@@ -1,4 +1,6 @@
-﻿using System.Runtime.CompilerServices;
+﻿#if TARGET_WINDOWS
+
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices.ComTypes;
 
 namespace Filedini.ServiceImplements;
@@ -15,3 +17,5 @@ internal static class WindowsNativeExtensions
         }
     }
 }
+
+#endif
