@@ -1354,6 +1354,6 @@
         <value>スクリプト(S)</value>
     </data>
     <data name="FileMenu_ScriptWorkspace" xml:space="preserve">
-        <value>スクリプトワークスペース(S)...</value>
+        <value>スクリプトワークスペース...</value>
     </data>
 </root>

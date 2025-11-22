@@ -1365,7 +1365,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to _Script Workspace....
+        ///   Looks up a localized string similar to Script Workspace....
         /// </summary>
         public static string FileMenu_ScriptWorkspace {
             get {

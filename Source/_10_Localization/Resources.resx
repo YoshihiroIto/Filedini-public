@@ -1374,6 +1374,6 @@ Please check back again later.</value>
         <value>_Script</value>
     </data>
     <data name="FileMenu_ScriptWorkspace" xml:space="preserve">
-        <value>_Script Workspace...</value>
+        <value>Script Workspace...</value>
     </data>
 </root>
