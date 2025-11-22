@@ -1905,6 +1905,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Clear.
+        /// </summary>
+        public static string Label_Clear {
+            get {
+                return ResourceManager.GetString("Label_Clear", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Default.
         /// </summary>
         public static string Label_Default {
@@ -1991,6 +2000,15 @@ namespace Filedini.Localization {
         public static string Label_LinkName {
             get {
                 return ResourceManager.GetString("Label_LinkName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Log.
+        /// </summary>
+        public static string Label_Log {
+            get {
+                return ResourceManager.GetString("Label_Log", resourceCulture);
             }
         }
         

@@ -1356,4 +1356,10 @@
     <data name="FileMenu_ScriptWorkspace" xml:space="preserve">
         <value>スクリプトワークスペース...</value>
     </data>
+    <data name="Label_Log" xml:space="preserve">
+        <value>ログ</value>
+    </data>
+    <data name="Label_Clear" xml:space="preserve">
+        <value>クリア</value>
+    </data>
 </root>

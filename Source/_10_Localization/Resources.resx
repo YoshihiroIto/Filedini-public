@@ -1376,4 +1376,10 @@ Please check back again later.</value>
     <data name="FileMenu_ScriptWorkspace" xml:space="preserve">
         <value>Script Workspace...</value>
     </data>
+    <data name="Label_Log" xml:space="preserve">
+        <value>Log</value>
+    </data>
+    <data name="Label_Clear" xml:space="preserve">
+        <value>Clear</value>
+    </data>
 </root>
