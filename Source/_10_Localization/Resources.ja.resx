@@ -1350,4 +1350,10 @@
     <data name="DialogTitle_Notice" xml:space="preserve">
         <value>お知らせ</value>
     </data>
+    <data name="FileMenu_Script" xml:space="preserve">
+        <value>スクリプト(S)</value>
+    </data>
+    <data name="FileMenu_ScriptWorkspace" xml:space="preserve">
+        <value>スクリプトワークスペース(S)...</value>
+    </data>
 </root>

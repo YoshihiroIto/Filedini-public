@@ -1356,6 +1356,24 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to _Script.
+        /// </summary>
+        public static string FileMenu_Script {
+            get {
+                return ResourceManager.GetString("FileMenu_Script", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to _Script Workspace....
+        /// </summary>
+        public static string FileMenu_ScriptWorkspace {
+            get {
+                return ResourceManager.GetString("FileMenu_ScriptWorkspace", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Search.
         /// </summary>
         public static string FileMenu_Search {
