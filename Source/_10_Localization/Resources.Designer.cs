@@ -2094,6 +2094,24 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Script File.
+        /// </summary>
+        public static string Label_ScriptFilePath {
+            get {
+                return ResourceManager.GetString("Label_ScriptFilePath", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Function Name.
+        /// </summary>
+        public static string Label_ScriptFunctionName {
+            get {
+                return ResourceManager.GetString("Label_ScriptFunctionName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Search.
         /// </summary>
         public static string Label_Search {

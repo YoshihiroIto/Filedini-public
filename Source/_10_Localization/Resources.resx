@@ -1385,4 +1385,10 @@ Please check back again later.</value>
     <data name="FileMenu_SettingsScript" xml:space="preserve">
         <value>Script Settings...</value>
     </data>
+    <data name="Label_ScriptFilePath" xml:space="preserve">
+        <value>Script File</value>
+    </data>
+    <data name="Label_ScriptFunctionName" xml:space="preserve">
+        <value>Function Name</value>
+    </data>
 </root>

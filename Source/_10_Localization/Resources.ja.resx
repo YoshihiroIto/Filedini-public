@@ -1365,4 +1365,10 @@
     <data name="FileMenu_SettingsScript" xml:space="preserve">
         <value>スクリプト設定...</value>
     </data>
+    <data name="Label_ScriptFilePath" xml:space="preserve">
+        <value>スクリプトファイル</value>
+    </data>
+    <data name="Label_ScriptFunctionName" xml:space="preserve">
+        <value>関数名</value>
+    </data>
 </root>
