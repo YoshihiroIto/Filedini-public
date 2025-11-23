@@ -1491,6 +1491,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Script Settings....
+        /// </summary>
+        public static string FileMenu_SettingsScript {
+            get {
+                return ResourceManager.GetString("FileMenu_SettingsScript", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Show ContextMenu.
         /// </summary>
         public static string FileMenu_ShowContextMenu {

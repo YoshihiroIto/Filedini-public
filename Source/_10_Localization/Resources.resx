@@ -1382,4 +1382,7 @@ Please check back again later.</value>
     <data name="Label_Clear" xml:space="preserve">
         <value>Clear</value>
     </data>
+    <data name="FileMenu_SettingsScript" xml:space="preserve">
+        <value>Script Settings...</value>
+    </data>
 </root>

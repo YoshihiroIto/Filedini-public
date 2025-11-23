@@ -1362,4 +1362,7 @@
     <data name="Label_Clear" xml:space="preserve">
         <value>クリア</value>
     </data>
+    <data name="FileMenu_SettingsScript" xml:space="preserve">
+        <value>スクリプト設定...</value>
+    </data>
 </root>
