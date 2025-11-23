@@ -1391,4 +1391,13 @@ Please check back again later.</value>
     <data name="Label_ScriptFunctionName" xml:space="preserve">
         <value>Function Name</value>
     </data>
+    <data name="Label_Format" xml:space="preserve">
+        <value>Format</value>
+    </data>
+    <data name="DetectableFileFormats_Zip" xml:space="preserve">
+        <value>Zip</value>
+    </data>
+    <data name="DetectableFileFormats_Gzip" xml:space="preserve">
+        <value>Gzip</value>
+    </data>
 </root>

@@ -1371,4 +1371,7 @@
     <data name="Label_ScriptFunctionName" xml:space="preserve">
         <value>関数名</value>
     </data>
+    <data name="Label_Format" xml:space="preserve">
+        <value>フォーマット</value>
+    </data>
 </root>

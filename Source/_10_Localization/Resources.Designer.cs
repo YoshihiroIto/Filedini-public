@@ -114,6 +114,24 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Gzip.
+        /// </summary>
+        public static string DetectableFileFormats_Gzip {
+            get {
+                return ResourceManager.GetString("DetectableFileFormats_Gzip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Zip.
+        /// </summary>
+        public static string DetectableFileFormats_Zip {
+            get {
+                return ResourceManager.GetString("DetectableFileFormats_Zip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to _Automatic naming.
         /// </summary>
         public static string Dialog_AutoRename {
@@ -1982,6 +2000,15 @@ namespace Filedini.Localization {
         public static string Label_Folder {
             get {
                 return ResourceManager.GetString("Label_Folder", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Format.
+        /// </summary>
+        public static string Label_Format {
+            get {
+                return ResourceManager.GetString("Label_Format", resourceCulture);
             }
         }
         
