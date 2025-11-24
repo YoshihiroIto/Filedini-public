@@ -1374,4 +1374,7 @@
     <data name="Label_Format" xml:space="preserve">
         <value>フォーマット</value>
     </data>
+    <data name="Settings_MultiExtensions" xml:space="preserve">
+        <value>多重拡張子</value>
+    </data>
 </root>

@@ -3753,6 +3753,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Multi Extensions.
+        /// </summary>
+        public static string Settings_MultiExtensions {
+            get {
+                return ResourceManager.GetString("Settings_MultiExtensions", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Note: Effective after restart.
         /// </summary>
         public static string Settings_Note_EffectiveAfterRestart {
