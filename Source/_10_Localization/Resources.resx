@@ -1397,7 +1397,19 @@ Please check back again later.</value>
     <data name="DetectableFileFormats_Zip" xml:space="preserve">
         <value>Zip</value>
     </data>
-    <data name="DetectableFileFormats_Gzip" xml:space="preserve">
+    <data name="DetectableFileFormats_TarGzip" xml:space="preserve">
         <value>Gzip</value>
+    </data>
+    <data name="DetectableFileFormats_Tar" xml:space="preserve">
+        <value>Tar</value>
+    </data>
+    <data name="DetectableFileFormats_TarBZip2" xml:space="preserve">
+        <value>BZip2</value>
+    </data>
+    <data name="DetectableFileFormats_TarLZip" xml:space="preserve">
+        <value>LZMA</value>
+    </data>
+    <data name="DetectableFileFormats_TarXz" xml:space="preserve">
+        <value>LZMA2</value>
     </data>
 </root>

@@ -114,11 +114,47 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Tar.
+        /// </summary>
+        public static string DetectableFileFormats_Tar {
+            get {
+                return ResourceManager.GetString("DetectableFileFormats_Tar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to BZip2.
+        /// </summary>
+        public static string DetectableFileFormats_TarBZip2 {
+            get {
+                return ResourceManager.GetString("DetectableFileFormats_TarBZip2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Gzip.
         /// </summary>
-        public static string DetectableFileFormats_Gzip {
+        public static string DetectableFileFormats_TarGzip {
             get {
-                return ResourceManager.GetString("DetectableFileFormats_Gzip", resourceCulture);
+                return ResourceManager.GetString("DetectableFileFormats_TarGzip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to LZMA.
+        /// </summary>
+        public static string DetectableFileFormats_TarLZip {
+            get {
+                return ResourceManager.GetString("DetectableFileFormats_TarLZip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to LZMA2.
+        /// </summary>
+        public static string DetectableFileFormats_TarXz {
+            get {
+                return ResourceManager.GetString("DetectableFileFormats_TarXz", resourceCulture);
             }
         }
         
