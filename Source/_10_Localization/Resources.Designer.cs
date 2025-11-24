@@ -114,6 +114,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 7-Zip.
+        /// </summary>
+        public static string DetectableFileFormats_SevenZip {
+            get {
+                return ResourceManager.GetString("DetectableFileFormats_SevenZip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Tar.
         /// </summary>
         public static string DetectableFileFormats_Tar {
@@ -155,6 +164,15 @@ namespace Filedini.Localization {
         public static string DetectableFileFormats_TarXz {
             get {
                 return ResourceManager.GetString("DetectableFileFormats_TarXz", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ZStandard.
+        /// </summary>
+        public static string DetectableFileFormats_TarZstd {
+            get {
+                return ResourceManager.GetString("DetectableFileFormats_TarZstd", resourceCulture);
             }
         }
         

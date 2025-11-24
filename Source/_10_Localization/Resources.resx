@@ -1412,4 +1412,10 @@ Please check back again later.</value>
     <data name="DetectableFileFormats_TarXz" xml:space="preserve">
         <value>LZMA2</value>
     </data>
+    <data name="DetectableFileFormats_TarZstd" xml:space="preserve">
+        <value>ZStandard</value>
+    </data>
+    <data name="DetectableFileFormats_SevenZip" xml:space="preserve">
+        <value>7-Zip</value>
+    </data>
 </root>
