@@ -114,6 +114,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to RAR.
+        /// </summary>
+        public static string DetectableFileFormats_Rar {
+            get {
+                return ResourceManager.GetString("DetectableFileFormats_Rar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 7-Zip.
         /// </summary>
         public static string DetectableFileFormats_SevenZip {
