@@ -177,7 +177,7 @@ internal sealed class ShellContextMenu
     [SkipLocalsInit]
     private static unsafe string StrRetToBufWrap(IntPtr target, IntPtr idl)
     {
-        Span<char> buffer = stackalloc char[MAX_PATH + 16];
+        var buffer = (stackalloc char[MAX_PATH + 16]);
 
         fixed (char* p = buffer)
         {
