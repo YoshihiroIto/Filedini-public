@@ -1470,4 +1470,10 @@ Please check back again later.</value>
     <data name="InstallState_PythonPackageDownloadFailedToStart" xml:space="preserve">
         <value>Python package download failed to start.</value>
     </data>
+    <data name="Message_PythonInstallationSuccessful" xml:space="preserve">
+        <value>Python installation successful.</value>
+    </data>
+    <data name="Message_PythonInstallationFailed" xml:space="preserve">
+        <value>Python installation failed.</value>
+    </data>
 </root>

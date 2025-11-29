@@ -3140,6 +3140,24 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Python installation failed..
+        /// </summary>
+        public static string Message_PythonInstallationFailed {
+            get {
+                return ResourceManager.GetString("Message_PythonInstallationFailed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Python installation successful..
+        /// </summary>
+        public static string Message_PythonInstallationSuccessful {
+            get {
+                return ResourceManager.GetString("Message_PythonInstallationSuccessful", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Rename `{0}&apos;..
         /// </summary>
         public static string Message_RenameItem {
