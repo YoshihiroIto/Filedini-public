@@ -1451,9 +1451,6 @@ Please check back again later.</value>
     <data name="InstallState_PythonPackageDownloadFailed" xml:space="preserve">
         <value>Python package download failed.</value>
     </data>
-    <data name="PythonPackageExtractionFailed" xml:space="preserve">
-        <value />
-    </data>
     <data name="InstallState_PythonPackageExtractionFailed" xml:space="preserve">
         <value>Python package extraction failed.</value>
     </data>

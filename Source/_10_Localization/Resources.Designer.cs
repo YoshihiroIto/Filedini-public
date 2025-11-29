@@ -3304,15 +3304,6 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
-        /// </summary>
-        public static string PythonPackageExtractionFailed {
-            get {
-                return ResourceManager.GetString("PythonPackageExtractionFailed", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Add Hotkey.
         /// </summary>
         public static string Settings_AddHotkey {
