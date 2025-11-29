@@ -3047,6 +3047,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Failed to start Python..
+        /// </summary>
+        public static string Message_FailedToStartPython {
+            get {
+                return ResourceManager.GetString("Message_FailedToStartPython", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Folders cannot be overwritten with files..
         /// </summary>
         public static string Message_FoldersCanntOverwrittenWithFiles {

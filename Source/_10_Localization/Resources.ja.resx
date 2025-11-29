@@ -1425,4 +1425,7 @@
     <data name="Message_PythonInstallationFailed" xml:space="preserve">
         <value>Pythonのインストールに失敗しました。</value>
     </data>
+    <data name="Message_FailedToStartPython" xml:space="preserve">
+        <value>Pythonの起動に失敗しました。</value>
+    </data>
 </root>
