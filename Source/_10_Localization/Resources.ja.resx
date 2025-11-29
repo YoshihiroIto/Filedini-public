@@ -1377,4 +1377,46 @@
     <data name="Settings_MultiExtensions" xml:space="preserve">
         <value>多重拡張子</value>
     </data>
+    <data name="Settings_Label_InstallPython" xml:space="preserve">
+        <value>Python をインストールする</value>
+    </data>
+    <data name="Settings_Label_UninstallPython" xml:space="preserve">
+        <value>Python をアンインストールする</value>
+    </data>
+    <data name="InstallState_DownloadingPythonPackage" xml:space="preserve">
+        <value>Pythonパッケージのダウンロード開始</value>
+    </data>
+    <data name="InstallState_PythonPackageDownloadComplete" xml:space="preserve">
+        <value>Pythonパッケージのダウンロード終了</value>
+    </data>
+    <data name="InstallState_ExtractingPythonPackage" xml:space="preserve">
+        <value>Pythonパッケージの展開開始</value>
+    </data>
+    <data name="InstallState_PythonPackageExtractionComplete" xml:space="preserve">
+        <value>Pythonパッケージの展開終了</value>
+    </data>
+    <data name="InstallState_InstallingDependencies" xml:space="preserve">
+        <value>依存ライブラリのインストール開始</value>
+    </data>
+    <data name="InstallState_DependencyInstallationComplete" xml:space="preserve">
+        <value>依存ライブラリのインストール終了</value>
+    </data>
+    <data name="InstallState_PythonPackageDownloadFailed" xml:space="preserve">
+        <value>Pythonパッケージのダウンロード失敗</value>
+    </data>
+    <data name="InstallState_PythonPackageExtractionFailed" xml:space="preserve">
+        <value>Pythonパッケージの展開失敗</value>
+    </data>
+    <data name="InstallState_DependencyInstallationFailed" xml:space="preserve">
+        <value>依存ライブラリのインストール失敗</value>
+    </data>
+    <data name="InstallState_InstallingPython" xml:space="preserve">
+        <value>Pythonインストール開始</value>
+    </data>
+    <data name="InstallState_PythonInstallationComplete" xml:space="preserve">
+        <value>Pythonインストール終了</value>
+    </data>
+    <data name="InstallState_PythonPackageDownloadFailedToStart" xml:space="preserve">
+        <value>パッケージのダウンロードを開始に失敗</value>
+    </data>
 </root>

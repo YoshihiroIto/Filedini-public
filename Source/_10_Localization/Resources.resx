@@ -1424,4 +1424,50 @@ Please check back again later.</value>
     <data name="DetectableFileFormats_Rar" xml:space="preserve">
         <value>RAR</value>
     </data>
+    <data name="Settings_Label_InstallPython" xml:space="preserve">
+        <value>Install Python</value>
+    </data>
+    <data name="Settings_Label_UninstallPython" xml:space="preserve">
+        <value>Uninstall Python</value>
+    </data>
+    <data name="InstallState_DownloadingPythonPackage" xml:space="preserve">
+        <value>Downloading Python package...</value>
+    </data>
+    <data name="InstallState_PythonPackageDownloadComplete" xml:space="preserve">
+        <value>Python package download complete.</value>
+    </data>
+    <data name="InstallState_ExtractingPythonPackage" xml:space="preserve">
+        <value>Extracting Python package...</value>
+    </data>
+    <data name="InstallState_PythonPackageExtractionComplete" xml:space="preserve">
+        <value>Python package extraction complete.</value>
+    </data>
+    <data name="InstallState_InstallingDependencies" xml:space="preserve">
+        <value>Installing dependencies...</value>
+    </data>
+    <data name="InstallState_DependencyInstallationComplete" xml:space="preserve">
+        <value>Dependency installation complete.</value>
+    </data>
+    <data name="InstallState_PythonPackageDownloadFailed" xml:space="preserve">
+        <value>Python package download failed.</value>
+    </data>
+    <data name="PythonPackageExtractionFailed" xml:space="preserve">
+        <value />
+    </data>
+    <data name="InstallState_PythonPackageExtractionFailed" xml:space="preserve">
+        <value>Python package extraction failed.</value>
+    </data>
+    <data name="InstallState_DependencyInstallationFailed" xml:space="preserve">
+        <value>Dependency installation failed.
+</value>
+    </data>
+    <data name="InstallState_InstallingPython" xml:space="preserve">
+        <value>Installing Python...</value>
+    </data>
+    <data name="InstallState_PythonInstallationComplete" xml:space="preserve">
+        <value>Python installation complete.</value>
+    </data>
+    <data name="InstallState_PythonPackageDownloadFailedToStart" xml:space="preserve">
+        <value>Python package download failed to start.</value>
+    </data>
 </root>

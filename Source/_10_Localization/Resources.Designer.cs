@@ -1860,6 +1860,115 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Dependency installation complete..
+        /// </summary>
+        public static string InstallState_DependencyInstallationComplete {
+            get {
+                return ResourceManager.GetString("InstallState_DependencyInstallationComplete", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dependency installation failed.
+        ///.
+        /// </summary>
+        public static string InstallState_DependencyInstallationFailed {
+            get {
+                return ResourceManager.GetString("InstallState_DependencyInstallationFailed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Downloading Python package....
+        /// </summary>
+        public static string InstallState_DownloadingPythonPackage {
+            get {
+                return ResourceManager.GetString("InstallState_DownloadingPythonPackage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Extracting Python package....
+        /// </summary>
+        public static string InstallState_ExtractingPythonPackage {
+            get {
+                return ResourceManager.GetString("InstallState_ExtractingPythonPackage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Installing dependencies....
+        /// </summary>
+        public static string InstallState_InstallingDependencies {
+            get {
+                return ResourceManager.GetString("InstallState_InstallingDependencies", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Installing Python....
+        /// </summary>
+        public static string InstallState_InstallingPython {
+            get {
+                return ResourceManager.GetString("InstallState_InstallingPython", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Python installation complete..
+        /// </summary>
+        public static string InstallState_PythonInstallationComplete {
+            get {
+                return ResourceManager.GetString("InstallState_PythonInstallationComplete", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Python package download complete..
+        /// </summary>
+        public static string InstallState_PythonPackageDownloadComplete {
+            get {
+                return ResourceManager.GetString("InstallState_PythonPackageDownloadComplete", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Python package download failed..
+        /// </summary>
+        public static string InstallState_PythonPackageDownloadFailed {
+            get {
+                return ResourceManager.GetString("InstallState_PythonPackageDownloadFailed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Python package download failed to start..
+        /// </summary>
+        public static string InstallState_PythonPackageDownloadFailedToStart {
+            get {
+                return ResourceManager.GetString("InstallState_PythonPackageDownloadFailedToStart", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Python package extraction complete..
+        /// </summary>
+        public static string InstallState_PythonPackageExtractionComplete {
+            get {
+                return ResourceManager.GetString("InstallState_PythonPackageExtractionComplete", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Python package extraction failed..
+        /// </summary>
+        public static string InstallState_PythonPackageExtractionFailed {
+            get {
+                return ResourceManager.GetString("InstallState_PythonPackageExtractionFailed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to File.
         /// </summary>
         public static string ItemKinds_File {
@@ -3177,6 +3286,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PythonPackageExtractionFailed {
+            get {
+                return ResourceManager.GetString("PythonPackageExtractionFailed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Add Hotkey.
         /// </summary>
         public static string Settings_AddHotkey {
@@ -3474,6 +3592,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Install Python.
+        /// </summary>
+        public static string Settings_Label_InstallPython {
+            get {
+                return ResourceManager.GetString("Settings_Label_InstallPython", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Language.
         /// </summary>
         public static string Settings_Label_Language {
@@ -3749,6 +3876,15 @@ namespace Filedini.Localization {
         public static string Settings_Label_TimestampFormat {
             get {
                 return ResourceManager.GetString("Settings_Label_TimestampFormat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Uninstall Python.
+        /// </summary>
+        public static string Settings_Label_UninstallPython {
+            get {
+                return ResourceManager.GetString("Settings_Label_UninstallPython", resourceCulture);
             }
         }
         
