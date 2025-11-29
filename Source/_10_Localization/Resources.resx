@@ -416,13 +416,13 @@ Do you want to proceed?</value>
         <value>Preview</value>
     </data>
     <data name="Message_CompressFoldersAndFiles" xml:space="preserve">
-        <value>Compresses {0:plural:1 folder|{} folders}, {1:plural:1 file|{} files}.</value>
+        <value>Compresses {0:plural:1 folder|{:N0} folders}, {1:plural:1 file|{:N0} files}.</value>
     </data>
     <data name="Message_CompressFolders" xml:space="preserve">
-        <value>Compresses {0:plural:1 folder|{} folders}.</value>
+        <value>Compresses {0:plural:1 folder|{:N0} folders}.</value>
     </data>
     <data name="Message_CompressFiles" xml:space="preserve">
-        <value>Compresses {0:plural:1 file|{} files}.</value>
+        <value>Compresses {0:plural:1 file|{:N0} files}.</value>
     </data>
     <data name="Message_CompressItem" xml:space="preserve">
         <value>Compress `{0}'.</value>
@@ -431,13 +431,13 @@ Do you want to proceed?</value>
         <value>Delete `{0}'.</value>
     </data>
     <data name="Message_DeleteFiles" xml:space="preserve">
-        <value>Delete {0:plural:1 file|{} files}.</value>
+        <value>Delete {0:plural:1 file|{:N0} files}.</value>
     </data>
     <data name="Message_DeleteFolders" xml:space="preserve">
-        <value>Delete {0:plural:1 folder|{} folders}.</value>
+        <value>Delete {0:plural:1 folder|{:N0} folders}.</value>
     </data>
     <data name="Message_DeleteFoldersAndFiles" xml:space="preserve">
-        <value>Delete {0:plural:1 folder|{} folders}, {1:plural:1 file|{} files}.</value>
+        <value>Delete {0:plural:1 folder|{:N0} folders}, {1:plural:1 file|{:N0} files}.</value>
     </data>
     <data name="Dialog_Copy" xml:space="preserve">
         <value>Co_py</value>
@@ -446,13 +446,13 @@ Do you want to proceed?</value>
         <value>Copy `{0}'.</value>
     </data>
     <data name="Message_CopyFiles" xml:space="preserve">
-        <value>Copy {0:plural:1 file|{} files}.</value>
+        <value>Copy {0:plural:1 file|{:N0} files}.</value>
     </data>
     <data name="Message_CopyFolders" xml:space="preserve">
-        <value>Copy {0:plural:1 folder|{} folders}.</value>
+        <value>Copy {0:plural:1 folder|{:N0} folders}.</value>
     </data>
     <data name="Message_CopyFoldersAndFiles" xml:space="preserve">
-        <value>Copy {0:plural:1 folder|{} folders}, {1:plural:1 file|{} files}.</value>
+        <value>Copy {0:plural:1 folder|{:N0} folders}, {1:plural:1 file|{:N0} files}.</value>
     </data>
     <data name="Label_OutputFolder_Copy" xml:space="preserve">
         <value>Destination Folder</value>
@@ -514,13 +514,13 @@ Do you want to proceed?</value>
         <value>Move `{0}'.</value>
     </data>
     <data name="Message_MoveFiles" xml:space="preserve">
-        <value>Move {0:plural:1 file|{} files}.</value>
+        <value>Move {0:plural:1 file|{:N0} files}.</value>
     </data>
     <data name="Message_MoveFolders" xml:space="preserve">
-        <value>Move {0:plural:1 folder|{} folders}.</value>
+        <value>Move {0:plural:1 folder|{:N0} folders}.</value>
     </data>
     <data name="Message_MoveFoldersAndFiles" xml:space="preserve">
-        <value>Move {0:plural:1 folder|{} folders}, {1:plural:1 file|{} files}.</value>
+        <value>Move {0:plural:1 folder|{:N0} folders}, {1:plural:1 file|{:N0} files}.</value>
     </data>
     <data name="ContextMenu_Copy" xml:space="preserve">
         <value>_Copy</value>
@@ -559,13 +559,13 @@ Do you want to proceed?</value>
         <value>Dragging `{0}'.</value>
     </data>
     <data name="Message_DraggingFiles" xml:space="preserve">
-        <value>Dragging {0:plural:1 file|{} files}.</value>
+        <value>Dragging {0:plural:1 file|{:N0} files}.</value>
     </data>
     <data name="Message_DraggingFolders" xml:space="preserve">
-        <value>Dragging {0:plural:1 folder|{} folders}.</value>
+        <value>Dragging {0:plural:1 folder|{:N0} folders}.</value>
     </data>
     <data name="Message_DraggingFoldersAndFiles" xml:space="preserve">
-        <value>Dragging {0:plural:1 folder|{} folders}, {1:plural:1 file|{} files}.</value>
+        <value>Dragging {0:plural:1 folder|{:N0} folders}, {1:plural:1 file|{:N0} files}.</value>
     </data>
     <data name="FileMenu_MoveToRecentlyUsedFolder" xml:space="preserve">
         <value>Move to Recently used folder...</value>
@@ -580,10 +580,10 @@ Do you want to proceed?</value>
         <value>_Folder</value>
     </data>
     <data name="StatusBar_AllItemsCount" xml:space="preserve">
-        <value>{0:plural:1 item|{} items}</value>
+        <value>{0:plural:1 item|{:N0} items}</value>
     </data>
     <data name="StatusBar_SelectedItemsCount" xml:space="preserve">
-        <value>{0:plural:1 item|{} items} selected</value>
+        <value>{0:plural:1 item|{:N0} items} selected</value>
     </data>
     <data name="UI_Today" xml:space="preserve">
         <value>_Today</value>

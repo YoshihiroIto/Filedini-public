@@ -401,13 +401,13 @@
         <value>検索</value>
     </data>
     <data name="Message_CompressFoldersAndFiles" xml:space="preserve">
-        <value>{0} 個のフォルダー、{1} 個のファイルを圧縮します。</value>
+        <value>{0:N0} 個のフォルダー、{1:N0} 個のファイルを圧縮します。</value>
     </data>
     <data name="Message_CompressFolders" xml:space="preserve">
-        <value>{0} 個のフォルダーを圧縮します。</value>
+        <value>{0:N0} 個のフォルダーを圧縮します。</value>
     </data>
     <data name="Message_CompressFiles" xml:space="preserve">
-        <value>{0} 個のファイルを圧縮します。</value>
+        <value>{0:N0} 個のファイルを圧縮します。</value>
     </data>
     <data name="Message_CompressItem" xml:space="preserve">
         <value>`{0}’  を圧縮します。</value>
@@ -416,13 +416,13 @@
         <value>`{0}’ を削除します。</value>
     </data>
     <data name="Message_DeleteFolders" xml:space="preserve">
-        <value>{0} 個のフォルダーを削除します。</value>
+        <value>{0:N0} 個のフォルダーを削除します。</value>
     </data>
     <data name="Message_DeleteFiles" xml:space="preserve">
-        <value>{0} 個のファイルを削除します。</value>
+        <value>{0:N0} 個のファイルを削除します。</value>
     </data>
     <data name="Message_DeleteFoldersAndFiles" xml:space="preserve">
-        <value>{0} 個のフォルダー、{1} 個のファイルを削除します。</value>
+        <value>{0:N0} 個のフォルダー、{1:N0} 個のファイルを削除します。</value>
     </data>
     <data name="Dialog_Copy" xml:space="preserve">
         <value>コピー(_P)</value>
@@ -431,13 +431,13 @@
         <value>`{0}’  をコピーします。</value>
     </data>
     <data name="Message_CopyFiles" xml:space="preserve">
-        <value>{0} 個のファイルをコピーします。</value>
+        <value>{0:N0} 個のファイルをコピーします。</value>
     </data>
     <data name="Message_CopyFolders" xml:space="preserve">
-        <value>{0} 個のフォルダーをコピーします。</value>
+        <value>{0:N0} 個のフォルダーをコピーします。</value>
     </data>
     <data name="Message_CopyFoldersAndFiles" xml:space="preserve">
-        <value>{0} 個のフォルダー、{1} 個のファイルをコピーします。</value>
+        <value>{0:N0} 個のフォルダー、{1:N0} 個のファイルをコピーします。</value>
     </data>
     <data name="Label_OutputFolder_Copy" xml:space="preserve">
         <value>コピー先フォルダー</value>
@@ -499,13 +499,13 @@
         <value>`{0}’  を移動します。</value>
     </data>
     <data name="Message_MoveFiles" xml:space="preserve">
-        <value>{0} 個のファイルを移動します。</value>
+        <value>{0:N0} 個のファイルを移動します。</value>
     </data>
     <data name="Message_MoveFolders" xml:space="preserve">
-        <value>{0} 個のフォルダーを移動します。</value>
+        <value>{0:N0} 個のフォルダーを移動します。</value>
     </data>
     <data name="Message_MoveFoldersAndFiles" xml:space="preserve">
-        <value>{0} 個のフォルダー、{1} 個のファイルを移動します。</value>
+        <value>{0:N0} 個のフォルダー、{1:N0} 個のファイルを移動します。</value>
     </data>
     <data name="ContextMenu_Copy" xml:space="preserve">
         <value>コピー(_C)</value>
@@ -544,13 +544,13 @@
         <value>`{0}’ をドラッグ中です。</value>
     </data>
     <data name="Message_DraggingFiles" xml:space="preserve">
-        <value>{0} 個のファイルをドラッグ中です。</value>
+        <value>{0:N0} 個のファイルをドラッグ中です。</value>
     </data>
     <data name="Message_DraggingFolders" xml:space="preserve">
-        <value>{0} 個のフォルダーをドラッグ中です。</value>
+        <value>{0:N0} 個のフォルダーをドラッグ中です。</value>
     </data>
     <data name="Message_DraggingFoldersAndFiles" xml:space="preserve">
-        <value>{0} 個のフォルダー、{1} 個のファイルをドラッグ中です。</value>
+        <value>{0:N0} 個のフォルダー、{1:N0} 個のファイルをドラッグ中です。</value>
     </data>
     <data name="FileMenu_MoveToRecentlyUsedFolder" xml:space="preserve">
         <value>最近利用したフォルダーに移動...</value>
@@ -565,10 +565,10 @@
         <value>フォルダー(_F)</value>
     </data>
     <data name="StatusBar_AllItemsCount" xml:space="preserve">
-        <value>{0} 個のアイテム</value>
+        <value>{0:N0} 個のアイテム</value>
     </data>
     <data name="StatusBar_SelectedItemsCount" xml:space="preserve">
-        <value>{0} 個のアイテムを選択</value>
+        <value>{0:N0} 個のアイテムを選択</value>
     </data>
     <data name="UI_Now" xml:space="preserve">
         <value>現在の時間(_N)</value>

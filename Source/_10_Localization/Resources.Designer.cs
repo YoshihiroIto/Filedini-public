@@ -2459,7 +2459,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Compresses {0:plural:1 file|{} files}..
+        ///   Looks up a localized string similar to Compresses {0:plural:1 file|{:N0} files}..
         /// </summary>
         public static string Message_CompressFiles {
             get {
@@ -2468,7 +2468,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Compresses {0:plural:1 folder|{} folders}..
+        ///   Looks up a localized string similar to Compresses {0:plural:1 folder|{:N0} folders}..
         /// </summary>
         public static string Message_CompressFolders {
             get {
@@ -2477,7 +2477,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Compresses {0:plural:1 folder|{} folders}, {1:plural:1 file|{} files}..
+        ///   Looks up a localized string similar to Compresses {0:plural:1 folder|{:N0} folders}, {1:plural:1 file|{:N0} files}..
         /// </summary>
         public static string Message_CompressFoldersAndFiles {
             get {
@@ -2525,7 +2525,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Copy {0:plural:1 file|{} files}..
+        ///   Looks up a localized string similar to Copy {0:plural:1 file|{:N0} files}..
         /// </summary>
         public static string Message_CopyFiles {
             get {
@@ -2534,7 +2534,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Copy {0:plural:1 folder|{} folders}..
+        ///   Looks up a localized string similar to Copy {0:plural:1 folder|{:N0} folders}..
         /// </summary>
         public static string Message_CopyFolders {
             get {
@@ -2543,7 +2543,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Copy {0:plural:1 folder|{} folders}, {1:plural:1 file|{} files}..
+        ///   Looks up a localized string similar to Copy {0:plural:1 folder|{:N0} folders}, {1:plural:1 file|{:N0} files}..
         /// </summary>
         public static string Message_CopyFoldersAndFiles {
             get {
@@ -2750,7 +2750,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Delete {0:plural:1 file|{} files}..
+        ///   Looks up a localized string similar to Delete {0:plural:1 file|{:N0} files}..
         /// </summary>
         public static string Message_DeleteFiles {
             get {
@@ -2759,7 +2759,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Delete {0:plural:1 folder|{} folders}..
+        ///   Looks up a localized string similar to Delete {0:plural:1 folder|{:N0} folders}..
         /// </summary>
         public static string Message_DeleteFolders {
             get {
@@ -2768,7 +2768,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Delete {0:plural:1 folder|{} folders}, {1:plural:1 file|{} files}..
+        ///   Looks up a localized string similar to Delete {0:plural:1 folder|{:N0} folders}, {1:plural:1 file|{:N0} files}..
         /// </summary>
         public static string Message_DeleteFoldersAndFiles {
             get {
@@ -2786,7 +2786,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Dragging {0:plural:1 file|{} files}..
+        ///   Looks up a localized string similar to Dragging {0:plural:1 file|{:N0} files}..
         /// </summary>
         public static string Message_DraggingFiles {
             get {
@@ -2795,7 +2795,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Dragging {0:plural:1 folder|{} folders}..
+        ///   Looks up a localized string similar to Dragging {0:plural:1 folder|{:N0} folders}..
         /// </summary>
         public static string Message_DraggingFolders {
             get {
@@ -2804,7 +2804,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Dragging {0:plural:1 folder|{} folders}, {1:plural:1 file|{} files}..
+        ///   Looks up a localized string similar to Dragging {0:plural:1 folder|{:N0} folders}, {1:plural:1 file|{:N0} files}..
         /// </summary>
         public static string Message_DraggingFoldersAndFiles {
             get {
@@ -2967,7 +2967,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move {0:plural:1 file|{} files}..
+        ///   Looks up a localized string similar to Move {0:plural:1 file|{:N0} files}..
         /// </summary>
         public static string Message_MoveFiles {
             get {
@@ -2976,7 +2976,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move {0:plural:1 folder|{} folders}..
+        ///   Looks up a localized string similar to Move {0:plural:1 folder|{:N0} folders}..
         /// </summary>
         public static string Message_MoveFolders {
             get {
@@ -2985,7 +2985,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move {0:plural:1 folder|{} folders}, {1:plural:1 file|{} files}..
+        ///   Looks up a localized string similar to Move {0:plural:1 folder|{:N0} folders}, {1:plural:1 file|{:N0} files}..
         /// </summary>
         public static string Message_MoveFoldersAndFiles {
             get {
@@ -3870,7 +3870,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {0:plural:1 item|{} items}.
+        ///   Looks up a localized string similar to {0:plural:1 item|{:N0} items}.
         /// </summary>
         public static string StatusBar_AllItemsCount {
             get {
@@ -3879,7 +3879,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {0:plural:1 item|{} items} selected.
+        ///   Looks up a localized string similar to {0:plural:1 item|{:N0} items} selected.
         /// </summary>
         public static string StatusBar_SelectedItemsCount {
             get {
