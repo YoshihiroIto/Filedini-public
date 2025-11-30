@@ -1378,10 +1378,10 @@
         <value>多重拡張子</value>
     </data>
     <data name="Settings_Label_InstallPython" xml:space="preserve">
-        <value>Python をインストールする</value>
+        <value>Python をインストール</value>
     </data>
     <data name="Settings_Label_UninstallPython" xml:space="preserve">
-        <value>Python をアンインストールする</value>
+        <value>Python をアンインストール</value>
     </data>
     <data name="InstallState_DownloadingPythonPackage" xml:space="preserve">
         <value>Pythonパッケージのダウンロード開始...</value>
@@ -1419,13 +1419,13 @@
     <data name="InstallState_PythonPackageDownloadFailedToStart" xml:space="preserve">
         <value>パッケージのダウンロードを開始に失敗</value>
     </data>
-    <data name="Message_PythonInstallationSuccessful" xml:space="preserve">
-        <value>Pythonのインストールに成功しました。</value>
-    </data>
-    <data name="Message_PythonInstallationFailed" xml:space="preserve">
-        <value>Pythonのインストールに失敗しました。</value>
-    </data>
     <data name="Message_FailedToStartPython" xml:space="preserve">
         <value>Pythonの起動に失敗しました。</value>
+    </data>
+    <data name="InstallState_PythonInstallationCanceled" xml:space="preserve">
+        <value>Pythonのインストールはキャンセルされました</value>
+    </data>
+    <data name="Label_CancelInstallation" xml:space="preserve">
+        <value>インストールをキャンセル</value>
     </data>
 </root>

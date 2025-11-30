@@ -1476,4 +1476,10 @@ Please check back again later.</value>
     <data name="Message_FailedToStartPython" xml:space="preserve">
         <value>Failed to start Python.</value>
     </data>
+    <data name="InstallState_PythonInstallationCanceled" xml:space="preserve">
+        <value>Python installation canceled.</value>
+    </data>
+    <data name="Label_CancelInstallation" xml:space="preserve">
+        <value>Cancel Installation</value>
+    </data>
 </root>

@@ -1915,6 +1915,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Python installation canceled..
+        /// </summary>
+        public static string InstallState_PythonInstallationCanceled {
+            get {
+                return ResourceManager.GetString("InstallState_PythonInstallationCanceled", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Python installation complete..
         /// </summary>
         public static string InstallState_PythonInstallationComplete {
@@ -2100,6 +2109,15 @@ namespace Filedini.Localization {
         public static string Label_ArchiveName {
             get {
                 return ResourceManager.GetString("Label_ArchiveName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cancel Installation.
+        /// </summary>
+        public static string Label_CancelInstallation {
+            get {
+                return ResourceManager.GetString("Label_CancelInstallation", resourceCulture);
             }
         }
         
