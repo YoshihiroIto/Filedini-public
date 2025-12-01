@@ -1482,4 +1482,7 @@ Please check back again later.</value>
     <data name="Label_CancelInstallation" xml:space="preserve">
         <value>Cancel Installation</value>
     </data>
+    <data name="Label_Menu" xml:space="preserve">
+        <value>Menu</value>
+    </data>
 </root>

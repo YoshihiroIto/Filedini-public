@@ -1428,4 +1428,7 @@
     <data name="Label_CancelInstallation" xml:space="preserve">
         <value>インストールをキャンセル</value>
     </data>
+    <data name="Label_Menu" xml:space="preserve">
+        <value>メニュー</value>
+    </data>
 </root>
