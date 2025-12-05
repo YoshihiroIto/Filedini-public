@@ -1485,4 +1485,7 @@ Please check back again later.</value>
     <data name="Label_Menu" xml:space="preserve">
         <value>Menu</value>
     </data>
+    <data name="ItemProperty_Netadata_Image_Format" xml:space="preserve">
+        <value>Format</value>
+    </data>
 </root>

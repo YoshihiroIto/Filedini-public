@@ -2095,6 +2095,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Format.
+        /// </summary>
+        public static string ItemProperty_Netadata_Image_Format {
+            get {
+                return ResourceManager.GetString("ItemProperty_Netadata_Image_Format", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Already assigned to.
         /// </summary>
         public static string Label_AlreadyAssignedTo {
