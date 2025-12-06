@@ -1434,4 +1434,7 @@
     <data name="ItemProperty_Netadata_Image_Format" xml:space="preserve">
         <value>フォーマット</value>
     </data>
+    <data name="Label_RestartPython" xml:space="preserve">
+        <value>Python 再起動</value>
+    </data>
 </root>

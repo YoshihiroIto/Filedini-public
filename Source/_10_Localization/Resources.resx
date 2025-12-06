@@ -1488,4 +1488,7 @@ Please check back again later.</value>
     <data name="ItemProperty_Netadata_Image_Format" xml:space="preserve">
         <value>Format</value>
     </data>
+    <data name="Label_RestartPython" xml:space="preserve">
+        <value>Restart Python</value>
+    </data>
 </root>

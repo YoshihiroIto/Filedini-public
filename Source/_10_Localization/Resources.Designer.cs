@@ -2329,6 +2329,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Restart Python.
+        /// </summary>
+        public static string Label_RestartPython {
+            get {
+                return ResourceManager.GetString("Label_RestartPython", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Script File.
         /// </summary>
         public static string Label_ScriptFilePath {
