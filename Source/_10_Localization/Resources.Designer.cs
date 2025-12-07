@@ -267,6 +267,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to _Install.
+        /// </summary>
+        public static string Dialog_Install {
+            get {
+                return ResourceManager.GetString("Dialog_Install", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to _Move to Selected Item.
         /// </summary>
         public static string Dialog_MoveToSelectedItem {
@@ -3139,6 +3148,17 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Python is not installed.
+        ///It is required to run this application.
+        ///Would you like to install it now?.
+        /// </summary>
+        public static string Message_MissingPython {
+            get {
+                return ResourceManager.GetString("Message_MissingPython", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Move {0:plural:1 file|{:N0} files}..
         /// </summary>
         public static string Message_MoveFiles {
@@ -3199,24 +3219,6 @@ namespace Filedini.Localization {
         public static string Message_OmittedDueToLargeSize {
             get {
                 return ResourceManager.GetString("Message_OmittedDueToLargeSize", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Python installation failed..
-        /// </summary>
-        public static string Message_PythonInstallationFailed {
-            get {
-                return ResourceManager.GetString("Message_PythonInstallationFailed", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Python installation successful..
-        /// </summary>
-        public static string Message_PythonInstallationSuccessful {
-            get {
-                return ResourceManager.GetString("Message_PythonInstallationSuccessful", resourceCulture);
             }
         }
         

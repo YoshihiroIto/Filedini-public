@@ -1467,12 +1467,6 @@ Please check back again later.</value>
     <data name="InstallState_PythonPackageDownloadFailedToStart" xml:space="preserve">
         <value>Python package download failed to start.</value>
     </data>
-    <data name="Message_PythonInstallationSuccessful" xml:space="preserve">
-        <value>Python installation successful.</value>
-    </data>
-    <data name="Message_PythonInstallationFailed" xml:space="preserve">
-        <value>Python installation failed.</value>
-    </data>
     <data name="Message_FailedToStartPython" xml:space="preserve">
         <value>Failed to start Python.</value>
     </data>
@@ -1502,5 +1496,13 @@ Please check back again later.</value>
     </data>
     <data name="Label_PythonScriptFile" xml:space="preserve">
         <value>Python Script File</value>
+    </data>
+    <data name="Message_MissingPython" xml:space="preserve">
+        <value>Python is not installed.
+It is required to run this application.
+Would you like to install it now?</value>
+    </data>
+    <data name="Dialog_Install" xml:space="preserve">
+        <value>_Install</value>
     </data>
 </root>
