@@ -1491,4 +1491,16 @@ Please check back again later.</value>
     <data name="Label_RestartPython" xml:space="preserve">
         <value>Restart Python</value>
     </data>
+    <data name="Tooltip_EditScriptFile" xml:space="preserve">
+        <value>Edit Scipt File</value>
+    </data>
+    <data name="Tooltip_SelectScriptFile" xml:space="preserve">
+        <value>Select Script File</value>
+    </data>
+    <data name="Tooltip_EditHotkey" xml:space="preserve">
+        <value>Edit Hotkey</value>
+    </data>
+    <data name="Label_PythonScriptFile" xml:space="preserve">
+        <value>Python Script File</value>
+    </data>
 </root>

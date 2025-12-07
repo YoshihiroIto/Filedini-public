@@ -2311,6 +2311,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Python Script File.
+        /// </summary>
+        public static string Label_PythonScriptFile {
+            get {
+                return ResourceManager.GetString("Label_PythonScriptFile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Reload.
         /// </summary>
         public static string Label_Reload {
@@ -4123,6 +4132,24 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Edit Hotkey.
+        /// </summary>
+        public static string Tooltip_EditHotkey {
+            get {
+                return ResourceManager.GetString("Tooltip_EditHotkey", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Edit Scipt File.
+        /// </summary>
+        public static string Tooltip_EditScriptFile {
+            get {
+                return ResourceManager.GetString("Tooltip_EditScriptFile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Language.
         /// </summary>
         public static string Tooltip_Language {
@@ -4146,6 +4173,15 @@ namespace Filedini.Localization {
         public static string Tooltip_SelectFont {
             get {
                 return ResourceManager.GetString("Tooltip_SelectFont", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select Script File.
+        /// </summary>
+        public static string Tooltip_SelectScriptFile {
+            get {
+                return ResourceManager.GetString("Tooltip_SelectScriptFile", resourceCulture);
             }
         }
         

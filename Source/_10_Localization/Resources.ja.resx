@@ -1437,4 +1437,16 @@
     <data name="Label_RestartPython" xml:space="preserve">
         <value>Python 再起動</value>
     </data>
+    <data name="Tooltip_EditScriptFile" xml:space="preserve">
+        <value>スクリプトファイルの編集</value>
+    </data>
+    <data name="Tooltip_SelectScriptFile" xml:space="preserve">
+        <value>スクリプトファイルの選択</value>
+    </data>
+    <data name="Tooltip_EditHotkey" xml:space="preserve">
+        <value>ホットキーの編集</value>
+    </data>
+    <data name="Label_PythonScriptFile" xml:space="preserve">
+        <value>Python スクリプトファイル</value>
+    </data>
 </root>
