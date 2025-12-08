@@ -3857,6 +3857,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Restore Sample Scripts.
+        /// </summary>
+        public static string Settings_Label_RestoreSampleScripts {
+            get {
+                return ResourceManager.GetString("Settings_Label_RestoreSampleScripts", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Options when item selected.
         /// </summary>
         public static string Settings_Label_SelectedItemOptions {

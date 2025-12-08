@@ -1459,4 +1459,7 @@
     <data name="Dialog_Install" xml:space="preserve">
         <value>インストール(_I)</value>
     </data>
+    <data name="Settings_Label_RestoreSampleScripts" xml:space="preserve">
+        <value>サンプルスクリプトを復元</value>
+    </data>
 </root>

@@ -1507,4 +1507,7 @@ Would you like to open the settings?
     <data name="Dialog_Install" xml:space="preserve">
         <value>_Install</value>
     </data>
+    <data name="Settings_Label_RestoreSampleScripts" xml:space="preserve">
+        <value>Restore Sample Scripts</value>
+    </data>
 </root>
