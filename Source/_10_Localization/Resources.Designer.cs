@@ -2688,6 +2688,21 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The sample scripts will be restored.
+        ///All folders and files in the destination will be deleted.
+        ///
+        ///Do you want to proceed?
+        ///
+        ///Destination:
+        ///{0}.
+        /// </summary>
+        public static string Message_ConformationRestoreSampleScripts {
+            get {
+                return ResourceManager.GetString("Message_ConformationRestoreSampleScripts", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Copied..
         /// </summary>
         public static string Message_Copied {
@@ -3230,6 +3245,24 @@ namespace Filedini.Localization {
         public static string Message_RenameItem {
             get {
                 return ResourceManager.GetString("Message_RenameItem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Restoration completed successfully..
+        /// </summary>
+        public static string Message_RestorationCompletedSuccessfully {
+            get {
+                return ResourceManager.GetString("Message_RestorationCompletedSuccessfully", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Restoration failed..
+        /// </summary>
+        public static string Message_RestorationFailed {
+            get {
+                return ResourceManager.GetString("Message_RestorationFailed", resourceCulture);
             }
         }
         

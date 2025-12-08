@@ -1462,4 +1462,19 @@
     <data name="Settings_Label_RestoreSampleScripts" xml:space="preserve">
         <value>サンプルスクリプトを復元</value>
     </data>
+    <data name="Message_ConformationRestoreSampleScripts" xml:space="preserve">
+        <value>サンプルスクリプトを復元します。
+復元先のフォルダーおよびファイルはすべて削除されます。
+
+このまま復元してよろしいですか？
+
+復元先：
+{0}</value>
+    </data>
+    <data name="Message_RestorationCompletedSuccessfully" xml:space="preserve">
+        <value>復元に成功しました。</value>
+    </data>
+    <data name="Message_RestorationFailed" xml:space="preserve">
+        <value>復元に失敗しました。</value>
+    </data>
 </root>

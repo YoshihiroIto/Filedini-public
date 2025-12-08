@@ -1510,4 +1510,19 @@ Would you like to open the settings?
     <data name="Settings_Label_RestoreSampleScripts" xml:space="preserve">
         <value>Restore Sample Scripts</value>
     </data>
+    <data name="Message_ConformationRestoreSampleScripts" xml:space="preserve">
+        <value>The sample scripts will be restored.
+All folders and files in the destination will be deleted.
+
+Do you want to proceed?
+
+Destination:
+{0}</value>
+    </data>
+    <data name="Message_RestorationCompletedSuccessfully" xml:space="preserve">
+        <value>Restoration completed successfully.</value>
+    </data>
+    <data name="Message_RestorationFailed" xml:space="preserve">
+        <value>Restoration failed.</value>
+    </data>
 </root>
