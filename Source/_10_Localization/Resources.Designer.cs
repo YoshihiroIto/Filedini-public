@@ -3149,8 +3149,10 @@ namespace Filedini.Localization {
         
         /// <summary>
         ///   Looks up a localized string similar to Python is not installed.
-        ///It is required to run this application.
-        ///Would you like to install it now?.
+        ///
+        ///Python is required to use the script. You can install it via Script Settings. 
+        ///Would you like to open the settings?
+        ///.
         /// </summary>
         public static string Message_MissingPython {
             get {

@@ -1499,8 +1499,10 @@ Please check back again later.</value>
     </data>
     <data name="Message_MissingPython" xml:space="preserve">
         <value>Python is not installed.
-It is required to run this application.
-Would you like to install it now?</value>
+
+Python is required to use the script. You can install it via Script Settings. 
+Would you like to open the settings?
+</value>
     </data>
     <data name="Dialog_Install" xml:space="preserve">
         <value>_Install</value>

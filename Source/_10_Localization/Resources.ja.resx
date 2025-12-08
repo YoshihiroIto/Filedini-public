@@ -1450,9 +1450,11 @@
         <value>Python スクリプトファイル</value>
     </data>
     <data name="Message_MissingPython" xml:space="preserve">
-        <value>Python がインストールされていません。
-実行するにはインストールが必要です。
-インストールしますか？</value>
+        <value>Pythonがインストールされていません。
+
+スクリプトの利用にはPythonが必要です。
+スクリプト設定からインストールできますが、設定画面を開きますか？
+</value>
     </data>
     <data name="Dialog_Install" xml:space="preserve">
         <value>インストール(_I)</value>
