@@ -1351,7 +1351,7 @@
         <value>お知らせ</value>
     </data>
     <data name="FileMenu_Script" xml:space="preserve">
-        <value>スクリプト(S)</value>
+        <value>スクリプト(_S)</value>
     </data>
     <data name="FileMenu_ScriptWorkspace" xml:space="preserve">
         <value>スクリプトワークスペース...</value>
