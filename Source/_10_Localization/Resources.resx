@@ -1525,4 +1525,7 @@ Destination:
     <data name="Message_RestorationFailed" xml:space="preserve">
         <value>Restoration failed.</value>
     </data>
+    <data name="FileMenu_MoveToScriptsFolder" xml:space="preserve">
+        <value>Move to Scripts Folder</value>
+    </data>
 </root>

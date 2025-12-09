@@ -1477,4 +1477,7 @@
     <data name="Message_RestorationFailed" xml:space="preserve">
         <value>復元に失敗しました。</value>
     </data>
+    <data name="FileMenu_MoveToScriptsFolder" xml:space="preserve">
+        <value>スクリプトフォルダーに移動</value>
+    </data>
 </root>

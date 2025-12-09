@@ -1131,6 +1131,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Move to Scripts Folder.
+        /// </summary>
+        public static string FileMenu_MoveToScriptsFolder {
+            get {
+                return ResourceManager.GetString("FileMenu_MoveToScriptsFolder", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Move to Volume.
         /// </summary>
         public static string FileMenu_MoveToVolume {
