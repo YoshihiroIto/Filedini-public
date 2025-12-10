@@ -1485,4 +1485,7 @@
 
 {0}</value>
     </data>
+    <data name="Label_CopyToClipboard" xml:space="preserve">
+        <value>クリップボードにコピー</value>
+    </data>
 </root>

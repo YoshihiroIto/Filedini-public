@@ -1533,4 +1533,7 @@ Destination:
 
 {0}</value>
     </data>
+    <data name="Label_CopyToClipboard" xml:space="preserve">
+        <value>Copy to Clipboard</value>
+    </data>
 </root>
