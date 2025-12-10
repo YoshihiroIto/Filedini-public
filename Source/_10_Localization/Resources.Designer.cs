@@ -3287,6 +3287,17 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Script file not found.
+        ///
+        ///{0}.
+        /// </summary>
+        public static string Message_ScriptFileNotFound {
+            get {
+                return ResourceManager.GetString("Message_ScriptFileNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Search results are limited to 100..
         /// </summary>
         public static string Message_SearchLimit {

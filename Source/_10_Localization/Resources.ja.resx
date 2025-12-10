@@ -1480,4 +1480,9 @@
     <data name="FileMenu_MoveToScriptsFolder" xml:space="preserve">
         <value>スクリプトフォルダーに移動</value>
     </data>
+    <data name="Message_ScriptFileNotFound" xml:space="preserve">
+        <value>スクリプトファイルが見つかりません。
+
+{0}</value>
+    </data>
 </root>

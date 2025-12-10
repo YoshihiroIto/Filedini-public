@@ -1528,4 +1528,9 @@ Destination:
     <data name="FileMenu_MoveToScriptsFolder" xml:space="preserve">
         <value>Move to Scripts Folder</value>
     </data>
+    <data name="Message_ScriptFileNotFound" xml:space="preserve">
+        <value>Script file not found.
+
+{0}</value>
+    </data>
 </root>
