@@ -1488,4 +1488,7 @@
     <data name="Label_CopyToClipboard" xml:space="preserve">
         <value>クリップボードにコピー</value>
     </data>
+    <data name="UI_Run" xml:space="preserve">
+        <value>実行(_R)</value>
+    </data>
 </root>

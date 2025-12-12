@@ -4486,6 +4486,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to _Run.
+        /// </summary>
+        public static string UI_Run {
+            get {
+                return ResourceManager.GetString("UI_Run", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to _Today.
         /// </summary>
         public static string UI_Today {
