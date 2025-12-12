@@ -410,7 +410,7 @@
         <value>{0:N0} 個のファイルを圧縮します。</value>
     </data>
     <data name="Message_CompressItem" xml:space="preserve">
-        <value>`{0}’  を圧縮します。</value>
+        <value>`{0}’ を圧縮します。</value>
     </data>
     <data name="Message_DeleteItem" xml:space="preserve">
         <value>`{0}’ を削除します。</value>
