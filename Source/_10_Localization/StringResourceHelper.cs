@@ -1,4 +1,5 @@
-﻿using SmartFormat;
+﻿using System.Runtime.CompilerServices;
+using SmartFormat;
 
 namespace Filedini.Localization;
 
@@ -17,25 +18,33 @@ public static class StringResourceHelper
     public static string GetString1(string key, object a0)
     {
         var s = Resources.ResourceManager.GetString(key, Resources.Culture);
-        return s is null ? key : Smart.Format(s, a0);
+        if(s is null)
+            return key;
+        
+        return IsPlural(s) ? Smart.Format(s, a0) : string.Format(s, a0);
     }
 
     public static string GetString2(string key, object a0, object a1)
     {
         var s = Resources.ResourceManager.GetString(key, Resources.Culture);
-        return s is null ? key : Smart.Format(s, a0, a1);
+        if(s is null)
+            return key;
+        
+        return IsPlural(s) ? Smart.Format(s, a0, a1) : string.Format(s, a0, a1);
     }
 
     public static string GetString3(string key, object a0, object a1, object a2)
     {
         var s = Resources.ResourceManager.GetString(key, Resources.Culture);
-        return s is null ? key : Smart.Format(s, a0, a1, a2);
+        if(s is null)
+            return key;
+        
+        return IsPlural(s) ? Smart.Format(s, a0, a1, a2) : string.Format(s, a0, a1, a2);
     }
-    
-    public static string GetString3Lite(string key, object a0, object a1, object a2)
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    private static bool IsPlural(string s)
     {
-        var s = Resources.ResourceManager.GetString(key, Resources.Culture);
-        return s is null ? key : string.Format(s, a0, a1, a2);
+        return s.Contains("plural", StringComparison.Ordinal);
     }
-    
 }
