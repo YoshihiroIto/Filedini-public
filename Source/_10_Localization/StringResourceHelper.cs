@@ -31,4 +31,11 @@ public static class StringResourceHelper
         var s = Resources.ResourceManager.GetString(key, Resources.Culture);
         return s is null ? key : Smart.Format(s, a0, a1, a2);
     }
+    
+    public static string GetString3Lite(string key, object a0, object a1, object a2)
+    {
+        var s = Resources.ResourceManager.GetString(key, Resources.Culture);
+        return s is null ? key : string.Format(s, a0, a1, a2);
+    }
+    
 }
