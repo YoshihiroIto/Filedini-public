@@ -2329,6 +2329,51 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Page.
+        /// </summary>
+        public static string Label_Page {
+            get {
+                return ResourceManager.GetString("Label_Page", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to First.
+        /// </summary>
+        public static string Label_PageFirst {
+            get {
+                return ResourceManager.GetString("Label_PageFirst", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Last.
+        /// </summary>
+        public static string Label_PageLast {
+            get {
+                return ResourceManager.GetString("Label_PageLast", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Next.
+        /// </summary>
+        public static string Label_PageNext {
+            get {
+                return ResourceManager.GetString("Label_PageNext", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Previous.
+        /// </summary>
+        public static string Label_PagePrevious {
+            get {
+                return ResourceManager.GetString("Label_PagePrevious", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Privacy Policy.
         /// </summary>
         public static string Label_PrivacyPolicy {

@@ -1491,4 +1491,19 @@
     <data name="UI_Run" xml:space="preserve">
         <value>実行(_R)</value>
     </data>
+    <data name="Label_Page" xml:space="preserve">
+        <value>ページ</value>
+    </data>
+    <data name="Label_PageFirst" xml:space="preserve">
+        <value>先頭へ</value>
+    </data>
+    <data name="Label_PagePrevious" xml:space="preserve">
+        <value>前へ</value>
+    </data>
+    <data name="Label_PageNext" xml:space="preserve">
+        <value>次へ</value>
+    </data>
+    <data name="Label_PageLast" xml:space="preserve">
+        <value>末尾へ</value>
+    </data>
 </root>

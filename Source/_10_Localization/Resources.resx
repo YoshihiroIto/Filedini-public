@@ -1539,4 +1539,19 @@ Destination:
     <data name="UI_Run" xml:space="preserve">
         <value>_Run</value>
     </data>
+    <data name="Label_Page" xml:space="preserve">
+        <value>Page</value>
+    </data>
+    <data name="Label_PageFirst" xml:space="preserve">
+        <value>First</value>
+    </data>
+    <data name="Label_PageNext" xml:space="preserve">
+        <value>Next</value>
+    </data>
+    <data name="Label_PageLast" xml:space="preserve">
+        <value>Last</value>
+    </data>
+    <data name="Label_PagePrevious" xml:space="preserve">
+        <value>Previous</value>
+    </data>
 </root>
