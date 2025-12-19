@@ -1506,4 +1506,22 @@
     <data name="Label_PageLast" xml:space="preserve">
         <value>末尾へ</value>
     </data>
+    <data name="Label_DB_Name" xml:space="preserve">
+        <value>名前</value>
+    </data>
+    <data name="Label_DB_DataType" xml:space="preserve">
+        <value>データ型</value>
+    </data>
+    <data name="Label_DB_Column" xml:space="preserve">
+        <value>カラム</value>
+    </data>
+    <data name="Label_DB_Index" xml:space="preserve">
+        <value>インデックス</value>
+    </data>
+    <data name="Label_DB_Constraint" xml:space="preserve">
+        <value>制約</value>
+    </data>
+    <data name="Label_DB_DatabaseStructure" xml:space="preserve">
+        <value>データベース構造</value>
+    </data>
 </root>

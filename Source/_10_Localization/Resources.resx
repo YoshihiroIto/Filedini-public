@@ -1554,4 +1554,22 @@ Destination:
     <data name="Label_PagePrevious" xml:space="preserve">
         <value>Previous</value>
     </data>
+    <data name="Label_DB_Name" xml:space="preserve">
+        <value>Name</value>
+    </data>
+    <data name="Label_DB_DataType" xml:space="preserve">
+        <value>Data Type</value>
+    </data>
+    <data name="Label_DB_Index" xml:space="preserve">
+        <value>Index</value>
+    </data>
+    <data name="Label_DB_Column" xml:space="preserve">
+        <value>Column</value>
+    </data>
+    <data name="Label_DB_Constraint" xml:space="preserve">
+        <value>Constraint</value>
+    </data>
+    <data name="Label_DB_DatabaseStructure" xml:space="preserve">
+        <value>Database Structure</value>
+    </data>
 </root>

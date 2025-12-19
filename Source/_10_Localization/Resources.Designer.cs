@@ -2167,6 +2167,60 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Column.
+        /// </summary>
+        public static string Label_DB_Column {
+            get {
+                return ResourceManager.GetString("Label_DB_Column", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Constraint.
+        /// </summary>
+        public static string Label_DB_Constraint {
+            get {
+                return ResourceManager.GetString("Label_DB_Constraint", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Database Structure.
+        /// </summary>
+        public static string Label_DB_DatabaseStructure {
+            get {
+                return ResourceManager.GetString("Label_DB_DatabaseStructure", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Data Type.
+        /// </summary>
+        public static string Label_DB_DataType {
+            get {
+                return ResourceManager.GetString("Label_DB_DataType", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Index.
+        /// </summary>
+        public static string Label_DB_Index {
+            get {
+                return ResourceManager.GetString("Label_DB_Index", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Name.
+        /// </summary>
+        public static string Label_DB_Name {
+            get {
+                return ResourceManager.GetString("Label_DB_Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Default.
         /// </summary>
         public static string Label_Default {
