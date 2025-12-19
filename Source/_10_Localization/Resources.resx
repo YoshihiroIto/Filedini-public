@@ -1578,4 +1578,7 @@ Destination:
     <data name="Label_DB_Go" xml:space="preserve">
         <value>Go</value>
     </data>
+    <data name="Label_Filter" xml:space="preserve">
+        <value>Filter</value>
+    </data>
 </root>

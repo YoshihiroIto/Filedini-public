@@ -1530,4 +1530,7 @@
     <data name="Label_DB_Go" xml:space="preserve">
         <value>移動</value>
     </data>
+    <data name="Label_Filter" xml:space="preserve">
+        <value>フィルター</value>
+    </data>
 </root>
