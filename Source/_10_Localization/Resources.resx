@@ -1572,4 +1572,10 @@ Destination:
     <data name="Label_DB_DatabaseStructure" xml:space="preserve">
         <value>Database Structure</value>
     </data>
+    <data name="Label_DB_Row" xml:space="preserve">
+        <value>Row</value>
+    </data>
+    <data name="Label_DB_Go" xml:space="preserve">
+        <value>Go</value>
+    </data>
 </root>

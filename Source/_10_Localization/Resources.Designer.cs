@@ -2203,6 +2203,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Go.
+        /// </summary>
+        public static string Label_DB_Go {
+            get {
+                return ResourceManager.GetString("Label_DB_Go", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Index.
         /// </summary>
         public static string Label_DB_Index {
@@ -2217,6 +2226,15 @@ namespace Filedini.Localization {
         public static string Label_DB_Name {
             get {
                 return ResourceManager.GetString("Label_DB_Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Row.
+        /// </summary>
+        public static string Label_DB_Row {
+            get {
+                return ResourceManager.GetString("Label_DB_Row", resourceCulture);
             }
         }
         

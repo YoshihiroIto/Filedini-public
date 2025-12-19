@@ -1524,4 +1524,10 @@
     <data name="Label_DB_DatabaseStructure" xml:space="preserve">
         <value>データベース構造</value>
     </data>
+    <data name="Label_DB_Row" xml:space="preserve">
+        <value>行</value>
+    </data>
+    <data name="Label_DB_Go" xml:space="preserve">
+        <value>移動</value>
+    </data>
 </root>
