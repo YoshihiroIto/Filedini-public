@@ -1581,4 +1581,10 @@ Destination:
     <data name="Label_Filter" xml:space="preserve">
         <value>Filter</value>
     </data>
+    <data name="Label_DB_Filtered" xml:space="preserve">
+        <value>Filtered</value>
+    </data>
+    <data name="Label_DB_Items" xml:space="preserve">
+        <value>{0:plural:1 item|{:N0} items}</value>
+    </data>
 </root>

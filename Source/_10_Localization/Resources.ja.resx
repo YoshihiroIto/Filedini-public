@@ -1533,4 +1533,10 @@
     <data name="Label_Filter" xml:space="preserve">
         <value>フィルター</value>
     </data>
+    <data name="Label_DB_Filtered" xml:space="preserve">
+        <value>フィルター後</value>
+    </data>
+    <data name="Label_DB_Items" xml:space="preserve">
+        <value>{0:N0} 個のアイテム</value>
+    </data>
 </root>
