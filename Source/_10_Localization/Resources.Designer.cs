@@ -3658,6 +3658,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to File extensions displayed in Web Viewer(semicolon-separated).
+        /// </summary>
+        public static string Settings_FileExtensionsDisplayedInWebView {
+            get {
+                return ResourceManager.GetString("Settings_FileExtensionsDisplayedInWebView", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Font.
         /// </summary>
         public static string Settings_Font {
@@ -4221,6 +4230,15 @@ namespace Filedini.Localization {
         public static string Settings_Theme {
             get {
                 return ResourceManager.GetString("Settings_Theme", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Web Viewer.
+        /// </summary>
+        public static string Settings_WebViewer {
+            get {
+                return ResourceManager.GetString("Settings_WebViewer", resourceCulture);
             }
         }
         

@@ -1539,4 +1539,10 @@
     <data name="Label_DB_Items" xml:space="preserve">
         <value>{0:N0} 個のアイテム</value>
     </data>
+    <data name="Settings_WebViewer" xml:space="preserve">
+        <value>Webビューワー</value>
+    </data>
+    <data name="Settings_FileExtensionsDisplayedInWebView" xml:space="preserve">
+        <value>Webビューワーで表示するファイル拡張子（;区切りで複数指定可能）</value>
+    </data>
 </root>

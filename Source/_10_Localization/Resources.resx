@@ -1587,4 +1587,10 @@ Destination:
     <data name="Label_DB_Items" xml:space="preserve">
         <value>{0:plural:1 item|{:N0} items}</value>
     </data>
+    <data name="Settings_WebViewer" xml:space="preserve">
+        <value>Web Viewer</value>
+    </data>
+    <data name="Settings_FileExtensionsDisplayedInWebView" xml:space="preserve">
+        <value>File extensions displayed in Web Viewer(semicolon-separated)</value>
+    </data>
 </root>
