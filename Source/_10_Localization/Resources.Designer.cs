@@ -3660,9 +3660,9 @@ namespace Filedini.Localization {
         /// <summary>
         ///   Looks up a localized string similar to File extensions displayed in Web Viewer(semicolon-separated).
         /// </summary>
-        public static string Settings_FileExtensionsDisplayedInWebView {
+        public static string Settings_FileExtensionsDisplayedInWebViewer {
             get {
-                return ResourceManager.GetString("Settings_FileExtensionsDisplayedInWebView", resourceCulture);
+                return ResourceManager.GetString("Settings_FileExtensionsDisplayedInWebViewer", resourceCulture);
             }
         }
         
@@ -4194,6 +4194,15 @@ namespace Filedini.Localization {
         public static string Settings_LastWriteDisplay {
             get {
                 return ResourceManager.GetString("Settings_LastWriteDisplay", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Markdown File Extensions Displayed In Web Viewer.
+        /// </summary>
+        public static string Settings_MarkdownFileExtensionsDisplayedInWebViewer {
+            get {
+                return ResourceManager.GetString("Settings_MarkdownFileExtensionsDisplayedInWebViewer", resourceCulture);
             }
         }
         

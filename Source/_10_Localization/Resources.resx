@@ -1590,7 +1590,10 @@ Destination:
     <data name="Settings_WebViewer" xml:space="preserve">
         <value>Web Viewer</value>
     </data>
-    <data name="Settings_FileExtensionsDisplayedInWebView" xml:space="preserve">
+    <data name="Settings_FileExtensionsDisplayedInWebViewer" xml:space="preserve">
         <value>File extensions displayed in Web Viewer(semicolon-separated)</value>
+    </data>
+    <data name="Settings_MarkdownFileExtensionsDisplayedInWebViewer" xml:space="preserve">
+        <value>Markdown File Extensions Displayed In Web Viewer</value>
     </data>
 </root>
