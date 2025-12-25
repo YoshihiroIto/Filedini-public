@@ -1584,9 +1584,6 @@ Destination:
     <data name="Label_DB_Filtered" xml:space="preserve">
         <value>Filtered</value>
     </data>
-    <data name="Label_DB_Items" xml:space="preserve">
-        <value>{0:plural:1 item|{:N0} items}</value>
-    </data>
     <data name="Settings_WebViewer" xml:space="preserve">
         <value>Web Viewer</value>
     </data>
@@ -1595,5 +1592,23 @@ Destination:
     </data>
     <data name="Settings_MarkdownFileExtensionsDisplayedInWebViewer" xml:space="preserve">
         <value>Markdown File Extensions Displayed In Web Viewer</value>
+    </data>
+    <data name="Label_ItemsCount" xml:space="preserve">
+        <value>{0:plural:1 item|{:N0} items}</value>
+    </data>
+    <data name="Label_Archive_Name" xml:space="preserve">
+        <value>Name</value>
+    </data>
+    <data name="Label_Archive_Size" xml:space="preserve">
+        <value>Size</value>
+    </data>
+    <data name="Label_Archive_CompressdSize" xml:space="preserve">
+        <value>Compressed Size</value>
+    </data>
+    <data name="Label_Archive_Ratio" xml:space="preserve">
+        <value>Ratio</value>
+    </data>
+    <data name="Label_Archive_Timestamp" xml:space="preserve">
+        <value>Timestamp</value>
     </data>
 </root>

@@ -2131,6 +2131,51 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Compressed Size.
+        /// </summary>
+        public static string Label_Archive_CompressdSize {
+            get {
+                return ResourceManager.GetString("Label_Archive_CompressdSize", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Name.
+        /// </summary>
+        public static string Label_Archive_Name {
+            get {
+                return ResourceManager.GetString("Label_Archive_Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ratio.
+        /// </summary>
+        public static string Label_Archive_Ratio {
+            get {
+                return ResourceManager.GetString("Label_Archive_Ratio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Size.
+        /// </summary>
+        public static string Label_Archive_Size {
+            get {
+                return ResourceManager.GetString("Label_Archive_Size", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Timestamp.
+        /// </summary>
+        public static string Label_Archive_Timestamp {
+            get {
+                return ResourceManager.GetString("Label_Archive_Timestamp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Archive Name.
         /// </summary>
         public static string Label_ArchiveName {
@@ -2226,15 +2271,6 @@ namespace Filedini.Localization {
         public static string Label_DB_Index {
             get {
                 return ResourceManager.GetString("Label_DB_Index", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to {0:plural:1 item|{:N0} items}.
-        /// </summary>
-        public static string Label_DB_Items {
-            get {
-                return ResourceManager.GetString("Label_DB_Items", resourceCulture);
             }
         }
         
@@ -2352,6 +2388,15 @@ namespace Filedini.Localization {
         public static string Label_ItemName {
             get {
                 return ResourceManager.GetString("Label_ItemName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0:plural:1 item|{:N0} items}.
+        /// </summary>
+        public static string Label_ItemsCount {
+            get {
+                return ResourceManager.GetString("Label_ItemsCount", resourceCulture);
             }
         }
         

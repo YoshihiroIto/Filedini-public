@@ -1536,9 +1536,6 @@
     <data name="Label_DB_Filtered" xml:space="preserve">
         <value>フィルター後</value>
     </data>
-    <data name="Label_DB_Items" xml:space="preserve">
-        <value>{0:N0} 個のアイテム</value>
-    </data>
     <data name="Settings_WebViewer" xml:space="preserve">
         <value>Webビューワー</value>
     </data>
@@ -1547,5 +1544,23 @@
     </data>
     <data name="Settings_MarkdownFileExtensionsDisplayedInWebViewer" xml:space="preserve">
         <value>Webビューワーで表示するMarkdownファイル拡張子（;区切りで複数指定可能）</value>
+    </data>
+    <data name="Label_ItemsCount" xml:space="preserve">
+        <value>{0:N0} 個のアイテム</value>
+    </data>
+    <data name="Label_Archive_Name" xml:space="preserve">
+        <value>名前</value>
+    </data>
+    <data name="Label_Archive_Size" xml:space="preserve">
+        <value>サイズ</value>
+    </data>
+    <data name="Label_Archive_CompressdSize" xml:space="preserve">
+        <value>圧縮後サイズ</value>
+    </data>
+    <data name="Label_Archive_Ratio" xml:space="preserve">
+        <value>比率</value>
+    </data>
+    <data name="Label_Archive_Timestamp" xml:space="preserve">
+        <value>日付</value>
     </data>
 </root>
