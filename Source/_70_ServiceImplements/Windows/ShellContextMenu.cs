@@ -230,6 +230,7 @@ file class Hook : IDisposable
                 if (_contextMenu3.HandleMenuMsg2(msg, wParam, lParam, IntPtr.Zero) is S_OK)
                 {
                     handled = true;
+                    // ReSharper disable once DuplicatedStatements
                     return IntPtr.Zero;
                 }
             }
