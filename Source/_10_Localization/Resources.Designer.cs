@@ -483,6 +483,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string FileMenu_ {
+            get {
+                return ResourceManager.GetString("FileMenu_", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to About Filedini....
         /// </summary>
         public static string FileMenu_AboutApp {
@@ -533,6 +542,42 @@ namespace Filedini.Localization {
         public static string FileMenu_ClearSearchBox {
             get {
                 return ResourceManager.GetString("FileMenu_ClearSearchBox", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Close _Other Tabs.
+        /// </summary>
+        public static string FileMenu_CloseOtherTabs {
+            get {
+                return ResourceManager.GetString("FileMenu_CloseOtherTabs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to _Close Tab.
+        /// </summary>
+        public static string FileMenu_CloseTab {
+            get {
+                return ResourceManager.GetString("FileMenu_CloseTab", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Close Tabs to the _Left.
+        /// </summary>
+        public static string FileMenu_CloseTabsToTheLeft {
+            get {
+                return ResourceManager.GetString("FileMenu_CloseTabsToTheLeft", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Close Tabs to the _Right.
+        /// </summary>
+        public static string FileMenu_CloseTabsToTheRight {
+            get {
+                return ResourceManager.GetString("FileMenu_CloseTabsToTheRight", resourceCulture);
             }
         }
         
@@ -659,6 +704,15 @@ namespace Filedini.Localization {
         public static string FileMenu_DisplayMode {
             get {
                 return ResourceManager.GetString("FileMenu_DisplayMode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to _Duplicate Tab.
+        /// </summary>
+        public static string FileMenu_DuplicateTab {
+            get {
+                return ResourceManager.GetString("FileMenu_DuplicateTab", resourceCulture);
             }
         }
         
@@ -1032,6 +1086,33 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Move Tab Le_ft.
+        /// </summary>
+        public static string FileMenu_MoveTabLeft {
+            get {
+                return ResourceManager.GetString("FileMenu_MoveTabLeft", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Move Tab R_ight.
+        /// </summary>
+        public static string FileMenu_MoveTabRight {
+            get {
+                return ResourceManager.GetString("FileMenu_MoveTabRight", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Move Tab to New _Window.
+        /// </summary>
+        public static string FileMenu_MoveTabToNewWindow {
+            get {
+                return ResourceManager.GetString("FileMenu_MoveTabToNewWindow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Move to Bottom.
         /// </summary>
         public static string FileMenu_MoveToBottom {
@@ -1235,6 +1316,15 @@ namespace Filedini.Localization {
         public static string FileMenu_MoveToVolume9 {
             get {
                 return ResourceManager.GetString("FileMenu_MoveToVolume9", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to _New Tab.
+        /// </summary>
+        public static string FileMenu_NewTab {
+            get {
+                return ResourceManager.GetString("FileMenu_NewTab", resourceCulture);
             }
         }
         
@@ -1455,6 +1545,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to _Reopen Closed Tab.
+        /// </summary>
+        public static string FileMenu_ReopenClosedTab {
+            get {
+                return ResourceManager.GetString("FileMenu_ReopenClosedTab", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to _Script.
         /// </summary>
         public static string FileMenu_Script {
@@ -1523,6 +1622,24 @@ namespace Filedini.Localization {
         public static string FileMenu_SelectHotkeyDialog {
             get {
                 return ResourceManager.GetString("FileMenu_SelectHotkeyDialog", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to N_ext Tab.
+        /// </summary>
+        public static string FileMenu_SelectNextTab {
+            get {
+                return ResourceManager.GetString("FileMenu_SelectNextTab", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pre_vious Tab.
+        /// </summary>
+        public static string FileMenu_SelectPreviousTab {
+            get {
+                return ResourceManager.GetString("FileMenu_SelectPreviousTab", resourceCulture);
             }
         }
         
@@ -1802,6 +1919,24 @@ namespace Filedini.Localization {
         public static string FileMenu_SwitchView {
             get {
                 return ResourceManager.GetString("FileMenu_SwitchView", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ta_b.
+        /// </summary>
+        public static string FileMenu_Tab {
+            get {
+                return ResourceManager.GetString("FileMenu_Tab", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to _Pin Tab / Unpin Tab.
+        /// </summary>
+        public static string FileMenu_TogglePinTab {
+            get {
+                return ResourceManager.GetString("FileMenu_TogglePinTab", resourceCulture);
             }
         }
         

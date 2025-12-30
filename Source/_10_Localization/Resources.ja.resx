@@ -1563,4 +1563,46 @@
     <data name="Label_Archive_Timestamp" xml:space="preserve">
         <value>日付</value>
     </data>
+    <data name="FileMenu_NewTab" xml:space="preserve">
+        <value>新しいタブ(_N)</value>
+    </data>
+    <data name="FileMenu_CloseTab" xml:space="preserve">
+        <value>タブを閉じる(_C)</value>
+    </data>
+    <data name="FileMenu_CloseOtherTabs" xml:space="preserve">
+        <value>他のタブを閉じる(_O)</value>
+    </data>
+    <data name="FileMenu_CloseTabsToTheRight" xml:space="preserve">
+        <value>右側のタブを閉じる(_R)</value>
+    </data>
+    <data name="FileMenu_CloseTabsToTheLeft" xml:space="preserve">
+        <value>左側のタブを閉じる(_L)</value>
+    </data>
+    <data name="FileMenu_DuplicateTab" xml:space="preserve">
+        <value>タブを複製(_D)</value>
+    </data>
+    <data name="FileMenu_MoveTabToNewWindow" xml:space="preserve">
+        <value>新しいウィンドウへ移動(_W)</value>
+    </data>
+    <data name="FileMenu_ReopenClosedTab" xml:space="preserve">
+        <value>閉じたタブを開く(_R)</value>
+    </data>
+    <data name="FileMenu_TogglePinTab" xml:space="preserve">
+        <value>タブを固定 / 固定を解除(_P)</value>
+    </data>
+    <data name="FileMenu_SelectNextTab" xml:space="preserve">
+        <value>次のタブ(_E)</value>
+    </data>
+    <data name="FileMenu_SelectPreviousTab" xml:space="preserve">
+        <value>前のタブ(_V)</value>
+    </data>
+    <data name="FileMenu_MoveTabLeft" xml:space="preserve">
+        <value>タブを左に移動(_F)</value>
+    </data>
+    <data name="FileMenu_MoveTabRight" xml:space="preserve">
+        <value>タブを右に移動(_I)</value>
+    </data>
+    <data name="FileMenu_Tab" xml:space="preserve">
+        <value>タブ(_B)</value>
+    </data>
 </root>
