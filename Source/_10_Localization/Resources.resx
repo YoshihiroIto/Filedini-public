@@ -1656,4 +1656,7 @@ Destination:
     <data name="FileMenu_Tab" xml:space="preserve">
         <value>Ta_b</value>
     </data>
+    <data name="Label_UnpinTab" xml:space="preserve">
+        <value>Unpin Tab</value>
+    </data>
 </root>

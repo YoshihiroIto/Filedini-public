@@ -2806,6 +2806,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Unpin Tab.
+        /// </summary>
+        public static string Label_UnpinTab {
+            get {
+                return ResourceManager.GetString("Label_UnpinTab", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to {0} of {1} ({2:P1}) used.
         /// </summary>
         public static string Label_VolumeSize {

@@ -1605,4 +1605,7 @@
     <data name="FileMenu_Tab" xml:space="preserve">
         <value>タブ(_B)</value>
     </data>
+    <data name="Label_UnpinTab" xml:space="preserve">
+        <value>ピン止めを解除</value>
+    </data>
 </root>
