@@ -1914,6 +1914,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Tool View.
+        /// </summary>
+        public static string FileMenu_SwitchToolPane {
+            get {
+                return ResourceManager.GetString("FileMenu_SwitchToolPane", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Switch View.
         /// </summary>
         public static string FileMenu_SwitchView {
