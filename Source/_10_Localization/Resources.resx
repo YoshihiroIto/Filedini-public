@@ -1611,7 +1611,52 @@ Destination:
     <data name="Label_Archive_Timestamp" xml:space="preserve">
         <value>Timestamp</value>
     </data>
-    <data name="FileMenu_SwitchToolPane" xml:space="preserve">
-        <value>Tool View</value>
+    <data name="FileMenu_" xml:space="preserve">
+        <value />
+    </data>
+    <data name="FileMenu_CloseTab" xml:space="preserve">
+        <value>_Close Tab</value>
+    </data>
+    <data name="FileMenu_CloseOtherTabs" xml:space="preserve">
+        <value>Close _Other Tabs</value>
+    </data>
+    <data name="FileMenu_CloseTabsToTheLeft" xml:space="preserve">
+        <value>Close Tabs to the _Left</value>
+    </data>
+    <data name="FileMenu_CloseTabsToTheRight" xml:space="preserve">
+        <value>Close Tabs to the _Right</value>
+    </data>
+    <data name="FileMenu_DuplicateTab" xml:space="preserve">
+        <value>_Duplicate Tab</value>
+    </data>
+    <data name="FileMenu_ReopenClosedTab" xml:space="preserve">
+        <value>_Reopen Closed Tab</value>
+    </data>
+    <data name="FileMenu_SelectPreviousTab" xml:space="preserve">
+        <value>Pre_vious Tab</value>
+    </data>
+    <data name="FileMenu_SelectNextTab" xml:space="preserve">
+        <value>N_ext Tab</value>
+    </data>
+    <data name="FileMenu_MoveTabLeft" xml:space="preserve">
+        <value>Move Tab Le_ft</value>
+    </data>
+    <data name="FileMenu_MoveTabRight" xml:space="preserve">
+        <value>Move Tab R_ight</value>
+    </data>
+    <data name="FileMenu_MoveTabToNewWindow" xml:space="preserve">
+        <value>Move Tab to New _Window</value>
+    </data>
+    <data name="FileMenu_TogglePinTab" xml:space="preserve">
+        <value>_Pin Tab / Unpin Tab</value>
+    </data>
+    <data name="FileMenu_NewTab" xml:space="preserve">
+        <value>_New Tab</value>
+    </data>
+    <data name="FileMenu_Tab" xml:space="preserve">
+        <value>Ta_b</value>
+    </data>
+    <data name="Label_UnpinTab" xml:space="preserve">
+        <value>Unpin Tab</value>
     </data>
 </root>
