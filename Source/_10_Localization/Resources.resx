@@ -1611,9 +1611,6 @@ Destination:
     <data name="Label_Archive_Timestamp" xml:space="preserve">
         <value>Timestamp</value>
     </data>
-    <data name="FileMenu_" xml:space="preserve">
-        <value />
-    </data>
     <data name="FileMenu_CloseTab" xml:space="preserve">
         <value>_Close Tab</value>
     </data>
@@ -1658,5 +1655,14 @@ Destination:
     </data>
     <data name="Label_UnpinTab" xml:space="preserve">
         <value>Unpin Tab</value>
+    </data>
+    <data name="MainMenuResponsiveModes_AdaptiveEllipsis" xml:space="preserve">
+        <value>Adaptive Ellipsis</value>
+    </data>
+    <data name="MainMenuResponsiveModes_AlwaysHamburger" xml:space="preserve">
+        <value>Always Hamburger Menu</value>
+    </data>
+    <data name="Settings_Label_MainMenuResponsiveMode" xml:space="preserve">
+        <value>Main Menu Responsive Mode</value>
     </data>
 </root>

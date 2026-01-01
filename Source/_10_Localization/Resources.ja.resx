@@ -1608,4 +1608,13 @@
     <data name="Label_UnpinTab" xml:space="preserve">
         <value>ピン止めを解除</value>
     </data>
+    <data name="MainMenuResponsiveModes_AlwaysHamburger" xml:space="preserve">
+        <value>常にハンバーガーメニュー</value>
+    </data>
+    <data name="MainMenuResponsiveModes_AdaptiveEllipsis" xml:space="preserve">
+        <value>入らない項目を省略</value>
+    </data>
+    <data name="Settings_Label_MainMenuResponsiveMode" xml:space="preserve">
+        <value>メインメニューレスポンシブモード</value>
+    </data>
 </root>

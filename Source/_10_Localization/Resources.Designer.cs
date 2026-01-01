@@ -483,15 +483,6 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
-        /// </summary>
-        public static string FileMenu_ {
-            get {
-                return ResourceManager.GetString("FileMenu_", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to About Filedini....
         /// </summary>
         public static string FileMenu_AboutApp {
@@ -2878,6 +2869,24 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Adaptive Ellipsis.
+        /// </summary>
+        public static string MainMenuResponsiveModes_AdaptiveEllipsis {
+            get {
+                return ResourceManager.GetString("MainMenuResponsiveModes_AdaptiveEllipsis", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Always Hamburger Menu.
+        /// </summary>
+        public static string MainMenuResponsiveModes_AlwaysHamburger {
+            get {
+                return ResourceManager.GetString("MainMenuResponsiveModes_AlwaysHamburger", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to {0}
         ///
         ///Access denied..
@@ -4122,6 +4131,15 @@ namespace Filedini.Localization {
         public static string Settings_Label_LayoutByDisplayMode {
             get {
                 return ResourceManager.GetString("Settings_Label_LayoutByDisplayMode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Main Menu Responsive Mode.
+        /// </summary>
+        public static string Settings_Label_MainMenuResponsiveMode {
+            get {
+                return ResourceManager.GetString("Settings_Label_MainMenuResponsiveMode", resourceCulture);
             }
         }
         
