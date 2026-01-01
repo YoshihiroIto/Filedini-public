@@ -1617,4 +1617,7 @@
     <data name="Settings_Label_MainMenuResponsiveMode" xml:space="preserve">
         <value>メインメニューレスポンシブモード</value>
     </data>
+    <data name="FileMenu_SwitchToolPane" xml:space="preserve">
+        <value>ツール</value>
+    </data>
 </root>

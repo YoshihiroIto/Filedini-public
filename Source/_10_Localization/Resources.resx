@@ -1665,4 +1665,7 @@ Destination:
     <data name="Settings_Label_MainMenuResponsiveMode" xml:space="preserve">
         <value>Main Menu Responsive Mode</value>
     </data>
+    <data name="FileMenu_SwitchToolPane" xml:space="preserve">
+        <value>Tool View</value>
+    </data>
 </root>
