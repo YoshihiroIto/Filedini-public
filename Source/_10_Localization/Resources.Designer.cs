@@ -4585,6 +4585,24 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Script Workspace.
+        /// </summary>
+        public static string Tool_ScriptWorkspace {
+            get {
+                return ResourceManager.GetString("Tool_ScriptWorkspace", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Terminal.
+        /// </summary>
+        public static string Tool_Terminal {
+            get {
+                return ResourceManager.GetString("Tool_Terminal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Add Variable.
         /// </summary>
         public static string Tooltip_AddVariable {
@@ -4621,6 +4639,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to New Terminal.
+        /// </summary>
+        public static string Tooltip_NewTerminal {
+            get {
+                return ResourceManager.GetString("Tooltip_NewTerminal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Select Fallback Font.
         /// </summary>
         public static string Tooltip_SelectFallbackFont {
@@ -4644,6 +4671,15 @@ namespace Filedini.Localization {
         public static string Tooltip_SelectScriptFile {
             get {
                 return ResourceManager.GetString("Tooltip_SelectScriptFile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Split Terminal.
+        /// </summary>
+        public static string Tooltip_SplitTerminal {
+            get {
+                return ResourceManager.GetString("Tooltip_SplitTerminal", resourceCulture);
             }
         }
         

@@ -1668,4 +1668,16 @@ Destination:
     <data name="FileMenu_SwitchToolPane" xml:space="preserve">
         <value>Tool View</value>
     </data>
+    <data name="Tool_Terminal" xml:space="preserve">
+        <value>Terminal</value>
+    </data>
+    <data name="Tool_ScriptWorkspace" xml:space="preserve">
+        <value>Script Workspace</value>
+    </data>
+    <data name="Tooltip_NewTerminal" xml:space="preserve">
+        <value>New Terminal</value>
+    </data>
+    <data name="Tooltip_SplitTerminal" xml:space="preserve">
+        <value>Split Terminal</value>
+    </data>
 </root>

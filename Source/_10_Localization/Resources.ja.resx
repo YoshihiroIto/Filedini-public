@@ -1620,4 +1620,16 @@
     <data name="FileMenu_SwitchToolPane" xml:space="preserve">
         <value>ツール</value>
     </data>
+    <data name="Tool_ScriptWorkspace" xml:space="preserve">
+        <value>スクリプトワークスペース</value>
+    </data>
+    <data name="Tool_Terminal" xml:space="preserve">
+        <value>ターミナル</value>
+    </data>
+    <data name="Tooltip_NewTerminal" xml:space="preserve">
+        <value>新しいターミナル</value>
+    </data>
+    <data name="Tooltip_SplitTerminal" xml:space="preserve">
+        <value>ターミナルの分割</value>
+    </data>
 </root>
