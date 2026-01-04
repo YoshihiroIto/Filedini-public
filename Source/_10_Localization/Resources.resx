@@ -1680,4 +1680,7 @@ Destination:
     <data name="Tooltip_SplitTerminal" xml:space="preserve">
         <value>Split Terminal</value>
     </data>
+    <data name="Tooltip_CloseTerminal" xml:space="preserve">
+        <value>Close Terminal</value>
+    </data>
 </root>

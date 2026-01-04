@@ -1632,4 +1632,7 @@
     <data name="Tooltip_SplitTerminal" xml:space="preserve">
         <value>ターミナルの分割</value>
     </data>
+    <data name="Tooltip_CloseTerminal" xml:space="preserve">
+        <value>ターミナルを閉じる</value>
+    </data>
 </root>

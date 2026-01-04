@@ -4612,6 +4612,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Close Terminal.
+        /// </summary>
+        public static string Tooltip_CloseTerminal {
+            get {
+                return ResourceManager.GetString("Tooltip_CloseTerminal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Edit Hotkey.
         /// </summary>
         public static string Tooltip_EditHotkey {
