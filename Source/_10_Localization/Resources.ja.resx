@@ -1638,4 +1638,13 @@
     <data name="Tooltip_CloseTerminal" xml:space="preserve">
         <value>ターミナルを閉じる</value>
     </data>
+    <data name="Settings_Tool" xml:space="preserve">
+        <value>ツール</value>
+    </data>
+    <data name="Settings_Terminal" xml:space="preserve">
+        <value>ターミナル</value>
+    </data>
+    <data name="Settings_Label_TerminalFontSize" xml:space="preserve">
+        <value>ターミナルフォントサイズ</value>
+    </data>
 </root>

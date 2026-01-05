@@ -3991,6 +3991,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Default Shell.
+        /// </summary>
+        public static string Settings_Label_DefaultTerminal {
+            get {
+                return ResourceManager.GetString("Settings_Label_DefaultTerminal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Extension.
         /// </summary>
         public static string Settings_Label_Extension {
@@ -4333,20 +4342,20 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Default Shell.
-        /// </summary>
-        public static string Settings_Label_DefaultTerminal {
-            get {
-                return ResourceManager.GetString("Settings_Label_DefaultTerminal", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Terminal.
         /// </summary>
         public static string Settings_Label_Terminal {
             get {
                 return ResourceManager.GetString("Settings_Label_Terminal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Terminal Font Size.
+        /// </summary>
+        public static string Settings_Label_TerminalFontSize {
+            get {
+                return ResourceManager.GetString("Settings_Label_TerminalFontSize", resourceCulture);
             }
         }
         
@@ -4459,11 +4468,29 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Terminal.
+        /// </summary>
+        public static string Settings_Terminal {
+            get {
+                return ResourceManager.GetString("Settings_Terminal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Theme.
         /// </summary>
         public static string Settings_Theme {
             get {
                 return ResourceManager.GetString("Settings_Theme", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tool.
+        /// </summary>
+        public static string Settings_Tool {
+            get {
+                return ResourceManager.GetString("Settings_Tool", resourceCulture);
             }
         }
         

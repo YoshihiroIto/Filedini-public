@@ -1686,4 +1686,13 @@ Destination:
     <data name="Tooltip_CloseTerminal" xml:space="preserve">
         <value>Close Terminal</value>
     </data>
+    <data name="Settings_Tool" xml:space="preserve">
+        <value>Tool</value>
+    </data>
+    <data name="Settings_Terminal" xml:space="preserve">
+        <value>Terminal</value>
+    </data>
+    <data name="Settings_Label_TerminalFontSize" xml:space="preserve">
+        <value>Terminal Font Size</value>
+    </data>
 </root>
