@@ -4360,6 +4360,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Terminal Theme.
+        /// </summary>
+        public static string Settings_Label_TerminalThemeMode {
+            get {
+                return ResourceManager.GetString("Settings_Label_TerminalThemeMode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Text Viewer Buffer Size.
         /// </summary>
         public static string Settings_Label_TextViewerBufferSize {
@@ -4590,6 +4599,33 @@ namespace Filedini.Localization {
         public static string StatusBar_SelectedItemsCount {
             get {
                 return ResourceManager.GetString("StatusBar_SelectedItemsCount", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Always Dark Theme.
+        /// </summary>
+        public static string TerminalThemeModes_AlwaysDarkTheme {
+            get {
+                return ResourceManager.GetString("TerminalThemeModes_AlwaysDarkTheme", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Always Light Theme.
+        /// </summary>
+        public static string TerminalThemeModes_AlwaysLightTheme {
+            get {
+                return ResourceManager.GetString("TerminalThemeModes_AlwaysLightTheme", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Use App Setting.
+        /// </summary>
+        public static string TerminalThemeModes_AppSetting {
+            get {
+                return ResourceManager.GetString("TerminalThemeModes_AppSetting", resourceCulture);
             }
         }
         

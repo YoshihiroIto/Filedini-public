@@ -1695,4 +1695,16 @@ Destination:
     <data name="Settings_Label_TerminalFontSize" xml:space="preserve">
         <value>Terminal Font Size</value>
     </data>
+    <data name="TerminalThemeModes_AppSetting" xml:space="preserve">
+        <value>Use App Setting</value>
+    </data>
+    <data name="TerminalThemeModes_AlwaysLightTheme" xml:space="preserve">
+        <value>Always Light Theme</value>
+    </data>
+    <data name="TerminalThemeModes_AlwaysDarkTheme" xml:space="preserve">
+        <value>Always Dark Theme</value>
+    </data>
+    <data name="Settings_Label_TerminalThemeMode" xml:space="preserve">
+        <value>Terminal Theme</value>
+    </data>
 </root>

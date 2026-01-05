@@ -1647,4 +1647,16 @@
     <data name="Settings_Label_TerminalFontSize" xml:space="preserve">
         <value>ターミナルフォントサイズ</value>
     </data>
+    <data name="TerminalThemeModes_AppSetting" xml:space="preserve">
+        <value>アプリ設定を使う</value>
+    </data>
+    <data name="TerminalThemeModes_AlwaysDarkTheme" xml:space="preserve">
+        <value>常にダークテーマ</value>
+    </data>
+    <data name="TerminalThemeModes_AlwaysLightTheme" xml:space="preserve">
+        <value>常にライトテーマ</value>
+    </data>
+    <data name="Settings_Label_TerminalThemeMode" xml:space="preserve">
+        <value>ターミナルテーマ</value>
+    </data>
 </root>
