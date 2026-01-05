@@ -756,7 +756,10 @@ Do you want to proceed?</value>
     <data name="Settings_Label_ExternalApp2" xml:space="preserve">
         <value>External App2</value>
     </data>
-    <data name="Settings_Label_Terminal" xml:space="preserve">
+    <data name="Settings_Label_DefaultTerminal" xml:space="preserve">
+    <value>Default Shell</value>
+  </data>
+  <data name="Settings_Label_Terminal" xml:space="preserve">
         <value>Terminal</value>
     </data>
     <data name="Settings_Label_FileManager" xml:space="preserve">

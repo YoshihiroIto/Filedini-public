@@ -4333,6 +4333,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Default Shell.
+        /// </summary>
+        public static string Settings_Label_DefaultTerminal {
+            get {
+                return ResourceManager.GetString("Settings_Label_DefaultTerminal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Terminal.
         /// </summary>
         public static string Settings_Label_Terminal {

@@ -738,7 +738,10 @@
     <data name="Settings_Label_ExternalApp2" xml:space="preserve">
         <value>外部アプリ２</value>
     </data>
-    <data name="Settings_Label_Terminal" xml:space="preserve">
+    <data name="Settings_Label_DefaultTerminal" xml:space="preserve">
+    <value>既定のシェル</value>
+  </data>
+  <data name="Settings_Label_Terminal" xml:space="preserve">
         <value>ターミナル</value>
     </data>
     <data name="Settings_Label_Path" xml:space="preserve">
