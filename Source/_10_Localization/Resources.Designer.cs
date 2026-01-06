@@ -4369,6 +4369,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Trim trailing newlines and whitespace on paste.
+        /// </summary>
+        public static string Settings_Label_TerminalTrimTrailingNewLineAndWhitespaceOnPaste {
+            get {
+                return ResourceManager.GetString("Settings_Label_TerminalTrimTrailingNewLineAndWhitespaceOnPaste", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Text Viewer Buffer Size.
         /// </summary>
         public static string Settings_Label_TextViewerBufferSize {

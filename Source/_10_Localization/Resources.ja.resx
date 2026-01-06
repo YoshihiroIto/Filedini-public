@@ -1659,6 +1659,9 @@
     <data name="Settings_Label_TerminalThemeMode" xml:space="preserve">
         <value>ターミナルテーマ</value>
     </data>
+    <data name="Settings_Label_TerminalTrimTrailingNewLineAndWhitespaceOnPaste" xml:space="preserve">
+        <value>ペースト時に末尾の空白と改行を削除する</value>
+    </data>
     <data name="Terminal_ConfirmPasteTitle" xml:space="preserve">
         <value>貼り付けの確認</value>
     </data>

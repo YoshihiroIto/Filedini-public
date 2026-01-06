@@ -1707,6 +1707,9 @@ Destination:
     <data name="Settings_Label_TerminalThemeMode" xml:space="preserve">
         <value>Terminal Theme</value>
     </data>
+    <data name="Settings_Label_TerminalTrimTrailingNewLineAndWhitespaceOnPaste" xml:space="preserve">
+        <value>Trim trailing newlines and whitespace on paste</value>
+    </data>
     <data name="Terminal_ConfirmPasteTitle" xml:space="preserve">
         <value>Confirm Paste</value>
     </data>
