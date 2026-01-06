@@ -1707,4 +1707,17 @@ Destination:
     <data name="Settings_Label_TerminalThemeMode" xml:space="preserve">
         <value>Terminal Theme</value>
     </data>
+    <data name="Terminal_ConfirmPasteTitle" xml:space="preserve">
+        <value>Confirm Paste</value>
+    </data>
+    <data name="Terminal_ConfirmPasteMessage" xml:space="preserve">
+        <value>You are about to paste multi-line text.A
+re you sure you want to continue?</value>
+    </data>
+    <data name="Terminal_PasteOption_AsIs" xml:space="preserve">
+        <value>Paste as is</value>
+    </data>
+    <data name="Terminal_PasteOption_AsNewline" xml:space="preserve">
+        <value>Paste as newline (\n)</value>
+    </data>
 </root>

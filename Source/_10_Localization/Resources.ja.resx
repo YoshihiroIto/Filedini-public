@@ -1659,4 +1659,17 @@
     <data name="Settings_Label_TerminalThemeMode" xml:space="preserve">
         <value>ターミナルテーマ</value>
     </data>
+    <data name="Terminal_ConfirmPasteTitle" xml:space="preserve">
+        <value>貼り付けの確認</value>
+    </data>
+    <data name="Terminal_ConfirmPasteMessage" xml:space="preserve">
+        <value>複数行のテキストを貼り付けようとしています。
+実行してもよろしいですか？</value>
+    </data>
+    <data name="Terminal_PasteOption_AsIs" xml:space="preserve">
+        <value>そのままペースト</value>
+    </data>
+    <data name="Terminal_PasteOption_AsNewline" xml:space="preserve">
+        <value>改行 (\n) としてペースト</value>
+    </data>
 </root>

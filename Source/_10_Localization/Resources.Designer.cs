@@ -4603,6 +4603,43 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to You are about to paste multi-line text.A
+        ///re you sure you want to continue?.
+        /// </summary>
+        public static string Terminal_ConfirmPasteMessage {
+            get {
+                return ResourceManager.GetString("Terminal_ConfirmPasteMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Confirm Paste.
+        /// </summary>
+        public static string Terminal_ConfirmPasteTitle {
+            get {
+                return ResourceManager.GetString("Terminal_ConfirmPasteTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Paste as is.
+        /// </summary>
+        public static string Terminal_PasteOption_AsIs {
+            get {
+                return ResourceManager.GetString("Terminal_PasteOption_AsIs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Paste as newline (\n).
+        /// </summary>
+        public static string Terminal_PasteOption_AsNewline {
+            get {
+                return ResourceManager.GetString("Terminal_PasteOption_AsNewline", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Always Dark Theme.
         /// </summary>
         public static string TerminalThemeModes_AlwaysDarkTheme {
