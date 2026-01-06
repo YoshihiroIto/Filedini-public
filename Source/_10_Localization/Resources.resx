@@ -1710,6 +1710,15 @@ Destination:
     <data name="Settings_Label_TerminalTrimTrailingNewLineAndWhitespaceOnPaste" xml:space="preserve">
         <value>Trim trailing newlines and whitespace on paste</value>
     </data>
+    <data name="Settings_Label_TerminalShellConfigs" xml:space="preserve">
+        <value>Per-shell settings</value>
+    </data>
+    <data name="Settings_Label_TerminalUseBackgroundColor" xml:space="preserve">
+        <value>Use custom background color</value>
+    </data>
+    <data name="Settings_Label_TerminalBackgroundColor" xml:space="preserve">
+        <value>Background Color</value>
+    </data>
     <data name="Terminal_ConfirmPasteTitle" xml:space="preserve">
         <value>Confirm Paste</value>
     </data>
