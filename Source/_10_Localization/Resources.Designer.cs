@@ -573,6 +573,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Command Palette.
+        /// </summary>
+        public static string FileMenu_CommandPalette {
+            get {
+                return ResourceManager.GetString("FileMenu_CommandPalette", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Compress Archive....
         /// </summary>
         public static string FileMenu_CompressArchive {
@@ -4351,11 +4360,29 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Background Color.
+        /// </summary>
+        public static string Settings_Label_TerminalBackgroundColor {
+            get {
+                return ResourceManager.GetString("Settings_Label_TerminalBackgroundColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Terminal Font Size.
         /// </summary>
         public static string Settings_Label_TerminalFontSize {
             get {
                 return ResourceManager.GetString("Settings_Label_TerminalFontSize", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Per-shell settings.
+        /// </summary>
+        public static string Settings_Label_TerminalShellConfigs {
+            get {
+                return ResourceManager.GetString("Settings_Label_TerminalShellConfigs", resourceCulture);
             }
         }
         
@@ -4378,29 +4405,11 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Per-shell settings.
-        /// </summary>
-        public static string Settings_Label_TerminalShellConfigs {
-            get {
-                return ResourceManager.GetString("Settings_Label_TerminalShellConfigs", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Use custom background color.
         /// </summary>
         public static string Settings_Label_TerminalUseBackgroundColor {
             get {
                 return ResourceManager.GetString("Settings_Label_TerminalUseBackgroundColor", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Background Color.
-        /// </summary>
-        public static string Settings_Label_TerminalBackgroundColor {
-            get {
-                return ResourceManager.GetString("Settings_Label_TerminalBackgroundColor", resourceCulture);
             }
         }
         

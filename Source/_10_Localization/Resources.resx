@@ -1732,4 +1732,7 @@ re you sure you want to continue?</value>
     <data name="Terminal_PasteOption_AsNewline" xml:space="preserve">
         <value>Paste as newline (\n)</value>
     </data>
+    <data name="FileMenu_CommandPalette" xml:space="preserve">
+        <value>Command Palette</value>
+    </data>
 </root>

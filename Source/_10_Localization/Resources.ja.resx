@@ -1684,4 +1684,7 @@
     <data name="Terminal_PasteOption_AsNewline" xml:space="preserve">
         <value>改行 (\n) としてペースト</value>
     </data>
+    <data name="FileMenu_CommandPalette" xml:space="preserve">
+        <value>コマンドパレット</value>
+    </data>
 </root>
