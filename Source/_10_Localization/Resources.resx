@@ -1733,6 +1733,6 @@ re you sure you want to continue?</value>
         <value>Paste as newline (\n)</value>
     </data>
     <data name="FileMenu_CommandPalette" xml:space="preserve">
-        <value>Command Palette</value>
+        <value>Command Palette...</value>
     </data>
 </root>

@@ -573,7 +573,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Command Palette.
+        ///   Looks up a localized string similar to Command Palette....
         /// </summary>
         public static string FileMenu_CommandPalette {
             get {
