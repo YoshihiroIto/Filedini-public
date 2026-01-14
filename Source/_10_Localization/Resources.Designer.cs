@@ -3721,6 +3721,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to This folder is empty..
+        /// </summary>
+        public static string Message_ThisFolderIsEmpty {
+            get {
+                return ResourceManager.GetString("Message_ThisFolderIsEmpty", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to The trash can is already empty..
         /// </summary>
         public static string Message_TrashCanAlreadyEmpty {

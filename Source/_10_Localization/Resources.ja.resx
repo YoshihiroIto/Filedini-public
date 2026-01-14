@@ -1687,4 +1687,7 @@
     <data name="FileMenu_CommandPalette" xml:space="preserve">
         <value>コマンドパレット...</value>
     </data>
+    <data name="Message_ThisFolderIsEmpty" xml:space="preserve">
+        <value>このフォルダは空です。</value>
+    </data>
 </root>
