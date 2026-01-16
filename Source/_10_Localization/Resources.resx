@@ -1656,7 +1656,7 @@ Destination:
     <data name="FileMenu_Tab" xml:space="preserve">
         <value>Ta_b</value>
     </data>
-    <data name="Label_UnpinTab" xml:space="preserve">
+    <data name="Tooltip_UnpinTab" xml:space="preserve">
         <value>Unpin Tab</value>
     </data>
     <data name="MainMenuResponsiveModes_AdaptiveEllipsis" xml:space="preserve">
@@ -1737,5 +1737,11 @@ re you sure you want to continue?</value>
     </data>
     <data name="Message_ThisFolderIsEmpty" xml:space="preserve">
         <value>This folder is empty.</value>
+    </data>
+    <data name="Tooltip_NewTab" xml:space="preserve">
+        <value>New Tab</value>
+    </data>
+    <data name="Tooltip_CloseTab" xml:space="preserve">
+        <value>Close Tab</value>
     </data>
 </root>

@@ -1608,7 +1608,7 @@
     <data name="FileMenu_Tab" xml:space="preserve">
         <value>タブ(_B)</value>
     </data>
-    <data name="Label_UnpinTab" xml:space="preserve">
+    <data name="Tooltip_UnpinTab" xml:space="preserve">
         <value>ピン止めを解除</value>
     </data>
     <data name="MainMenuResponsiveModes_AlwaysHamburger" xml:space="preserve">
@@ -1689,5 +1689,11 @@
     </data>
     <data name="Message_ThisFolderIsEmpty" xml:space="preserve">
         <value>このフォルダは空です。</value>
+    </data>
+    <data name="Tooltip_NewTab" xml:space="preserve">
+        <value>新しいタブ</value>
+    </data>
+    <data name="Tooltip_CloseTab" xml:space="preserve">
+        <value>タブを閉じる</value>
     </data>
 </root>

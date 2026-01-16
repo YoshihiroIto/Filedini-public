@@ -2815,15 +2815,6 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Unpin Tab.
-        /// </summary>
-        public static string Label_UnpinTab {
-            get {
-                return ResourceManager.GetString("Label_UnpinTab", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to {0} of {1} ({2:P1}) used.
         /// </summary>
         public static string Label_VolumeSize {
@@ -4775,6 +4766,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Close Tab.
+        /// </summary>
+        public static string Tooltip_CloseTab {
+            get {
+                return ResourceManager.GetString("Tooltip_CloseTab", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Close Terminal.
         /// </summary>
         public static string Tooltip_CloseTerminal {
@@ -4807,6 +4807,15 @@ namespace Filedini.Localization {
         public static string Tooltip_Language {
             get {
                 return ResourceManager.GetString("Tooltip_Language", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to New Tab.
+        /// </summary>
+        public static string Tooltip_NewTab {
+            get {
+                return ResourceManager.GetString("Tooltip_NewTab", resourceCulture);
             }
         }
         
@@ -4852,6 +4861,15 @@ namespace Filedini.Localization {
         public static string Tooltip_SplitTerminal {
             get {
                 return ResourceManager.GetString("Tooltip_SplitTerminal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unpin Tab.
+        /// </summary>
+        public static string Tooltip_UnpinTab {
+            get {
+                return ResourceManager.GetString("Tooltip_UnpinTab", resourceCulture);
             }
         }
         
