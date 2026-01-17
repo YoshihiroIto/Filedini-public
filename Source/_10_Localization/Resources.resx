@@ -1388,6 +1388,21 @@ Please check back again later.</value>
     <data name="FileMenu_SettingsScript" xml:space="preserve">
         <value>Script Settings...</value>
     </data>
+    <data name="FileMenu_NewScript" xml:space="preserve">
+        <value>New Script...</value>
+    </data>
+    <data name="Message_EnterScriptName" xml:space="preserve">
+        <value>Enter script name:</value>
+    </data>
+    <data name="Message_ConfirmOverwriteScript" xml:space="preserve">
+        <value>Script '{0}' already exists. Do you want to overwrite it?</value>
+    </data>
+    <data name="Message_FailedToCreateScript" xml:space="preserve">
+        <value>Failed to create script: {0}</value>
+    </data>
+    <data name="Message_ScriptCreatedSuccess" xml:space="preserve">
+        <value>Script '{0}' created successfully.</value>
+    </data>
     <data name="Label_ScriptFilePath" xml:space="preserve">
         <value>Script File</value>
     </data>

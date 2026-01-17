@@ -1368,6 +1368,21 @@
     <data name="FileMenu_SettingsScript" xml:space="preserve">
         <value>スクリプト設定...</value>
     </data>
+    <data name="FileMenu_NewScript" xml:space="preserve">
+        <value>新しいスクリプト...</value>
+    </data>
+    <data name="Message_EnterScriptName" xml:space="preserve">
+        <value>スクリプト名を入力してください:</value>
+    </data>
+    <data name="Message_ConfirmOverwriteScript" xml:space="preserve">
+        <value>スクリプト '{0}' は既に存在します。上書きしますか？</value>
+    </data>
+    <data name="Message_FailedToCreateScript" xml:space="preserve">
+        <value>スクリプトの作成に失敗しました: {0}</value>
+    </data>
+    <data name="Message_ScriptCreatedSuccess" xml:space="preserve">
+        <value>スクリプト '{0}' を作成しました。</value>
+    </data>
     <data name="Label_ScriptFilePath" xml:space="preserve">
         <value>スクリプトファイル</value>
     </data>
