@@ -582,6 +582,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Command Palette (Shell Mode).
+        /// </summary>
+        public static string FileMenu_CommandPaletteShellMode {
+            get {
+                return ResourceManager.GetString("FileMenu_CommandPaletteShellMode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Compress Archive....
         /// </summary>
         public static string FileMenu_CompressArchive {

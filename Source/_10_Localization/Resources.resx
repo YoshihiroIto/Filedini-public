@@ -1750,6 +1750,9 @@ re you sure you want to continue?</value>
     <data name="FileMenu_CommandPalette" xml:space="preserve">
         <value>Command Palette...</value>
     </data>
+    <data name="FileMenu_CommandPaletteShellMode" xml:space="preserve">
+        <value>Command Palette (Shell Mode)</value>
+    </data>
     <data name="Message_ThisFolderIsEmpty" xml:space="preserve">
         <value>This folder is empty.</value>
     </data>
