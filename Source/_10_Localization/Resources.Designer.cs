@@ -1446,6 +1446,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Open Default Shell.
+        /// </summary>
+        public static string FileMenu_OpenDefaultShell {
+            get {
+                return ResourceManager.GetString("FileMenu_OpenDefaultShell", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Open in Associated App.
         /// </summary>
         public static string FileMenu_OpenInAssociatedApp {

@@ -1768,4 +1768,7 @@ re you sure you want to continue?</value>
     <data name="FileMenu_Terminal" xml:space="preserve">
         <value>T_erminal</value>
     </data>
+    <data name="FileMenu_OpenDefaultShell" xml:space="preserve">
+        <value>Open Default Shell</value>
+    </data>
 </root>

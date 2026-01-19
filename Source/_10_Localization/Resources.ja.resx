@@ -1720,4 +1720,7 @@
     <data name="FileMenu_Terminal" xml:space="preserve">
         <value>ターミナル(_E)</value>
     </data>
+    <data name="FileMenu_OpenDefaultShell" xml:space="preserve">
+        <value>規定シェルを開く</value>
+    </data>
 </root>
