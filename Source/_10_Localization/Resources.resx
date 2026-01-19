@@ -1686,6 +1686,9 @@ Destination:
     <data name="FileMenu_SwitchToolPane" xml:space="preserve">
         <value>Tool View</value>
     </data>
+    <data name="FileMenu_ToggleTerminal" xml:space="preserve">
+        <value>Toggle Terminal Focus</value>
+    </data>
     <data name="Tool_Terminal" xml:space="preserve">
         <value>Terminal</value>
     </data>

@@ -1941,6 +1941,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Toggle Terminal Focus.
+        /// </summary>
+        public static string FileMenu_ToggleTerminal {
+            get {
+                return ResourceManager.GetString("FileMenu_ToggleTerminal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Switch View.
         /// </summary>
         public static string FileMenu_SwitchView {

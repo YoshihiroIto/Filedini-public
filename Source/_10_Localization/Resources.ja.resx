@@ -1638,6 +1638,9 @@
     <data name="FileMenu_SwitchToolPane" xml:space="preserve">
         <value>ツール</value>
     </data>
+    <data name="FileMenu_ToggleTerminal" xml:space="preserve">
+        <value>ターミナルのフォーカス切り替え</value>
+    </data>
     <data name="Tool_ScriptWorkspace" xml:space="preserve">
         <value>スクリプトワークスペース</value>
     </data>
