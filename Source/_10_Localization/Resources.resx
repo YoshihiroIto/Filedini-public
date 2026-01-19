@@ -118,7 +118,7 @@ The external app is not registered or does not exist.</value>
         <value>Open in File Manager</value>
     </data>
     <data name="FileMenu_OpenInTerminal" xml:space="preserve">
-        <value>Open in Terminal</value>
+        <value>Open in External Terminal</value>
     </data>
     <data name="FileMenu_OpenInAssociatedApp" xml:space="preserve">
         <value>Open in Associated App</value>
@@ -756,7 +756,7 @@ Do you want to proceed?</value>
     <data name="Settings_Label_ExternalApp2" xml:space="preserve">
         <value>External App2</value>
     </data>
-    <data name="Settings_Label_DefaultTerminal" xml:space="preserve">
+    <data name="Settings_Label_DefaultShell" xml:space="preserve">
     <value>Default Shell</value>
   </data>
   <data name="Settings_Label_Terminal" xml:space="preserve">

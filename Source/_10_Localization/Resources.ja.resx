@@ -184,7 +184,7 @@
         <value>ファイルマネージャーで開く</value>
     </data>
     <data name="FileMenu_OpenInTerminal" xml:space="preserve">
-        <value>ターミナルで開く</value>
+        <value>外部ターミナルで開く</value>
     </data>
     <data name="FileMenu_PreviewItem" xml:space="preserve">
         <value>プレビュー</value>
@@ -738,7 +738,7 @@
     <data name="Settings_Label_ExternalApp2" xml:space="preserve">
         <value>外部アプリ２</value>
     </data>
-    <data name="Settings_Label_DefaultTerminal" xml:space="preserve">
+    <data name="Settings_Label_DefaultShell" xml:space="preserve">
     <value>既定のシェル</value>
   </data>
   <data name="Settings_Label_Terminal" xml:space="preserve">

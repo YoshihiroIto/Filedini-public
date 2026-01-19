@@ -1491,7 +1491,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Open in Terminal.
+        ///   Looks up a localized string similar to Open in External Terminal.
         /// </summary>
         public static string FileMenu_OpenInTerminal {
             get {
@@ -4083,9 +4083,9 @@ namespace Filedini.Localization {
         /// <summary>
         ///   Looks up a localized string similar to Default Shell.
         /// </summary>
-        public static string Settings_Label_DefaultTerminal {
+        public static string Settings_Label_DefaultShell {
             get {
-                return ResourceManager.GetString("Settings_Label_DefaultTerminal", resourceCulture);
+                return ResourceManager.GetString("Settings_Label_DefaultShell", resourceCulture);
             }
         }
         
