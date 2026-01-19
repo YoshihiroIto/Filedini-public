@@ -1329,6 +1329,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to New Script....
+        /// </summary>
+        public static string FileMenu_NewScript {
+            get {
+                return ResourceManager.GetString("FileMenu_NewScript", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to _New Tab.
         /// </summary>
         public static string FileMenu_NewTab {
@@ -1723,16 +1732,7 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("FileMenu_SettingsScript", resourceCulture);
             }
         }
-
-        /// <summary>
-        ///   Looks up a localized string similar to New Script....
-        /// </summary>
-        public static string FileMenu_NewScript {
-            get {
-                return ResourceManager.GetString("FileMenu_NewScript", resourceCulture);
-            }
-        }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Show ContextMenu.
         /// </summary>
@@ -1941,15 +1941,6 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Toggle Terminal Focus.
-        /// </summary>
-        public static string FileMenu_ToggleTerminal {
-            get {
-                return ResourceManager.GetString("FileMenu_ToggleTerminal", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Switch View.
         /// </summary>
         public static string FileMenu_SwitchView {
@@ -1968,11 +1959,29 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to T_erminal.
+        /// </summary>
+        public static string FileMenu_Terminal {
+            get {
+                return ResourceManager.GetString("FileMenu_Terminal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to _Pin Tab / Unpin Tab.
         /// </summary>
         public static string FileMenu_TogglePinTab {
             get {
                 return ResourceManager.GetString("FileMenu_TogglePinTab", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Toggle Terminal Focus.
+        /// </summary>
+        public static string FileMenu_ToggleTerminal {
+            get {
+                return ResourceManager.GetString("FileMenu_ToggleTerminal", resourceCulture);
             }
         }
         
@@ -3074,6 +3083,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Script &apos;{0}&apos; already exists. Do you want to overwrite it?.
+        /// </summary>
+        public static string Message_ConfirmOverwriteScript {
+            get {
+                return ResourceManager.GetString("Message_ConfirmOverwriteScript", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Empty the trash can. This action cannot be undone.
         ///Do you want to proceed?.
         /// </summary>
@@ -3106,16 +3124,7 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Message_Copied", resourceCulture);
             }
         }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Script '{0}' already exists. Do you want to overwrite it?.
-        /// </summary>
-        public static string Message_ConfirmOverwriteScript {
-            get {
-                return ResourceManager.GetString("Message_ConfirmOverwriteScript", resourceCulture);
-            }
-        }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Copy {0:plural:1 file|{:N0} files}..
         /// </summary>
@@ -3451,7 +3460,7 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Message_EnterPassword", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Enter script name:.
         /// </summary>
@@ -3460,7 +3469,7 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Message_EnterScriptName", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Failed to create file..
         /// </summary>
@@ -3478,7 +3487,7 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Message_FailedToCreateFolder", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Failed to create script: {0}.
         /// </summary>
@@ -3487,7 +3496,7 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Message_FailedToCreateScript", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Failed to create symbolic link..
         /// </summary>
@@ -3701,6 +3710,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Script &apos;{0}&apos; created successfully..
+        /// </summary>
+        public static string Message_ScriptCreatedSuccess {
+            get {
+                return ResourceManager.GetString("Message_ScriptCreatedSuccess", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Script file not found.
         ///
         ///{0}.
@@ -3710,16 +3728,7 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Message_ScriptFileNotFound", resourceCulture);
             }
         }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Script '{0}' created successfully..
-        /// </summary>
-        public static string Message_ScriptCreatedSuccess {
-            get {
-                return ResourceManager.GetString("Message_ScriptCreatedSuccess", resourceCulture);
-            }
-        }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Search results are limited to 100..
         /// </summary>

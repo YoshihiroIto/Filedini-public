@@ -1717,4 +1717,7 @@
     <data name="Tooltip_CloseTab" xml:space="preserve">
         <value>タブを閉じる</value>
     </data>
+    <data name="FileMenu_Terminal" xml:space="preserve">
+        <value>ターミナル(_E)</value>
+    </data>
 </root>
