@@ -1723,4 +1723,10 @@
     <data name="FileMenu_OpenDefaultShell" xml:space="preserve">
         <value>規定シェルを開く</value>
     </data>
+    <data name="Insert the selected item’s path into the terminal" xml:space="preserve">
+        <value>ターミナルにパスを入力</value>
+    </data>
+    <data name="FileItem_InsertSelectedItemPathIntoTerminal" xml:space="preserve">
+        <value>選択アイテムパスをターミナルへ入力</value>
+    </data>
 </root>
