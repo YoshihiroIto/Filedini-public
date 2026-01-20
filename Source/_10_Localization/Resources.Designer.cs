@@ -483,8 +483,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Insert Selected Item Path into Terminal
-        ///.
+        ///   Looks up a localized string similar to Insert Selected Item Path into Terminal.
         /// </summary>
         public static string FileItem_InsertSelectedItemPathIntoTerminal {
             get {
