@@ -2094,7 +2094,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {0:N0} items.
+        ///   Looks up a localized string similar to {0:plural:1 item|{:N0} items}.
         /// </summary>
         public static string FolderViewer_ItemsFormat {
             get {

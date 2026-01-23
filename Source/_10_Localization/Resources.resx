@@ -1796,6 +1796,6 @@ re you sure you want to continue?</value>
         <value>Others</value>
     </data>
     <data name="FolderViewer_ItemsFormat" xml:space="preserve">
-        <value>{0:N0} items</value>
+        <value>{0:plural:1 item|{:N0} items}</value>
     </data>
 </root>
