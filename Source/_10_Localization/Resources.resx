@@ -1798,4 +1798,7 @@ re you sure you want to continue?</value>
     <data name="FolderViewer_ItemsFormat" xml:space="preserve">
         <value>{0:plural:1 item|{:N0} items}</value>
     </data>
+    <data name="FolderViewer_EmptyFolder" xml:space="preserve">
+        <value>This folder is empty</value>
+    </data>
 </root>

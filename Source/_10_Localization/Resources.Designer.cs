@@ -2076,6 +2076,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to This folder is empty.
+        /// </summary>
+        public static string FolderViewer_EmptyFolder {
+            get {
+                return ResourceManager.GetString("FolderViewer_EmptyFolder", resourceCulture);
+            }
+        }
+
+        /// <summary>
         ///   Looks up a localized string similar to File Count:.
         /// </summary>
         public static string FolderViewer_FileCount {
