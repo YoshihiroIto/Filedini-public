@@ -1729,4 +1729,31 @@
     <data name="FileItem_InsertSelectedItemPathIntoTerminal" xml:space="preserve">
         <value>選択アイテムパスをターミナルへ入力</value>
     </data>
+    <data name="FolderViewer_MeasureButton" xml:space="preserve">
+        <value>計測</value>
+    </data>
+    <data name="FolderViewer_Measuring" xml:space="preserve">
+        <value>計測中...</value>
+    </data>
+    <data name="FolderViewer_FileCount" xml:space="preserve">
+        <value>ファイル数:</value>
+    </data>
+    <data name="FolderViewer_FolderCount" xml:space="preserve">
+        <value>フォルダー数:</value>
+    </data>
+    <data name="FolderViewer_TotalSize" xml:space="preserve">
+        <value>ファイル総容量:</value>
+    </data>
+    <data name="FolderViewer_InitialMessage" xml:space="preserve">
+        <value>計測ボタンを押してフォルダーを分析します</value>
+    </data>
+    <data name="FolderViewer_NoExtension" xml:space="preserve">
+        <value>(拡張子なし)</value>
+    </data>
+    <data name="FolderViewer_Others" xml:space="preserve">
+        <value>その他</value>
+    </data>
+    <data name="FolderViewer_ItemsFormat" xml:space="preserve">
+        <value>{0:N0} 件</value>
+    </data>
 </root>

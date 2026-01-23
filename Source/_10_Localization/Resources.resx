@@ -1774,4 +1774,31 @@ re you sure you want to continue?</value>
     <data name="FileItem_InsertSelectedItemPathIntoTerminal" xml:space="preserve">
         <value>Insert Selected Item Path into Terminal</value>
     </data>
+    <data name="FolderViewer_MeasureButton" xml:space="preserve">
+        <value>Measure</value>
+    </data>
+    <data name="FolderViewer_Measuring" xml:space="preserve">
+        <value>Measuring...</value>
+    </data>
+    <data name="FolderViewer_FileCount" xml:space="preserve">
+        <value>File Count:</value>
+    </data>
+    <data name="FolderViewer_FolderCount" xml:space="preserve">
+        <value>Folder Count:</value>
+    </data>
+    <data name="FolderViewer_TotalSize" xml:space="preserve">
+        <value>Total Size:</value>
+    </data>
+    <data name="FolderViewer_InitialMessage" xml:space="preserve">
+        <value>Press the measure button to analyze the folder</value>
+    </data>
+    <data name="FolderViewer_NoExtension" xml:space="preserve">
+        <value>(No Extension)</value>
+    </data>
+    <data name="FolderViewer_Others" xml:space="preserve">
+        <value>Others</value>
+    </data>
+    <data name="FolderViewer_ItemsFormat" xml:space="preserve">
+        <value>{0:N0} items</value>
+    </data>
 </root>
