@@ -1744,9 +1744,6 @@
     <data name="FolderViewer_TotalSize" xml:space="preserve">
         <value>ファイル総容量:</value>
     </data>
-    <data name="FolderViewer_InitialMessage" xml:space="preserve">
-        <value>計測ボタンを押してフォルダーを分析します</value>
-    </data>
     <data name="FolderViewer_NoExtension" xml:space="preserve">
         <value>(拡張子なし)</value>
     </data>

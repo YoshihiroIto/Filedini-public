@@ -1789,9 +1789,6 @@ re you sure you want to continue?</value>
     <data name="FolderViewer_TotalSize" xml:space="preserve">
         <value>Total Size:</value>
     </data>
-    <data name="FolderViewer_InitialMessage" xml:space="preserve">
-        <value>Press the measure button to analyze the folder</value>
-    </data>
     <data name="FolderViewer_NoExtension" xml:space="preserve">
         <value>(No Extension)</value>
     </data>

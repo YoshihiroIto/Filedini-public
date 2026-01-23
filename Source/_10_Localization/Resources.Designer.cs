@@ -2076,6 +2076,78 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to File Count:.
+        /// </summary>
+        public static string FolderViewer_FileCount {
+            get {
+                return ResourceManager.GetString("FolderViewer_FileCount", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Folder Count:.
+        /// </summary>
+        public static string FolderViewer_FolderCount {
+            get {
+                return ResourceManager.GetString("FolderViewer_FolderCount", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0:N0} items.
+        /// </summary>
+        public static string FolderViewer_ItemsFormat {
+            get {
+                return ResourceManager.GetString("FolderViewer_ItemsFormat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Measure.
+        /// </summary>
+        public static string FolderViewer_MeasureButton {
+            get {
+                return ResourceManager.GetString("FolderViewer_MeasureButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Measuring....
+        /// </summary>
+        public static string FolderViewer_Measuring {
+            get {
+                return ResourceManager.GetString("FolderViewer_Measuring", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (No Extension).
+        /// </summary>
+        public static string FolderViewer_NoExtension {
+            get {
+                return ResourceManager.GetString("FolderViewer_NoExtension", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Others.
+        /// </summary>
+        public static string FolderViewer_Others {
+            get {
+                return ResourceManager.GetString("FolderViewer_Others", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Total Size:.
+        /// </summary>
+        public static string FolderViewer_TotalSize {
+            get {
+                return ResourceManager.GetString("FolderViewer_TotalSize", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Dependency installation complete..
         /// </summary>
         public static string InstallState_DependencyInstallationComplete {
@@ -5239,87 +5311,6 @@ namespace Filedini.Localization {
         public static string VariableDetails_CurrentFolder {
             get {
                 return ResourceManager.GetString("VariableDetails_CurrentFolder", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Measure.
-        /// </summary>
-        public static string FolderViewer_MeasureButton {
-            get {
-                return ResourceManager.GetString("FolderViewer_MeasureButton", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Measuring...
-        /// </summary>
-        public static string FolderViewer_Measuring {
-            get {
-                return ResourceManager.GetString("FolderViewer_Measuring", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to File Count:.
-        /// </summary>
-        public static string FolderViewer_FileCount {
-            get {
-                return ResourceManager.GetString("FolderViewer_FileCount", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Folder Count:.
-        /// </summary>
-        public static string FolderViewer_FolderCount {
-            get {
-                return ResourceManager.GetString("FolderViewer_FolderCount", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Total Size:.
-        /// </summary>
-        public static string FolderViewer_TotalSize {
-            get {
-                return ResourceManager.GetString("FolderViewer_TotalSize", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Press the measure button to analyze the folder.
-        /// </summary>
-        public static string FolderViewer_InitialMessage {
-            get {
-                return ResourceManager.GetString("FolderViewer_InitialMessage", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to (No Extension).
-        /// </summary>
-        public static string FolderViewer_NoExtension {
-            get {
-                return ResourceManager.GetString("FolderViewer_NoExtension", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Others.
-        /// </summary>
-        public static string FolderViewer_Others {
-            get {
-                return ResourceManager.GetString("FolderViewer_Others", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to {0:N0} items.
-        /// </summary>
-        public static string FolderViewer_ItemsFormat {
-            get {
-                return ResourceManager.GetString("FolderViewer_ItemsFormat", resourceCulture);
             }
         }
     }
