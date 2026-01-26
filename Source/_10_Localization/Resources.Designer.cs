@@ -2076,6 +2076,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Cancel.
+        /// </summary>
+        public static string FolderViewer_CancelButton {
+            get {
+                return ResourceManager.GetString("FolderViewer_CancelButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to This folder is empty.
         /// </summary>
         public static string FolderViewer_EmptyFolder {
@@ -2083,7 +2092,7 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("FolderViewer_EmptyFolder", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to File Count:.
         /// </summary>

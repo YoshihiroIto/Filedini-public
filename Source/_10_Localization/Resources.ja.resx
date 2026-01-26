@@ -1756,4 +1756,7 @@
     <data name="FolderViewer_EmptyFolder" xml:space="preserve">
         <value>このフォルダーは空です</value>
     </data>
+    <data name="FolderViewer_CancelButton" xml:space="preserve">
+        <value>キャンセル</value>
+    </data>
 </root>

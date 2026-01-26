@@ -1801,4 +1801,7 @@ re you sure you want to continue?</value>
     <data name="FolderViewer_EmptyFolder" xml:space="preserve">
         <value>This folder is empty</value>
     </data>
+    <data name="FolderViewer_CancelButton" xml:space="preserve">
+        <value>Cancel</value>
+    </data>
 </root>
