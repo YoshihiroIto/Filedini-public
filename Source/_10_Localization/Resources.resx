@@ -1668,6 +1668,12 @@ Destination:
     <data name="FileMenu_NewTab" xml:space="preserve">
         <value>_New Tab</value>
     </data>
+    <data name="FileMenu_CreateTabsFromSelectedFolders" xml:space="preserve">
+        <value>Create Tabs from Selected Folders</value>
+    </data>
+    <data name="FileMenu_OpenAsTabsFromSelectedFolders" xml:space="preserve">
+        <value>Open Selected Folders as Tabs</value>
+    </data>
     <data name="FileMenu_Tab" xml:space="preserve">
         <value>Ta_b</value>
     </data>

@@ -1356,6 +1356,24 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Create Tabs from Selected Folders.
+        /// </summary>
+        public static string FileMenu_CreateTabsFromSelectedFolders {
+            get {
+                return ResourceManager.GetString("FileMenu_CreateTabsFromSelectedFolders", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open Selected Folders as Tabs.
+        /// </summary>
+        public static string FileMenu_OpenAsTabsFromSelectedFolders {
+            get {
+                return ResourceManager.GetString("FileMenu_OpenAsTabsFromSelectedFolders", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Open Bookmark.
         /// </summary>
         public static string FileMenu_OpenBookmark {

@@ -1584,6 +1584,12 @@
     <data name="FileMenu_NewTab" xml:space="preserve">
         <value>新しいタブ(_N)</value>
     </data>
+    <data name="FileMenu_CreateTabsFromSelectedFolders" xml:space="preserve">
+        <value>選択フォルダーからタブを作成</value>
+    </data>
+    <data name="FileMenu_OpenAsTabsFromSelectedFolders" xml:space="preserve">
+        <value>選択フォルダーをタブとして開く</value>
+    </data>
     <data name="FileMenu_CloseTab" xml:space="preserve">
         <value>タブを閉じる(_C)</value>
     </data>
