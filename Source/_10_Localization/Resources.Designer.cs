@@ -5072,6 +5072,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Switch Theme.
+        /// </summary>
+        public static string Tooltip_SwitchTheme {
+            get {
+                return ResourceManager.GetString("Tooltip_SwitchTheme", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Unpin Tab.
         /// </summary>
         public static string Tooltip_UnpinTab {

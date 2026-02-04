@@ -1813,4 +1813,7 @@ re you sure you want to continue?</value>
     <data name="Tooltip_Pin" xml:space="preserve">
         <value>Pin Window / Unpin Window</value>
     </data>
+    <data name="Tooltip_SwitchTheme" xml:space="preserve">
+        <value>Switch Theme</value>
+    </data>
 </root>

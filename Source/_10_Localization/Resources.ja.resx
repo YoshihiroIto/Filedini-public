@@ -1768,4 +1768,7 @@
     <data name="Tooltip_Pin" xml:space="preserve">
         <value>ウィンドウを固定 / 固定を解除</value>
     </data>
+    <data name="Tooltip_SwitchTheme" xml:space="preserve">
+        <value>テーマ切り替え</value>
+    </data>
 </root>
