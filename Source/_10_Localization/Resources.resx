@@ -1810,4 +1810,7 @@ re you sure you want to continue?</value>
     <data name="FolderViewer_CancelButton" xml:space="preserve">
         <value>Cancel</value>
     </data>
+    <data name="Tooltip_Pin" xml:space="preserve">
+        <value>Pin Window / Unpin Window</value>
+    </data>
 </root>

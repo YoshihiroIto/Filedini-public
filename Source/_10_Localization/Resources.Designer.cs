@@ -681,6 +681,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Create Tabs from Selected Folders.
+        /// </summary>
+        public static string FileMenu_CreateTabsFromSelectedFolders {
+            get {
+                return ResourceManager.GetString("FileMenu_CreateTabsFromSelectedFolders", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to _Cursor.
         /// </summary>
         public static string FileMenu_Cursor {
@@ -1352,15 +1361,6 @@ namespace Filedini.Localization {
         public static string FileMenu_NewTab {
             get {
                 return ResourceManager.GetString("FileMenu_NewTab", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Create Tabs from Selected Folders.
-        /// </summary>
-        public static string FileMenu_CreateTabsFromSelectedFolders {
-            get {
-                return ResourceManager.GetString("FileMenu_CreateTabsFromSelectedFolders", resourceCulture);
             }
         }
         
@@ -5023,6 +5023,15 @@ namespace Filedini.Localization {
         public static string Tooltip_NewTerminal {
             get {
                 return ResourceManager.GetString("Tooltip_NewTerminal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pin Window / Unpin Window.
+        /// </summary>
+        public static string Tooltip_Pin {
+            get {
+                return ResourceManager.GetString("Tooltip_Pin", resourceCulture);
             }
         }
         
