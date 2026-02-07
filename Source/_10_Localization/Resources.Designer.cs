@@ -2031,6 +2031,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Usage data settings....
+        /// </summary>
+        public static string FileMenu_UsageDataConsent {
+            get {
+                return ResourceManager.GetString("FileMenu_UsageDataConsent", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to _View.
         /// </summary>
         public static string FileMenu_View {

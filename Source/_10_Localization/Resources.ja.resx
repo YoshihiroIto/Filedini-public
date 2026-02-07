@@ -1771,4 +1771,7 @@
     <data name="Tooltip_SwitchTheme" xml:space="preserve">
         <value>テーマ切り替え</value>
     </data>
+    <data name="FileMenu_UsageDataConsent" xml:space="preserve">
+        <value>利用状況の送信について...</value>
+    </data>
 </root>
