@@ -5351,6 +5351,292 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Filedini will send only the following information..
+        /// </summary>
+        public static string UsageDataConsent_DataSentText_EU {
+            get {
+                return ResourceManager.GetString("UsageDataConsent_DataSentText_EU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Filedini が送信する情報は、以下のみです。.
+        /// </summary>
+        public static string UsageDataConsent_DataSentText_JP {
+            get {
+                return ResourceManager.GetString("UsageDataConsent_DataSentText_JP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Filedini sends only the following information..
+        /// </summary>
+        public static string UsageDataConsent_DataSentText_US {
+            get {
+                return ResourceManager.GetString("UsageDataConsent_DataSentText_US", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Data that will be sent.
+        /// </summary>
+        public static string UsageDataConsent_DataSentTitle_EU {
+            get {
+                return ResourceManager.GetString("UsageDataConsent_DataSentTitle_EU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 送信される内容.
+        /// </summary>
+        public static string UsageDataConsent_DataSentTitle_JP {
+            get {
+                return ResourceManager.GetString("UsageDataConsent_DataSentTitle_JP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Data sent.
+        /// </summary>
+        public static string UsageDataConsent_DataSentTitle_US {
+            get {
+                return ResourceManager.GetString("UsageDataConsent_DataSentTitle_US", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Decline.
+        /// </summary>
+        public static string UsageDataConsent_No_EU {
+            get {
+                return ResourceManager.GetString("UsageDataConsent_No_EU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 今はしない.
+        /// </summary>
+        public static string UsageDataConsent_No_JP {
+            get {
+                return ResourceManager.GetString("UsageDataConsent_No_JP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Skip.
+        /// </summary>
+        public static string UsageDataConsent_No_US {
+            get {
+                return ResourceManager.GetString("UsageDataConsent_No_US", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No personal data, file names, paths, or contents are included..
+        /// </summary>
+        public static string UsageDataConsent_NoPersonalData_EU {
+            get {
+                return ResourceManager.GetString("UsageDataConsent_NoPersonalData_EU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ※ ファイル名・パス・内容などの個人データは含まれません。.
+        /// </summary>
+        public static string UsageDataConsent_NoPersonalData_JP {
+            get {
+                return ResourceManager.GetString("UsageDataConsent_NoPersonalData_JP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No personal data is included..
+        /// </summary>
+        public static string UsageDataConsent_NoPersonalData_US {
+            get {
+                return ResourceManager.GetString("UsageDataConsent_NoPersonalData_US", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Allow anonymous usage data.
+        /// </summary>
+        public static string UsageDataConsent_Share_EU {
+            get {
+                return ResourceManager.GetString("UsageDataConsent_Share_EU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 匿名の利用状況を共有する.
+        /// </summary>
+        public static string UsageDataConsent_Share_JP {
+            get {
+                return ResourceManager.GetString("UsageDataConsent_Share_JP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Share anonymous usage information.
+        /// </summary>
+        public static string UsageDataConsent_Share_US {
+            get {
+                return ResourceManager.GetString("UsageDataConsent_Share_US", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Filedini can optionally send anonymous technical information
+        ///to help improve the application.
+        ///
+        ///The information sent is limited to:
+        ///
+        ///Operating system type (Windows / macOS)
+        ///Filedini version
+        ///
+        ///This data is processed solely for the purpose of improving stability
+        ///and prioritizing future improvements.
+        ///
+        ///No personal data is collected.
+        ///No file names, paths, or file contents are ever transmitted.
+        ///
+        ///You are free to decline or withdraw your consent at any time
+        ///from the settings..
+        /// </summary>
+        public static string UsageDataConsent_Text_EU {
+            get {
+                return ResourceManager.GetString("UsageDataConsent_Text_EU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Filedini では、より使いやすいツールに育てていくために、
+        ///匿名の利用状況を送信する仕組みを用意しています。
+        ///
+        ///送信される内容は、次の2点のみです。
+        ///
+        ///✅ご利用の OS の種類 （Windows / macOS）
+        ///✅Filedini のバージョン
+        ///
+        ///これらの情報から、
+        ///どの環境でどのバージョンが使われているかを把握し、
+        ///今後の改善や対応の優先度決定に役立てます。
+        ///
+        ///✖ファイル名・パス・内容などの個人データは一切送信されません。
+        ///
+        ///ご協力は任意で、
+        ///設定からいつでも変更できます。
+        ///.
+        /// </summary>
+        public static string UsageDataConsent_Text_JP {
+            get {
+                return ResourceManager.GetString("UsageDataConsent_Text_JP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You can help improve Filedini by sharing anonymous usage information.
+        ///
+        ///We only collect:
+        ///Your operating system type
+        ///Your Filedini version
+        ///
+        ///This helps us focus on the platforms and versions that matter most.
+        ///
+        ///No personal data is collected,
+        ///and file names or contents are never shared.
+        ///
+        ///You’re in control —
+        ///you can turn this on or off anytime in the settings..
+        /// </summary>
+        public static string UsageDataConsent_Text_US {
+            get {
+                return ResourceManager.GetString("UsageDataConsent_Text_US", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Optional anonymous usage data.
+        /// </summary>
+        public static string UsageDataConsent_Title_EU {
+            get {
+                return ResourceManager.GetString("UsageDataConsent_Title_EU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Filedini の改善にご協力ください.
+        /// </summary>
+        public static string UsageDataConsent_Title_JP {
+            get {
+                return ResourceManager.GetString("UsageDataConsent_Title_JP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Help make Filedini better.
+        /// </summary>
+        public static string UsageDataConsent_Title_US {
+            get {
+                return ResourceManager.GetString("UsageDataConsent_Title_US", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to View data that will be sent.
+        /// </summary>
+        public static string UsageDataConsent_ViewDataSent_EU {
+            get {
+                return ResourceManager.GetString("UsageDataConsent_ViewDataSent_EU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 送信内容を見る.
+        /// </summary>
+        public static string UsageDataConsent_ViewDataSent_JP {
+            get {
+                return ResourceManager.GetString("UsageDataConsent_ViewDataSent_JP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to View data sent.
+        /// </summary>
+        public static string UsageDataConsent_ViewDataSent_US {
+            get {
+                return ResourceManager.GetString("UsageDataConsent_ViewDataSent_US", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Allow.
+        /// </summary>
+        public static string UsageDataConsent_Yes_EU {
+            get {
+                return ResourceManager.GetString("UsageDataConsent_Yes_EU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 協力する.
+        /// </summary>
+        public static string UsageDataConsent_Yes_JP {
+            get {
+                return ResourceManager.GetString("UsageDataConsent_Yes_JP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Help improve.
+        /// </summary>
+        public static string UsageDataConsent_Yes_US {
+            get {
+                return ResourceManager.GetString("UsageDataConsent_Yes_US", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Current File Name.
         /// </summary>
         public static string VariableDetails_CurrentFile {

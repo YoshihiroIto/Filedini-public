@@ -1819,4 +1819,128 @@ re you sure you want to continue?</value>
     <data name="FileMenu_UsageDataConsent" xml:space="preserve">
         <value>Usage data settings...</value>
     </data>
+    <data name="UsageDataConsent_Title_JP" xml:space="preserve">
+        <value>Filedini の改善にご協力ください</value>
+    </data>
+    <data name="UsageDataConsent_Title_US" xml:space="preserve">
+        <value>Help make Filedini better</value>
+    </data>
+    <data name="UsageDataConsent_Title_EU" xml:space="preserve">
+        <value>Optional anonymous usage data</value>
+    </data>
+    <data name="UsageDataConsent_Text_JP" xml:space="preserve">
+        <value>Filedini では、より使いやすいツールに育てていくために、
+匿名の利用状況を送信する仕組みを用意しています。
+
+送信される内容は、次の2点のみです。
+
+✅ご利用の OS の種類 （Windows / macOS）
+✅Filedini のバージョン
+
+これらの情報から、
+どの環境でどのバージョンが使われているかを把握し、
+今後の改善や対応の優先度決定に役立てます。
+
+✖ファイル名・パス・内容などの個人データは一切送信されません。
+
+ご協力は任意で、
+設定からいつでも変更できます。
+</value>
+    </data>
+    <data name="UsageDataConsent_Text_US" xml:space="preserve">
+        <value>You can help improve Filedini by sharing anonymous usage information.
+
+We only collect:
+Your operating system type
+Your Filedini version
+
+This helps us focus on the platforms and versions that matter most.
+
+No personal data is collected,
+and file names or contents are never shared.
+
+You’re in control —
+you can turn this on or off anytime in the settings.</value>
+    </data>
+    <data name="UsageDataConsent_Text_EU" xml:space="preserve">
+        <value>Filedini can optionally send anonymous technical information
+to help improve the application.
+
+The information sent is limited to:
+
+Operating system type (Windows / macOS)
+Filedini version
+
+This data is processed solely for the purpose of improving stability
+and prioritizing future improvements.
+
+No personal data is collected.
+No file names, paths, or file contents are ever transmitted.
+
+You are free to decline or withdraw your consent at any time
+from the settings.</value>
+    </data>
+    <data name="UsageDataConsent_Yes_JP" xml:space="preserve">
+        <value>協力する</value>
+    </data>
+    <data name="UsageDataConsent_Yes_EU" xml:space="preserve">
+        <value>Allow</value>
+    </data>
+    <data name="UsageDataConsent_Yes_US" xml:space="preserve">
+        <value>Help improve</value>
+    </data>
+    <data name="UsageDataConsent_No_JP" xml:space="preserve">
+        <value>今はしない</value>
+    </data>
+    <data name="UsageDataConsent_No_US" xml:space="preserve">
+        <value>Skip</value>
+    </data>
+    <data name="UsageDataConsent_No_EU" xml:space="preserve">
+        <value>Decline</value>
+    </data>
+    <data name="UsageDataConsent_Share_US" xml:space="preserve">
+        <value>Share anonymous usage information</value>
+    </data>
+    <data name="UsageDataConsent_Share_EU" xml:space="preserve">
+        <value>Allow anonymous usage data</value>
+    </data>
+    <data name="UsageDataConsent_Share_JP" xml:space="preserve">
+        <value>匿名の利用状況を共有する</value>
+    </data>
+    <data name="UsageDataConsent_ViewDataSent_EU" xml:space="preserve">
+        <value>View data that will be sent</value>
+    </data>
+    <data name="UsageDataConsent_ViewDataSent_US" xml:space="preserve">
+        <value>View data sent</value>
+    </data>
+    <data name="UsageDataConsent_ViewDataSent_JP" xml:space="preserve">
+        <value>送信内容を見る</value>
+    </data>
+    <data name="UsageDataConsent_NoPersonalData_US" xml:space="preserve">
+        <value>No personal data is included.</value>
+    </data>
+    <data name="UsageDataConsent_NoPersonalData_EU" xml:space="preserve">
+        <value>No personal data, file names, paths, or contents are included.</value>
+    </data>
+    <data name="UsageDataConsent_NoPersonalData_JP" xml:space="preserve">
+        <value>※ ファイル名・パス・内容などの個人データは含まれません。</value>
+    </data>
+    <data name="UsageDataConsent_DataSentTitle_JP" xml:space="preserve">
+        <value>送信される内容</value>
+    </data>
+    <data name="UsageDataConsent_DataSentTitle_US" xml:space="preserve">
+        <value>Data sent</value>
+    </data>
+    <data name="UsageDataConsent_DataSentTitle_EU" xml:space="preserve">
+        <value>Data that will be sent</value>
+    </data>
+    <data name="UsageDataConsent_DataSentText_JP" xml:space="preserve">
+        <value>Filedini が送信する情報は、以下のみです。</value>
+    </data>
+    <data name="UsageDataConsent_DataSentText_EU" xml:space="preserve">
+        <value>Filedini will send only the following information.</value>
+    </data>
+    <data name="UsageDataConsent_DataSentText_US" xml:space="preserve">
+        <value>Filedini sends only the following information.</value>
+    </data>
 </root>
