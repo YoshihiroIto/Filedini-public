@@ -3540,7 +3540,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Dragging `{0}&apos;..
+        ///   Looks up a localized string similar to Dragging `{0}&apos;.
         /// </summary>
         public static string Message_DraggingItem {
             get {

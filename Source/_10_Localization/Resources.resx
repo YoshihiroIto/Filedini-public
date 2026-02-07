@@ -556,7 +556,7 @@ Do you want to proceed?</value>
         <value>Dimensions</value>
     </data>
     <data name="Message_DraggingItem" xml:space="preserve">
-        <value>Dragging `{0}'.</value>
+        <value>Dragging `{0}'</value>
     </data>
     <data name="Message_DraggingFiles" xml:space="preserve">
         <value>Dragging {0:plural:1 file|{:N0} files}.</value>

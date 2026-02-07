@@ -541,7 +541,7 @@
         <value>大きさ</value>
     </data>
     <data name="Message_DraggingItem" xml:space="preserve">
-        <value>`{0}’ をドラッグ中です。</value>
+        <value>`{0}’ をドラッグ中</value>
     </data>
     <data name="Message_DraggingFiles" xml:space="preserve">
         <value>{0:N0} 個のファイルをドラッグ中です。</value>
