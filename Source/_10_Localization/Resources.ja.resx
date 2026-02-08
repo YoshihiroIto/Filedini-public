@@ -1729,9 +1729,6 @@
     <data name="FileMenu_OpenDefaultShell" xml:space="preserve">
         <value>規定シェルを開く</value>
     </data>
-    <data name="Insert the selected item’s path into the terminal" xml:space="preserve">
-        <value>ターミナルにパスを入力</value>
-    </data>
     <data name="FileItem_InsertSelectedItemPathIntoTerminal" xml:space="preserve">
         <value>選択アイテムパスをターミナルへ入力</value>
     </data>
@@ -1813,5 +1810,8 @@
     </data>
     <data name="FileMenu_SendFeedback" xml:space="preserve">
         <value>フィードバックを送る...</value>
+    </data>
+    <data name="Message_CrashReporter_SubmitAnonymously" xml:space="preserve">
+        <value>匿名で送信</value>
     </data>
 </root>

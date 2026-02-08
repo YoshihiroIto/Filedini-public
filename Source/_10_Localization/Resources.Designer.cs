@@ -3052,15 +3052,6 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
-        /// </summary>
-        public static string Language_Selector {
-            get {
-                return ResourceManager.GetString("Language Selector", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Cancel Subscription.
         /// </summary>
         public static string License_CancelSubscription {
@@ -3512,6 +3503,15 @@ namespace Filedini.Localization {
         public static string Message_CrashReporter_StartMailApp {
             get {
                 return ResourceManager.GetString("Message_CrashReporter_StartMailApp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Submit anonymously.
+        /// </summary>
+        public static string Message_CrashReporter_SubmitAnonymously {
+            get {
+                return ResourceManager.GetString("Message_CrashReporter_SubmitAnonymously", resourceCulture);
             }
         }
         

@@ -1980,10 +1980,10 @@ Please try again later.</value>
     <data name="Settings_Label_SendFeedback" xml:space="preserve">
         <value>Send feedback</value>
     </data>
-    <data name="Language Selector" xml:space="preserve">
-        <value />
-    </data>
     <data name="FileMenu_SendFeedback" xml:space="preserve">
         <value>Send Feedback...</value>
+    </data>
+    <data name="Message_CrashReporter_SubmitAnonymously" xml:space="preserve">
+        <value>Submit anonymously</value>
     </data>
 </root>
