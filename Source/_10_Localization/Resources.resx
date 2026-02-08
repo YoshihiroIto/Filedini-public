@@ -1949,7 +1949,7 @@ from the settings.</value>
     <data name="Tooltip_SendFeedback" xml:space="preserve">
         <value>Send anonymous feedback.</value>
     </data>
-    <data name="DialogTitile_SendFeedback" xml:space="preserve">
+    <data name="DialogTitle_SendFeedback" xml:space="preserve">
         <value>Send feedback to Filedini</value>
     </data>
     <data name="DialogMessage_SendFeedback" xml:space="preserve">
@@ -1960,7 +1960,7 @@ Feel free to share feedback, ideas, or anything you found confusing.</value>
     <data name="Placeholder_SendFeedback" xml:space="preserve">
         <value>e.g. This part is helpful / I got stuck here</value>
     </data>
-    <data name="DialogNote_SendFeedback " xml:space="preserve">
+    <data name="DialogNote_SendFeedback" xml:space="preserve">
         <value>No personal information is required. Messages are used only for development feedback.</value>
     </data>
     <data name="Dialog_Send" xml:space="preserve">
@@ -1982,5 +1982,8 @@ Please try again later.</value>
     </data>
     <data name="Language Selector" xml:space="preserve">
         <value />
+    </data>
+    <data name="FileMenu_SendFeedback" xml:space="preserve">
+        <value>Send Feedback...</value>
     </data>
 </root>

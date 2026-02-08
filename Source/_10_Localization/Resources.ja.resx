@@ -1780,7 +1780,7 @@
     <data name="Tooltip_SendFeedback" xml:space="preserve">
         <value>要望や感想を、匿名で送れます。</value>
     </data>
-    <data name="DialogTitile_SendFeedback" xml:space="preserve">
+    <data name="DialogTitle_SendFeedback" xml:space="preserve">
         <value>Filedini に一言</value>
     </data>
     <data name="DialogMessage_SendFeedback" xml:space="preserve">
@@ -1791,7 +1791,7 @@
     <data name="Placeholder_SendFeedback" xml:space="preserve">
         <value>例：ここが便利です / ここで迷いました</value>
     </data>
-    <data name="DialogNote_SendFeedback " xml:space="preserve">
+    <data name="DialogNote_SendFeedback" xml:space="preserve">
         <value>※ 個人情報の入力は不要です。内容は開発の参考としてのみ使用します。</value>
     </data>
     <data name="Dialog_Send" xml:space="preserve">
@@ -1810,5 +1810,8 @@
     </data>
     <data name="Settings_Label_SendFeedback" xml:space="preserve">
         <value>フィードバック</value>
+    </data>
+    <data name="FileMenu_SendFeedback" xml:space="preserve">
+        <value>フィードバックを送る...</value>
     </data>
 </root>

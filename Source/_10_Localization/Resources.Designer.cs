@@ -406,18 +406,9 @@ namespace Filedini.Localization {
         /// <summary>
         ///   Looks up a localized string similar to No personal information is required. Messages are used only for development feedback..
         /// </summary>
-        public static string DialogNote_SendFeedback_ {
+        public static string DialogNote_SendFeedback {
             get {
-                return ResourceManager.GetString("DialogNote_SendFeedback ", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Send feedback to Filedini.
-        /// </summary>
-        public static string DialogTitile_SendFeedback {
-            get {
-                return ResourceManager.GetString("DialogTitile_SendFeedback", resourceCulture);
+                return ResourceManager.GetString("DialogNote_SendFeedback", resourceCulture);
             }
         }
         
@@ -463,6 +454,15 @@ namespace Filedini.Localization {
         public static string DialogTitle_Notice {
             get {
                 return ResourceManager.GetString("DialogTitle_Notice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Send feedback to Filedini.
+        /// </summary>
+        public static string DialogTitle_SendFeedback {
+            get {
+                return ResourceManager.GetString("DialogTitle_SendFeedback", resourceCulture);
             }
         }
         
@@ -1742,6 +1742,15 @@ namespace Filedini.Localization {
         public static string FileMenu_SelectPreviousTab {
             get {
                 return ResourceManager.GetString("FileMenu_SelectPreviousTab", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Send Feedback....
+        /// </summary>
+        public static string FileMenu_SendFeedback {
+            get {
+                return ResourceManager.GetString("FileMenu_SendFeedback", resourceCulture);
             }
         }
         
