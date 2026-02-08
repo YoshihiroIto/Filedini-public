@@ -1774,4 +1774,41 @@
     <data name="FileMenu_UsageDataConsent" xml:space="preserve">
         <value>利用状況の送信について...</value>
     </data>
+    <data name="UI_SendFeedback" xml:space="preserve">
+        <value>💬 フィードバック</value>
+    </data>
+    <data name="Tooltip_SendFeedback" xml:space="preserve">
+        <value>要望や感想を、匿名で送れます。</value>
+    </data>
+    <data name="DialogTitile_SendFeedback" xml:space="preserve">
+        <value>Filedini に一言</value>
+    </data>
+    <data name="DialogMessage_SendFeedback" xml:space="preserve">
+        <value>使ってみた感想を教えてください。
+一言だけでも大丈夫です。
+要望・感想・困っていることなど、何でも構いません。</value>
+    </data>
+    <data name="Placeholder_SendFeedback" xml:space="preserve">
+        <value>例：ここが便利です / ここで迷いました</value>
+    </data>
+    <data name="DialogNote_SendFeedback " xml:space="preserve">
+        <value>※ 個人情報の入力は不要です。内容は開発の参考としてのみ使用します。</value>
+    </data>
+    <data name="Dialog_Send" xml:space="preserve">
+        <value>送信(_S)</value>
+    </data>
+    <data name="Success_SendFeedback" xml:space="preserve">
+        <value>送ってくれてありがとうございます！
+いただいた内容は、今後の改善の参考にします。</value>
+    </data>
+    <data name="Error_SendFeedback" xml:space="preserve">
+        <value>送信に失敗しました。
+時間をおいて、もう一度お試しください。</value>
+    </data>
+    <data name="Offline_SendFeedback" xml:space="preserve">
+        <value>現在オフラインのため、送信できません。</value>
+    </data>
+    <data name="Settings_Label_SendFeedback" xml:space="preserve">
+        <value>フィードバック</value>
+    </data>
 </root>

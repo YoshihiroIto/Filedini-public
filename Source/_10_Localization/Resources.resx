@@ -1943,4 +1943,44 @@ from the settings.</value>
     <data name="UsageDataConsent_DataSentText_US" xml:space="preserve">
         <value>Filedini sends only the following information.</value>
     </data>
+    <data name="UI_SendFeedback" xml:space="preserve">
+        <value>💬 Send feedback</value>
+    </data>
+    <data name="Tooltip_SendFeedback" xml:space="preserve">
+        <value>Send anonymous feedback.</value>
+    </data>
+    <data name="DialogTitile_SendFeedback" xml:space="preserve">
+        <value>Send feedback to Filedini</value>
+    </data>
+    <data name="DialogMessage_SendFeedback" xml:space="preserve">
+        <value>We’d love to hear your thoughts
+Even a short message is fine.
+Feel free to share feedback, ideas, or anything you found confusing.</value>
+    </data>
+    <data name="Placeholder_SendFeedback" xml:space="preserve">
+        <value>e.g. This part is helpful / I got stuck here</value>
+    </data>
+    <data name="DialogNote_SendFeedback " xml:space="preserve">
+        <value>No personal information is required. Messages are used only for development feedback.</value>
+    </data>
+    <data name="Dialog_Send" xml:space="preserve">
+        <value>_Send</value>
+    </data>
+    <data name="Success_SendFeedback" xml:space="preserve">
+        <value>Thank you for your feedback!
+It helps us improve Filedini.</value>
+    </data>
+    <data name="Error_SendFeedback" xml:space="preserve">
+        <value>Failed to send feedback.
+Please try again later.</value>
+    </data>
+    <data name="Offline_SendFeedback" xml:space="preserve">
+        <value>You appear to be offline.</value>
+    </data>
+    <data name="Settings_Label_SendFeedback" xml:space="preserve">
+        <value>Send feedback</value>
+    </data>
+    <data name="Language Selector" xml:space="preserve">
+        <value />
+    </data>
 </root>

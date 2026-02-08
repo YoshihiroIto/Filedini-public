@@ -330,6 +330,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to _Send.
+        /// </summary>
+        public static string Dialog_Send {
+            get {
+                return ResourceManager.GetString("Dialog_Send", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to _To Trash Can.
         /// </summary>
         public static string Dialog_SendToTrashCan {
@@ -384,6 +393,35 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to We’d love to hear your thoughts
+        ///Even a short message is fine.
+        ///Feel free to share feedback, ideas, or anything you found confusing..
+        /// </summary>
+        public static string DialogMessage_SendFeedback {
+            get {
+                return ResourceManager.GetString("DialogMessage_SendFeedback", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No personal information is required. Messages are used only for development feedback..
+        /// </summary>
+        public static string DialogNote_SendFeedback_ {
+            get {
+                return ResourceManager.GetString("DialogNote_SendFeedback ", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Send feedback to Filedini.
+        /// </summary>
+        public static string DialogTitile_SendFeedback {
+            get {
+                return ResourceManager.GetString("DialogTitile_SendFeedback", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Confirmation.
         /// </summary>
         public static string DialogTitle_Confirmation {
@@ -434,6 +472,16 @@ namespace Filedini.Localization {
         public static string DialogTitle_Trial {
             get {
                 return ResourceManager.GetString("DialogTitle_Trial", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Failed to send feedback.
+        ///Please try again later..
+        /// </summary>
+        public static string Error_SendFeedback {
+            get {
+                return ResourceManager.GetString("Error_SendFeedback", resourceCulture);
             }
         }
         
@@ -2995,6 +3043,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string Language_Selector {
+            get {
+                return ResourceManager.GetString("Language Selector", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Cancel Subscription.
         /// </summary>
         public static string License_CancelSubscription {
@@ -3937,6 +3994,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to You appear to be offline..
+        /// </summary>
+        public static string Offline_SendFeedback {
+            get {
+                return ResourceManager.GetString("Offline_SendFeedback", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Filter.
         /// </summary>
         public static string OpModes_Filter {
@@ -3996,6 +4062,15 @@ namespace Filedini.Localization {
         public static string PeriodUnits_Minutes {
             get {
                 return ResourceManager.GetString("PeriodUnits_Minutes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to e.g. This part is helpful / I got stuck here.
+        /// </summary>
+        public static string Placeholder_SendFeedback {
+            get {
+                return ResourceManager.GetString("Placeholder_SendFeedback", resourceCulture);
             }
         }
         
@@ -4531,6 +4606,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Send feedback.
+        /// </summary>
+        public static string Settings_Label_SendFeedback {
+            get {
+                return ResourceManager.GetString("Settings_Label_SendFeedback", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Shared Icon Cache Size.
         /// </summary>
         public static string Settings_Label_SharedIconCacheSize {
@@ -4855,6 +4939,16 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Thank you for your feedback!
+        ///It helps us improve Filedini..
+        /// </summary>
+        public static string Success_SendFeedback {
+            get {
+                return ResourceManager.GetString("Success_SendFeedback", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to You are about to paste multi-line text.A
         ///re you sure you want to continue?.
         /// </summary>
@@ -5068,6 +5162,15 @@ namespace Filedini.Localization {
         public static string Tooltip_SelectScriptFile {
             get {
                 return ResourceManager.GetString("Tooltip_SelectScriptFile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Send anonymous feedback..
+        /// </summary>
+        public static string Tooltip_SendFeedback {
+            get {
+                return ResourceManager.GetString("Tooltip_SendFeedback", resourceCulture);
             }
         }
         
@@ -5329,6 +5432,15 @@ namespace Filedini.Localization {
         public static string UI_Run {
             get {
                 return ResourceManager.GetString("UI_Run", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 💬 Send feedback.
+        /// </summary>
+        public static string UI_SendFeedback {
+            get {
+                return ResourceManager.GetString("UI_SendFeedback", resourceCulture);
             }
         }
         
