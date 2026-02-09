@@ -1986,4 +1986,14 @@ Please try again later.</value>
     <data name="Message_CrashReporter_SubmitAnonymously" xml:space="preserve">
         <value>Submit anonymously</value>
     </data>
+    <data name="Message_CrashReporter_SuccessSend" xml:space="preserve">
+        <value>Thank you for your cooperation. Your report helps us improve the app.</value>
+    </data>
+    <data name="Message_CrashReporter_ErrorSend" xml:space="preserve">
+        <value>Failed to send crash log.
+Please try again later.</value>
+    </data>
+    <data name="Message_CrashReporter_LogSent" xml:space="preserve">
+        <value>✅Log Sent</value>
+    </data>
 </root>

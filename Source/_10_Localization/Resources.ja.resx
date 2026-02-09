@@ -1814,4 +1814,14 @@
     <data name="Message_CrashReporter_SubmitAnonymously" xml:space="preserve">
         <value>匿名で送信</value>
     </data>
+    <data name="Message_CrashReporter_SuccessSend" xml:space="preserve">
+        <value>ご協力ありがとうございます。ご報告はアプリの改善に役立っています。</value>
+    </data>
+    <data name="Message_CrashReporter_ErrorSend" xml:space="preserve">
+        <value>送信に失敗しました。
+時間をおいて、もう一度お試しください。</value>
+    </data>
+    <data name="Message_CrashReporter_LogSent" xml:space="preserve">
+        <value>✅ログ送信済み</value>
+    </data>
 </root>

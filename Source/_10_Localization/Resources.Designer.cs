@@ -3444,6 +3444,25 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Failed to send crash log.
+        ///Please try again later..
+        /// </summary>
+        public static string Message_CrashReporter_ErrorSend {
+            get {
+                return ResourceManager.GetString("Message_CrashReporter_ErrorSend", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ✅Log Sent.
+        /// </summary>
+        public static string Message_CrashReporter_LogSent {
+            get {
+                return ResourceManager.GetString("Message_CrashReporter_LogSent", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Filedini had a problem and crashed..
         /// </summary>
         public static string Message_CrashReporter_Message0 {
@@ -3512,6 +3531,15 @@ namespace Filedini.Localization {
         public static string Message_CrashReporter_SubmitAnonymously {
             get {
                 return ResourceManager.GetString("Message_CrashReporter_SubmitAnonymously", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Thank you for your cooperation. Your report helps us improve the app..
+        /// </summary>
+        public static string Message_CrashReporter_SuccessSend {
+            get {
+                return ResourceManager.GetString("Message_CrashReporter_SuccessSend", resourceCulture);
             }
         }
         
