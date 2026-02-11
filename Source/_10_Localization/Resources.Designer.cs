@@ -1629,6 +1629,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Release History....
+        /// </summary>
+        public static string FileMenu_ReleaseHistory {
+            get {
+                return ResourceManager.GetString("FileMenu_ReleaseHistory", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Reload.
         /// </summary>
         public static string FileMenu_Reload {

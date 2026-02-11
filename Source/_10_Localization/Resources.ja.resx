@@ -1824,4 +1824,7 @@
     <data name="Message_CrashReporter_LogSent" xml:space="preserve">
         <value>✅ログ送信済み</value>
     </data>
+    <data name="FileMenu_ReleaseHistory" xml:space="preserve">
+        <value>変更履歴...</value>
+    </data>
 </root>

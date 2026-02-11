@@ -1996,4 +1996,7 @@ Please try again later.</value>
     <data name="Message_CrashReporter_LogSent" xml:space="preserve">
         <value>✅Log Sent</value>
     </data>
+    <data name="FileMenu_ReleaseHistory" xml:space="preserve">
+        <value>Release History...</value>
+    </data>
 </root>
