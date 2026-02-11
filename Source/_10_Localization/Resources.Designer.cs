@@ -576,6 +576,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Change History....
+        /// </summary>
+        public static string FileMenu_ChangeHistory {
+            get {
+                return ResourceManager.GetString("FileMenu_ChangeHistory", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Change Timestamp....
         /// </summary>
         public static string FileMenu_ChangeTimestamp {
@@ -1625,15 +1634,6 @@ namespace Filedini.Localization {
         public static string FileMenu_QuitFiledini {
             get {
                 return ResourceManager.GetString("FileMenu_QuitFiledini", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Release History....
-        /// </summary>
-        public static string FileMenu_ReleaseHistory {
-            get {
-                return ResourceManager.GetString("FileMenu_ReleaseHistory", resourceCulture);
             }
         }
         
