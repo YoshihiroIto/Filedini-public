@@ -1331,7 +1331,7 @@
     <data name="FileMenu_LaunchApp" xml:space="preserve">
         <value>アプリを起動</value>
     </data>
-    <data name="Label_VolumeSize" xml:space="preserve">
+    <data name="Label_VolumeSizeDetails" xml:space="preserve">
         <value>{0} / {1} ({2:P1}) 使用中</value>
     </data>
     <data name="FileMenu_CopyItemFullPathToClipboard" xml:space="preserve">
@@ -1826,5 +1826,8 @@
     </data>
     <data name="FileMenu_ChangeHistory" xml:space="preserve">
         <value>変更履歴...</value>
+    </data>
+    <data name="Label_VolumeSize" xml:space="preserve">
+        <value>{0} / {1} 使用中</value>
     </data>
 </root>

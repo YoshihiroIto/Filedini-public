@@ -3052,11 +3052,20 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {0} of {1} ({2:P1}) used.
+        ///   Looks up a localized string similar to {0} of {1} used.
         /// </summary>
         public static string Label_VolumeSize {
             get {
                 return ResourceManager.GetString("Label_VolumeSize", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} of {1} ({2:P1}) used.
+        /// </summary>
+        public static string Label_VolumeSizeDetails {
+            get {
+                return ResourceManager.GetString("Label_VolumeSizeDetails", resourceCulture);
             }
         }
         

@@ -1351,7 +1351,7 @@ Invalid password.
     <data name="FileMenu_LaunchApp" xml:space="preserve">
         <value>Launch App</value>
     </data>
-    <data name="Label_VolumeSize" xml:space="preserve">
+    <data name="Label_VolumeSizeDetails" xml:space="preserve">
         <value>{0} of {1} ({2:P1}) used</value>
     </data>
     <data name="FileMenu_CopyItemNameToClipboard" xml:space="preserve">
@@ -1998,5 +1998,8 @@ Please try again later.</value>
     </data>
     <data name="FileMenu_ChangeHistory" xml:space="preserve">
         <value>Change History...</value>
+    </data>
+    <data name="Label_VolumeSize" xml:space="preserve">
+        <value>{0} of {1} used</value>
     </data>
 </root>
