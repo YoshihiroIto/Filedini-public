@@ -855,7 +855,10 @@ Do you want to proceed?</value>
     <data name="Settings_Theme" xml:space="preserve">
         <value>Theme</value>
     </data>
-    <data name="UI_Reset" xml:space="preserve">
+    <data name="UI_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="UI_Reset" xml:space="preserve">
         <value>_Reset</value>
     </data>
     <data name="Message_EmptyFile" xml:space="preserve">

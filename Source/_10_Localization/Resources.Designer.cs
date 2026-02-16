@@ -5464,6 +5464,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Description.
+        /// </summary>
+        public static string UI_Description {
+            get {
+                return ResourceManager.GetString("UI_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to _Reset.
         /// </summary>
         public static string UI_Reset {

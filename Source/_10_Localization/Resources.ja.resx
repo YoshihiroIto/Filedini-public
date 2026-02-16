@@ -834,7 +834,10 @@
     <data name="Settings_Theme" xml:space="preserve">
         <value>テーマ</value>
     </data>
-    <data name="UI_Reset" xml:space="preserve">
+    <data name="UI_Description" xml:space="preserve">
+    <value>説明</value>
+  </data>
+  <data name="UI_Reset" xml:space="preserve">
         <value>リセット(_R)</value>
     </data>
     <data name="Message_EmptyFile" xml:space="preserve">
