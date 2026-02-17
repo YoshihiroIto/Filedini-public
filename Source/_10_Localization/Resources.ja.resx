@@ -1217,6 +1217,15 @@
     <data name="Settings_Label_FolderOpenInAssociatedAppBehavior" xml:space="preserve">
         <value>フォルダーを関連アプリで開く際の振る舞い</value>
     </data>
+    <data name="NameSortModes_Numeric" xml:space="preserve">
+        <value>数値による並び替え</value>
+    </data>
+    <data name="NameSortModes_Normal" xml:space="preserve">
+        <value>普通ソート</value>
+    </data>
+    <data name="Settings_Label_NameSortMode" xml:space="preserve">
+        <value>ファイル名・拡張子・フォルダー名のソート方式</value>
+    </data>
     <data name="FileMenu_ExportSettings" xml:space="preserve">
         <value>設定をエクスポート...</value>
     </data>

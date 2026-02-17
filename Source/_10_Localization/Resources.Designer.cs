@@ -4497,7 +4497,16 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Settings_Label_MainMenuResponsiveMode", resourceCulture);
             }
         }
-        
+
+        /// <summary>
+        ///   Looks up a localized string similar to File Name / Extension / Folder Name Sort Mode.
+        /// </summary>
+        public static string Settings_Label_NameSortMode {
+            get {
+                return ResourceManager.GetString("Settings_Label_NameSortMode", resourceCulture);
+            }
+        }
+
         /// <summary>
         ///   Looks up a localized string similar to Margin.
         /// </summary>

@@ -1237,6 +1237,15 @@ Invalid password.
     <data name="Settings_Label_FolderOpenInAssociatedAppBehavior" xml:space="preserve">
         <value>Folder Open in Associated App Behavior</value>
     </data>
+    <data name="NameSortModes_Numeric" xml:space="preserve">
+        <value>Numeric Sort</value>
+    </data>
+    <data name="NameSortModes_Normal" xml:space="preserve">
+        <value>Normal Sort</value>
+    </data>
+    <data name="Settings_Label_NameSortMode" xml:space="preserve">
+        <value>File Name / Extension / Folder Name Sort Mode</value>
+    </data>
     <data name="FileMenu_ImportSettings" xml:space="preserve">
         <value>Import Settings...</value>
     </data>
