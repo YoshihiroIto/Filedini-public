@@ -2025,6 +2025,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Switch Pane Layout.
+        /// </summary>
+        public static string FileMenu_SwitchPaneLayout {
+            get {
+                return ResourceManager.GetString("FileMenu_SwitchPaneLayout", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Switch Theme.
         /// </summary>
         public static string FileMenu_SwitchTheme {

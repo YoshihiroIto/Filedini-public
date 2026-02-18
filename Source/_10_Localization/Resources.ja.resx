@@ -1845,4 +1845,7 @@
     <data name="ToolTip_PaneLayout" xml:space="preserve">
         <value>ペインレイアウト</value>
     </data>
+    <data name="FileMenu_SwitchPaneLayout" xml:space="preserve">
+        <value>ペインレイアウト切り替え</value>
+    </data>
 </root>
