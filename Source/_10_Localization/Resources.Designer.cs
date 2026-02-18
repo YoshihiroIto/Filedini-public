@@ -4049,6 +4049,24 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Normal Sort.
+        /// </summary>
+        public static string NameSortModes_Normal {
+            get {
+                return ResourceManager.GetString("NameSortModes_Normal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Numeric Sort.
+        /// </summary>
+        public static string NameSortModes_Numeric {
+            get {
+                return ResourceManager.GetString("NameSortModes_Numeric", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to You appear to be offline..
         /// </summary>
         public static string Offline_SendFeedback {
@@ -4497,16 +4515,7 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Settings_Label_MainMenuResponsiveMode", resourceCulture);
             }
         }
-
-        /// <summary>
-        ///   Looks up a localized string similar to File Name / Extension / Folder Name Sort Mode.
-        /// </summary>
-        public static string Settings_Label_NameSortMode {
-            get {
-                return ResourceManager.GetString("Settings_Label_NameSortMode", resourceCulture);
-            }
-        }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Margin.
         /// </summary>
@@ -4585,6 +4594,15 @@ namespace Filedini.Localization {
         public static string Settings_Label_Name {
             get {
                 return ResourceManager.GetString("Settings_Label_Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to File Name / Extension / Folder Name Sort Mode.
+        /// </summary>
+        public static string Settings_Label_NameSortMode {
+            get {
+                return ResourceManager.GetString("Settings_Label_NameSortMode", resourceCulture);
             }
         }
         
@@ -5194,6 +5212,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Pane Layout.
+        /// </summary>
+        public static string ToolTip_PaneLayout {
+            get {
+                return ResourceManager.GetString("ToolTip_PaneLayout", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Pin Window / Unpin Window.
         /// </summary>
         public static string Tooltip_Pin {
@@ -5401,6 +5428,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Description.
+        /// </summary>
+        public static string UI_Description {
+            get {
+                return ResourceManager.GetString("UI_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to _Folder.
         /// </summary>
         public static string UI_Folder {
@@ -5469,15 +5505,6 @@ namespace Filedini.Localization {
         public static string UI_Reference {
             get {
                 return ResourceManager.GetString("UI_Reference", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Description.
-        /// </summary>
-        public static string UI_Description {
-            get {
-                return ResourceManager.GetString("UI_Description", resourceCulture);
             }
         }
         
