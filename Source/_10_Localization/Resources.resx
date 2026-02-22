@@ -1784,7 +1784,7 @@ re you sure you want to continue?</value>
         <value>Close Tab</value>
     </data>
     <data name="FileMenu_Terminal" xml:space="preserve">
-        <value>T_erminal</value>
+        <value>Te_rminal</value>
     </data>
     <data name="FileMenu_OpenDefaultShell" xml:space="preserve">
         <value>Open Default Shell</value>

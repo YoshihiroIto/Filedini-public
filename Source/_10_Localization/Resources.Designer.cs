@@ -2070,7 +2070,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to T_erminal.
+        ///   Looks up a localized string similar to Te_rminal.
         /// </summary>
         public static string FileMenu_Terminal {
             get {

@@ -1736,7 +1736,7 @@
         <value>タブを閉じる</value>
     </data>
     <data name="FileMenu_Terminal" xml:space="preserve">
-        <value>ターミナル(_E)</value>
+        <value>ターミナル(_R)</value>
     </data>
     <data name="FileMenu_OpenDefaultShell" xml:space="preserve">
         <value>規定シェルを開く</value>
