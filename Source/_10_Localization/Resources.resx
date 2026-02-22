@@ -1642,43 +1642,43 @@ Destination:
         <value>Timestamp</value>
     </data>
     <data name="FileMenu_CloseTab" xml:space="preserve">
-        <value>_Close Tab</value>
+        <value>Close Tab</value>
     </data>
     <data name="FileMenu_CloseOtherTabs" xml:space="preserve">
-        <value>Close _Other Tabs</value>
+        <value>Close Other Tabs</value>
     </data>
     <data name="FileMenu_CloseTabsToTheLeft" xml:space="preserve">
-        <value>Close Tabs to the _Left</value>
+        <value>Close Tabs to the Left</value>
     </data>
     <data name="FileMenu_CloseTabsToTheRight" xml:space="preserve">
-        <value>Close Tabs to the _Right</value>
+        <value>Close Tabs to the Right</value>
     </data>
     <data name="FileMenu_DuplicateTab" xml:space="preserve">
-        <value>_Duplicate Tab</value>
+        <value>Duplicate Tab</value>
     </data>
     <data name="FileMenu_ReopenClosedTab" xml:space="preserve">
-        <value>_Reopen Closed Tab</value>
+        <value>Reopen Closed Tab</value>
     </data>
     <data name="FileMenu_SelectPreviousTab" xml:space="preserve">
-        <value>Pre_vious Tab</value>
+        <value>Previous Tab</value>
     </data>
     <data name="FileMenu_SelectNextTab" xml:space="preserve">
-        <value>N_ext Tab</value>
+        <value>Next Tab</value>
     </data>
     <data name="FileMenu_MoveTabLeft" xml:space="preserve">
-        <value>Move Tab Le_ft</value>
+        <value>Move Tab Left</value>
     </data>
     <data name="FileMenu_MoveTabRight" xml:space="preserve">
-        <value>Move Tab R_ight</value>
+        <value>Move Tab Right</value>
     </data>
     <data name="FileMenu_MoveTabToNewWindow" xml:space="preserve">
-        <value>Move Tab to New _Window</value>
+        <value>Move Tab to New Window</value>
     </data>
     <data name="FileMenu_TogglePinTab" xml:space="preserve">
-        <value>_Pin Tab / Unpin Tab</value>
+        <value>Pin Tab / Unpin Tab</value>
     </data>
     <data name="FileMenu_NewTab" xml:space="preserve">
-        <value>_New Tab</value>
+        <value>New Tab</value>
     </data>
     <data name="FileMenu_CreateTabsFromSelectedFolders" xml:space="preserve">
         <value>Create Tabs from Selected Folders</value>

@@ -603,7 +603,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Close _Other Tabs.
+        ///   Looks up a localized string similar to Close Other Tabs.
         /// </summary>
         public static string FileMenu_CloseOtherTabs {
             get {
@@ -612,7 +612,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to _Close Tab.
+        ///   Looks up a localized string similar to Close Tab.
         /// </summary>
         public static string FileMenu_CloseTab {
             get {
@@ -621,7 +621,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Close Tabs to the _Left.
+        ///   Looks up a localized string similar to Close Tabs to the Left.
         /// </summary>
         public static string FileMenu_CloseTabsToTheLeft {
             get {
@@ -630,7 +630,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Close Tabs to the _Right.
+        ///   Looks up a localized string similar to Close Tabs to the Right.
         /// </summary>
         public static string FileMenu_CloseTabsToTheRight {
             get {
@@ -792,7 +792,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to _Duplicate Tab.
+        ///   Looks up a localized string similar to Duplicate Tab.
         /// </summary>
         public static string FileMenu_DuplicateTab {
             get {
@@ -1170,7 +1170,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move Tab Le_ft.
+        ///   Looks up a localized string similar to Move Tab Left.
         /// </summary>
         public static string FileMenu_MoveTabLeft {
             get {
@@ -1179,7 +1179,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move Tab R_ight.
+        ///   Looks up a localized string similar to Move Tab Right.
         /// </summary>
         public static string FileMenu_MoveTabRight {
             get {
@@ -1188,7 +1188,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move Tab to New _Window.
+        ///   Looks up a localized string similar to Move Tab to New Window.
         /// </summary>
         public static string FileMenu_MoveTabToNewWindow {
             get {
@@ -1413,7 +1413,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to _New Tab.
+        ///   Looks up a localized string similar to New Tab.
         /// </summary>
         public static string FileMenu_NewTab {
             get {
@@ -1656,7 +1656,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to _Reopen Closed Tab.
+        ///   Looks up a localized string similar to Reopen Closed Tab.
         /// </summary>
         public static string FileMenu_ReopenClosedTab {
             get {
@@ -1737,7 +1737,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to N_ext Tab.
+        ///   Looks up a localized string similar to Next Tab.
         /// </summary>
         public static string FileMenu_SelectNextTab {
             get {
@@ -1746,7 +1746,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Pre_vious Tab.
+        ///   Looks up a localized string similar to Previous Tab.
         /// </summary>
         public static string FileMenu_SelectPreviousTab {
             get {
@@ -2079,7 +2079,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to _Pin Tab / Unpin Tab.
+        ///   Looks up a localized string similar to Pin Tab / Unpin Tab.
         /// </summary>
         public static string FileMenu_TogglePinTab {
             get {
