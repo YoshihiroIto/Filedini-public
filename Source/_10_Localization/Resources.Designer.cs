@@ -828,7 +828,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Exit.
+        ///   Looks up a localized string similar to Close Window.
         /// </summary>
         public static string FileMenu_Exit {
             get {

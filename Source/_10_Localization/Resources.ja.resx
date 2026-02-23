@@ -517,7 +517,7 @@
         <value>自動名前付け(_A)</value>
     </data>
     <data name="FileMenu_Exit" xml:space="preserve">
-        <value>終了</value>
+        <value>このウィンドウを閉じる</value>
     </data>
     <data name="FileMenu_ZoomInPreview" xml:space="preserve">
         <value>ズームイン</value>

@@ -532,7 +532,7 @@ Do you want to proceed?</value>
         <value>_Automatic naming</value>
     </data>
     <data name="FileMenu_Exit" xml:space="preserve">
-        <value>Exit</value>
+        <value>Close Window</value>
     </data>
     <data name="FileMenu_ZoomInPreview" xml:space="preserve">
         <value>Zoom In</value>
