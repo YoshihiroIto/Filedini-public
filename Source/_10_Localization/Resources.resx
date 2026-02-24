@@ -2020,4 +2020,13 @@ Please try again later.</value>
     <data name="FileMenu_SwitchPaneLayout" xml:space="preserve">
         <value>Switch Pane Layout</value>
     </data>
+    <data name="Settings_Label_ToolPaneDisplaySwitch" xml:space="preserve">
+        <value>Tool Pane Display Swich</value>
+    </data>
+    <data name="Settings_Label_DetailsPaneDisplaySwitch" xml:space="preserve">
+        <value>Detail Pane Display Swich</value>
+    </data>
+    <data name="Settings_Label_PaneLayoutSwitch" xml:space="preserve">
+        <value>Pane Layout Switch</value>
+    </data>
 </root>

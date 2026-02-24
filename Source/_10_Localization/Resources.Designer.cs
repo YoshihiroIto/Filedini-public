@@ -4373,6 +4373,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Detail Pane Display Swich.
+        /// </summary>
+        public static string Settings_Label_DetailsPaneDisplaySwitch {
+            get {
+                return ResourceManager.GetString("Settings_Label_DetailsPaneDisplaySwitch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Extension.
         /// </summary>
         public static string Settings_Label_Extension {
@@ -4661,6 +4670,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Pane Layout Switch.
+        /// </summary>
+        public static string Settings_Label_PaneLayoutSwitch {
+            get {
+                return ResourceManager.GetString("Settings_Label_PaneLayoutSwitch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Path.
         /// </summary>
         public static string Settings_Label_Path {
@@ -4846,6 +4864,15 @@ namespace Filedini.Localization {
         public static string Settings_Label_TimestampFormat {
             get {
                 return ResourceManager.GetString("Settings_Label_TimestampFormat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tool Pane Display Swich.
+        /// </summary>
+        public static string Settings_Label_ToolPaneDisplaySwitch {
+            get {
+                return ResourceManager.GetString("Settings_Label_ToolPaneDisplaySwitch", resourceCulture);
             }
         }
         

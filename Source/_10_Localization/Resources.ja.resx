@@ -1848,4 +1848,13 @@
     <data name="FileMenu_SwitchPaneLayout" xml:space="preserve">
         <value>ペインレイアウト切り替え</value>
     </data>
+    <data name="Settings_Label_DetailsPaneDisplaySwitch" xml:space="preserve">
+        <value>詳細ペイン表示切り替え</value>
+    </data>
+    <data name="Settings_Label_ToolPaneDisplaySwitch" xml:space="preserve">
+        <value>ツールペイン表示切り替え</value>
+    </data>
+    <data name="Settings_Label_PaneLayoutSwitch" xml:space="preserve">
+        <value>ペインレイアウト切り替え</value>
+    </data>
 </root>
