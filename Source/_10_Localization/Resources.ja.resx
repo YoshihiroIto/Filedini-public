@@ -1857,4 +1857,10 @@
     <data name="Settings_Label_PaneLayoutSwitch" xml:space="preserve">
         <value>ペインレイアウト切り替え</value>
     </data>
+    <data name="FileMenu_ClearIconCache" xml:space="preserve">
+        <value>アイコンキャッシュをクリア</value>
+    </data>
+    <data name="Message_IconCacheCleared" xml:space="preserve">
+        <value>アイコンキャッシュをクリアしました。</value>
+    </data>
 </root>

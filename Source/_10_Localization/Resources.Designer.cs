@@ -594,6 +594,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Clear Icon Cache.
+        /// </summary>
+        public static string FileMenu_ClearIconCache {
+            get {
+                return ResourceManager.GetString("FileMenu_ClearIconCache", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Clear Search Box.
         /// </summary>
         public static string FileMenu_ClearSearchBox {
@@ -3836,6 +3845,15 @@ namespace Filedini.Localization {
         public static string Message_FoldersCanntOverwrittenWithFolders {
             get {
                 return ResourceManager.GetString("Message_FoldersCanntOverwrittenWithFolders", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Icon cache cleared..
+        /// </summary>
+        public static string Message_IconCacheCleared {
+            get {
+                return ResourceManager.GetString("Message_IconCacheCleared", resourceCulture);
             }
         }
         

@@ -2029,4 +2029,10 @@ Please try again later.</value>
     <data name="Settings_Label_PaneLayoutSwitch" xml:space="preserve">
         <value>Pane Layout Switch</value>
     </data>
+    <data name="FileMenu_ClearIconCache" xml:space="preserve">
+        <value>Clear Icon Cache</value>
+    </data>
+    <data name="Message_IconCacheCleared" xml:space="preserve">
+        <value>Icon cache cleared.</value>
+    </data>
 </root>
