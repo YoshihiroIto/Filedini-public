@@ -1629,13 +1629,13 @@
     <data name="FileMenu_SelectNextTab" xml:space="preserve">
         <value>次のタブ</value>
     </data>
-    <data name="FileMenu_SelectNextFolderPanel" xml:space="preserve">
+    <data name="FileMenu_SelectNextFolderPane" xml:space="preserve">
         <value>次のフォルダーペイン</value>
     </data>
     <data name="FileMenu_SelectPreviousTab" xml:space="preserve">
         <value>前のタブ</value>
     </data>
-    <data name="FileMenu_SelectPreviousFolderPanel" xml:space="preserve">
+    <data name="FileMenu_SelectPreviousFolderPane" xml:space="preserve">
         <value>前のフォルダーペイン</value>
     </data>
     <data name="FileMenu_MoveTabLeft" xml:space="preserve">

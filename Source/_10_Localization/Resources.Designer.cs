@@ -1746,6 +1746,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Next Folder Panel.
+        /// </summary>
+        public static string FileMenu_SelectNextFolderPane {
+            get {
+                return ResourceManager.GetString("FileMenu_SelectNextFolderPane", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Next Tab.
         /// </summary>
         public static string FileMenu_SelectNextTab {
@@ -1753,13 +1762,13 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("FileMenu_SelectNextTab", resourceCulture);
             }
         }
-
+        
         /// <summary>
-        ///   Looks up a localized string similar to Next Folder Panel.
+        ///   Looks up a localized string similar to Previous Folder Panel.
         /// </summary>
-        public static string FileMenu_SelectNextFolderPanel {
+        public static string FileMenu_SelectPreviousFolderPane {
             get {
-                return ResourceManager.GetString("FileMenu_SelectNextFolderPanel", resourceCulture);
+                return ResourceManager.GetString("FileMenu_SelectPreviousFolderPane", resourceCulture);
             }
         }
         
@@ -1769,15 +1778,6 @@ namespace Filedini.Localization {
         public static string FileMenu_SelectPreviousTab {
             get {
                 return ResourceManager.GetString("FileMenu_SelectPreviousTab", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Previous Folder Panel.
-        /// </summary>
-        public static string FileMenu_SelectPreviousFolderPanel {
-            get {
-                return ResourceManager.GetString("FileMenu_SelectPreviousFolderPanel", resourceCulture);
             }
         }
         
@@ -2077,15 +2077,6 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("FileMenu_SwitchToolPane", resourceCulture);
             }
         }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Toggle Split Folder Pane.
-        /// </summary>
-        public static string FileMenu_ToggleSplitFolderPane {
-            get {
-                return ResourceManager.GetString("FileMenu_ToggleSplitFolderPane", resourceCulture);
-            }
-        }
         
         /// <summary>
         ///   Looks up a localized string similar to Switch View.
@@ -2120,6 +2111,15 @@ namespace Filedini.Localization {
         public static string FileMenu_TogglePinTab {
             get {
                 return ResourceManager.GetString("FileMenu_TogglePinTab", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Toggle Split Folder Pane.
+        /// </summary>
+        public static string FileMenu_ToggleSplitFolderPane {
+            get {
+                return ResourceManager.GetString("FileMenu_ToggleSplitFolderPane", resourceCulture);
             }
         }
         
@@ -4425,15 +4425,6 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Settings_Label_DetailsPaneDisplaySwitch", resourceCulture);
             }
         }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Split Folder Pane Display Switch.
-        /// </summary>
-        public static string Settings_Label_SplitFolderPaneDisplaySwitch {
-            get {
-                return ResourceManager.GetString("Settings_Label_SplitFolderPaneDisplaySwitch", resourceCulture);
-            }
-        }
         
         /// <summary>
         ///   Looks up a localized string similar to Extension.
@@ -4801,6 +4792,15 @@ namespace Filedini.Localization {
         public static string Settings_Label_Size {
             get {
                 return ResourceManager.GetString("Settings_Label_Size", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Split Folder Pane Display Switch.
+        /// </summary>
+        public static string Settings_Label_SplitFolderPaneDisplaySwitch {
+            get {
+                return ResourceManager.GetString("Settings_Label_SplitFolderPaneDisplaySwitch", resourceCulture);
             }
         }
         
