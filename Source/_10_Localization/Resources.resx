@@ -1662,8 +1662,14 @@ Destination:
     <data name="FileMenu_SelectPreviousTab" xml:space="preserve">
         <value>Previous Tab</value>
     </data>
+    <data name="FileMenu_SelectPreviousFolderPanel" xml:space="preserve">
+        <value>Previous Folder Panel</value>
+    </data>
     <data name="FileMenu_SelectNextTab" xml:space="preserve">
         <value>Next Tab</value>
+    </data>
+    <data name="FileMenu_SelectNextFolderPanel" xml:space="preserve">
+        <value>Next Folder Panel</value>
     </data>
     <data name="FileMenu_MoveTabLeft" xml:space="preserve">
         <value>Move Tab Left</value>
@@ -1703,6 +1709,9 @@ Destination:
     </data>
     <data name="FileMenu_SwitchToolPane" xml:space="preserve">
         <value>Tool View</value>
+    </data>
+    <data name="FileMenu_ToggleSplitFolderPane" xml:space="preserve">
+        <value>Toggle Split Folder Pane</value>
     </data>
     <data name="FileMenu_ToggleTerminal" xml:space="preserve">
         <value>Toggle Terminal Focus</value>

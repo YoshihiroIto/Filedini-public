@@ -1629,8 +1629,14 @@
     <data name="FileMenu_SelectNextTab" xml:space="preserve">
         <value>次のタブ</value>
     </data>
+    <data name="FileMenu_SelectNextFolderPanel" xml:space="preserve">
+        <value>次のフォルダーペイン</value>
+    </data>
     <data name="FileMenu_SelectPreviousTab" xml:space="preserve">
         <value>前のタブ</value>
+    </data>
+    <data name="FileMenu_SelectPreviousFolderPanel" xml:space="preserve">
+        <value>前のフォルダーペイン</value>
     </data>
     <data name="FileMenu_MoveTabLeft" xml:space="preserve">
         <value>タブを左に移動</value>
@@ -1655,6 +1661,9 @@
     </data>
     <data name="FileMenu_SwitchToolPane" xml:space="preserve">
         <value>ツール</value>
+    </data>
+    <data name="FileMenu_ToggleSplitFolderPane" xml:space="preserve">
+        <value>フォルダーペイン分割切り替え</value>
     </data>
     <data name="FileMenu_ToggleTerminal" xml:space="preserve">
         <value>ターミナルのフォーカス切り替え</value>

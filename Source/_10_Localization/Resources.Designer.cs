@@ -1753,6 +1753,15 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("FileMenu_SelectNextTab", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Next Folder Panel.
+        /// </summary>
+        public static string FileMenu_SelectNextFolderPanel {
+            get {
+                return ResourceManager.GetString("FileMenu_SelectNextFolderPanel", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to Previous Tab.
@@ -1760,6 +1769,15 @@ namespace Filedini.Localization {
         public static string FileMenu_SelectPreviousTab {
             get {
                 return ResourceManager.GetString("FileMenu_SelectPreviousTab", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Previous Folder Panel.
+        /// </summary>
+        public static string FileMenu_SelectPreviousFolderPanel {
+            get {
+                return ResourceManager.GetString("FileMenu_SelectPreviousFolderPanel", resourceCulture);
             }
         }
         
@@ -2057,6 +2075,15 @@ namespace Filedini.Localization {
         public static string FileMenu_SwitchToolPane {
             get {
                 return ResourceManager.GetString("FileMenu_SwitchToolPane", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Toggle Split Folder Pane.
+        /// </summary>
+        public static string FileMenu_ToggleSplitFolderPane {
+            get {
+                return ResourceManager.GetString("FileMenu_ToggleSplitFolderPane", resourceCulture);
             }
         }
         
