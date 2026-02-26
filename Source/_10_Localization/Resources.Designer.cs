@@ -4425,6 +4425,15 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Settings_Label_DetailsPaneDisplaySwitch", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Split Folder Pane Display Switch.
+        /// </summary>
+        public static string Settings_Label_SplitFolderPaneDisplaySwitch {
+            get {
+                return ResourceManager.GetString("Settings_Label_SplitFolderPaneDisplaySwitch", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to Extension.

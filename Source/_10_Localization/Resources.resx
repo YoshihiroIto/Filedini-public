@@ -2035,6 +2035,9 @@ Please try again later.</value>
     <data name="Settings_Label_DetailsPaneDisplaySwitch" xml:space="preserve">
         <value>Detail Pane Display Swich</value>
     </data>
+    <data name="Settings_Label_SplitFolderPaneDisplaySwitch" xml:space="preserve">
+        <value>Split Folder Pane Display Switch</value>
+    </data>
     <data name="Settings_Label_PaneLayoutSwitch" xml:space="preserve">
         <value>Pane Layout Switch</value>
     </data>

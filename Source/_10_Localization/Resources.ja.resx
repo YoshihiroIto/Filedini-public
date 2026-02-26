@@ -1863,6 +1863,9 @@
     <data name="Settings_Label_ToolPaneDisplaySwitch" xml:space="preserve">
         <value>ツールペイン表示切り替え</value>
     </data>
+    <data name="Settings_Label_SplitFolderPaneDisplaySwitch" xml:space="preserve">
+        <value>フォルダーペイン分割切り替え</value>
+    </data>
     <data name="Settings_Label_PaneLayoutSwitch" xml:space="preserve">
         <value>ペインレイアウト切り替え</value>
     </data>
