@@ -1041,6 +1041,9 @@
     <data name="Message_Copied" xml:space="preserve">
         <value>コピーしました。</value>
     </data>
+    <data name="Message_Cut" xml:space="preserve">
+        <value>切り取りました。</value>
+    </data>
     <data name="Settings_Label_LanguageSelector" xml:space="preserve">
         <value>言語セレクター</value>
     </data>

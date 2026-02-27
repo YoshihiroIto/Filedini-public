@@ -1061,6 +1061,9 @@ Empty file.</value>
     <data name="Message_Copied" xml:space="preserve">
         <value>Copied.</value>
     </data>
+    <data name="Message_Cut" xml:space="preserve">
+        <value>Cut.</value>
+    </data>
     <data name="Settings_Label_LanguageSelector" xml:space="preserve">
         <value>Language Selector</value>
     </data>

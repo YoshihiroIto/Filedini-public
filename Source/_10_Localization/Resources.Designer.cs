@@ -3379,6 +3379,15 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Message_Copied", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Cut..
+        /// </summary>
+        public static string Message_Cut {
+            get {
+                return ResourceManager.GetString("Message_Cut", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to Copy {0:plural:1 file|{:N0} files}..
