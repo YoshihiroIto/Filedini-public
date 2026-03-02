@@ -3379,15 +3379,6 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Message_Copied", resourceCulture);
             }
         }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Cut..
-        /// </summary>
-        public static string Message_Cut {
-            get {
-                return ResourceManager.GetString("Message_Cut", resourceCulture);
-            }
-        }
         
         /// <summary>
         ///   Looks up a localized string similar to Copy {0:plural:1 file|{:N0} files}..
@@ -3639,6 +3630,15 @@ namespace Filedini.Localization {
         public static string Message_CurrentlyUsingLatestVersion {
             get {
                 return ResourceManager.GetString("Message_CurrentlyUsingLatestVersion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cut..
+        /// </summary>
+        public static string Message_Cut {
+            get {
+                return ResourceManager.GetString("Message_Cut", resourceCulture);
             }
         }
         
@@ -5635,7 +5635,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 💬 Send feedback.
+        ///   Looks up a localized string similar to Send feedback.
         /// </summary>
         public static string UI_SendFeedback {
             get {

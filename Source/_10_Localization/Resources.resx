@@ -1968,7 +1968,7 @@ from the settings.</value>
         <value>Filedini sends only the following information.</value>
     </data>
     <data name="UI_SendFeedback" xml:space="preserve">
-        <value>💬 Send feedback</value>
+        <value>Send feedback</value>
     </data>
     <data name="Tooltip_SendFeedback" xml:space="preserve">
         <value>Send anonymous feedback.</value>

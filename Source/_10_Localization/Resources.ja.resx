@@ -1796,7 +1796,7 @@
         <value>利用状況の送信について...</value>
     </data>
     <data name="UI_SendFeedback" xml:space="preserve">
-        <value>💬 フィードバック</value>
+        <value>フィードバック</value>
     </data>
     <data name="Tooltip_SendFeedback" xml:space="preserve">
         <value>要望や感想を、匿名で送れます。</value>
