@@ -124,7 +124,7 @@
         <value>貼り付け</value>
     </data>
     <data name="FileMenu_Cut" xml:space="preserve">
-        <value>切り取り(_T)</value>
+        <value>切り取り</value>
     </data>
     <data name="FileMenu_CopyItemToClipboard" xml:space="preserve">
         <value>コピー</value>
