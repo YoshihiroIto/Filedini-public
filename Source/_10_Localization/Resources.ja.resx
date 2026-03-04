@@ -1878,4 +1878,7 @@
     <data name="Message_IconCacheCleared" xml:space="preserve">
         <value>アイコンキャッシュをクリアしました。</value>
     </data>
+    <data name="FileMenu_FolderPane" xml:space="preserve">
+        <value>フォルダーペイン</value>
+    </data>
 </root>

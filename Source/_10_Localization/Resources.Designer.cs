@@ -909,6 +909,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Folder Pane.
+        /// </summary>
+        public static string FileMenu_FolderPane {
+            get {
+                return ResourceManager.GetString("FileMenu_FolderPane", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Go Back.
         /// </summary>
         public static string FileMenu_GoBack {

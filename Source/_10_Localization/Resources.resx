@@ -2050,4 +2050,7 @@ Please try again later.</value>
     <data name="Message_IconCacheCleared" xml:space="preserve">
         <value>Icon cache cleared.</value>
     </data>
+    <data name="FileMenu_FolderPane" xml:space="preserve">
+        <value>Folder Pane</value>
+    </data>
 </root>
