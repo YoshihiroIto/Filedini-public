@@ -837,6 +837,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Equalize Left/Right Panes.
+        /// </summary>
+        public static string FileMenu_EqualizeFolderPanes {
+            get {
+                return ResourceManager.GetString("FileMenu_EqualizeFolderPanes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Close Window.
         /// </summary>
         public static string FileMenu_Exit {
@@ -2025,6 +2034,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Swap Left/Right Panes.
+        /// </summary>
+        public static string FileMenu_SwapFolderPanes {
+            get {
+                return ResourceManager.GetString("FileMenu_SwapFolderPanes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Full Screen.
         /// </summary>
         public static string FileMenu_SwitcFullScreen {
@@ -2093,6 +2111,15 @@ namespace Filedini.Localization {
         public static string FileMenu_SwitchView {
             get {
                 return ResourceManager.GetString("FileMenu_SwitchView", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sync Folder Panes.
+        /// </summary>
+        public static string FileMenu_SyncFolderPanes {
+            get {
+                return ResourceManager.GetString("FileMenu_SyncFolderPanes", resourceCulture);
             }
         }
         

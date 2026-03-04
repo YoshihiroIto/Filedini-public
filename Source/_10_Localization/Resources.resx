@@ -1716,6 +1716,15 @@ Destination:
     <data name="FileMenu_ToggleSplitFolderPane" xml:space="preserve">
         <value>Toggle Split Folder Pane</value>
     </data>
+    <data name="FileMenu_SwapFolderPanes" xml:space="preserve">
+        <value>Swap Left/Right Panes</value>
+    </data>
+    <data name="FileMenu_EqualizeFolderPanes" xml:space="preserve">
+        <value>Equalize Left/Right Panes</value>
+    </data>
+    <data name="FileMenu_SyncFolderPanes" xml:space="preserve">
+        <value>Sync Folder Panes</value>
+    </data>
     <data name="FileMenu_ToggleTerminal" xml:space="preserve">
         <value>Toggle Terminal Focus</value>
     </data>

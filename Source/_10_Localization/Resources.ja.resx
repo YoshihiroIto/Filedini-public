@@ -1668,6 +1668,15 @@
     <data name="FileMenu_ToggleSplitFolderPane" xml:space="preserve">
         <value>フォルダーペイン分割切り替え</value>
     </data>
+    <data name="FileMenu_SwapFolderPanes" xml:space="preserve">
+        <value>左右入れ替え</value>
+    </data>
+    <data name="FileMenu_EqualizeFolderPanes" xml:space="preserve">
+        <value>左右均等</value>
+    </data>
+    <data name="FileMenu_SyncFolderPanes" xml:space="preserve">
+        <value>フォルダー同期</value>
+    </data>
     <data name="FileMenu_ToggleTerminal" xml:space="preserve">
         <value>ターミナルのフォーカス切り替え</value>
     </data>
