@@ -4076,7 +4076,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Search results are limited to 100..
+        ///   Looks up a localized string similar to Search results are limited to 1000..
         /// </summary>
         public static string Message_SearchLimit {
             get {

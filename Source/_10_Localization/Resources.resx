@@ -1026,7 +1026,7 @@ Empty file.</value>
         <value>Move to Previous Page</value>
     </data>
     <data name="Message_SearchLimit" xml:space="preserve">
-        <value>Search results are limited to 100.</value>
+        <value>Search results are limited to 1000.</value>
     </data>
     <data name="Message_FoldersCanntOverwrittenWithFiles" xml:space="preserve">
         <value>Folders cannot be overwritten with files.</value>

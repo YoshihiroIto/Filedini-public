@@ -1005,7 +1005,7 @@
         <value>前ページに移動</value>
     </data>
     <data name="Message_SearchLimit" xml:space="preserve">
-        <value>検索結果は100以内に制限されます。</value>
+        <value>検索結果は1000以内に制限されます。</value>
     </data>
     <data name="Message_FoldersCanntOverwrittenWithFiles" xml:space="preserve">
         <value>フォルダーをファイルで上書きすることはできません。</value>
