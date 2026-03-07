@@ -1671,6 +1671,39 @@ Destination:
     <data name="FileMenu_SelectNextTab" xml:space="preserve">
         <value>Next Tab</value>
     </data>
+    <data name="FileMenu_MoveToTab" xml:space="preserve">
+        <value>Move to Tab</value>
+    </data>
+    <data name="FileMenu_MoveToTab1" xml:space="preserve">
+        <value>Move to Tab 1</value>
+    </data>
+    <data name="FileMenu_MoveToTab2" xml:space="preserve">
+        <value>Move to Tab 2</value>
+    </data>
+    <data name="FileMenu_MoveToTab3" xml:space="preserve">
+        <value>Move to Tab 3</value>
+    </data>
+    <data name="FileMenu_MoveToTab4" xml:space="preserve">
+        <value>Move to Tab 4</value>
+    </data>
+    <data name="FileMenu_MoveToTab5" xml:space="preserve">
+        <value>Move to Tab 5</value>
+    </data>
+    <data name="FileMenu_MoveToTab6" xml:space="preserve">
+        <value>Move to Tab 6</value>
+    </data>
+    <data name="FileMenu_MoveToTab7" xml:space="preserve">
+        <value>Move to Tab 7</value>
+    </data>
+    <data name="FileMenu_MoveToTab8" xml:space="preserve">
+        <value>Move to Tab 8</value>
+    </data>
+    <data name="FileMenu_MoveToTab9" xml:space="preserve">
+        <value>Move to Tab 9</value>
+    </data>
+    <data name="FileMenu_MoveToTab0" xml:space="preserve">
+        <value>Move to Tab 0</value>
+    </data>
     <data name="FileMenu_SelectNextFolderPane" xml:space="preserve">
         <value>Next Folder Panel</value>
     </data>

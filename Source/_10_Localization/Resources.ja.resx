@@ -1632,6 +1632,39 @@
     <data name="FileMenu_SelectNextTab" xml:space="preserve">
         <value>次のタブ</value>
     </data>
+    <data name="FileMenu_MoveToTab" xml:space="preserve">
+        <value>タブ移動</value>
+    </data>
+    <data name="FileMenu_MoveToTab1" xml:space="preserve">
+        <value>タブ１に移動</value>
+    </data>
+    <data name="FileMenu_MoveToTab2" xml:space="preserve">
+        <value>タブ２に移動</value>
+    </data>
+    <data name="FileMenu_MoveToTab3" xml:space="preserve">
+        <value>タブ３に移動</value>
+    </data>
+    <data name="FileMenu_MoveToTab4" xml:space="preserve">
+        <value>タブ４に移動</value>
+    </data>
+    <data name="FileMenu_MoveToTab5" xml:space="preserve">
+        <value>タブ５に移動</value>
+    </data>
+    <data name="FileMenu_MoveToTab6" xml:space="preserve">
+        <value>タブ６に移動</value>
+    </data>
+    <data name="FileMenu_MoveToTab7" xml:space="preserve">
+        <value>タブ７に移動</value>
+    </data>
+    <data name="FileMenu_MoveToTab8" xml:space="preserve">
+        <value>タブ８に移動</value>
+    </data>
+    <data name="FileMenu_MoveToTab9" xml:space="preserve">
+        <value>タブ９に移動</value>
+    </data>
+    <data name="FileMenu_MoveToTab0" xml:space="preserve">
+        <value>タブ０に移動</value>
+    </data>
     <data name="FileMenu_SelectNextFolderPane" xml:space="preserve">
         <value>次のフォルダーペイン</value>
     </data>

@@ -1332,6 +1332,105 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Move to Tab.
+        /// </summary>
+        public static string FileMenu_MoveToTab {
+            get {
+                return ResourceManager.GetString("FileMenu_MoveToTab", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Move to Tab 0.
+        /// </summary>
+        public static string FileMenu_MoveToTab0 {
+            get {
+                return ResourceManager.GetString("FileMenu_MoveToTab0", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Move to Tab 1.
+        /// </summary>
+        public static string FileMenu_MoveToTab1 {
+            get {
+                return ResourceManager.GetString("FileMenu_MoveToTab1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Move to Tab 2.
+        /// </summary>
+        public static string FileMenu_MoveToTab2 {
+            get {
+                return ResourceManager.GetString("FileMenu_MoveToTab2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Move to Tab 3.
+        /// </summary>
+        public static string FileMenu_MoveToTab3 {
+            get {
+                return ResourceManager.GetString("FileMenu_MoveToTab3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Move to Tab 4.
+        /// </summary>
+        public static string FileMenu_MoveToTab4 {
+            get {
+                return ResourceManager.GetString("FileMenu_MoveToTab4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Move to Tab 5.
+        /// </summary>
+        public static string FileMenu_MoveToTab5 {
+            get {
+                return ResourceManager.GetString("FileMenu_MoveToTab5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Move to Tab 6.
+        /// </summary>
+        public static string FileMenu_MoveToTab6 {
+            get {
+                return ResourceManager.GetString("FileMenu_MoveToTab6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Move to Tab 7.
+        /// </summary>
+        public static string FileMenu_MoveToTab7 {
+            get {
+                return ResourceManager.GetString("FileMenu_MoveToTab7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Move to Tab 8.
+        /// </summary>
+        public static string FileMenu_MoveToTab8 {
+            get {
+                return ResourceManager.GetString("FileMenu_MoveToTab8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Move to Tab 9.
+        /// </summary>
+        public static string FileMenu_MoveToTab9 {
+            get {
+                return ResourceManager.GetString("FileMenu_MoveToTab9", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Move to Volume.
         /// </summary>
         public static string FileMenu_MoveToVolume {
