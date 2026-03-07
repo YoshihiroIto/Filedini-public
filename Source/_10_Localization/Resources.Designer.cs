@@ -2178,6 +2178,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Unselect All Items.
+        /// </summary>
+        public static string FileMenu_UnselectAllItems {
+            get {
+                return ResourceManager.GetString("FileMenu_UnselectAllItems", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Usage data settings....
         /// </summary>
         public static string FileMenu_UsageDataConsent {

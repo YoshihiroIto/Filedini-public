@@ -1890,4 +1890,7 @@
     <data name="FileMenu_FolderPane" xml:space="preserve">
         <value>フォルダーペイン</value>
     </data>
+    <data name="FileMenu_UnselectAllItems" xml:space="preserve">
+        <value>すべてのアイテム選択を解除</value>
+    </data>
 </root>

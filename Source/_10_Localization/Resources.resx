@@ -2062,4 +2062,7 @@ Please try again later.</value>
     <data name="FileMenu_FolderPane" xml:space="preserve">
         <value>Folder Pane</value>
     </data>
+    <data name="FileMenu_UnselectAllItems" xml:space="preserve">
+        <value>Unselect All Items</value>
+    </data>
 </root>
