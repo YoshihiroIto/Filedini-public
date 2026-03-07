@@ -999,7 +999,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Launch App0.
+        ///   Looks up a localized string similar to Launch App 0.
         /// </summary>
         public static string FileMenu_LaunchApp0 {
             get {
@@ -1008,7 +1008,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Launch App1.
+        ///   Looks up a localized string similar to Launch App 1.
         /// </summary>
         public static string FileMenu_LaunchApp1 {
             get {
@@ -1017,7 +1017,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Launch App2.
+        ///   Looks up a localized string similar to Launch App 2.
         /// </summary>
         public static string FileMenu_LaunchApp2 {
             get {
@@ -1026,7 +1026,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Launch App3.
+        ///   Looks up a localized string similar to Launch App 3.
         /// </summary>
         public static string FileMenu_LaunchApp3 {
             get {
@@ -1035,7 +1035,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Launch App4.
+        ///   Looks up a localized string similar to Launch App 4.
         /// </summary>
         public static string FileMenu_LaunchApp4 {
             get {
@@ -1044,7 +1044,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Launch App5.
+        ///   Looks up a localized string similar to Launch App 5.
         /// </summary>
         public static string FileMenu_LaunchApp5 {
             get {
@@ -1053,7 +1053,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Launch App6.
+        ///   Looks up a localized string similar to Launch App 6.
         /// </summary>
         public static string FileMenu_LaunchApp6 {
             get {
@@ -1062,7 +1062,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Launch App7.
+        ///   Looks up a localized string similar to Launch App 7.
         /// </summary>
         public static string FileMenu_LaunchApp7 {
             get {
@@ -1071,7 +1071,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Launch App8.
+        ///   Looks up a localized string similar to Launch App 8.
         /// </summary>
         public static string FileMenu_LaunchApp8 {
             get {
@@ -1080,7 +1080,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Launch App9.
+        ///   Looks up a localized string similar to Launch App 9.
         /// </summary>
         public static string FileMenu_LaunchApp9 {
             get {
@@ -1440,7 +1440,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Volume0.
+        ///   Looks up a localized string similar to Move to Volume 0.
         /// </summary>
         public static string FileMenu_MoveToVolume0 {
             get {
@@ -1449,7 +1449,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Volume1.
+        ///   Looks up a localized string similar to Move to Volume 1.
         /// </summary>
         public static string FileMenu_MoveToVolume1 {
             get {
@@ -1458,7 +1458,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Volume2.
+        ///   Looks up a localized string similar to Move to Volume 2.
         /// </summary>
         public static string FileMenu_MoveToVolume2 {
             get {
@@ -1467,7 +1467,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Volume3.
+        ///   Looks up a localized string similar to Move to Volume 3.
         /// </summary>
         public static string FileMenu_MoveToVolume3 {
             get {
@@ -1476,7 +1476,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Volume4.
+        ///   Looks up a localized string similar to Move to Volume 4.
         /// </summary>
         public static string FileMenu_MoveToVolume4 {
             get {
@@ -1485,7 +1485,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Volume5.
+        ///   Looks up a localized string similar to Move to Volume 5.
         /// </summary>
         public static string FileMenu_MoveToVolume5 {
             get {
@@ -1494,7 +1494,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Volume6.
+        ///   Looks up a localized string similar to Move to Volume 6.
         /// </summary>
         public static string FileMenu_MoveToVolume6 {
             get {
@@ -1503,7 +1503,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Volume7.
+        ///   Looks up a localized string similar to Move to Volume 7.
         /// </summary>
         public static string FileMenu_MoveToVolume7 {
             get {
@@ -1512,7 +1512,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Volume8.
+        ///   Looks up a localized string similar to Move to Volume 8.
         /// </summary>
         public static string FileMenu_MoveToVolume8 {
             get {
@@ -1521,7 +1521,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Volume9.
+        ///   Looks up a localized string similar to Move to Volume 9.
         /// </summary>
         public static string FileMenu_MoveToVolume9 {
             get {
@@ -1566,7 +1566,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Open Bookmark0.
+        ///   Looks up a localized string similar to Open Bookmark 0.
         /// </summary>
         public static string FileMenu_OpenBookmark0 {
             get {
@@ -1575,7 +1575,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Open Bookmark1.
+        ///   Looks up a localized string similar to Open Bookmark 1.
         /// </summary>
         public static string FileMenu_OpenBookmark1 {
             get {
@@ -1584,7 +1584,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Open Bookmark2.
+        ///   Looks up a localized string similar to Open Bookmark 2.
         /// </summary>
         public static string FileMenu_OpenBookmark2 {
             get {
@@ -1593,7 +1593,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Open Bookmark3.
+        ///   Looks up a localized string similar to Open Bookmark 3.
         /// </summary>
         public static string FileMenu_OpenBookmark3 {
             get {
@@ -1602,7 +1602,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Open Bookmark4.
+        ///   Looks up a localized string similar to Open Bookmark 4.
         /// </summary>
         public static string FileMenu_OpenBookmark4 {
             get {
@@ -1611,7 +1611,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Open Bookmark5.
+        ///   Looks up a localized string similar to Open Bookmark 5.
         /// </summary>
         public static string FileMenu_OpenBookmark5 {
             get {
@@ -1620,7 +1620,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Open Bookmark6.
+        ///   Looks up a localized string similar to Open Bookmark 6.
         /// </summary>
         public static string FileMenu_OpenBookmark6 {
             get {
@@ -1629,7 +1629,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Open Bookmark7.
+        ///   Looks up a localized string similar to Open Bookmark 7.
         /// </summary>
         public static string FileMenu_OpenBookmark7 {
             get {
@@ -1638,7 +1638,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Open Bookmark8.
+        ///   Looks up a localized string similar to Open Bookmark 8.
         /// </summary>
         public static string FileMenu_OpenBookmark8 {
             get {
@@ -1647,7 +1647,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Open Bookmark9.
+        ///   Looks up a localized string similar to Open Bookmark 9.
         /// </summary>
         public static string FileMenu_OpenBookmark9 {
             get {

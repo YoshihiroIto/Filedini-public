@@ -298,19 +298,19 @@ The external app is not registered or does not exist.</value>
         <value>Move to Parent Folder</value>
     </data>
     <data name="FileMenu_MoveToVolume1" xml:space="preserve">
-        <value>Move to Volume1</value>
+        <value>Move to Volume 1</value>
     </data>
     <data name="FileMenu_MoveToVolume2" xml:space="preserve">
-        <value>Move to Volume2</value>
+        <value>Move to Volume 2</value>
     </data>
     <data name="FileMenu_MoveToVolume3" xml:space="preserve">
-        <value>Move to Volume3</value>
+        <value>Move to Volume 3</value>
     </data>
     <data name="FileMenu_MoveToVolume4" xml:space="preserve">
-        <value>Move to Volume4</value>
+        <value>Move to Volume 4</value>
     </data>
     <data name="FileMenu_MoveToVolume5" xml:space="preserve">
-        <value>Move to Volume5</value>
+        <value>Move to Volume 5</value>
     </data>
     <data name="Message_CanModifyItemResults_EmptyName" xml:space="preserve">
         <value>Empty Name</value>
@@ -954,34 +954,34 @@ Empty file.</value>
         <value>Open Bookmark</value>
     </data>
     <data name="FileMenu_OpenBookmark0" xml:space="preserve">
-        <value>Open Bookmark0</value>
+        <value>Open Bookmark 0</value>
     </data>
     <data name="FileMenu_OpenBookmark1" xml:space="preserve">
-        <value>Open Bookmark1</value>
+        <value>Open Bookmark 1</value>
     </data>
     <data name="FileMenu_OpenBookmark2" xml:space="preserve">
-        <value>Open Bookmark2</value>
+        <value>Open Bookmark 2</value>
     </data>
     <data name="FileMenu_OpenBookmark6" xml:space="preserve">
-        <value>Open Bookmark6</value>
+        <value>Open Bookmark 6</value>
     </data>
     <data name="FileMenu_OpenBookmark3" xml:space="preserve">
-        <value>Open Bookmark3</value>
+        <value>Open Bookmark 3</value>
     </data>
     <data name="FileMenu_OpenBookmark4" xml:space="preserve">
-        <value>Open Bookmark4</value>
+        <value>Open Bookmark 4</value>
     </data>
     <data name="FileMenu_OpenBookmark5" xml:space="preserve">
-        <value>Open Bookmark5</value>
+        <value>Open Bookmark 5</value>
     </data>
     <data name="FileMenu_OpenBookmark7" xml:space="preserve">
-        <value>Open Bookmark7</value>
+        <value>Open Bookmark 7</value>
     </data>
     <data name="FileMenu_OpenBookmark8" xml:space="preserve">
-        <value>Open Bookmark8</value>
+        <value>Open Bookmark 8</value>
     </data>
     <data name="FileMenu_OpenBookmark9" xml:space="preserve">
-        <value>Open Bookmark9</value>
+        <value>Open Bookmark 9</value>
     </data>
     <data name="FileMenu_SwitchExpandFolders" xml:space="preserve">
         <value>Expand Folders</value>
@@ -1214,19 +1214,19 @@ Invalid password.
         <value>Volume...</value>
     </data>
     <data name="FileMenu_MoveToVolume6" xml:space="preserve">
-        <value>Move to Volume6</value>
+        <value>Move to Volume 6</value>
     </data>
     <data name="FileMenu_MoveToVolume7" xml:space="preserve">
-        <value>Move to Volume7</value>
+        <value>Move to Volume 7</value>
     </data>
     <data name="FileMenu_MoveToVolume8" xml:space="preserve">
-        <value>Move to Volume8</value>
+        <value>Move to Volume 8</value>
     </data>
     <data name="FileMenu_MoveToVolume9" xml:space="preserve">
-        <value>Move to Volume9</value>
+        <value>Move to Volume 9</value>
     </data>
     <data name="FileMenu_MoveToVolume0" xml:space="preserve">
-        <value>Move to Volume0</value>
+        <value>Move to Volume 0</value>
     </data>
     <data name="Settings_Details" xml:space="preserve">
         <value>Details</value>
@@ -1334,34 +1334,34 @@ Invalid password.
         <value>Extensions</value>
     </data>
     <data name="FileMenu_LaunchApp1" xml:space="preserve">
-        <value>Launch App1</value>
+        <value>Launch App 1</value>
     </data>
     <data name="FileMenu_LaunchApp2" xml:space="preserve">
-        <value>Launch App2</value>
+        <value>Launch App 2</value>
     </data>
     <data name="FileMenu_LaunchApp3" xml:space="preserve">
-        <value>Launch App3</value>
+        <value>Launch App 3</value>
     </data>
     <data name="FileMenu_LaunchApp4" xml:space="preserve">
-        <value>Launch App4</value>
+        <value>Launch App 4</value>
     </data>
     <data name="FileMenu_LaunchApp5" xml:space="preserve">
-        <value>Launch App5</value>
+        <value>Launch App 5</value>
     </data>
     <data name="FileMenu_LaunchApp6" xml:space="preserve">
-        <value>Launch App6</value>
+        <value>Launch App 6</value>
     </data>
     <data name="FileMenu_LaunchApp7" xml:space="preserve">
-        <value>Launch App7</value>
+        <value>Launch App 7</value>
     </data>
     <data name="FileMenu_LaunchApp8" xml:space="preserve">
-        <value>Launch App8</value>
+        <value>Launch App 8</value>
     </data>
     <data name="FileMenu_LaunchApp9" xml:space="preserve">
-        <value>Launch App9</value>
+        <value>Launch App 9</value>
     </data>
     <data name="FileMenu_LaunchApp0" xml:space="preserve">
-        <value>Launch App0</value>
+        <value>Launch App 0</value>
     </data>
     <data name="FileMenu_LaunchApp" xml:space="preserve">
         <value>Launch App</value>
