@@ -1929,4 +1929,7 @@
     <data name="FileMenu_UnselectAllItems" xml:space="preserve">
         <value>すべてのアイテム選択を解除</value>
     </data>
+    <data name="FileMenu_Nop" xml:space="preserve">
+        <value>何もしない</value>
+    </data>
 </root>

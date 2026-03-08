@@ -1548,20 +1548,20 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Do nothing.
+        /// </summary>
+        public static string FileMenu_Nop {
+            get {
+                return ResourceManager.GetString("FileMenu_Nop", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Open Selected Folders as Tabs.
         /// </summary>
         public static string FileMenu_OpenAsTabsFromSelectedFolders {
             get {
                 return ResourceManager.GetString("FileMenu_OpenAsTabsFromSelectedFolders", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Open in Other Folder Pane.
-        /// </summary>
-        public static string FileMenu_OpenInOtherFolderPane {
-            get {
-                return ResourceManager.GetString("FileMenu_OpenInOtherFolderPane", resourceCulture);
             }
         }
         
@@ -1706,6 +1706,15 @@ namespace Filedini.Localization {
         public static string FileMenu_OpenInFileManager {
             get {
                 return ResourceManager.GetString("FileMenu_OpenInFileManager", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open in Other Folder Pane.
+        /// </summary>
+        public static string FileMenu_OpenInOtherFolderPane {
+            get {
+                return ResourceManager.GetString("FileMenu_OpenInOtherFolderPane", resourceCulture);
             }
         }
         
