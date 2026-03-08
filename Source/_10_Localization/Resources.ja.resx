@@ -1605,6 +1605,9 @@
     <data name="FileMenu_OpenAsTabsFromSelectedFolders" xml:space="preserve">
         <value>選択フォルダーをタブとして開く</value>
     </data>
+    <data name="FileMenu_OpenInOtherFolderPane" xml:space="preserve">
+        <value>別フォルダーペインで開く</value>
+    </data>
     <data name="FileMenu_CloseTab" xml:space="preserve">
         <value>タブを閉じる</value>
     </data>

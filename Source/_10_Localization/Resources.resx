@@ -1728,6 +1728,9 @@ Destination:
     <data name="FileMenu_OpenAsTabsFromSelectedFolders" xml:space="preserve">
         <value>Open Selected Folders as Tabs</value>
     </data>
+    <data name="FileMenu_OpenInOtherFolderPane" xml:space="preserve">
+        <value>Open in Other Folder Pane</value>
+    </data>
     <data name="FileMenu_Tab" xml:space="preserve">
         <value>Ta_b</value>
     </data>

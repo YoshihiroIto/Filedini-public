@@ -1555,6 +1555,15 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("FileMenu_OpenAsTabsFromSelectedFolders", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Open in Other Folder Pane.
+        /// </summary>
+        public static string FileMenu_OpenInOtherFolderPane {
+            get {
+                return ResourceManager.GetString("FileMenu_OpenInOtherFolderPane", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to Open Bookmark.
