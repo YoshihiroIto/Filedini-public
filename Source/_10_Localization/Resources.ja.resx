@@ -1295,6 +1295,9 @@
     <data name="Dialog_Title_EditLaunchData" xml:space="preserve">
         <value>ランチデータの編集</value>
     </data>
+    <data name="Dialog_Title_EditBookmarkData" xml:space="preserve">
+        <value>ブックマークデータの編集</value>
+    </data>
     <data name="Settings_Label_App" xml:space="preserve">
         <value>アプリ</value>
     </data>

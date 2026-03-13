@@ -357,6 +357,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Edit Bookmark Data.
+        /// </summary>
+        public static string Dialog_Title_EditBookmarkData {
+            get {
+                return ResourceManager.GetString("Dialog_Title_EditBookmarkData", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Edit Launch Data.
         /// </summary>
         public static string Dialog_Title_EditLaunchData {
