@@ -726,6 +726,9 @@
     <data name="Settings_Label_NewFileName" xml:space="preserve">
         <value>新規ファイル名</value>
     </data>
+    <data name="Settings_Label_FileDoubleClickBehavior" xml:space="preserve">
+        <value>ファイルをダブルクリックした際の振る舞い</value>
+    </data>
     <data name="Settings_Label_NewFolderName" xml:space="preserve">
         <value>新規フォルダー名</value>
     </data>
@@ -1216,6 +1219,18 @@
     </data>
     <data name="FolderOpenInAssociatedAppBehaviors_MoveFolder" xml:space="preserve">
         <value>フォルダー移動</value>
+    </data>
+    <data name="FileDoubleClickBehaviors_Preview" xml:space="preserve">
+        <value>プレビューで開く</value>
+    </data>
+    <data name="FileDoubleClickBehaviors_OpenInAssociatedApp" xml:space="preserve">
+        <value>関連アプリで開く</value>
+    </data>
+    <data name="FileDoubleClickBehaviors_OpenInExternalApp1" xml:space="preserve">
+        <value>外部アプリ１で開く</value>
+    </data>
+    <data name="FileDoubleClickBehaviors_OpenInExternalApp2" xml:space="preserve">
+        <value>外部アプリ２で開く</value>
     </data>
     <data name="Settings_Label_FolderOpenInAssociatedAppBehavior" xml:space="preserve">
         <value>フォルダーを関連アプリで開く際の振る舞い</value>

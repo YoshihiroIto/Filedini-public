@@ -747,6 +747,9 @@ Do you want to proceed?</value>
     <data name="Settings_Label_NewFileName" xml:space="preserve">
         <value>New File Name</value>
     </data>
+    <data name="Settings_Label_FileDoubleClickBehavior" xml:space="preserve">
+        <value>File Double-Click Behavior</value>
+    </data>
     <data name="Settings_Label_NewFolderName" xml:space="preserve">
         <value>New Folder Name</value>
     </data>
@@ -1236,6 +1239,18 @@ Invalid password.
     </data>
     <data name="FolderOpenInAssociatedAppBehaviors_MoveFolder" xml:space="preserve">
         <value>Move Folder</value>
+    </data>
+    <data name="FileDoubleClickBehaviors_Preview" xml:space="preserve">
+        <value>Preview</value>
+    </data>
+    <data name="FileDoubleClickBehaviors_OpenInAssociatedApp" xml:space="preserve">
+        <value>Open in Associated App</value>
+    </data>
+    <data name="FileDoubleClickBehaviors_OpenInExternalApp1" xml:space="preserve">
+        <value>Open in External App1</value>
+    </data>
+    <data name="FileDoubleClickBehaviors_OpenInExternalApp2" xml:space="preserve">
+        <value>Open in External App2</value>
     </data>
     <data name="Settings_Label_FolderOpenInAssociatedAppBehavior" xml:space="preserve">
         <value>Folder Open in Associated App Behavior</value>

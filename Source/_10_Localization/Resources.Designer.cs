@@ -2376,6 +2376,42 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Preview.
+        /// </summary>
+        public static string FileDoubleClickBehaviors_Preview {
+            get {
+                return ResourceManager.GetString("FileDoubleClickBehaviors_Preview", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open in Associated App.
+        /// </summary>
+        public static string FileDoubleClickBehaviors_OpenInAssociatedApp {
+            get {
+                return ResourceManager.GetString("FileDoubleClickBehaviors_OpenInAssociatedApp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open in External App1.
+        /// </summary>
+        public static string FileDoubleClickBehaviors_OpenInExternalApp1 {
+            get {
+                return ResourceManager.GetString("FileDoubleClickBehaviors_OpenInExternalApp1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open in External App2.
+        /// </summary>
+        public static string FileDoubleClickBehaviors_OpenInExternalApp2 {
+            get {
+                return ResourceManager.GetString("FileDoubleClickBehaviors_OpenInExternalApp2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Cancel.
         /// </summary>
         public static string FolderViewer_CancelButton {
@@ -4846,6 +4882,15 @@ namespace Filedini.Localization {
         public static string Settings_Label_NewFileName {
             get {
                 return ResourceManager.GetString("Settings_Label_NewFileName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to File Double-Click Behavior.
+        /// </summary>
+        public static string Settings_Label_FileDoubleClickBehavior {
+            get {
+                return ResourceManager.GetString("Settings_Label_FileDoubleClickBehavior", resourceCulture);
             }
         }
         
