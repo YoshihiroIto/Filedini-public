@@ -127,8 +127,9 @@ internal sealed class ShellContextMenu
         {
             var pchEaten = 0u;
             var pdwAttributes = default(SFGAO);
+            var parseDisplayName = GetChildParseDisplayName(files[i]);
 
-            var result = parentFolder.ParseDisplayName(IntPtr.Zero, IntPtr.Zero, files[i].Name, ref pchEaten,
+            var result = parentFolder.ParseDisplayName(IntPtr.Zero, IntPtr.Zero, parseDisplayName, ref pchEaten,
                 out var idl, ref pdwAttributes);
 
             if (result is not S_OK)
@@ -138,6 +139,11 @@ internal sealed class ShellContextMenu
         }
 
         return idls;
+    }
+
+    internal static string GetChildParseDisplayName(FileInfo file)
+    {
+        return string.IsNullOrEmpty(file.Name) ? file.FullName : file.Name;
     }
 
     private static void FreeIdls(IntPtr[] idls)
