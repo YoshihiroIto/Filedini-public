@@ -2128,4 +2128,7 @@ Please try again later.</value>
     <data name="Message_MoveCompletedSuccessfully" xml:space="preserve">
         <value>Move completed successfully.</value>
     </data>
+    <data name="Message_DeleteCompletedSuccessfully" xml:space="preserve">
+        <value>Delete completed successfully.</value>
+    </data>
 </root>

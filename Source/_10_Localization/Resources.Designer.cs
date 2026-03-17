@@ -3868,6 +3868,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Delete completed successfully..
+        /// </summary>
+        public static string Message_DeleteCompletedSuccessfully {
+            get {
+                return ResourceManager.GetString("Message_DeleteCompletedSuccessfully", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Delete {0:plural:1 file|{:N0} files}..
         /// </summary>
         public static string Message_DeleteFiles {

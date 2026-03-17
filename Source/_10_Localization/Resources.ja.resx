@@ -1956,4 +1956,7 @@
     <data name="Message_CopyCompletedSuccessfully" xml:space="preserve">
         <value>コピーが完了しました。</value>
     </data>
+    <data name="Message_DeleteCompletedSuccessfully" xml:space="preserve">
+        <value>削除が完了しました。</value>
+    </data>
 </root>
