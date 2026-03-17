@@ -1950,4 +1950,10 @@
     <data name="FileMenu_Nop" xml:space="preserve">
         <value>何もしない</value>
     </data>
+    <data name="Message_MoveCompletedSuccessfully" xml:space="preserve">
+        <value>移動が完了しました。</value>
+    </data>
+    <data name="Message_CopyCompletedSuccessfully" xml:space="preserve">
+        <value>コピーが完了しました。</value>
+    </data>
 </root>

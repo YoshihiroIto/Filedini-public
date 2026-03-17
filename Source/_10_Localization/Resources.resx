@@ -2122,4 +2122,10 @@ Please try again later.</value>
     <data name="FileMenu_Nop" xml:space="preserve">
         <value>Do nothing</value>
     </data>
+    <data name="Message_CopyCompletedSuccessfully" xml:space="preserve">
+        <value>Copy completed successfully.</value>
+    </data>
+    <data name="Message_MoveCompletedSuccessfully" xml:space="preserve">
+        <value>Move completed successfully.</value>
+    </data>
 </root>
