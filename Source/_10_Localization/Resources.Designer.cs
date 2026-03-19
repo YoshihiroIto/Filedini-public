@@ -2818,6 +2818,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Cancel.
+        /// </summary>
+        public static string Label_Cancel {
+            get {
+                return ResourceManager.GetString("Label_Cancel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Cancel Installation.
         /// </summary>
         public static string Label_CancelInstallation {
@@ -5350,6 +5359,33 @@ namespace Filedini.Localization {
         public static string StatusBar_AllItemsCount {
             get {
                 return ResourceManager.GetString("StatusBar_AllItemsCount", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Copying....
+        /// </summary>
+        public static string StatusBar_Copying {
+            get {
+                return ResourceManager.GetString("StatusBar_Copying", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Deleting....
+        /// </summary>
+        public static string StatusBar_Deleting {
+            get {
+                return ResourceManager.GetString("StatusBar_Deleting", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Moving....
+        /// </summary>
+        public static string StatusBar_Moving {
+            get {
+                return ResourceManager.GetString("StatusBar_Moving", resourceCulture);
             }
         }
         

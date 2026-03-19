@@ -1959,4 +1959,16 @@
     <data name="Message_DeleteCompletedSuccessfully" xml:space="preserve">
         <value>削除が完了しました。</value>
     </data>
+    <data name="Label_Cancel" xml:space="preserve">
+        <value>キャンセル</value>
+    </data>
+    <data name="StatusBar_Copying" xml:space="preserve">
+        <value>コピー中...</value>
+    </data>
+    <data name="StatusBar_Moving" xml:space="preserve">
+        <value>移動中...</value>
+    </data>
+    <data name="StatusBar_Deleting" xml:space="preserve">
+        <value>削除中...</value>
+    </data>
 </root>

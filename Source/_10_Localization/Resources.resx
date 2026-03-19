@@ -2131,4 +2131,16 @@ Please try again later.</value>
     <data name="Message_DeleteCompletedSuccessfully" xml:space="preserve">
         <value>Delete completed successfully.</value>
     </data>
+    <data name="Label_Cancel" xml:space="preserve">
+        <value>Cancel</value>
+    </data>
+    <data name="StatusBar_Copying" xml:space="preserve">
+        <value>Copying...</value>
+    </data>
+    <data name="StatusBar_Moving" xml:space="preserve">
+        <value>Moving...</value>
+    </data>
+    <data name="StatusBar_Deleting" xml:space="preserve">
+        <value>Deleting...</value>
+    </data>
 </root>
