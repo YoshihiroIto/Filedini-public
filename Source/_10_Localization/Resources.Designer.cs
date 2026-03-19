@@ -5381,6 +5381,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Emptying Trash Can....
+        /// </summary>
+        public static string StatusBar_EmptyingTrashCan {
+            get {
+                return ResourceManager.GetString("StatusBar_EmptyingTrashCan", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Moving....
         /// </summary>
         public static string StatusBar_Moving {
