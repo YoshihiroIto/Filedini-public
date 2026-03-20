@@ -5354,15 +5354,6 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {0:plural:1 item|{:N0} items}.
-        /// </summary>
-        public static string StatusBar_AllItemsCount {
-            get {
-                return ResourceManager.GetString("StatusBar_AllItemsCount", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Copying....
         /// </summary>
         public static string StatusBar_Copying {
@@ -5390,20 +5381,20 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to {0:N0} / {1:plural:1 item|{:N0} items}.
+        /// </summary>
+        public static string StatusBar_ItemsCount {
+            get {
+                return ResourceManager.GetString("StatusBar_ItemsCount", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Moving....
         /// </summary>
         public static string StatusBar_Moving {
             get {
                 return ResourceManager.GetString("StatusBar_Moving", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to {0:plural:1 item|{:N0} items} selected.
-        /// </summary>
-        public static string StatusBar_SelectedItemsCount {
-            get {
-                return ResourceManager.GetString("StatusBar_SelectedItemsCount", resourceCulture);
             }
         }
         

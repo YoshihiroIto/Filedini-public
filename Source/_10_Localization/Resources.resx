@@ -579,11 +579,8 @@ Do you want to proceed?</value>
     <data name="UI_Folder" xml:space="preserve">
         <value>_Folder</value>
     </data>
-    <data name="StatusBar_AllItemsCount" xml:space="preserve">
-        <value>{0:plural:1 item|{:N0} items}</value>
-    </data>
-    <data name="StatusBar_SelectedItemsCount" xml:space="preserve">
-        <value>{0:plural:1 item|{:N0} items} selected</value>
+    <data name="StatusBar_ItemsCount" xml:space="preserve">
+        <value>{0:N0} / {1:plural:1 item|{:N0} items}</value>
     </data>
     <data name="UI_Today" xml:space="preserve">
         <value>_Today</value>
