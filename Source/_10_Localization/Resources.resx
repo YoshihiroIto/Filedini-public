@@ -2140,6 +2140,9 @@ Please try again later.</value>
     <data name="StatusBar_Deleting" xml:space="preserve">
         <value>Deleting...</value>
     </data>
+    <data name="StatusBar_MovingToTrashCan" xml:space="preserve">
+        <value>Moving to Trash Can...</value>
+    </data>
     <data name="StatusBar_EmptyingTrashCan" xml:space="preserve">
         <value>Emptying Trash Can...</value>
     </data>

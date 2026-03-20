@@ -1968,7 +1968,10 @@
     <data name="StatusBar_Deleting" xml:space="preserve">
         <value>削除中...</value>
     </data>
+    <data name="StatusBar_MovingToTrashCan" xml:space="preserve">
+        <value>ごみ箱に移動中...</value>
+    </data>
     <data name="StatusBar_EmptyingTrashCan" xml:space="preserve">
-        <value>ゴミ箱を空にしています...</value>
+        <value>ごみ箱を空にしています...</value>
     </data>
 </root>
