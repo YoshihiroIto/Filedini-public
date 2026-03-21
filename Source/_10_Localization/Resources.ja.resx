@@ -1179,6 +1179,36 @@
     <data name="Dialog_Retry" xml:space="preserve">
         <value>再試行(_R)</value>
     </data>
+    <data name="Label_LockingProcesses" xml:space="preserve">
+        <value>ロック中のプロセス</value>
+    </data>
+    <data name="Message_LoadingLockingProcesses" xml:space="preserve">
+        <value>対象アイテムをロックしているプロセスを確認しています...</value>
+    </data>
+    <data name="Message_NoLockingProcessesFound" xml:space="preserve">
+        <value>ロックしているプロセスは見つかりませんでした。</value>
+    </data>
+    <data name="Message_FailedToLoadLockingProcesses" xml:space="preserve">
+        <value>ロックしているプロセス一覧を取得できませんでした。</value>
+    </data>
+    <data name="Label_Process" xml:space="preserve">
+        <value>プロセス</value>
+    </data>
+    <data name="Label_WindowTitle" xml:space="preserve">
+        <value>ウィンドウタイトル</value>
+    </data>
+    <data name="Label_ExecutablePath" xml:space="preserve">
+        <value>実行ファイルパス</value>
+    </data>
+    <data name="Label_Action" xml:space="preserve">
+        <value>操作</value>
+    </data>
+    <data name="Button_EndProcess" xml:space="preserve">
+        <value>プロセスを終了</value>
+    </data>
+    <data name="Message_FailedToTerminateProcess" xml:space="preserve">
+        <value>{0} を終了できませんでした。</value>
+    </data>
     <data name="DialogTitle_InputPassword" xml:space="preserve">
         <value>パスワードの入力</value>
     </data>

@@ -1198,6 +1198,36 @@ End date: {0}</value>
     <data name="Dialog_Retry" xml:space="preserve">
         <value>_Retry</value>
     </data>
+    <data name="Label_LockingProcesses" xml:space="preserve">
+        <value>Locking processes</value>
+    </data>
+    <data name="Message_LoadingLockingProcesses" xml:space="preserve">
+        <value>Checking which processes are locking the target item...</value>
+    </data>
+    <data name="Message_NoLockingProcessesFound" xml:space="preserve">
+        <value>No locking processes were found.</value>
+    </data>
+    <data name="Message_FailedToLoadLockingProcesses" xml:space="preserve">
+        <value>Couldn't retrieve the list of locking processes.</value>
+    </data>
+    <data name="Label_Process" xml:space="preserve">
+        <value>Process</value>
+    </data>
+    <data name="Label_WindowTitle" xml:space="preserve">
+        <value>Window Title</value>
+    </data>
+    <data name="Label_ExecutablePath" xml:space="preserve">
+        <value>Executable Path</value>
+    </data>
+    <data name="Label_Action" xml:space="preserve">
+        <value>Action</value>
+    </data>
+    <data name="Button_EndProcess" xml:space="preserve">
+        <value>End Process</value>
+    </data>
+    <data name="Message_FailedToTerminateProcess" xml:space="preserve">
+        <value>Failed to end {0}.</value>
+    </data>
     <data name="DialogTitle_InputPassword" xml:space="preserve">
         <value>Input Password</value>
     </data>
