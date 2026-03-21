@@ -60,6 +60,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to End Process.
+        /// </summary>
+        public static string Button_EndProcess {
+            get {
+                return ResourceManager.GetString("Button_EndProcess", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to _Copy.
         /// </summary>
         public static string ContextMenu_Copy {
@@ -2755,6 +2764,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Action.
+        /// </summary>
+        public static string Label_Action {
+            get {
+                return ResourceManager.GetString("Label_Action", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Already assigned to.
         /// </summary>
         public static string Label_AlreadyAssignedTo {
@@ -2953,6 +2971,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Executable Path.
+        /// </summary>
+        public static string Label_ExecutablePath {
+            get {
+                return ResourceManager.GetString("Label_ExecutablePath", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Existing File.
         /// </summary>
         public static string Label_ExistingFile {
@@ -3048,6 +3075,15 @@ namespace Filedini.Localization {
         public static string Label_LinkName {
             get {
                 return ResourceManager.GetString("Label_LinkName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Locking processes.
+        /// </summary>
+        public static string Label_LockingProcesses {
+            get {
+                return ResourceManager.GetString("Label_LockingProcesses", resourceCulture);
             }
         }
         
@@ -3169,20 +3205,20 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Process.
+        /// </summary>
+        public static string Label_Process {
+            get {
+                return ResourceManager.GetString("Label_Process", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Python Script File.
         /// </summary>
         public static string Label_PythonScriptFile {
             get {
                 return ResourceManager.GetString("Label_PythonScriptFile", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Reload.
-        /// </summary>
-        public static string Label_Reload {
-            get {
-                return ResourceManager.GetString("Label_Reload", resourceCulture);
             }
         }
         
@@ -3327,6 +3363,15 @@ namespace Filedini.Localization {
         public static string Label_VolumeSizeDetails {
             get {
                 return ResourceManager.GetString("Label_VolumeSizeDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Window Title.
+        /// </summary>
+        public static string Label_WindowTitle {
+            get {
+                return ResourceManager.GetString("Label_WindowTitle", resourceCulture);
             }
         }
         
@@ -4043,7 +4088,6 @@ namespace Filedini.Localization {
         
         /// <summary>
         ///   Looks up a localized string similar to Failed to delete.
-        ///
         ///{0}.
         /// </summary>
         public static string Message_FailedToDelete {
@@ -4074,6 +4118,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Couldn&apos;t retrieve the list of locking processes..
+        /// </summary>
+        public static string Message_FailedToLoadLockingProcesses {
+            get {
+                return ResourceManager.GetString("Message_FailedToLoadLockingProcesses", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Failed to Rename item..
         /// </summary>
         public static string Message_FailedToRename {
@@ -4097,6 +4150,15 @@ namespace Filedini.Localization {
         public static string Message_FailedToStartPython {
             get {
                 return ResourceManager.GetString("Message_FailedToStartPython", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Failed to end {0}..
+        /// </summary>
+        public static string Message_FailedToTerminateProcess {
+            get {
+                return ResourceManager.GetString("Message_FailedToTerminateProcess", resourceCulture);
             }
         }
         
@@ -4135,6 +4197,15 @@ namespace Filedini.Localization {
         public static string Message_InvalidPassword_FailedToDecompressArchive {
             get {
                 return ResourceManager.GetString("Message_InvalidPassword_FailedToDecompressArchive", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Checking which processes are locking the target item....
+        /// </summary>
+        public static string Message_LoadingLockingProcesses {
+            get {
+                return ResourceManager.GetString("Message_LoadingLockingProcesses", resourceCulture);
             }
         }
         
@@ -4202,6 +4273,15 @@ namespace Filedini.Localization {
         public static string Message_NewVersionIsAvailable {
             get {
                 return ResourceManager.GetString("Message_NewVersionIsAvailable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No locking processes were found..
+        /// </summary>
+        public static string Message_NoLockingProcessesFound {
+            get {
+                return ResourceManager.GetString("Message_NoLockingProcessesFound", resourceCulture);
             }
         }
         
@@ -5372,15 +5452,6 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Moving to Trash Can....
-        /// </summary>
-        public static string StatusBar_MovingToTrashCan {
-            get {
-                return ResourceManager.GetString("StatusBar_MovingToTrashCan", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Emptying Trash Can....
         /// </summary>
         public static string StatusBar_EmptyingTrashCan {
@@ -5404,6 +5475,15 @@ namespace Filedini.Localization {
         public static string StatusBar_Moving {
             get {
                 return ResourceManager.GetString("StatusBar_Moving", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Moving to Trash Can....
+        /// </summary>
+        public static string StatusBar_MovingToTrashCan {
+            get {
+                return ResourceManager.GetString("StatusBar_MovingToTrashCan", resourceCulture);
             }
         }
         
@@ -5892,6 +5972,15 @@ namespace Filedini.Localization {
         public static string UI_Reference {
             get {
                 return ResourceManager.GetString("UI_Reference", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to R_eload.
+        /// </summary>
+        public static string UI_Reload {
+            get {
+                return ResourceManager.GetString("UI_Reload", resourceCulture);
             }
         }
         

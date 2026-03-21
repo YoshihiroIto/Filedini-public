@@ -361,7 +361,6 @@
     </data>
     <data name="Message_FailedToDelete" xml:space="preserve">
         <value>削除に失敗しました。
-
 {0}</value>
     </data>
     <data name="UI_Reference" xml:space="preserve">
@@ -1122,8 +1121,8 @@
     <data name="License_InvoiceHistory" xml:space="preserve">
         <value>インボイスの履歴</value>
     </data>
-    <data name="Label_Reload" xml:space="preserve">
-        <value>リロード</value>
+    <data name="UI_Reload" xml:space="preserve">
+        <value>リロード(_E)</value>
     </data>
     <data name="Label_SignIn" xml:space="preserve">
         <value>ログイン</value>
