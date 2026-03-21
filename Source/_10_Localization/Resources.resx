@@ -346,6 +346,9 @@ The external app is not registered or does not exist.</value>
     <data name="Message_FailedToRename" xml:space="preserve">
         <value>Failed to Rename item.</value>
     </data>
+    <data name="Message_FailedToMove" xml:space="preserve">
+        <value>Failed to Move item.</value>
+    </data>
     <data name="Dialog_Decompress" xml:space="preserve">
         <value>_Decompress</value>
     </data>

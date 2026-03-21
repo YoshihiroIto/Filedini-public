@@ -331,6 +331,9 @@
     <data name="Message_FailedToRename" xml:space="preserve">
         <value>名前の変更に失敗しました。</value>
     </data>
+    <data name="Message_FailedToMove" xml:space="preserve">
+        <value>移動に失敗しました。</value>
+    </data>
     <data name="Dialog_Decompress" xml:space="preserve">
         <value>展開する(_D)</value>
     </data>

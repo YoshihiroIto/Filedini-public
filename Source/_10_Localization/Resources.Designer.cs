@@ -4134,6 +4134,15 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Message_FailedToRename", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Failed to Move item..
+        /// </summary>
+        public static string Message_FailedToMove {
+            get {
+                return ResourceManager.GetString("Message_FailedToMove", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to Failed to send To trash can..
