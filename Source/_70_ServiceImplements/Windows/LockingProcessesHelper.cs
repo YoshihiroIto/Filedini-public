@@ -278,7 +278,7 @@ public static partial class LockingProcessesHelper
         return ReadProcessesFromRestartManagerCore(handle, infos, processes, out nextNeeded);
     }
 
-    private static unsafe int ReadProcessesFromRestartManagerArrayPool(
+    private static int ReadProcessesFromRestartManagerArrayPool(
         uint handle,
         int infoCount,
         IDictionary<int, Process> processes,
@@ -311,7 +311,7 @@ public static partial class LockingProcessesHelper
                 return res;
 
             for (var i = 0; i < count; i++)
-                TryAddProcessById(infos[(int)i].Process.dwProcessId, processes);
+                TryAddProcessById(infos[i].Process.dwProcessId, processes);
 
             return res;
         }
@@ -641,7 +641,7 @@ public static partial class LockingProcessesHelper
                 }
             }
 
-            if (length == 0)
+            if (length is 0)
                 continue;
 
             var bufferLength = checked((int)length);
