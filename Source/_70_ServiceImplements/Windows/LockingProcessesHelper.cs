@@ -1,7 +1,9 @@
 #if TARGET_WINDOWS
 
+using System.Buffers;
 using System.ComponentModel;
 using System.Diagnostics;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 namespace Filedini.ServiceImplements;
@@ -18,6 +20,7 @@ public static partial class LockingProcessesHelper
     private const int SYSTEM_EXTENDED_HANDLE_INFORMATION = 64;
     private const int OBJECT_NAME_INFORMATION = 1;
     private const int RESOURCES_PER_BATCH = 256;
+    private const int STACKALLOC_PROCESS_INFO_BYTES = 16 * 1024;
     private const uint DUPLICATE_SAME_ACCESS = 0x2;
     private const uint PROCESS_DUP_HANDLE = 0x0040;
     private const uint PROCESS_QUERY_LIMITED_INFORMATION = 0x1000;
@@ -87,7 +90,7 @@ public static partial class LockingProcessesHelper
     // ReSharper restore InconsistentNaming
 
     [LibraryImport("rstrtmgr.dll", StringMarshalling = StringMarshalling.Utf16)]
-    private static partial int RmStartSession(out uint pSessionHandle, int dwSessionFlags, char[] strSessionKey);
+    private static unsafe partial int RmStartSession(out uint pSessionHandle, int dwSessionFlags, char* strSessionKey);
 
     [LibraryImport("rstrtmgr.dll")]
     // ReSharper disable once UnusedMethodReturnValue.Local
@@ -109,14 +112,6 @@ public static partial class LockingProcessesHelper
         out uint pnProcInfoNeeded,
         ref uint pnProcInfo,
         IntPtr rgAffectedApps,
-        out uint lpdwRebootReasons);
-
-    [LibraryImport("rstrtmgr.dll")]
-    private static partial int RmGetList(
-        uint dwSessionHandle,
-        out uint pnProcInfoNeeded,
-        ref uint pnProcInfo,
-        [Out] RM_PROCESS_INFO[] rgAffectedApps,
         out uint lpdwRebootReasons);
 
     [LibraryImport("ntdll.dll")]
@@ -164,9 +159,9 @@ public static partial class LockingProcessesHelper
 
     [LibraryImport("kernel32.dll", EntryPoint = "QueryDosDeviceW", SetLastError = true,
         StringMarshalling = StringMarshalling.Utf16)]
-    private static partial uint QueryDosDevice(
+    private static unsafe partial uint QueryDosDevice(
         string? lpDeviceName,
-        char[] lpTargetPath,
+        char* lpTargetPath,
         int ucchMax);
 
     [LibraryImport("advapi32.dll", SetLastError = true)]
@@ -221,12 +216,22 @@ public static partial class LockingProcessesHelper
             CollectProcessesFromRestartManagerBatch(batch, processes);
     }
 
+    [SkipLocalsInit]
     private static void CollectProcessesFromRestartManagerBatch(
         string[] resources,
         IDictionary<int, Process> processes)
     {
-        var key = new char[CCH_RM_SESSION_KEY + 1];
-        var res = RmStartSession(out var handle, 0, key);
+        Span<char> key = stackalloc char[CCH_RM_SESSION_KEY + 1];
+        uint handle;
+        int res;
+        unsafe
+        {
+            fixed (char* keyPtr = key)
+            {
+                res = RmStartSession(out handle, 0, keyPtr);
+            }
+        }
+
         if (res != ERROR_SUCCESS)
             return;
 
@@ -241,20 +246,74 @@ public static partial class LockingProcessesHelper
             res = RmGetList(handle, out needed, ref count, IntPtr.Zero, out _);
 
             while (res == ERROR_MORE_DATA && needed > 0)
-            {
-                var infos = new RM_PROCESS_INFO[needed];
-                count = needed;
-                res = RmGetList(handle, out needed, ref count, infos, out _);
-                if (res != ERROR_SUCCESS)
-                    continue;
-
-                for (var i = 0; i < count; i++)
-                    TryAddProcessById(infos[i].Process.dwProcessId, processes);
-            }
+                res = ReadProcessesFromRestartManager(handle, needed, processes, out needed);
         }
         finally
         {
             RmEndSession(handle);
+        }
+    }
+
+    private static unsafe int ReadProcessesFromRestartManager(
+        uint handle,
+        uint needed,
+        IDictionary<int, Process> processes,
+        out uint nextNeeded)
+    {
+        var infoCount = checked((int)needed);
+        if ((long)infoCount * sizeof(RM_PROCESS_INFO) <= STACKALLOC_PROCESS_INFO_BYTES)
+            return ReadProcessesFromRestartManagerStackalloc(handle, infoCount, processes, out nextNeeded);
+
+        return ReadProcessesFromRestartManagerArrayPool(handle, infoCount, processes, out nextNeeded);
+    }
+
+    [SkipLocalsInit]
+    private static unsafe int ReadProcessesFromRestartManagerStackalloc(
+        uint handle,
+        int infoCount,
+        IDictionary<int, Process> processes,
+        out uint nextNeeded)
+    {
+        Span<RM_PROCESS_INFO> infos = stackalloc RM_PROCESS_INFO[infoCount];
+        return ReadProcessesFromRestartManagerCore(handle, infos, processes, out nextNeeded);
+    }
+
+    private static unsafe int ReadProcessesFromRestartManagerArrayPool(
+        uint handle,
+        int infoCount,
+        IDictionary<int, Process> processes,
+        out uint nextNeeded)
+    {
+        var rentedInfos = ArrayPool<RM_PROCESS_INFO>.Shared.Rent(infoCount);
+
+        try
+        {
+            return ReadProcessesFromRestartManagerCore(handle, rentedInfos.AsSpan(0, infoCount), processes, out nextNeeded);
+        }
+        finally
+        {
+            ArrayPool<RM_PROCESS_INFO>.Shared.Return(rentedInfos);
+        }
+    }
+
+    private static unsafe int ReadProcessesFromRestartManagerCore(
+        uint handle,
+        Span<RM_PROCESS_INFO> infos,
+        IDictionary<int, Process> processes,
+        out uint nextNeeded)
+    {
+        var count = checked((uint)infos.Length);
+
+        fixed (RM_PROCESS_INFO* infosPtr = infos)
+        {
+            var res = RmGetList(handle, out nextNeeded, ref count, (IntPtr)infosPtr, out _);
+            if (res != ERROR_SUCCESS)
+                return res;
+
+            for (var i = 0; i < count; i++)
+                TryAddProcessById(infos[(int)i].Process.dwProcessId, processes);
+
+            return res;
         }
     }
 
@@ -560,10 +619,11 @@ public static partial class LockingProcessesHelper
         }
     }
 
+    [SkipLocalsInit]
     private static Dictionary<string, string> BuildDevicePathMap()
     {
         var result = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
-        var buffer = new char[1024];
+        Span<char> buffer = stackalloc char[1024];
 
         foreach (var drive in DriveInfo.GetDrives())
         {
@@ -571,13 +631,22 @@ public static partial class LockingProcessesHelper
                 continue;
 
             var driveName = drive.Name[..2];
-            Array.Clear(buffer);
-            var length = QueryDosDevice(driveName, buffer, buffer.Length);
+            buffer.Clear();
+            uint length;
+            unsafe
+            {
+                fixed (char* bufferPtr = buffer)
+                {
+                    length = QueryDosDevice(driveName, bufferPtr, buffer.Length);
+                }
+            }
+
             if (length == 0)
                 continue;
 
-            var devicePath = new string(buffer, 0,
-                Array.IndexOf(buffer, '\0') is var index && index >= 0 ? index : (int)length);
+            var bufferLength = checked((int)length);
+            var terminatorIndex = buffer[..bufferLength].IndexOf('\0');
+            var devicePath = new string(buffer[..(terminatorIndex >= 0 ? terminatorIndex : bufferLength)]);
             if (string.IsNullOrWhiteSpace(devicePath))
                 continue;
 
