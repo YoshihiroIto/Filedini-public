@@ -4127,20 +4127,20 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Failed to Rename item..
-        /// </summary>
-        public static string Message_FailedToRename {
-            get {
-                return ResourceManager.GetString("Message_FailedToRename", resourceCulture);
-            }
-        }
-
-        /// <summary>
         ///   Looks up a localized string similar to Failed to Move item..
         /// </summary>
         public static string Message_FailedToMove {
             get {
                 return ResourceManager.GetString("Message_FailedToMove", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Failed to Rename item..
+        /// </summary>
+        public static string Message_FailedToRename {
+            get {
+                return ResourceManager.GetString("Message_FailedToRename", resourceCulture);
             }
         }
         
@@ -4168,6 +4168,16 @@ namespace Filedini.Localization {
         public static string Message_FailedToTerminateProcess {
             get {
                 return ResourceManager.GetString("Message_FailedToTerminateProcess", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Folder does not Exist
+        ///{0}.
+        /// </summary>
+        public static string Message_FolderDoesNotExist {
+            get {
+                return ResourceManager.GetString("Message_FolderDoesNotExist", resourceCulture);
             }
         }
         

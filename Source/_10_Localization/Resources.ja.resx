@@ -2006,4 +2006,8 @@
     <data name="StatusBar_EmptyingTrashCan" xml:space="preserve">
         <value>ごみ箱を空にしています...</value>
     </data>
+    <data name="Message_FolderDoesNotExist" xml:space="preserve">
+        <value>フォルダーが存在しません
+{0}</value>
+    </data>
 </root>
