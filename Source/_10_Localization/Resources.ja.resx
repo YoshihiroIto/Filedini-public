@@ -512,6 +512,12 @@
     <data name="ContextMenu_Copy" xml:space="preserve">
         <value>コピー(_C)</value>
     </data>
+    <data name="ContextMenu_ExtractWithFolders" xml:space="preserve">
+        <value>フォルダー付きで展開(_F)</value>
+    </data>
+    <data name="ContextMenu_ExtractWithoutFolders" xml:space="preserve">
+        <value>フォルダー無しで展開(_N)</value>
+    </data>
     <data name="ContextMenu_Move" xml:space="preserve">
         <value>移動(_M)</value>
     </data>

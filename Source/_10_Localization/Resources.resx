@@ -527,6 +527,12 @@ Do you want to proceed?</value>
     <data name="ContextMenu_Copy" xml:space="preserve">
         <value>_Copy</value>
     </data>
+    <data name="ContextMenu_ExtractWithFolders" xml:space="preserve">
+        <value>Extract with _Folders</value>
+    </data>
+    <data name="ContextMenu_ExtractWithoutFolders" xml:space="preserve">
+        <value>Extract witho_ut Folders</value>
+    </data>
     <data name="ContextMenu_Move" xml:space="preserve">
         <value>_Move</value>
     </data>

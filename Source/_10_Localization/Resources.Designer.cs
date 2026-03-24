@@ -76,6 +76,24 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("ContextMenu_Copy", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Extract with _Folders.
+        /// </summary>
+        public static string ContextMenu_ExtractWithFolders {
+            get {
+                return ResourceManager.GetString("ContextMenu_ExtractWithFolders", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Extract witho_ut Folders.
+        /// </summary>
+        public static string ContextMenu_ExtractWithoutFolders {
+            get {
+                return ResourceManager.GetString("ContextMenu_ExtractWithoutFolders", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to _Move.
