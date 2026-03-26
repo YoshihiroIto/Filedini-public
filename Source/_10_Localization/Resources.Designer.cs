@@ -76,7 +76,7 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("ContextMenu_Copy", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Extract with _Folders.
         /// </summary>
@@ -85,7 +85,7 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("ContextMenu_ExtractWithFolders", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Extract witho_ut Folders.
         /// </summary>
@@ -4132,6 +4132,15 @@ namespace Filedini.Localization {
         public static string Message_FailedToExecuteExternalApp {
             get {
                 return ResourceManager.GetString("Message_FailedToExecuteExternalApp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Failed to initialize WebView2..
+        /// </summary>
+        public static string Message_FailedToInitializeWebView2 {
+            get {
+                return ResourceManager.GetString("Message_FailedToInitializeWebView2", resourceCulture);
             }
         }
         

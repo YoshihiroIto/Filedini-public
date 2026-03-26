@@ -2188,4 +2188,7 @@ Please try again later.</value>
         <value>Folder does not Exist
 {0}</value>
     </data>
+    <data name="Message_FailedToInitializeWebView2" xml:space="preserve">
+        <value>Failed to initialize WebView2.</value>
+    </data>
 </root>
