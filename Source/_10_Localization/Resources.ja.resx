@@ -1040,9 +1040,6 @@
     <data name="Label_Folder" xml:space="preserve">
         <value>フォルダー</value>
     </data>
-    <data name="Settings_Label_BinaryViewerBufferSize" xml:space="preserve">
-        <value>バイナリービューワーバッファサイズ</value>
-    </data>
     <data name="Settings_Label_TextViewerBufferSize" xml:space="preserve">
         <value>テキストビューワーバッファサイズ</value>
     </data>

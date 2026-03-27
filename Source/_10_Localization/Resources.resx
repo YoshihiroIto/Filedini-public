@@ -1063,9 +1063,6 @@ Empty file.</value>
     <data name="Settings_Label_TextViewerBufferSize" xml:space="preserve">
         <value>Text Viewer Buffer Size</value>
     </data>
-    <data name="Settings_Label_BinaryViewerBufferSize" xml:space="preserve">
-        <value>Binary Viewer Buffer Size</value>
-    </data>
     <data name="Message_Copied" xml:space="preserve">
         <value>Copied.</value>
     </data>
