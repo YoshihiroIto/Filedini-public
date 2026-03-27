@@ -4733,6 +4733,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Binary Viewer Buffer Size.
+        /// </summary>
+        public static string Settings_Label_BinaryViewerBufferSize {
+            get {
+                return ResourceManager.GetString("Settings_Label_BinaryViewerBufferSize", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Can Execute in Folder.
         /// </summary>
         public static string Settings_Label_CanExecuteInFolder {
