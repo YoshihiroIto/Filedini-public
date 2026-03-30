@@ -1751,6 +1751,15 @@
     <data name="Settings_Label_MainMenuResponsiveMode" xml:space="preserve">
         <value>メインメニューレスポンシブモード</value>
     </data>
+    <data name="Settings_Label_PageBarScrollMode" xml:space="preserve">
+        <value>スクロールバー</value>
+    </data>
+    <data name="PageBarScrollModes_Page" xml:space="preserve">
+        <value>ページ単位</value>
+    </data>
+    <data name="PageBarScrollModes_Pixel" xml:space="preserve">
+        <value>ピクセル単位</value>
+    </data>
     <data name="FileMenu_SwitchToolPane" xml:space="preserve">
         <value>ツール</value>
     </data>

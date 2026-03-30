@@ -4544,6 +4544,24 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Page.
+        /// </summary>
+        public static string PageBarScrollModes_Page {
+            get {
+                return ResourceManager.GetString("PageBarScrollModes_Page", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pixel.
+        /// </summary>
+        public static string PageBarScrollModes_Pixel {
+            get {
+                return ResourceManager.GetString("PageBarScrollModes_Pixel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Days.
         /// </summary>
         public static string PeriodUnits_Days {
@@ -5089,6 +5107,15 @@ namespace Filedini.Localization {
         public static string Settings_Label_Options {
             get {
                 return ResourceManager.GetString("Settings_Label_Options", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Scroll Bar.
+        /// </summary>
+        public static string Settings_Label_PageBarScrollMode {
+            get {
+                return ResourceManager.GetString("Settings_Label_PageBarScrollMode", resourceCulture);
             }
         }
         

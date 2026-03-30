@@ -1799,6 +1799,15 @@ Destination:
     <data name="Settings_Label_MainMenuResponsiveMode" xml:space="preserve">
         <value>Main Menu Responsive Mode</value>
     </data>
+    <data name="Settings_Label_PageBarScrollMode" xml:space="preserve">
+        <value>Scroll Bar</value>
+    </data>
+    <data name="PageBarScrollModes_Page" xml:space="preserve">
+        <value>Page</value>
+    </data>
+    <data name="PageBarScrollModes_Pixel" xml:space="preserve">
+        <value>Pixel</value>
+    </data>
     <data name="FileMenu_SwitchToolPane" xml:space="preserve">
         <value>Tool View</value>
     </data>
