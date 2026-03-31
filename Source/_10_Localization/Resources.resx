@@ -575,9 +575,15 @@ Do you want to proceed?</value>
     <data name="Message_DraggingFoldersAndFiles" xml:space="preserve">
         <value>Dragging {0:plural:1 folder|{:N0} folders}, {1:plural:1 file|{:N0} files}.</value>
     </data>
-    <data name="FileMenu_MoveToRecentlyUsedFolder" xml:space="preserve">
-        <value>Move to Recently used folder...</value>
-    </data>
+  <data name="FileMenu_MoveToRecentlyUsedFolder" xml:space="preserve">
+    <value>Move to Recently used folder...</value>
+  </data>
+  <data name="FileMenu_CreateTabFromRecentlyUsedFolder" xml:space="preserve">
+    <value>Create Tab from Recently Used Folder</value>
+  </data>
+  <data name="FileMenu_OpenRecentlyUsedFolderAsTab" xml:space="preserve">
+    <value>Open Recently Used Folder as Tab</value>
+  </data>
     <data name="DialogTitle_FolderSelection" xml:space="preserve">
         <value>Select Folder</value>
     </data>
@@ -1775,12 +1781,12 @@ Destination:
     <data name="FileMenu_NewTab" xml:space="preserve">
         <value>New Tab</value>
     </data>
-    <data name="FileMenu_CreateTabsFromSelectedFolders" xml:space="preserve">
-        <value>Create Tabs from Selected Folders</value>
-    </data>
-    <data name="FileMenu_OpenAsTabsFromSelectedFolders" xml:space="preserve">
-        <value>Open Selected Folders as Tabs</value>
-    </data>
+  <data name="FileMenu_CreateTabsFromSelectedFolders" xml:space="preserve">
+    <value>Create Tabs from Selected Folders</value>
+  </data>
+  <data name="FileMenu_OpenAsTabsFromSelectedFolders" xml:space="preserve">
+    <value>Open Selected Folders as Tabs</value>
+  </data>
     <data name="FileMenu_OpenInOtherFolderPane" xml:space="preserve">
         <value>Open in Other Folder Pane</value>
     </data>

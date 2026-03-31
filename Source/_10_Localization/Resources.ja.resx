@@ -563,6 +563,12 @@
     <data name="FileMenu_MoveToRecentlyUsedFolder" xml:space="preserve">
         <value>最近利用したフォルダーに移動...</value>
     </data>
+    <data name="FileMenu_CreateTabFromRecentlyUsedFolder" xml:space="preserve">
+        <value>最近利用したフォルダーからタブを作成</value>
+    </data>
+    <data name="FileMenu_OpenRecentlyUsedFolderAsTab" xml:space="preserve">
+        <value>最近利用したフォルダーをタブとして開く</value>
+    </data>
     <data name="DialogTitle_FolderSelection" xml:space="preserve">
         <value>フォルダーの選択</value>
     </data>

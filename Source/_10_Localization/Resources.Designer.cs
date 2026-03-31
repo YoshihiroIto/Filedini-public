@@ -826,6 +826,15 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("FileMenu_CreateTabsFromSelectedFolders", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Create Tab from Recently Used Folder.
+        /// </summary>
+        public static string FileMenu_CreateTabFromRecentlyUsedFolder {
+            get {
+                return ResourceManager.GetString("FileMenu_CreateTabFromRecentlyUsedFolder", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to _Cursor.
@@ -1382,6 +1391,15 @@ namespace Filedini.Localization {
         public static string FileMenu_MoveToRecentlyUsedFolder {
             get {
                 return ResourceManager.GetString("FileMenu_MoveToRecentlyUsedFolder", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Open Recently Used Folder as Tab.
+        /// </summary>
+        public static string FileMenu_OpenRecentlyUsedFolderAsTab {
+            get {
+                return ResourceManager.GetString("FileMenu_OpenRecentlyUsedFolderAsTab", resourceCulture);
             }
         }
         
