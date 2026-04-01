@@ -494,6 +494,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Recently Used Folder.
+        /// </summary>
+        public static string DialogTitle_RecentlyUsedFolder {
+            get {
+                return ResourceManager.GetString("DialogTitle_RecentlyUsedFolder", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Send feedback to Filedini.
         /// </summary>
         public static string DialogTitle_SendFeedback {
@@ -819,20 +828,20 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Create Tabs from Selected Folders.
-        /// </summary>
-        public static string FileMenu_CreateTabsFromSelectedFolders {
-            get {
-                return ResourceManager.GetString("FileMenu_CreateTabsFromSelectedFolders", resourceCulture);
-            }
-        }
-
-        /// <summary>
         ///   Looks up a localized string similar to Create Tab from Recently Used Folder.
         /// </summary>
         public static string FileMenu_CreateTabFromRecentlyUsedFolder {
             get {
                 return ResourceManager.GetString("FileMenu_CreateTabFromRecentlyUsedFolder", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Create Tabs from Selected Folders.
+        /// </summary>
+        public static string FileMenu_CreateTabsFromSelectedFolders {
+            get {
+                return ResourceManager.GetString("FileMenu_CreateTabsFromSelectedFolders", resourceCulture);
             }
         }
         
@@ -1393,15 +1402,6 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("FileMenu_MoveToRecentlyUsedFolder", resourceCulture);
             }
         }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Open Recently Used Folder as Tab.
-        /// </summary>
-        public static string FileMenu_OpenRecentlyUsedFolderAsTab {
-            get {
-                return ResourceManager.GetString("FileMenu_OpenRecentlyUsedFolderAsTab", resourceCulture);
-            }
-        }
         
         /// <summary>
         ///   Looks up a localized string similar to Move to Root Folder.
@@ -1823,6 +1823,15 @@ namespace Filedini.Localization {
         public static string FileMenu_OpenItem {
             get {
                 return ResourceManager.GetString("FileMenu_OpenItem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open Recently Used Folder as Tab.
+        /// </summary>
+        public static string FileMenu_OpenRecentlyUsedFolderAsTab {
+            get {
+                return ResourceManager.GetString("FileMenu_OpenRecentlyUsedFolderAsTab", resourceCulture);
             }
         }
         

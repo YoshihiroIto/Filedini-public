@@ -2034,4 +2034,7 @@
     <data name="Message_FailedToInitializeWebView2" xml:space="preserve">
         <value>WebView2の初期化に失敗しました。</value>
     </data>
+    <data name="DialogTitle_RecentlyUsedFolder" xml:space="preserve">
+        <value>最近利用したフォルダー</value>
+    </data>
 </root>
