@@ -1730,6 +1730,9 @@ Destination:
     <data name="FileMenu_SelectNextTab" xml:space="preserve">
         <value>Next Tab</value>
     </data>
+    <data name="FileMenu_SearchTabs" xml:space="preserve">
+        <value>Search Tabs</value>
+    </data>
     <data name="FileMenu_MoveToTab" xml:space="preserve">
         <value>Move to Tab</value>
     </data>

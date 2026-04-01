@@ -1694,6 +1694,9 @@
     <data name="FileMenu_SelectNextTab" xml:space="preserve">
         <value>次のタブ</value>
     </data>
+    <data name="FileMenu_SearchTabs" xml:space="preserve">
+        <value>タブを検索</value>
+    </data>
     <data name="FileMenu_MoveToTab" xml:space="preserve">
         <value>タブ移動</value>
     </data>

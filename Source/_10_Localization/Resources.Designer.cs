@@ -1996,6 +1996,15 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("FileMenu_SelectNextTab", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Search Tabs.
+        /// </summary>
+        public static string FileMenu_SearchTabs {
+            get {
+                return ResourceManager.GetString("FileMenu_SearchTabs", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to Previous Folder Panel.
