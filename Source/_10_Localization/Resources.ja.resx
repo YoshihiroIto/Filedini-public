@@ -378,9 +378,6 @@
     <data name="FileMenu_FitPreview" xml:space="preserve">
         <value>フィット</value>
     </data>
-    <data name="FileMenu_OriginalSizePreview" xml:space="preserve">
-        <value>オリジナルサイズ</value>
-    </data>
     <data name="FileMenu_GoForward" xml:space="preserve">
         <value>先に進む</value>
     </data>

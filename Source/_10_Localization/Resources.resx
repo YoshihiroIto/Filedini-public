@@ -393,9 +393,6 @@ Do you want to proceed?</value>
     <data name="FileMenu_FitPreview" xml:space="preserve">
         <value>Fit Preview</value>
     </data>
-    <data name="FileMenu_OriginalSizePreview" xml:space="preserve">
-        <value>Original Size</value>
-    </data>
     <data name="FileMenu_GoBack" xml:space="preserve">
         <value>Go Back</value>
     </data>

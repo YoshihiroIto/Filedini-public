@@ -999,15 +999,6 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Original Size.
-        /// </summary>
-        public static string FileMenu_OriginalSizePreview {
-            get {
-                return ResourceManager.GetString("FileMenu_OriginalSizePreview", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to F_older.
         /// </summary>
         public static string FileMenu_Folder {
