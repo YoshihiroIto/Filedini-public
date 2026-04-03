@@ -1935,6 +1935,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Search Tabs.
+        /// </summary>
+        public static string FileMenu_SearchTabs {
+            get {
+                return ResourceManager.GetString("FileMenu_SearchTabs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Select All.
         /// </summary>
         public static string FileMenu_SelectAll {
@@ -1994,15 +2003,6 @@ namespace Filedini.Localization {
         public static string FileMenu_SelectNextTab {
             get {
                 return ResourceManager.GetString("FileMenu_SelectNextTab", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Search Tabs.
-        /// </summary>
-        public static string FileMenu_SearchTabs {
-            get {
-                return ResourceManager.GetString("FileMenu_SearchTabs", resourceCulture);
             }
         }
         
@@ -4868,7 +4868,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Extensions.
+        ///   Looks up a localized string similar to Extensions(semicolon-separated).
         /// </summary>
         public static string Settings_Label_Extensions {
             get {

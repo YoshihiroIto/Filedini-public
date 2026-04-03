@@ -1390,7 +1390,7 @@ Invalid password.
         <value>External App</value>
     </data>
     <data name="Settings_Label_Extensions" xml:space="preserve">
-        <value>Extensions</value>
+        <value>Extensions(semicolon-separated)</value>
     </data>
     <data name="FileMenu_LaunchApp1" xml:space="preserve">
         <value>Launch App 1</value>
