@@ -1598,6 +1598,12 @@
     <data name="Label_PageLast" xml:space="preserve">
         <value>末尾へ</value>
     </data>
+    <data name="Tooltip_ShowPdfOutline" xml:space="preserve">
+        <value>目次を表示</value>
+    </data>
+    <data name="Tooltip_HidePdfOutline" xml:space="preserve">
+        <value>目次を隠す</value>
+    </data>
     <data name="Label_DB_Name" xml:space="preserve">
         <value>名前</value>
     </data>

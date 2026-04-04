@@ -1646,6 +1646,12 @@ Destination:
     <data name="Label_PagePrevious" xml:space="preserve">
         <value>Previous</value>
     </data>
+    <data name="Tooltip_ShowPdfOutline" xml:space="preserve">
+        <value>Show table of contents</value>
+    </data>
+    <data name="Tooltip_HidePdfOutline" xml:space="preserve">
+        <value>Hide table of contents</value>
+    </data>
     <data name="Label_DB_Name" xml:space="preserve">
         <value>Name</value>
     </data>

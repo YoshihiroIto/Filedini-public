@@ -3248,6 +3248,24 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Label_PagePrevious", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Hide table of contents.
+        /// </summary>
+        public static string Tooltip_HidePdfOutline {
+            get {
+                return ResourceManager.GetString("Tooltip_HidePdfOutline", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Show table of contents.
+        /// </summary>
+        public static string Tooltip_ShowPdfOutline {
+            get {
+                return ResourceManager.GetString("Tooltip_ShowPdfOutline", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to Privacy Policy.
