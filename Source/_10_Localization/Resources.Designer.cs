@@ -4377,6 +4377,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to No matching items found..
+        /// </summary>
+        public static string Message_NoMatchingItemsFound {
+            get {
+                return ResourceManager.GetString("Message_NoMatchingItemsFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to This feature is currently in development.
         ///Please check back again later..
         /// </summary>
