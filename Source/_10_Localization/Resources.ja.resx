@@ -2046,4 +2046,7 @@
     <data name="DialogTitle_RecentlyUsedFolder" xml:space="preserve">
         <value>最近利用したフォルダー</value>
     </data>
+    <data name="Message_NoMatchingFilesFound" xml:space="preserve">
+        <value>検索条件に一致するファイルはありません。</value>
+    </data>
 </root>

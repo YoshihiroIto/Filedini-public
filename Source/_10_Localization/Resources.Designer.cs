@@ -3248,24 +3248,6 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Label_PagePrevious", resourceCulture);
             }
         }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Hide table of contents.
-        /// </summary>
-        public static string Tooltip_HidePdfOutline {
-            get {
-                return ResourceManager.GetString("Tooltip_HidePdfOutline", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Show table of contents.
-        /// </summary>
-        public static string Tooltip_ShowPdfOutline {
-            get {
-                return ResourceManager.GetString("Tooltip_ShowPdfOutline", resourceCulture);
-            }
-        }
         
         /// <summary>
         ///   Looks up a localized string similar to Privacy Policy.
@@ -4382,6 +4364,15 @@ namespace Filedini.Localization {
         public static string Message_NoLockingProcessesFound {
             get {
                 return ResourceManager.GetString("Message_NoLockingProcessesFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No matching files found..
+        /// </summary>
+        public static string Message_NoMatchingFilesFound {
+            get {
+                return ResourceManager.GetString("Message_NoMatchingFilesFound", resourceCulture);
             }
         }
         
@@ -5779,6 +5770,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Hide table of contents.
+        /// </summary>
+        public static string Tooltip_HidePdfOutline {
+            get {
+                return ResourceManager.GetString("Tooltip_HidePdfOutline", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Language.
         /// </summary>
         public static string Tooltip_Language {
@@ -5856,6 +5856,15 @@ namespace Filedini.Localization {
         public static string Tooltip_SendFeedback {
             get {
                 return ResourceManager.GetString("Tooltip_SendFeedback", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Show table of contents.
+        /// </summary>
+        public static string Tooltip_ShowPdfOutline {
+            get {
+                return ResourceManager.GetString("Tooltip_ShowPdfOutline", resourceCulture);
             }
         }
         

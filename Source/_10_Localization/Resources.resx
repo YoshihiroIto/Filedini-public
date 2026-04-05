@@ -2218,4 +2218,7 @@ Please try again later.</value>
     <data name="DialogTitle_RecentlyUsedFolder" xml:space="preserve">
         <value>Recently Used Folder</value>
     </data>
+    <data name="Message_NoMatchingFilesFound" xml:space="preserve">
+        <value>No matching files found.</value>
+    </data>
 </root>
