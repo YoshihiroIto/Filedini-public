@@ -2052,4 +2052,7 @@
     <data name="Message_NoMatchingItemsFound" xml:space="preserve">
         <value>検索条件に一致する項目はありません。</value>
     </data>
+    <data name="FileMenu_SearchInFiles" xml:space="preserve">
+        <value>フォルダー内検索...</value>
+    </data>
 </root>

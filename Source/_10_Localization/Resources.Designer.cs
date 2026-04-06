@@ -1935,6 +1935,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Search in Files....
+        /// </summary>
+        public static string FileMenu_SearchInFiles {
+            get {
+                return ResourceManager.GetString("FileMenu_SearchInFiles", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Search Tabs.
         /// </summary>
         public static string FileMenu_SearchTabs {

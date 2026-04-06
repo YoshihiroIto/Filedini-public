@@ -2224,4 +2224,7 @@ Please try again later.</value>
     <data name="Message_NoMatchingItemsFound" xml:space="preserve">
         <value>No matching items found.</value>
     </data>
+    <data name="FileMenu_SearchInFiles" xml:space="preserve">
+        <value>Search in Files...</value>
+    </data>
 </root>
