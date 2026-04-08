@@ -2227,4 +2227,13 @@ Please try again later.</value>
     <data name="FileMenu_SearchInFiles" xml:space="preserve">
         <value>Search in Files...</value>
     </data>
+    <data name="Tooltip_MatchCase" xml:space="preserve">
+        <value>Match uppercase and lowercase letters exactly</value>
+    </data>
+    <data name="Tooltip_MatchWord" xml:space="preserve">
+        <value>Match whole words only</value>
+    </data>
+    <data name="Tooltip_MatchRegex" xml:space="preserve">
+        <value>Use regular expressions</value>
+    </data>
 </root>

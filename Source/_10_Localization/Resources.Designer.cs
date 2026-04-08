@@ -5806,6 +5806,33 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Match uppercase and lowercase letters exactly.
+        /// </summary>
+        public static string Tooltip_MatchCase {
+            get {
+                return ResourceManager.GetString("Tooltip_MatchCase", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Use regular expressions.
+        /// </summary>
+        public static string Tooltip_MatchRegex {
+            get {
+                return ResourceManager.GetString("Tooltip_MatchRegex", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Match whole words only.
+        /// </summary>
+        public static string Tooltip_MatchWord {
+            get {
+                return ResourceManager.GetString("Tooltip_MatchWord", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to New Tab.
         /// </summary>
         public static string Tooltip_NewTab {

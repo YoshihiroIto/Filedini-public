@@ -2055,4 +2055,13 @@
     <data name="FileMenu_SearchInFiles" xml:space="preserve">
         <value>フォルダー内検索...</value>
     </data>
+    <data name="Tooltip_MatchCase" xml:space="preserve">
+        <value>大文字と小文字を区別して検索します</value>
+    </data>
+    <data name="Tooltip_MatchWord" xml:space="preserve">
+        <value>単語単位で一致するものだけを検索します</value>
+    </data>
+    <data name="Tooltip_MatchRegex" xml:space="preserve">
+        <value>正規表現を使って検索します</value>
+    </data>
 </root>
