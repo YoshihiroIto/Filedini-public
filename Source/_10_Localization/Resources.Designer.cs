@@ -4404,6 +4404,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Type search query to fing in files.
+        /// </summary>
+        public static string Message_TypeSearchQueryToFindInFiles {
+            get {
+                return ResourceManager.GetString("Message_TypeSearchQueryToFindInFiles", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to No matching items found..
         /// </summary>
         public static string Message_NoMatchingItemsFound {

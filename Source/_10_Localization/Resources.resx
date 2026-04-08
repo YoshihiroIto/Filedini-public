@@ -2221,6 +2221,9 @@ Please try again later.</value>
     <data name="Message_NoMatchingFilesFound" xml:space="preserve">
         <value>No matching files found.</value>
     </data>
+    <data name="Message_TypeSearchQueryToFindInFiles" xml:space="preserve">
+        <value>Type search query to fing in files</value>
+    </data>
     <data name="Message_NoMatchingItemsFound" xml:space="preserve">
         <value>No matching items found.</value>
     </data>

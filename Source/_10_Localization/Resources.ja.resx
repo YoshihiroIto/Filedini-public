@@ -2049,6 +2049,9 @@
     <data name="Message_NoMatchingFilesFound" xml:space="preserve">
         <value>検索条件に一致するファイルはありません。</value>
     </data>
+    <data name="Message_TypeSearchQueryToFindInFiles" xml:space="preserve">
+        <value>フィルダー内を検索するには、検索クエリを入力してください</value>
+    </data>
     <data name="Message_NoMatchingItemsFound" xml:space="preserve">
         <value>検索条件に一致する項目はありません。</value>
     </data>
