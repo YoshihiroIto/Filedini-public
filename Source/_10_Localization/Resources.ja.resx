@@ -2064,4 +2064,7 @@
     <data name="Tooltip_MatchRegex" xml:space="preserve">
         <value>正規表現を使って検索します</value>
     </data>
+    <data name="Label_FileMask" xml:space="preserve">
+        <value>ファイルマスク:</value>
+    </data>
 </root>

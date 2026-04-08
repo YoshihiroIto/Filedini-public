@@ -3070,6 +3070,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to File mask:.
+        /// </summary>
+        public static string Label_FileMask {
+            get {
+                return ResourceManager.GetString("Label_FileMask", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to File Name.
         /// </summary>
         public static string Label_FileName {

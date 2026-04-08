@@ -2236,4 +2236,7 @@ Please try again later.</value>
     <data name="Tooltip_MatchRegex" xml:space="preserve">
         <value>Use regular expressions</value>
     </data>
+    <data name="Label_FileMask" xml:space="preserve">
+        <value>File mask:</value>
+    </data>
 </root>
