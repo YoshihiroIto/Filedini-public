@@ -2239,4 +2239,7 @@ Please try again later.</value>
     <data name="Label_FileMask" xml:space="preserve">
         <value>File mask:</value>
     </data>
+    <data name="Label_OpenAsNewTab" xml:space="preserve">
+        <value>Open as New Tab</value>
+    </data>
 </root>

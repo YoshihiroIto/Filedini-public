@@ -3196,6 +3196,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Open as New Tab.
+        /// </summary>
+        public static string Label_OpenAsNewTab {
+            get {
+                return ResourceManager.GetString("Label_OpenAsNewTab", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Output Folder.
         /// </summary>
         public static string Label_OutputFolder {

@@ -2067,4 +2067,7 @@
     <data name="Label_FileMask" xml:space="preserve">
         <value>ファイルマスク:</value>
     </data>
+    <data name="Label_OpenAsNewTab" xml:space="preserve">
+        <value>新しいタブとして開く</value>
+    </data>
 </root>
