@@ -738,6 +738,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Open Hamburger Menu.
+        /// </summary>
+        public static string FileMenu_OpenHamburgerMenu {
+            get {
+                return ResourceManager.GetString("FileMenu_OpenHamburgerMenu", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Command Palette (Shell Mode).
         /// </summary>
         public static string FileMenu_CommandPaletteShellMode {

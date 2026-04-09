@@ -1905,6 +1905,9 @@ re you sure you want to continue?</value>
     <data name="FileMenu_CommandPalette" xml:space="preserve">
         <value>Command Palette...</value>
     </data>
+    <data name="FileMenu_OpenHamburgerMenu" xml:space="preserve">
+        <value>Open Hamburger Menu</value>
+    </data>
     <data name="FileMenu_CommandPaletteShellMode" xml:space="preserve">
         <value>Command Palette (Shell Mode)</value>
     </data>

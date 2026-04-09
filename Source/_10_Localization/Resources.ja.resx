@@ -1857,6 +1857,9 @@
     <data name="FileMenu_CommandPalette" xml:space="preserve">
         <value>コマンドパレット...</value>
     </data>
+    <data name="FileMenu_OpenHamburgerMenu" xml:space="preserve">
+        <value>ハンバーガーメニューを開く</value>
+    </data>
     <data name="FileMenu_CommandPaletteShellMode" xml:space="preserve">
         <value>コマンドパレット (シェルモード）</value>
     </data>
