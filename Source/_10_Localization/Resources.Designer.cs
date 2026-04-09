@@ -4411,6 +4411,15 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Message_TypeSearchQueryToFindInFiles", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Searching....
+        /// </summary>
+        public static string Message_Searching {
+            get {
+                return ResourceManager.GetString("Message_Searching", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to No matching items found..

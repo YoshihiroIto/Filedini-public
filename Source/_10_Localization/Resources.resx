@@ -2224,6 +2224,9 @@ Please try again later.</value>
     <data name="Message_TypeSearchQueryToFindInFiles" xml:space="preserve">
         <value>Type search query to fing in files</value>
     </data>
+    <data name="Message_Searching" xml:space="preserve">
+        <value>Searching...</value>
+    </data>
     <data name="Message_NoMatchingItemsFound" xml:space="preserve">
         <value>No matching items found.</value>
     </data>
