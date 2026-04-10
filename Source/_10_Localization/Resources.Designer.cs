@@ -738,15 +738,6 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Open Hamburger Menu.
-        /// </summary>
-        public static string FileMenu_OpenHamburgerMenu {
-            get {
-                return ResourceManager.GetString("FileMenu_OpenHamburgerMenu", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Command Palette (Shell Mode).
         /// </summary>
         public static string FileMenu_CommandPaletteShellMode {
@@ -1769,6 +1760,15 @@ namespace Filedini.Localization {
         public static string FileMenu_OpenDefaultShell {
             get {
                 return ResourceManager.GetString("FileMenu_OpenDefaultShell", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open Hamburger Menu.
+        /// </summary>
+        public static string FileMenu_OpenHamburgerMenu {
+            get {
+                return ResourceManager.GetString("FileMenu_OpenHamburgerMenu", resourceCulture);
             }
         }
         
@@ -3376,15 +3376,6 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Main Menu.
-        /// </summary>
-        public static string Tooltip_MainMenu {
-            get {
-                return ResourceManager.GetString("Tooltip_MainMenu", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Sign in with Google.
         /// </summary>
         public static string Label_SignInWithGoogle {
@@ -4422,24 +4413,6 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Type search query to fing in files.
-        /// </summary>
-        public static string Message_TypeSearchQueryToFindInFiles {
-            get {
-                return ResourceManager.GetString("Message_TypeSearchQueryToFindInFiles", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Searching....
-        /// </summary>
-        public static string Message_Searching {
-            get {
-                return ResourceManager.GetString("Message_Searching", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to No matching items found..
         /// </summary>
         public static string Message_NoMatchingItemsFound {
@@ -4526,6 +4499,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Searching....
+        /// </summary>
+        public static string Message_Searching {
+            get {
+                return ResourceManager.GetString("Message_Searching", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Search results are limited to 1000..
         /// </summary>
         public static string Message_SearchLimit {
@@ -4594,6 +4576,16 @@ namespace Filedini.Localization {
         public static string Message_TrashCanAlreadyEmpty {
             get {
                 return ResourceManager.GetString("Message_TrashCanAlreadyEmpty", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to To search this folder, enter a keyword
+        ///.
+        /// </summary>
+        public static string Message_TypeSearchQueryToFindInFiles {
+            get {
+                return ResourceManager.GetString("Message_TypeSearchQueryToFindInFiles", resourceCulture);
             }
         }
         
@@ -5856,6 +5848,15 @@ namespace Filedini.Localization {
         public static string Tooltip_Language {
             get {
                 return ResourceManager.GetString("Tooltip_Language", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Main Menu.
+        /// </summary>
+        public static string Tooltip_MainMenu {
+            get {
+                return ResourceManager.GetString("Tooltip_MainMenu", resourceCulture);
             }
         }
         
