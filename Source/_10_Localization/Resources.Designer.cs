@@ -4580,8 +4580,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to To search this folder, enter a keyword
-        ///.
+        ///   Looks up a localized string similar to To search this folder, enter a keyword..
         /// </summary>
         public static string Message_TypeSearchQueryToFindInFiles {
             get {
