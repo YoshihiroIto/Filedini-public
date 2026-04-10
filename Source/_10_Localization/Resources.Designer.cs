@@ -3376,6 +3376,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Main Menu.
+        /// </summary>
+        public static string Tooltip_MainMenu {
+            get {
+                return ResourceManager.GetString("Tooltip_MainMenu", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Sign in with Google.
         /// </summary>
         public static string Label_SignInWithGoogle {

@@ -1139,12 +1139,15 @@
     <data name="UI_Reload" xml:space="preserve">
         <value>リロード(_E)</value>
     </data>
-    <data name="Label_SignIn" xml:space="preserve">
-        <value>ログイン</value>
-    </data>
-    <data name="Label_SignOut" xml:space="preserve">
-        <value>ログアウト</value>
-    </data>
+  <data name="Label_SignIn" xml:space="preserve">
+    <value>ログイン</value>
+  </data>
+  <data name="Tooltip_MainMenu" xml:space="preserve">
+    <value>メインメニュー</value>
+  </data>
+  <data name="Label_SignOut" xml:space="preserve">
+    <value>ログアウト</value>
+  </data>
     <data name="Label_SignInWithGoogle" xml:space="preserve">
         <value>Google でログイン</value>
     </data>

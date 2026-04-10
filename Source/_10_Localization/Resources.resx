@@ -1159,12 +1159,15 @@ Empty file.</value>
     <data name="UI_Reload" xml:space="preserve">
         <value>R_eload</value>
     </data>
-    <data name="Label_SignIn" xml:space="preserve">
-        <value>Sign in</value>
-    </data>
-    <data name="Label_SignOut" xml:space="preserve">
-        <value>Sign out</value>
-    </data>
+  <data name="Label_SignIn" xml:space="preserve">
+    <value>Sign in</value>
+  </data>
+  <data name="Tooltip_MainMenu" xml:space="preserve">
+    <value>Main Menu</value>
+  </data>
+  <data name="Label_SignOut" xml:space="preserve">
+    <value>Sign out</value>
+  </data>
     <data name="Label_SignInWithGoogle" xml:space="preserve">
         <value>Sign in with Google</value>
     </data>
