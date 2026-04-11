@@ -641,6 +641,9 @@ Do you want to proceed?</value>
     <data name="FileMenu_CreateSymbolicLink" xml:space="preserve">
         <value>New Symbolic Link...</value>
     </data>
+    <data name="FileMenu_CreateShortcut" xml:space="preserve">
+        <value>Create Shortcut</value>
+    </data>
     <data name="FileMenu_SwitchTheme" xml:space="preserve">
         <value>Switch Theme</value>
     </data>
@@ -679,6 +682,9 @@ Do you want to proceed?</value>
     </data>
     <data name="Message_FailedToCreateSymbolicLink" xml:space="preserve">
         <value>Failed to create symbolic link.</value>
+    </data>
+    <data name="Message_FailedToCreateShortcut" xml:space="preserve">
+        <value>Failed to create shortcut.</value>
     </data>
     <data name="Label_Name" xml:space="preserve">
         <value>Name</value>

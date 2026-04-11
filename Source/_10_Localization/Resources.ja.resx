@@ -626,6 +626,9 @@
     <data name="FileMenu_CreateSymbolicLink" xml:space="preserve">
         <value>シンボリックリンクを作成...</value>
     </data>
+    <data name="FileMenu_CreateShortcut" xml:space="preserve">
+        <value>ショートカットを作成</value>
+    </data>
     <data name="FileMenu_SwitchTheme" xml:space="preserve">
         <value>テーマ切り替え</value>
     </data>
@@ -664,6 +667,9 @@
     </data>
     <data name="Message_FailedToCreateSymbolicLink" xml:space="preserve">
         <value>シンボリックリンク作成に失敗しました。</value>
+    </data>
+    <data name="Message_FailedToCreateShortcut" xml:space="preserve">
+        <value>ショートカット作成に失敗しました。</value>
     </data>
     <data name="Label_Name" xml:space="preserve">
         <value>名前</value>

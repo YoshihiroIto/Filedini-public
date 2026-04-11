@@ -826,6 +826,15 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("FileMenu_CreateSymbolicLink", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Create Shortcut.
+        /// </summary>
+        public static string FileMenu_CreateShortcut {
+            get {
+                return ResourceManager.GetString("FileMenu_CreateShortcut", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to Create Tab from Recently Used Folder.
@@ -4173,6 +4182,15 @@ namespace Filedini.Localization {
         public static string Message_FailedToCreateSymbolicLink {
             get {
                 return ResourceManager.GetString("Message_FailedToCreateSymbolicLink", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Failed to create shortcut..
+        /// </summary>
+        public static string Message_FailedToCreateShortcut {
+            get {
+                return ResourceManager.GetString("Message_FailedToCreateShortcut", resourceCulture);
             }
         }
         
