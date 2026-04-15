@@ -819,20 +819,20 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to New Symbolic Link....
-        /// </summary>
-        public static string FileMenu_CreateSymbolicLink {
-            get {
-                return ResourceManager.GetString("FileMenu_CreateSymbolicLink", resourceCulture);
-            }
-        }
-
-        /// <summary>
         ///   Looks up a localized string similar to Create Shortcut.
         /// </summary>
         public static string FileMenu_CreateShortcut {
             get {
                 return ResourceManager.GetString("FileMenu_CreateShortcut", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to New Symbolic Link....
+        /// </summary>
+        public static string FileMenu_CreateSymbolicLink {
+            get {
+                return ResourceManager.GetString("FileMenu_CreateSymbolicLink", resourceCulture);
             }
         }
         
@@ -1076,6 +1076,15 @@ namespace Filedini.Localization {
         public static string FileMenu_InitialSearch {
             get {
                 return ResourceManager.GetString("FileMenu_InitialSearch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Invert Selection.
+        /// </summary>
+        public static string FileMenu_InvertItemSelection {
+            get {
+                return ResourceManager.GetString("FileMenu_InvertItemSelection", resourceCulture);
             }
         }
         
@@ -4177,20 +4186,20 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Failed to create symbolic link..
-        /// </summary>
-        public static string Message_FailedToCreateSymbolicLink {
-            get {
-                return ResourceManager.GetString("Message_FailedToCreateSymbolicLink", resourceCulture);
-            }
-        }
-
-        /// <summary>
         ///   Looks up a localized string similar to Failed to create shortcut..
         /// </summary>
         public static string Message_FailedToCreateShortcut {
             get {
                 return ResourceManager.GetString("Message_FailedToCreateShortcut", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Failed to create symbolic link..
+        /// </summary>
+        public static string Message_FailedToCreateSymbolicLink {
+            get {
+                return ResourceManager.GetString("Message_FailedToCreateSymbolicLink", resourceCulture);
             }
         }
         

@@ -2088,4 +2088,7 @@
     <data name="Label_OpenAsNewTab" xml:space="preserve">
         <value>新しいタブとして開く</value>
     </data>
+    <data name="FileMenu_InvertItemSelection" xml:space="preserve">
+        <value>選択反転</value>
+    </data>
 </root>
