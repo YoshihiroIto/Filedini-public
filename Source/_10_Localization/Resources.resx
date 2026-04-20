@@ -693,7 +693,7 @@ Do you want to proceed?</value>
         <value>New Name</value>
     </data>
     <data name="FileMenu_ShowContextMenu" xml:space="preserve">
-        <value>Show ContextMenu</value>
+        <value>Show Context Menu</value>
     </data>
     <data name="Settings_Appearance" xml:space="preserve">
         <value>Appearance</value>
@@ -2262,5 +2262,8 @@ Please try again later.</value>
     </data>
     <data name="FileMenu_InvertItemSelection" xml:space="preserve">
         <value>Invert Selection</value>
+    </data>
+    <data name="FileMenu_ShowCurrentFolderContextMenu" xml:space="preserve">
+        <value>Show Current Folder Context Menu</value>
     </data>
 </root>

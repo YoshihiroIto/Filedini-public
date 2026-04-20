@@ -2142,11 +2142,20 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Show ContextMenu.
+        ///   Looks up a localized string similar to Show Context Menu.
         /// </summary>
         public static string FileMenu_ShowContextMenu {
             get {
                 return ResourceManager.GetString("FileMenu_ShowContextMenu", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Show Current Folder Context Menu.
+        /// </summary>
+        public static string FileMenu_ShowCurrentFolderContextMenu {
+            get {
+                return ResourceManager.GetString("FileMenu_ShowCurrentFolderContextMenu", resourceCulture);
             }
         }
         

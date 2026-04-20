@@ -2091,4 +2091,7 @@
     <data name="FileMenu_InvertItemSelection" xml:space="preserve">
         <value>選択反転</value>
     </data>
+    <data name="FileMenu_ShowCurrentFolderContextMenu" xml:space="preserve">
+        <value>カレントフォルダーのコンテキストメニュー</value>
+    </data>
 </root>
