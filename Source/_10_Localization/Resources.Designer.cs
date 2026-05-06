@@ -1890,7 +1890,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Preview.
+        ///   Looks up a localized string similar to Preview....
         /// </summary>
         public static string FileMenu_PreviewItem {
             get {
@@ -2142,7 +2142,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Show Context Menu.
+        ///   Looks up a localized string similar to Show Context Menu....
         /// </summary>
         public static string FileMenu_ShowContextMenu {
             get {
@@ -2151,7 +2151,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Show Current Folder Context Menu.
+        ///   Looks up a localized string similar to Show Current Folder Context Menu....
         /// </summary>
         public static string FileMenu_ShowCurrentFolderContextMenu {
             get {
@@ -2160,7 +2160,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Show Property.
+        ///   Looks up a localized string similar to Show Property....
         /// </summary>
         public static string FileMenu_ShowProperty {
             get {
