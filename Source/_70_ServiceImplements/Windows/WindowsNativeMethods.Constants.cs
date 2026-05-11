@@ -17,23 +17,23 @@ internal static partial class WindowsNativeMethods
 
     public const int S_OK = 0;
     
-    internal const uint GENERIC_READ = 0x80000000;
-    internal const uint FILE_SHARE_READ = 0x00000001;
-    internal const uint FILE_SHARE_WRITE = 0x00000002;
-    internal const uint FILE_SHARE_DELETE = 0x00000004;
-    internal const uint OPEN_EXISTING = 3;
-    internal const uint FILE_FLAG_BACKUP_SEMANTICS = 0x02000000;
+    public const uint GENERIC_READ = 0x80000000;
+    public const uint FILE_SHARE_READ = 0x00000001;
+    public const uint FILE_SHARE_WRITE = 0x00000002;
+    public const uint FILE_SHARE_DELETE = 0x00000004;
+    public const uint OPEN_EXISTING = 3;
+    public const uint FILE_FLAG_BACKUP_SEMANTICS = 0x02000000;
 
-    internal const uint ERROR_NO_MORE_FILES = 18;
-    internal const nint INVALID_HANDLE_VALUE = -1;
+    public const uint ERROR_NO_MORE_FILES = 18;
+    public const nint INVALID_HANDLE_VALUE = -1;
     
-    internal const uint STATUS_SUCCESS = 0x00000000;
-    internal const uint STATUS_NO_MORE_FILES = 0x80000006;
+    public const uint STATUS_SUCCESS = 0x00000000;
+    public const uint STATUS_NO_MORE_FILES = 0x80000006;
     
-    internal const uint INVALID_FILE_ATTRIBUTES = 0xFFFFFFFF;
-    internal const uint FILE_LIST_DIRECTORY = 0x00000001;
+    public const uint INVALID_FILE_ATTRIBUTES = 0xFFFFFFFF;
+    public const uint FILE_LIST_DIRECTORY = 0x00000001;
     
-    internal const uint FileIdBothDirectoryInfo = 37;
+    public const uint FileIdBothDirectoryInfo = 37;
 
     public static readonly Guid IID_IImageList = new("46EB5926-582E-4017-9FDF-E8998DAA0950");
     public static readonly Guid IID_IShellFolder = new("{000214E6-0000-0000-C000-000000000046}");
