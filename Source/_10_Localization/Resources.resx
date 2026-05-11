@@ -1749,7 +1749,7 @@ Destination:
         <value>Next Tab</value>
     </data>
     <data name="FileMenu_SearchTabs" xml:space="preserve">
-        <value>Search Tabs</value>
+        <value>Search Tabs...</value>
     </data>
     <data name="FileMenu_MoveToTab" xml:space="preserve">
         <value>Move to Tab</value>

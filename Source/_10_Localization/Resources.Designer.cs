@@ -693,20 +693,20 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Close Other Tabs.
-        /// </summary>
-        public static string FileMenu_CloseOtherTabs {
-            get {
-                return ResourceManager.GetString("FileMenu_CloseOtherTabs", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Close Dialog.
         /// </summary>
         public static string FileMenu_CloseDialog {
             get {
                 return ResourceManager.GetString("FileMenu_CloseDialog", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Close Other Tabs.
+        /// </summary>
+        public static string FileMenu_CloseOtherTabs {
+            get {
+                return ResourceManager.GetString("FileMenu_CloseOtherTabs", resourceCulture);
             }
         }
         
@@ -1980,7 +1980,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Search Tabs.
+        ///   Looks up a localized string similar to Search Tabs....
         /// </summary>
         public static string FileMenu_SearchTabs {
             get {
