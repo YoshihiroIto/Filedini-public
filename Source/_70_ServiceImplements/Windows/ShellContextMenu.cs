@@ -3,6 +3,7 @@
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Avalonia.Controls;
+using Avalonia.Styling;
 using CommunityToolkit.Diagnostics;
 
 // ReSharper disable once CheckNamespace
@@ -35,6 +36,9 @@ internal sealed class ShellContextMenu
             idls = CreateIdls(files, parentFolder);
 
             var (contextMenu, contextMenu2, contextMenu3) = GetContextMenuInterfaces(idls, parentFolder);
+
+            ApplyTheme(topLevel);
+
             menu = CreatePopupMenu();
 
             contextMenu.QueryContextMenu(menu, 0, CMD_FIRST, CMD_LAST,
@@ -155,6 +159,30 @@ internal sealed class ShellContextMenu
 
             Marshal.FreeCoTaskMem(idls[i]);
             idls[i] = IntPtr.Zero;
+        }
+    }
+
+    private static bool? _isSetPreferredAppModeAvailable;
+
+    private static void ApplyTheme(TopLevel topLevel)
+    {
+        if (_isSetPreferredAppModeAvailable is false)
+            return;
+
+        try
+        {
+            var mode = topLevel.ActualThemeVariant == ThemeVariant.Dark ? 2 : 3;
+            SetPreferredAppMode(mode);
+            FlushMenuThemes();
+            _isSetPreferredAppModeAvailable = true;
+        }
+        catch (EntryPointNotFoundException)
+        {
+            _isSetPreferredAppModeAvailable = false;
+        }
+        catch (DllNotFoundException)
+        {
+            _isSetPreferredAppModeAvailable = false;
         }
     }
 

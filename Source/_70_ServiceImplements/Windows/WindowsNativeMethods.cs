@@ -97,6 +97,12 @@ internal static partial class WindowsNativeMethods
     public static partial IntPtr CreateFile(string lpFileName, uint dwDesiredAccess, uint dwShareMode,
         IntPtr lpSecurityAttributes, uint dwCreationDisposition, uint dwFlagsAndAttributes, IntPtr hTemplateFile);
 
+    [LibraryImport("uxtheme.dll", EntryPoint = "#135")]
+    public static partial int SetPreferredAppMode(int mode);
+
+    [LibraryImport("uxtheme.dll", EntryPoint = "#136")]
+    public static partial void FlushMenuThemes();
+
     [LibraryImport("ntdll.dll")]
     internal static partial uint NtQueryDirectoryFile(
         IntPtr FileHandle,
