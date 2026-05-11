@@ -702,6 +702,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Close Dialog.
+        /// </summary>
+        public static string FileMenu_CloseDialog {
+            get {
+                return ResourceManager.GetString("FileMenu_CloseDialog", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Close Tab.
         /// </summary>
         public static string FileMenu_CloseTab {

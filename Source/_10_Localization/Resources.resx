@@ -1718,6 +1718,9 @@ Destination:
     <data name="Label_Archive_Timestamp" xml:space="preserve">
         <value>Timestamp</value>
     </data>
+    <data name="FileMenu_CloseDialog" xml:space="preserve">
+        <value>Close Dialog</value>
+    </data>
     <data name="FileMenu_CloseTab" xml:space="preserve">
         <value>Close Tab</value>
     </data>
