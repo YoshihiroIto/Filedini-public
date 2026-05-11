@@ -19,6 +19,8 @@ internal static partial class WindowsNativeMethods
     
     internal const uint GENERIC_READ = 0x80000000;
     internal const uint FILE_SHARE_READ = 0x00000001;
+    internal const uint FILE_SHARE_WRITE = 0x00000002;
+    internal const uint FILE_SHARE_DELETE = 0x00000004;
     internal const uint OPEN_EXISTING = 3;
     internal const uint FILE_FLAG_BACKUP_SEMANTICS = 0x02000000;
 
@@ -27,6 +29,9 @@ internal static partial class WindowsNativeMethods
     
     internal const uint STATUS_SUCCESS = 0x00000000;
     internal const uint STATUS_NO_MORE_FILES = 0x80000006;
+    
+    internal const uint INVALID_FILE_ATTRIBUTES = 0xFFFFFFFF;
+    internal const uint FILE_LIST_DIRECTORY = 0x00000001;
     
     internal const uint FileIdBothDirectoryInfo = 37;
 
