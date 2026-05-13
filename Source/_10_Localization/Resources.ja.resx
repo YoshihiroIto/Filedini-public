@@ -2097,4 +2097,7 @@
     <data name="FileMenu_ShowCurrentFolderContextMenu" xml:space="preserve">
         <value>カレントフォルダーのコンテキストメニュー...</value>
     </data>
+    <data name="Message_PreviewNotSupported" xml:space="preserve">
+        <value>この形式はプレビュー非対応です。</value>
+    </data>
 </root>

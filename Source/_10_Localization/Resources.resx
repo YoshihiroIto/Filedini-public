@@ -2269,4 +2269,7 @@ Please try again later.</value>
     <data name="FileMenu_ShowCurrentFolderContextMenu" xml:space="preserve">
         <value>Show Current Folder Context Menu...</value>
     </data>
+    <data name="Message_PreviewNotSupported" xml:space="preserve">
+        <value>Preview not supported for this format.</value>
+    </data>
 </root>

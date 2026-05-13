@@ -4486,6 +4486,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Preview not supported for this format..
+        /// </summary>
+        public static string Message_PreviewNotSupported {
+            get {
+                return ResourceManager.GetString("Message_PreviewNotSupported", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Rename `{0}&apos;..
         /// </summary>
         public static string Message_RenameItem {
