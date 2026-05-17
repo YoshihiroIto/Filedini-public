@@ -2261,7 +2261,7 @@ Please try again later.</value>
         <value>File mask:</value>
     </data>
     <data name="Label_OpenAsNewTab" xml:space="preserve">
-        <value>Open as New Tab</value>
+        <value>Open as _New Tab</value>
     </data>
     <data name="FileMenu_InvertItemSelection" xml:space="preserve">
         <value>Invert Selection</value>
@@ -2271,5 +2271,17 @@ Please try again later.</value>
     </data>
     <data name="Message_PreviewNotSupported" xml:space="preserve">
         <value>Preview not supported for this format.</value>
+    </data>
+    <data name="UI_Open" xml:space="preserve">
+        <value>_Open</value>
+    </data>
+    <data name="UI_OpenInAssociatedApp" xml:space="preserve">
+        <value>Open in _Associated App</value>
+    </data>
+    <data name="UI_OpenInExternalApp1" xml:space="preserve">
+        <value>Open in _External App1</value>
+    </data>
+    <data name="UI_OpenInExternalApp2" xml:space="preserve">
+        <value>Open in E_xternal App2</value>
     </data>
 </root>

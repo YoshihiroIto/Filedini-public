@@ -2089,7 +2089,7 @@
         <value>ファイルマスク:</value>
     </data>
     <data name="Label_OpenAsNewTab" xml:space="preserve">
-        <value>新しいタブとして開く</value>
+        <value>新しいタブとして開く(_N)</value>
     </data>
     <data name="FileMenu_InvertItemSelection" xml:space="preserve">
         <value>選択反転</value>
@@ -2099,5 +2099,17 @@
     </data>
     <data name="Message_PreviewNotSupported" xml:space="preserve">
         <value>この形式はプレビュー非対応です。</value>
+    </data>
+    <data name="UI_Open" xml:space="preserve">
+        <value>開く(_O)</value>
+    </data>
+    <data name="UI_OpenInAssociatedApp" xml:space="preserve">
+        <value>関連アプリで開く(_A)</value>
+    </data>
+    <data name="UI_OpenInExternalApp1" xml:space="preserve">
+        <value>外部アプリ１で開く(_E)</value>
+    </data>
+    <data name="UI_OpenInExternalApp2" xml:space="preserve">
+        <value>外部アプリ２で開く(_X)</value>
     </data>
 </root>

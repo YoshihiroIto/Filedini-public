@@ -3241,7 +3241,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Open as New Tab.
+        ///   Looks up a localized string similar to Open as _New Tab.
         /// </summary>
         public static string Label_OpenAsNewTab {
             get {
@@ -6216,6 +6216,42 @@ namespace Filedini.Localization {
         public static string UI_Now {
             get {
                 return ResourceManager.GetString("UI_Now", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to _Open.
+        /// </summary>
+        public static string UI_Open {
+            get {
+                return ResourceManager.GetString("UI_Open", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open in _Associated App.
+        /// </summary>
+        public static string UI_OpenInAssociatedApp {
+            get {
+                return ResourceManager.GetString("UI_OpenInAssociatedApp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open in _External App1.
+        /// </summary>
+        public static string UI_OpenInExternalApp1 {
+            get {
+                return ResourceManager.GetString("UI_OpenInExternalApp1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open in E_xternal App2.
+        /// </summary>
+        public static string UI_OpenInExternalApp2 {
+            get {
+                return ResourceManager.GetString("UI_OpenInExternalApp2", resourceCulture);
             }
         }
         
