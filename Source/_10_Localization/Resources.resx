@@ -112,7 +112,7 @@ The external app is not registered or does not exist.</value>
         <value>Open</value>
     </data>
     <data name="FileMenu_PreviewItem" xml:space="preserve">
-        <value>Preview...</value>
+        <value>Preview</value>
     </data>
     <data name="FileMenu_OpenInFileManager" xml:space="preserve">
         <value>Open in File Manager</value>
@@ -142,7 +142,7 @@ The external app is not registered or does not exist.</value>
         <value>Rename...</value>
     </data>
     <data name="FileMenu_ShowProperty" xml:space="preserve">
-        <value>Show Property...</value>
+        <value>Show Property</value>
     </data>
     <data name="FileMenu_ChangeAttributes" xml:space="preserve">
         <value>Change Attributes...</value>
@@ -693,7 +693,7 @@ Do you want to proceed?</value>
         <value>New Name</value>
     </data>
     <data name="FileMenu_ShowContextMenu" xml:space="preserve">
-        <value>Show Context Menu...</value>
+        <value>Show Context Menu</value>
     </data>
     <data name="Settings_Appearance" xml:space="preserve">
         <value>Appearance</value>
@@ -2267,7 +2267,7 @@ Please try again later.</value>
         <value>Invert Selection</value>
     </data>
     <data name="FileMenu_ShowCurrentFolderContextMenu" xml:space="preserve">
-        <value>Show Current Folder Context Menu...</value>
+        <value>Show Current Folder Context Menu</value>
     </data>
     <data name="Message_PreviewNotSupported" xml:space="preserve">
         <value>Preview not supported for this format.</value>

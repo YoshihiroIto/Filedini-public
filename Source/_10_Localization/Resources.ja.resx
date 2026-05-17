@@ -187,10 +187,10 @@
         <value>外部ターミナルで開く</value>
     </data>
     <data name="FileMenu_PreviewItem" xml:space="preserve">
-        <value>プレビュー...</value>
+        <value>プレビュー</value>
     </data>
     <data name="FileMenu_ShowProperty" xml:space="preserve">
-        <value>プロパティ...</value>
+        <value>プロパティ</value>
     </data>
     <data name="FileMenu_RenameItem" xml:space="preserve">
         <value>名前の変更...</value>
@@ -678,7 +678,7 @@
         <value>新しい名前</value>
     </data>
     <data name="FileMenu_ShowContextMenu" xml:space="preserve">
-        <value>コンテキストメニュー...</value>
+        <value>コンテキストメニュー</value>
     </data>
     <data name="Settings_Appearance" xml:space="preserve">
         <value>外観</value>
@@ -2095,7 +2095,7 @@
         <value>選択反転</value>
     </data>
     <data name="FileMenu_ShowCurrentFolderContextMenu" xml:space="preserve">
-        <value>カレントフォルダーのコンテキストメニュー...</value>
+        <value>カレントフォルダーのコンテキストメニュー</value>
     </data>
     <data name="Message_PreviewNotSupported" xml:space="preserve">
         <value>この形式はプレビュー非対応です。</value>
