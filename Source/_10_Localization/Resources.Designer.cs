@@ -5309,15 +5309,6 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to PDF Cache Expire Date.
-        /// </summary>
-        public static string Settings_Label_PDFCacheExpireDate {
-            get {
-                return ResourceManager.GetString("Settings_Label_PDFCacheExpireDate", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Restore Sample Scripts.
         /// </summary>
         public static string Settings_Label_RestoreSampleScripts {

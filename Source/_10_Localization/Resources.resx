@@ -719,9 +719,6 @@ Do you want to proceed?</value>
     <data name="Settings_Item" xml:space="preserve">
         <value>Item</value>
     </data>
-    <data name="Settings_Label_PDFCacheExpireDate" xml:space="preserve">
-        <value>PDF Cache Expire Date</value>
-    </data>
     <data name="Settings_Label_DefaultFont" xml:space="preserve">
         <value>Default Font</value>
     </data>
