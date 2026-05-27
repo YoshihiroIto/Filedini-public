@@ -1652,6 +1652,12 @@
     <data name="Settings_MarkdownFileExtensionsDisplayedInWebViewer" xml:space="preserve">
         <value>Webビューワーで表示するMarkdownファイル拡張子（;区切りで複数指定可能）</value>
     </data>
+    <data name="Settings_Thumbnail" xml:space="preserve">
+        <value>サムネイル</value>
+    </data>
+    <data name="Settings_WindowsShellThumbnailFileExtensions" xml:space="preserve">
+        <value>サムネイル表示するファイル拡張子（;区切りで複数指定可能）</value>
+    </data>
     <data name="Label_ItemsCount" xml:space="preserve">
         <value>{0:N0} 個のアイテム</value>
     </data>

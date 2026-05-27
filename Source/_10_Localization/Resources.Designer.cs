@@ -5586,7 +5586,25 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Settings_WebViewer", resourceCulture);
             }
         }
-        
+
+        /// <summary>
+        ///   Looks up a localized string similar to Thumbnail.
+        /// </summary>
+        public static string Settings_Thumbnail {
+            get {
+                return ResourceManager.GetString("Settings_Thumbnail", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Thumbnail file extensions (semicolon-separated).
+        /// </summary>
+        public static string Settings_WindowsShellThumbnailFileExtensions {
+            get {
+                return ResourceManager.GetString("Settings_WindowsShellThumbnailFileExtensions", resourceCulture);
+            }
+        }
+
         /// <summary>
         ///   Looks up a localized string similar to Att_ribute.
         /// </summary>
