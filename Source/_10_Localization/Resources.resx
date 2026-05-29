@@ -1823,6 +1823,9 @@ Destination:
     <data name="MainMenuResponsiveModes_AdaptiveEllipsis" xml:space="preserve">
         <value>Adaptive Ellipsis</value>
     </data>
+    <data name="MainMenuResponsiveModes_AdaptiveEllipsisTabsOnSecondRow" xml:space="preserve">
+        <value>Menu on First Row, Tabs on Second Row</value>
+    </data>
     <data name="MainMenuResponsiveModes_AlwaysHamburger" xml:space="preserve">
         <value>Always Hamburger Menu</value>
     </data>
