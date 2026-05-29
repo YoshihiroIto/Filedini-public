@@ -5570,6 +5570,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Thumbnail.
+        /// </summary>
+        public static string Settings_Thumbnail {
+            get {
+                return ResourceManager.GetString("Settings_Thumbnail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Tool.
         /// </summary>
         public static string Settings_Tool {
@@ -5586,16 +5595,7 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Settings_WebViewer", resourceCulture);
             }
         }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Thumbnail.
-        /// </summary>
-        public static string Settings_Thumbnail {
-            get {
-                return ResourceManager.GetString("Settings_Thumbnail", resourceCulture);
-            }
-        }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Thumbnail file extensions (semicolon-separated).
         /// </summary>
@@ -5604,7 +5604,7 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Settings_WindowsShellThumbnailFileExtensions", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Att_ribute.
         /// </summary>
@@ -6544,11 +6544,10 @@ namespace Filedini.Localization {
         ///どの環境でどのバージョンが使われているかを把握し、
         ///今後の改善や対応の優先度決定に役立てます。
         ///
-        ///✖ファイル名・パス・内容などの個人データは一切送信されません。
+        ///❌ファイル名・パス・内容などの個人データは一切送信されません。
         ///
         ///ご協力は任意で、
-        ///設定からいつでも変更できます。
-        ///.
+        ///設定からいつでも変更できます。.
         /// </summary>
         public static string UsageDataConsent_Text_JP {
             get {

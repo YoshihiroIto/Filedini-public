@@ -2005,11 +2005,10 @@ re you sure you want to continue?</value>
 どの環境でどのバージョンが使われているかを把握し、
 今後の改善や対応の優先度決定に役立てます。
 
-✖ファイル名・パス・内容などの個人データは一切送信されません。
+❌ファイル名・パス・内容などの個人データは一切送信されません。
 
 ご協力は任意で、
-設定からいつでも変更できます。
-</value>
+設定からいつでも変更できます。</value>
     </data>
     <data name="UsageDataConsent_Text_US" xml:space="preserve">
         <value>You can help improve Filedini by sharing anonymous usage information.
