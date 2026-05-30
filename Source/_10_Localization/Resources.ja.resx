@@ -1784,6 +1784,9 @@
     <data name="MainMenuResponsiveModes_AdaptiveEllipsisTabsOnSecondRow" xml:space="preserve">
         <value>1行目メニュー・2行目タブ</value>
     </data>
+    <data name="MainMenuResponsiveModes_AdaptiveEllipsisTabsAndButtonsOnSecondRow" xml:space="preserve">
+        <value>1行目メニュー・2行目タブとボタン</value>
+    </data>
     <data name="Settings_Label_MainMenuResponsiveMode" xml:space="preserve">
         <value>メインメニューレスポンシブモード</value>
     </data>
