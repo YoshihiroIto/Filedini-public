@@ -3556,6 +3556,33 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Menu on First Row, Tabs and Buttons on Second Row.
+        /// </summary>
+        public static string MainMenuResponsiveModes_AdaptiveEllipsisTabsAndButtonsOnSecondRow {
+            get {
+                return ResourceManager.GetString("MainMenuResponsiveModes_AdaptiveEllipsisTabsAndButtonsOnSecondRow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Menu on First Row, Tabs on Second Row.
+        /// </summary>
+        public static string MainMenuResponsiveModes_AdaptiveEllipsisTabsOnSecondRow {
+            get {
+                return ResourceManager.GetString("MainMenuResponsiveModes_AdaptiveEllipsisTabsOnSecondRow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Vertical Tabs.
+        /// </summary>
+        public static string MainMenuResponsiveModes_AdaptiveEllipsisVerticalTabs {
+            get {
+                return ResourceManager.GetString("MainMenuResponsiveModes_AdaptiveEllipsisVerticalTabs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Always Hamburger Menu.
         /// </summary>
         public static string MainMenuResponsiveModes_AlwaysHamburger {
@@ -4760,7 +4787,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Add Hotkey.
+        ///   Looks up a localized string similar to Add Hotkey....
         /// </summary>
         public static string Settings_AddHotkey {
             get {

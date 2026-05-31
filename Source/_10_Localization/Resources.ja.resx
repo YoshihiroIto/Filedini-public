@@ -837,7 +837,7 @@
         <value>ホットキー</value>
     </data>
     <data name="Settings_AddHotkey" xml:space="preserve">
-        <value>ホットキーを追加</value>
+        <value>ホットキーを追加...</value>
     </data>
     <data name="Settings_RemoveHotkey" xml:space="preserve">
         <value>`{0}' を削除</value>
@@ -1786,6 +1786,9 @@
     </data>
     <data name="MainMenuResponsiveModes_AdaptiveEllipsisTabsAndButtonsOnSecondRow" xml:space="preserve">
         <value>1行目メニュー・2行目タブとボタン</value>
+    </data>
+    <data name="MainMenuResponsiveModes_AdaptiveEllipsisVerticalTabs" xml:space="preserve">
+        <value>垂直タブ</value>
     </data>
     <data name="Settings_Label_MainMenuResponsiveMode" xml:space="preserve">
         <value>メインメニューレスポンシブモード</value>

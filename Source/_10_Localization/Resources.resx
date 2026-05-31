@@ -855,7 +855,7 @@ Do you want to proceed?</value>
         <value>Hotkey</value>
     </data>
     <data name="Settings_AddHotkey" xml:space="preserve">
-        <value>Add Hotkey</value>
+        <value>Add Hotkey...</value>
     </data>
     <data name="Settings_RemoveHotkey" xml:space="preserve">
         <value>Remove `{0}'</value>
@@ -1828,6 +1828,9 @@ Destination:
     </data>
     <data name="MainMenuResponsiveModes_AdaptiveEllipsisTabsAndButtonsOnSecondRow" xml:space="preserve">
         <value>Menu on First Row, Tabs and Buttons on Second Row</value>
+    </data>
+    <data name="MainMenuResponsiveModes_AdaptiveEllipsisVerticalTabs" xml:space="preserve">
+        <value>Vertical Tabs</value>
     </data>
     <data name="MainMenuResponsiveModes_AlwaysHamburger" xml:space="preserve">
         <value>Always Hamburger Menu</value>
