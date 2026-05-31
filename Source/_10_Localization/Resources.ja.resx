@@ -822,10 +822,10 @@
         <value>フォントの選択</value>
     </data>
     <data name="Tooltip_SelectFont" xml:space="preserve">
-        <value>フォントの選択</value>
+        <value>フォントの選択...</value>
     </data>
     <data name="Tooltip_SelectFallbackFont" xml:space="preserve">
-        <value>フォールバックフォントの選択</value>
+        <value>フォールバックフォントの選択...</value>
     </data>
     <data name="FileMenu_SettingsHotkey" xml:space="preserve">
         <value>ホットキー設定...</value>
@@ -1361,7 +1361,7 @@
         <value>変数の選択</value>
     </data>
     <data name="Tooltip_AddVariable" xml:space="preserve">
-        <value>変数の追加</value>
+        <value>変数の追加...</value>
     </data>
     <data name="VariableDetails_CurrentFile" xml:space="preserve">
         <value>現在のファイル名</value>
@@ -1479,7 +1479,7 @@
         <value>多重拡張子</value>
     </data>
     <data name="Settings_Label_InstallPython" xml:space="preserve">
-        <value>Python をインストール</value>
+        <value>Python をインストール(_I)</value>
     </data>
     <data name="Settings_Label_UninstallPython" xml:space="preserve">
         <value>Python をアンインストール</value>
@@ -1527,7 +1527,7 @@
         <value>Pythonのインストールはキャンセルされました</value>
     </data>
     <data name="Label_CancelInstallation" xml:space="preserve">
-        <value>インストールをキャンセル</value>
+        <value>インストールをキャンセル(_C)</value>
     </data>
     <data name="Label_Menu" xml:space="preserve">
         <value>メニュー</value>
@@ -1542,10 +1542,10 @@
         <value>スクリプトファイルの編集</value>
     </data>
     <data name="Tooltip_SelectScriptFile" xml:space="preserve">
-        <value>スクリプトファイルの選択</value>
+        <value>スクリプトファイルの選択...</value>
     </data>
     <data name="Tooltip_EditHotkey" xml:space="preserve">
-        <value>ホットキーの編集</value>
+        <value>ホットキーの編集...</value>
     </data>
     <data name="Label_PythonScriptFile" xml:space="preserve">
         <value>Python スクリプトファイル</value>
@@ -1561,7 +1561,7 @@
         <value>インストール(_I)</value>
     </data>
     <data name="Settings_Label_RestoreSampleScripts" xml:space="preserve">
-        <value>サンプルスクリプトを復元</value>
+        <value>サンプルスクリプトを復元(_S)</value>
     </data>
     <data name="Message_ConformationRestoreSampleScripts" xml:space="preserve">
         <value>サンプルスクリプトを復元します。

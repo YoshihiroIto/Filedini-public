@@ -840,10 +840,10 @@ Do you want to proceed?</value>
         <value>Select Font</value>
     </data>
     <data name="Tooltip_SelectFont" xml:space="preserve">
-        <value>Select Font</value>
+        <value>Select Font...</value>
     </data>
     <data name="Tooltip_SelectFallbackFont" xml:space="preserve">
-        <value>Select Fallback Font</value>
+        <value>Select Fallback Font...</value>
     </data>
     <data name="FileMenu_SettingsHotkey" xml:space="preserve">
         <value>Hotkey Settings...</value>
@@ -1378,7 +1378,7 @@ Invalid password.
         <value>Select Variable</value>
     </data>
     <data name="Tooltip_AddVariable" xml:space="preserve">
-        <value>Add Variable</value>
+        <value>Add Variable...</value>
     </data>
     <data name="VariableDetails_CurrentFile" xml:space="preserve">
         <value>Current File Name</value>
@@ -1523,7 +1523,7 @@ Please check back again later.</value>
         <value>RAR</value>
     </data>
     <data name="Settings_Label_InstallPython" xml:space="preserve">
-        <value>Install Python</value>
+        <value>I_nstall Python</value>
     </data>
     <data name="Settings_Label_UninstallPython" xml:space="preserve">
         <value>Uninstall Python</value>
@@ -1572,7 +1572,7 @@ Please check back again later.</value>
         <value>Python installation canceled.</value>
     </data>
     <data name="Label_CancelInstallation" xml:space="preserve">
-        <value>Cancel Installation</value>
+        <value>_Cancel Installation</value>
     </data>
     <data name="Label_Menu" xml:space="preserve">
         <value>Menu</value>
@@ -1587,10 +1587,10 @@ Please check back again later.</value>
         <value>Edit Scipt File</value>
     </data>
     <data name="Tooltip_SelectScriptFile" xml:space="preserve">
-        <value>Select Script File</value>
+        <value>Select Script File...</value>
     </data>
     <data name="Tooltip_EditHotkey" xml:space="preserve">
-        <value>Edit Hotkey</value>
+        <value>Edit Hotkey...</value>
     </data>
     <data name="Label_PythonScriptFile" xml:space="preserve">
         <value>Python Script File</value>
@@ -1606,7 +1606,7 @@ Would you like to open the settings?
         <value>_Install</value>
     </data>
     <data name="Settings_Label_RestoreSampleScripts" xml:space="preserve">
-        <value>Restore Sample Scripts</value>
+        <value>Restore Sample _Scripts</value>
     </data>
     <data name="Message_ConformationRestoreSampleScripts" xml:space="preserve">
         <value>The sample scripts will be restored.

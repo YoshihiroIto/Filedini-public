@@ -2953,7 +2953,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cancel Installation.
+        ///   Looks up a localized string similar to _Cancel Installation.
         /// </summary>
         public static string Label_CancelInstallation {
             get {
@@ -5120,7 +5120,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Install Python.
+        ///   Looks up a localized string similar to I_nstall Python.
         /// </summary>
         public static string Settings_Label_InstallPython {
             get {
@@ -5336,7 +5336,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Restore Sample Scripts.
+        ///   Looks up a localized string similar to Restore Sample _Scripts.
         /// </summary>
         public static string Settings_Label_RestoreSampleScripts {
             get {
@@ -5878,7 +5878,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Add Variable.
+        ///   Looks up a localized string similar to Add Variable....
         /// </summary>
         public static string Tooltip_AddVariable {
             get {
@@ -5905,7 +5905,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Edit Hotkey.
+        ///   Looks up a localized string similar to Edit Hotkey....
         /// </summary>
         public static string Tooltip_EditHotkey {
             get {
@@ -6013,7 +6013,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Select Fallback Font.
+        ///   Looks up a localized string similar to Select Fallback Font....
         /// </summary>
         public static string Tooltip_SelectFallbackFont {
             get {
@@ -6022,7 +6022,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Select Font.
+        ///   Looks up a localized string similar to Select Font....
         /// </summary>
         public static string Tooltip_SelectFont {
             get {
@@ -6031,7 +6031,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Select Script File.
+        ///   Looks up a localized string similar to Select Script File....
         /// </summary>
         public static string Tooltip_SelectScriptFile {
             get {
