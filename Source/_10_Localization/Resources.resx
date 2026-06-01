@@ -2295,4 +2295,19 @@ Please try again later.</value>
     <data name="UI_OpenInExternalApp2" xml:space="preserve">
         <value>Open in E_xternal App2</value>
     </data>
+    <data name="Tooltip_Add" xml:space="preserve">
+        <value>Add</value>
+    </data>
+    <data name="Tooltip_Remove" xml:space="preserve">
+        <value>Remove</value>
+    </data>
+    <data name="Tooltip_MoveUp" xml:space="preserve">
+        <value>Move Up</value>
+    </data>
+    <data name="Tooltip_MoveDown" xml:space="preserve">
+        <value>Move Down</value>
+    </data>
+    <data name="Tooltip_SelectApp" xml:space="preserve">
+        <value>Select App...</value>
+    </data>
 </root>

@@ -5878,6 +5878,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Add.
+        /// </summary>
+        public static string Tooltip_Add {
+            get {
+                return ResourceManager.GetString("Tooltip_Add", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Add Variable....
         /// </summary>
         public static string Tooltip_AddVariable {
@@ -5977,6 +5986,24 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Move Down.
+        /// </summary>
+        public static string Tooltip_MoveDown {
+            get {
+                return ResourceManager.GetString("Tooltip_MoveDown", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Move Up.
+        /// </summary>
+        public static string Tooltip_MoveUp {
+            get {
+                return ResourceManager.GetString("Tooltip_MoveUp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to New Tab.
         /// </summary>
         public static string Tooltip_NewTab {
@@ -6009,6 +6036,24 @@ namespace Filedini.Localization {
         public static string Tooltip_Pin {
             get {
                 return ResourceManager.GetString("Tooltip_Pin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Remove.
+        /// </summary>
+        public static string Tooltip_Remove {
+            get {
+                return ResourceManager.GetString("Tooltip_Remove", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select App....
+        /// </summary>
+        public static string Tooltip_SelectApp {
+            get {
+                return ResourceManager.GetString("Tooltip_SelectApp", resourceCulture);
             }
         }
         
