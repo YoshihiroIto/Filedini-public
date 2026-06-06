@@ -1,4 +1,4 @@
-﻿<root>
+<root>
     <resheader name="resmimetype">
         <value>text/microsoft-resx</value>
     </resheader>
@@ -1786,6 +1786,12 @@
     </data>
     <data name="MainMenuResponsiveModes_AdaptiveEllipsisTabsAndButtonsOnSecondRow" xml:space="preserve">
         <value>1行目メニュー・2行目タブとボタン</value>
+    </data>
+    <data name="MainMenuResponsiveModes_EllipsisTabsOnSecondRow" xml:space="preserve">
+        <value>1行目メニュー・2行目タブ（名前フィット）</value>
+    </data>
+    <data name="MainMenuResponsiveModes_AdaptiveEllipsisTabsAndButtonsOnSecondRowNameFit" xml:space="preserve">
+        <value>1行目メニュー・2行目タブとボタン（名前フィット）</value>
     </data>
     <data name="MainMenuResponsiveModes_AdaptiveEllipsisVerticalTabs" xml:space="preserve">
         <value>垂直タブ</value>
