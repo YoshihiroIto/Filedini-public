@@ -886,6 +886,9 @@ Empty file.</value>
     <data name="Settings_Label_IconSize" xml:space="preserve">
         <value>Icon Size</value>
     </data>
+    <data name="Settings_Label_NameLineCount" xml:space="preserve">
+        <value>Name Line Count</value>
+    </data>
     <data name="ItemLayoutTypes_Icon" xml:space="preserve">
         <value>Icon</value>
     </data>

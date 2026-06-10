@@ -868,6 +868,9 @@
     <data name="Settings_Label_IconSize" xml:space="preserve">
         <value>アイコンサイズ</value>
     </data>
+    <data name="Settings_Label_NameLineCount" xml:space="preserve">
+        <value>名前表示行数</value>
+    </data>
     <data name="ItemLayoutTypes_Icon" xml:space="preserve">
         <value>アイコン</value>
     </data>

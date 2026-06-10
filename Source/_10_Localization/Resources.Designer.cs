@@ -5138,6 +5138,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Name Line Count.
+        /// </summary>
+        public static string Settings_Label_NameLineCount {
+            get {
+                return ResourceManager.GetString("Settings_Label_NameLineCount", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to I_nstall Python.
         /// </summary>
         public static string Settings_Label_InstallPython {
