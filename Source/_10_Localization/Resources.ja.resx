@@ -2151,4 +2151,7 @@
     <data name="Tooltip_SelectApp" xml:space="preserve">
         <value>アプリの選択...</value>
     </data>
+    <data name="FileMenu_CopyPreviewToClipboard" xml:space="preserve">
+        <value>クリップボードにコピー</value>
+    </data>
 </root>

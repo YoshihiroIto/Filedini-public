@@ -2319,4 +2319,7 @@ Please try again later.</value>
     <data name="Tooltip_SelectApp" xml:space="preserve">
         <value>Select App...</value>
     </data>
+    <data name="FileMenu_CopyPreviewToClipboard" xml:space="preserve">
+        <value>Copy to Clipboard</value>
+    </data>
 </root>
