@@ -1474,6 +1474,9 @@ Please check back again later.</value>
     <data name="FileMenu_NewScript" xml:space="preserve">
         <value>New Script...</value>
     </data>
+    <data name="FileMenu_AiScriptGenerate" xml:space="preserve">
+        <value>AI Script Generate (WIP)...</value>
+    </data>
     <data name="Message_EnterScriptName" xml:space="preserve">
         <value>Enter script name:</value>
     </data>

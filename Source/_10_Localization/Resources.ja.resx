@@ -1457,6 +1457,9 @@
     <data name="FileMenu_NewScript" xml:space="preserve">
         <value>新しいスクリプト...</value>
     </data>
+    <data name="FileMenu_AiScriptGenerate" xml:space="preserve">
+        <value>AIスクリプト生成（開発中）...</value>
+    </data>
     <data name="Message_EnterScriptName" xml:space="preserve">
         <value>スクリプト名を入力してください:</value>
     </data>

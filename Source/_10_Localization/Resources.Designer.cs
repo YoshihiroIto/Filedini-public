@@ -639,6 +639,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to AI Script Generate (WIP)....
+        /// </summary>
+        public static string FileMenu_AiScriptGenerate {
+            get {
+                return ResourceManager.GetString("FileMenu_AiScriptGenerate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Bookmark....
         /// </summary>
         public static string FileMenu_Bookmark {
