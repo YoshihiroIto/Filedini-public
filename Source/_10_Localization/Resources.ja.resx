@@ -2157,4 +2157,13 @@
     <data name="FileMenu_CopyPreviewToClipboard" xml:space="preserve">
         <value>クリップボードにコピー</value>
     </data>
+    <data name="Tooltip_Minimize" xml:space="preserve">
+        <value>最小化</value>
+    </data>
+    <data name="Tooltip_Maximize" xml:space="preserve">
+        <value>最大化</value>
+    </data>
+    <data name="Tooltip_Close" xml:space="preserve">
+        <value>閉じる</value>
+    </data>
 </root>

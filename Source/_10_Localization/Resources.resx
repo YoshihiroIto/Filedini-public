@@ -2325,4 +2325,13 @@ Please try again later.</value>
     <data name="FileMenu_CopyPreviewToClipboard" xml:space="preserve">
         <value>Copy to Clipboard</value>
     </data>
+    <data name="Tooltip_Minimize" xml:space="preserve">
+        <value>Minimize</value>
+    </data>
+    <data name="Tooltip_Maximize" xml:space="preserve">
+        <value>Maximize</value>
+    </data>
+    <data name="Tooltip_Close" xml:space="preserve">
+        <value>Close</value>
+    </data>
 </root>

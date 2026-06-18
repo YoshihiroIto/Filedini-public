@@ -5941,6 +5941,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Close.
+        /// </summary>
+        public static string Tooltip_Close {
+            get {
+                return ResourceManager.GetString("Tooltip_Close", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Close Tab.
         /// </summary>
         public static string Tooltip_CloseTab {
@@ -6027,6 +6036,24 @@ namespace Filedini.Localization {
         public static string Tooltip_MatchWord {
             get {
                 return ResourceManager.GetString("Tooltip_MatchWord", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Maximize.
+        /// </summary>
+        public static string Tooltip_Maximize {
+            get {
+                return ResourceManager.GetString("Tooltip_Maximize", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Minimize.
+        /// </summary>
+        public static string Tooltip_Minimize {
+            get {
+                return ResourceManager.GetString("Tooltip_Minimize", resourceCulture);
             }
         }
         
