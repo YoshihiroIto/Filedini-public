@@ -343,6 +343,12 @@
     <data name="DialogTitle_Confirmation" xml:space="preserve">
         <value>確認</value>
     </data>
+    <data name="DialogTitle_SaveSession" xml:space="preserve">
+        <value>セッションを保存</value>
+    </data>
+    <data name="DialogTitle_RenameSession" xml:space="preserve">
+        <value>セッション名を変更</value>
+    </data>
     <data name="Message_ConformationEmptyTrashCan" xml:space="preserve">
         <value>ごみ箱を空にします。この操作は元に戻せません。
 実行しますか？</value>
@@ -635,6 +641,12 @@
     <data name="Tooltip_Language" xml:space="preserve">
         <value>言語</value>
     </data>
+    <data name="Tooltip_Session" xml:space="preserve">
+        <value>セッション</value>
+    </data>
+    <data name="Tooltip_Rename" xml:space="preserve">
+        <value>名前変更</value>
+    </data>
     <data name="FileAttributes_Archive" xml:space="preserve">
         <value>アーカイブ</value>
     </data>
@@ -694,6 +706,9 @@
     </data>
     <data name="Settings_ExternalApps" xml:space="preserve">
         <value>外部アプリ</value>
+    </data>
+    <data name="Settings_Session" xml:space="preserve">
+        <value>セッション</value>
     </data>
     <data name="Settings_ItemList" xml:space="preserve">
         <value>アイテムリスト</value>
@@ -1462,6 +1477,24 @@
     </data>
     <data name="Message_EnterScriptName" xml:space="preserve">
         <value>スクリプト名を入力してください:</value>
+    </data>
+    <data name="Message_EnterSessionName" xml:space="preserve">
+        <value>セッション名を入力してください:</value>
+    </data>
+    <data name="Message_EnterNewSessionName" xml:space="preserve">
+        <value>新しいセッション名を入力してください:</value>
+    </data>
+    <data name="Menu_SavedSessions_SaveCurrent" xml:space="preserve">
+        <value>現在を保存</value>
+    </data>
+    <data name="Settings_Label_SavedAt" xml:space="preserve">
+        <value>保存日時</value>
+    </data>
+    <data name="Settings_Label_Tab" xml:space="preserve">
+        <value>タブ</value>
+    </data>
+    <data name="Settings_Label_TabCount" xml:space="preserve">
+        <value>タブ数</value>
     </data>
     <data name="Message_ConfirmOverwriteScript" xml:space="preserve">
         <value>スクリプト '{0}' は既に存在します。上書きしますか？</value>

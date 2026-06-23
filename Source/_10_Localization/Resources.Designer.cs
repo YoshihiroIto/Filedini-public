@@ -503,6 +503,24 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Rename Session.
+        /// </summary>
+        public static string DialogTitle_RenameSession {
+            get {
+                return ResourceManager.GetString("DialogTitle_RenameSession", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Save Session.
+        /// </summary>
+        public static string DialogTitle_SaveSession {
+            get {
+                return ResourceManager.GetString("DialogTitle_SaveSession", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Send feedback to Filedini.
         /// </summary>
         public static string DialogTitle_SendFeedback {
@@ -3628,6 +3646,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Save Current.
+        /// </summary>
+        public static string Menu_SavedSessions_SaveCurrent {
+            get {
+                return ResourceManager.GetString("Menu_SavedSessions_SaveCurrent", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to {0}
         ///
         ///Access denied..
@@ -4221,6 +4248,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Enter new session name:.
+        /// </summary>
+        public static string Message_EnterNewSessionName {
+            get {
+                return ResourceManager.GetString("Message_EnterNewSessionName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to This file is password-protected. 
         ///Please enter the password..
         /// </summary>
@@ -4236,6 +4272,15 @@ namespace Filedini.Localization {
         public static string Message_EnterScriptName {
             get {
                 return ResourceManager.GetString("Message_EnterScriptName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter session name:.
+        /// </summary>
+        public static string Message_EnterSessionName {
+            get {
+                return ResourceManager.GetString("Message_EnterSessionName", resourceCulture);
             }
         }
         
@@ -5390,6 +5435,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Saved At.
+        /// </summary>
+        public static string Settings_Label_SavedAt {
+            get {
+                return ResourceManager.GetString("Settings_Label_SavedAt", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Options when item selected.
         /// </summary>
         public static string Settings_Label_SelectedItemOptions {
@@ -5440,6 +5494,24 @@ namespace Filedini.Localization {
         public static string Settings_Label_SplitFolderPaneDisplaySwitch {
             get {
                 return ResourceManager.GetString("Settings_Label_SplitFolderPaneDisplaySwitch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tabs.
+        /// </summary>
+        public static string Settings_Label_Tab {
+            get {
+                return ResourceManager.GetString("Settings_Label_Tab", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tab Count.
+        /// </summary>
+        public static string Settings_Label_TabCount {
+            get {
+                return ResourceManager.GetString("Settings_Label_TabCount", resourceCulture);
             }
         }
         
@@ -5620,6 +5692,15 @@ namespace Filedini.Localization {
         public static string Settings_RemoveHotkey {
             get {
                 return ResourceManager.GetString("Settings_RemoveHotkey", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Session.
+        /// </summary>
+        public static string Settings_Session {
+            get {
+                return ResourceManager.GetString("Settings_Session", resourceCulture);
             }
         }
         
@@ -6121,6 +6202,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Rename.
+        /// </summary>
+        public static string Tooltip_Rename {
+            get {
+                return ResourceManager.GetString("Tooltip_Rename", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Select App....
         /// </summary>
         public static string Tooltip_SelectApp {
@@ -6162,6 +6252,15 @@ namespace Filedini.Localization {
         public static string Tooltip_SendFeedback {
             get {
                 return ResourceManager.GetString("Tooltip_SendFeedback", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sessions.
+        /// </summary>
+        public static string Tooltip_Session {
+            get {
+                return ResourceManager.GetString("Tooltip_Session", resourceCulture);
             }
         }
         

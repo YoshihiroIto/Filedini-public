@@ -358,6 +358,12 @@ The external app is not registered or does not exist.</value>
     <data name="DialogTitle_Confirmation" xml:space="preserve">
         <value>Confirmation</value>
     </data>
+    <data name="DialogTitle_SaveSession" xml:space="preserve">
+        <value>Save Session</value>
+    </data>
+    <data name="DialogTitle_RenameSession" xml:space="preserve">
+        <value>Rename Session</value>
+    </data>
     <data name="Message_ConformationEmptyTrashCan" xml:space="preserve">
         <value>Empty the trash can. This action cannot be undone.
 Do you want to proceed?</value>
@@ -650,6 +656,12 @@ Do you want to proceed?</value>
     <data name="Tooltip_Language" xml:space="preserve">
         <value>Language</value>
     </data>
+    <data name="Tooltip_Session" xml:space="preserve">
+        <value>Sessions</value>
+    </data>
+    <data name="Tooltip_Rename" xml:space="preserve">
+        <value>Rename</value>
+    </data>
     <data name="FileAttributes_ReadOnly" xml:space="preserve">
         <value>Read Only</value>
     </data>
@@ -709,6 +721,9 @@ Do you want to proceed?</value>
     </data>
     <data name="Settings_ExternalApps" xml:space="preserve">
         <value>External Apps</value>
+    </data>
+    <data name="Settings_Session" xml:space="preserve">
+        <value>Session</value>
     </data>
     <data name="Settings_CacheAndBuffer" xml:space="preserve">
         <value>Cache and Buffer</value>
@@ -1479,6 +1494,24 @@ Please check back again later.</value>
     </data>
     <data name="Message_EnterScriptName" xml:space="preserve">
         <value>Enter script name:</value>
+    </data>
+    <data name="Message_EnterSessionName" xml:space="preserve">
+        <value>Enter session name:</value>
+    </data>
+    <data name="Message_EnterNewSessionName" xml:space="preserve">
+        <value>Enter new session name:</value>
+    </data>
+    <data name="Menu_SavedSessions_SaveCurrent" xml:space="preserve">
+        <value>Save Current</value>
+    </data>
+    <data name="Settings_Label_SavedAt" xml:space="preserve">
+        <value>Saved At</value>
+    </data>
+    <data name="Settings_Label_Tab" xml:space="preserve">
+        <value>Tabs</value>
+    </data>
+    <data name="Settings_Label_TabCount" xml:space="preserve">
+        <value>Tab Count</value>
     </data>
     <data name="Message_ConfirmOverwriteScript" xml:space="preserve">
         <value>Script '{0}' already exists. Do you want to overwrite it?</value>
