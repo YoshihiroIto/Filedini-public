@@ -3646,7 +3646,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Save Current.
+        ///   Looks up a localized string similar to Save Current....
         /// </summary>
         public static string Menu_SavedSessions_SaveCurrent {
             get {

@@ -1505,7 +1505,7 @@ Please check back again later.</value>
         <value>Enter new session name:</value>
     </data>
     <data name="Menu_SavedSessions_SaveCurrent" xml:space="preserve">
-        <value>Save Current</value>
+        <value>Save Current...</value>
     </data>
     <data name="Settings_Label_SavedAt" xml:space="preserve">
         <value>Saved At</value>

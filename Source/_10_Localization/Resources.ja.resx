@@ -1488,7 +1488,7 @@
         <value>新しいセッション名を入力してください:</value>
     </data>
     <data name="Menu_SavedSessions_SaveCurrent" xml:space="preserve">
-        <value>現在を保存</value>
+        <value>現在を保存...</value>
     </data>
     <data name="Settings_Label_SavedAt" xml:space="preserve">
         <value>保存日時</value>
