@@ -1102,6 +1102,9 @@ Empty file.</value>
     <data name="Settings_Label_LanguageSelector" xml:space="preserve">
         <value>Language Selector</value>
     </data>
+    <data name="Settings_Label_Session" xml:space="preserve">
+        <value>Session</value>
+    </data>
     <data name="Settings_Label_Show" xml:space="preserve">
         <value>Show</value>
     </data>

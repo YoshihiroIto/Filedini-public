@@ -1085,6 +1085,9 @@
     <data name="Settings_Label_LanguageSelector" xml:space="preserve">
         <value>言語セレクター</value>
     </data>
+    <data name="Settings_Label_Session" xml:space="preserve">
+        <value>セッション</value>
+    </data>
     <data name="Settings_Label_Show" xml:space="preserve">
         <value>表示する</value>
     </data>

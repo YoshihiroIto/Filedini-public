@@ -5462,6 +5462,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Session.
+        /// </summary>
+        public static string Settings_Label_Session {
+            get {
+                return ResourceManager.GetString("Settings_Label_Session", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Shared Icon Cache Size.
         /// </summary>
         public static string Settings_Label_SharedIconCacheSize {
