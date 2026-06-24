@@ -1986,6 +1986,9 @@
     <data name="FolderViewer_CancelButton" xml:space="preserve">
         <value>キャンセル</value>
     </data>
+    <data name="FolderViewer_ReMeasureButton" xml:space="preserve">
+        <value>再計測</value>
+    </data>
     <data name="Tooltip_Pin" xml:space="preserve">
         <value>ウィンドウを固定 / 固定を解除</value>
     </data>
