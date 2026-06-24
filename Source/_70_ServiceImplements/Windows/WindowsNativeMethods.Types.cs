@@ -301,6 +301,32 @@ internal static partial class WindowsNativeMethods
     }
 
     [GeneratedComInterface]
+    [Guid("b63ea76d-1f85-456f-a19c-48159efa858b")]
+    public partial interface IShellItemArray
+    {
+        [PreserveSig]
+        int BindToHandler(IntPtr pbc, in Guid bhid, in Guid riid, out IntPtr ppvOut);
+
+        [PreserveSig]
+        int GetPropertyStore(uint flags, in Guid riid, out IntPtr ppv);
+
+        [PreserveSig]
+        int GetPropertyDescriptionList(IntPtr keyType, in Guid riid, out IntPtr ppv);
+
+        [PreserveSig]
+        int GetAttributes(uint attribFlags, SFGAO sfgaoMask, out SFGAO psfgaoAttribs);
+
+        [PreserveSig]
+        int GetCount(out uint pdwNumItems);
+
+        [PreserveSig]
+        int GetItemAt(uint dwIndex, out IntPtr ppsi);
+
+        [PreserveSig]
+        int EnumItems(out IntPtr ppenumShellItems);
+    }
+
+    [GeneratedComInterface]
     [Guid("000214f4-0000-0000-c000-000000000046")]
     public partial interface IContextMenu2
     {

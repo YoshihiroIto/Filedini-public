@@ -62,6 +62,18 @@ internal static partial class WindowsNativeMethods
     [LibraryImport("shell32.dll")]
     public static partial int SHGetDesktopFolder(out IntPtr ppshf);
 
+    [LibraryImport("shell32.dll", EntryPoint = "SHParseDisplayName", StringMarshalling = StringMarshalling.Utf16)]
+    public static partial int SHParseDisplayName(string pszName, IntPtr pbc, out IntPtr ppidl, uint sfgaoIn,
+        out SFGAO psfgaoOut);
+
+    [LibraryImport("shell32.dll", EntryPoint = "SHBindToParent")]
+    public static partial int SHBindToParent(IntPtr pidl, in Guid riid, out IntPtr ppv, out IntPtr ppidlLast);
+
+    [LibraryImport("shell32.dll", EntryPoint = "SHCreateShellItemArrayFromIDLists")]
+    public static partial int SHCreateShellItemArrayFromIDLists(uint cidl,
+        [MarshalAs(UnmanagedType.LPArray)] IntPtr[] rgpidl,
+        out IntPtr ppsiItemArray);
+
     [LibraryImport("shell32.dll")]
     public static partial uint SHChangeNotifyRegister(IntPtr hWnd, SHCNF fSources, SHCNE fEvents, uint wMsg,
         int cEntries, ref SHChangeNotifyEntry pFsne);

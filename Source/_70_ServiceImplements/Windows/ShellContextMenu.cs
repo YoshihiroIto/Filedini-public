@@ -17,8 +17,11 @@ internal sealed class ShellContextMenu
     public static void Show(TopLevel topLevel, FileInfo[] files, int x, int y)
     {
         Guard.IsNotEmpty(files);
-        
-        files = files.Where(f => f.DirectoryName == files[0].DirectoryName).ToArray();
+
+        var leadFile = files[0];
+        files = leadFile.DirectoryName is null
+            ? files.Where(f => string.Equals(f.FullName, leadFile.FullName, StringComparison.OrdinalIgnoreCase)).ToArray()
+            : files.Where(f => string.Equals(f.DirectoryName, leadFile.DirectoryName, StringComparison.OrdinalIgnoreCase)).ToArray();
 
         var handleOwner = topLevel.TryGetPlatformHandle()?.Handle;
         if (handleOwner is null)
@@ -30,12 +33,12 @@ internal sealed class ShellContextMenu
 
         try
         {
-            var desktopFolder = CreateDesktopFolder();
-            var (parentFolder, parentFolderName) = CreateParentFolder(files[0].DirectoryName ?? "", desktopFolder);
+            if (!TryCreateAbsoluteIdls(files, out idls))
+                return;
 
-            idls = CreateIdls(files, parentFolder);
-
-            var (contextMenu, contextMenu2, contextMenu3) = GetContextMenuInterfaces(idls, parentFolder);
+            if (!TryGetContextMenuInterfaces(idls, out var contextMenu, out var contextMenu2,
+                    out var contextMenu3))
+                return;
 
             ApplyTheme(topLevel);
 
@@ -50,7 +53,7 @@ internal sealed class ShellContextMenu
                 menu, TPM.RETURNCMD, x, y, (IntPtr)handleOwner, IntPtr.Zero);
 
             if (selectedIndex >= CMD_FIRST)
-                InvokeCommand(contextMenu, selectedIndex, parentFolderName, x, y);
+                InvokeCommand(contextMenu, selectedIndex, GetInvokeDirectory(files[0]), x, y);
         }
         finally
         {
@@ -63,19 +66,36 @@ internal sealed class ShellContextMenu
         }
     }
 
-    private static (IContextMenu, IContextMenu2?, IContextMenu3?)
-        GetContextMenuInterfaces(IntPtr[] idls, IShellFolder parentFolder)
+    private static bool TryGetContextMenuInterfaces(
+        IntPtr[] idls,
+        out IContextMenu contextMenu,
+        out IContextMenu2? contextMenu2,
+        out IContextMenu3? contextMenu3)
     {
-        var result = parentFolder.GetUIObjectOf(
-            IntPtr.Zero, (uint)idls.Length, idls, in IID_IContextMenu, IntPtr.Zero, out var unknownContextMenu);
+        var result = SHCreateShellItemArrayFromIDLists((uint)idls.Length, idls, out var unknownShellItemArray);
+        if (result is not S_OK)
+        {
+            contextMenu = null!;
+            contextMenu2 = null;
+            contextMenu3 = null;
+            return false;
+        }
+
+        var shellItemArray = GetOrCreateObjectForComInstance<IShellItemArray>(unknownShellItemArray);
+        result = shellItemArray.BindToHandler(IntPtr.Zero, in BHID_SFUIObject, in IID_IContextMenu, out var unknownContextMenu);
 
         if (result is not S_OK)
-            throw new InvalidOperationException();
+        {
+            contextMenu = null!;
+            contextMenu2 = null;
+            contextMenu3 = null;
+            return false;
+        }
 
-        var contextMenu = GetOrCreateObjectForComInstance<IContextMenu>(unknownContextMenu);
+        contextMenu = GetOrCreateObjectForComInstance<IContextMenu>(unknownContextMenu);
 
-        IContextMenu2? contextMenu2 = null;
-        IContextMenu3? contextMenu3 = null;
+        contextMenu2 = null;
+        contextMenu3 = null;
 
         if (Marshal.QueryInterface(unknownContextMenu, in IID_IContextMenu2, out var unknownContextMenu2) is S_OK)
             contextMenu2 = GetOrCreateObjectForComInstance<IContextMenu2>(unknownContextMenu2);
@@ -83,66 +103,33 @@ internal sealed class ShellContextMenu
         if (Marshal.QueryInterface(unknownContextMenu, in IID_IContextMenu3, out var unknownContextMenu3) is S_OK)
             contextMenu3 = GetOrCreateObjectForComInstance<IContextMenu3>(unknownContextMenu3);
 
-        return (contextMenu, contextMenu2, contextMenu3);
+        return true;
     }
 
-    private static IShellFolder CreateDesktopFolder()
+    private static bool TryCreateAbsoluteIdls(FileInfo[] files, out IntPtr[] idls)
     {
-        var result = SHGetDesktopFolder(out var unknownDesktopFolder);
-        if (result is not S_OK)
-            throw new InvalidOperationException();
-
-        return GetOrCreateObjectForComInstance<IShellFolder>(unknownDesktopFolder);
-    }
-
-    private static (IShellFolder, string) CreateParentFolder(string folderName, IShellFolder desktopFolder)
-    {
-        var pchEaten = 0u;
-        var pdwAttributes = default(SFGAO);
-
-        var result = desktopFolder.ParseDisplayName(IntPtr.Zero, IntPtr.Zero, folderName, ref pchEaten,
-            out var idl, ref pdwAttributes);
-
-        if (result is not S_OK)
-            throw new InvalidOperationException();
-
-        var folder = Marshal.AllocCoTaskMem(MAX_PATH * 2 + 4);
-        Marshal.WriteInt32(folder, 0, 0);
-
-        _ = desktopFolder.GetDisplayNameOf(idl, SHGNO.FORPARSING, folder);
-
-        var name = StrRetToBufWrap(folder, idl);
-        result = desktopFolder.BindToObject(idl, IntPtr.Zero, in IID_IShellFolder, out var unknownParentFolder);
-
-        Marshal.FreeCoTaskMem(folder);
-        Marshal.FreeCoTaskMem(idl);
-
-        if (result is not S_OK)
-            throw new InvalidOperationException();
-
-        return (GetOrCreateObjectForComInstance<IShellFolder>(unknownParentFolder), name);
-    }
-
-    private static IntPtr[] CreateIdls(FileInfo[] files, IShellFolder parentFolder)
-    {
-        var idls = new IntPtr[files.Length];
+        idls = new IntPtr[files.Length];
 
         for (var i = 0; i != files.Length; ++i)
         {
-            var pchEaten = 0u;
-            var pdwAttributes = default(SFGAO);
-            var parseDisplayName = GetChildParseDisplayName(files[i]);
+            var result = SHParseDisplayName(files[i].FullName, IntPtr.Zero, out var absoluteIdl, 0, out _);
+            if (result is S_OK)
+            {
+                idls[i] = absoluteIdl;
+                continue;
+            }
 
-            var result = parentFolder.ParseDisplayName(IntPtr.Zero, IntPtr.Zero, parseDisplayName, ref pchEaten,
-                out var idl, ref pdwAttributes);
-
-            if (result is not S_OK)
-                throw new InvalidOperationException();
-
-            idls[i] = idl;
+            FreeIdls(idls);
+            idls = [];
+            return false;
         }
 
-        return idls;
+        return true;
+    }
+
+    private static string GetInvokeDirectory(FileInfo file)
+    {
+        return file.DirectoryName ?? file.FullName;
     }
 
     internal static string GetChildParseDisplayName(FileInfo file)
@@ -205,20 +192,6 @@ internal sealed class ShellContextMenu
             };
 
             contextMenu.InvokeCommand(ref command);
-        }
-    }
-
-    [SkipLocalsInit]
-    private static unsafe string StrRetToBufWrap(IntPtr target, IntPtr idl)
-    {
-        var buffer = (stackalloc char[MAX_PATH + 16]);
-
-        fixed (char* p = buffer)
-        {
-            _ = StrRetToBuf(target, idl, (IntPtr)p, MAX_PATH);
-
-            var len = buffer.IndexOf('\0');
-            return buffer[..len].ToString();
         }
     }
 }

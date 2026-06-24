@@ -37,9 +37,11 @@ internal static partial class WindowsNativeMethods
 
     public static readonly Guid IID_IImageList = new("46EB5926-582E-4017-9FDF-E8998DAA0950");
     public static readonly Guid IID_IShellFolder = new("{000214E6-0000-0000-C000-000000000046}");
+    public static readonly Guid IID_IShellItemArray = new("{b63ea76d-1f85-456f-a19c-48159efa858b}");
     public static readonly Guid IID_IContextMenu = new("{000214e4-0000-0000-c000-000000000046}");
     public static readonly Guid IID_IContextMenu2 = new("{000214f4-0000-0000-c000-000000000046}");
     public static readonly Guid IID_IContextMenu3 = new("{bcfce0a0-ec17-11d0-8d10-00a0c90f2719}");
+    public static readonly Guid BHID_SFUIObject = new("{3981e225-f559-11d3-8e3a-00c04f6837d5}");
 
     public const int VK_SHIFT = 0x10;
     public const int VK_CONTROL = 0x11;
