@@ -1,6 +1,5 @@
 ﻿#if TARGET_WINDOWS
 
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Avalonia.Controls;
 using Avalonia.Styling;
