@@ -641,8 +641,8 @@
     <data name="Tooltip_Language" xml:space="preserve">
         <value>言語</value>
     </data>
-    <data name="Tooltip_Session" xml:space="preserve">
-        <value>セッション</value>
+    <data name="FileMenu_Session" xml:space="preserve">
+        <value>セッション...</value>
     </data>
     <data name="Tooltip_Rename" xml:space="preserve">
         <value>名前変更</value>
@@ -718,9 +718,6 @@
     </data>
     <data name="Settings_Item" xml:space="preserve">
         <value>アイテム</value>
-    </data>
-    <data name="Settings_Label_PDFCacheExpireDate" xml:space="preserve">
-        <value>PDFキャッシュ有効日数</value>
     </data>
     <data name="Settings_Label_DefaultFont" xml:space="preserve">
         <value>デフォルトフォント</value>

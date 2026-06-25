@@ -656,8 +656,8 @@ Do you want to proceed?</value>
     <data name="Tooltip_Language" xml:space="preserve">
         <value>Language</value>
     </data>
-    <data name="Tooltip_Session" xml:space="preserve">
-        <value>Sessions</value>
+    <data name="FileMenu_Session" xml:space="preserve">
+        <value>Sessions...</value>
     </data>
     <data name="Tooltip_Rename" xml:space="preserve">
         <value>Rename</value>
