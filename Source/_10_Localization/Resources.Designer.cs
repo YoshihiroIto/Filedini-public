@@ -5678,6 +5678,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Visible.
+        /// </summary>
+        public static string Settings_Label_Visible {
+            get {
+                return ResourceManager.GetString("Settings_Label_Visible", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Last Write Display.
         /// </summary>
         public static string Settings_LastWriteDisplay {

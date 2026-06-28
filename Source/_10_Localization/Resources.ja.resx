@@ -2202,4 +2202,7 @@
     <data name="Tooltip_Close" xml:space="preserve">
         <value>閉じる</value>
     </data>
+    <data name="Settings_Label_Visible" xml:space="preserve">
+        <value>表示</value>
+    </data>
 </root>

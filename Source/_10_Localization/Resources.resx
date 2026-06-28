@@ -2373,4 +2373,7 @@ Please try again later.</value>
     <data name="Tooltip_Close" xml:space="preserve">
         <value>Close</value>
     </data>
+    <data name="Settings_Label_Visible" xml:space="preserve">
+        <value>Visible</value>
+    </data>
 </root>
