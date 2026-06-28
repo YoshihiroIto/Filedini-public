@@ -624,7 +624,7 @@
         <value>既存フォルダー</value>
     </data>
     <data name="FileMenu_AboutApp" xml:space="preserve">
-        <value>Filedini について...</value>
+        <value>Filedini について</value>
     </data>
     <data name="FileMenu_Help" xml:space="preserve">
         <value>ヘルプ(_H)</value>

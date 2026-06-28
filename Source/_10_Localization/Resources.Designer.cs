@@ -639,7 +639,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to About Filedini....
+        ///   Looks up a localized string similar to About Filedini.
         /// </summary>
         public static string FileMenu_AboutApp {
             get {

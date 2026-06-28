@@ -639,7 +639,7 @@ Do you want to proceed?</value>
         <value>Existing Folder</value>
     </data>
     <data name="FileMenu_AboutApp" xml:space="preserve">
-        <value>About Filedini...</value>
+        <value>About Filedini</value>
     </data>
     <data name="FileMenu_Help" xml:space="preserve">
         <value>_Help</value>
