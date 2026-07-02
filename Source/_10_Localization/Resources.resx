@@ -1465,10 +1465,10 @@ Invalid password.
         <value>Theme Selector</value>
     </data>
     <data name="Settings_Label_NeutralMidtoneColor" xml:space="preserve">
-        <value>Neutral Tint</value>
+        <value>Tint</value>
     </data>
     <data name="Settings_Label_NeutralDarkness" xml:space="preserve">
-        <value>Neutral Darkness</value>
+        <value>Darkness</value>
     </data>
     <data name="Settings_Option_ThemeDefault" xml:space="preserve">
         <value>Theme Default</value>

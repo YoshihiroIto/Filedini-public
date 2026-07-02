@@ -1445,10 +1445,10 @@
         <value>テーマセレクター</value>
     </data>
     <data name="Settings_Label_NeutralMidtoneColor" xml:space="preserve">
-        <value>ニュートラル色味</value>
+        <value>色味</value>
     </data>
     <data name="Settings_Label_NeutralDarkness" xml:space="preserve">
-        <value>ニュートラル暗さ</value>
+        <value>暗さ</value>
     </data>
     <data name="Settings_Option_ThemeDefault" xml:space="preserve">
         <value>テーマ既定</value>
