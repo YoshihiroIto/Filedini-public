@@ -1464,6 +1464,45 @@ Invalid password.
     <data name="Settings_Label_ThemeSelector" xml:space="preserve">
         <value>Theme Selector</value>
     </data>
+    <data name="Settings_Label_NeutralMidtoneColor" xml:space="preserve">
+        <value>Neutral Tint</value>
+    </data>
+    <data name="Settings_Label_NeutralDarkness" xml:space="preserve">
+        <value>Neutral Darkness</value>
+    </data>
+    <data name="Settings_Option_ThemeDefault" xml:space="preserve">
+        <value>Theme Default</value>
+    </data>
+    <data name="Settings_Option_CustomFormat" xml:space="preserve">
+        <value>Custom ({0})</value>
+    </data>
+    <data name="Settings_Option_CustomDarknessFormat" xml:space="preserve">
+        <value>Custom ({0:P0})</value>
+    </data>
+    <data name="Settings_Option_DarknessFormat" xml:space="preserve">
+        <value>{0:P0} darkness</value>
+    </data>
+    <data name="Settings_Option_NeutralGray" xml:space="preserve">
+        <value>Gray</value>
+    </data>
+    <data name="Settings_Option_NeutralSlate" xml:space="preserve">
+        <value>Slate</value>
+    </data>
+    <data name="Settings_Option_NeutralZinc" xml:space="preserve">
+        <value>Zinc</value>
+    </data>
+    <data name="Settings_Option_NeutralStone" xml:space="preserve">
+        <value>Stone</value>
+    </data>
+    <data name="Settings_Option_NeutralBlue" xml:space="preserve">
+        <value>Blue</value>
+    </data>
+    <data name="Settings_Option_NeutralGreen" xml:space="preserve">
+        <value>Green</value>
+    </data>
+    <data name="Settings_Option_NeutralPurple" xml:space="preserve">
+        <value>Purple</value>
+    </data>
     <data name="FileMenu_QuitFiledini" xml:space="preserve">
         <value>Quit Filedini</value>
     </data>

@@ -5631,6 +5631,123 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Settings_Label_ThemeSelector", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Neutral Darkness.
+        /// </summary>
+        public static string Settings_Label_NeutralDarkness {
+            get {
+                return ResourceManager.GetString("Settings_Label_NeutralDarkness", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Neutral Midtone Color.
+        /// </summary>
+        public static string Settings_Label_NeutralMidtoneColor {
+            get {
+                return ResourceManager.GetString("Settings_Label_NeutralMidtoneColor", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Custom ({0}).
+        /// </summary>
+        public static string Settings_Option_CustomFormat {
+            get {
+                return ResourceManager.GetString("Settings_Option_CustomFormat", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Custom ({0:P0}).
+        /// </summary>
+        public static string Settings_Option_CustomDarknessFormat {
+            get {
+                return ResourceManager.GetString("Settings_Option_CustomDarknessFormat", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to {0:P0} darkness.
+        /// </summary>
+        public static string Settings_Option_DarknessFormat {
+            get {
+                return ResourceManager.GetString("Settings_Option_DarknessFormat", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Blue.
+        /// </summary>
+        public static string Settings_Option_NeutralBlue {
+            get {
+                return ResourceManager.GetString("Settings_Option_NeutralBlue", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Gray.
+        /// </summary>
+        public static string Settings_Option_NeutralGray {
+            get {
+                return ResourceManager.GetString("Settings_Option_NeutralGray", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Green.
+        /// </summary>
+        public static string Settings_Option_NeutralGreen {
+            get {
+                return ResourceManager.GetString("Settings_Option_NeutralGreen", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Purple.
+        /// </summary>
+        public static string Settings_Option_NeutralPurple {
+            get {
+                return ResourceManager.GetString("Settings_Option_NeutralPurple", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Slate.
+        /// </summary>
+        public static string Settings_Option_NeutralSlate {
+            get {
+                return ResourceManager.GetString("Settings_Option_NeutralSlate", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Stone.
+        /// </summary>
+        public static string Settings_Option_NeutralStone {
+            get {
+                return ResourceManager.GetString("Settings_Option_NeutralStone", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Zinc.
+        /// </summary>
+        public static string Settings_Option_NeutralZinc {
+            get {
+                return ResourceManager.GetString("Settings_Option_NeutralZinc", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Theme Default.
+        /// </summary>
+        public static string Settings_Option_ThemeDefault {
+            get {
+                return ResourceManager.GetString("Settings_Option_ThemeDefault", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to Thumbnail Cache Size.
