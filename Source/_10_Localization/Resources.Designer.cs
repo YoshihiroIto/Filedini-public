@@ -5759,7 +5759,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {0:P0} darkness.
+        ///   Looks up a localized string similar to {0:P0}.
         /// </summary>
         public static string Settings_Option_DarknessFormat {
             get {

@@ -1460,7 +1460,7 @@
         <value>カスタム ({0:P0})</value>
     </data>
     <data name="Settings_Option_DarknessFormat" xml:space="preserve">
-        <value>暗さ {0:P0}</value>
+        <value>{0:P0}</value>
     </data>
     <data name="Settings_Option_NeutralGray" xml:space="preserve">
         <value>グレー</value>

@@ -1480,7 +1480,7 @@ Invalid password.
         <value>Custom ({0:P0})</value>
     </data>
     <data name="Settings_Option_DarknessFormat" xml:space="preserve">
-        <value>{0:P0} darkness</value>
+        <value>{0:P0}</value>
     </data>
     <data name="Settings_Option_NeutralGray" xml:space="preserve">
         <value>Gray</value>
