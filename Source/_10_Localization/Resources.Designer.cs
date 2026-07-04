@@ -5012,6 +5012,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Accent.
+        /// </summary>
+        public static string Settings_Label_Accent {
+            get {
+                return ResourceManager.GetString("Settings_Label_Accent", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to App.
         /// </summary>
         public static string Settings_Label_App {
@@ -5741,6 +5750,150 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Amber.
+        /// </summary>
+        public static string Settings_Option_AccentAmber {
+            get {
+                return ResourceManager.GetString("Settings_Option_AccentAmber", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Blue.
+        /// </summary>
+        public static string Settings_Option_AccentBlue {
+            get {
+                return ResourceManager.GetString("Settings_Option_AccentBlue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cyan.
+        /// </summary>
+        public static string Settings_Option_AccentCyan {
+            get {
+                return ResourceManager.GetString("Settings_Option_AccentCyan", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Emerald.
+        /// </summary>
+        public static string Settings_Option_AccentEmerald {
+            get {
+                return ResourceManager.GetString("Settings_Option_AccentEmerald", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Fuchsia.
+        /// </summary>
+        public static string Settings_Option_AccentFuchsia {
+            get {
+                return ResourceManager.GetString("Settings_Option_AccentFuchsia", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Green.
+        /// </summary>
+        public static string Settings_Option_AccentGreen {
+            get {
+                return ResourceManager.GetString("Settings_Option_AccentGreen", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Indigo.
+        /// </summary>
+        public static string Settings_Option_AccentIndigo {
+            get {
+                return ResourceManager.GetString("Settings_Option_AccentIndigo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Lime.
+        /// </summary>
+        public static string Settings_Option_AccentLime {
+            get {
+                return ResourceManager.GetString("Settings_Option_AccentLime", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Orange.
+        /// </summary>
+        public static string Settings_Option_AccentOrange {
+            get {
+                return ResourceManager.GetString("Settings_Option_AccentOrange", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pink.
+        /// </summary>
+        public static string Settings_Option_AccentPink {
+            get {
+                return ResourceManager.GetString("Settings_Option_AccentPink", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Purple.
+        /// </summary>
+        public static string Settings_Option_AccentPurple {
+            get {
+                return ResourceManager.GetString("Settings_Option_AccentPurple", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Red.
+        /// </summary>
+        public static string Settings_Option_AccentRed {
+            get {
+                return ResourceManager.GetString("Settings_Option_AccentRed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sky.
+        /// </summary>
+        public static string Settings_Option_AccentSky {
+            get {
+                return ResourceManager.GetString("Settings_Option_AccentSky", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Teal.
+        /// </summary>
+        public static string Settings_Option_AccentTeal {
+            get {
+                return ResourceManager.GetString("Settings_Option_AccentTeal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Violet.
+        /// </summary>
+        public static string Settings_Option_AccentViolet {
+            get {
+                return ResourceManager.GetString("Settings_Option_AccentViolet", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Yellow.
+        /// </summary>
+        public static string Settings_Option_AccentYellow {
+            get {
+                return ResourceManager.GetString("Settings_Option_AccentYellow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Custom ({0:P0}).
         /// </summary>
         public static string Settings_Option_CustomDarknessFormat {
@@ -5831,7 +5984,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Theme Default.
+        ///   Looks up a localized string similar to (Theme Default).
         /// </summary>
         public static string Settings_Option_ThemeDefault {
             get {

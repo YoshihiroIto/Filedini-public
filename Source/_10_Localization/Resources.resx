@@ -1470,8 +1470,59 @@ Invalid password.
     <data name="Settings_Label_NeutralDarkness" xml:space="preserve">
         <value>Darkness</value>
     </data>
+    <data name="Settings_Label_Accent" xml:space="preserve">
+        <value>Accent</value>
+    </data>
     <data name="Settings_Option_ThemeDefault" xml:space="preserve">
-        <value>Theme Default</value>
+        <value>(Theme Default)</value>
+    </data>
+    <data name="Settings_Option_AccentRed" xml:space="preserve">
+        <value>Red</value>
+    </data>
+    <data name="Settings_Option_AccentOrange" xml:space="preserve">
+        <value>Orange</value>
+    </data>
+    <data name="Settings_Option_AccentAmber" xml:space="preserve">
+        <value>Amber</value>
+    </data>
+    <data name="Settings_Option_AccentYellow" xml:space="preserve">
+        <value>Yellow</value>
+    </data>
+    <data name="Settings_Option_AccentLime" xml:space="preserve">
+        <value>Lime</value>
+    </data>
+    <data name="Settings_Option_AccentGreen" xml:space="preserve">
+        <value>Green</value>
+    </data>
+    <data name="Settings_Option_AccentEmerald" xml:space="preserve">
+        <value>Emerald</value>
+    </data>
+    <data name="Settings_Option_AccentTeal" xml:space="preserve">
+        <value>Teal</value>
+    </data>
+    <data name="Settings_Option_AccentCyan" xml:space="preserve">
+        <value>Cyan</value>
+    </data>
+    <data name="Settings_Option_AccentSky" xml:space="preserve">
+        <value>Sky</value>
+    </data>
+    <data name="Settings_Option_AccentBlue" xml:space="preserve">
+        <value>Blue</value>
+    </data>
+    <data name="Settings_Option_AccentIndigo" xml:space="preserve">
+        <value>Indigo</value>
+    </data>
+    <data name="Settings_Option_AccentViolet" xml:space="preserve">
+        <value>Violet</value>
+    </data>
+    <data name="Settings_Option_AccentPurple" xml:space="preserve">
+        <value>Purple</value>
+    </data>
+    <data name="Settings_Option_AccentFuchsia" xml:space="preserve">
+        <value>Fuchsia</value>
+    </data>
+    <data name="Settings_Option_AccentPink" xml:space="preserve">
+        <value>Pink</value>
     </data>
     <data name="Settings_Option_CustomFormat" xml:space="preserve">
         <value>Custom ({0})</value>

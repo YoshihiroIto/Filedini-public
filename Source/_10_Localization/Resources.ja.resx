@@ -1450,8 +1450,59 @@
     <data name="Settings_Label_NeutralDarkness" xml:space="preserve">
         <value>暗さ</value>
     </data>
+    <data name="Settings_Label_Accent" xml:space="preserve">
+        <value>アクセント</value>
+    </data>
     <data name="Settings_Option_ThemeDefault" xml:space="preserve">
-        <value>テーマ既定</value>
+        <value>(テーマ既定)</value>
+    </data>
+    <data name="Settings_Option_AccentRed" xml:space="preserve">
+        <value>レッド</value>
+    </data>
+    <data name="Settings_Option_AccentOrange" xml:space="preserve">
+        <value>オレンジ</value>
+    </data>
+    <data name="Settings_Option_AccentAmber" xml:space="preserve">
+        <value>アンバー</value>
+    </data>
+    <data name="Settings_Option_AccentYellow" xml:space="preserve">
+        <value>イエロー</value>
+    </data>
+    <data name="Settings_Option_AccentLime" xml:space="preserve">
+        <value>ライム</value>
+    </data>
+    <data name="Settings_Option_AccentGreen" xml:space="preserve">
+        <value>グリーン</value>
+    </data>
+    <data name="Settings_Option_AccentEmerald" xml:space="preserve">
+        <value>エメラルド</value>
+    </data>
+    <data name="Settings_Option_AccentTeal" xml:space="preserve">
+        <value>ティール</value>
+    </data>
+    <data name="Settings_Option_AccentCyan" xml:space="preserve">
+        <value>シアン</value>
+    </data>
+    <data name="Settings_Option_AccentSky" xml:space="preserve">
+        <value>スカイ</value>
+    </data>
+    <data name="Settings_Option_AccentBlue" xml:space="preserve">
+        <value>ブルー</value>
+    </data>
+    <data name="Settings_Option_AccentIndigo" xml:space="preserve">
+        <value>インディゴ</value>
+    </data>
+    <data name="Settings_Option_AccentViolet" xml:space="preserve">
+        <value>バイオレット</value>
+    </data>
+    <data name="Settings_Option_AccentPurple" xml:space="preserve">
+        <value>パープル</value>
+    </data>
+    <data name="Settings_Option_AccentFuchsia" xml:space="preserve">
+        <value>フクシア</value>
+    </data>
+    <data name="Settings_Option_AccentPink" xml:space="preserve">
+        <value>ピンク</value>
     </data>
     <data name="Settings_Option_CustomFormat" xml:space="preserve">
         <value>カスタム ({0})</value>
