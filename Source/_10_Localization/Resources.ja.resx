@@ -602,6 +602,12 @@
     <data name="ItemProperty_Metadata_Name" xml:space="preserve">
         <value>名前</value>
     </data>
+    <data name="ItemProperty_Metadata_Encoding" xml:space="preserve">
+        <value>エンコーディング</value>
+    </data>
+    <data name="ItemProperty_Metadata_LineEnding" xml:space="preserve">
+        <value>改行コード</value>
+    </data>
     <data name="ItemProperty_Metadata_Attributes" xml:space="preserve">
         <value>属性</value>
     </data>

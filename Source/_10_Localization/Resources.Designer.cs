@@ -2870,6 +2870,15 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("ItemProperty_Metadata_Folder", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Encoding.
+        /// </summary>
+        public static string ItemProperty_Metadata_Encoding {
+            get {
+                return ResourceManager.GetString("ItemProperty_Metadata_Encoding", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to Last Write.
@@ -2877,6 +2886,15 @@ namespace Filedini.Localization {
         public static string ItemProperty_Metadata_LastWrite {
             get {
                 return ResourceManager.GetString("ItemProperty_Metadata_LastWrite", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Line Ending.
+        /// </summary>
+        public static string ItemProperty_Metadata_LineEnding {
+            get {
+                return ResourceManager.GetString("ItemProperty_Metadata_LineEnding", resourceCulture);
             }
         }
         

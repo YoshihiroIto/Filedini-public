@@ -617,6 +617,12 @@ Do you want to proceed?</value>
     <data name="ItemProperty_Metadata_Name" xml:space="preserve">
         <value>Name</value>
     </data>
+    <data name="ItemProperty_Metadata_Encoding" xml:space="preserve">
+        <value>Encoding</value>
+    </data>
+    <data name="ItemProperty_Metadata_LineEnding" xml:space="preserve">
+        <value>Line Ending</value>
+    </data>
     <data name="ItemProperty_Metadata_Attributes" xml:space="preserve">
         <value>Attributes</value>
     </data>
