@@ -2472,4 +2472,7 @@ Please try again later.</value>
     <data name="Settings_Label_Visible" xml:space="preserve">
         <value>Visible</value>
     </data>
+    <data name="Message_NoSavedSessions" xml:space="preserve">
+        <value>No saved sessions found.</value>
+    </data>
 </root>

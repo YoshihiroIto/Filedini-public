@@ -2863,20 +2863,20 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Folder.
-        /// </summary>
-        public static string ItemProperty_Metadata_Folder {
-            get {
-                return ResourceManager.GetString("ItemProperty_Metadata_Folder", resourceCulture);
-            }
-        }
-
-        /// <summary>
         ///   Looks up a localized string similar to Encoding.
         /// </summary>
         public static string ItemProperty_Metadata_Encoding {
             get {
                 return ResourceManager.GetString("ItemProperty_Metadata_Encoding", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Folder.
+        /// </summary>
+        public static string ItemProperty_Metadata_Folder {
+            get {
+                return ResourceManager.GetString("ItemProperty_Metadata_Folder", resourceCulture);
             }
         }
         
@@ -2888,7 +2888,7 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("ItemProperty_Metadata_LastWrite", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Line Ending.
         /// </summary>
@@ -4607,6 +4607,15 @@ namespace Filedini.Localization {
         public static string Message_NoMatchingItemsFound {
             get {
                 return ResourceManager.GetString("Message_NoMatchingItemsFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No saved sessions found..
+        /// </summary>
+        public static string Message_NoSavedSessions {
+            get {
+                return ResourceManager.GetString("Message_NoSavedSessions", resourceCulture);
             }
         }
         

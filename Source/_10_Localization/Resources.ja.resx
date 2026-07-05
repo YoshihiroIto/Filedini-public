@@ -2301,4 +2301,7 @@
     <data name="Settings_Label_Visible" xml:space="preserve">
         <value>表示</value>
     </data>
+    <data name="Message_NoSavedSessions" xml:space="preserve">
+        <value>保存済みのセッションはありません。</value>
+    </data>
 </root>
