@@ -827,6 +827,12 @@ Do you want to proceed?</value>
     <data name="Settings_Label_Timestamp" xml:space="preserve">
         <value>Timestamp</value>
     </data>
+    <data name="Settings_Label_TimestampShowSeconds" xml:space="preserve">
+        <value>Show seconds</value>
+    </data>
+    <data name="Settings_Label_TimestampTwoDigitYear" xml:space="preserve">
+        <value>Use two-digit year</value>
+    </data>
     <data name="Settings_Label_Attributes" xml:space="preserve">
         <value>Attributes</value>
     </data>

@@ -5705,6 +5705,24 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Show seconds.
+        /// </summary>
+        public static string Settings_Label_TimestampShowSeconds {
+            get {
+                return ResourceManager.GetString("Settings_Label_TimestampShowSeconds", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Use two-digit year.
+        /// </summary>
+        public static string Settings_Label_TimestampTwoDigitYear {
+            get {
+                return ResourceManager.GetString("Settings_Label_TimestampTwoDigitYear", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Timestamp Format.
         /// </summary>
         public static string Settings_Label_TimestampFormat {

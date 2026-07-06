@@ -821,6 +821,12 @@
     <data name="Settings_Label_Timestamp" xml:space="preserve">
         <value>タイムスタンプ</value>
     </data>
+    <data name="Settings_Label_TimestampShowSeconds" xml:space="preserve">
+        <value>秒を表示する</value>
+    </data>
+    <data name="Settings_Label_TimestampTwoDigitYear" xml:space="preserve">
+        <value>年を2桁にする</value>
+    </data>
     <data name="Settings_Label_Mode1" xml:space="preserve">
         <value>表示モード１</value>
     </data>
