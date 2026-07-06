@@ -6922,6 +6922,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to _Tab.
+        /// </summary>
+        public static string UI_Tab {
+            get {
+                return ResourceManager.GetString("UI_Tab", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to _Today.
         /// </summary>
         public static string UI_Today {

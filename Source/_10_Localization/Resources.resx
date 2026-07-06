@@ -2475,4 +2475,7 @@ Please try again later.</value>
     <data name="Message_NoSavedSessions" xml:space="preserve">
         <value>No saved sessions found.</value>
     </data>
+    <data name="UI_Tab" xml:space="preserve">
+        <value>_Tab</value>
+    </data>
 </root>

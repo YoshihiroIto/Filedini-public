@@ -2304,4 +2304,7 @@
     <data name="Message_NoSavedSessions" xml:space="preserve">
         <value>保存済みのセッションはありません。</value>
     </data>
+    <data name="UI_Tab" xml:space="preserve">
+        <value>タブ(_T)</value>
+    </data>
 </root>
