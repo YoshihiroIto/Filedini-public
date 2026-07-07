@@ -307,6 +307,9 @@
         <value>名前には以下の文字は使えません
 {0}</value>
     </data>
+    <data name="Message_CanModifyItemResults_TrailingPeriod" xml:space="preserve">
+        <value>名前の末尾に . は使えません</value>
+    </data>
     <data name="Message_CanModifyItemResults_ReservedName" xml:space="preserve">
         <value>この名前は予約名のため使えません</value>
     </data>

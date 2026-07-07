@@ -3759,6 +3759,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Names cannot end with a period.
+        /// </summary>
+        public static string Message_CanModifyItemResults_TrailingPeriod {
+            get {
+                return ResourceManager.GetString("Message_CanModifyItemResults_TrailingPeriod", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Parent folder does not Exist.
         /// </summary>
         public static string Message_CanModifyItemResults_ParentDoesNotExist {
