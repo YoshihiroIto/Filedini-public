@@ -3777,6 +3777,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to This name is reserved and cannot be used.
+        /// </summary>
+        public static string Message_CanModifyItemResults_ReservedName {
+            get {
+                return ResourceManager.GetString("Message_CanModifyItemResults_ReservedName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Cannot Connect Google.
         /// </summary>
         public static string Message_CannotConnectGoogle {
@@ -5705,6 +5714,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Timestamp Format.
+        /// </summary>
+        public static string Settings_Label_TimestampFormat {
+            get {
+                return ResourceManager.GetString("Settings_Label_TimestampFormat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Show seconds.
         /// </summary>
         public static string Settings_Label_TimestampShowSeconds {
@@ -5719,15 +5737,6 @@ namespace Filedini.Localization {
         public static string Settings_Label_TimestampTwoDigitYear {
             get {
                 return ResourceManager.GetString("Settings_Label_TimestampTwoDigitYear", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Timestamp Format.
-        /// </summary>
-        public static string Settings_Label_TimestampFormat {
-            get {
-                return ResourceManager.GetString("Settings_Label_TimestampFormat", resourceCulture);
             }
         }
         
