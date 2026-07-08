@@ -5505,6 +5505,15 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Settings_Label_PaneLayoutSwitch", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Restore cursor position for each folder.
+        /// </summary>
+        public static string Settings_Label_RestoreCursorPositionPerFolder {
+            get {
+                return ResourceManager.GetString("Settings_Label_RestoreCursorPositionPerFolder", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to Path.
