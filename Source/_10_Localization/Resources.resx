@@ -1881,10 +1881,10 @@ Destination:
         <value>Close Other Tabs</value>
     </data>
     <data name="FileMenu_CloseTabsToTheLeft" xml:space="preserve">
-        <value>Close Tabs to the Left</value>
+        <value>Close previous tabs</value>
     </data>
     <data name="FileMenu_CloseTabsToTheRight" xml:space="preserve">
-        <value>Close Tabs to the Right</value>
+        <value>Close following tabs</value>
     </data>
     <data name="FileMenu_DuplicateTab" xml:space="preserve">
         <value>Duplicate Tab</value>
@@ -1941,10 +1941,10 @@ Destination:
         <value>Next Folder Panel</value>
     </data>
     <data name="FileMenu_MoveTabLeft" xml:space="preserve">
-        <value>Move Tab Left</value>
+        <value>Move tab forward</value>
     </data>
     <data name="FileMenu_MoveTabRight" xml:space="preserve">
-        <value>Move Tab Right</value>
+        <value>Move tab backward</value>
     </data>
     <data name="FileMenu_MoveTabToNewWindow" xml:space="preserve">
         <value>Move Tab to New Window</value>

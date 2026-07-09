@@ -747,7 +747,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Close Tabs to the Left.
+        ///   Looks up a localized string similar to Close previous tabs.
         /// </summary>
         public static string FileMenu_CloseTabsToTheLeft {
             get {
@@ -756,7 +756,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Close Tabs to the Right.
+        ///   Looks up a localized string similar to Close following tabs.
         /// </summary>
         public static string FileMenu_CloseTabsToTheRight {
             get {
@@ -1350,7 +1350,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move Tab Left.
+        ///   Looks up a localized string similar to Move tab forward.
         /// </summary>
         public static string FileMenu_MoveTabLeft {
             get {
@@ -1359,7 +1359,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move Tab Right.
+        ///   Looks up a localized string similar to Move tab backward.
         /// </summary>
         public static string FileMenu_MoveTabRight {
             get {
@@ -3759,15 +3759,6 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Names cannot end with a period.
-        /// </summary>
-        public static string Message_CanModifyItemResults_TrailingPeriod {
-            get {
-                return ResourceManager.GetString("Message_CanModifyItemResults_TrailingPeriod", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Parent folder does not Exist.
         /// </summary>
         public static string Message_CanModifyItemResults_ParentDoesNotExist {
@@ -3791,6 +3782,15 @@ namespace Filedini.Localization {
         public static string Message_CanModifyItemResults_ReservedName {
             get {
                 return ResourceManager.GetString("Message_CanModifyItemResults_ReservedName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Names cannot end with a period.
+        /// </summary>
+        public static string Message_CanModifyItemResults_TrailingPeriod {
+            get {
+                return ResourceManager.GetString("Message_CanModifyItemResults_TrailingPeriod", resourceCulture);
             }
         }
         
@@ -5505,15 +5505,6 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Settings_Label_PaneLayoutSwitch", resourceCulture);
             }
         }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Restore cursor position for each folder.
-        /// </summary>
-        public static string Settings_Label_RestoreCursorPositionPerFolder {
-            get {
-                return ResourceManager.GetString("Settings_Label_RestoreCursorPositionPerFolder", resourceCulture);
-            }
-        }
         
         /// <summary>
         ///   Looks up a localized string similar to Path.
@@ -5521,6 +5512,15 @@ namespace Filedini.Localization {
         public static string Settings_Label_Path {
             get {
                 return ResourceManager.GetString("Settings_Label_Path", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Restore cursor position for each folder.
+        /// </summary>
+        public static string Settings_Label_RestoreCursorPositionPerFolder {
+            get {
+                return ResourceManager.GetString("Settings_Label_RestoreCursorPositionPerFolder", resourceCulture);
             }
         }
         

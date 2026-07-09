@@ -1845,10 +1845,10 @@
         <value>他のタブを閉じる</value>
     </data>
     <data name="FileMenu_CloseTabsToTheRight" xml:space="preserve">
-        <value>右側のタブを閉じる</value>
+        <value>後ろのタブを閉じる</value>
     </data>
     <data name="FileMenu_CloseTabsToTheLeft" xml:space="preserve">
-        <value>左側のタブを閉じる</value>
+        <value>前のタブを閉じる</value>
     </data>
     <data name="FileMenu_DuplicateTab" xml:space="preserve">
         <value>タブを複製</value>
@@ -1911,10 +1911,10 @@
         <value>前のフォルダーペイン</value>
     </data>
     <data name="FileMenu_MoveTabLeft" xml:space="preserve">
-        <value>タブを左に移動</value>
+        <value>タブを前に移動</value>
     </data>
     <data name="FileMenu_MoveTabRight" xml:space="preserve">
-        <value>タブを右に移動</value>
+        <value>タブを後ろに移動</value>
     </data>
     <data name="FileMenu_Tab" xml:space="preserve">
         <value>タブ(_B)</value>
