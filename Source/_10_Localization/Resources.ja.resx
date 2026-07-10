@@ -1922,29 +1922,29 @@
     <data name="Tooltip_UnpinTab" xml:space="preserve">
         <value>ピン止めを解除</value>
     </data>
-    <data name="MainMenuResponsiveModes_AlwaysHamburger" xml:space="preserve">
+    <data name="TabModes_AlwaysHamburger" xml:space="preserve">
         <value>常にハンバーガーメニュー</value>
     </data>
-    <data name="MainMenuResponsiveModes_AdaptiveEllipsis" xml:space="preserve">
+    <data name="TabModes_AdaptiveEllipsis" xml:space="preserve">
         <value>入らない項目を省略</value>
     </data>
-    <data name="MainMenuResponsiveModes_AdaptiveEllipsisTabsOnSecondRow" xml:space="preserve">
+    <data name="TabModes_AdaptiveEllipsisTabsOnSecondRow" xml:space="preserve">
         <value>1行目メニュー・2行目タブ</value>
     </data>
-    <data name="MainMenuResponsiveModes_AdaptiveEllipsisTabsAndButtonsOnSecondRow" xml:space="preserve">
+    <data name="TabModes_AdaptiveEllipsisTabsAndButtonsOnSecondRow" xml:space="preserve">
         <value>1行目メニュー・2行目タブとボタン</value>
     </data>
-    <data name="MainMenuResponsiveModes_EllipsisTabsOnSecondRow" xml:space="preserve">
+    <data name="TabModes_EllipsisTabsOnSecondRow" xml:space="preserve">
         <value>1行目メニュー・2行目タブ（名前フィット）</value>
     </data>
-    <data name="MainMenuResponsiveModes_AdaptiveEllipsisTabsAndButtonsOnSecondRowNameFit" xml:space="preserve">
+    <data name="TabModes_AdaptiveEllipsisTabsAndButtonsOnSecondRowNameFit" xml:space="preserve">
         <value>1行目メニュー・2行目タブとボタン（名前フィット）</value>
     </data>
-    <data name="MainMenuResponsiveModes_AdaptiveEllipsisVerticalTabs" xml:space="preserve">
+    <data name="TabModes_AdaptiveEllipsisVerticalTabs" xml:space="preserve">
         <value>垂直タブ</value>
     </data>
-    <data name="Settings_Label_MainMenuResponsiveMode" xml:space="preserve">
-        <value>メインメニューレスポンシブモード</value>
+    <data name="Settings_Label_TabMode" xml:space="preserve">
+        <value>タブモード</value>
     </data>
     <data name="Settings_Label_PageBarScrollMode" xml:space="preserve">
         <value>スクロールバー</value>
