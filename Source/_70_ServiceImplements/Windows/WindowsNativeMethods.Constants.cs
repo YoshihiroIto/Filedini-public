@@ -64,9 +64,12 @@ internal static partial class WindowsNativeMethods
     public const uint SHGFI_ICON = 0x100;
     public const uint SHGFI_SMALLICON = 0x01;
     public const uint SHGFI_LARGEICON = 0x00;
+    public const uint SHGFI_OVERLAYINDEX = 0x00000040;
+    public const uint SHGFI_LINKOVERLAY = 0x00008000;
     public const uint SHGFI_USEFILEATTRIBUTES = 0x10;
     public const uint SHGFI_SYSICONINDEX = 0x000004000;
     public const uint SHIL_JUMBO = 0x4;
+    public const uint ILD_OVERLAYMASK = 0x0F00;
 
     public const uint SHERB_NOCONFIRMATION = 0x00000001;
     public const uint SHERB_NOPROGRESSUI = 0x00000002;
