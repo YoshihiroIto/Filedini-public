@@ -1306,6 +1306,9 @@
     <data name="FolderOpenInAssociatedAppBehaviors_MoveFolder" xml:space="preserve">
         <value>フォルダー移動</value>
     </data>
+    <data name="FolderOpenInAssociatedAppBehaviors_OpenInNewTab" xml:space="preserve">
+        <value>新規タブで開く</value>
+    </data>
     <data name="FileDoubleClickBehaviors_Preview" xml:space="preserve">
         <value>プレビューで開く</value>
     </data>

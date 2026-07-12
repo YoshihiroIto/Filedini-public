@@ -2572,13 +2572,22 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("FolderOpenInAssociatedAppBehaviors_MoveFolder", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Open in Associated App.
         /// </summary>
         public static string FolderOpenInAssociatedAppBehaviors_OpenInAssociatedApp {
             get {
                 return ResourceManager.GetString("FolderOpenInAssociatedAppBehaviors_OpenInAssociatedApp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open in New Tab.
+        /// </summary>
+        public static string FolderOpenInAssociatedAppBehaviors_OpenInNewTab {
+            get {
+                return ResourceManager.GetString("FolderOpenInAssociatedAppBehaviors_OpenInNewTab", resourceCulture);
             }
         }
         
