@@ -5334,6 +5334,15 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Settings_Label_TabMode", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to New Tab Insert Position.
+        /// </summary>
+        public static string Settings_Label_NewWorkspaceInsertPosition {
+            get {
+                return ResourceManager.GetString("Settings_Label_NewWorkspaceInsertPosition", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to Margin.

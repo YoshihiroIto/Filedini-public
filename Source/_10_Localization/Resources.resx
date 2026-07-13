@@ -1329,6 +1329,21 @@ Invalid password.
     <data name="FolderOpenInAssociatedAppBehaviors_OpenInNewTab" xml:space="preserve">
         <value>Open in New Tab</value>
     </data>
+    <data name="NewWorkspaceInsertPositions_First" xml:space="preserve">
+        <value>First</value>
+    </data>
+    <data name="NewWorkspaceInsertPositions_Last" xml:space="preserve">
+        <value>Last</value>
+    </data>
+    <data name="NewWorkspaceInsertPositions_BeforeCurrent" xml:space="preserve">
+        <value>Before Current Tab</value>
+    </data>
+    <data name="NewWorkspaceInsertPositions_AfterCurrent" xml:space="preserve">
+        <value>After Current Tab</value>
+    </data>
+    <data name="Settings_Label_NewWorkspaceInsertPosition" xml:space="preserve">
+        <value>New Tab Insert Position</value>
+    </data>
     <data name="FileDoubleClickBehaviors_Preview" xml:space="preserve">
         <value>Preview</value>
     </data>
