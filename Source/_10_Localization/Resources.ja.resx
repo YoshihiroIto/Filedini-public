@@ -2086,7 +2086,7 @@
         <value>その他</value>
     </data>
     <data name="FolderViewer_ItemsFormat" xml:space="preserve">
-        <value>{0:N0} 件</value>
+        <value>{0:N0} 個</value>
     </data>
     <data name="FolderViewer_EmptyFolder" xml:space="preserve">
         <value>このフォルダーは空です</value>
