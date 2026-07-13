@@ -1052,7 +1052,7 @@ Empty file.</value>
         <value>To help us diagnose and fix the problem, you can send us a crash report.</value>
     </data>
     <data name="Message_CrashReporter_Comment" xml:space="preserve">
-        <value>Please indicate the operation performed before the error:</value>
+        <value>Please indicate the operation performed before the error</value>
     </data>
     <data name="Message_CrashReporter_RestartFiledini" xml:space="preserve">
         <value>Restart Filedini</value>
@@ -1061,7 +1061,7 @@ Empty file.</value>
         <value>Quit Filedini</value>
     </data>
     <data name="Message_CrashReporter_CrashReport" xml:space="preserve">
-        <value>Crash Report:</value>
+        <value>Crash Report</value>
     </data>
     <data name="Message_CrashReporter_Message2" xml:space="preserve">
         <value>If the mail app does not start, we would appreciate it if you could send it manually.</value>
@@ -1622,13 +1622,13 @@ Please check back again later.</value>
         <value>AI Script Generate (WIP)...</value>
     </data>
     <data name="Message_EnterScriptName" xml:space="preserve">
-        <value>Enter script name:</value>
+        <value>Enter script name</value>
     </data>
     <data name="Message_EnterSessionName" xml:space="preserve">
-        <value>Enter session name:</value>
+        <value>Enter session name</value>
     </data>
     <data name="Message_EnterNewSessionName" xml:space="preserve">
-        <value>Enter new session name:</value>
+        <value>Enter new session name</value>
     </data>
     <data name="Menu_SavedSessions_SaveCurrent" xml:space="preserve">
         <value>Save Current...</value>

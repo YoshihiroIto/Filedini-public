@@ -1031,7 +1031,7 @@
         <value>問題の原因特定と解決のためにご協力いただける方は、 クラッシュレポートの送信をお願いします。</value>
     </data>
     <data name="Message_CrashReporter_Comment" xml:space="preserve">
-        <value>エラーが発生する前に行った操作をご記入ください:</value>
+        <value>エラーが発生する前に行った操作をご記入ください</value>
     </data>
     <data name="Message_CrashReporter_QuitFiledini" xml:space="preserve">
         <value>Filedini を終了</value>
@@ -1040,7 +1040,7 @@
         <value>Filedini を再起動</value>
     </data>
     <data name="Message_CrashReporter_CrashReport" xml:space="preserve">
-        <value>クラッシュレポート:</value>
+        <value>クラッシュレポート</value>
     </data>
     <data name="Message_CrashReporter_Message2" xml:space="preserve">
         <value>メールアプリが起動しない場合、お手数ですが手動でお送りいただけると助かります。</value>
@@ -1602,13 +1602,13 @@
         <value>AIスクリプト生成（開発中）...</value>
     </data>
     <data name="Message_EnterScriptName" xml:space="preserve">
-        <value>スクリプト名を入力してください:</value>
+        <value>スクリプト名を入力してください</value>
     </data>
     <data name="Message_EnterSessionName" xml:space="preserve">
-        <value>セッション名を入力してください:</value>
+        <value>セッション名を入力してください</value>
     </data>
     <data name="Message_EnterNewSessionName" xml:space="preserve">
-        <value>新しいセッション名を入力してください:</value>
+        <value>新しいセッション名を入力してください</value>
     </data>
     <data name="Menu_SavedSessions_SaveCurrent" xml:space="preserve">
         <value>現在を保存...</value>
