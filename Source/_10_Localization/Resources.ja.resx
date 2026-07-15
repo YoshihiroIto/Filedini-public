@@ -2340,4 +2340,10 @@
     <data name="UI_Tab" xml:space="preserve">
         <value>タブ(_T)</value>
     </data>
+    <data name="Tooltip_TargetFolders" xml:space="preserve">
+        <value>フォルダーにフィルターを適用する</value>
+    </data>
+    <data name="Tooltip_TargetFiles" xml:space="preserve">
+        <value>フィルター対象にフォルダーを含める</value>
+    </data>
 </root>

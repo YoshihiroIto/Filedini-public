@@ -2511,4 +2511,10 @@ Please try again later.</value>
     <data name="UI_Tab" xml:space="preserve">
         <value>_Tab</value>
     </data>
+    <data name="Tooltip_TargetFolders" xml:space="preserve">
+        <value>Apply filter to folders</value>
+    </data>
+    <data name="Tooltip_TargetFiles" xml:space="preserve">
+        <value>Apply filter to files</value>
+    </data>
 </root>

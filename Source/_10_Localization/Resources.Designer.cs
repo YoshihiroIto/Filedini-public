@@ -6715,6 +6715,24 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Apply filter to files.
+        /// </summary>
+        public static string Tooltip_TargetFiles {
+            get {
+                return ResourceManager.GetString("Tooltip_TargetFiles", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Apply filter to folders.
+        /// </summary>
+        public static string Tooltip_TargetFolders {
+            get {
+                return ResourceManager.GetString("Tooltip_TargetFolders", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Unpin Tab.
         /// </summary>
         public static string Tooltip_UnpinTab {
