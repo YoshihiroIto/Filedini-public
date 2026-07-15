@@ -2344,6 +2344,6 @@
         <value>フォルダーにフィルターを適用する</value>
     </data>
     <data name="Tooltip_TargetFiles" xml:space="preserve">
-        <value>フィルター対象にフォルダーを含める</value>
+        <value>ファイルにフィルターを適用する</value>
     </data>
 </root>
