@@ -2569,9 +2569,9 @@ Please try again later.</value>
     <data name="BatchRename_Changing" xml:space="preserve"><value>Will rename</value></data>
     <data name="BatchRename_Excluded" xml:space="preserve"><value>Will not rename</value></data>
     <data name="BatchRename_Unchanged" xml:space="preserve"><value>Unchanged</value></data>
-    <data name="BatchRename_SummaryChanged" xml:space="preserve"><value>{0} names will change. Clear the checkbox for items you do not want to change.</value></data>
-    <data name="BatchRename_SummaryError" xml:space="preserve"><value>{0} items cannot be renamed. Fix the rule before continuing.</value></data>
-    <data name="BatchRename_ApplyCount" xml:space="preserve"><value>Rename {0} items</value></data>
+    <data name="BatchRename_SummaryChanged" xml:space="preserve"><value>{0:plural:1 name will|{:N0} names will} change. Clear the checkbox for items you do not want to change.</value></data>
+    <data name="BatchRename_SummaryError" xml:space="preserve"><value>{0:plural:1 item cannot|{:N0} items cannot} be renamed. Fix the rule before continuing.</value></data>
+    <data name="BatchRename_ApplyCount" xml:space="preserve"><value>Rename {0:plural:1 item|{:N0} items}</value></data>
     <data name="BatchRename_RuleExample" xml:space="preserve"><value>Example: {0} → {1}</value></data>
     <data name="BatchRename_SearchRequired" xml:space="preserve"><value>Enter text to find.</value></data>
     <data name="BatchRename_ErrorDuplicateName" xml:space="preserve"><value>The new name duplicates another item.</value></data>
