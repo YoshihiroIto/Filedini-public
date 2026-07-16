@@ -2517,4 +2517,64 @@ Please try again later.</value>
     <data name="Tooltip_TargetFiles" xml:space="preserve">
         <value>Apply filter to files</value>
     </data>
+    <data name="BatchRename_Title" xml:space="preserve"><value>Batch Rename</value></data>
+    <data name="BatchRename_Heading" xml:space="preserve"><value>Rename multiple items</value></data>
+    <data name="BatchRename_Description" xml:space="preserve"><value>Choose what you want to do, then review the result below.</value></data>
+    <data name="BatchRename_ChooseOperation" xml:space="preserve"><value>What do you want to do?</value></data>
+    <data name="BatchRename_ReplaceText" xml:space="preserve"><value>Replace text</value></data>
+    <data name="BatchRename_AddPrefix" xml:space="preserve"><value>Add text to the beginning</value></data>
+    <data name="BatchRename_AddSuffix" xml:space="preserve"><value>Add text to the end</value></data>
+    <data name="BatchRename_AddSequence" xml:space="preserve"><value>Add sequence numbers</value></data>
+    <data name="BatchRename_AddDate" xml:space="preserve"><value>Add modified date</value></data>
+    <data name="BatchRename_ExampleReplace" xml:space="preserve"><value>Example: replace IMG_2024_ with Trip_</value></data>
+    <data name="BatchRename_ExamplePrefix" xml:space="preserve"><value>Example: Trip_photo.jpg</value></data>
+    <data name="BatchRename_ExampleSuffix" xml:space="preserve"><value>Example: photo_edited.jpg</value></data>
+    <data name="BatchRename_ExampleSequence" xml:space="preserve"><value>Example: Trip_001_photo.jpg</value></data>
+    <data name="BatchRename_ExampleDate" xml:space="preserve"><value>Example: photo_2026-07-16.jpg</value></data>
+    <data name="BatchRename_ReplaceInput" xml:space="preserve"><value>Enter the text to replace</value></data>
+    <data name="BatchRename_SearchText" xml:space="preserve"><value>Text to find</value></data>
+    <data name="BatchRename_ReplacementText" xml:space="preserve"><value>Replacement text</value></data>
+    <data name="BatchRename_PlaceholderSearch" xml:space="preserve"><value>Example: IMG_2024_</value></data>
+    <data name="BatchRename_PlaceholderText" xml:space="preserve"><value>Example: Trip_</value></data>
+    <data name="BatchRename_AddTextInput" xml:space="preserve"><value>Enter text to add</value></data>
+    <data name="BatchRename_SequenceInput" xml:space="preserve"><value>Set up the sequence</value></data>
+    <data name="BatchRename_TextBeforeNumber" xml:space="preserve"><value>Text before the number</value></data>
+    <data name="BatchRename_TextAfterNumber" xml:space="preserve"><value>Text after the number</value></data>
+    <data name="BatchRename_StartNumber" xml:space="preserve"><value>Starting number</value></data>
+    <data name="BatchRename_Digits" xml:space="preserve"><value>Digits</value></data>
+    <data name="BatchRename_Placement" xml:space="preserve"><value>Position</value></data>
+    <data name="BatchRename_DateInput" xml:space="preserve"><value>Add the modified date to the name</value></data>
+    <data name="BatchRename_DateFormat" xml:space="preserve"><value>Date format</value></data>
+    <data name="BatchRename_DatePrefix" xml:space="preserve"><value>Text before the date</value></data>
+    <data name="BatchRename_DateSuffix" xml:space="preserve"><value>Text after the date</value></data>
+    <data name="BatchRename_DateFormatLocalized" xml:space="preserve"><value>yyyy MMM dd</value></data>
+    <data name="BatchRename_DateFormatLocalizedExample" xml:space="preserve"><value>2026 Jul 16</value></data>
+    <data name="BatchRename_BeforeName" xml:space="preserve"><value>Before the name</value></data>
+    <data name="BatchRename_AfterName" xml:space="preserve"><value>After the name</value></data>
+    <data name="BatchRename_Advanced" xml:space="preserve"><value>Advanced (regular expression, extension, case)</value></data>
+    <data name="BatchRename_UseRegex" xml:space="preserve"><value>Use regular expressions</value></data>
+    <data name="BatchRename_ReplaceAll" xml:space="preserve"><value>Replace all matches</value></data>
+    <data name="BatchRename_MatchCase" xml:space="preserve"><value>Match case</value></data>
+    <data name="BatchRename_Target" xml:space="preserve"><value>Change</value></data>
+    <data name="BatchRename_Name" xml:space="preserve"><value>Name</value></data>
+    <data name="BatchRename_Extension" xml:space="preserve"><value>Extension</value></data>
+    <data name="BatchRename_NameAndExtension" xml:space="preserve"><value>Name and extension</value></data>
+    <data name="BatchRename_Preview" xml:space="preserve"><value>Review changes</value></data>
+    <data name="BatchRename_Clear" xml:space="preserve"><value>Clear input</value></data>
+    <data name="BatchRename_ColumnChange" xml:space="preserve"><value>Change</value></data>
+    <data name="BatchRename_ColumnBefore" xml:space="preserve"><value>Before</value></data>
+    <data name="BatchRename_ColumnAfter" xml:space="preserve"><value>After</value></data>
+    <data name="BatchRename_ColumnStatus" xml:space="preserve"><value>Status</value></data>
+    <data name="BatchRename_Apply" xml:space="preserve"><value>Rename</value></data>
+    <data name="BatchRename_Changing" xml:space="preserve"><value>Will rename</value></data>
+    <data name="BatchRename_Unchanged" xml:space="preserve"><value>Unchanged</value></data>
+    <data name="BatchRename_SummaryChanged" xml:space="preserve"><value>{0} names will change. Clear the checkbox for items you do not want to change.</value></data>
+    <data name="BatchRename_SummaryError" xml:space="preserve"><value>{0} items cannot be renamed. Fix the rule before continuing.</value></data>
+    <data name="BatchRename_ApplyCount" xml:space="preserve"><value>Rename {0} items</value></data>
+    <data name="BatchRename_RuleExample" xml:space="preserve"><value>Example: {0} → {1}</value></data>
+    <data name="BatchRename_SearchRequired" xml:space="preserve"><value>Enter text to find.</value></data>
+    <data name="BatchRename_ErrorDuplicateName" xml:space="preserve"><value>The new name duplicates another item.</value></data>
+    <data name="BatchRename_ErrorInvalidRegularExpression" xml:space="preserve"><value>The regular expression is invalid.</value></data>
+    <data name="BatchRename_NoItemsSelected" xml:space="preserve"><value>Select at least one item to rename.</value></data>
+    <data name="BatchRename_NoChanges" xml:space="preserve"><value>No selected item has a name change.</value></data>
 </root>

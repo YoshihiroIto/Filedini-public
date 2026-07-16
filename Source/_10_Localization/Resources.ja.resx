@@ -2346,4 +2346,64 @@
     <data name="Tooltip_TargetFiles" xml:space="preserve">
         <value>ファイルにフィルターを適用する</value>
     </data>
+    <data name="BatchRename_Title" xml:space="preserve"><value>一括リネーム</value></data>
+    <data name="BatchRename_Heading" xml:space="preserve"><value>複数の名前をまとめて変更する</value></data>
+    <data name="BatchRename_Description" xml:space="preserve"><value>やりたいことを選ぶと、結果をすぐ下で確認できます。</value></data>
+    <data name="BatchRename_ChooseOperation" xml:space="preserve"><value>何をしたいですか？</value></data>
+    <data name="BatchRename_ReplaceText" xml:space="preserve"><value>文字を置き換える</value></data>
+    <data name="BatchRename_AddPrefix" xml:space="preserve"><value>名前の前に文字を付ける</value></data>
+    <data name="BatchRename_AddSuffix" xml:space="preserve"><value>名前の後ろに文字を付ける</value></data>
+    <data name="BatchRename_AddSequence" xml:space="preserve"><value>連番を付ける</value></data>
+    <data name="BatchRename_AddDate" xml:space="preserve"><value>更新日を付ける</value></data>
+    <data name="BatchRename_ExampleReplace" xml:space="preserve"><value>例: IMG_2024_ を 旅行_ に置き換える</value></data>
+    <data name="BatchRename_ExamplePrefix" xml:space="preserve"><value>例: 旅行_写真.jpg</value></data>
+    <data name="BatchRename_ExampleSuffix" xml:space="preserve"><value>例: 写真_編集済.jpg</value></data>
+    <data name="BatchRename_ExampleSequence" xml:space="preserve"><value>例: 旅行_001_写真.jpg</value></data>
+    <data name="BatchRename_ExampleDate" xml:space="preserve"><value>例: 写真_2026-07-16.jpg</value></data>
+    <data name="BatchRename_ReplaceInput" xml:space="preserve"><value>置き換える文字を入力</value></data>
+    <data name="BatchRename_SearchText" xml:space="preserve"><value>変更前に含まれる文字</value></data>
+    <data name="BatchRename_ReplacementText" xml:space="preserve"><value>変更後に入れる文字</value></data>
+    <data name="BatchRename_PlaceholderSearch" xml:space="preserve"><value>例: IMG_2024_</value></data>
+    <data name="BatchRename_PlaceholderText" xml:space="preserve"><value>例: 旅行_</value></data>
+    <data name="BatchRename_AddTextInput" xml:space="preserve"><value>付ける文字を入力</value></data>
+    <data name="BatchRename_SequenceInput" xml:space="preserve"><value>連番の付け方を決める</value></data>
+    <data name="BatchRename_TextBeforeNumber" xml:space="preserve"><value>番号の前に付ける文字</value></data>
+    <data name="BatchRename_TextAfterNumber" xml:space="preserve"><value>番号の後に付ける文字</value></data>
+    <data name="BatchRename_StartNumber" xml:space="preserve"><value>開始番号</value></data>
+    <data name="BatchRename_Digits" xml:space="preserve"><value>桁数</value></data>
+    <data name="BatchRename_Placement" xml:space="preserve"><value>付ける場所</value></data>
+    <data name="BatchRename_DateInput" xml:space="preserve"><value>更新日を名前に付ける</value></data>
+    <data name="BatchRename_DateFormat" xml:space="preserve"><value>日付の表示</value></data>
+    <data name="BatchRename_DatePrefix" xml:space="preserve"><value>更新日の前に付ける文字</value></data>
+    <data name="BatchRename_DateSuffix" xml:space="preserve"><value>更新日の後に付ける文字</value></data>
+    <data name="BatchRename_DateFormatLocalized" xml:space="preserve"><value>yyyy年MM月dd日</value></data>
+    <data name="BatchRename_DateFormatLocalizedExample" xml:space="preserve"><value>2026年07月16日</value></data>
+    <data name="BatchRename_BeforeName" xml:space="preserve"><value>名前の前</value></data>
+    <data name="BatchRename_AfterName" xml:space="preserve"><value>名前の後</value></data>
+    <data name="BatchRename_Advanced" xml:space="preserve"><value>詳細設定（正規表現・拡張子・大小文字）</value></data>
+    <data name="BatchRename_UseRegex" xml:space="preserve"><value>正規表現を使う</value></data>
+    <data name="BatchRename_ReplaceAll" xml:space="preserve"><value>すべての一致箇所を置き換える</value></data>
+    <data name="BatchRename_MatchCase" xml:space="preserve"><value>大文字と小文字を区別する</value></data>
+    <data name="BatchRename_Target" xml:space="preserve"><value>変更する場所</value></data>
+    <data name="BatchRename_Name" xml:space="preserve"><value>名前</value></data>
+    <data name="BatchRename_Extension" xml:space="preserve"><value>拡張子</value></data>
+    <data name="BatchRename_NameAndExtension" xml:space="preserve"><value>名前と拡張子</value></data>
+    <data name="BatchRename_Preview" xml:space="preserve"><value>変更結果を確認</value></data>
+    <data name="BatchRename_Clear" xml:space="preserve"><value>入力をクリア</value></data>
+    <data name="BatchRename_ColumnChange" xml:space="preserve"><value>変更</value></data>
+    <data name="BatchRename_ColumnBefore" xml:space="preserve"><value>変更前</value></data>
+    <data name="BatchRename_ColumnAfter" xml:space="preserve"><value>変更後</value></data>
+    <data name="BatchRename_ColumnStatus" xml:space="preserve"><value>確認</value></data>
+    <data name="BatchRename_Apply" xml:space="preserve"><value>名前を変更</value></data>
+    <data name="BatchRename_Changing" xml:space="preserve"><value>変更します</value></data>
+    <data name="BatchRename_Unchanged" xml:space="preserve"><value>変更なし</value></data>
+    <data name="BatchRename_SummaryChanged" xml:space="preserve"><value>{0}件の名前が変わります。変更しない項目はチェックを外してください。</value></data>
+    <data name="BatchRename_SummaryError" xml:space="preserve"><value>{0}件は変更できません。内容を修正してから続けてください。</value></data>
+    <data name="BatchRename_ApplyCount" xml:space="preserve"><value>{0}件の名前を変更</value></data>
+    <data name="BatchRename_RuleExample" xml:space="preserve"><value>例: {0} → {1}</value></data>
+    <data name="BatchRename_SearchRequired" xml:space="preserve"><value>変更前に含まれる文字を入力してください。</value></data>
+    <data name="BatchRename_ErrorDuplicateName" xml:space="preserve"><value>変更後の名前が他の項目と重複します。</value></data>
+    <data name="BatchRename_ErrorInvalidRegularExpression" xml:space="preserve"><value>正規表現が正しくありません。</value></data>
+    <data name="BatchRename_NoItemsSelected" xml:space="preserve"><value>変更する項目を1件以上選択してください。</value></data>
+    <data name="BatchRename_NoChanges" xml:space="preserve"><value>選択した項目に名前の変更はありません。</value></data>
 </root>

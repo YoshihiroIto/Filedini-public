@@ -7376,5 +7376,66 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("VariableDetails_CurrentFolder", resourceCulture);
             }
         }
+
+        public static string BatchRename_Title { get { return ResourceManager.GetString("BatchRename_Title", resourceCulture); } }
+        public static string BatchRename_Heading { get { return ResourceManager.GetString("BatchRename_Heading", resourceCulture); } }
+        public static string BatchRename_Description { get { return ResourceManager.GetString("BatchRename_Description", resourceCulture); } }
+        public static string BatchRename_ChooseOperation { get { return ResourceManager.GetString("BatchRename_ChooseOperation", resourceCulture); } }
+        public static string BatchRename_ReplaceText { get { return ResourceManager.GetString("BatchRename_ReplaceText", resourceCulture); } }
+        public static string BatchRename_AddPrefix { get { return ResourceManager.GetString("BatchRename_AddPrefix", resourceCulture); } }
+        public static string BatchRename_AddSuffix { get { return ResourceManager.GetString("BatchRename_AddSuffix", resourceCulture); } }
+        public static string BatchRename_AddSequence { get { return ResourceManager.GetString("BatchRename_AddSequence", resourceCulture); } }
+        public static string BatchRename_AddDate { get { return ResourceManager.GetString("BatchRename_AddDate", resourceCulture); } }
+        public static string BatchRename_ExampleReplace { get { return ResourceManager.GetString("BatchRename_ExampleReplace", resourceCulture); } }
+        public static string BatchRename_ExamplePrefix { get { return ResourceManager.GetString("BatchRename_ExamplePrefix", resourceCulture); } }
+        public static string BatchRename_ExampleSuffix { get { return ResourceManager.GetString("BatchRename_ExampleSuffix", resourceCulture); } }
+        public static string BatchRename_ExampleSequence { get { return ResourceManager.GetString("BatchRename_ExampleSequence", resourceCulture); } }
+        public static string BatchRename_ExampleDate { get { return ResourceManager.GetString("BatchRename_ExampleDate", resourceCulture); } }
+        public static string BatchRename_ReplaceInput { get { return ResourceManager.GetString("BatchRename_ReplaceInput", resourceCulture); } }
+        public static string BatchRename_SearchText { get { return ResourceManager.GetString("BatchRename_SearchText", resourceCulture); } }
+        public static string BatchRename_ReplacementText { get { return ResourceManager.GetString("BatchRename_ReplacementText", resourceCulture); } }
+        public static string BatchRename_PlaceholderSearch { get { return ResourceManager.GetString("BatchRename_PlaceholderSearch", resourceCulture); } }
+        public static string BatchRename_PlaceholderText { get { return ResourceManager.GetString("BatchRename_PlaceholderText", resourceCulture); } }
+        public static string BatchRename_AddTextInput { get { return ResourceManager.GetString("BatchRename_AddTextInput", resourceCulture); } }
+        public static string BatchRename_SequenceInput { get { return ResourceManager.GetString("BatchRename_SequenceInput", resourceCulture); } }
+        public static string BatchRename_TextBeforeNumber { get { return ResourceManager.GetString("BatchRename_TextBeforeNumber", resourceCulture); } }
+        public static string BatchRename_TextAfterNumber { get { return ResourceManager.GetString("BatchRename_TextAfterNumber", resourceCulture); } }
+        public static string BatchRename_StartNumber { get { return ResourceManager.GetString("BatchRename_StartNumber", resourceCulture); } }
+        public static string BatchRename_Digits { get { return ResourceManager.GetString("BatchRename_Digits", resourceCulture); } }
+        public static string BatchRename_Placement { get { return ResourceManager.GetString("BatchRename_Placement", resourceCulture); } }
+        public static string BatchRename_DateInput { get { return ResourceManager.GetString("BatchRename_DateInput", resourceCulture); } }
+        public static string BatchRename_DateFormat { get { return ResourceManager.GetString("BatchRename_DateFormat", resourceCulture); } }
+        public static string BatchRename_DatePrefix { get { return ResourceManager.GetString("BatchRename_DatePrefix", resourceCulture); } }
+        public static string BatchRename_DateSuffix { get { return ResourceManager.GetString("BatchRename_DateSuffix", resourceCulture); } }
+        public static string BatchRename_DateFormatLocalized { get { return ResourceManager.GetString("BatchRename_DateFormatLocalized", resourceCulture); } }
+        public static string BatchRename_DateFormatLocalizedExample { get { return ResourceManager.GetString("BatchRename_DateFormatLocalizedExample", resourceCulture); } }
+        public static string BatchRename_BeforeName { get { return ResourceManager.GetString("BatchRename_BeforeName", resourceCulture); } }
+        public static string BatchRename_AfterName { get { return ResourceManager.GetString("BatchRename_AfterName", resourceCulture); } }
+        public static string BatchRename_Advanced { get { return ResourceManager.GetString("BatchRename_Advanced", resourceCulture); } }
+        public static string BatchRename_UseRegex { get { return ResourceManager.GetString("BatchRename_UseRegex", resourceCulture); } }
+        public static string BatchRename_ReplaceAll { get { return ResourceManager.GetString("BatchRename_ReplaceAll", resourceCulture); } }
+        public static string BatchRename_MatchCase { get { return ResourceManager.GetString("BatchRename_MatchCase", resourceCulture); } }
+        public static string BatchRename_Target { get { return ResourceManager.GetString("BatchRename_Target", resourceCulture); } }
+        public static string BatchRename_Name { get { return ResourceManager.GetString("BatchRename_Name", resourceCulture); } }
+        public static string BatchRename_Extension { get { return ResourceManager.GetString("BatchRename_Extension", resourceCulture); } }
+        public static string BatchRename_NameAndExtension { get { return ResourceManager.GetString("BatchRename_NameAndExtension", resourceCulture); } }
+        public static string BatchRename_Preview { get { return ResourceManager.GetString("BatchRename_Preview", resourceCulture); } }
+        public static string BatchRename_Clear { get { return ResourceManager.GetString("BatchRename_Clear", resourceCulture); } }
+        public static string BatchRename_ColumnChange { get { return ResourceManager.GetString("BatchRename_ColumnChange", resourceCulture); } }
+        public static string BatchRename_ColumnBefore { get { return ResourceManager.GetString("BatchRename_ColumnBefore", resourceCulture); } }
+        public static string BatchRename_ColumnAfter { get { return ResourceManager.GetString("BatchRename_ColumnAfter", resourceCulture); } }
+        public static string BatchRename_ColumnStatus { get { return ResourceManager.GetString("BatchRename_ColumnStatus", resourceCulture); } }
+        public static string BatchRename_Apply { get { return ResourceManager.GetString("BatchRename_Apply", resourceCulture); } }
+        public static string BatchRename_Changing { get { return ResourceManager.GetString("BatchRename_Changing", resourceCulture); } }
+        public static string BatchRename_Unchanged { get { return ResourceManager.GetString("BatchRename_Unchanged", resourceCulture); } }
+        public static string BatchRename_SummaryChanged { get { return ResourceManager.GetString("BatchRename_SummaryChanged", resourceCulture); } }
+        public static string BatchRename_SummaryError { get { return ResourceManager.GetString("BatchRename_SummaryError", resourceCulture); } }
+        public static string BatchRename_ApplyCount { get { return ResourceManager.GetString("BatchRename_ApplyCount", resourceCulture); } }
+        public static string BatchRename_RuleExample { get { return ResourceManager.GetString("BatchRename_RuleExample", resourceCulture); } }
+        public static string BatchRename_SearchRequired { get { return ResourceManager.GetString("BatchRename_SearchRequired", resourceCulture); } }
+        public static string BatchRename_ErrorDuplicateName { get { return ResourceManager.GetString("BatchRename_ErrorDuplicateName", resourceCulture); } }
+        public static string BatchRename_ErrorInvalidRegularExpression { get { return ResourceManager.GetString("BatchRename_ErrorInvalidRegularExpression", resourceCulture); } }
+        public static string BatchRename_NoItemsSelected { get { return ResourceManager.GetString("BatchRename_NoItemsSelected", resourceCulture); } }
+        public static string BatchRename_NoChanges { get { return ResourceManager.GetString("BatchRename_NoChanges", resourceCulture); } }
     }
 }
