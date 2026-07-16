@@ -2347,8 +2347,6 @@
         <value>ファイルにフィルターを適用する</value>
     </data>
     <data name="BatchRename_Title" xml:space="preserve"><value>一括リネーム</value></data>
-    <data name="BatchRename_Heading" xml:space="preserve"><value>複数の名前をまとめて変更する</value></data>
-    <data name="BatchRename_Description" xml:space="preserve"><value>やりたいことを選ぶと、結果をすぐ下で確認できます。</value></data>
     <data name="BatchRename_ChooseOperation" xml:space="preserve"><value>何をしたいですか？</value></data>
     <data name="BatchRename_ReplaceText" xml:space="preserve"><value>文字を置き換える</value></data>
     <data name="BatchRename_AddPrefix" xml:space="preserve"><value>名前の前に文字を付ける</value></data>
@@ -2389,7 +2387,6 @@
     <data name="BatchRename_Extension" xml:space="preserve"><value>拡張子</value></data>
     <data name="BatchRename_NameAndExtension" xml:space="preserve"><value>名前と拡張子</value></data>
     <data name="BatchRename_Preview" xml:space="preserve"><value>変更結果を確認</value></data>
-    <data name="BatchRename_Clear" xml:space="preserve"><value>入力をクリア</value></data>
     <data name="BatchRename_ColumnChange" xml:space="preserve"><value>変更</value></data>
     <data name="BatchRename_ColumnBefore" xml:space="preserve"><value>変更前</value></data>
     <data name="BatchRename_ColumnAfter" xml:space="preserve"><value>変更後</value></data>

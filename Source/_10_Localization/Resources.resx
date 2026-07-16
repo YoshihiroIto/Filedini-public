@@ -2518,8 +2518,6 @@ Please try again later.</value>
         <value>Apply filter to files</value>
     </data>
     <data name="BatchRename_Title" xml:space="preserve"><value>Batch Rename</value></data>
-    <data name="BatchRename_Heading" xml:space="preserve"><value>Rename multiple items</value></data>
-    <data name="BatchRename_Description" xml:space="preserve"><value>Choose what you want to do, then review the result below.</value></data>
     <data name="BatchRename_ChooseOperation" xml:space="preserve"><value>What do you want to do?</value></data>
     <data name="BatchRename_ReplaceText" xml:space="preserve"><value>Replace text</value></data>
     <data name="BatchRename_AddPrefix" xml:space="preserve"><value>Add text to the beginning</value></data>
@@ -2560,7 +2558,6 @@ Please try again later.</value>
     <data name="BatchRename_Extension" xml:space="preserve"><value>Extension</value></data>
     <data name="BatchRename_NameAndExtension" xml:space="preserve"><value>Name and extension</value></data>
     <data name="BatchRename_Preview" xml:space="preserve"><value>Review changes</value></data>
-    <data name="BatchRename_Clear" xml:space="preserve"><value>Clear input</value></data>
     <data name="BatchRename_ColumnChange" xml:space="preserve"><value>Change</value></data>
     <data name="BatchRename_ColumnBefore" xml:space="preserve"><value>Before</value></data>
     <data name="BatchRename_ColumnAfter" xml:space="preserve"><value>After</value></data>

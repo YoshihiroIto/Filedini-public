@@ -168,15 +168,6 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Clear input.
-        /// </summary>
-        public static string BatchRename_Clear {
-            get {
-                return ResourceManager.GetString("BatchRename_Clear", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to After.
         /// </summary>
         public static string BatchRename_ColumnAfter {
@@ -267,15 +258,6 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Choose what you want to do, then review the result below..
-        /// </summary>
-        public static string BatchRename_Description {
-            get {
-                return ResourceManager.GetString("BatchRename_Description", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Digits.
         /// </summary>
         public static string BatchRename_Digits {
@@ -362,15 +344,6 @@ namespace Filedini.Localization {
         public static string BatchRename_Extension {
             get {
                 return ResourceManager.GetString("BatchRename_Extension", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Rename multiple items.
-        /// </summary>
-        public static string BatchRename_Heading {
-            get {
-                return ResourceManager.GetString("BatchRename_Heading", resourceCulture);
             }
         }
         
