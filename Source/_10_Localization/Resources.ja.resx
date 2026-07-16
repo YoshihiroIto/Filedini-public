@@ -2380,7 +2380,7 @@
     <data name="BatchRename_DateFormatLocalizedExample" xml:space="preserve"><value>2026年07月16日</value></data>
     <data name="BatchRename_BeforeName" xml:space="preserve"><value>名前の前</value></data>
     <data name="BatchRename_AfterName" xml:space="preserve"><value>名前の後</value></data>
-    <data name="BatchRename_Advanced" xml:space="preserve"><value>詳細設定（正規表現・拡張子・大小文字）</value></data>
+    <data name="BatchRename_Advanced" xml:space="preserve"><value>詳細設定</value></data>
     <data name="BatchRename_UseRegex" xml:space="preserve"><value>正規表現を使う</value></data>
     <data name="BatchRename_ReplaceAll" xml:space="preserve"><value>すべての一致箇所を置き換える</value></data>
     <data name="BatchRename_MatchCase" xml:space="preserve"><value>大文字と小文字を区別する</value></data>
@@ -2396,6 +2396,7 @@
     <data name="BatchRename_ColumnStatus" xml:space="preserve"><value>確認</value></data>
     <data name="BatchRename_Apply" xml:space="preserve"><value>名前を変更</value></data>
     <data name="BatchRename_Changing" xml:space="preserve"><value>変更します</value></data>
+    <data name="BatchRename_Excluded" xml:space="preserve"><value>変更しません</value></data>
     <data name="BatchRename_Unchanged" xml:space="preserve"><value>変更なし</value></data>
     <data name="BatchRename_SummaryChanged" xml:space="preserve"><value>{0}件の名前が変わります。変更しない項目はチェックを外してください。</value></data>
     <data name="BatchRename_SummaryError" xml:space="preserve"><value>{0}件は変更できません。内容を修正してから続けてください。</value></data>

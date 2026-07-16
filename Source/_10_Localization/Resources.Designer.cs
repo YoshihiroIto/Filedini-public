@@ -60,6 +60,555 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Add modified date.
+        /// </summary>
+        public static string BatchRename_AddDate {
+            get {
+                return ResourceManager.GetString("BatchRename_AddDate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add text to the beginning.
+        /// </summary>
+        public static string BatchRename_AddPrefix {
+            get {
+                return ResourceManager.GetString("BatchRename_AddPrefix", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add sequence numbers.
+        /// </summary>
+        public static string BatchRename_AddSequence {
+            get {
+                return ResourceManager.GetString("BatchRename_AddSequence", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add text to the end.
+        /// </summary>
+        public static string BatchRename_AddSuffix {
+            get {
+                return ResourceManager.GetString("BatchRename_AddSuffix", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter text to add.
+        /// </summary>
+        public static string BatchRename_AddTextInput {
+            get {
+                return ResourceManager.GetString("BatchRename_AddTextInput", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Advanced.
+        /// </summary>
+        public static string BatchRename_Advanced {
+            get {
+                return ResourceManager.GetString("BatchRename_Advanced", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to After the name.
+        /// </summary>
+        public static string BatchRename_AfterName {
+            get {
+                return ResourceManager.GetString("BatchRename_AfterName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rename.
+        /// </summary>
+        public static string BatchRename_Apply {
+            get {
+                return ResourceManager.GetString("BatchRename_Apply", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rename {0:plural:1 item|{:N0} items}..
+        /// </summary>
+        public static string BatchRename_ApplyCount {
+            get {
+                return ResourceManager.GetString("BatchRename_ApplyCount", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Before the name.
+        /// </summary>
+        public static string BatchRename_BeforeName {
+            get {
+                return ResourceManager.GetString("BatchRename_BeforeName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Will rename.
+        /// </summary>
+        public static string BatchRename_Changing {
+            get {
+                return ResourceManager.GetString("BatchRename_Changing", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to What do you want to do?.
+        /// </summary>
+        public static string BatchRename_ChooseOperation {
+            get {
+                return ResourceManager.GetString("BatchRename_ChooseOperation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Clear input.
+        /// </summary>
+        public static string BatchRename_Clear {
+            get {
+                return ResourceManager.GetString("BatchRename_Clear", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to After.
+        /// </summary>
+        public static string BatchRename_ColumnAfter {
+            get {
+                return ResourceManager.GetString("BatchRename_ColumnAfter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Before.
+        /// </summary>
+        public static string BatchRename_ColumnBefore {
+            get {
+                return ResourceManager.GetString("BatchRename_ColumnBefore", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Change.
+        /// </summary>
+        public static string BatchRename_ColumnChange {
+            get {
+                return ResourceManager.GetString("BatchRename_ColumnChange", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Status.
+        /// </summary>
+        public static string BatchRename_ColumnStatus {
+            get {
+                return ResourceManager.GetString("BatchRename_ColumnStatus", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Date format.
+        /// </summary>
+        public static string BatchRename_DateFormat {
+            get {
+                return ResourceManager.GetString("BatchRename_DateFormat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to yyyy MMM dd.
+        /// </summary>
+        public static string BatchRename_DateFormatLocalized {
+            get {
+                return ResourceManager.GetString("BatchRename_DateFormatLocalized", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 2026 Jul 16.
+        /// </summary>
+        public static string BatchRename_DateFormatLocalizedExample {
+            get {
+                return ResourceManager.GetString("BatchRename_DateFormatLocalizedExample", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add the modified date to the name.
+        /// </summary>
+        public static string BatchRename_DateInput {
+            get {
+                return ResourceManager.GetString("BatchRename_DateInput", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Text before the date.
+        /// </summary>
+        public static string BatchRename_DatePrefix {
+            get {
+                return ResourceManager.GetString("BatchRename_DatePrefix", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Text after the date.
+        /// </summary>
+        public static string BatchRename_DateSuffix {
+            get {
+                return ResourceManager.GetString("BatchRename_DateSuffix", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Choose what you want to do, then review the result below..
+        /// </summary>
+        public static string BatchRename_Description {
+            get {
+                return ResourceManager.GetString("BatchRename_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Digits.
+        /// </summary>
+        public static string BatchRename_Digits {
+            get {
+                return ResourceManager.GetString("BatchRename_Digits", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The new name duplicates another item..
+        /// </summary>
+        public static string BatchRename_ErrorDuplicateName {
+            get {
+                return ResourceManager.GetString("BatchRename_ErrorDuplicateName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The regular expression is invalid..
+        /// </summary>
+        public static string BatchRename_ErrorInvalidRegularExpression {
+            get {
+                return ResourceManager.GetString("BatchRename_ErrorInvalidRegularExpression", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Example: photo_2026-07-16.jpg.
+        /// </summary>
+        public static string BatchRename_ExampleDate {
+            get {
+                return ResourceManager.GetString("BatchRename_ExampleDate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Example: Trip_photo.jpg.
+        /// </summary>
+        public static string BatchRename_ExamplePrefix {
+            get {
+                return ResourceManager.GetString("BatchRename_ExamplePrefix", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Example: replace IMG_2024_ with Trip_.
+        /// </summary>
+        public static string BatchRename_ExampleReplace {
+            get {
+                return ResourceManager.GetString("BatchRename_ExampleReplace", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Example: Trip_001_photo.jpg.
+        /// </summary>
+        public static string BatchRename_ExampleSequence {
+            get {
+                return ResourceManager.GetString("BatchRename_ExampleSequence", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Example: photo_edited.jpg.
+        /// </summary>
+        public static string BatchRename_ExampleSuffix {
+            get {
+                return ResourceManager.GetString("BatchRename_ExampleSuffix", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Will not rename.
+        /// </summary>
+        public static string BatchRename_Excluded {
+            get {
+                return ResourceManager.GetString("BatchRename_Excluded", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Extension.
+        /// </summary>
+        public static string BatchRename_Extension {
+            get {
+                return ResourceManager.GetString("BatchRename_Extension", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rename multiple items.
+        /// </summary>
+        public static string BatchRename_Heading {
+            get {
+                return ResourceManager.GetString("BatchRename_Heading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Match case.
+        /// </summary>
+        public static string BatchRename_MatchCase {
+            get {
+                return ResourceManager.GetString("BatchRename_MatchCase", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Name.
+        /// </summary>
+        public static string BatchRename_Name {
+            get {
+                return ResourceManager.GetString("BatchRename_Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Name and extension.
+        /// </summary>
+        public static string BatchRename_NameAndExtension {
+            get {
+                return ResourceManager.GetString("BatchRename_NameAndExtension", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No selected item has a name change..
+        /// </summary>
+        public static string BatchRename_NoChanges {
+            get {
+                return ResourceManager.GetString("BatchRename_NoChanges", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select at least one item to rename..
+        /// </summary>
+        public static string BatchRename_NoItemsSelected {
+            get {
+                return ResourceManager.GetString("BatchRename_NoItemsSelected", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Example: IMG_2024_.
+        /// </summary>
+        public static string BatchRename_PlaceholderSearch {
+            get {
+                return ResourceManager.GetString("BatchRename_PlaceholderSearch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Example: Trip_.
+        /// </summary>
+        public static string BatchRename_PlaceholderText {
+            get {
+                return ResourceManager.GetString("BatchRename_PlaceholderText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Position.
+        /// </summary>
+        public static string BatchRename_Placement {
+            get {
+                return ResourceManager.GetString("BatchRename_Placement", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Review changes.
+        /// </summary>
+        public static string BatchRename_Preview {
+            get {
+                return ResourceManager.GetString("BatchRename_Preview", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Replace all matches.
+        /// </summary>
+        public static string BatchRename_ReplaceAll {
+            get {
+                return ResourceManager.GetString("BatchRename_ReplaceAll", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter the text to replace.
+        /// </summary>
+        public static string BatchRename_ReplaceInput {
+            get {
+                return ResourceManager.GetString("BatchRename_ReplaceInput", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Replacement text.
+        /// </summary>
+        public static string BatchRename_ReplacementText {
+            get {
+                return ResourceManager.GetString("BatchRename_ReplacementText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Replace text.
+        /// </summary>
+        public static string BatchRename_ReplaceText {
+            get {
+                return ResourceManager.GetString("BatchRename_ReplaceText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Example: {0} → {1}.
+        /// </summary>
+        public static string BatchRename_RuleExample {
+            get {
+                return ResourceManager.GetString("BatchRename_RuleExample", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter text to find..
+        /// </summary>
+        public static string BatchRename_SearchRequired {
+            get {
+                return ResourceManager.GetString("BatchRename_SearchRequired", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Text to find.
+        /// </summary>
+        public static string BatchRename_SearchText {
+            get {
+                return ResourceManager.GetString("BatchRename_SearchText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Set up the sequence.
+        /// </summary>
+        public static string BatchRename_SequenceInput {
+            get {
+                return ResourceManager.GetString("BatchRename_SequenceInput", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Starting number.
+        /// </summary>
+        public static string BatchRename_StartNumber {
+            get {
+                return ResourceManager.GetString("BatchRename_StartNumber", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} names will change. Clear the checkbox for items you do not want to change..
+        /// </summary>
+        public static string BatchRename_SummaryChanged {
+            get {
+                return ResourceManager.GetString("BatchRename_SummaryChanged", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} items cannot be renamed. Fix the rule before continuing..
+        /// </summary>
+        public static string BatchRename_SummaryError {
+            get {
+                return ResourceManager.GetString("BatchRename_SummaryError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Change.
+        /// </summary>
+        public static string BatchRename_Target {
+            get {
+                return ResourceManager.GetString("BatchRename_Target", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Text after the number.
+        /// </summary>
+        public static string BatchRename_TextAfterNumber {
+            get {
+                return ResourceManager.GetString("BatchRename_TextAfterNumber", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Text before the number.
+        /// </summary>
+        public static string BatchRename_TextBeforeNumber {
+            get {
+                return ResourceManager.GetString("BatchRename_TextBeforeNumber", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Batch Rename.
+        /// </summary>
+        public static string BatchRename_Title {
+            get {
+                return ResourceManager.GetString("BatchRename_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unchanged.
+        /// </summary>
+        public static string BatchRename_Unchanged {
+            get {
+                return ResourceManager.GetString("BatchRename_Unchanged", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Use regular expressions.
+        /// </summary>
+        public static string BatchRename_UseRegex {
+            get {
+                return ResourceManager.GetString("BatchRename_UseRegex", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to End Process.
         /// </summary>
         public static string Button_EndProcess {
@@ -7376,66 +7925,5 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("VariableDetails_CurrentFolder", resourceCulture);
             }
         }
-
-        public static string BatchRename_Title { get { return ResourceManager.GetString("BatchRename_Title", resourceCulture); } }
-        public static string BatchRename_Heading { get { return ResourceManager.GetString("BatchRename_Heading", resourceCulture); } }
-        public static string BatchRename_Description { get { return ResourceManager.GetString("BatchRename_Description", resourceCulture); } }
-        public static string BatchRename_ChooseOperation { get { return ResourceManager.GetString("BatchRename_ChooseOperation", resourceCulture); } }
-        public static string BatchRename_ReplaceText { get { return ResourceManager.GetString("BatchRename_ReplaceText", resourceCulture); } }
-        public static string BatchRename_AddPrefix { get { return ResourceManager.GetString("BatchRename_AddPrefix", resourceCulture); } }
-        public static string BatchRename_AddSuffix { get { return ResourceManager.GetString("BatchRename_AddSuffix", resourceCulture); } }
-        public static string BatchRename_AddSequence { get { return ResourceManager.GetString("BatchRename_AddSequence", resourceCulture); } }
-        public static string BatchRename_AddDate { get { return ResourceManager.GetString("BatchRename_AddDate", resourceCulture); } }
-        public static string BatchRename_ExampleReplace { get { return ResourceManager.GetString("BatchRename_ExampleReplace", resourceCulture); } }
-        public static string BatchRename_ExamplePrefix { get { return ResourceManager.GetString("BatchRename_ExamplePrefix", resourceCulture); } }
-        public static string BatchRename_ExampleSuffix { get { return ResourceManager.GetString("BatchRename_ExampleSuffix", resourceCulture); } }
-        public static string BatchRename_ExampleSequence { get { return ResourceManager.GetString("BatchRename_ExampleSequence", resourceCulture); } }
-        public static string BatchRename_ExampleDate { get { return ResourceManager.GetString("BatchRename_ExampleDate", resourceCulture); } }
-        public static string BatchRename_ReplaceInput { get { return ResourceManager.GetString("BatchRename_ReplaceInput", resourceCulture); } }
-        public static string BatchRename_SearchText { get { return ResourceManager.GetString("BatchRename_SearchText", resourceCulture); } }
-        public static string BatchRename_ReplacementText { get { return ResourceManager.GetString("BatchRename_ReplacementText", resourceCulture); } }
-        public static string BatchRename_PlaceholderSearch { get { return ResourceManager.GetString("BatchRename_PlaceholderSearch", resourceCulture); } }
-        public static string BatchRename_PlaceholderText { get { return ResourceManager.GetString("BatchRename_PlaceholderText", resourceCulture); } }
-        public static string BatchRename_AddTextInput { get { return ResourceManager.GetString("BatchRename_AddTextInput", resourceCulture); } }
-        public static string BatchRename_SequenceInput { get { return ResourceManager.GetString("BatchRename_SequenceInput", resourceCulture); } }
-        public static string BatchRename_TextBeforeNumber { get { return ResourceManager.GetString("BatchRename_TextBeforeNumber", resourceCulture); } }
-        public static string BatchRename_TextAfterNumber { get { return ResourceManager.GetString("BatchRename_TextAfterNumber", resourceCulture); } }
-        public static string BatchRename_StartNumber { get { return ResourceManager.GetString("BatchRename_StartNumber", resourceCulture); } }
-        public static string BatchRename_Digits { get { return ResourceManager.GetString("BatchRename_Digits", resourceCulture); } }
-        public static string BatchRename_Placement { get { return ResourceManager.GetString("BatchRename_Placement", resourceCulture); } }
-        public static string BatchRename_DateInput { get { return ResourceManager.GetString("BatchRename_DateInput", resourceCulture); } }
-        public static string BatchRename_DateFormat { get { return ResourceManager.GetString("BatchRename_DateFormat", resourceCulture); } }
-        public static string BatchRename_DatePrefix { get { return ResourceManager.GetString("BatchRename_DatePrefix", resourceCulture); } }
-        public static string BatchRename_DateSuffix { get { return ResourceManager.GetString("BatchRename_DateSuffix", resourceCulture); } }
-        public static string BatchRename_DateFormatLocalized { get { return ResourceManager.GetString("BatchRename_DateFormatLocalized", resourceCulture); } }
-        public static string BatchRename_DateFormatLocalizedExample { get { return ResourceManager.GetString("BatchRename_DateFormatLocalizedExample", resourceCulture); } }
-        public static string BatchRename_BeforeName { get { return ResourceManager.GetString("BatchRename_BeforeName", resourceCulture); } }
-        public static string BatchRename_AfterName { get { return ResourceManager.GetString("BatchRename_AfterName", resourceCulture); } }
-        public static string BatchRename_Advanced { get { return ResourceManager.GetString("BatchRename_Advanced", resourceCulture); } }
-        public static string BatchRename_UseRegex { get { return ResourceManager.GetString("BatchRename_UseRegex", resourceCulture); } }
-        public static string BatchRename_ReplaceAll { get { return ResourceManager.GetString("BatchRename_ReplaceAll", resourceCulture); } }
-        public static string BatchRename_MatchCase { get { return ResourceManager.GetString("BatchRename_MatchCase", resourceCulture); } }
-        public static string BatchRename_Target { get { return ResourceManager.GetString("BatchRename_Target", resourceCulture); } }
-        public static string BatchRename_Name { get { return ResourceManager.GetString("BatchRename_Name", resourceCulture); } }
-        public static string BatchRename_Extension { get { return ResourceManager.GetString("BatchRename_Extension", resourceCulture); } }
-        public static string BatchRename_NameAndExtension { get { return ResourceManager.GetString("BatchRename_NameAndExtension", resourceCulture); } }
-        public static string BatchRename_Preview { get { return ResourceManager.GetString("BatchRename_Preview", resourceCulture); } }
-        public static string BatchRename_Clear { get { return ResourceManager.GetString("BatchRename_Clear", resourceCulture); } }
-        public static string BatchRename_ColumnChange { get { return ResourceManager.GetString("BatchRename_ColumnChange", resourceCulture); } }
-        public static string BatchRename_ColumnBefore { get { return ResourceManager.GetString("BatchRename_ColumnBefore", resourceCulture); } }
-        public static string BatchRename_ColumnAfter { get { return ResourceManager.GetString("BatchRename_ColumnAfter", resourceCulture); } }
-        public static string BatchRename_ColumnStatus { get { return ResourceManager.GetString("BatchRename_ColumnStatus", resourceCulture); } }
-        public static string BatchRename_Apply { get { return ResourceManager.GetString("BatchRename_Apply", resourceCulture); } }
-        public static string BatchRename_Changing { get { return ResourceManager.GetString("BatchRename_Changing", resourceCulture); } }
-        public static string BatchRename_Unchanged { get { return ResourceManager.GetString("BatchRename_Unchanged", resourceCulture); } }
-        public static string BatchRename_SummaryChanged { get { return ResourceManager.GetString("BatchRename_SummaryChanged", resourceCulture); } }
-        public static string BatchRename_SummaryError { get { return ResourceManager.GetString("BatchRename_SummaryError", resourceCulture); } }
-        public static string BatchRename_ApplyCount { get { return ResourceManager.GetString("BatchRename_ApplyCount", resourceCulture); } }
-        public static string BatchRename_RuleExample { get { return ResourceManager.GetString("BatchRename_RuleExample", resourceCulture); } }
-        public static string BatchRename_SearchRequired { get { return ResourceManager.GetString("BatchRename_SearchRequired", resourceCulture); } }
-        public static string BatchRename_ErrorDuplicateName { get { return ResourceManager.GetString("BatchRename_ErrorDuplicateName", resourceCulture); } }
-        public static string BatchRename_ErrorInvalidRegularExpression { get { return ResourceManager.GetString("BatchRename_ErrorInvalidRegularExpression", resourceCulture); } }
-        public static string BatchRename_NoItemsSelected { get { return ResourceManager.GetString("BatchRename_NoItemsSelected", resourceCulture); } }
-        public static string BatchRename_NoChanges { get { return ResourceManager.GetString("BatchRename_NoChanges", resourceCulture); } }
     }
 }
