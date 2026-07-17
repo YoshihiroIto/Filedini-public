@@ -275,6 +275,10 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("BatchRename_ErrorInvalidRegularExpression", resourceCulture);
             }
         }
+
+        public static string BatchRename_ErrorRegexSyntax => ResourceManager.GetString("BatchRename_ErrorRegexSyntax", resourceCulture);
+        public static string BatchRename_RegexMissingClosingParenthesis => ResourceManager.GetString("BatchRename_RegexMissingClosingParenthesis", resourceCulture);
+        public static string BatchRename_RegexInvalidSyntax => ResourceManager.GetString("BatchRename_RegexInvalidSyntax", resourceCulture);
         
         /// <summary>
         ///   Looks up a localized string similar to Example: photo_2026-07-16.jpg.
@@ -448,15 +452,6 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Example: {0} → {1}.
-        /// </summary>
-        public static string BatchRename_RuleExample {
-            get {
-                return ResourceManager.GetString("BatchRename_RuleExample", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Enter text to find..
         /// </summary>
         public static string BatchRename_SearchRequired {
@@ -493,11 +488,11 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {0} names will change. Clear the checkbox for items you do not want to change..
+        ///   Looks up a localized string similar to {0:plural:1 item|{:N0} items} total: {1:plural:1 item will change|{:N0} items will change}; {2:plural:1 item unchanged|{:N0} items unchanged}.
         /// </summary>
-        public static string BatchRename_SummaryChanged {
+        public static string BatchRename_SummaryOverview {
             get {
-                return ResourceManager.GetString("BatchRename_SummaryChanged", resourceCulture);
+                return ResourceManager.GetString("BatchRename_SummaryOverview", resourceCulture);
             }
         }
         
