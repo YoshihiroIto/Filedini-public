@@ -2520,13 +2520,11 @@ Please try again later.</value>
     <data name="BatchRename_Title" xml:space="preserve"><value>Batch Rename</value></data>
     <data name="BatchRename_ChooseOperation" xml:space="preserve"><value>What do you want to do?</value></data>
     <data name="BatchRename_ReplaceText" xml:space="preserve"><value>Replace text</value></data>
-    <data name="BatchRename_AddPrefix" xml:space="preserve"><value>Add text to the beginning</value></data>
-    <data name="BatchRename_AddSuffix" xml:space="preserve"><value>Add text to the end</value></data>
+    <data name="BatchRename_AddText" xml:space="preserve"><value>Add text</value></data>
     <data name="BatchRename_AddSequence" xml:space="preserve"><value>Add sequence numbers</value></data>
     <data name="BatchRename_AddDate" xml:space="preserve"><value>Add modified date</value></data>
     <data name="BatchRename_ExampleReplace" xml:space="preserve"><value>Example: replace IMG_2024_ with Trip_</value></data>
-    <data name="BatchRename_ExamplePrefix" xml:space="preserve"><value>Example: Trip_photo.jpg</value></data>
-    <data name="BatchRename_ExampleSuffix" xml:space="preserve"><value>Example: photo_edited.jpg</value></data>
+    <data name="BatchRename_ExampleAddText" xml:space="preserve"><value>Example: photo.jpg → photo_edited.jpg</value></data>
     <data name="BatchRename_ExampleSequence" xml:space="preserve"><value>Example: Trip_001_photo.jpg</value></data>
     <data name="BatchRename_ExampleDate" xml:space="preserve"><value>Example: photo_2026-07-16.jpg</value></data>
     <data name="BatchRename_ReplaceInput" xml:space="preserve"><value>Enter the text to replace</value></data>
@@ -2575,4 +2573,31 @@ Please try again later.</value>
     <data name="BatchRename_ErrorInvalidRegularExpression" xml:space="preserve"><value>The regular expression is invalid.</value></data>
     <data name="BatchRename_NoItemsSelected" xml:space="preserve"><value>Select at least one item to rename.</value></data>
     <data name="BatchRename_NoChanges" xml:space="preserve"><value>No selected item has a name change.</value></data>
+    <data name="BatchRename_ChangeTextCase" xml:space="preserve"><value>Change text casing</value></data>
+    <data name="BatchRename_ExampleTextCase" xml:space="preserve"><value>Example: summer vacation → Summer Vacation</value></data>
+    <data name="BatchRename_AddRandomValue" xml:space="preserve"><value>Add a random value</value></data>
+    <data name="BatchRename_ExampleRandomValue" xml:space="preserve"><value>Example: photo-k7P2x9.jpg</value></data>
+    <data name="BatchRename_AddPhotoMetadata" xml:space="preserve"><value>Add photo information</value></data>
+    <data name="BatchRename_ExamplePhotoMetadata" xml:space="preserve"><value>Example: 2026-07-16_photo.jpg</value></data>
+    <data name="BatchRename_TextCaseLower" xml:space="preserve"><value>lowercase</value></data>
+    <data name="BatchRename_TextCaseUpper" xml:space="preserve"><value>UPPERCASE</value></data>
+    <data name="BatchRename_TextCaseSentence" xml:space="preserve"><value>Sentence case</value></data>
+    <data name="BatchRename_TextCaseWords" xml:space="preserve"><value>Capitalize Every Word</value></data>
+    <data name="BatchRename_RandomAlphanumeric" xml:space="preserve"><value>Letters and numbers</value></data>
+    <data name="BatchRename_RandomLetters" xml:space="preserve"><value>Letters only</value></data>
+    <data name="BatchRename_RandomDigits" xml:space="preserve"><value>Numbers only</value></data>
+    <data name="BatchRename_RandomUuid" xml:space="preserve"><value>UUID</value></data>
+    <data name="BatchRename_RandomPrefix" xml:space="preserve"><value>Text before the random value</value></data>
+    <data name="BatchRename_RandomSuffix" xml:space="preserve"><value>Text after the random value</value></data>
+    <data name="BatchRename_PhotoDate" xml:space="preserve"><value>Date taken</value></data>
+    <data name="BatchRename_PhotoCamera" xml:space="preserve"><value>Camera model</value></data>
+    <data name="BatchRename_PhotoLens" xml:space="preserve"><value>Lens model</value></data>
+    <data name="BatchRename_PhotoAuthor" xml:space="preserve"><value>Author</value></data>
+    <data name="BatchRename_PhotoCopyright" xml:space="preserve"><value>Copyright</value></data>
+    <data name="BatchRename_MetadataPrefix" xml:space="preserve"><value>Text before the information</value></data>
+    <data name="BatchRename_MetadataSuffix" xml:space="preserve"><value>Text after the information</value></data>
+    <data name="BatchRename_ShowChangedOnly" xml:space="preserve"><value>Show changed items only</value></data>
+    <data name="BatchRename_ErrorMetadataUnavailable" xml:space="preserve"><value>The selected photo information is unavailable.</value></data>
+    <data name="BatchRename_SelectedPhotoMetadata" xml:space="preserve"><value>Information to add (top to bottom)</value></data>
+    <data name="BatchRename_AddPhotoMetadataItem" xml:space="preserve"><value>Add information</value></data>
 </root>

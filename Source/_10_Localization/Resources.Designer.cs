@@ -69,11 +69,11 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Add text to the beginning.
+        ///   Looks up a localized string similar to Add text.
         /// </summary>
-        public static string BatchRename_AddPrefix {
+        public static string BatchRename_AddText {
             get {
-                return ResourceManager.GetString("BatchRename_AddPrefix", resourceCulture);
+                return ResourceManager.GetString("BatchRename_AddText", resourceCulture);
             }
         }
         
@@ -87,14 +87,6 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Add text to the end.
-        /// </summary>
-        public static string BatchRename_AddSuffix {
-            get {
-                return ResourceManager.GetString("BatchRename_AddSuffix", resourceCulture);
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to Enter text to add.
         /// </summary>
@@ -294,11 +286,11 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Example: Trip_photo.jpg.
+        ///   Looks up a localized string similar to Example: photo.jpg → photo_edited.jpg.
         /// </summary>
-        public static string BatchRename_ExamplePrefix {
+        public static string BatchRename_ExampleAddText {
             get {
-                return ResourceManager.GetString("BatchRename_ExamplePrefix", resourceCulture);
+                return ResourceManager.GetString("BatchRename_ExampleAddText", resourceCulture);
             }
         }
         
@@ -317,15 +309,6 @@ namespace Filedini.Localization {
         public static string BatchRename_ExampleSequence {
             get {
                 return ResourceManager.GetString("BatchRename_ExampleSequence", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Example: photo_edited.jpg.
-        /// </summary>
-        public static string BatchRename_ExampleSuffix {
-            get {
-                return ResourceManager.GetString("BatchRename_ExampleSuffix", resourceCulture);
             }
         }
         
@@ -580,6 +563,34 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("BatchRename_UseRegex", resourceCulture);
             }
         }
+
+        public static string BatchRename_ChangeTextCase => ResourceManager.GetString("BatchRename_ChangeTextCase", resourceCulture);
+        public static string BatchRename_ExampleTextCase => ResourceManager.GetString("BatchRename_ExampleTextCase", resourceCulture);
+        public static string BatchRename_AddRandomValue => ResourceManager.GetString("BatchRename_AddRandomValue", resourceCulture);
+        public static string BatchRename_ExampleRandomValue => ResourceManager.GetString("BatchRename_ExampleRandomValue", resourceCulture);
+        public static string BatchRename_AddPhotoMetadata => ResourceManager.GetString("BatchRename_AddPhotoMetadata", resourceCulture);
+        public static string BatchRename_ExamplePhotoMetadata => ResourceManager.GetString("BatchRename_ExamplePhotoMetadata", resourceCulture);
+        public static string BatchRename_TextCaseLower => ResourceManager.GetString("BatchRename_TextCaseLower", resourceCulture);
+        public static string BatchRename_TextCaseUpper => ResourceManager.GetString("BatchRename_TextCaseUpper", resourceCulture);
+        public static string BatchRename_TextCaseSentence => ResourceManager.GetString("BatchRename_TextCaseSentence", resourceCulture);
+        public static string BatchRename_TextCaseWords => ResourceManager.GetString("BatchRename_TextCaseWords", resourceCulture);
+        public static string BatchRename_RandomAlphanumeric => ResourceManager.GetString("BatchRename_RandomAlphanumeric", resourceCulture);
+        public static string BatchRename_RandomLetters => ResourceManager.GetString("BatchRename_RandomLetters", resourceCulture);
+        public static string BatchRename_RandomDigits => ResourceManager.GetString("BatchRename_RandomDigits", resourceCulture);
+        public static string BatchRename_RandomUuid => ResourceManager.GetString("BatchRename_RandomUuid", resourceCulture);
+        public static string BatchRename_RandomPrefix => ResourceManager.GetString("BatchRename_RandomPrefix", resourceCulture);
+        public static string BatchRename_RandomSuffix => ResourceManager.GetString("BatchRename_RandomSuffix", resourceCulture);
+        public static string BatchRename_PhotoDate => ResourceManager.GetString("BatchRename_PhotoDate", resourceCulture);
+        public static string BatchRename_PhotoCamera => ResourceManager.GetString("BatchRename_PhotoCamera", resourceCulture);
+        public static string BatchRename_PhotoLens => ResourceManager.GetString("BatchRename_PhotoLens", resourceCulture);
+        public static string BatchRename_PhotoAuthor => ResourceManager.GetString("BatchRename_PhotoAuthor", resourceCulture);
+        public static string BatchRename_PhotoCopyright => ResourceManager.GetString("BatchRename_PhotoCopyright", resourceCulture);
+        public static string BatchRename_MetadataPrefix => ResourceManager.GetString("BatchRename_MetadataPrefix", resourceCulture);
+        public static string BatchRename_MetadataSuffix => ResourceManager.GetString("BatchRename_MetadataSuffix", resourceCulture);
+        public static string BatchRename_ShowChangedOnly => ResourceManager.GetString("BatchRename_ShowChangedOnly", resourceCulture);
+        public static string BatchRename_ErrorMetadataUnavailable => ResourceManager.GetString("BatchRename_ErrorMetadataUnavailable", resourceCulture);
+        public static string BatchRename_SelectedPhotoMetadata => ResourceManager.GetString("BatchRename_SelectedPhotoMetadata", resourceCulture);
+        public static string BatchRename_AddPhotoMetadataItem => ResourceManager.GetString("BatchRename_AddPhotoMetadataItem", resourceCulture);
         
         /// <summary>
         ///   Looks up a localized string similar to End Process.

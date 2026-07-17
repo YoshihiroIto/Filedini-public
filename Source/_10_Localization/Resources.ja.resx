@@ -2349,13 +2349,11 @@
     <data name="BatchRename_Title" xml:space="preserve"><value>一括リネーム</value></data>
     <data name="BatchRename_ChooseOperation" xml:space="preserve"><value>何をしたいですか？</value></data>
     <data name="BatchRename_ReplaceText" xml:space="preserve"><value>文字を置き換える</value></data>
-    <data name="BatchRename_AddPrefix" xml:space="preserve"><value>名前の前に文字を付ける</value></data>
-    <data name="BatchRename_AddSuffix" xml:space="preserve"><value>名前の後ろに文字を付ける</value></data>
+    <data name="BatchRename_AddText" xml:space="preserve"><value>文字を付ける</value></data>
     <data name="BatchRename_AddSequence" xml:space="preserve"><value>連番を付ける</value></data>
     <data name="BatchRename_AddDate" xml:space="preserve"><value>更新日を付ける</value></data>
     <data name="BatchRename_ExampleReplace" xml:space="preserve"><value>例: IMG_2024_ を 旅行_ に置き換える</value></data>
-    <data name="BatchRename_ExamplePrefix" xml:space="preserve"><value>例: 旅行_写真.jpg</value></data>
-    <data name="BatchRename_ExampleSuffix" xml:space="preserve"><value>例: 写真_編集済.jpg</value></data>
+    <data name="BatchRename_ExampleAddText" xml:space="preserve"><value>例: 写真.jpg → 写真_編集済.jpg</value></data>
     <data name="BatchRename_ExampleSequence" xml:space="preserve"><value>例: 旅行_001_写真.jpg</value></data>
     <data name="BatchRename_ExampleDate" xml:space="preserve"><value>例: 写真_2026-07-16.jpg</value></data>
     <data name="BatchRename_ReplaceInput" xml:space="preserve"><value>置き換える文字を入力</value></data>
@@ -2404,4 +2402,31 @@
     <data name="BatchRename_ErrorInvalidRegularExpression" xml:space="preserve"><value>正規表現が正しくありません。</value></data>
     <data name="BatchRename_NoItemsSelected" xml:space="preserve"><value>変更する項目を1件以上選択してください。</value></data>
     <data name="BatchRename_NoChanges" xml:space="preserve"><value>選択した項目に名前の変更はありません。</value></data>
+    <data name="BatchRename_ChangeTextCase" xml:space="preserve"><value>文字の見た目を整える</value></data>
+    <data name="BatchRename_ExampleTextCase" xml:space="preserve"><value>例: summer vacation → Summer Vacation</value></data>
+    <data name="BatchRename_AddRandomValue" xml:space="preserve"><value>ランダムな文字列を付ける</value></data>
+    <data name="BatchRename_ExampleRandomValue" xml:space="preserve"><value>例: 写真-k7P2x9.jpg</value></data>
+    <data name="BatchRename_AddPhotoMetadata" xml:space="preserve"><value>写真情報を付ける</value></data>
+    <data name="BatchRename_ExamplePhotoMetadata" xml:space="preserve"><value>例: 2026-07-16_写真.jpg</value></data>
+    <data name="BatchRename_TextCaseLower" xml:space="preserve"><value>すべて小文字</value></data>
+    <data name="BatchRename_TextCaseUpper" xml:space="preserve"><value>すべて大文字</value></data>
+    <data name="BatchRename_TextCaseSentence" xml:space="preserve"><value>先頭だけ大文字</value></data>
+    <data name="BatchRename_TextCaseWords" xml:space="preserve"><value>単語の先頭を大文字</value></data>
+    <data name="BatchRename_RandomAlphanumeric" xml:space="preserve"><value>英字と数字</value></data>
+    <data name="BatchRename_RandomLetters" xml:space="preserve"><value>英字のみ</value></data>
+    <data name="BatchRename_RandomDigits" xml:space="preserve"><value>数字のみ</value></data>
+    <data name="BatchRename_RandomUuid" xml:space="preserve"><value>UUID</value></data>
+    <data name="BatchRename_RandomPrefix" xml:space="preserve"><value>ランダムな文字列の前に付ける文字</value></data>
+    <data name="BatchRename_RandomSuffix" xml:space="preserve"><value>ランダムな文字列の後に付ける文字</value></data>
+    <data name="BatchRename_PhotoDate" xml:space="preserve"><value>撮影日時</value></data>
+    <data name="BatchRename_PhotoCamera" xml:space="preserve"><value>カメラ名</value></data>
+    <data name="BatchRename_PhotoLens" xml:space="preserve"><value>レンズ名</value></data>
+    <data name="BatchRename_PhotoAuthor" xml:space="preserve"><value>撮影者</value></data>
+    <data name="BatchRename_PhotoCopyright" xml:space="preserve"><value>著作権</value></data>
+    <data name="BatchRename_MetadataPrefix" xml:space="preserve"><value>情報の前に付ける文字</value></data>
+    <data name="BatchRename_MetadataSuffix" xml:space="preserve"><value>情報の後に付ける文字</value></data>
+    <data name="BatchRename_ShowChangedOnly" xml:space="preserve"><value>変更される項目だけ表示</value></data>
+    <data name="BatchRename_ErrorMetadataUnavailable" xml:space="preserve"><value>選択した写真情報を読み取れません。</value></data>
+    <data name="BatchRename_SelectedPhotoMetadata" xml:space="preserve"><value>付ける情報（上から順に追加）</value></data>
+    <data name="BatchRename_AddPhotoMetadataItem" xml:space="preserve"><value>情報を追加</value></data>
 </root>
