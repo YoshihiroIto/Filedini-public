@@ -2419,10 +2419,21 @@
     <data name="BatchRename_RandomPrefix" xml:space="preserve"><value>ランダムな文字列の前に付ける文字</value></data>
     <data name="BatchRename_RandomSuffix" xml:space="preserve"><value>ランダムな文字列の後に付ける文字</value></data>
     <data name="BatchRename_PhotoDate" xml:space="preserve"><value>撮影日時</value></data>
+    <data name="BatchRename_PhotoDigitizedDate" xml:space="preserve"><value>デジタル化日時</value></data>
+    <data name="BatchRename_PhotoMake" xml:space="preserve"><value>カメラメーカー</value></data>
     <data name="BatchRename_PhotoCamera" xml:space="preserve"><value>カメラ名</value></data>
     <data name="BatchRename_PhotoLens" xml:space="preserve"><value>レンズ名</value></data>
+    <data name="BatchRename_PhotoFocalLength" xml:space="preserve"><value>焦点距離</value></data>
+    <data name="BatchRename_PhotoFocalLength35mm" xml:space="preserve"><value>35mm判換算焦点距離</value></data>
+    <data name="BatchRename_PhotoAperture" xml:space="preserve"><value>F値</value></data>
+    <data name="BatchRename_PhotoShutterSpeed" xml:space="preserve"><value>シャッター速度</value></data>
+    <data name="BatchRename_PhotoIso" xml:space="preserve"><value>ISO感度</value></data>
+    <data name="BatchRename_PhotoExposureCompensation" xml:space="preserve"><value>露出補正</value></data>
+    <data name="BatchRename_PhotoGps" xml:space="preserve"><value>GPS位置情報</value></data>
     <data name="BatchRename_PhotoAuthor" xml:space="preserve"><value>撮影者</value></data>
     <data name="BatchRename_PhotoCopyright" xml:space="preserve"><value>著作権</value></data>
+    <data name="BatchRename_PhotoDescription" xml:space="preserve"><value>説明</value></data>
+    <data name="BatchRename_PhotoSoftware" xml:space="preserve"><value>使用ソフトウェア</value></data>
     <data name="BatchRename_MetadataPrefix" xml:space="preserve"><value>情報の前に付ける文字</value></data>
     <data name="BatchRename_MetadataSuffix" xml:space="preserve"><value>情報の後に付ける文字</value></data>
     <data name="BatchRename_ShowChangedOnly" xml:space="preserve"><value>変更される項目だけ表示</value></data>
