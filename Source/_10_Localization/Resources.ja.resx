@@ -1546,9 +1546,6 @@
     <data name="Settings_Option_CustomDarknessFormat" xml:space="preserve">
         <value>カスタム ({0:P0})</value>
     </data>
-    <data name="Settings_Option_DarknessFormat" xml:space="preserve">
-        <value>{0:P0}</value>
-    </data>
     <data name="Settings_Option_NeutralGray" xml:space="preserve">
         <value>グレー</value>
     </data>
@@ -2417,7 +2414,6 @@
     <data name="BatchRename_RandomAlphanumeric" xml:space="preserve"><value>英字と数字</value></data>
     <data name="BatchRename_RandomLetters" xml:space="preserve"><value>英字のみ</value></data>
     <data name="BatchRename_RandomDigits" xml:space="preserve"><value>数字のみ</value></data>
-    <data name="BatchRename_RandomUuid" xml:space="preserve"><value>UUID</value></data>
     <data name="BatchRename_RandomPrefix" xml:space="preserve"><value>ランダム値の前の文字列</value></data>
     <data name="BatchRename_RandomSuffix" xml:space="preserve"><value>ランダム値の後の文字列</value></data>
     <data name="BatchRename_PhotoDate" xml:space="preserve"><value>撮影日時</value></data>
