@@ -2520,10 +2520,12 @@ Please try again later.</value>
     <data name="BatchRename_Title" xml:space="preserve"><value>Batch Rename</value></data>
     <data name="BatchRename_ChooseOperation" xml:space="preserve"><value>Operation</value></data>
     <data name="BatchRename_ReplaceText" xml:space="preserve"><value>Replace text</value></data>
+    <data name="BatchRename_RemoveText" xml:space="preserve"><value>Remove part of name</value></data>
     <data name="BatchRename_AddText" xml:space="preserve"><value>Add text</value></data>
     <data name="BatchRename_AddSequence" xml:space="preserve"><value>Add sequence</value></data>
     <data name="BatchRename_AddDate" xml:space="preserve"><value>Add modified date</value></data>
     <data name="BatchRename_ExampleReplace" xml:space="preserve"><value>Example: replace IMG_2024_ with Trip_</value></data>
+    <data name="BatchRename_ExampleRemoveText" xml:space="preserve"><value>Example: photo_001.jpg → photo_.jpg</value></data>
     <data name="BatchRename_ExampleAddText" xml:space="preserve"><value>Example: photo.jpg → photo_edited.jpg</value></data>
     <data name="BatchRename_ExampleSequence" xml:space="preserve"><value>Example: Trip_001_photo.jpg</value></data>
     <data name="BatchRename_ExampleDate" xml:space="preserve"><value>Example: photo_2026-07-16.jpg</value></data>
@@ -2611,6 +2613,19 @@ Please try again later.</value>
     <data name="BatchRename_MetadataSuffix" xml:space="preserve"><value>Suffix</value></data>
     <data name="BatchRename_ShowChangedOnly" xml:space="preserve"><value>Show changed items only</value></data>
     <data name="BatchRename_ErrorMetadataUnavailable" xml:space="preserve"><value>The selected photo information is unavailable.</value></data>
+    <data name="BatchRename_RemoveTextInput" xml:space="preserve"><value>Remove content</value></data>
+    <data name="BatchRename_RemoveMethod" xml:space="preserve"><value>Method</value></data>
+    <data name="BatchRename_RemoveTextMethod" xml:space="preserve"><value>Text</value></data>
+    <data name="BatchRename_RemoveDigitsMethod" xml:space="preserve"><value>Digits</value></data>
+    <data name="BatchRename_RemoveRegexMethod" xml:space="preserve"><value>Regular expression</value></data>
+    <data name="BatchRename_RemoveTextInputLabel" xml:space="preserve"><value>Text to remove</value></data>
+    <data name="BatchRename_RemoveRegexInput" xml:space="preserve"><value>Regular expression to remove</value></data>
+    <data name="BatchRename_RemovePosition" xml:space="preserve"><value>Position</value></data>
+    <data name="BatchRename_RemoveAnywhere" xml:space="preserve"><value>Anywhere in name</value></data>
+    <data name="BatchRename_RemoveBeginning" xml:space="preserve"><value>Beginning of name</value></data>
+    <data name="BatchRename_RemoveEnd" xml:space="preserve"><value>End of name</value></data>
+    <data name="BatchRename_RemoveTextRequired" xml:space="preserve"><value>Enter text to remove.</value></data>
+    <data name="BatchRename_ErrorEmptyName" xml:space="preserve"><value>A name cannot be empty.</value></data>
     <data name="BatchRename_SelectedPhotoMetadata" xml:space="preserve"><value>Selected metadata (top to bottom)</value></data>
     <data name="BatchRename_AddPhotoMetadataItem" xml:space="preserve"><value>Add metadata</value></data>
 </root>

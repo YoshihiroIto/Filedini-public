@@ -2346,10 +2346,12 @@
     <data name="BatchRename_Title" xml:space="preserve"><value>一括リネーム</value></data>
     <data name="BatchRename_ChooseOperation" xml:space="preserve"><value>処理</value></data>
     <data name="BatchRename_ReplaceText" xml:space="preserve"><value>文字列を置換</value></data>
+    <data name="BatchRename_RemoveText" xml:space="preserve"><value>名前の一部を削除</value></data>
     <data name="BatchRename_AddText" xml:space="preserve"><value>文字列を追加</value></data>
     <data name="BatchRename_AddSequence" xml:space="preserve"><value>連番を追加</value></data>
     <data name="BatchRename_AddDate" xml:space="preserve"><value>更新日を追加</value></data>
     <data name="BatchRename_ExampleReplace" xml:space="preserve"><value>例: IMG_2024_ を 旅行_ に置き換える</value></data>
+    <data name="BatchRename_ExampleRemoveText" xml:space="preserve"><value>例: 写真_001.jpg → 写真_.jpg</value></data>
     <data name="BatchRename_ExampleAddText" xml:space="preserve"><value>例: 写真.jpg → 写真_編集済.jpg</value></data>
     <data name="BatchRename_ExampleSequence" xml:space="preserve"><value>例: 旅行_001_写真.jpg</value></data>
     <data name="BatchRename_ExampleDate" xml:space="preserve"><value>例: 写真_2026-07-16.jpg</value></data>
@@ -2436,6 +2438,19 @@
     <data name="BatchRename_MetadataSuffix" xml:space="preserve"><value>情報の後の文字列</value></data>
     <data name="BatchRename_ShowChangedOnly" xml:space="preserve"><value>変更される項目だけ表示</value></data>
     <data name="BatchRename_ErrorMetadataUnavailable" xml:space="preserve"><value>選択した写真情報を読み取れません。</value></data>
+    <data name="BatchRename_RemoveTextInput" xml:space="preserve"><value>削除内容</value></data>
+    <data name="BatchRename_RemoveMethod" xml:space="preserve"><value>指定方法</value></data>
+    <data name="BatchRename_RemoveTextMethod" xml:space="preserve"><value>文字列</value></data>
+    <data name="BatchRename_RemoveDigitsMethod" xml:space="preserve"><value>数字</value></data>
+    <data name="BatchRename_RemoveRegexMethod" xml:space="preserve"><value>正規表現</value></data>
+    <data name="BatchRename_RemoveTextInputLabel" xml:space="preserve"><value>削除する文字列</value></data>
+    <data name="BatchRename_RemoveRegexInput" xml:space="preserve"><value>削除する正規表現</value></data>
+    <data name="BatchRename_RemovePosition" xml:space="preserve"><value>削除位置</value></data>
+    <data name="BatchRename_RemoveAnywhere" xml:space="preserve"><value>名前のどこでも</value></data>
+    <data name="BatchRename_RemoveBeginning" xml:space="preserve"><value>名前の先頭</value></data>
+    <data name="BatchRename_RemoveEnd" xml:space="preserve"><value>名前の末尾</value></data>
+    <data name="BatchRename_RemoveTextRequired" xml:space="preserve"><value>削除する文字列を入力してください。</value></data>
+    <data name="BatchRename_ErrorEmptyName" xml:space="preserve"><value>名前を空にはできません。</value></data>
     <data name="BatchRename_SelectedPhotoMetadata" xml:space="preserve"><value>付ける情報（上から順に追加）</value></data>
     <data name="BatchRename_AddPhotoMetadataItem" xml:space="preserve"><value>情報を追加</value></data>
 </root>

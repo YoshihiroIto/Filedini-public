@@ -595,6 +595,21 @@ namespace Filedini.Localization {
         public static string BatchRename_MetadataSuffix => ResourceManager.GetString("BatchRename_MetadataSuffix", resourceCulture);
         public static string BatchRename_ShowChangedOnly => ResourceManager.GetString("BatchRename_ShowChangedOnly", resourceCulture);
         public static string BatchRename_ErrorMetadataUnavailable => ResourceManager.GetString("BatchRename_ErrorMetadataUnavailable", resourceCulture);
+        public static string BatchRename_RemoveText => ResourceManager.GetString("BatchRename_RemoveText", resourceCulture);
+        public static string BatchRename_ExampleRemoveText => ResourceManager.GetString("BatchRename_ExampleRemoveText", resourceCulture);
+        public static string BatchRename_RemoveTextInput => ResourceManager.GetString("BatchRename_RemoveTextInput", resourceCulture);
+        public static string BatchRename_RemoveMethod => ResourceManager.GetString("BatchRename_RemoveMethod", resourceCulture);
+        public static string BatchRename_RemoveTextMethod => ResourceManager.GetString("BatchRename_RemoveTextMethod", resourceCulture);
+        public static string BatchRename_RemoveDigitsMethod => ResourceManager.GetString("BatchRename_RemoveDigitsMethod", resourceCulture);
+        public static string BatchRename_RemoveRegexMethod => ResourceManager.GetString("BatchRename_RemoveRegexMethod", resourceCulture);
+        public static string BatchRename_RemoveTextInputLabel => ResourceManager.GetString("BatchRename_RemoveTextInputLabel", resourceCulture);
+        public static string BatchRename_RemoveRegexInput => ResourceManager.GetString("BatchRename_RemoveRegexInput", resourceCulture);
+        public static string BatchRename_RemovePosition => ResourceManager.GetString("BatchRename_RemovePosition", resourceCulture);
+        public static string BatchRename_RemoveAnywhere => ResourceManager.GetString("BatchRename_RemoveAnywhere", resourceCulture);
+        public static string BatchRename_RemoveBeginning => ResourceManager.GetString("BatchRename_RemoveBeginning", resourceCulture);
+        public static string BatchRename_RemoveEnd => ResourceManager.GetString("BatchRename_RemoveEnd", resourceCulture);
+        public static string BatchRename_RemoveTextRequired => ResourceManager.GetString("BatchRename_RemoveTextRequired", resourceCulture);
+        public static string BatchRename_ErrorEmptyName => ResourceManager.GetString("BatchRename_ErrorEmptyName", resourceCulture);
         public static string BatchRename_SelectedPhotoMetadata => ResourceManager.GetString("BatchRename_SelectedPhotoMetadata", resourceCulture);
         public static string BatchRename_AddPhotoMetadataItem => ResourceManager.GetString("BatchRename_AddPhotoMetadataItem", resourceCulture);
         
