@@ -2136,7 +2136,10 @@
         <value>例：ここが便利です / ここで迷いました</value>
     </data>
     <data name="DialogNote_SendFeedback" xml:space="preserve">
-        <value>※ 個人情報の入力は不要です。内容は開発の参考としてのみ使用します。</value>
+        <value>※個人情報の入力は不要です。
+内容は開発の参考としてのみ使用し匿名で送信されるため、
+Filedini開発チームからの返信は行えません。
+</value>
     </data>
     <data name="Dialog_Send" xml:space="preserve">
         <value>送信(_S)</value>
@@ -2460,4 +2463,7 @@
     <data name="BatchRename_ErrorOpenTextEditor" xml:space="preserve"><value>テキストエディタを開けません。</value></data>
     <data name="BatchRename_SelectedPhotoMetadata" xml:space="preserve"><value>付ける情報（上から順に追加）</value></data>
     <data name="BatchRename_AddPhotoMetadataItem" xml:space="preserve"><value>情報を追加</value></data>
+    <data name="Label_Contact" xml:space="preserve">
+        <value>コンタクト</value>
+    </data>
 </root>

@@ -1502,7 +1502,9 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to No personal information is required. Messages are used only for development feedback..
+        ///   Looks up a localized string similar to Note: No personal information is required,
+        ///and your feedback is used solely for development.
+        ///Because messages are anonymous, we cannot provide a reply..
         /// </summary>
         public static string DialogNote_SendFeedback {
             get {
@@ -4110,6 +4112,15 @@ namespace Filedini.Localization {
         public static string Label_Clear {
             get {
                 return ResourceManager.GetString("Label_Clear", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Contact.
+        /// </summary>
+        public static string Label_Contact {
+            get {
+                return ResourceManager.GetString("Label_Contact", resourceCulture);
             }
         }
         

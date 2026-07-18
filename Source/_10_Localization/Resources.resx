@@ -2310,7 +2310,9 @@ Feel free to share feedback, ideas, or anything you found confusing.</value>
         <value>e.g. This part is helpful / I got stuck here</value>
     </data>
     <data name="DialogNote_SendFeedback" xml:space="preserve">
-        <value>No personal information is required. Messages are used only for development feedback.</value>
+        <value>Note: No personal information is required,
+and your feedback is used solely for development.
+Because messages are anonymous, we cannot provide a reply.</value>
     </data>
     <data name="Dialog_Send" xml:space="preserve">
         <value>_Send</value>
@@ -2635,4 +2637,7 @@ Please try again later.</value>
     <data name="BatchRename_ErrorOpenTextEditor" xml:space="preserve"><value>The text editor could not be opened.</value></data>
     <data name="BatchRename_SelectedPhotoMetadata" xml:space="preserve"><value>Selected metadata (top to bottom)</value></data>
     <data name="BatchRename_AddPhotoMetadataItem" xml:space="preserve"><value>Add metadata</value></data>
+    <data name="Label_Contact" xml:space="preserve">
+        <value>Contact</value>
+    </data>
 </root>
