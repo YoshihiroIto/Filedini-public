@@ -255,6 +255,9 @@
     <data name="FileMenu_SortItems" xml:space="preserve">
         <value>アイテムのソート...</value>
     </data>
+    <data name="FileMenu_SortItemsAscending" xml:space="preserve">
+        <value>アイテムを昇順でソート...</value>
+    </data>
     <data name="FileMenu_AddFolderWindow" xml:space="preserve">
         <value>新しいフォルダーウィンドウを開く</value>
     </data>

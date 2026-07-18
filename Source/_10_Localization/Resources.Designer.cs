@@ -3304,6 +3304,15 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("FileMenu_SortItems", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Sort Items (Ascending)....
+        /// </summary>
+        public static string FileMenu_SortItemsAscending {
+            get {
+                return ResourceManager.GetString("FileMenu_SortItemsAscending", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to Attributes / Ascending.
