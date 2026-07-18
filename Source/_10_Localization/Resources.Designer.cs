@@ -1502,9 +1502,10 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Note: No personal information is required,
-        ///and your feedback is used solely for development.
-        ///Because messages are anonymous, we cannot provide a reply..
+        ///   Looks up a localized string similar to Note: You do not need to enter any personal information (the content will be used solely as a reference for development).
+        ///Please note that since this is an anonymous submission, the Filedini development team will not be able to reply.
+        ///Thank you for your understanding.
+        ///.
         /// </summary>
         public static string DialogNote_SendFeedback {
             get {

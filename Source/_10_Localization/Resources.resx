@@ -2310,9 +2310,10 @@ Feel free to share feedback, ideas, or anything you found confusing.</value>
         <value>e.g. This part is helpful / I got stuck here</value>
     </data>
     <data name="DialogNote_SendFeedback" xml:space="preserve">
-        <value>Note: No personal information is required,
-and your feedback is used solely for development.
-Because messages are anonymous, we cannot provide a reply.</value>
+        <value>Note: You do not need to enter any personal information (the content will be used solely as a reference for development).
+Please note that since this is an anonymous submission, the Filedini development team will not be able to reply.
+Thank you for your understanding.
+</value>
     </data>
     <data name="Dialog_Send" xml:space="preserve">
         <value>_Send</value>

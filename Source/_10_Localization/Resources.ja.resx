@@ -2136,9 +2136,10 @@
         <value>例：ここが便利です / ここで迷いました</value>
     </data>
     <data name="DialogNote_SendFeedback" xml:space="preserve">
-        <value>※個人情報の入力は不要です。
-内容は開発の参考としてのみ使用し匿名で送信されるため、
-Filedini開発チームからの返信は行えません。
+        <value>※ 個人情報の入力は不要です（内容は開発の参考としてのみ使用します）。
+なお、匿名送信となるため、Filedini開発チームからの返信は行えません。
+あらかじめご了承ください。
+
 </value>
     </data>
     <data name="Dialog_Send" xml:space="preserve">
