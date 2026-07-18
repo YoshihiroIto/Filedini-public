@@ -69,6 +69,42 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Add photo metadata.
+        /// </summary>
+        public static string BatchRename_AddPhotoMetadata {
+            get {
+                return ResourceManager.GetString("BatchRename_AddPhotoMetadata", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add metadata.
+        /// </summary>
+        public static string BatchRename_AddPhotoMetadataItem {
+            get {
+                return ResourceManager.GetString("BatchRename_AddPhotoMetadataItem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add random text.
+        /// </summary>
+        public static string BatchRename_AddRandomValue {
+            get {
+                return ResourceManager.GetString("BatchRename_AddRandomValue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add sequence.
+        /// </summary>
+        public static string BatchRename_AddSequence {
+            get {
+                return ResourceManager.GetString("BatchRename_AddSequence", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Add text.
         /// </summary>
         public static string BatchRename_AddText {
@@ -78,21 +114,20 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Add sequence numbers.
-        /// </summary>
-        public static string BatchRename_AddSequence {
-            get {
-                return ResourceManager.GetString("BatchRename_AddSequence", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        /// <summary>
-        ///   Looks up a localized string similar to Enter text to add.
+        ///   Looks up a localized string similar to Text to add.
         /// </summary>
         public static string BatchRename_AddTextInput {
             get {
                 return ResourceManager.GetString("BatchRename_AddTextInput", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add today&apos;s date.
+        /// </summary>
+        public static string BatchRename_AddTodayDate {
+            get {
+                return ResourceManager.GetString("BatchRename_AddTodayDate", resourceCulture);
             }
         }
         
@@ -124,7 +159,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Rename {0:plural:1 item|{:N0} items}..
+        ///   Looks up a localized string similar to Rename {0:plural:1 item|{:N0} items}.
         /// </summary>
         public static string BatchRename_ApplyCount {
             get {
@@ -142,6 +177,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Change case.
+        /// </summary>
+        public static string BatchRename_ChangeTextCase {
+            get {
+                return ResourceManager.GetString("BatchRename_ChangeTextCase", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Will rename.
         /// </summary>
         public static string BatchRename_Changing {
@@ -151,7 +195,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to What do you want to do?.
+        ///   Looks up a localized string similar to Operation.
         /// </summary>
         public static string BatchRename_ChooseOperation {
             get {
@@ -178,7 +222,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Change.
+        ///   Looks up a localized string similar to Include.
         /// </summary>
         public static string BatchRename_ColumnChange {
             get {
@@ -196,7 +240,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Date format.
+        ///   Looks up a localized string similar to Format.
         /// </summary>
         public static string BatchRename_DateFormat {
             get {
@@ -223,7 +267,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Add the modified date to the name.
+        ///   Looks up a localized string similar to Modified date.
         /// </summary>
         public static string BatchRename_DateInput {
             get {
@@ -232,7 +276,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Text before the date.
+        ///   Looks up a localized string similar to Prefix.
         /// </summary>
         public static string BatchRename_DatePrefix {
             get {
@@ -241,7 +285,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Text after the date.
+        ///   Looks up a localized string similar to Suffix.
         /// </summary>
         public static string BatchRename_DateSuffix {
             get {
@@ -259,11 +303,29 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Edit names in text editor.
+        /// </summary>
+        public static string BatchRename_EditInTextEditor {
+            get {
+                return ResourceManager.GetString("BatchRename_EditInTextEditor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to The new name duplicates another item..
         /// </summary>
         public static string BatchRename_ErrorDuplicateName {
             get {
                 return ResourceManager.GetString("BatchRename_ErrorDuplicateName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to A name cannot be empty..
+        /// </summary>
+        public static string BatchRename_ErrorEmptyName {
+            get {
+                return ResourceManager.GetString("BatchRename_ErrorEmptyName", resourceCulture);
             }
         }
         
@@ -275,10 +337,42 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("BatchRename_ErrorInvalidRegularExpression", resourceCulture);
             }
         }
-
-        public static string BatchRename_ErrorRegexSyntax => ResourceManager.GetString("BatchRename_ErrorRegexSyntax", resourceCulture);
-        public static string BatchRename_RegexMissingClosingParenthesis => ResourceManager.GetString("BatchRename_RegexMissingClosingParenthesis", resourceCulture);
-        public static string BatchRename_RegexInvalidSyntax => ResourceManager.GetString("BatchRename_RegexInvalidSyntax", resourceCulture);
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The selected photo information is unavailable..
+        /// </summary>
+        public static string BatchRename_ErrorMetadataUnavailable {
+            get {
+                return ResourceManager.GetString("BatchRename_ErrorMetadataUnavailable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The text editor could not be opened..
+        /// </summary>
+        public static string BatchRename_ErrorOpenTextEditor {
+            get {
+                return ResourceManager.GetString("BatchRename_ErrorOpenTextEditor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The regular expression is invalid: {0}.
+        /// </summary>
+        public static string BatchRename_ErrorRegexSyntax {
+            get {
+                return ResourceManager.GetString("BatchRename_ErrorRegexSyntax", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Example: photo.jpg → photo_edited.jpg.
+        /// </summary>
+        public static string BatchRename_ExampleAddText {
+            get {
+                return ResourceManager.GetString("BatchRename_ExampleAddText", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to Example: photo_2026-07-16.jpg.
@@ -290,11 +384,38 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Example: photo.jpg → photo_edited.jpg.
+        ///   Looks up a localized string similar to Edit candidate names in a text editor.
         /// </summary>
-        public static string BatchRename_ExampleAddText {
+        public static string BatchRename_ExampleEditInTextEditor {
             get {
-                return ResourceManager.GetString("BatchRename_ExampleAddText", resourceCulture);
+                return ResourceManager.GetString("BatchRename_ExampleEditInTextEditor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Example: 2026-07-16_photo.jpg.
+        /// </summary>
+        public static string BatchRename_ExamplePhotoMetadata {
+            get {
+                return ResourceManager.GetString("BatchRename_ExamplePhotoMetadata", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Example: photo-k7P2x9.jpg.
+        /// </summary>
+        public static string BatchRename_ExampleRandomValue {
+            get {
+                return ResourceManager.GetString("BatchRename_ExampleRandomValue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Example: photo_001.jpg → photo_.jpg.
+        /// </summary>
+        public static string BatchRename_ExampleRemoveText {
+            get {
+                return ResourceManager.GetString("BatchRename_ExampleRemoveText", resourceCulture);
             }
         }
         
@@ -317,6 +438,24 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Example: summer vacation → Summer Vacation.
+        /// </summary>
+        public static string BatchRename_ExampleTextCase {
+            get {
+                return ResourceManager.GetString("BatchRename_ExampleTextCase", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Example: photo_2026-07-18.jpg.
+        /// </summary>
+        public static string BatchRename_ExampleTodayDate {
+            get {
+                return ResourceManager.GetString("BatchRename_ExampleTodayDate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Will not rename.
         /// </summary>
         public static string BatchRename_Excluded {
@@ -335,6 +474,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Edit the names after the tab, then save. The preview updates automatically..
+        /// </summary>
+        public static string BatchRename_ExternalEditorDescription {
+            get {
+                return ResourceManager.GetString("BatchRename_ExternalEditorDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Match case.
         /// </summary>
         public static string BatchRename_MatchCase {
@@ -344,7 +492,25 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Name.
+        ///   Looks up a localized string similar to Prefix.
+        /// </summary>
+        public static string BatchRename_MetadataPrefix {
+            get {
+                return ResourceManager.GetString("BatchRename_MetadataPrefix", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Suffix.
+        /// </summary>
+        public static string BatchRename_MetadataSuffix {
+            get {
+                return ResourceManager.GetString("BatchRename_MetadataSuffix", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to File name (without extension).
         /// </summary>
         public static string BatchRename_Name {
             get {
@@ -353,7 +519,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Name and extension.
+        ///   Looks up a localized string similar to Full name.
         /// </summary>
         public static string BatchRename_NameAndExtension {
             get {
@@ -380,6 +546,159 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Open text editor.
+        /// </summary>
+        public static string BatchRename_OpenTextEditor {
+            get {
+                return ResourceManager.GetString("BatchRename_OpenTextEditor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Aperture.
+        /// </summary>
+        public static string BatchRename_PhotoAperture {
+            get {
+                return ResourceManager.GetString("BatchRename_PhotoAperture", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Author.
+        /// </summary>
+        public static string BatchRename_PhotoAuthor {
+            get {
+                return ResourceManager.GetString("BatchRename_PhotoAuthor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Camera model.
+        /// </summary>
+        public static string BatchRename_PhotoCamera {
+            get {
+                return ResourceManager.GetString("BatchRename_PhotoCamera", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Copyright.
+        /// </summary>
+        public static string BatchRename_PhotoCopyright {
+            get {
+                return ResourceManager.GetString("BatchRename_PhotoCopyright", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Date taken.
+        /// </summary>
+        public static string BatchRename_PhotoDate {
+            get {
+                return ResourceManager.GetString("BatchRename_PhotoDate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Description.
+        /// </summary>
+        public static string BatchRename_PhotoDescription {
+            get {
+                return ResourceManager.GetString("BatchRename_PhotoDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Date digitized.
+        /// </summary>
+        public static string BatchRename_PhotoDigitizedDate {
+            get {
+                return ResourceManager.GetString("BatchRename_PhotoDigitizedDate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Exposure compensation.
+        /// </summary>
+        public static string BatchRename_PhotoExposureCompensation {
+            get {
+                return ResourceManager.GetString("BatchRename_PhotoExposureCompensation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Focal length.
+        /// </summary>
+        public static string BatchRename_PhotoFocalLength {
+            get {
+                return ResourceManager.GetString("BatchRename_PhotoFocalLength", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 35 mm equivalent focal length.
+        /// </summary>
+        public static string BatchRename_PhotoFocalLength35mm {
+            get {
+                return ResourceManager.GetString("BatchRename_PhotoFocalLength35mm", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to GPS location.
+        /// </summary>
+        public static string BatchRename_PhotoGps {
+            get {
+                return ResourceManager.GetString("BatchRename_PhotoGps", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ISO sensitivity.
+        /// </summary>
+        public static string BatchRename_PhotoIso {
+            get {
+                return ResourceManager.GetString("BatchRename_PhotoIso", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Lens model.
+        /// </summary>
+        public static string BatchRename_PhotoLens {
+            get {
+                return ResourceManager.GetString("BatchRename_PhotoLens", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Camera make.
+        /// </summary>
+        public static string BatchRename_PhotoMake {
+            get {
+                return ResourceManager.GetString("BatchRename_PhotoMake", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Shutter speed.
+        /// </summary>
+        public static string BatchRename_PhotoShutterSpeed {
+            get {
+                return ResourceManager.GetString("BatchRename_PhotoShutterSpeed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Software.
+        /// </summary>
+        public static string BatchRename_PhotoSoftware {
+            get {
+                return ResourceManager.GetString("BatchRename_PhotoSoftware", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Example: IMG_2024_.
         /// </summary>
         public static string BatchRename_PlaceholderSearch {
@@ -398,7 +717,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Position.
+        ///   Looks up a localized string similar to Insert position.
         /// </summary>
         public static string BatchRename_Placement {
             get {
@@ -407,11 +726,200 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Review changes.
+        ///   Looks up a localized string similar to Preview.
         /// </summary>
         public static string BatchRename_Preview {
             get {
                 return ResourceManager.GetString("BatchRename_Preview", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Letters and numbers.
+        /// </summary>
+        public static string BatchRename_RandomAlphanumeric {
+            get {
+                return ResourceManager.GetString("BatchRename_RandomAlphanumeric", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Numbers only.
+        /// </summary>
+        public static string BatchRename_RandomDigits {
+            get {
+                return ResourceManager.GetString("BatchRename_RandomDigits", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Letters only.
+        /// </summary>
+        public static string BatchRename_RandomLetters {
+            get {
+                return ResourceManager.GetString("BatchRename_RandomLetters", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Prefix.
+        /// </summary>
+        public static string BatchRename_RandomPrefix {
+            get {
+                return ResourceManager.GetString("BatchRename_RandomPrefix", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Suffix.
+        /// </summary>
+        public static string BatchRename_RandomSuffix {
+            get {
+                return ResourceManager.GetString("BatchRename_RandomSuffix", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to UUID.
+        /// </summary>
+        public static string BatchRename_RandomUuid {
+            get {
+                return ResourceManager.GetString("BatchRename_RandomUuid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to invalid syntax.
+        /// </summary>
+        public static string BatchRename_RegexInvalidSyntax {
+            get {
+                return ResourceManager.GetString("BatchRename_RegexInvalidSyntax", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to missing closing parenthesis.
+        /// </summary>
+        public static string BatchRename_RegexMissingClosingParenthesis {
+            get {
+                return ResourceManager.GetString("BatchRename_RegexMissingClosingParenthesis", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Anywhere in name.
+        /// </summary>
+        public static string BatchRename_RemoveAnywhere {
+            get {
+                return ResourceManager.GetString("BatchRename_RemoveAnywhere", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Beginning of name.
+        /// </summary>
+        public static string BatchRename_RemoveBeginning {
+            get {
+                return ResourceManager.GetString("BatchRename_RemoveBeginning", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Digits.
+        /// </summary>
+        public static string BatchRename_RemoveDigitsMethod {
+            get {
+                return ResourceManager.GetString("BatchRename_RemoveDigitsMethod", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to End of name.
+        /// </summary>
+        public static string BatchRename_RemoveEnd {
+            get {
+                return ResourceManager.GetString("BatchRename_RemoveEnd", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Method.
+        /// </summary>
+        public static string BatchRename_RemoveMethod {
+            get {
+                return ResourceManager.GetString("BatchRename_RemoveMethod", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Position.
+        /// </summary>
+        public static string BatchRename_RemovePosition {
+            get {
+                return ResourceManager.GetString("BatchRename_RemovePosition", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Regular expression to remove.
+        /// </summary>
+        public static string BatchRename_RemoveRegexInput {
+            get {
+                return ResourceManager.GetString("BatchRename_RemoveRegexInput", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Regular expression.
+        /// </summary>
+        public static string BatchRename_RemoveRegexMethod {
+            get {
+                return ResourceManager.GetString("BatchRename_RemoveRegexMethod", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Remove part of name.
+        /// </summary>
+        public static string BatchRename_RemoveText {
+            get {
+                return ResourceManager.GetString("BatchRename_RemoveText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Remove content.
+        /// </summary>
+        public static string BatchRename_RemoveTextInput {
+            get {
+                return ResourceManager.GetString("BatchRename_RemoveTextInput", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Text to remove.
+        /// </summary>
+        public static string BatchRename_RemoveTextInputLabel {
+            get {
+                return ResourceManager.GetString("BatchRename_RemoveTextInputLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Text.
+        /// </summary>
+        public static string BatchRename_RemoveTextMethod {
+            get {
+                return ResourceManager.GetString("BatchRename_RemoveTextMethod", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter text to remove..
+        /// </summary>
+        public static string BatchRename_RemoveTextRequired {
+            get {
+                return ResourceManager.GetString("BatchRename_RemoveTextRequired", resourceCulture);
             }
         }
         
@@ -425,7 +933,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Enter the text to replace.
+        ///   Looks up a localized string similar to Replacement.
         /// </summary>
         public static string BatchRename_ReplaceInput {
             get {
@@ -434,7 +942,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Replacement text.
+        ///   Looks up a localized string similar to Replace with.
         /// </summary>
         public static string BatchRename_ReplacementText {
             get {
@@ -461,7 +969,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Text to find.
+        ///   Looks up a localized string similar to Find.
         /// </summary>
         public static string BatchRename_SearchText {
             get {
@@ -470,11 +978,29 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Set up the sequence.
+        ///   Looks up a localized string similar to Selected metadata (top to bottom).
+        /// </summary>
+        public static string BatchRename_SelectedPhotoMetadata {
+            get {
+                return ResourceManager.GetString("BatchRename_SelectedPhotoMetadata", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sequence.
         /// </summary>
         public static string BatchRename_SequenceInput {
             get {
                 return ResourceManager.GetString("BatchRename_SequenceInput", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Show changed items only.
+        /// </summary>
+        public static string BatchRename_ShowChangedOnly {
+            get {
+                return ResourceManager.GetString("BatchRename_ShowChangedOnly", resourceCulture);
             }
         }
         
@@ -488,6 +1014,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to {0:plural:1 item cannot|{:N0} items cannot} be renamed. Fix the rule before continuing..
+        /// </summary>
+        public static string BatchRename_SummaryError {
+            get {
+                return ResourceManager.GetString("BatchRename_SummaryError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to {0:plural:1 item|{:N0} items} total: {1:plural:1 item will change|{:N0} items will change}; {2:plural:1 item unchanged|{:N0} items unchanged}.
         /// </summary>
         public static string BatchRename_SummaryOverview {
@@ -497,16 +1032,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {0} items cannot be renamed. Fix the rule before continuing..
-        /// </summary>
-        public static string BatchRename_SummaryError {
-            get {
-                return ResourceManager.GetString("BatchRename_SummaryError", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Change.
+        ///   Looks up a localized string similar to Replace in.
         /// </summary>
         public static string BatchRename_Target {
             get {
@@ -515,7 +1041,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Text after the number.
+        ///   Looks up a localized string similar to Suffix.
         /// </summary>
         public static string BatchRename_TextAfterNumber {
             get {
@@ -524,11 +1050,47 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Text before the number.
+        ///   Looks up a localized string similar to Prefix.
         /// </summary>
         public static string BatchRename_TextBeforeNumber {
             get {
                 return ResourceManager.GetString("BatchRename_TextBeforeNumber", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to lowercase.
+        /// </summary>
+        public static string BatchRename_TextCaseLower {
+            get {
+                return ResourceManager.GetString("BatchRename_TextCaseLower", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sentence case.
+        /// </summary>
+        public static string BatchRename_TextCaseSentence {
+            get {
+                return ResourceManager.GetString("BatchRename_TextCaseSentence", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to UPPERCASE.
+        /// </summary>
+        public static string BatchRename_TextCaseUpper {
+            get {
+                return ResourceManager.GetString("BatchRename_TextCaseUpper", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Capitalize Every Word.
+        /// </summary>
+        public static string BatchRename_TextCaseWords {
+            get {
+                return ResourceManager.GetString("BatchRename_TextCaseWords", resourceCulture);
             }
         }
         
@@ -551,67 +1113,13 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Use regular expressions.
+        ///   Looks up a localized string similar to Treat as regular expression.
         /// </summary>
         public static string BatchRename_UseRegex {
             get {
                 return ResourceManager.GetString("BatchRename_UseRegex", resourceCulture);
             }
         }
-
-        public static string BatchRename_ChangeTextCase => ResourceManager.GetString("BatchRename_ChangeTextCase", resourceCulture);
-        public static string BatchRename_ExampleTextCase => ResourceManager.GetString("BatchRename_ExampleTextCase", resourceCulture);
-        public static string BatchRename_AddRandomValue => ResourceManager.GetString("BatchRename_AddRandomValue", resourceCulture);
-        public static string BatchRename_ExampleRandomValue => ResourceManager.GetString("BatchRename_ExampleRandomValue", resourceCulture);
-        public static string BatchRename_AddPhotoMetadata => ResourceManager.GetString("BatchRename_AddPhotoMetadata", resourceCulture);
-        public static string BatchRename_ExamplePhotoMetadata => ResourceManager.GetString("BatchRename_ExamplePhotoMetadata", resourceCulture);
-        public static string BatchRename_TextCaseLower => ResourceManager.GetString("BatchRename_TextCaseLower", resourceCulture);
-        public static string BatchRename_TextCaseUpper => ResourceManager.GetString("BatchRename_TextCaseUpper", resourceCulture);
-        public static string BatchRename_TextCaseSentence => ResourceManager.GetString("BatchRename_TextCaseSentence", resourceCulture);
-        public static string BatchRename_TextCaseWords => ResourceManager.GetString("BatchRename_TextCaseWords", resourceCulture);
-        public static string BatchRename_RandomAlphanumeric => ResourceManager.GetString("BatchRename_RandomAlphanumeric", resourceCulture);
-        public static string BatchRename_RandomLetters => ResourceManager.GetString("BatchRename_RandomLetters", resourceCulture);
-        public static string BatchRename_RandomDigits => ResourceManager.GetString("BatchRename_RandomDigits", resourceCulture);
-        public static string BatchRename_RandomUuid => ResourceManager.GetString("BatchRename_RandomUuid", resourceCulture);
-        public static string BatchRename_RandomPrefix => ResourceManager.GetString("BatchRename_RandomPrefix", resourceCulture);
-        public static string BatchRename_RandomSuffix => ResourceManager.GetString("BatchRename_RandomSuffix", resourceCulture);
-        public static string BatchRename_PhotoDate => ResourceManager.GetString("BatchRename_PhotoDate", resourceCulture);
-        public static string BatchRename_PhotoDigitizedDate => ResourceManager.GetString("BatchRename_PhotoDigitizedDate", resourceCulture);
-        public static string BatchRename_PhotoMake => ResourceManager.GetString("BatchRename_PhotoMake", resourceCulture);
-        public static string BatchRename_PhotoCamera => ResourceManager.GetString("BatchRename_PhotoCamera", resourceCulture);
-        public static string BatchRename_PhotoLens => ResourceManager.GetString("BatchRename_PhotoLens", resourceCulture);
-        public static string BatchRename_PhotoFocalLength => ResourceManager.GetString("BatchRename_PhotoFocalLength", resourceCulture);
-        public static string BatchRename_PhotoFocalLength35mm => ResourceManager.GetString("BatchRename_PhotoFocalLength35mm", resourceCulture);
-        public static string BatchRename_PhotoAperture => ResourceManager.GetString("BatchRename_PhotoAperture", resourceCulture);
-        public static string BatchRename_PhotoShutterSpeed => ResourceManager.GetString("BatchRename_PhotoShutterSpeed", resourceCulture);
-        public static string BatchRename_PhotoIso => ResourceManager.GetString("BatchRename_PhotoIso", resourceCulture);
-        public static string BatchRename_PhotoExposureCompensation => ResourceManager.GetString("BatchRename_PhotoExposureCompensation", resourceCulture);
-        public static string BatchRename_PhotoGps => ResourceManager.GetString("BatchRename_PhotoGps", resourceCulture);
-        public static string BatchRename_PhotoAuthor => ResourceManager.GetString("BatchRename_PhotoAuthor", resourceCulture);
-        public static string BatchRename_PhotoCopyright => ResourceManager.GetString("BatchRename_PhotoCopyright", resourceCulture);
-        public static string BatchRename_PhotoDescription => ResourceManager.GetString("BatchRename_PhotoDescription", resourceCulture);
-        public static string BatchRename_PhotoSoftware => ResourceManager.GetString("BatchRename_PhotoSoftware", resourceCulture);
-        public static string BatchRename_MetadataPrefix => ResourceManager.GetString("BatchRename_MetadataPrefix", resourceCulture);
-        public static string BatchRename_MetadataSuffix => ResourceManager.GetString("BatchRename_MetadataSuffix", resourceCulture);
-        public static string BatchRename_ShowChangedOnly => ResourceManager.GetString("BatchRename_ShowChangedOnly", resourceCulture);
-        public static string BatchRename_ErrorMetadataUnavailable => ResourceManager.GetString("BatchRename_ErrorMetadataUnavailable", resourceCulture);
-        public static string BatchRename_RemoveText => ResourceManager.GetString("BatchRename_RemoveText", resourceCulture);
-        public static string BatchRename_ExampleRemoveText => ResourceManager.GetString("BatchRename_ExampleRemoveText", resourceCulture);
-        public static string BatchRename_RemoveTextInput => ResourceManager.GetString("BatchRename_RemoveTextInput", resourceCulture);
-        public static string BatchRename_RemoveMethod => ResourceManager.GetString("BatchRename_RemoveMethod", resourceCulture);
-        public static string BatchRename_RemoveTextMethod => ResourceManager.GetString("BatchRename_RemoveTextMethod", resourceCulture);
-        public static string BatchRename_RemoveDigitsMethod => ResourceManager.GetString("BatchRename_RemoveDigitsMethod", resourceCulture);
-        public static string BatchRename_RemoveRegexMethod => ResourceManager.GetString("BatchRename_RemoveRegexMethod", resourceCulture);
-        public static string BatchRename_RemoveTextInputLabel => ResourceManager.GetString("BatchRename_RemoveTextInputLabel", resourceCulture);
-        public static string BatchRename_RemoveRegexInput => ResourceManager.GetString("BatchRename_RemoveRegexInput", resourceCulture);
-        public static string BatchRename_RemovePosition => ResourceManager.GetString("BatchRename_RemovePosition", resourceCulture);
-        public static string BatchRename_RemoveAnywhere => ResourceManager.GetString("BatchRename_RemoveAnywhere", resourceCulture);
-        public static string BatchRename_RemoveBeginning => ResourceManager.GetString("BatchRename_RemoveBeginning", resourceCulture);
-        public static string BatchRename_RemoveEnd => ResourceManager.GetString("BatchRename_RemoveEnd", resourceCulture);
-        public static string BatchRename_RemoveTextRequired => ResourceManager.GetString("BatchRename_RemoveTextRequired", resourceCulture);
-        public static string BatchRename_ErrorEmptyName => ResourceManager.GetString("BatchRename_ErrorEmptyName", resourceCulture);
-        public static string BatchRename_SelectedPhotoMetadata => ResourceManager.GetString("BatchRename_SelectedPhotoMetadata", resourceCulture);
-        public static string BatchRename_AddPhotoMetadataItem => ResourceManager.GetString("BatchRename_AddPhotoMetadataItem", resourceCulture);
         
         /// <summary>
         ///   Looks up a localized string similar to End Process.

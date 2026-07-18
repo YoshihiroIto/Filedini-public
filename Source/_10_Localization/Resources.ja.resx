@@ -2350,11 +2350,13 @@
     <data name="BatchRename_AddText" xml:space="preserve"><value>文字列を追加</value></data>
     <data name="BatchRename_AddSequence" xml:space="preserve"><value>連番を追加</value></data>
     <data name="BatchRename_AddDate" xml:space="preserve"><value>更新日を追加</value></data>
+    <data name="BatchRename_AddTodayDate" xml:space="preserve"><value>今日の日付を追加</value></data>
     <data name="BatchRename_ExampleReplace" xml:space="preserve"><value>例: IMG_2024_ を 旅行_ に置き換える</value></data>
     <data name="BatchRename_ExampleRemoveText" xml:space="preserve"><value>例: 写真_001.jpg → 写真_.jpg</value></data>
     <data name="BatchRename_ExampleAddText" xml:space="preserve"><value>例: 写真.jpg → 写真_編集済.jpg</value></data>
     <data name="BatchRename_ExampleSequence" xml:space="preserve"><value>例: 旅行_001_写真.jpg</value></data>
     <data name="BatchRename_ExampleDate" xml:space="preserve"><value>例: 写真_2026-07-16.jpg</value></data>
+    <data name="BatchRename_ExampleTodayDate" xml:space="preserve"><value>例: 写真_2026-07-18.jpg</value></data>
     <data name="BatchRename_ReplaceInput" xml:space="preserve"><value>置換内容</value></data>
     <data name="BatchRename_SearchText" xml:space="preserve"><value>検索する文字列</value></data>
     <data name="BatchRename_ReplacementText" xml:space="preserve"><value>置換後の文字列</value></data>
@@ -2451,6 +2453,11 @@
     <data name="BatchRename_RemoveEnd" xml:space="preserve"><value>名前の末尾</value></data>
     <data name="BatchRename_RemoveTextRequired" xml:space="preserve"><value>削除する文字列を入力してください。</value></data>
     <data name="BatchRename_ErrorEmptyName" xml:space="preserve"><value>名前を空にはできません。</value></data>
+    <data name="BatchRename_EditInTextEditor" xml:space="preserve"><value>テキストエディタで名前を編集</value></data>
+    <data name="BatchRename_ExampleEditInTextEditor" xml:space="preserve"><value>テキストエディタで候補名を編集します</value></data>
+    <data name="BatchRename_OpenTextEditor" xml:space="preserve"><value>テキストエディタを開く</value></data>
+    <data name="BatchRename_ExternalEditorDescription" xml:space="preserve"><value>タブの後ろにある名前を編集して保存してください。プレビューへ自動反映します。</value></data>
+    <data name="BatchRename_ErrorOpenTextEditor" xml:space="preserve"><value>テキストエディタを開けません。</value></data>
     <data name="BatchRename_SelectedPhotoMetadata" xml:space="preserve"><value>付ける情報（上から順に追加）</value></data>
     <data name="BatchRename_AddPhotoMetadataItem" xml:space="preserve"><value>情報を追加</value></data>
 </root>

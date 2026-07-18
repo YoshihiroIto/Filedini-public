@@ -2524,11 +2524,13 @@ Please try again later.</value>
     <data name="BatchRename_AddText" xml:space="preserve"><value>Add text</value></data>
     <data name="BatchRename_AddSequence" xml:space="preserve"><value>Add sequence</value></data>
     <data name="BatchRename_AddDate" xml:space="preserve"><value>Add modified date</value></data>
+    <data name="BatchRename_AddTodayDate" xml:space="preserve"><value>Add today's date</value></data>
     <data name="BatchRename_ExampleReplace" xml:space="preserve"><value>Example: replace IMG_2024_ with Trip_</value></data>
     <data name="BatchRename_ExampleRemoveText" xml:space="preserve"><value>Example: photo_001.jpg → photo_.jpg</value></data>
     <data name="BatchRename_ExampleAddText" xml:space="preserve"><value>Example: photo.jpg → photo_edited.jpg</value></data>
     <data name="BatchRename_ExampleSequence" xml:space="preserve"><value>Example: Trip_001_photo.jpg</value></data>
     <data name="BatchRename_ExampleDate" xml:space="preserve"><value>Example: photo_2026-07-16.jpg</value></data>
+    <data name="BatchRename_ExampleTodayDate" xml:space="preserve"><value>Example: photo_2026-07-18.jpg</value></data>
     <data name="BatchRename_ReplaceInput" xml:space="preserve"><value>Replacement</value></data>
     <data name="BatchRename_SearchText" xml:space="preserve"><value>Find</value></data>
     <data name="BatchRename_ReplacementText" xml:space="preserve"><value>Replace with</value></data>
@@ -2626,6 +2628,11 @@ Please try again later.</value>
     <data name="BatchRename_RemoveEnd" xml:space="preserve"><value>End of name</value></data>
     <data name="BatchRename_RemoveTextRequired" xml:space="preserve"><value>Enter text to remove.</value></data>
     <data name="BatchRename_ErrorEmptyName" xml:space="preserve"><value>A name cannot be empty.</value></data>
+    <data name="BatchRename_EditInTextEditor" xml:space="preserve"><value>Edit names in text editor</value></data>
+    <data name="BatchRename_ExampleEditInTextEditor" xml:space="preserve"><value>Edit candidate names in a text editor</value></data>
+    <data name="BatchRename_OpenTextEditor" xml:space="preserve"><value>Open text editor</value></data>
+    <data name="BatchRename_ExternalEditorDescription" xml:space="preserve"><value>Edit the names after the tab, then save. The preview updates automatically.</value></data>
+    <data name="BatchRename_ErrorOpenTextEditor" xml:space="preserve"><value>The text editor could not be opened.</value></data>
     <data name="BatchRename_SelectedPhotoMetadata" xml:space="preserve"><value>Selected metadata (top to bottom)</value></data>
     <data name="BatchRename_AddPhotoMetadataItem" xml:space="preserve"><value>Add metadata</value></data>
 </root>
