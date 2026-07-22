@@ -2003,9 +2003,9 @@ namespace Filedini.Localization {
         /// <summary>
         ///   Looks up a localized string similar to Move to Trash Can.
         /// </summary>
-        public static string FileMenu_SendToTrashCan {
+        public static string FileMenu_MoveToTrashCan {
             get {
-                return ResourceManager.GetString("FileMenu_SendToTrashCan", resourceCulture);
+                return ResourceManager.GetString("FileMenu_MoveToTrashCan", resourceCulture);
             }
         }
         

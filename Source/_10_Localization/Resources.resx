@@ -138,7 +138,7 @@ The external app is not registered or does not exist.</value>
     <data name="FileMenu_DeleteItem" xml:space="preserve">
         <value>Delete...</value>
     </data>
-    <data name="FileMenu_SendToTrashCan" xml:space="preserve">
+    <data name="FileMenu_MoveToTrashCan" xml:space="preserve">
         <value>Move to Trash Can</value>
     </data>
     <data name="FileMenu_RenameItem" xml:space="preserve">
