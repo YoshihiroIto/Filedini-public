@@ -156,6 +156,9 @@
     <data name="FileMenu_DeleteItem" xml:space="preserve">
         <value>削除...</value>
     </data>
+    <data name="FileMenu_SendToTrashCan" xml:space="preserve">
+        <value>ごみ箱に送る</value>
+    </data>
     <data name="FileMenu_EmptyTrashCan" xml:space="preserve">
         <value>ごみ箱を空にする...</value>
     </data>
@@ -2226,6 +2229,9 @@
     </data>
     <data name="Message_DeleteCompletedSuccessfully" xml:space="preserve">
         <value>削除が完了しました。</value>
+    </data>
+    <data name="Message_MovedToTrashCanCompletedSuccessfully" xml:space="preserve">
+        <value>ごみ箱への移動が完了しました。</value>
     </data>
     <data name="Label_Cancel" xml:space="preserve">
         <value>キャンセル</value>

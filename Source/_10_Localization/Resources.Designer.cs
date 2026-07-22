@@ -1999,6 +1999,15 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("FileMenu_DeleteItem", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Move to Trash Can.
+        /// </summary>
+        public static string FileMenu_SendToTrashCan {
+            get {
+                return ResourceManager.GetString("FileMenu_SendToTrashCan", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to Display Mode.
@@ -5582,6 +5591,15 @@ namespace Filedini.Localization {
         public static string Message_MoveCompletedSuccessfully {
             get {
                 return ResourceManager.GetString("Message_MoveCompletedSuccessfully", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Moved to Trash Can successfully.
+        /// </summary>
+        public static string Message_MovedToTrashCanCompletedSuccessfully {
+            get {
+                return ResourceManager.GetString("Message_MovedToTrashCanCompletedSuccessfully", resourceCulture);
             }
         }
         
