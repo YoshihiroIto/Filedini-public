@@ -2081,6 +2081,18 @@ Destination:
     <data name="Settings_Label_TerminalThemeMode" xml:space="preserve">
         <value>Terminal Theme</value>
     </data>
+    <data name="Settings_Label_MarkdownPreviewTheme" xml:space="preserve">
+        <value>Markdown Preview Theme</value>
+    </data>
+    <data name="MarkdownPreviewThemeModes_AppSetting" xml:space="preserve">
+        <value>Use App Setting</value>
+    </data>
+    <data name="MarkdownPreviewThemeModes_Light" xml:space="preserve">
+        <value>Light</value>
+    </data>
+    <data name="MarkdownPreviewThemeModes_Dark" xml:space="preserve">
+        <value>Dark</value>
+    </data>
     <data name="Settings_Label_TerminalTrimTrailingNewLineAndWhitespaceOnPaste" xml:space="preserve">
         <value>Trim trailing newlines and whitespace on paste</value>
     </data>

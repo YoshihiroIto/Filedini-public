@@ -2030,6 +2030,18 @@
     <data name="Settings_Label_TerminalThemeMode" xml:space="preserve">
         <value>ターミナルテーマ</value>
     </data>
+    <data name="Settings_Label_MarkdownPreviewTheme" xml:space="preserve">
+        <value>Markdownプレビューのテーマ</value>
+    </data>
+    <data name="MarkdownPreviewThemeModes_AppSetting" xml:space="preserve">
+        <value>テーマ設定</value>
+    </data>
+    <data name="MarkdownPreviewThemeModes_Light" xml:space="preserve">
+        <value>ライト</value>
+    </data>
+    <data name="MarkdownPreviewThemeModes_Dark" xml:space="preserve">
+        <value>ダーク</value>
+    </data>
     <data name="Settings_Label_TerminalTrimTrailingNewLineAndWhitespaceOnPaste" xml:space="preserve">
         <value>ペースト時に末尾の空白と改行を削除する</value>
     </data>

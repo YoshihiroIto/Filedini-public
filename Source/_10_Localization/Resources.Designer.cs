@@ -6759,6 +6759,15 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Settings_Label_TerminalThemeMode", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Markdown Preview Theme.
+        /// </summary>
+        public static string Settings_Label_MarkdownPreviewTheme {
+            get {
+                return ResourceManager.GetString("Settings_Label_MarkdownPreviewTheme", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to Trim trailing newlines and whitespace on paste.
@@ -7488,6 +7497,33 @@ namespace Filedini.Localization {
         public static string TerminalThemeModes_AppSetting {
             get {
                 return ResourceManager.GetString("TerminalThemeModes_AppSetting", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Use App Setting.
+        /// </summary>
+        public static string MarkdownPreviewThemeModes_AppSetting {
+            get {
+                return ResourceManager.GetString("MarkdownPreviewThemeModes_AppSetting", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Light.
+        /// </summary>
+        public static string MarkdownPreviewThemeModes_Light {
+            get {
+                return ResourceManager.GetString("MarkdownPreviewThemeModes_Light", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Dark.
+        /// </summary>
+        public static string MarkdownPreviewThemeModes_Dark {
+            get {
+                return ResourceManager.GetString("MarkdownPreviewThemeModes_Dark", resourceCulture);
             }
         }
         
