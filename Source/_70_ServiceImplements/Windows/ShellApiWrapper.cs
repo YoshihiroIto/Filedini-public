@@ -18,7 +18,7 @@ internal static class ShellApiWrapper
         return result is 0;
     }
 
-    public static unsafe bool SendToTrashCan(IEnumerable<string> targetFilePaths)
+    public static unsafe bool MoveToTrashCan(IEnumerable<string> targetFilePaths)
     {
         var pFrom = MakePathsString(targetFilePaths);
 
