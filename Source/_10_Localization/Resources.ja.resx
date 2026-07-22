@@ -157,7 +157,7 @@
         <value>削除...</value>
     </data>
     <data name="FileMenu_SendToTrashCan" xml:space="preserve">
-        <value>ごみ箱に送る</value>
+        <value>ごみ箱へ送る</value>
     </data>
     <data name="FileMenu_EmptyTrashCan" xml:space="preserve">
         <value>ごみ箱を空にする...</value>
