@@ -1439,7 +1439,7 @@
         <value>外部アプリ</value>
     </data>
     <data name="Settings_Label_Extensions" xml:space="preserve">
-        <value>拡張子（;区切りで複数指定可能）</value>
+        <value>拡張子（セミコロン「;」区切りで複数指定可能）</value>
     </data>
     <data name="FileMenu_LaunchApp0" xml:space="preserve">
         <value>アプリ０を起動</value>
@@ -1812,13 +1812,13 @@
         <value>フィルター後</value>
     </data>
     <data name="Settings_WebViewer" xml:space="preserve">
-        <value>Webビューワー</value>
+        <value>Web ビューワー</value>
     </data>
     <data name="Settings_FileExtensionsDisplayedInWebViewer" xml:space="preserve">
-        <value>Webビューワーで表示するファイル拡張子（;区切りで複数指定可能）</value>
+        <value>Web ビューワーで表示するファイル拡張子（;区切りで複数指定可能）</value>
     </data>
     <data name="Settings_MarkdownFileExtensionsDisplayedInWebViewer" xml:space="preserve">
-        <value>Webビューワーで表示するMarkdownファイル拡張子（;区切りで複数指定可能）</value>
+        <value>Markdown として扱う拡張子（セミコロン「;」区切りで複数指定可能）</value>
     </data>
     <data name="Settings_Thumbnail" xml:space="preserve">
         <value>サムネイル</value>
@@ -2030,11 +2030,11 @@
     <data name="Settings_Label_TerminalThemeMode" xml:space="preserve">
         <value>ターミナルテーマ</value>
     </data>
-    <data name="Settings_Label_MarkdownPreviewTheme" xml:space="preserve">
-        <value>Markdownプレビューのテーマ</value>
+    <data name="Settings_Label_MarkdownViewerTheme" xml:space="preserve">
+        <value>Markdown ビューワーのテーマ</value>
     </data>
     <data name="MarkdownPreviewThemeModes_AppSetting" xml:space="preserve">
-        <value>テーマ設定</value>
+        <value>テーマ設定に追従</value>
     </data>
     <data name="MarkdownPreviewThemeModes_Light" xml:space="preserve">
         <value>ライト</value>
@@ -2485,5 +2485,8 @@
     <data name="BatchRename_AddPhotoMetadataItem" xml:space="preserve"><value>情報を追加</value></data>
     <data name="Label_Contact" xml:space="preserve">
         <value>コンタクト</value>
+    </data>
+    <data name="Settings_MarkdownViewer" xml:space="preserve">
+        <value>Markdown ビューワー</value>
     </data>
 </root>

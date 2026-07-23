@@ -1999,15 +1999,6 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("FileMenu_DeleteItem", resourceCulture);
             }
         }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Move to Trash Can.
-        /// </summary>
-        public static string FileMenu_MoveToTrashCan {
-            get {
-                return ResourceManager.GetString("FileMenu_MoveToTrashCan", resourceCulture);
-            }
-        }
         
         /// <summary>
         ///   Looks up a localized string similar to Display Mode.
@@ -2654,6 +2645,15 @@ namespace Filedini.Localization {
         public static string FileMenu_MoveToTab9 {
             get {
                 return ResourceManager.GetString("FileMenu_MoveToTab9", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Move to Trash Can.
+        /// </summary>
+        public static string FileMenu_MoveToTrashCan {
+            get {
+                return ResourceManager.GetString("FileMenu_MoveToTrashCan", resourceCulture);
             }
         }
         
@@ -3313,7 +3313,7 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("FileMenu_SortItems", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Sort Items (Ascending)....
         /// </summary>
@@ -4720,6 +4720,33 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Use App Setting.
+        /// </summary>
+        public static string MarkdownPreviewThemeModes_AppSetting {
+            get {
+                return ResourceManager.GetString("MarkdownPreviewThemeModes_AppSetting", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dark.
+        /// </summary>
+        public static string MarkdownPreviewThemeModes_Dark {
+            get {
+                return ResourceManager.GetString("MarkdownPreviewThemeModes_Dark", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Light.
+        /// </summary>
+        public static string MarkdownPreviewThemeModes_Light {
+            get {
+                return ResourceManager.GetString("MarkdownPreviewThemeModes_Light", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Save Current....
         /// </summary>
         public static string Menu_SavedSessions_SaveCurrent {
@@ -5593,9 +5620,9 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Message_MoveCompletedSuccessfully", resourceCulture);
             }
         }
-
+        
         /// <summary>
-        ///   Looks up a localized string similar to Moved to Trash Can successfully.
+        ///   Looks up a localized string similar to Moved to Trash Can successfully..
         /// </summary>
         public static string Message_MovedToTrashCanCompletedSuccessfully {
             get {
@@ -6410,6 +6437,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Markdown Viewer Theme.
+        /// </summary>
+        public static string Settings_Label_MarkdownViewerTheme {
+            get {
+                return ResourceManager.GetString("Settings_Label_MarkdownViewerTheme", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Display Mode #1.
         /// </summary>
         public static string Settings_Label_Mode1 {
@@ -6759,15 +6795,6 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Settings_Label_TerminalThemeMode", resourceCulture);
             }
         }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Markdown Preview Theme.
-        /// </summary>
-        public static string Settings_Label_MarkdownPreviewTheme {
-            get {
-                return ResourceManager.GetString("Settings_Label_MarkdownPreviewTheme", resourceCulture);
-            }
-        }
         
         /// <summary>
         ///   Looks up a localized string similar to Trim trailing newlines and whitespace on paste.
@@ -6896,11 +6923,20 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Markdown File Extensions Displayed In Web Viewer.
+        ///   Looks up a localized string similar to File extensions to treat as Markdown (semicolon-separated).
         /// </summary>
         public static string Settings_MarkdownFileExtensionsDisplayedInWebViewer {
             get {
                 return ResourceManager.GetString("Settings_MarkdownFileExtensionsDisplayedInWebViewer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Markdown Viewer.
+        /// </summary>
+        public static string Settings_MarkdownViewer {
+            get {
+                return ResourceManager.GetString("Settings_MarkdownViewer", resourceCulture);
             }
         }
         
@@ -7497,33 +7533,6 @@ namespace Filedini.Localization {
         public static string TerminalThemeModes_AppSetting {
             get {
                 return ResourceManager.GetString("TerminalThemeModes_AppSetting", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Use App Setting.
-        /// </summary>
-        public static string MarkdownPreviewThemeModes_AppSetting {
-            get {
-                return ResourceManager.GetString("MarkdownPreviewThemeModes_AppSetting", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Light.
-        /// </summary>
-        public static string MarkdownPreviewThemeModes_Light {
-            get {
-                return ResourceManager.GetString("MarkdownPreviewThemeModes_Light", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Dark.
-        /// </summary>
-        public static string MarkdownPreviewThemeModes_Dark {
-            get {
-                return ResourceManager.GetString("MarkdownPreviewThemeModes_Dark", resourceCulture);
             }
         }
         

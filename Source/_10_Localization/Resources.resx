@@ -1869,7 +1869,7 @@ Destination:
         <value>File extensions displayed in Web Viewer(semicolon-separated)</value>
     </data>
     <data name="Settings_MarkdownFileExtensionsDisplayedInWebViewer" xml:space="preserve">
-        <value>Markdown File Extensions Displayed In Web Viewer</value>
+        <value>File extensions to treat as Markdown (semicolon-separated)</value>
     </data>
     <data name="Settings_Thumbnail" xml:space="preserve">
         <value>Thumbnail</value>
@@ -2081,8 +2081,8 @@ Destination:
     <data name="Settings_Label_TerminalThemeMode" xml:space="preserve">
         <value>Terminal Theme</value>
     </data>
-    <data name="Settings_Label_MarkdownPreviewTheme" xml:space="preserve">
-        <value>Markdown Preview Theme</value>
+    <data name="Settings_Label_MarkdownViewerTheme" xml:space="preserve">
+        <value>Markdown Viewer Theme</value>
     </data>
     <data name="MarkdownPreviewThemeModes_AppSetting" xml:space="preserve">
         <value>Use App Setting</value>
@@ -2661,5 +2661,8 @@ Please try again later.</value>
     <data name="BatchRename_AddPhotoMetadataItem" xml:space="preserve"><value>Add metadata</value></data>
     <data name="Label_Contact" xml:space="preserve">
         <value>Contact</value>
+    </data>
+    <data name="Settings_MarkdownViewer" xml:space="preserve">
+        <value>Markdown Viewer</value>
     </data>
 </root>
