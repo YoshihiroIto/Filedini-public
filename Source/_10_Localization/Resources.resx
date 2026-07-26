@@ -1815,7 +1815,7 @@ Destination:
         <value>Page</value>
     </data>
     <data name="Label_PDFPageDisplayModeSingle" xml:space="preserve">
-        <value>Single page</value>
+        <value>Single</value>
     </data>
     <data name="Label_PDFCover" xml:space="preserve">
         <value>Cover</value>
@@ -1824,7 +1824,7 @@ Destination:
         <value>Show cover page separately</value>
     </data>
     <data name="Label_PDFPageDisplayModeFacing" xml:space="preserve">
-        <value>Facing pages</value>
+        <value>Facing</value>
     </data>
     <data name="Label_PDFPageDisplayModeAutomatic" xml:space="preserve">
         <value>Automatic</value>

@@ -1764,7 +1764,7 @@
         <value>ページ</value>
     </data>
     <data name="Label_PDFPageDisplayModeSingle" xml:space="preserve">
-        <value>単一ページ</value>
+        <value>単一</value>
     </data>
     <data name="Label_PDFCover" xml:space="preserve">
         <value>表紙</value>
@@ -1773,7 +1773,7 @@
         <value>表紙を独立表示</value>
     </data>
     <data name="Label_PDFPageDisplayModeFacing" xml:space="preserve">
-        <value>見開きページ</value>
+        <value>見開き</value>
     </data>
     <data name="Label_PDFPageDisplayModeAutomatic" xml:space="preserve">
         <value>自動</value>

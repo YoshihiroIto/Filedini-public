@@ -4457,52 +4457,7 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Label_Page", resourceCulture);
             }
         }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Automatic.
-        /// </summary>
-        public static string Label_PDFPageDisplayModeAutomatic {
-            get {
-                return ResourceManager.GetString("Label_PDFPageDisplayModeAutomatic", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Facing pages.
-        /// </summary>
-        public static string Label_PDFPageDisplayModeFacing {
-            get {
-                return ResourceManager.GetString("Label_PDFPageDisplayModeFacing", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Single page.
-        /// </summary>
-        public static string Label_PDFPageDisplayModeSingle {
-            get {
-                return ResourceManager.GetString("Label_PDFPageDisplayModeSingle", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Cover.
-        /// </summary>
-        public static string Label_PDFCover {
-            get {
-                return ResourceManager.GetString("Label_PDFCover", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Show cover page separately.
-        /// </summary>
-        public static string Label_PDFSeparateCoverPages {
-            get {
-                return ResourceManager.GetString("Label_PDFSeparateCoverPages", resourceCulture);
-            }
-        }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to First.
         /// </summary>
@@ -4536,6 +4491,51 @@ namespace Filedini.Localization {
         public static string Label_PagePrevious {
             get {
                 return ResourceManager.GetString("Label_PagePrevious", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cover.
+        /// </summary>
+        public static string Label_PDFCover {
+            get {
+                return ResourceManager.GetString("Label_PDFCover", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Automatic.
+        /// </summary>
+        public static string Label_PDFPageDisplayModeAutomatic {
+            get {
+                return ResourceManager.GetString("Label_PDFPageDisplayModeAutomatic", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Facing.
+        /// </summary>
+        public static string Label_PDFPageDisplayModeFacing {
+            get {
+                return ResourceManager.GetString("Label_PDFPageDisplayModeFacing", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Single.
+        /// </summary>
+        public static string Label_PDFPageDisplayModeSingle {
+            get {
+                return ResourceManager.GetString("Label_PDFPageDisplayModeSingle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Show cover page separately.
+        /// </summary>
+        public static string Label_PDFSeparateCoverPages {
+            get {
+                return ResourceManager.GetString("Label_PDFSeparateCoverPages", resourceCulture);
             }
         }
         
@@ -7697,15 +7697,6 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Tooltip_HidePdfOutline", resourceCulture);
             }
         }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Page display mode.
-        /// </summary>
-        public static string Tooltip_PDFPageDisplayMode {
-            get {
-                return ResourceManager.GetString("Tooltip_PDFPageDisplayMode", resourceCulture);
-            }
-        }
         
         /// <summary>
         ///   Looks up a localized string similar to Language.
@@ -7812,6 +7803,15 @@ namespace Filedini.Localization {
         public static string ToolTip_PaneLayout {
             get {
                 return ResourceManager.GetString("ToolTip_PaneLayout", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Page display mode.
+        /// </summary>
+        public static string Tooltip_PDFPageDisplayMode {
+            get {
+                return ResourceManager.GetString("Tooltip_PDFPageDisplayMode", resourceCulture);
             }
         }
         
