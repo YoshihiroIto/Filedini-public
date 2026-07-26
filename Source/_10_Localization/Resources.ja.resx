@@ -1763,6 +1763,24 @@
     <data name="Label_Page" xml:space="preserve">
         <value>ページ</value>
     </data>
+    <data name="Label_PDFPageDisplayModeSingle" xml:space="preserve">
+        <value>単一ページ</value>
+    </data>
+    <data name="Label_PDFCover" xml:space="preserve">
+        <value>表紙</value>
+    </data>
+    <data name="Label_PDFSeparateCoverPages" xml:space="preserve">
+        <value>表紙を独立表示</value>
+    </data>
+    <data name="Label_PDFPageDisplayModeFacing" xml:space="preserve">
+        <value>見開きページ</value>
+    </data>
+    <data name="Label_PDFPageDisplayModeAutomatic" xml:space="preserve">
+        <value>自動</value>
+    </data>
+    <data name="Tooltip_PDFPageDisplayMode" xml:space="preserve">
+        <value>ページ表示モード</value>
+    </data>
     <data name="Label_PageFirst" xml:space="preserve">
         <value>先頭へ</value>
     </data>

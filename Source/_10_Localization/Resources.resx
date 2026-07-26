@@ -1814,6 +1814,24 @@ Destination:
     <data name="Label_Page" xml:space="preserve">
         <value>Page</value>
     </data>
+    <data name="Label_PDFPageDisplayModeSingle" xml:space="preserve">
+        <value>Single page</value>
+    </data>
+    <data name="Label_PDFCover" xml:space="preserve">
+        <value>Cover</value>
+    </data>
+    <data name="Label_PDFSeparateCoverPages" xml:space="preserve">
+        <value>Show cover page separately</value>
+    </data>
+    <data name="Label_PDFPageDisplayModeFacing" xml:space="preserve">
+        <value>Facing pages</value>
+    </data>
+    <data name="Label_PDFPageDisplayModeAutomatic" xml:space="preserve">
+        <value>Automatic</value>
+    </data>
+    <data name="Tooltip_PDFPageDisplayMode" xml:space="preserve">
+        <value>Page display mode</value>
+    </data>
     <data name="Label_PageFirst" xml:space="preserve">
         <value>First</value>
     </data>
