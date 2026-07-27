@@ -1140,6 +1140,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Copy to Clipboard.
+        /// </summary>
+        public static string ContextMenu_CopyToClipboard {
+            get {
+                return ResourceManager.GetString("ContextMenu_CopyToClipboard", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Extract with _Folders.
         /// </summary>
         public static string ContextMenu_ExtractWithFolders {
@@ -4140,15 +4149,6 @@ namespace Filedini.Localization {
         public static string Label_Contact {
             get {
                 return ResourceManager.GetString("Label_Contact", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Copy to Clipboard.
-        /// </summary>
-        public static string Label_CopyToClipboard {
-            get {
-                return ResourceManager.GetString("Label_CopyToClipboard", resourceCulture);
             }
         }
         

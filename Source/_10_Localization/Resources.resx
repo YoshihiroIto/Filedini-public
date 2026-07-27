@@ -1805,7 +1805,7 @@ Destination:
 
 {0}</value>
     </data>
-    <data name="Label_CopyToClipboard" xml:space="preserve">
+    <data name="ContextMenu_CopyToClipboard" xml:space="preserve">
         <value>Copy to Clipboard</value>
     </data>
     <data name="UI_Run" xml:space="preserve">
