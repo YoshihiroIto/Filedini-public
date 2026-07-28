@@ -84,7 +84,7 @@
     <data name="FileMenu_Folder" xml:space="preserve">
         <value>フォルダー(_O)</value>
     </data>
-    <data name="FileMenu_Tool" xml:space="preserve">
+    <data name="FileMenu_Tools" xml:space="preserve">
         <value>ツール(_T)</value>
     </data>
     <data name="FileMenu_View" xml:space="preserve">
@@ -354,9 +354,6 @@
     </data>
     <data name="DialogTitle_Confirmation" xml:space="preserve">
         <value>確認</value>
-    </data>
-    <data name="DialogTitle_SaveSession" xml:space="preserve">
-        <value>セッションを保存</value>
     </data>
     <data name="DialogTitle_RenameSession" xml:space="preserve">
         <value>セッション名を変更</value>
@@ -661,6 +658,9 @@
     </data>
     <data name="FileMenu_Session" xml:space="preserve">
         <value>セッション...</value>
+    </data>
+    <data name="FileMenu_SaveSession" xml:space="preserve">
+        <value>セッションを保存...</value>
     </data>
     <data name="Tooltip_Rename" xml:space="preserve">
         <value>名前変更</value>
@@ -2027,7 +2027,7 @@
     <data name="Tooltip_CloseTerminal" xml:space="preserve">
         <value>ターミナルを閉じる</value>
     </data>
-    <data name="Settings_Tool" xml:space="preserve">
+    <data name="Settings_Tools" xml:space="preserve">
         <value>ツール</value>
     </data>
     <data name="Settings_Terminal" xml:space="preserve">

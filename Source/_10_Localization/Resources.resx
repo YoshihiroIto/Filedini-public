@@ -102,8 +102,8 @@ The external app is not registered or does not exist.</value>
     <data name="FileMenu_Folder" xml:space="preserve">
         <value>F_older</value>
     </data>
-    <data name="FileMenu_Tool" xml:space="preserve">
-        <value>_Tool</value>
+    <data name="FileMenu_Tools" xml:space="preserve">
+        <value>_Tools</value>
     </data>
     <data name="FileMenu_Window" xml:space="preserve">
         <value>_Window</value>
@@ -369,9 +369,6 @@ The external app is not registered or does not exist.</value>
     </data>
     <data name="DialogTitle_Confirmation" xml:space="preserve">
         <value>Confirmation</value>
-    </data>
-    <data name="DialogTitle_SaveSession" xml:space="preserve">
-        <value>Save Session</value>
     </data>
     <data name="DialogTitle_RenameSession" xml:space="preserve">
         <value>Rename Session</value>
@@ -676,6 +673,9 @@ Do you want to proceed?</value>
     </data>
     <data name="FileMenu_Session" xml:space="preserve">
         <value>Sessions...</value>
+    </data>
+    <data name="FileMenu_SaveSession" xml:space="preserve">
+        <value>Save Session...</value>
     </data>
     <data name="Tooltip_Rename" xml:space="preserve">
         <value>Rename</value>
@@ -2078,8 +2078,8 @@ Destination:
     <data name="Tooltip_CloseTerminal" xml:space="preserve">
         <value>Close Terminal</value>
     </data>
-    <data name="Settings_Tool" xml:space="preserve">
-        <value>Tool</value>
+    <data name="Settings_Tools" xml:space="preserve">
+        <value>Tools</value>
     </data>
     <data name="Settings_Terminal" xml:space="preserve">
         <value>Terminal</value>

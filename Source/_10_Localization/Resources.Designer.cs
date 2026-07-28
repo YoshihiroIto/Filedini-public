@@ -1586,15 +1586,6 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Save Session.
-        /// </summary>
-        public static string DialogTitle_SaveSession {
-            get {
-                return ResourceManager.GetString("DialogTitle_SaveSession", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Send feedback to Filedini.
         /// </summary>
         public static string DialogTitle_SendFeedback {
@@ -3063,6 +3054,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Save Session....
+        /// </summary>
+        public static string FileMenu_SaveSession {
+            get {
+                return ResourceManager.GetString("FileMenu_SaveSession", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to _Script.
         /// </summary>
         public static string FileMenu_Script {
@@ -3585,11 +3585,11 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to _Tool.
+        ///   Looks up a localized string similar to _Tools.
         /// </summary>
-        public static string FileMenu_Tool {
+        public static string FileMenu_Tools {
             get {
-                return ResourceManager.GetString("FileMenu_Tool", resourceCulture);
+                return ResourceManager.GetString("FileMenu_Tools", resourceCulture);
             }
         }
         
@@ -7292,11 +7292,11 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Tool.
+        ///   Looks up a localized string similar to Tools.
         /// </summary>
-        public static string Settings_Tool {
+        public static string Settings_Tools {
             get {
-                return ResourceManager.GetString("Settings_Tool", resourceCulture);
+                return ResourceManager.GetString("Settings_Tools", resourceCulture);
             }
         }
         
