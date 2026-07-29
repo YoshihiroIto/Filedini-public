@@ -4250,6 +4250,15 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Label_Edit", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to (Not set).
+        /// </summary>
+        public static string Label_NotSet {
+            get {
+                return ResourceManager.GetString("Label_NotSet", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to Executable Path.

@@ -43,6 +43,9 @@
     <data name="Label_Edit" xml:space="preserve">
         <value>編集</value>
     </data>
+    <data name="Label_NotSet" xml:space="preserve">
+        <value>(未設定)</value>
+    </data>
     <data name="Message_ConfirmDelete" xml:space="preserve">
         <value>{0}
 

@@ -58,6 +58,9 @@ Access denied.</value>
     <data name="Label_Edit" xml:space="preserve">
         <value>Edit</value>
     </data>
+    <data name="Label_NotSet" xml:space="preserve">
+        <value>(Not set)</value>
+    </data>
     <data name="Message_ConfirmDelete" xml:space="preserve">
         <value>{0}
 
