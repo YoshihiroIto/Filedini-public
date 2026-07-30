@@ -4250,15 +4250,6 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Label_Edit", resourceCulture);
             }
         }
-
-        /// <summary>
-        ///   Looks up a localized string similar to (Not set).
-        /// </summary>
-        public static string Label_NotSet {
-            get {
-                return ResourceManager.GetString("Label_NotSet", resourceCulture);
-            }
-        }
         
         /// <summary>
         ///   Looks up a localized string similar to Executable Path.
@@ -4419,6 +4410,15 @@ namespace Filedini.Localization {
         public static string Label_NewName {
             get {
                 return ResourceManager.GetString("Label_NewName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (Not set).
+        /// </summary>
+        public static string Label_NotSet {
+            get {
+                return ResourceManager.GetString("Label_NotSet", resourceCulture);
             }
         }
         
@@ -7475,27 +7475,9 @@ namespace Filedini.Localization {
         /// <summary>
         ///   Looks up a localized string similar to Menu on First Row, Tabs and Buttons on Second Row.
         /// </summary>
-        public static string TabModes_AdaptiveEllipsisTabsAndButtonsOnSecondRow {
-            get {
-                return ResourceManager.GetString("TabModes_AdaptiveEllipsisTabsAndButtonsOnSecondRow", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Menu on First Row, Tabs and Buttons on Second Row (Name Fit).
-        /// </summary>
         public static string TabModes_AdaptiveEllipsisTabsAndButtonsOnSecondRowNameFit {
             get {
                 return ResourceManager.GetString("TabModes_AdaptiveEllipsisTabsAndButtonsOnSecondRowNameFit", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Menu on First Row, Tabs on Second Row.
-        /// </summary>
-        public static string TabModes_AdaptiveEllipsisTabsOnSecondRow {
-            get {
-                return ResourceManager.GetString("TabModes_AdaptiveEllipsisTabsOnSecondRow", resourceCulture);
             }
         }
         
@@ -7518,7 +7500,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Menu on First Row, Tabs on Second Row (Name Fit).
+        ///   Looks up a localized string similar to Menu on First Row, Tabs on Second Row.
         /// </summary>
         public static string TabModes_EllipsisTabsOnSecondRow {
             get {
