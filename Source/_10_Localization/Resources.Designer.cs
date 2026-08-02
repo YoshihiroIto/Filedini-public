@@ -6498,6 +6498,15 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Settings_Label_MarkdownViewerTheme", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Spreadsheet Viewer Theme.
+        /// </summary>
+        public static string Settings_Label_SpreadsheetViewerTheme {
+            get {
+                return ResourceManager.GetString("Settings_Label_SpreadsheetViewerTheme", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to Display Mode #1.
@@ -6991,6 +7000,15 @@ namespace Filedini.Localization {
         public static string Settings_MarkdownViewer {
             get {
                 return ResourceManager.GetString("Settings_MarkdownViewer", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Spreadsheet Viewer.
+        /// </summary>
+        public static string Settings_SpreadsheetViewer {
+            get {
+                return ResourceManager.GetString("Settings_SpreadsheetViewer", resourceCulture);
             }
         }
         

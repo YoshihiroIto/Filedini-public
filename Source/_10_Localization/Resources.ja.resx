@@ -2048,6 +2048,9 @@
     <data name="Settings_Label_MarkdownViewerTheme" xml:space="preserve">
         <value>Markdown ビューワーのテーマ</value>
     </data>
+    <data name="Settings_Label_SpreadsheetViewerTheme" xml:space="preserve">
+        <value>スプレッドシートビューワーのテーマ</value>
+    </data>
     <data name="PreviewThemeModes_AppSetting" xml:space="preserve">
         <value>テーマ設定に追従</value>
     </data>
@@ -2503,5 +2506,8 @@
     </data>
     <data name="Settings_MarkdownViewer" xml:space="preserve">
         <value>Markdown ビューワー</value>
+    </data>
+    <data name="Settings_SpreadsheetViewer" xml:space="preserve">
+        <value>スプレッドシートビューワー</value>
     </data>
 </root>

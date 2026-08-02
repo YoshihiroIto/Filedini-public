@@ -2099,6 +2099,9 @@ Destination:
     <data name="Settings_Label_MarkdownViewerTheme" xml:space="preserve">
         <value>Markdown Viewer Theme</value>
     </data>
+    <data name="Settings_Label_SpreadsheetViewerTheme" xml:space="preserve">
+        <value>Spreadsheet Viewer Theme</value>
+    </data>
     <data name="PreviewThemeModes_AppSetting" xml:space="preserve">
         <value>Use App Setting</value>
     </data>
@@ -2679,5 +2682,8 @@ Please try again later.</value>
     </data>
     <data name="Settings_MarkdownViewer" xml:space="preserve">
         <value>Markdown Viewer</value>
+    </data>
+    <data name="Settings_SpreadsheetViewer" xml:space="preserve">
+        <value>Spreadsheet Viewer</value>
     </data>
 </root>
