@@ -4774,33 +4774,6 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Use App Setting.
-        /// </summary>
-        public static string MarkdownPreviewThemeModes_AppSetting {
-            get {
-                return ResourceManager.GetString("MarkdownPreviewThemeModes_AppSetting", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Dark.
-        /// </summary>
-        public static string MarkdownPreviewThemeModes_Dark {
-            get {
-                return ResourceManager.GetString("MarkdownPreviewThemeModes_Dark", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Light.
-        /// </summary>
-        public static string MarkdownPreviewThemeModes_Light {
-            get {
-                return ResourceManager.GetString("MarkdownPreviewThemeModes_Light", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Save Current....
         /// </summary>
         public static string Menu_SavedSessions_SaveCurrent {
@@ -6091,6 +6064,33 @@ namespace Filedini.Localization {
         public static string Placeholder_SendFeedback {
             get {
                 return ResourceManager.GetString("Placeholder_SendFeedback", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Use App Setting.
+        /// </summary>
+        public static string PreviewThemeModes_AppSetting {
+            get {
+                return ResourceManager.GetString("PreviewThemeModes_AppSetting", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dark.
+        /// </summary>
+        public static string PreviewThemeModes_Dark {
+            get {
+                return ResourceManager.GetString("PreviewThemeModes_Dark", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Light.
+        /// </summary>
+        public static string PreviewThemeModes_Light {
+            get {
+                return ResourceManager.GetString("PreviewThemeModes_Light", resourceCulture);
             }
         }
         

@@ -2099,13 +2099,13 @@ Destination:
     <data name="Settings_Label_MarkdownViewerTheme" xml:space="preserve">
         <value>Markdown Viewer Theme</value>
     </data>
-    <data name="MarkdownPreviewThemeModes_AppSetting" xml:space="preserve">
+    <data name="PreviewThemeModes_AppSetting" xml:space="preserve">
         <value>Use App Setting</value>
     </data>
-    <data name="MarkdownPreviewThemeModes_Light" xml:space="preserve">
+    <data name="PreviewThemeModes_Light" xml:space="preserve">
         <value>Light</value>
     </data>
-    <data name="MarkdownPreviewThemeModes_Dark" xml:space="preserve">
+    <data name="PreviewThemeModes_Dark" xml:space="preserve">
         <value>Dark</value>
     </data>
     <data name="Settings_Label_TerminalTrimTrailingNewLineAndWhitespaceOnPaste" xml:space="preserve">
