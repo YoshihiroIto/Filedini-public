@@ -2686,4 +2686,9 @@ Please try again later.</value>
     <data name="Settings_SpreadsheetViewer" xml:space="preserve">
         <value>Spreadsheet Viewer</value>
     </data>
+    <data name="PortableExecutable_ColumnItem" xml:space="preserve"><value>Item</value></data>
+    <data name="PortableExecutable_ColumnValue" xml:space="preserve"><value>Value</value></data>
+    <data name="PortableExecutable_Run" xml:space="preserve"><value>Run</value></data>
+    <data name="PortableExecutable_RunAsDifferentUser" xml:space="preserve"><value>Run as different user</value></data>
+    <data name="PortableExecutable_RunAsAdministrator" xml:space="preserve"><value>Run as administrator</value></data>
 </root>
