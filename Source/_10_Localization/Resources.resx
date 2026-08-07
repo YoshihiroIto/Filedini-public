@@ -2691,4 +2691,7 @@ Please try again later.</value>
     <data name="PortableExecutable_Run" xml:space="preserve"><value>Run</value></data>
     <data name="PortableExecutable_RunAsDifferentUser" xml:space="preserve"><value>Run as different user</value></data>
     <data name="PortableExecutable_RunAsAdministrator" xml:space="preserve"><value>Run as administrator</value></data>
+    <data name="Settings_Label_RunMode" xml:space="preserve">
+        <value>Run Mode</value>
+    </data>
 </root>

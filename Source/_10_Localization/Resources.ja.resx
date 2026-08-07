@@ -2515,4 +2515,7 @@
     <data name="PortableExecutable_Run" xml:space="preserve"><value>実行する</value></data>
     <data name="PortableExecutable_RunAsDifferentUser" xml:space="preserve"><value>別のユーザーとして実行する</value></data>
     <data name="PortableExecutable_RunAsAdministrator" xml:space="preserve"><value>管理者として実行する</value></data>
+    <data name="Settings_Label_RunMode" xml:space="preserve">
+        <value>実行モード</value>
+    </data>
 </root>

@@ -6068,6 +6068,51 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Item.
+        /// </summary>
+        public static string PortableExecutable_ColumnItem {
+            get {
+                return ResourceManager.GetString("PortableExecutable_ColumnItem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Value.
+        /// </summary>
+        public static string PortableExecutable_ColumnValue {
+            get {
+                return ResourceManager.GetString("PortableExecutable_ColumnValue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Run.
+        /// </summary>
+        public static string PortableExecutable_Run {
+            get {
+                return ResourceManager.GetString("PortableExecutable_Run", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Run as administrator.
+        /// </summary>
+        public static string PortableExecutable_RunAsAdministrator {
+            get {
+                return ResourceManager.GetString("PortableExecutable_RunAsAdministrator", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Run as different user.
+        /// </summary>
+        public static string PortableExecutable_RunAsDifferentUser {
+            get {
+                return ResourceManager.GetString("PortableExecutable_RunAsDifferentUser", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Use App Setting.
         /// </summary>
         public static string PreviewThemeModes_AppSetting {
@@ -6498,15 +6543,6 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Settings_Label_MarkdownViewerTheme", resourceCulture);
             }
         }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Spreadsheet Viewer Theme.
-        /// </summary>
-        public static string Settings_Label_SpreadsheetViewerTheme {
-            get {
-                return ResourceManager.GetString("Settings_Label_SpreadsheetViewerTheme", resourceCulture);
-            }
-        }
         
         /// <summary>
         ///   Looks up a localized string similar to Display Mode #1.
@@ -6716,6 +6752,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Run Mode.
+        /// </summary>
+        public static string Settings_Label_RunMode {
+            get {
+                return ResourceManager.GetString("Settings_Label_RunMode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Saved At.
         /// </summary>
         public static string Settings_Label_SavedAt {
@@ -6784,6 +6829,15 @@ namespace Filedini.Localization {
         public static string Settings_Label_SplitFolderPaneDisplaySwitch {
             get {
                 return ResourceManager.GetString("Settings_Label_SplitFolderPaneDisplaySwitch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Spreadsheet Viewer Theme.
+        /// </summary>
+        public static string Settings_Label_SpreadsheetViewerTheme {
+            get {
+                return ResourceManager.GetString("Settings_Label_SpreadsheetViewerTheme", resourceCulture);
             }
         }
         
@@ -7000,15 +7054,6 @@ namespace Filedini.Localization {
         public static string Settings_MarkdownViewer {
             get {
                 return ResourceManager.GetString("Settings_MarkdownViewer", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Spreadsheet Viewer.
-        /// </summary>
-        public static string Settings_SpreadsheetViewer {
-            get {
-                return ResourceManager.GetString("Settings_SpreadsheetViewer", resourceCulture);
             }
         }
         
@@ -7288,6 +7333,15 @@ namespace Filedini.Localization {
         public static string Settings_Session {
             get {
                 return ResourceManager.GetString("Settings_Session", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Spreadsheet Viewer.
+        /// </summary>
+        public static string Settings_SpreadsheetViewer {
+            get {
+                return ResourceManager.GetString("Settings_SpreadsheetViewer", resourceCulture);
             }
         }
         
