@@ -75,6 +75,9 @@ internal static partial class WindowsNativeMethods
         out IntPtr ppsiItemArray);
 
     [LibraryImport("shell32.dll")]
+    public static partial IntPtr ILCombine(IntPtr pidl1, IntPtr pidl2);
+
+    [LibraryImport("shell32.dll")]
     public static partial uint SHChangeNotifyRegister(IntPtr hWnd, SHCNF fSources, SHCNE fEvents, uint wMsg,
         int cEntries, ref SHChangeNotifyEntry pFsne);
 

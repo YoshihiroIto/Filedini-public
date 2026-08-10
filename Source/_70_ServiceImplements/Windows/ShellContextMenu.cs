@@ -4,6 +4,7 @@ using System.Runtime.InteropServices;
 using Avalonia.Controls;
 using Avalonia.Styling;
 using CommunityToolkit.Diagnostics;
+using Filedini.DomainModel.FileSystem;
 
 // ReSharper disable once CheckNamespace
 namespace Filedini.ServiceImplements.Windows;
@@ -13,14 +14,9 @@ using static ComHelper;
 
 internal sealed class ShellContextMenu
 {
-    public static void Show(TopLevel topLevel, FileInfo[] files, int x, int y)
+    public static void Show(TopLevel topLevel, ShellItemReference[] items, int x, int y)
     {
-        Guard.IsNotEmpty(files);
-
-        var leadFile = files[0];
-        files = leadFile.DirectoryName is null
-            ? files.Where(f => string.Equals(f.FullName, leadFile.FullName, StringComparison.OrdinalIgnoreCase)).ToArray()
-            : files.Where(f => string.Equals(f.DirectoryName, leadFile.DirectoryName, StringComparison.OrdinalIgnoreCase)).ToArray();
+        Guard.IsNotEmpty(items);
 
         var handleOwner = topLevel.TryGetPlatformHandle()?.Handle;
         if (handleOwner is null)
@@ -32,7 +28,7 @@ internal sealed class ShellContextMenu
 
         try
         {
-            if (!TryCreateAbsoluteIdls(files, out idls))
+            if (!TryCreateAbsoluteIdls(items, out idls))
                 return;
 
             if (!TryGetContextMenuInterfaces(idls, out var contextMenu, out var contextMenu2,
@@ -52,7 +48,7 @@ internal sealed class ShellContextMenu
                 menu, TPM.RETURNCMD, x, y, (IntPtr)handleOwner, IntPtr.Zero);
 
             if (selectedIndex >= CMD_FIRST)
-                InvokeCommand(contextMenu, selectedIndex, GetInvokeDirectory(files[0]), x, y);
+                InvokeCommand(contextMenu, selectedIndex, items[0].RootParsingPath, x, y);
         }
         finally
         {
@@ -105,14 +101,13 @@ internal sealed class ShellContextMenu
         return true;
     }
 
-    private static bool TryCreateAbsoluteIdls(FileInfo[] files, out IntPtr[] idls)
+    private static bool TryCreateAbsoluteIdls(ShellItemReference[] items, out IntPtr[] idls)
     {
-        idls = new IntPtr[files.Length];
+        idls = new IntPtr[items.Length];
 
-        for (var i = 0; i != files.Length; ++i)
+        for (var i = 0; i != items.Length; ++i)
         {
-            var result = SHParseDisplayName(files[i].FullName, IntPtr.Zero, out var absoluteIdl, 0, out _);
-            if (result is S_OK)
+            if (ShellItemIdListResolver.TryResolve(items[i], out var absoluteIdl))
             {
                 idls[i] = absoluteIdl;
                 continue;
@@ -124,11 +119,6 @@ internal sealed class ShellContextMenu
         }
 
         return true;
-    }
-
-    private static string GetInvokeDirectory(FileInfo file)
-    {
-        return file.DirectoryName ?? file.FullName;
     }
 
     internal static string GetChildParseDisplayName(FileInfo file)
