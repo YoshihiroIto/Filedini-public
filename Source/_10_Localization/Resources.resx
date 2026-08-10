@@ -349,6 +349,12 @@ The external app is not registered or does not exist.</value>
     <data name="Message_FailedToCreateFolder" xml:space="preserve">
         <value>Failed to create folder.</value>
     </data>
+    <data name="Message_FailedToSetTimestamp" xml:space="preserve">
+        <value>Failed to change the timestamp.</value>
+    </data>
+    <data name="Message_FailedToSetAttributes" xml:space="preserve">
+        <value>Failed to change the attributes.</value>
+    </data>
     <data name="Dialog_Delete" xml:space="preserve">
         <value>_Delete</value>
     </data>

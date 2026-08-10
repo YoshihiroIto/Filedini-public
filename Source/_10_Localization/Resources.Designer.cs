@@ -5550,6 +5550,24 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Message_FailedToSendToTrashCan", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Failed to change the attributes..
+        /// </summary>
+        public static string Message_FailedToSetAttributes {
+            get {
+                return ResourceManager.GetString("Message_FailedToSetAttributes", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Failed to change the timestamp..
+        /// </summary>
+        public static string Message_FailedToSetTimestamp {
+            get {
+                return ResourceManager.GetString("Message_FailedToSetTimestamp", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to Failed to start Python..

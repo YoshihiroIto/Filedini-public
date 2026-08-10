@@ -334,6 +334,12 @@
     <data name="Message_FailedToCreateFolder" xml:space="preserve">
         <value>フォルダー作成に失敗しました。</value>
     </data>
+    <data name="Message_FailedToSetTimestamp" xml:space="preserve">
+        <value>更新日時の変更に失敗しました。</value>
+    </data>
+    <data name="Message_FailedToSetAttributes" xml:space="preserve">
+        <value>属性の変更に失敗しました。</value>
+    </data>
     <data name="Dialog_Delete" xml:space="preserve">
         <value>削除する(_D)</value>
     </data>
