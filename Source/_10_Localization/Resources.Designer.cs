@@ -1595,15 +1595,6 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Trial.
-        /// </summary>
-        public static string DialogTitle_Trial {
-            get {
-                return ResourceManager.GetString("DialogTitle_Trial", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Failed to send feedback.
         ///Please try again later..
         /// </summary>
@@ -5550,7 +5541,7 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Message_FailedToSendToTrashCan", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Failed to change the attributes..
         /// </summary>
@@ -5559,7 +5550,7 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Message_FailedToSetAttributes", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Failed to change the timestamp..
         /// </summary>
@@ -8046,105 +8037,6 @@ namespace Filedini.Localization {
         public static string Trial_Subscribe {
             get {
                 return ResourceManager.GetString("Trial_Subscribe", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Trial Start.
-        /// </summary>
-        public static string Trial_TrialStart {
-            get {
-                return ResourceManager.GetString("Trial_TrialStart", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to ✅ No time restrictions – use the app without limits.
-        /// </summary>
-        public static string TrialExpiredView_Benefit1 {
-            get {
-                return ResourceManager.GetString("TrialExpiredView_Benefit1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to ✅ Access all features without restrictions.
-        /// </summary>
-        public static string TrialExpiredView_Benefit2 {
-            get {
-                return ResourceManager.GetString("TrialExpiredView_Benefit2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to ✅ Receive regular updates and support.
-        /// </summary>
-        public static string TrialExpiredView_Benefit3 {
-            get {
-                return ResourceManager.GetString("TrialExpiredView_Benefit3", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to ✅ Cancel anytime, hassle-free.
-        /// </summary>
-        public static string TrialExpiredView_Benefit4 {
-            get {
-                return ResourceManager.GetString("TrialExpiredView_Benefit4", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 🎉 Subscription Benefits 🎉.
-        /// </summary>
-        public static string TrialExpiredView_BenefitsTitle {
-            get {
-                return ResourceManager.GetString("TrialExpiredView_BenefitsTitle", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Your trial period for this app has ended..
-        /// </summary>
-        public static string TrialExpiredView_Description {
-            get {
-                return ResourceManager.GetString("TrialExpiredView_Description", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to If you have already purchased a subscription, please sign in via the License Manager to continue using the app..
-        /// </summary>
-        public static string TrialExpiredView_SignInInstruction {
-            get {
-                return ResourceManager.GetString("TrialExpiredView_SignInInstruction", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to To continue using the app, you need to subscribe and sign in with a Google account..
-        /// </summary>
-        public static string TrialExpiredView_SubscriptionInfo {
-            get {
-                return ResourceManager.GetString("TrialExpiredView_SubscriptionInfo", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Trial Period Expired.
-        /// </summary>
-        public static string TrialExpiredView_Title {
-            get {
-                return ResourceManager.GetString("TrialExpiredView_Title", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to You can use the trial for 5 minutes after launching the app or for 30 days after your first sign-in..
-        /// </summary>
-        public static string TrialExpiredView_TrialInfo {
-            get {
-                return ResourceManager.GetString("TrialExpiredView_TrialInfo", resourceCulture);
             }
         }
         
