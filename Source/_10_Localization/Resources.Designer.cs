@@ -4759,6 +4759,9 @@ namespace Filedini.Localization {
         public static string License_ErrorTimeout => ResourceManager.GetString("License_ErrorTimeout", resourceCulture);
         public static string License_ErrorNetwork => ResourceManager.GetString("License_ErrorNetwork", resourceCulture);
         public static string License_ErrorUnavailableInBeta => ResourceManager.GetString("License_ErrorUnavailableInBeta", resourceCulture);
+        public static string License_ErrorLicenseKeyFormat => ResourceManager.GetString("License_ErrorLicenseKeyFormat", resourceCulture);
+        public static string License_ErrorProductUnknown => ResourceManager.GetString("License_ErrorProductUnknown", resourceCulture);
+        public static string License_ErrorProductAlreadyActivated => ResourceManager.GetString("License_ErrorProductAlreadyActivated", resourceCulture);
         
         /// <summary>
         ///   Looks up a localized string similar to Billing Information.
