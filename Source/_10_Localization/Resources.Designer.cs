@@ -5949,6 +5949,15 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Message_RestrictedModeFeatureUnavailable", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Restricted Mode.
+        /// </summary>
+        public static string Label_RestrictedMode {
+            get {
+                return ResourceManager.GetString("Label_RestrictedMode", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to To search this folder, enter a keyword..
