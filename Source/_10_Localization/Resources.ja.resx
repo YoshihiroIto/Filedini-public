@@ -1139,17 +1139,11 @@
     <data name="Label_RemainingTrialPeriod" xml:space="preserve">
         <value>残り試用時間</value>
     </data>
-    <data name="Trial_Subscribe" xml:space="preserve">
-        <value>サブスクリプションを購入</value>
-    </data>
     <data name="Trial_Exit" xml:space="preserve">
         <value>終了</value>
     </data>
     <data name="License_CancelSubscription" xml:space="preserve">
         <value>サブスクリプションをキャンセル</value>
-    </data>
-    <data name="License_PurchaseSubscription" xml:space="preserve">
-        <value>サブスクリプションを購入</value>
     </data>
     <data name="License_ChangeOrAddPaymentMethod" xml:space="preserve">
         <value>支払い方法を変更・追加</value>
@@ -2500,8 +2494,8 @@
     <data name="Label_RestrictedMode" xml:space="preserve">
         <value>制限モード</value>
     </data>
-    <data name="UI_Trial_BuyFiledini" xml:space="preserve">
-        <value>Filediniを購入</value>
+    <data name="UI_Trial_BuyLicense" xml:space="preserve">
+        <value>ライセンスを購入</value>
     </data>
     <data name="UI_Trial_EnterLicenseKey" xml:space="preserve">
         <value>ライセンスキーを入力</value>
@@ -2535,7 +2529,7 @@
     <data name="License_ErrorTimeout" xml:space="preserve"><value>ライセンスサーバーへの接続がタイムアウトしました。</value></data>
     <data name="License_ErrorNetwork" xml:space="preserve"><value>インターネット接続を確認して、もう一度お試しください。</value></data>
     <data name="License_ErrorUnavailableInBeta" xml:space="preserve"><value>ベータテスト版ではライセンス認証を利用できません。</value></data>
-    <data name="License_ErrorLicenseKeyFormat" xml:space="preserve"><value>ライセンスキーは FILEDINI-&lt;プロダクトコード&gt;-&lt;GUID&gt; の形式で入力してください。</value></data>
+    <data name="License_ErrorLicenseKeyFormat" xml:space="preserve"><value>無効な入力です</value></data>
     <data name="License_ErrorProductUnknown" xml:space="preserve"><value>このライセンスのプロダクトは、このバージョンの Filedini では利用できません。</value></data>
     <data name="License_ErrorProductAlreadyActivated" xml:space="preserve"><value>このPCでは同じプロダクトのライセンスがすでに認証されています。別のキーを追加する前に認証を解除してください。</value></data>
 </root>

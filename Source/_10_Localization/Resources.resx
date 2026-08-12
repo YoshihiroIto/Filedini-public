@@ -1159,17 +1159,11 @@ Empty file.</value>
     <data name="Label_RemainingTrialPeriod" xml:space="preserve">
         <value>Trial Ends In</value>
     </data>
-    <data name="Trial_Subscribe" xml:space="preserve">
-        <value>Subscribe Now</value>
-    </data>
     <data name="Trial_Exit" xml:space="preserve">
         <value>Exit</value>
     </data>
     <data name="License_CancelSubscription" xml:space="preserve">
         <value>Cancel Subscription</value>
-    </data>
-    <data name="License_PurchaseSubscription" xml:space="preserve">
-        <value>Purchase Subscription</value>
     </data>
     <data name="License_ChangeOrAddPaymentMethod" xml:space="preserve">
         <value>Change or Add Payment Method</value>
@@ -2676,8 +2670,8 @@ Please try again later.</value>
     <data name="Label_RestrictedMode" xml:space="preserve">
         <value>Restricted Mode</value>
     </data>
-    <data name="UI_Trial_BuyFiledini" xml:space="preserve">
-        <value>Purchase Filedini</value>
+    <data name="UI_Trial_BuyLicense" xml:space="preserve">
+        <value>Purchase License</value>
     </data>
     <data name="UI_Trial_EnterLicenseKey" xml:space="preserve">
         <value>Enter License Key</value>
@@ -2711,7 +2705,7 @@ Please try again later.</value>
     <data name="License_ErrorTimeout" xml:space="preserve"><value>The connection to the license server timed out.</value></data>
     <data name="License_ErrorNetwork" xml:space="preserve"><value>Check your internet connection and try again.</value></data>
     <data name="License_ErrorUnavailableInBeta" xml:space="preserve"><value>License activation is unavailable in the beta build.</value></data>
-    <data name="License_ErrorLicenseKeyFormat" xml:space="preserve"><value>Enter a license key in the FILEDINI-&lt;product code&gt;-&lt;GUID&gt; format.</value></data>
+    <data name="License_ErrorLicenseKeyFormat" xml:space="preserve"><value>Invalid input.</value></data>
     <data name="License_ErrorProductUnknown" xml:space="preserve"><value>This license product is not supported by this version of Filedini.</value></data>
     <data name="License_ErrorProductAlreadyActivated" xml:space="preserve"><value>A license for this product is already activated on this PC. Deactivate it before adding another key.</value></data>
 </root>

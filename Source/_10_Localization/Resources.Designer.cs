@@ -4594,6 +4594,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Restricted Mode.
+        /// </summary>
+        public static string Label_RestrictedMode {
+            get {
+                return ResourceManager.GetString("Label_RestrictedMode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Script File.
         /// </summary>
         public static string Label_ScriptFilePath {
@@ -4729,6 +4738,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Activate.
+        /// </summary>
+        public static string License_Activate {
+            get {
+                return ResourceManager.GetString("License_Activate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Cancel Subscription.
         /// </summary>
         public static string License_CancelSubscription {
@@ -4736,33 +4754,6 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("License_CancelSubscription", resourceCulture);
             }
         }
-
-        public static string License_LicenseKey => ResourceManager.GetString("License_LicenseKey", resourceCulture);
-        public static string License_Activate => ResourceManager.GetString("License_Activate", resourceCulture);
-        public static string License_Status => ResourceManager.GetString("License_Status", resourceCulture);
-        public static string License_StatusGranted => ResourceManager.GetString("License_StatusGranted", resourceCulture);
-        public static string License_IssuedAt => ResourceManager.GetString("License_IssuedAt", resourceCulture);
-        public static string License_ExpiresAt => ResourceManager.GetString("License_ExpiresAt", resourceCulture);
-        public static string License_Device => ResourceManager.GetString("License_Device", resourceCulture);
-        public static string License_LastChecked => ResourceManager.GetString("License_LastChecked", resourceCulture);
-        public static string License_DeactivateThisPc => ResourceManager.GetString("License_DeactivateThisPc", resourceCulture);
-        public static string License_OpenCustomerPortal => ResourceManager.GetString("License_OpenCustomerPortal", resourceCulture);
-        public static string License_ErrorLocalStateUnavailable => ResourceManager.GetString("License_ErrorLocalStateUnavailable", resourceCulture);
-        public static string License_ErrorLicenseKeyRequired => ResourceManager.GetString("License_ErrorLicenseKeyRequired", resourceCulture);
-        public static string License_ErrorConfigurationRequired => ResourceManager.GetString("License_ErrorConfigurationRequired", resourceCulture);
-        public static string License_ErrorNoActivation => ResourceManager.GetString("License_ErrorNoActivation", resourceCulture);
-        public static string License_ErrorOfflineGracePeriod => ResourceManager.GetString("License_ErrorOfflineGracePeriod", resourceCulture);
-        public static string License_ErrorOnlineValidationRequired => ResourceManager.GetString("License_ErrorOnlineValidationRequired", resourceCulture);
-        public static string License_ErrorLicenseKeyNotFound => ResourceManager.GetString("License_ErrorLicenseKeyNotFound", resourceCulture);
-        public static string License_ErrorLicenseNotAuthorized => ResourceManager.GetString("License_ErrorLicenseNotAuthorized", resourceCulture);
-        public static string License_ErrorActivationInvalid => ResourceManager.GetString("License_ErrorActivationInvalid", resourceCulture);
-        public static string License_ErrorTooManyRequests => ResourceManager.GetString("License_ErrorTooManyRequests", resourceCulture);
-        public static string License_ErrorTimeout => ResourceManager.GetString("License_ErrorTimeout", resourceCulture);
-        public static string License_ErrorNetwork => ResourceManager.GetString("License_ErrorNetwork", resourceCulture);
-        public static string License_ErrorUnavailableInBeta => ResourceManager.GetString("License_ErrorUnavailableInBeta", resourceCulture);
-        public static string License_ErrorLicenseKeyFormat => ResourceManager.GetString("License_ErrorLicenseKeyFormat", resourceCulture);
-        public static string License_ErrorProductUnknown => ResourceManager.GetString("License_ErrorProductUnknown", resourceCulture);
-        public static string License_ErrorProductAlreadyActivated => ResourceManager.GetString("License_ErrorProductAlreadyActivated", resourceCulture);
         
         /// <summary>
         ///   Looks up a localized string similar to Billing Information.
@@ -4783,6 +4774,177 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Deactivate this PC.
+        /// </summary>
+        public static string License_DeactivateThisPc {
+            get {
+                return ResourceManager.GetString("License_DeactivateThisPc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This device.
+        /// </summary>
+        public static string License_Device {
+            get {
+                return ResourceManager.GetString("License_Device", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The activation information could not be verified..
+        /// </summary>
+        public static string License_ErrorActivationInvalid {
+            get {
+                return ResourceManager.GetString("License_ErrorActivationInvalid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Polar license settings have not been configured yet..
+        /// </summary>
+        public static string License_ErrorConfigurationRequired {
+            get {
+                return ResourceManager.GetString("License_ErrorConfigurationRequired", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Invalid input..
+        /// </summary>
+        public static string License_ErrorLicenseKeyFormat {
+            get {
+                return ResourceManager.GetString("License_ErrorLicenseKeyFormat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The license key could not be found..
+        /// </summary>
+        public static string License_ErrorLicenseKeyNotFound {
+            get {
+                return ResourceManager.GetString("License_ErrorLicenseKeyNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter a license key..
+        /// </summary>
+        public static string License_ErrorLicenseKeyRequired {
+            get {
+                return ResourceManager.GetString("License_ErrorLicenseKeyRequired", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This license cannot be activated..
+        /// </summary>
+        public static string License_ErrorLicenseNotAuthorized {
+            get {
+                return ResourceManager.GetString("License_ErrorLicenseNotAuthorized", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This PC&apos;s license information could not be verified. Activate again with your license key..
+        /// </summary>
+        public static string License_ErrorLocalStateUnavailable {
+            get {
+                return ResourceManager.GetString("License_ErrorLocalStateUnavailable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Check your internet connection and try again..
+        /// </summary>
+        public static string License_ErrorNetwork {
+            get {
+                return ResourceManager.GetString("License_ErrorNetwork", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This PC has no activation information..
+        /// </summary>
+        public static string License_ErrorNoActivation {
+            get {
+                return ResourceManager.GetString("License_ErrorNoActivation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Could not connect to the license server. You can continue using the app for 14 days after the last successful check..
+        /// </summary>
+        public static string License_ErrorOfflineGracePeriod {
+            get {
+                return ResourceManager.GetString("License_ErrorOfflineGracePeriod", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Could not verify your license online. Check your internet connection..
+        /// </summary>
+        public static string License_ErrorOnlineValidationRequired {
+            get {
+                return ResourceManager.GetString("License_ErrorOnlineValidationRequired", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to A license for this product is already activated on this PC. Deactivate it before adding another key..
+        /// </summary>
+        public static string License_ErrorProductAlreadyActivated {
+            get {
+                return ResourceManager.GetString("License_ErrorProductAlreadyActivated", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This license product is not supported by this version of Filedini..
+        /// </summary>
+        public static string License_ErrorProductUnknown {
+            get {
+                return ResourceManager.GetString("License_ErrorProductUnknown", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The connection to the license server timed out..
+        /// </summary>
+        public static string License_ErrorTimeout {
+            get {
+                return ResourceManager.GetString("License_ErrorTimeout", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The license server is busy. Please try again shortly..
+        /// </summary>
+        public static string License_ErrorTooManyRequests {
+            get {
+                return ResourceManager.GetString("License_ErrorTooManyRequests", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to License activation is unavailable in the beta build..
+        /// </summary>
+        public static string License_ErrorUnavailableInBeta {
+            get {
+                return ResourceManager.GetString("License_ErrorUnavailableInBeta", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Expires.
+        /// </summary>
+        public static string License_ExpiresAt {
+            get {
+                return ResourceManager.GetString("License_ExpiresAt", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Invoice History.
         /// </summary>
         public static string License_InvoiceHistory {
@@ -4792,11 +4954,56 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Purchase Subscription.
+        ///   Looks up a localized string similar to License issued.
         /// </summary>
-        public static string License_PurchaseSubscription {
+        public static string License_IssuedAt {
             get {
-                return ResourceManager.GetString("License_PurchaseSubscription", resourceCulture);
+                return ResourceManager.GetString("License_IssuedAt", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Last checked.
+        /// </summary>
+        public static string License_LastChecked {
+            get {
+                return ResourceManager.GetString("License_LastChecked", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to License Key.
+        /// </summary>
+        public static string License_LicenseKey {
+            get {
+                return ResourceManager.GetString("License_LicenseKey", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open Customer Portal.
+        /// </summary>
+        public static string License_OpenCustomerPortal {
+            get {
+                return ResourceManager.GetString("License_OpenCustomerPortal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Status.
+        /// </summary>
+        public static string License_Status {
+            get {
+                return ResourceManager.GetString("License_Status", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Granted.
+        /// </summary>
+        public static string License_StatusGranted {
+            get {
+                return ResourceManager.GetString("License_StatusGranted", resourceCulture);
             }
         }
         
@@ -5848,6 +6055,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to This feature cannot be used while Restricted Mode is active..
+        /// </summary>
+        public static string Message_RestrictedModeFeatureUnavailable {
+            get {
+                return ResourceManager.GetString("Message_RestrictedModeFeatureUnavailable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to {0} with same name exists.
         ///
         ///`{1}’.
@@ -5965,24 +6181,6 @@ namespace Filedini.Localization {
         public static string Message_TrialPeriodHasExpired {
             get {
                 return ResourceManager.GetString("Message_TrialPeriodHasExpired", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to This feature cannot be used while Restricted Mode is active..
-        /// </summary>
-        public static string Message_RestrictedModeFeatureUnavailable {
-            get {
-                return ResourceManager.GetString("Message_RestrictedModeFeatureUnavailable", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Restricted Mode.
-        /// </summary>
-        public static string Label_RestrictedMode {
-            get {
-                return ResourceManager.GetString("Label_RestrictedMode", resourceCulture);
             }
         }
         
@@ -8104,15 +8302,6 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Subscribe Now.
-        /// </summary>
-        public static string Trial_Subscribe {
-            get {
-                return ResourceManager.GetString("Trial_Subscribe", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to _Bookmark.
         /// </summary>
         public static string UI_Bookmark {
@@ -8302,11 +8491,11 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Purchase Filedini.
+        ///   Looks up a localized string similar to Purchase License.
         /// </summary>
-        public static string UI_Trial_BuyFiledini {
+        public static string UI_Trial_BuyLicense {
             get {
-                return ResourceManager.GetString("UI_Trial_BuyFiledini", resourceCulture);
+                return ResourceManager.GetString("UI_Trial_BuyLicense", resourceCulture);
             }
         }
         
