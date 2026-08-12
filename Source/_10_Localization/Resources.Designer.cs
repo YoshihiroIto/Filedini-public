@@ -4747,6 +4747,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Activated licenses.
+        /// </summary>
+        public static string License_ActivatedLicenses {
+            get {
+                return ResourceManager.GetString("License_ActivatedLicenses", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Cancel Subscription.
         /// </summary>
         public static string License_CancelSubscription {
@@ -4774,7 +4783,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Deactivate this PC.
+        ///   Looks up a localized string similar to Deactivate.
         /// </summary>
         public static string License_DeactivateThisPc {
             get {
@@ -4797,6 +4806,15 @@ namespace Filedini.Localization {
         public static string License_ErrorActivationInvalid {
             get {
                 return ResourceManager.GetString("License_ErrorActivationInvalid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The activation limit has been reached. Deactivate a device from License Manager or the Customer Portal, then try again..
+        /// </summary>
+        public static string License_ErrorActivationLimitReached {
+            get {
+                return ResourceManager.GetString("License_ErrorActivationLimitReached", resourceCulture);
             }
         }
         
@@ -4986,6 +5004,15 @@ namespace Filedini.Localization {
         public static string License_OpenCustomerPortal {
             get {
                 return ResourceManager.GetString("License_OpenCustomerPortal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Refresh license information.
+        /// </summary>
+        public static string License_Refresh {
+            get {
+                return ResourceManager.GetString("License_Refresh", resourceCulture);
             }
         }
         
@@ -8491,7 +8518,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Purchase License.
+        ///   Looks up a localized string similar to Purchase.
         /// </summary>
         public static string UI_Trial_BuyLicense {
             get {

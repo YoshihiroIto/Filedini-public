@@ -2671,7 +2671,7 @@ Please try again later.</value>
         <value>Restricted Mode</value>
     </data>
     <data name="UI_Trial_BuyLicense" xml:space="preserve">
-        <value>Purchase License</value>
+        <value>Purchase</value>
     </data>
     <data name="UI_Trial_EnterLicenseKey" xml:space="preserve">
         <value>Enter License Key</value>
@@ -2684,13 +2684,15 @@ Please try again later.</value>
     </data>
     <data name="License_LicenseKey" xml:space="preserve"><value>License Key</value></data>
     <data name="License_Activate" xml:space="preserve"><value>Activate</value></data>
+    <data name="License_ActivatedLicenses" xml:space="preserve"><value>Activated licenses</value></data>
     <data name="License_Status" xml:space="preserve"><value>Status</value></data>
     <data name="License_StatusGranted" xml:space="preserve"><value>Granted</value></data>
     <data name="License_IssuedAt" xml:space="preserve"><value>License issued</value></data>
     <data name="License_ExpiresAt" xml:space="preserve"><value>Expires</value></data>
     <data name="License_Device" xml:space="preserve"><value>This device</value></data>
     <data name="License_LastChecked" xml:space="preserve"><value>Last checked</value></data>
-    <data name="License_DeactivateThisPc" xml:space="preserve"><value>Deactivate this PC</value></data>
+    <data name="License_Refresh" xml:space="preserve"><value>Refresh license information</value></data>
+    <data name="License_DeactivateThisPc" xml:space="preserve"><value>Deactivate</value></data>
     <data name="License_OpenCustomerPortal" xml:space="preserve"><value>Open Customer Portal</value></data>
     <data name="License_ErrorLocalStateUnavailable" xml:space="preserve"><value>This PC's license information could not be verified. Activate again with your license key.</value></data>
     <data name="License_ErrorLicenseKeyRequired" xml:space="preserve"><value>Enter a license key.</value></data>
@@ -2701,6 +2703,7 @@ Please try again later.</value>
     <data name="License_ErrorLicenseKeyNotFound" xml:space="preserve"><value>The license key could not be found.</value></data>
     <data name="License_ErrorLicenseNotAuthorized" xml:space="preserve"><value>This license cannot be activated.</value></data>
     <data name="License_ErrorActivationInvalid" xml:space="preserve"><value>The activation information could not be verified.</value></data>
+    <data name="License_ErrorActivationLimitReached" xml:space="preserve"><value>The activation limit has been reached. Deactivate a device from License Manager or the Customer Portal, then try again.</value></data>
     <data name="License_ErrorTooManyRequests" xml:space="preserve"><value>The license server is busy. Please try again shortly.</value></data>
     <data name="License_ErrorTimeout" xml:space="preserve"><value>The connection to the license server timed out.</value></data>
     <data name="License_ErrorNetwork" xml:space="preserve"><value>Check your internet connection and try again.</value></data>
