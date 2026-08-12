@@ -4745,6 +4745,15 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("License_Activate", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to License activated successfully.
+        /// </summary>
+        public static string License_ActivationSucceeded {
+            get {
+                return ResourceManager.GetString("License_ActivationSucceeded", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to Activated licenses.

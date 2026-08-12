@@ -2498,7 +2498,7 @@
         <value>ライセンスを購入...</value>
     </data>
     <data name="UI_Trial_EnterLicenseKey" xml:space="preserve">
-        <value>ライセンスキーを入力</value>
+        <value>ライセンスキーを入力...</value>
     </data>
     <data name="UI_Trial_ContinueInRestrictedMode" xml:space="preserve">
         <value>制限モードで続ける</value>
@@ -2508,6 +2508,7 @@
     </data>
     <data name="License_LicenseKey" xml:space="preserve"><value>ライセンスキー</value></data>
     <data name="License_Activate" xml:space="preserve"><value>認証</value></data>
+    <data name="License_ActivationSucceeded" xml:space="preserve"><value>ライセンスを認証しました。</value></data>
     <data name="License_ActivatedLicenses" xml:space="preserve"><value>認証済みライセンス</value></data>
     <data name="License_Status" xml:space="preserve"><value>状態</value></data>
     <data name="License_StatusGranted" xml:space="preserve"><value>有効</value></data>

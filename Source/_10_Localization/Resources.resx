@@ -2684,6 +2684,7 @@ Please try again later.</value>
     </data>
     <data name="License_LicenseKey" xml:space="preserve"><value>License Key</value></data>
     <data name="License_Activate" xml:space="preserve"><value>Activate</value></data>
+    <data name="License_ActivationSucceeded" xml:space="preserve"><value>License activated successfully.</value></data>
     <data name="License_ActivatedLicenses" xml:space="preserve"><value>Activated licenses</value></data>
     <data name="License_Status" xml:space="preserve"><value>Status</value></data>
     <data name="License_StatusGranted" xml:space="preserve"><value>Granted</value></data>
