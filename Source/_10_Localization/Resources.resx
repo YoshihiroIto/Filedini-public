@@ -2679,4 +2679,7 @@ Please try again later.</value>
     <data name="UI_Trial_ContinueInRestrictedMode" xml:space="preserve">
         <value>Continue in Restricted Mode</value>
     </data>
+    <data name="Message_EnterLicenseKey" xml:space="preserve">
+        <value>Enter License Key</value>
+    </data>
 </root>

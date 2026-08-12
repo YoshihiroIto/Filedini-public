@@ -2503,4 +2503,7 @@
     <data name="UI_Trial_ContinueInRestrictedMode" xml:space="preserve">
         <value>制限モードで続ける</value>
     </data>
+    <data name="Message_EnterLicenseKey" xml:space="preserve">
+        <value>ライセンスキーを入力してください</value>
+    </data>
 </root>

@@ -5394,6 +5394,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Enter License Key.
+        /// </summary>
+        public static string Message_EnterLicenseKey {
+            get {
+                return ResourceManager.GetString("Message_EnterLicenseKey", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Enter new session name.
         /// </summary>
         public static string Message_EnterNewSessionName {
