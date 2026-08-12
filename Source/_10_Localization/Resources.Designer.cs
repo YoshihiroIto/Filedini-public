@@ -5940,6 +5940,15 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Message_TrialPeriodHasExpired", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to This feature cannot be used while Restricted Mode is active..
+        /// </summary>
+        public static string Message_RestrictedModeFeatureUnavailable {
+            get {
+                return ResourceManager.GetString("Message_RestrictedModeFeatureUnavailable", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to To search this folder, enter a keyword..

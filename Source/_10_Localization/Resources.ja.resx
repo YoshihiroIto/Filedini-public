@@ -2494,6 +2494,9 @@
     <data name="Message_TrialPeriodHasExpired" xml:space="preserve">
         <value>試用時間が終了しました。</value>
     </data>
+    <data name="Message_RestrictedModeFeatureUnavailable" xml:space="preserve">
+        <value>この機能は制限モード中のため実行できません。</value>
+    </data>
     <data name="UI_Trial_BuyFiledini" xml:space="preserve">
         <value>Filediniを購入</value>
     </data>
