@@ -1137,7 +1137,7 @@
         <value>リンク対象</value>
     </data>
     <data name="Label_RemainingTrialPeriod" xml:space="preserve">
-        <value>残りトライアル期間</value>
+        <value>残り試用時間</value>
     </data>
     <data name="Trial_Subscribe" xml:space="preserve">
         <value>サブスクリプションを購入</value>
@@ -2487,5 +2487,20 @@
     <data name="PortableExecutable_RunAsAdministrator" xml:space="preserve"><value>管理者として実行する</value></data>
     <data name="Settings_Label_RunMode" xml:space="preserve">
         <value>実行方法</value>
+    </data>
+    <data name="Dialog_Title_FilediniLicenseStatus" xml:space="preserve">
+        <value>Filedini ライセンス状態</value>
+    </data>
+    <data name="Message_TrialPeriodHasExpired" xml:space="preserve">
+        <value>試用時間が終了しました。</value>
+    </data>
+    <data name="UI_Trial_BuyFiledini" xml:space="preserve">
+        <value>Filediniを購入</value>
+    </data>
+    <data name="UI_Trial_EnterLicenseKey" xml:space="preserve">
+        <value>ライセンスキーを入力</value>
+    </data>
+    <data name="UI_Trial_ContinueInRestrictedMode" xml:space="preserve">
+        <value>制限モードで続ける</value>
     </data>
 </root>

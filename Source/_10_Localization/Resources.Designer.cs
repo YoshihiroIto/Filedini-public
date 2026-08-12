@@ -1473,6 +1473,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Filedini License Status.
+        /// </summary>
+        public static string Dialog_Title_FilediniLicenseStatus {
+            get {
+                return ResourceManager.GetString("Dialog_Title_FilediniLicenseStatus", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Select Font.
         /// </summary>
         public static string Dialog_Title_SelectFont {
@@ -5915,6 +5924,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Trial period has expired..
+        /// </summary>
+        public static string Message_TrialPeriodHasExpired {
+            get {
+                return ResourceManager.GetString("Message_TrialPeriodHasExpired", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to To search this folder, enter a keyword..
         /// </summary>
         public static string Message_TypeSearchQueryToFindInFiles {
@@ -8226,6 +8244,33 @@ namespace Filedini.Localization {
         public static string UI_Today {
             get {
                 return ResourceManager.GetString("UI_Today", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Purchase Filedini.
+        /// </summary>
+        public static string UI_Trial_BuyFiledini {
+            get {
+                return ResourceManager.GetString("UI_Trial_BuyFiledini", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Continue in Restricted Mode.
+        /// </summary>
+        public static string UI_Trial_ContinueInRestrictedMode {
+            get {
+                return ResourceManager.GetString("UI_Trial_ContinueInRestrictedMode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter License Key.
+        /// </summary>
+        public static string UI_Trial_EnterLicenseKey {
+            get {
+                return ResourceManager.GetString("UI_Trial_EnterLicenseKey", resourceCulture);
             }
         }
         

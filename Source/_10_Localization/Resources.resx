@@ -2664,4 +2664,19 @@ Please try again later.</value>
     <data name="Settings_Label_RunMode" xml:space="preserve">
         <value>Run Mode</value>
     </data>
+    <data name="Dialog_Title_FilediniLicenseStatus" xml:space="preserve">
+        <value>Filedini License Status</value>
+    </data>
+    <data name="Message_TrialPeriodHasExpired" xml:space="preserve">
+        <value>Trial period has expired.</value>
+    </data>
+    <data name="UI_Trial_BuyFiledini" xml:space="preserve">
+        <value>Purchase Filedini</value>
+    </data>
+    <data name="UI_Trial_EnterLicenseKey" xml:space="preserve">
+        <value>Enter License Key</value>
+    </data>
+    <data name="UI_Trial_ContinueInRestrictedMode" xml:space="preserve">
+        <value>Continue in Restricted Mode</value>
+    </data>
 </root>
