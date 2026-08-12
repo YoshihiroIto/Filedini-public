@@ -4736,6 +4736,29 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("License_CancelSubscription", resourceCulture);
             }
         }
+
+        public static string License_LicenseKey => ResourceManager.GetString("License_LicenseKey", resourceCulture);
+        public static string License_Activate => ResourceManager.GetString("License_Activate", resourceCulture);
+        public static string License_Status => ResourceManager.GetString("License_Status", resourceCulture);
+        public static string License_IssuedAt => ResourceManager.GetString("License_IssuedAt", resourceCulture);
+        public static string License_ExpiresAt => ResourceManager.GetString("License_ExpiresAt", resourceCulture);
+        public static string License_Device => ResourceManager.GetString("License_Device", resourceCulture);
+        public static string License_LastChecked => ResourceManager.GetString("License_LastChecked", resourceCulture);
+        public static string License_DeactivateThisPc => ResourceManager.GetString("License_DeactivateThisPc", resourceCulture);
+        public static string License_OpenCustomerPortal => ResourceManager.GetString("License_OpenCustomerPortal", resourceCulture);
+        public static string License_ErrorLocalStateUnavailable => ResourceManager.GetString("License_ErrorLocalStateUnavailable", resourceCulture);
+        public static string License_ErrorLicenseKeyRequired => ResourceManager.GetString("License_ErrorLicenseKeyRequired", resourceCulture);
+        public static string License_ErrorConfigurationRequired => ResourceManager.GetString("License_ErrorConfigurationRequired", resourceCulture);
+        public static string License_ErrorNoActivation => ResourceManager.GetString("License_ErrorNoActivation", resourceCulture);
+        public static string License_ErrorOfflineGracePeriod => ResourceManager.GetString("License_ErrorOfflineGracePeriod", resourceCulture);
+        public static string License_ErrorOnlineValidationRequired => ResourceManager.GetString("License_ErrorOnlineValidationRequired", resourceCulture);
+        public static string License_ErrorLicenseKeyNotFound => ResourceManager.GetString("License_ErrorLicenseKeyNotFound", resourceCulture);
+        public static string License_ErrorLicenseNotAuthorized => ResourceManager.GetString("License_ErrorLicenseNotAuthorized", resourceCulture);
+        public static string License_ErrorActivationInvalid => ResourceManager.GetString("License_ErrorActivationInvalid", resourceCulture);
+        public static string License_ErrorTooManyRequests => ResourceManager.GetString("License_ErrorTooManyRequests", resourceCulture);
+        public static string License_ErrorTimeout => ResourceManager.GetString("License_ErrorTimeout", resourceCulture);
+        public static string License_ErrorNetwork => ResourceManager.GetString("License_ErrorNetwork", resourceCulture);
+        public static string License_ErrorUnavailableInBeta => ResourceManager.GetString("License_ErrorUnavailableInBeta", resourceCulture);
         
         /// <summary>
         ///   Looks up a localized string similar to Billing Information.

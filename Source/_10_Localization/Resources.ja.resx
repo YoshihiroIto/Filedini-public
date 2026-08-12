@@ -2512,4 +2512,26 @@
     <data name="Message_EnterLicenseKey" xml:space="preserve">
         <value>ライセンスキーを入力してください</value>
     </data>
+    <data name="License_LicenseKey" xml:space="preserve"><value>ライセンスキー</value></data>
+    <data name="License_Activate" xml:space="preserve"><value>ライセンス認証</value></data>
+    <data name="License_Status" xml:space="preserve"><value>状態</value></data>
+    <data name="License_IssuedAt" xml:space="preserve"><value>ライセンス発行日</value></data>
+    <data name="License_ExpiresAt" xml:space="preserve"><value>有効期限</value></data>
+    <data name="License_Device" xml:space="preserve"><value>このPC</value></data>
+    <data name="License_LastChecked" xml:space="preserve"><value>最終確認</value></data>
+    <data name="License_DeactivateThisPc" xml:space="preserve"><value>このPCの認証を解除</value></data>
+    <data name="License_OpenCustomerPortal" xml:space="preserve"><value>購入情報・認証を管理</value></data>
+    <data name="License_ErrorLocalStateUnavailable" xml:space="preserve"><value>このPCのライセンス情報を確認できませんでした。ライセンスキーで再認証してください。</value></data>
+    <data name="License_ErrorLicenseKeyRequired" xml:space="preserve"><value>ライセンスキーを入力してください。</value></data>
+    <data name="License_ErrorConfigurationRequired" xml:space="preserve"><value>Polar ライセンス設定がまだ完了していません。</value></data>
+    <data name="License_ErrorNoActivation" xml:space="preserve"><value>このPCの認証情報はありません。</value></data>
+    <data name="License_ErrorOfflineGracePeriod" xml:space="preserve"><value>ライセンスサーバーに接続できません。前回確認から14日間は利用を継続できます。</value></data>
+    <data name="License_ErrorOnlineValidationRequired" xml:space="preserve"><value>ライセンスをオンラインで確認できませんでした。インターネット接続を確認してください。</value></data>
+    <data name="License_ErrorLicenseKeyNotFound" xml:space="preserve"><value>ライセンスキーを確認できませんでした。</value></data>
+    <data name="License_ErrorLicenseNotAuthorized" xml:space="preserve"><value>このライセンスは認証できません。</value></data>
+    <data name="License_ErrorActivationInvalid" xml:space="preserve"><value>認証情報を確認できませんでした。</value></data>
+    <data name="License_ErrorTooManyRequests" xml:space="preserve"><value>ライセンスサーバーへのアクセスが集中しています。しばらくしてから再試行してください。</value></data>
+    <data name="License_ErrorTimeout" xml:space="preserve"><value>ライセンスサーバーへの接続がタイムアウトしました。</value></data>
+    <data name="License_ErrorNetwork" xml:space="preserve"><value>インターネット接続を確認して、もう一度お試しください。</value></data>
+    <data name="License_ErrorUnavailableInBeta" xml:space="preserve"><value>ベータテスト版ではライセンス認証を利用できません。</value></data>
 </root>
