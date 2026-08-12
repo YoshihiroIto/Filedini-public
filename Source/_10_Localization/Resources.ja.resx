@@ -2495,7 +2495,7 @@
         <value>制限モード</value>
     </data>
     <data name="UI_Trial_BuyLicense" xml:space="preserve">
-        <value>購入</value>
+        <value>ライセンスを購入...</value>
     </data>
     <data name="UI_Trial_EnterLicenseKey" xml:space="preserve">
         <value>ライセンスキーを入力</value>
@@ -2517,7 +2517,7 @@
     <data name="License_LastChecked" xml:space="preserve"><value>最終確認</value></data>
     <data name="License_Refresh" xml:space="preserve"><value>ライセンス情報を更新</value></data>
     <data name="License_DeactivateThisPc" xml:space="preserve"><value>この認証を解除</value></data>
-    <data name="License_OpenCustomerPortal" xml:space="preserve"><value>カスタマーポータルを開く</value></data>
+    <data name="License_OpenCustomerPortal" xml:space="preserve"><value>購入情報を管理...</value></data>
     <data name="License_ErrorLocalStateUnavailable" xml:space="preserve"><value>このPCのライセンス情報を確認できませんでした。ライセンスキーで再認証してください。</value></data>
     <data name="License_ErrorLicenseKeyRequired" xml:space="preserve"><value>ライセンスキーを入力してください。</value></data>
     <data name="License_ErrorConfigurationRequired" xml:space="preserve"><value>Polar ライセンス設定がまだ完了していません。</value></data>

@@ -4999,7 +4999,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Open Customer Portal.
+        ///   Looks up a localized string similar to Open Customer Portal....
         /// </summary>
         public static string License_OpenCustomerPortal {
             get {
@@ -8518,7 +8518,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Purchase.
+        ///   Looks up a localized string similar to Purchase License....
         /// </summary>
         public static string UI_Trial_BuyLicense {
             get {
