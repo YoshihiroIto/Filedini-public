@@ -4740,6 +4740,7 @@ namespace Filedini.Localization {
         public static string License_LicenseKey => ResourceManager.GetString("License_LicenseKey", resourceCulture);
         public static string License_Activate => ResourceManager.GetString("License_Activate", resourceCulture);
         public static string License_Status => ResourceManager.GetString("License_Status", resourceCulture);
+        public static string License_StatusGranted => ResourceManager.GetString("License_StatusGranted", resourceCulture);
         public static string License_IssuedAt => ResourceManager.GetString("License_IssuedAt", resourceCulture);
         public static string License_ExpiresAt => ResourceManager.GetString("License_ExpiresAt", resourceCulture);
         public static string License_Device => ResourceManager.GetString("License_Device", resourceCulture);

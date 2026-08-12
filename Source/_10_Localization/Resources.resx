@@ -2691,6 +2691,7 @@ Please try again later.</value>
     <data name="License_LicenseKey" xml:space="preserve"><value>License Key</value></data>
     <data name="License_Activate" xml:space="preserve"><value>Activate</value></data>
     <data name="License_Status" xml:space="preserve"><value>Status</value></data>
+    <data name="License_StatusGranted" xml:space="preserve"><value>Granted</value></data>
     <data name="License_IssuedAt" xml:space="preserve"><value>License issued</value></data>
     <data name="License_ExpiresAt" xml:space="preserve"><value>Expires</value></data>
     <data name="License_Device" xml:space="preserve"><value>This device</value></data>
