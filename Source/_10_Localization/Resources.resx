@@ -2703,7 +2703,7 @@ Please try again later.</value>
     <data name="License_ErrorOnlineValidationRequired" xml:space="preserve"><value>Could not verify your license online. Check your internet connection.</value></data>
     <data name="License_ErrorLicenseKeyNotFound" xml:space="preserve"><value>The license key could not be found.</value></data>
     <data name="License_ErrorLicenseNotAuthorized" xml:space="preserve"><value>This license cannot be activated.</value></data>
-    <data name="License_ErrorActivationInvalid" xml:space="preserve"><value>The activation information could not be verified.</value></data>
+    <data name="License_ErrorActivationInvalid" xml:space="preserve"><value>This PC activation could not be verified. Remove this activation, then activate the license again.</value></data>
     <data name="License_ErrorActivationLimitReached" xml:space="preserve"><value>The activation limit has been reached. Deactivate a device from License Manager or the Customer Portal, then try again.</value></data>
     <data name="License_ErrorTooManyRequests" xml:space="preserve"><value>The license server is busy. Please try again shortly.</value></data>
     <data name="License_ErrorTimeout" xml:space="preserve"><value>The connection to the license server timed out.</value></data>

@@ -2527,7 +2527,7 @@
     <data name="License_ErrorOnlineValidationRequired" xml:space="preserve"><value>ライセンスをオンラインで確認できませんでした。インターネット接続を確認してください。</value></data>
     <data name="License_ErrorLicenseKeyNotFound" xml:space="preserve"><value>ライセンスキーを確認できませんでした。</value></data>
     <data name="License_ErrorLicenseNotAuthorized" xml:space="preserve"><value>このライセンスは認証できません。</value></data>
-    <data name="License_ErrorActivationInvalid" xml:space="preserve"><value>認証情報を確認できませんでした。</value></data>
+    <data name="License_ErrorActivationInvalid" xml:space="preserve"><value>このPCの認証情報を確認できませんでした。この認証を解除してから、ライセンスを再認証してください。</value></data>
     <data name="License_ErrorActivationLimitReached" xml:space="preserve"><value>アクティベーション数の上限に達しました。ライセンスマネージャーまたは管理ページで不要な端末の認証を解除してから、もう一度お試しください。</value></data>
     <data name="License_ErrorTooManyRequests" xml:space="preserve"><value>ライセンスサーバーへのアクセスが集中しています。しばらくしてから再試行してください。</value></data>
     <data name="License_ErrorTimeout" xml:space="preserve"><value>ライセンスサーバーへの接続がタイムアウトしました。</value></data>
