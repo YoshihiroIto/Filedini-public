@@ -175,7 +175,7 @@ The external app is not registered or does not exist.</value>
         <value>Paste</value>
     </data>
     <data name="FileMenu_SwitchItemSelection" xml:space="preserve">
-        <value>Switch Selection</value>
+        <value>Toggle Selection</value>
     </data>
     <data name="FileMenu_SelectAllFiles" xml:space="preserve">
         <value>Select All Files</value>
@@ -223,13 +223,13 @@ The external app is not registered or does not exist.</value>
         <value>Move Right</value>
     </data>
     <data name="FileMenu_MoveToFolderTop" xml:space="preserve">
-        <value>Move to Folder Top</value>
+        <value>Go to First Folder</value>
     </data>
     <data name="FileMenu_MoveToFileTop" xml:space="preserve">
-        <value>Move to File Top</value>
+        <value>Go to First File</value>
     </data>
     <data name="FileMenu_MoveToBottom" xml:space="preserve">
-        <value>Move to Bottom</value>
+        <value>Go to Last Item</value>
     </data>
     <data name="FileMenu_MoveCursorUp" xml:space="preserve">
         <value>Move Up</value>
@@ -499,16 +499,16 @@ Do you want to proceed?</value>
         <value>_Overwrite</value>
     </data>
     <data name="Message_CopyItemMethod_RenameSource" xml:space="preserve">
-        <value>_Rename and {0}</value>
+        <value>_Rename source and {0}</value>
     </data>
     <data name="Message_CopyItemMethod_RenameDestination" xml:space="preserve">
-        <value>Rename and {0} _existing {1}</value>
+        <value>Rename existing {1} and {0}</value>
     </data>
     <data name="Message_CopyItemMethod_AutoRenameSource" xml:space="preserve">
-        <value>_Automatic naming</value>
+        <value>_Rename automatically</value>
     </data>
     <data name="Message_CopyItemMethod_AutoRenameDestination" xml:space="preserve">
-        <value>Automatic _naming</value>
+        <value>Rename _automatically</value>
     </data>
     <data name="CopyItemTypes_Copy" xml:space="preserve">
         <value>Copy</value>
@@ -529,7 +529,7 @@ Do you want to proceed?</value>
         <value>Use the same settings going _forward</value>
     </data>
     <data name="Message_SameNameItemExisting" xml:space="preserve">
-        <value>A "{0}" with the same name already exists.
+        <value>A {0} with the same name already exists.
 
 "{1}"</value>
     </data>
@@ -1357,7 +1357,7 @@ Invalid password.
         <value>Reload</value>
     </data>
     <data name="Message_SetAttributesItem" xml:space="preserve">
-        <value>Change "{0}" attributes.</value>
+        <value>Change attributes for "{0}".</value>
     </data>
     <data name="Message_DecompressItem" xml:space="preserve">
         <value>Extract "{0}".</value>
@@ -1369,7 +1369,7 @@ Invalid password.
         <value>Rename "{0}".</value>
     </data>
     <data name="Message_SetTimestampItem" xml:space="preserve">
-        <value>Change "{0}" timestamp.</value>
+        <value>Change timestamp for "{0}".</value>
     </data>
     <data name="FileMenu_Launcher" xml:space="preserve">
         <value>Launcher...</value>
@@ -1637,7 +1637,7 @@ Please check back later.</value>
         <value>LZMA2</value>
     </data>
     <data name="DetectableFileFormats_TarZstd" xml:space="preserve">
-        <value>ZStandard</value>
+        <value>Zstandard</value>
     </data>
     <data name="DetectableFileFormats_SevenZip" xml:space="preserve">
         <value>7-Zip</value>
@@ -2328,7 +2328,7 @@ Please try again later.</value>
 Please try again later.</value>
     </data>
     <data name="Message_CrashReporter_LogSent" xml:space="preserve">
-        <value>✅Crash report sent</value>
+        <value>✅ Crash report sent</value>
     </data>
     <data name="FileMenu_ChangeHistory" xml:space="preserve">
         <value>Change History...</value>
@@ -2619,7 +2619,7 @@ Please try again later.</value>
     <data name="BatchRename_EditInTextEditor" xml:space="preserve"><value>Edit names in text editor</value></data>
     <data name="BatchRename_ExampleEditInTextEditor" xml:space="preserve"><value>Edit candidate names in a text editor</value></data>
     <data name="BatchRename_OpenTextEditor" xml:space="preserve"><value>Open text editor</value></data>
-    <data name="BatchRename_ExternalEditorDescription" xml:space="preserve"><value>Edit the names after the tab, then save. The preview updates automatically.</value></data>
+    <data name="BatchRename_ExternalEditorDescription" xml:space="preserve"><value>Edit the names after the tab character, then save. The preview updates automatically.</value></data>
     <data name="BatchRename_ErrorOpenTextEditor" xml:space="preserve"><value>The text editor could not be opened.</value></data>
     <data name="BatchRename_SelectedPhotoMetadata" xml:space="preserve"><value>Selected metadata (top to bottom)</value></data>
     <data name="BatchRename_AddPhotoMetadataItem" xml:space="preserve"><value>Add metadata</value></data>

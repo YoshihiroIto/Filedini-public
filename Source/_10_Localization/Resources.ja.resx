@@ -514,7 +514,7 @@
         <value>以降、同設定(_F)</value>
     </data>
     <data name="Message_SameNameItemExisting" xml:space="preserve">
-        <value>同じ名前の{0}が存在しています。
+        <value>同じ名前の {0} が存在しています。
 
 "{1}"</value>
     </data>

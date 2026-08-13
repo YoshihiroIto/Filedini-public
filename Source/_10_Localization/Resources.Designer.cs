@@ -474,7 +474,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Edit the names after the tab, then save. The preview updates automatically..
+        ///   Looks up a localized string similar to Edit the names after the tab character, then save. The preview updates automatically..
         /// </summary>
         public static string BatchRename_ExternalEditorDescription {
             get {
@@ -1275,7 +1275,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ZStandard.
+        ///   Looks up a localized string similar to Zstandard.
         /// </summary>
         public static string DetectableFileFormats_TarZstd {
             get {
@@ -2442,7 +2442,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Bottom.
+        ///   Looks up a localized string similar to Go to Last Item.
         /// </summary>
         public static string FileMenu_MoveToBottom {
             get {
@@ -2451,7 +2451,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to File Top.
+        ///   Looks up a localized string similar to Go to First File.
         /// </summary>
         public static string FileMenu_MoveToFileTop {
             get {
@@ -2469,7 +2469,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Folder Top.
+        ///   Looks up a localized string similar to Go to First Folder.
         /// </summary>
         public static string FileMenu_MoveToFolderTop {
             get {
@@ -3486,7 +3486,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Switch Selection.
+        ///   Looks up a localized string similar to Toggle Selection.
         /// </summary>
         public static string FileMenu_SwitchItemSelection {
             get {
@@ -5265,7 +5265,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Automatic _naming.
+        ///   Looks up a localized string similar to Rename _automatically.
         /// </summary>
         public static string Message_CopyItemMethod_AutoRenameDestination {
             get {
@@ -5274,7 +5274,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to _Automatic naming.
+        ///   Looks up a localized string similar to _Rename automatically.
         /// </summary>
         public static string Message_CopyItemMethod_AutoRenameSource {
             get {
@@ -5292,7 +5292,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Rename and {0} _existing {1}.
+        ///   Looks up a localized string similar to Rename existing {1} and {0}.
         /// </summary>
         public static string Message_CopyItemMethod_RenameDestination {
             get {
@@ -5301,7 +5301,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to _Rename and {0}.
+        ///   Looks up a localized string similar to _Rename source and {0}.
         /// </summary>
         public static string Message_CopyItemMethod_RenameSource {
             get {
@@ -5365,7 +5365,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ✅Crash report sent.
+        ///   Looks up a localized string similar to ✅ Crash report sent.
         /// </summary>
         public static string Message_CrashReporter_LogSent {
             get {
@@ -6046,7 +6046,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to A &quot;{0}&quot; with the same name already exists.
+        ///   Looks up a localized string similar to A {0} with the same name already exists.
         ///
         ///&quot;{1}&quot;.
         /// </summary>
@@ -6095,7 +6095,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Change &quot;{0}&quot; attributes..
+        ///   Looks up a localized string similar to Change attributes for &quot;{0}&quot;..
         /// </summary>
         public static string Message_SetAttributesItem {
             get {
@@ -6104,7 +6104,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Change &quot;{0}&quot; timestamp..
+        ///   Looks up a localized string similar to Change timestamp for &quot;{0}&quot;..
         /// </summary>
         public static string Message_SetTimestampItem {
             get {
