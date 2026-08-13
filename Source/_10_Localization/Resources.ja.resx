@@ -136,10 +136,10 @@
         <value>すべてのアイテムを選択</value>
     </data>
     <data name="FileMenu_SelectAllFiles" xml:space="preserve">
-        <value>すべてのファイルの選択</value>
+        <value>すべてのファイルを選択</value>
     </data>
     <data name="FileMenu_SelectAllFolders" xml:space="preserve">
-        <value>すべてのフォルダーの選択</value>
+        <value>すべてのフォルダーを選択</value>
     </data>
     <data name="FileMenu_SettingsApp" xml:space="preserve">
         <value>設定...</value>
@@ -478,22 +478,22 @@
         <value>スキップ(_S)</value>
     </data>
     <data name="Message_CopyItemMethod_WhenTimestampIsNew" xml:space="preserve">
-        <value>更新日時が新しい時に{0}(_T)</value>
+        <value>元のアイテムの更新日時が新しい場合のみ{0}(_T)</value>
     </data>
     <data name="Message_CopyItemMethod_RenameSource" xml:space="preserve">
-        <value>名前を変えて{0}(_R)</value>
+        <value>元のアイテムの名前を変えて{0}(_R)</value>
     </data>
     <data name="Message_CopyItemMethod_RenameDestination" xml:space="preserve">
-        <value>既存{1}の名前を変えて{0}(_E)</value>
+        <value>既存の{1}の名前を変えて{0}(_E)</value>
     </data>
     <data name="Message_CopyItemMethod_Override" xml:space="preserve">
-        <value>上書きで{0}(_O)</value>
+        <value>上書きして{0}(_O)</value>
     </data>
     <data name="Message_CopyItemMethod_AutoRenameSource" xml:space="preserve">
-        <value>自動名前付け(_A)</value>
+        <value>自動で名前を変更(_A)</value>
     </data>
     <data name="Message_CopyItemMethod_AutoRenameDestination" xml:space="preserve">
-        <value>自動名前付け(_N)</value>
+        <value>自動で名前を変更(_N)</value>
     </data>
     <data name="CopyItemTypes_Copy" xml:space="preserve">
         <value>コピー</value>
@@ -511,10 +511,10 @@
         <value>未知</value>
     </data>
     <data name="UI_UseSameSettingsGoingForward" xml:space="preserve">
-        <value>以降、同設定(_F)</value>
+        <value>以降も同じ設定を使用(_F)</value>
     </data>
     <data name="Message_SameNameItemExisting" xml:space="preserve">
-        <value>同じ名前の {0} が存在しています。
+        <value>同じ名前の{0}が既に存在します。
 
 "{1}"</value>
     </data>
@@ -807,19 +807,19 @@
         <value>パス</value>
     </data>
     <data name="Settings_Label_SelectedItemOptions" xml:space="preserve">
-        <value>アイテム選択時引数</value>
+        <value>アイテム選択時の引数</value>
     </data>
     <data name="Settings_Label_NotSelectedItemOptions" xml:space="preserve">
-        <value>アイテム未選択時引数</value>
+        <value>アイテム未選択時の引数</value>
     </data>
     <data name="Settings_Label_CanExecuteInFolder" xml:space="preserve">
-        <value>フォルダーで実行可能</value>
+        <value>フォルダーでも有効にする</value>
     </data>
     <data name="Settings_Label_Attributes" xml:space="preserve">
         <value>属性</value>
     </data>
     <data name="Settings_Label_AutoNameWidth" xml:space="preserve">
-        <value>名前幅自動</value>
+        <value>名前の幅を自動調整</value>
     </data>
     <data name="Settings_Label_CombinedNameAndExtension" xml:space="preserve">
         <value>名前と拡張子を結合して表示する</value>
@@ -1043,7 +1043,7 @@
         <value>Filedini の動作に問題が発生し、不正終了してしまいました。</value>
     </data>
     <data name="Message_CrashReporter_Message1" xml:space="preserve">
-        <value>問題の原因特定と解決のためにご協力いただける方は、 クラッシュレポートの送信をお願いします。</value>
+        <value>問題の原因特定と解決のためにご協力いただける方は、クラッシュレポートの送信をお願いします。</value>
     </data>
     <data name="Message_CrashReporter_Comment" xml:space="preserve">
         <value>クラッシュする直前に行っていた操作をご記入ください。</value>
@@ -1073,7 +1073,7 @@
         <value>前ページに移動</value>
     </data>
     <data name="Message_SearchLimit" xml:space="preserve">
-        <value>検索結果は1000以内に制限されます。</value>
+        <value>検索結果は最大1,000件までです。</value>
     </data>
     <data name="Message_FoldersCanntOverwrittenWithFiles" xml:space="preserve">
         <value>フォルダーをファイルで上書きすることはできません。</value>
@@ -1313,7 +1313,7 @@
         <value>更新</value>
     </data>
     <data name="Settings_LastWriteDisplay" xml:space="preserve">
-        <value>更新日時の強調表示</value>
+        <value>更新時期による色分け</value>
     </data>
     <data name="PeriodUnits_Days" xml:space="preserve">
         <value>日</value>
@@ -1617,13 +1617,13 @@
         <value>依存ライブラリのインストールが完了しました。</value>
     </data>
     <data name="InstallState_PythonPackageDownloadFailed" xml:space="preserve">
-        <value>Python パッケージのダウンロード失敗</value>
+        <value>Python パッケージのダウンロードに失敗しました。</value>
     </data>
     <data name="InstallState_PythonPackageExtractionFailed" xml:space="preserve">
-        <value>Python パッケージの展開失敗</value>
+        <value>Python パッケージの展開に失敗しました。</value>
     </data>
     <data name="InstallState_DependencyInstallationFailed" xml:space="preserve">
-        <value>依存ライブラリのインストール失敗</value>
+        <value>依存ライブラリのインストールに失敗しました。</value>
     </data>
     <data name="InstallState_InstallingPython" xml:space="preserve">
         <value>Python をインストールしています...</value>
@@ -1638,7 +1638,7 @@
         <value>Python の起動に失敗しました。</value>
     </data>
     <data name="InstallState_PythonInstallationCanceled" xml:space="preserve">
-        <value>Python のインストールはキャンセルされました</value>
+        <value>Python のインストールはキャンセルされました。</value>
     </data>
     <data name="Label_CancelInstallation" xml:space="preserve">
         <value>インストールをキャンセル(_C)</value>
