@@ -2512,6 +2512,7 @@
     <data name="License_ActivatedLicenses" xml:space="preserve"><value>認証済みライセンス</value></data>
     <data name="License_Status" xml:space="preserve"><value>状態</value></data>
     <data name="License_StatusGranted" xml:space="preserve"><value>有効</value></data>
+    <data name="License_StatusInvalid" xml:space="preserve"><value>無効</value></data>
     <data name="License_IssuedAt" xml:space="preserve"><value>ライセンス発行日</value></data>
     <data name="License_ExpiresAt" xml:space="preserve"><value>有効期限</value></data>
     <data name="License_Device" xml:space="preserve"><value>このPC</value></data>

@@ -5042,6 +5042,15 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("License_StatusGranted", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Invalid.
+        /// </summary>
+        public static string License_StatusInvalid {
+            get {
+                return ResourceManager.GetString("License_StatusInvalid", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to Save Current....
