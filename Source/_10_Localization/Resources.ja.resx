@@ -145,7 +145,7 @@
         <value>設定...</value>
     </data>
     <data name="FileMenu_SwitchItemSelection" xml:space="preserve">
-        <value>選択切り替え</value>
+        <value>選択状態を切り替え</value>
     </data>
     <data name="FileMenu_ChangeAttributes" xml:space="preserve">
         <value>属性の変更...</value>
@@ -546,7 +546,7 @@
         <value>移動(_M)</value>
     </data>
     <data name="Dialog_AutoRename" xml:space="preserve">
-        <value>自動名前付け(_A)</value>
+        <value>自動で名前を変更(_A)</value>
     </data>
     <data name="FileMenu_Exit" xml:space="preserve">
         <value>このウィンドウを閉じる</value>
@@ -588,10 +588,10 @@
         <value>最近利用したフォルダーに移動...</value>
     </data>
     <data name="FileMenu_CreateTabFromRecentlyUsedFolder" xml:space="preserve">
-        <value>最近利用したフォルダーからタブを作成</value>
+        <value>最近利用したフォルダーからタブを作成...</value>
     </data>
     <data name="FileMenu_OpenRecentlyUsedFolderAsTab" xml:space="preserve">
-        <value>最近利用したフォルダーをタブとして開く</value>
+        <value>最近利用したフォルダーをタブとして開く...</value>
     </data>
     <data name="DialogTitle_FolderSelection" xml:space="preserve">
         <value>フォルダーの選択</value>
@@ -1256,7 +1256,7 @@
         <value>関連アプリで開く</value>
     </data>
     <data name="FolderOpenInAssociatedAppBehaviors_MoveFolder" xml:space="preserve">
-        <value>フォルダー移動</value>
+        <value>フォルダーへ移動</value>
     </data>
     <data name="FolderOpenInAssociatedAppBehaviors_OpenInNewTab" xml:space="preserve">
         <value>新規タブで開く</value>
@@ -1310,7 +1310,7 @@
         <value>Filedini 設定ファイル</value>
     </data>
     <data name="Settings_Label_LastWrite" xml:space="preserve">
-        <value>更新</value>
+        <value>更新時期</value>
     </data>
     <data name="Settings_LastWriteDisplay" xml:space="preserve">
         <value>更新時期による色分け</value>
@@ -1349,7 +1349,7 @@
         <value>ランチャー...</value>
     </data>
     <data name="Dialog_Title_EditLaunchData" xml:space="preserve">
-        <value>ランチデータの編集</value>
+        <value>ランチャー項目の編集</value>
     </data>
     <data name="Dialog_Title_EditBookmarkData" xml:space="preserve">
         <value>ブックマークデータの編集</value>
@@ -1560,7 +1560,7 @@
         <value>新しいセッション名を入力してください</value>
     </data>
     <data name="Menu_SavedSessions_SaveCurrent" xml:space="preserve">
-        <value>現在を保存...</value>
+        <value>現在のセッションを保存...</value>
     </data>
     <data name="Settings_Label_SavedAt" xml:space="preserve">
         <value>保存日時</value>
@@ -1679,7 +1679,7 @@
     </data>
     <data name="Message_ConformationRestoreSampleScripts" xml:space="preserve">
         <value>サンプルスクリプトを復元します。
-復元先のフォルダーおよびファイルはすべて削除されます。
+復元先にあるフォルダーとファイルはすべて削除されます。
 
 このまま復元してよろしいですか？
 
@@ -2032,7 +2032,7 @@
         <value>メインメニューを開く</value>
     </data>
     <data name="FileMenu_CommandPaletteShellMode" xml:space="preserve">
-        <value>コマンドパレット (シェルモード）</value>
+        <value>コマンドパレット（シェルモード）</value>
     </data>
     <data name="Message_ThisFolderIsEmpty" xml:space="preserve">
         <value>このフォルダーは空です。</value>
@@ -2050,7 +2050,7 @@
         <value>既定シェルを開く</value>
     </data>
     <data name="FileItem_InsertSelectedItemPathIntoTerminal" xml:space="preserve">
-        <value>選択アイテムパスをターミナルへ入力</value>
+        <value>選択アイテムのパスをターミナルに入力</value>
     </data>
     <data name="FolderViewer_MeasureButton" xml:space="preserve">
         <value>計測</value>
@@ -2186,7 +2186,7 @@
         <value>フォルダーペイン</value>
     </data>
     <data name="FileMenu_UnselectAllItems" xml:space="preserve">
-        <value>すべてのアイテム選択を解除</value>
+        <value>すべてのアイテムの選択を解除</value>
     </data>
     <data name="FileMenu_Nop" xml:space="preserve">
         <value>何もしない</value>
@@ -2262,10 +2262,10 @@
         <value>新しいタブとして開く(_N)</value>
     </data>
     <data name="FileMenu_InvertItemSelection" xml:space="preserve">
-        <value>選択反転</value>
+        <value>選択を反転</value>
     </data>
     <data name="FileMenu_ShowCurrentFolderContextMenu" xml:space="preserve">
-        <value>カレントフォルダーのコンテキストメニュー</value>
+        <value>現在のフォルダーのコンテキストメニュー</value>
     </data>
     <data name="Message_PreviewNotSupported" xml:space="preserve">
         <value>この形式はプレビュー非対応です。</value>
