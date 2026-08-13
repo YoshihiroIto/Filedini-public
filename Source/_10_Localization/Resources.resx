@@ -127,10 +127,10 @@ The external app is not registered or does not exist.</value>
         <value>Open in Associated App</value>
     </data>
     <data name="FileMenu_OpenInExternalApp1" xml:space="preserve">
-        <value>Open in External App1</value>
+        <value>Open in External App 1</value>
     </data>
     <data name="FileMenu_OpenInExternalApp2" xml:space="preserve">
-        <value>Open in External App2</value>
+        <value>Open in External App 2</value>
     </data>
     <data name="FileMenu_MoveItem" xml:space="preserve">
         <value>Move...</value>
@@ -599,20 +599,20 @@ Do you want to proceed?</value>
     <data name="Message_DraggingFoldersAndFiles" xml:space="preserve">
         <value>Dragging {0:plural:1 folder|{:N0} folders}, {1:plural:1 file|{:N0} files}.</value>
     </data>
-  <data name="FileMenu_MoveToRecentlyUsedFolder" xml:space="preserve">
-    <value>Go to Recently Used Folder...</value>
-  </data>
-  <data name="FileMenu_CreateTabFromRecentlyUsedFolder" xml:space="preserve">
-    <value>Create Tab from Recently Used Folder</value>
-  </data>
-  <data name="FileMenu_OpenRecentlyUsedFolderAsTab" xml:space="preserve">
-    <value>Open Recently Used Folder as Tab</value>
-  </data>
+    <data name="FileMenu_MoveToRecentlyUsedFolder" xml:space="preserve">
+        <value>Go to Recent Folders...</value>
+    </data>
+    <data name="FileMenu_CreateTabFromRecentlyUsedFolder" xml:space="preserve">
+        <value>Create Tab from Recent Folders</value>
+    </data>
+    <data name="FileMenu_OpenRecentlyUsedFolderAsTab" xml:space="preserve">
+        <value>Open Recent Folders as Tab</value>
+    </data>
     <data name="DialogTitle_FolderSelection" xml:space="preserve">
         <value>Select Folder</value>
     </data>
     <data name="UI_RecentlyUsed" xml:space="preserve">
-        <value>Recently _Used</value>
+        <value>R_ecently Folders</value>
     </data>
     <data name="UI_Folder" xml:space="preserve">
         <value>_Folder</value>
@@ -810,10 +810,10 @@ Do you want to proceed?</value>
         <value>New Folder Name</value>
     </data>
     <data name="Settings_Label_ExternalApp1" xml:space="preserve">
-        <value>External App1</value>
+        <value>External App 1</value>
     </data>
     <data name="Settings_Label_ExternalApp2" xml:space="preserve">
-        <value>External App2</value>
+        <value>External App 2</value>
     </data>
     <data name="Settings_Label_DefaultShell" xml:space="preserve">
     <value>Default Shell</value>
@@ -1148,7 +1148,7 @@ Empty file.</value>
         <value>Layout by Display Mode</value>
     </data>
     <data name="Settings_Label_PaletteByTheme" xml:space="preserve">
-        <value>PaletteByTheme</value>
+        <value>Palette by Theme</value>
     </data>
     <data name="FileMenu_LicenseManager" xml:space="preserve">
         <value>License Manager...</value>
@@ -1309,10 +1309,10 @@ Invalid password.
         <value>Open in Associated App</value>
     </data>
     <data name="FileDoubleClickBehaviors_OpenInExternalApp1" xml:space="preserve">
-        <value>Open in External App1</value>
+        <value>Open in External App 1</value>
     </data>
     <data name="FileDoubleClickBehaviors_OpenInExternalApp2" xml:space="preserve">
-        <value>Open in External App2</value>
+        <value>Open in External App 2</value>
     </data>
     <data name="Settings_Label_FolderOpenInAssociatedAppBehavior" xml:space="preserve">
         <value>Folder Open in Associated App Behavior</value>
@@ -1899,37 +1899,37 @@ Destination:
         <value>Search Tabs...</value>
     </data>
     <data name="FileMenu_MoveToTab" xml:space="preserve">
-        <value>Move to Tab</value>
+        <value>Switch to Tab</value>
     </data>
     <data name="FileMenu_MoveToTab1" xml:space="preserve">
-        <value>Move to Tab 1</value>
+        <value>Switch to Tab 1</value>
     </data>
     <data name="FileMenu_MoveToTab2" xml:space="preserve">
-        <value>Move to Tab 2</value>
+        <value>Switch to Tab 2</value>
     </data>
     <data name="FileMenu_MoveToTab3" xml:space="preserve">
-        <value>Move to Tab 3</value>
+        <value>Switch to Tab 3</value>
     </data>
     <data name="FileMenu_MoveToTab4" xml:space="preserve">
-        <value>Move to Tab 4</value>
+        <value>Switch to Tab 4</value>
     </data>
     <data name="FileMenu_MoveToTab5" xml:space="preserve">
-        <value>Move to Tab 5</value>
+        <value>Switch to Tab 5</value>
     </data>
     <data name="FileMenu_MoveToTab6" xml:space="preserve">
-        <value>Move to Tab 6</value>
+        <value>Switch to Tab 6</value>
     </data>
     <data name="FileMenu_MoveToTab7" xml:space="preserve">
-        <value>Move to Tab 7</value>
+        <value>Switch to Tab 7</value>
     </data>
     <data name="FileMenu_MoveToTab8" xml:space="preserve">
-        <value>Move to Tab 8</value>
+        <value>Switch to Tab 8</value>
     </data>
     <data name="FileMenu_MoveToTab9" xml:space="preserve">
-        <value>Move to Tab 9</value>
+        <value>Switch to Tab 9</value>
     </data>
     <data name="FileMenu_MoveToTab0" xml:space="preserve">
-        <value>Move to Tab 0</value>
+        <value>Switch to Tab 0</value>
     </data>
     <data name="FileMenu_SelectNextFolderPane" xml:space="preserve">
         <value>Next Folder Pane</value>
@@ -1981,9 +1981,6 @@ Destination:
     </data>
     <data name="Settings_Label_TabMode" xml:space="preserve">
         <value>Tab Mode</value>
-    </data>
-    <data name="Settings_Label_PageBarScrollMode" xml:space="preserve">
-        <value>Scroll Bar</value>
     </data>
     <data name="PageBarScrollModes_Page" xml:space="preserve">
         <value>Page</value>
@@ -2089,7 +2086,7 @@ Are you sure you want to continue?</value>
         <value>Command Palette...</value>
     </data>
     <data name="FileMenu_OpenHamburgerMenu" xml:space="preserve">
-        <value>Open Hamburger Menu</value>
+        <value>Open Main Menu</value>
     </data>
     <data name="FileMenu_CommandPaletteShellMode" xml:space="preserve">
         <value>Command Palette (Shell Mode)</value>
@@ -2413,7 +2410,7 @@ Please try again later.</value>
         <value>Failed to initialize WebView2.</value>
     </data>
     <data name="DialogTitle_RecentlyUsedFolder" xml:space="preserve">
-        <value>Recently Used Folder</value>
+        <value>Recent Folders</value>
     </data>
     <data name="Message_NoMatchingFilesFound" xml:space="preserve">
         <value>No matching files found.</value>
@@ -2461,10 +2458,10 @@ Please try again later.</value>
         <value>Open in _Associated App</value>
     </data>
     <data name="UI_OpenInExternalApp1" xml:space="preserve">
-        <value>Open in _External App1</value>
+        <value>Open in _External App 1</value>
     </data>
     <data name="UI_OpenInExternalApp2" xml:space="preserve">
-        <value>Open in E_xternal App2</value>
+        <value>Open in E_xternal App 2</value>
     </data>
     <data name="Tooltip_Add" xml:space="preserve">
         <value>Add</value>

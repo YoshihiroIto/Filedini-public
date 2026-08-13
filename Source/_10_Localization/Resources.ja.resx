@@ -597,7 +597,7 @@
         <value>フォルダーの選択</value>
     </data>
     <data name="UI_RecentlyUsed" xml:space="preserve">
-        <value>最近利用(_U)</value>
+        <value>最近利用(_E)</value>
     </data>
     <data name="UI_Folder" xml:space="preserve">
         <value>フォルダー(_F)</value>
@@ -1931,9 +1931,6 @@
     <data name="Settings_Label_TabMode" xml:space="preserve">
         <value>タブモード</value>
     </data>
-    <data name="Settings_Label_PageBarScrollMode" xml:space="preserve">
-        <value>スクロールバー</value>
-    </data>
     <data name="PageBarScrollModes_Page" xml:space="preserve">
         <value>ページ単位</value>
     </data>
@@ -2038,7 +2035,7 @@
         <value>コマンドパレット...</value>
     </data>
     <data name="FileMenu_OpenHamburgerMenu" xml:space="preserve">
-        <value>ハンバーガーメニューを開く</value>
+        <value>メインメニューを開く</value>
     </data>
     <data name="FileMenu_CommandPaletteShellMode" xml:space="preserve">
         <value>コマンドパレット (シェルモード）</value>
@@ -2283,7 +2280,7 @@
         <value>開く(_O)</value>
     </data>
     <data name="UI_OpenInAssociatedApp" xml:space="preserve">
-        <value>関連アプリで開く(_A)</value>
+        <value>関連アプリで開く(_D)</value>
     </data>
     <data name="UI_OpenInExternalApp1" xml:space="preserve">
         <value>外部アプリ１で開く(_E)</value>

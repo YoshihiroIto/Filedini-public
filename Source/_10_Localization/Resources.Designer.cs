@@ -1577,7 +1577,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Recently Used Folder.
+        ///   Looks up a localized string similar to Recent Folders.
         /// </summary>
         public static string DialogTitle_RecentlyUsedFolder {
             get {
@@ -1668,7 +1668,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Open in External App1.
+        ///   Looks up a localized string similar to Open in External App 1.
         /// </summary>
         public static string FileDoubleClickBehaviors_OpenInExternalApp1 {
             get {
@@ -1677,7 +1677,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Open in External App2.
+        ///   Looks up a localized string similar to Open in External App 2.
         /// </summary>
         public static string FileDoubleClickBehaviors_OpenInExternalApp2 {
             get {
@@ -1947,7 +1947,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Create Tab from Recently Used Folder.
+        ///   Looks up a localized string similar to Create Tab from Recent Folders.
         /// </summary>
         public static string FileMenu_CreateTabFromRecentlyUsedFolder {
             get {
@@ -2523,7 +2523,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Go to Recently Used Folder....
+        ///   Looks up a localized string similar to Go to Recent Folders....
         /// </summary>
         public static string FileMenu_MoveToRecentlyUsedFolder {
             get {
@@ -2550,7 +2550,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Tab.
+        ///   Looks up a localized string similar to Switch to Tab.
         /// </summary>
         public static string FileMenu_MoveToTab {
             get {
@@ -2559,7 +2559,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Tab 0.
+        ///   Looks up a localized string similar to Switch to Tab 0.
         /// </summary>
         public static string FileMenu_MoveToTab0 {
             get {
@@ -2568,7 +2568,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Tab 1.
+        ///   Looks up a localized string similar to Switch to Tab 1.
         /// </summary>
         public static string FileMenu_MoveToTab1 {
             get {
@@ -2577,7 +2577,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Tab 2.
+        ///   Looks up a localized string similar to Switch to Tab 2.
         /// </summary>
         public static string FileMenu_MoveToTab2 {
             get {
@@ -2586,7 +2586,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Tab 3.
+        ///   Looks up a localized string similar to Switch to Tab 3.
         /// </summary>
         public static string FileMenu_MoveToTab3 {
             get {
@@ -2595,7 +2595,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Tab 4.
+        ///   Looks up a localized string similar to Switch to Tab 4.
         /// </summary>
         public static string FileMenu_MoveToTab4 {
             get {
@@ -2604,7 +2604,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Tab 5.
+        ///   Looks up a localized string similar to Switch to Tab 5.
         /// </summary>
         public static string FileMenu_MoveToTab5 {
             get {
@@ -2613,7 +2613,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Tab 6.
+        ///   Looks up a localized string similar to Switch to Tab 6.
         /// </summary>
         public static string FileMenu_MoveToTab6 {
             get {
@@ -2622,7 +2622,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Tab 7.
+        ///   Looks up a localized string similar to Switch to Tab 7.
         /// </summary>
         public static string FileMenu_MoveToTab7 {
             get {
@@ -2631,7 +2631,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Tab 8.
+        ///   Looks up a localized string similar to Switch to Tab 8.
         /// </summary>
         public static string FileMenu_MoveToTab8 {
             get {
@@ -2640,7 +2640,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Tab 9.
+        ///   Looks up a localized string similar to Switch to Tab 9.
         /// </summary>
         public static string FileMenu_MoveToTab9 {
             get {
@@ -2901,7 +2901,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Open Hamburger Menu.
+        ///   Looks up a localized string similar to Open Main Menu.
         /// </summary>
         public static string FileMenu_OpenHamburgerMenu {
             get {
@@ -2919,7 +2919,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Open in External App1.
+        ///   Looks up a localized string similar to Open in External App 1.
         /// </summary>
         public static string FileMenu_OpenInExternalApp1 {
             get {
@@ -2928,7 +2928,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Open in External App2.
+        ///   Looks up a localized string similar to Open in External App 2.
         /// </summary>
         public static string FileMenu_OpenInExternalApp2 {
             get {
@@ -2973,7 +2973,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Open Recently Used Folder as Tab.
+        ///   Looks up a localized string similar to Open Recent Folders as Tab.
         /// </summary>
         public static string FileMenu_OpenRecentlyUsedFolderAsTab {
             get {
@@ -6662,7 +6662,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to External App1.
+        ///   Looks up a localized string similar to External App 1.
         /// </summary>
         public static string Settings_Label_ExternalApp1 {
             get {
@@ -6671,7 +6671,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to External App2.
+        ///   Looks up a localized string similar to External App 2.
         /// </summary>
         public static string Settings_Label_ExternalApp2 {
             get {
@@ -6959,16 +6959,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Scroll Bar.
-        /// </summary>
-        public static string Settings_Label_PageBarScrollMode {
-            get {
-                return ResourceManager.GetString("Settings_Label_PageBarScrollMode", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to PaletteByTheme.
+        ///   Looks up a localized string similar to Palette by Theme.
         /// </summary>
         public static string Settings_Label_PaletteByTheme {
             get {
@@ -8366,7 +8357,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Open in _External App1.
+        ///   Looks up a localized string similar to Open in _External App 1.
         /// </summary>
         public static string UI_OpenInExternalApp1 {
             get {
@@ -8375,7 +8366,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Open in E_xternal App2.
+        ///   Looks up a localized string similar to Open in E_xternal App 2.
         /// </summary>
         public static string UI_OpenInExternalApp2 {
             get {
@@ -8411,7 +8402,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Recently _Used.
+        ///   Looks up a localized string similar to R_ecently Folders.
         /// </summary>
         public static string UI_RecentlyUsed {
             get {
