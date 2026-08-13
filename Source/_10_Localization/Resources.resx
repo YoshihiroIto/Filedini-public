@@ -1351,7 +1351,7 @@ Invalid password.
         <value>Minutes</value>
     </data>
     <data name="ItemProperty_Metadata_LastWrite" xml:space="preserve">
-        <value>Date Modified</value>
+        <value>Age</value>
     </data>
     <data name="FileMenu_Reload" xml:space="preserve">
         <value>Reload</value>

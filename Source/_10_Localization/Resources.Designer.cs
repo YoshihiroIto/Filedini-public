@@ -312,7 +312,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The new name duplicates another item..
+        ///   Looks up a localized string similar to The new name conflicts with another item..
         /// </summary>
         public static string BatchRename_ErrorDuplicateName {
             get {
@@ -528,7 +528,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to No selected item has a name change..
+        ///   Looks up a localized string similar to None of the selected items would be renamed..
         /// </summary>
         public static string BatchRename_NoChanges {
             get {
@@ -1347,7 +1347,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to _Decompress.
+        ///   Looks up a localized string similar to _Extract.
         /// </summary>
         public static string Dialog_Decompress {
             get {
@@ -1559,7 +1559,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Input Password.
+        ///   Looks up a localized string similar to Enter Password.
         /// </summary>
         public static string DialogTitle_InputPassword {
             get {
@@ -1722,7 +1722,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to AI Script Generate (WIP)....
+        ///   Looks up a localized string similar to Generate AI Script (WIP)....
         /// </summary>
         public static string FileMenu_AiScriptGenerate {
             get {
@@ -1848,7 +1848,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Compress Archive....
+        ///   Looks up a localized string similar to Compress to Archive....
         /// </summary>
         public static string FileMenu_CompressArchive {
             get {
@@ -1983,7 +1983,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Decompress Archive....
+        ///   Looks up a localized string similar to Extract Archive....
         /// </summary>
         public static string FileMenu_DecompressArchive {
             get {
@@ -2325,7 +2325,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Load  Window Size.
+        ///   Looks up a localized string similar to Restore Window Size.
         /// </summary>
         public static string FileMenu_LoadFolderWindowLayout {
             get {
@@ -2379,7 +2379,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Search Next.
+        ///   Looks up a localized string similar to Find Next.
         /// </summary>
         public static string FileMenu_MoveCursorSearchNext {
             get {
@@ -2388,7 +2388,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Search Previous.
+        ///   Looks up a localized string similar to Find Previous.
         /// </summary>
         public static string FileMenu_MoveCursorSearchPrevious {
             get {
@@ -2415,7 +2415,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move tab forward.
+        ///   Looks up a localized string similar to Move Tab Forward.
         /// </summary>
         public static string FileMenu_MoveTabLeft {
             get {
@@ -2424,7 +2424,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move tab backward.
+        ///   Looks up a localized string similar to Move Tab Backward.
         /// </summary>
         public static string FileMenu_MoveTabRight {
             get {
@@ -2460,7 +2460,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Folder....
+        ///   Looks up a localized string similar to Go to Folder....
         /// </summary>
         public static string FileMenu_MoveToFolder {
             get {
@@ -2478,7 +2478,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Network....
+        ///   Looks up a localized string similar to Go to Network....
         /// </summary>
         public static string FileMenu_MoveToNetwork {
             get {
@@ -2496,7 +2496,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Parent Folder.
+        ///   Looks up a localized string similar to Go to Parent Folder.
         /// </summary>
         public static string FileMenu_MoveToParentFolder {
             get {
@@ -2523,7 +2523,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Recently used folder....
+        ///   Looks up a localized string similar to Go to Recently Used Folder....
         /// </summary>
         public static string FileMenu_MoveToRecentlyUsedFolder {
             get {
@@ -2532,7 +2532,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Root Folder.
+        ///   Looks up a localized string similar to Go to Root Folder.
         /// </summary>
         public static string FileMenu_MoveToRootFolder {
             get {
@@ -2541,7 +2541,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Scripts Folder.
+        ///   Looks up a localized string similar to Go to Scripts Folder.
         /// </summary>
         public static string FileMenu_MoveToScriptsFolder {
             get {
@@ -2658,7 +2658,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Volume.
+        ///   Looks up a localized string similar to Go to Volume.
         /// </summary>
         public static string FileMenu_MoveToVolume {
             get {
@@ -2667,7 +2667,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Volume 0.
+        ///   Looks up a localized string similar to Go to Volume 0.
         /// </summary>
         public static string FileMenu_MoveToVolume0 {
             get {
@@ -2676,7 +2676,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Volume 1.
+        ///   Looks up a localized string similar to Go to Volume 1.
         /// </summary>
         public static string FileMenu_MoveToVolume1 {
             get {
@@ -2685,7 +2685,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Volume 2.
+        ///   Looks up a localized string similar to Go to Volume 2.
         /// </summary>
         public static string FileMenu_MoveToVolume2 {
             get {
@@ -2694,7 +2694,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Volume 3.
+        ///   Looks up a localized string similar to Go to Volume 3.
         /// </summary>
         public static string FileMenu_MoveToVolume3 {
             get {
@@ -2703,7 +2703,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Volume 4.
+        ///   Looks up a localized string similar to Go to Volume 4.
         /// </summary>
         public static string FileMenu_MoveToVolume4 {
             get {
@@ -2712,7 +2712,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Volume 5.
+        ///   Looks up a localized string similar to Go to Volume 5.
         /// </summary>
         public static string FileMenu_MoveToVolume5 {
             get {
@@ -2721,7 +2721,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Volume 6.
+        ///   Looks up a localized string similar to Go to Volume 6.
         /// </summary>
         public static string FileMenu_MoveToVolume6 {
             get {
@@ -2730,7 +2730,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Volume 7.
+        ///   Looks up a localized string similar to Go to Volume 7.
         /// </summary>
         public static string FileMenu_MoveToVolume7 {
             get {
@@ -2739,7 +2739,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Volume 8.
+        ///   Looks up a localized string similar to Go to Volume 8.
         /// </summary>
         public static string FileMenu_MoveToVolume8 {
             get {
@@ -2748,7 +2748,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Volume 9.
+        ///   Looks up a localized string similar to Go to Volume 9.
         /// </summary>
         public static string FileMenu_MoveToVolume9 {
             get {
@@ -3153,7 +3153,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Next Folder Panel.
+        ///   Looks up a localized string similar to Next Folder Pane.
         /// </summary>
         public static string FileMenu_SelectNextFolderPane {
             get {
@@ -3171,7 +3171,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Previous Folder Panel.
+        ///   Looks up a localized string similar to Previous Folder Pane.
         /// </summary>
         public static string FileMenu_SelectPreviousFolderPane {
             get {
@@ -3297,7 +3297,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Show Property.
+        ///   Looks up a localized string similar to Properties.
         /// </summary>
         public static string FileMenu_ShowProperty {
             get {
@@ -3468,7 +3468,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Details View.
+        ///   Looks up a localized string similar to Toggle Details Pane.
         /// </summary>
         public static string FileMenu_SwitchDetailsPane {
             get {
@@ -3513,7 +3513,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Tool View.
+        ///   Looks up a localized string similar to Toggle Tool Pane.
         /// </summary>
         public static string FileMenu_SwitchToolPane {
             get {
@@ -3657,7 +3657,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move Folder.
+        ///   Looks up a localized string similar to Navigate to Folder.
         /// </summary>
         public static string FolderOpenInAssociatedAppBehaviors_MoveFolder {
             get {
@@ -3919,7 +3919,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Uhknown.
+        ///   Looks up a localized string similar to Unknown.
         /// </summary>
         public static string ItemKinds_Unknown {
             get {
@@ -3982,7 +3982,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Last Write.
+        ///   Looks up a localized string similar to Age.
         /// </summary>
         public static string ItemProperty_Metadata_LastWrite {
             get {
@@ -4810,7 +4810,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Invalid input..
+        ///   Looks up a localized string similar to Enter a valid license key..
         /// </summary>
         public static string License_ErrorLicenseKeyFormat {
             get {
@@ -5067,7 +5067,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Parent folder does not Exist.
+        ///   Looks up a localized string similar to The parent folder does not exist..
         /// </summary>
         public static string Message_CanModifyItemResults_ParentDoesNotExist {
             get {
@@ -5076,7 +5076,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Parent folder is not Writable.
+        ///   Looks up a localized string similar to The parent folder is not writable..
         /// </summary>
         public static string Message_CanModifyItemResults_ParentIsNotWritable {
             get {
@@ -5103,7 +5103,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cannot Connect Google.
+        ///   Looks up a localized string similar to Could not connect to Google..
         /// </summary>
         public static string Message_CannotConnectGoogle {
             get {
@@ -5112,7 +5112,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cannot Start Browser.
+        ///   Looks up a localized string similar to Could not open the browser..
         /// </summary>
         public static string Message_CannotStartBrowser {
             get {
@@ -5310,7 +5310,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {0} when _timestamp is new.
+        ///   Looks up a localized string similar to {0} if the source is _newer.
         /// </summary>
         public static string Message_CopyItemMethod_WhenTimestampIsNew {
             get {
@@ -5491,7 +5491,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Decompress `{0}&apos;..
+        ///   Looks up a localized string similar to Extract `{0}&apos;..
         /// </summary>
         public static string Message_DecompressItem {
             get {
@@ -5601,7 +5601,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Enter any key combination..
+        ///   Looks up a localized string similar to Press a key combination..
         /// </summary>
         public static string Message_EnterAnyKeyCombination {
             get {
@@ -5750,7 +5750,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Failed to Move item..
+        ///   Looks up a localized string similar to Failed to move the item..
         /// </summary>
         public static string Message_FailedToMove {
             get {
@@ -5759,7 +5759,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Failed to Rename item..
+        ///   Looks up a localized string similar to Failed to rename the item..
         /// </summary>
         public static string Message_FailedToRename {
             get {
@@ -5768,7 +5768,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Failed to send To trash can..
+        ///   Looks up a localized string similar to Failed to move the item to the trash..
         /// </summary>
         public static string Message_FailedToSendToTrashCan {
             get {
@@ -5813,7 +5813,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Folder does not Exist
+        ///   Looks up a localized string similar to Folder does not exist.
         ///{0}.
         /// </summary>
         public static string Message_FolderDoesNotExist {
@@ -6046,9 +6046,9 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {0} with same name exists.
+        ///   Looks up a localized string similar to A {0} with the same name already exists.
         ///
-        ///`{1}’.
+        ///&apos;{1}&apos;.
         /// </summary>
         public static string Message_SameNameItemExisting {
             get {
@@ -6374,7 +6374,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Use App Setting.
+        ///   Looks up a localized string similar to Follow App Theme.
         /// </summary>
         public static string PreviewThemeModes_AppSetting {
             get {
@@ -6482,7 +6482,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to File extensions displayed in Web Viewer(semicolon-separated).
+        ///   Looks up a localized string similar to File extensions displayed in Web Viewer (semicolon-separated).
         /// </summary>
         public static string Settings_FileExtensionsDisplayedInWebViewer {
             get {
@@ -6626,7 +6626,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Detail Pane Display Swich.
+        ///   Looks up a localized string similar to Details Pane Display Switch.
         /// </summary>
         public static string Settings_Label_DetailsPaneDisplaySwitch {
             get {
@@ -6644,7 +6644,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Extensions(semicolon-separated).
+        ///   Looks up a localized string similar to Extensions (semicolon-separated).
         /// </summary>
         public static string Settings_Label_Extensions {
             get {
@@ -6770,7 +6770,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Last Write.
+        ///   Looks up a localized string similar to Date Modified.
         /// </summary>
         public static string Settings_Label_LastWrite {
             get {
@@ -7265,7 +7265,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Tool Pane Display Swich.
+        ///   Looks up a localized string similar to Tool Pane Display Switch.
         /// </summary>
         public static string Settings_Label_ToolPaneDisplaySwitch {
             get {
@@ -7292,7 +7292,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Last Write Display.
+        ///   Looks up a localized string similar to Date Modified Display.
         /// </summary>
         public static string Settings_LastWriteDisplay {
             get {
@@ -7319,7 +7319,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Multi Extensions.
+        ///   Looks up a localized string similar to Compound Extensions.
         /// </summary>
         public static string Settings_MultiExtensions {
             get {
@@ -7328,7 +7328,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Note: Effective after restart.
+        ///   Looks up a localized string similar to Takes effect after restart..
         /// </summary>
         public static string Settings_Note_EffectiveAfterRestart {
             get {
@@ -7842,8 +7842,8 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to You are about to paste multi-line text.A
-        ///re you sure you want to continue?.
+        ///   Looks up a localized string similar to You are about to paste multiple lines of text.
+        ///Are you sure you want to continue?.
         /// </summary>
         public static string Terminal_ConfirmPasteMessage {
             get {
@@ -7897,7 +7897,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Use App Setting.
+        ///   Looks up a localized string similar to Follow App Theme.
         /// </summary>
         public static string TerminalThemeModes_AppSetting {
             get {
@@ -8005,7 +8005,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Edit Scipt File.
+        ///   Looks up a localized string similar to Edit Script File.
         /// </summary>
         public static string Tooltip_EditScriptFile {
             get {
@@ -8402,7 +8402,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to _Processes items below the folder.
+        ///   Looks up a localized string similar to Also _process items inside folders.
         /// </summary>
         public static string UI_ProcessInFolders {
             get {
