@@ -2503,6 +2503,19 @@
     <data name="UI_Trial_ContinueInRestrictedMode" xml:space="preserve">
         <value>制限モードで続ける</value>
     </data>
+    <data name="TrialStart_Title" xml:space="preserve">
+        <value>Filediniをお試しいただけます</value>
+    </data>
+    <data name="TrialStart_Message" xml:space="preserve">
+        <value>試用中は、起動後10分間すべての機能を制限なくお試しいただけます。
+Filediniを気に入っていただけましたら、ぜひライセンスの購入をご検討ください。</value>
+    </data>
+    <data name="TrialStart_StartTrial" xml:space="preserve">
+        <value>試用を開始</value>
+    </data>
+    <data name="TrialStart_BuyLicense" xml:space="preserve">
+        <value>ライセンスを購入</value>
+    </data>
     <data name="Message_EnterLicenseKey" xml:space="preserve">
         <value>ライセンスキーを入力してください</value>
     </data>

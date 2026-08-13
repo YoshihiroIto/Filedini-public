@@ -2679,6 +2679,19 @@ Please try again later.</value>
     <data name="UI_Trial_ContinueInRestrictedMode" xml:space="preserve">
         <value>Continue in Restricted Mode</value>
     </data>
+    <data name="TrialStart_Title" xml:space="preserve">
+        <value>Try Filedini</value>
+    </data>
+    <data name="TrialStart_Message" xml:space="preserve">
+        <value>During the trial, you can use all features without restrictions for 10 minutes after startup.
+If you enjoy Filedini, please consider purchasing a license.</value>
+    </data>
+    <data name="TrialStart_StartTrial" xml:space="preserve">
+        <value>Start Trial</value>
+    </data>
+    <data name="TrialStart_BuyLicense" xml:space="preserve">
+        <value>Purchase License</value>
+    </data>
     <data name="Message_EnterLicenseKey" xml:space="preserve">
         <value>Enter License Key</value>
     </data>

@@ -8345,6 +8345,43 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Trial_LicenseManager", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Purchase License.
+        /// </summary>
+        public static string TrialStart_BuyLicense {
+            get {
+                return ResourceManager.GetString("TrialStart_BuyLicense", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to During the trial, you can use all features without restrictions for 10 minutes after startup.
+        ///If you enjoy Filedini, please consider purchasing a license..
+        /// </summary>
+        public static string TrialStart_Message {
+            get {
+                return ResourceManager.GetString("TrialStart_Message", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Start Trial.
+        /// </summary>
+        public static string TrialStart_StartTrial {
+            get {
+                return ResourceManager.GetString("TrialStart_StartTrial", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Try Filedini.
+        /// </summary>
+        public static string TrialStart_Title {
+            get {
+                return ResourceManager.GetString("TrialStart_Title", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to _Bookmark.
