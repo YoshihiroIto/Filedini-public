@@ -1142,18 +1142,6 @@
     <data name="Trial_Exit" xml:space="preserve">
         <value>終了</value>
     </data>
-    <data name="License_CancelSubscription" xml:space="preserve">
-        <value>サブスクリプションをキャンセル</value>
-    </data>
-    <data name="License_ChangeOrAddPaymentMethod" xml:space="preserve">
-        <value>支払い方法を変更・追加</value>
-    </data>
-    <data name="License_ChangeBillingInformation" xml:space="preserve">
-        <value>請求先情報</value>
-    </data>
-    <data name="License_InvoiceHistory" xml:space="preserve">
-        <value>インボイスの履歴</value>
-    </data>
     <data name="UI_Reload" xml:space="preserve">
         <value>リロード(_E)</value>
     </data>
@@ -1174,9 +1162,6 @@
     </data>
     <data name="Message_CannotConnectGoogle" xml:space="preserve">
         <value>Google に接続できません。</value>
-    </data>
-    <data name="Trial_LicenseManager" xml:space="preserve">
-        <value>ライセンスマネージャー</value>
     </data>
     <data name="Label_ThirdPartyLibraries" xml:space="preserve">
         <value>サードパーティーライブラリー</value>
@@ -2520,18 +2505,14 @@ Filediniを気に入っていただけましたら、ぜひライセンスの購
     <data name="License_Activate" xml:space="preserve"><value>認証</value></data>
     <data name="License_ActivationSucceeded" xml:space="preserve"><value>ライセンスを認証しました。</value></data>
     <data name="License_ActivatedLicenses" xml:space="preserve"><value>認証済みライセンス</value></data>
-    <data name="License_Status" xml:space="preserve"><value>状態</value></data>
     <data name="License_StatusGranted" xml:space="preserve"><value>有効</value></data>
     <data name="License_StatusInvalid" xml:space="preserve"><value>無効</value></data>
     <data name="License_IssuedAt" xml:space="preserve"><value>ライセンス発行日</value></data>
-    <data name="License_ExpiresAt" xml:space="preserve"><value>有効期限</value></data>
-    <data name="License_Device" xml:space="preserve"><value>このPC</value></data>
     <data name="License_LastChecked" xml:space="preserve"><value>最終確認</value></data>
     <data name="License_Refresh" xml:space="preserve"><value>ライセンス情報を更新</value></data>
     <data name="License_DeactivateThisPc" xml:space="preserve"><value>この認証を解除</value></data>
     <data name="License_ManagePurchases" xml:space="preserve"><value>購入情報を管理...</value></data>
     <data name="License_ErrorLocalStateUnavailable" xml:space="preserve"><value>このPCのライセンス情報を確認できませんでした。ライセンスキーで再認証してください。</value></data>
-    <data name="License_ErrorLicenseKeyRequired" xml:space="preserve"><value>ライセンスキーを入力してください。</value></data>
     <data name="License_ErrorConfigurationRequired" xml:space="preserve"><value>Polar ライセンス設定がまだ完了していません。</value></data>
     <data name="License_ErrorNoActivation" xml:space="preserve"><value>このPCの認証情報はありません。</value></data>
     <data name="License_ErrorOfflineGracePeriod" xml:space="preserve"><value>ライセンスサーバーに接続できません。前回確認から14日間は利用を継続できます。</value></data>

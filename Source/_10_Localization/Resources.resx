@@ -1162,18 +1162,6 @@ Empty file.</value>
     <data name="Trial_Exit" xml:space="preserve">
         <value>Exit</value>
     </data>
-    <data name="License_CancelSubscription" xml:space="preserve">
-        <value>Cancel Subscription</value>
-    </data>
-    <data name="License_ChangeOrAddPaymentMethod" xml:space="preserve">
-        <value>Change or Add Payment Method</value>
-    </data>
-    <data name="License_ChangeBillingInformation" xml:space="preserve">
-        <value>Billing Information</value>
-    </data>
-    <data name="License_InvoiceHistory" xml:space="preserve">
-        <value>Invoice History</value>
-    </data>
     <data name="UI_Reload" xml:space="preserve">
         <value>R_eload</value>
     </data>
@@ -1194,9 +1182,6 @@ Empty file.</value>
     </data>
     <data name="Message_CannotConnectGoogle" xml:space="preserve">
         <value>Cannot Connect Google</value>
-    </data>
-    <data name="Trial_LicenseManager" xml:space="preserve">
-        <value>License Manager</value>
     </data>
     <data name="Label_ThirdPartyLibraries" xml:space="preserve">
         <value>Third-party Libraries</value>
@@ -2696,18 +2681,14 @@ If you enjoy Filedini, please consider purchasing a license.</value>
     <data name="License_Activate" xml:space="preserve"><value>Activate</value></data>
     <data name="License_ActivationSucceeded" xml:space="preserve"><value>License activated successfully.</value></data>
     <data name="License_ActivatedLicenses" xml:space="preserve"><value>Activated licenses</value></data>
-    <data name="License_Status" xml:space="preserve"><value>Status</value></data>
     <data name="License_StatusGranted" xml:space="preserve"><value>Granted</value></data>
     <data name="License_StatusInvalid" xml:space="preserve"><value>Invalid</value></data>
     <data name="License_IssuedAt" xml:space="preserve"><value>License issued</value></data>
-    <data name="License_ExpiresAt" xml:space="preserve"><value>Expires</value></data>
-    <data name="License_Device" xml:space="preserve"><value>This device</value></data>
     <data name="License_LastChecked" xml:space="preserve"><value>Last checked</value></data>
     <data name="License_Refresh" xml:space="preserve"><value>Refresh license information</value></data>
     <data name="License_DeactivateThisPc" xml:space="preserve"><value>Deactivate</value></data>
     <data name="License_ManagePurchases" xml:space="preserve"><value>Manage Purchases...</value></data>
     <data name="License_ErrorLocalStateUnavailable" xml:space="preserve"><value>This PC's license information could not be verified. Activate again with your license key.</value></data>
-    <data name="License_ErrorLicenseKeyRequired" xml:space="preserve"><value>Enter a license key.</value></data>
     <data name="License_ErrorConfigurationRequired" xml:space="preserve"><value>Polar license settings have not been configured yet.</value></data>
     <data name="License_ErrorNoActivation" xml:space="preserve"><value>This PC has no activation information.</value></data>
     <data name="License_ErrorOfflineGracePeriod" xml:space="preserve"><value>Could not connect to the license server. You can continue using the app for 14 days after the last successful check.</value></data>

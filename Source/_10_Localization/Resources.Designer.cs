@@ -4774,47 +4774,11 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cancel Subscription.
-        /// </summary>
-        public static string License_CancelSubscription {
-            get {
-                return ResourceManager.GetString("License_CancelSubscription", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Billing Information.
-        /// </summary>
-        public static string License_ChangeBillingInformation {
-            get {
-                return ResourceManager.GetString("License_ChangeBillingInformation", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Change or Add Payment Method.
-        /// </summary>
-        public static string License_ChangeOrAddPaymentMethod {
-            get {
-                return ResourceManager.GetString("License_ChangeOrAddPaymentMethod", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Deactivate.
         /// </summary>
         public static string License_DeactivateThisPc {
             get {
                 return ResourceManager.GetString("License_DeactivateThisPc", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to This device.
-        /// </summary>
-        public static string License_Device {
-            get {
-                return ResourceManager.GetString("License_Device", resourceCulture);
             }
         }
         
@@ -4860,15 +4824,6 @@ namespace Filedini.Localization {
         public static string License_ErrorLicenseKeyNotFound {
             get {
                 return ResourceManager.GetString("License_ErrorLicenseKeyNotFound", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Enter a license key..
-        /// </summary>
-        public static string License_ErrorLicenseKeyRequired {
-            get {
-                return ResourceManager.GetString("License_ErrorLicenseKeyRequired", resourceCulture);
             }
         }
         
@@ -4972,24 +4927,6 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Expires.
-        /// </summary>
-        public static string License_ExpiresAt {
-            get {
-                return ResourceManager.GetString("License_ExpiresAt", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Invoice History.
-        /// </summary>
-        public static string License_InvoiceHistory {
-            get {
-                return ResourceManager.GetString("License_InvoiceHistory", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to License issued.
         /// </summary>
         public static string License_IssuedAt {
@@ -5031,15 +4968,6 @@ namespace Filedini.Localization {
         public static string License_Refresh {
             get {
                 return ResourceManager.GetString("License_Refresh", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Status.
-        /// </summary>
-        public static string License_Status {
-            get {
-                return ResourceManager.GetString("License_Status", resourceCulture);
             }
         }
         
@@ -8343,15 +8271,6 @@ namespace Filedini.Localization {
         public static string Trial_Exit {
             get {
                 return ResourceManager.GetString("Trial_Exit", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to License Manager.
-        /// </summary>
-        public static string Trial_LicenseManager {
-            get {
-                return ResourceManager.GetString("Trial_LicenseManager", resourceCulture);
             }
         }
         
