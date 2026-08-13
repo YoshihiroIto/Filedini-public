@@ -2513,9 +2513,6 @@ Filediniを気に入っていただけましたら、ぜひライセンスの購
     <data name="TrialStart_StartTrial" xml:space="preserve">
         <value>試用を開始</value>
     </data>
-    <data name="TrialStart_BuyLicense" xml:space="preserve">
-        <value>ライセンスを購入</value>
-    </data>
     <data name="Message_EnterLicenseKey" xml:space="preserve">
         <value>ライセンスキーを入力してください</value>
     </data>
@@ -2550,4 +2547,7 @@ Filediniを気に入っていただけましたら、ぜひライセンスの購
     <data name="License_ErrorLicenseKeyFormat" xml:space="preserve"><value>無効な入力です</value></data>
     <data name="License_ErrorProductUnknown" xml:space="preserve"><value>このライセンスのプロダクトは、このバージョンの Filedini では利用できません。</value></data>
     <data name="License_ErrorProductAlreadyActivated" xml:space="preserve"><value>このPCでは同じプロダクトのライセンスがすでに認証されています。別のキーを追加する前に認証を解除してください。</value></data>
+    <data name="License_AlreadyPurchased" xml:space="preserve">
+        <value>すでに購入済みの場合は再購入する必要はありません。「購入情報を管理」からライセンスキーを確認できます。</value>
+    </data>
 </root>

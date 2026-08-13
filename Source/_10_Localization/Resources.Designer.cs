@@ -4745,9 +4745,18 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("License_Activate", resourceCulture);
             }
         }
-
+        
         /// <summary>
-        ///   Looks up a localized string similar to License activated successfully.
+        ///   Looks up a localized string similar to Activated licenses.
+        /// </summary>
+        public static string License_ActivatedLicenses {
+            get {
+                return ResourceManager.GetString("License_ActivatedLicenses", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to License activated successfully..
         /// </summary>
         public static string License_ActivationSucceeded {
             get {
@@ -4756,11 +4765,11 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Activated licenses.
+        ///   Looks up a localized string similar to Already purchased? No need to buy again. Find your license key in &quot;Manage Purchases&quot;..
         /// </summary>
-        public static string License_ActivatedLicenses {
+        public static string License_AlreadyPurchased {
             get {
-                return ResourceManager.GetString("License_ActivatedLicenses", resourceCulture);
+                return ResourceManager.GetString("License_AlreadyPurchased", resourceCulture);
             }
         }
         
@@ -4810,7 +4819,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The activation information could not be verified..
+        ///   Looks up a localized string similar to This PC activation could not be verified. Remove this activation, then activate the license again..
         /// </summary>
         public static string License_ErrorActivationInvalid {
             get {
@@ -5008,7 +5017,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Open Customer Portal....
+        ///   Looks up a localized string similar to Manage Purchases....
         /// </summary>
         public static string License_OpenCustomerPortal {
             get {
@@ -5042,7 +5051,7 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("License_StatusGranted", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Invalid.
         /// </summary>
@@ -8345,16 +8354,7 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Trial_LicenseManager", resourceCulture);
             }
         }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Purchase License.
-        /// </summary>
-        public static string TrialStart_BuyLicense {
-            get {
-                return ResourceManager.GetString("TrialStart_BuyLicense", resourceCulture);
-            }
-        }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to During the trial, you can use all features without restrictions for 10 minutes after startup.
         ///If you enjoy Filedini, please consider purchasing a license..
@@ -8364,7 +8364,7 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("TrialStart_Message", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Start Trial.
         /// </summary>
@@ -8373,7 +8373,7 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("TrialStart_StartTrial", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Try Filedini.
         /// </summary>
@@ -8591,7 +8591,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Enter License Key.
+        ///   Looks up a localized string similar to Enter License Key....
         /// </summary>
         public static string UI_Trial_EnterLicenseKey {
             get {
