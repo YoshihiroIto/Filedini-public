@@ -73,13 +73,13 @@ Do you want to delete this?</value>
         <value>_No</value>
     </data>
     <data name="Message_FailedToExecuteAssociatedApp" xml:space="preserve">
-        <value>Failed to execute associated app.</value>
+        <value>Could not open the associated app.</value>
     </data>
     <data name="Message_FailedToExecuteExternalApp" xml:space="preserve">
         <value>{0}
 
-Failed to execute external app.
-The external app is not registered or does not exist.</value>
+Could not launch the external app.
+The app is not configured or could not be found.</value>
     </data>
     <data name="Message_OmittedDueToLargeSize" xml:space="preserve">
         <value>Omitted due to large size.</value>
@@ -322,20 +322,20 @@ The external app is not registered or does not exist.</value>
         <value>Go to Volume 5</value>
     </data>
     <data name="Message_CanModifyItemResults_EmptyName" xml:space="preserve">
-        <value>Empty Name</value>
+        <value>The name cannot be empty.</value>
     </data>
     <data name="Message_CanModifyItemResults_InvalidCharacterInName" xml:space="preserve">
-        <value>The following characters cannot be used in the name
+        <value>The name cannot contain the following characters:
 {0}</value>
     </data>
     <data name="Message_CanModifyItemResults_TrailingPeriod" xml:space="preserve">
-        <value>Names cannot end with a period</value>
+        <value>Names cannot end with a period.</value>
     </data>
     <data name="Message_CanModifyItemResults_ReservedName" xml:space="preserve">
-        <value>This name is reserved and cannot be used</value>
+        <value>This name is reserved and cannot be used.</value>
     </data>
     <data name="Message_CanModifyItemResults_AlreadyExists" xml:space="preserve">
-        <value>Already Exists</value>
+        <value>An item with the same name already exists.</value>
     </data>
     <data name="Message_CanModifyItemResults_ParentDoesNotExist" xml:space="preserve">
         <value>The parent folder does not exist.</value>
@@ -690,7 +690,7 @@ Do you want to proceed?</value>
         <value>Rename</value>
     </data>
     <data name="FileAttributes_ReadOnly" xml:space="preserve">
-        <value>Read Only</value>
+        <value>Read-only</value>
     </data>
     <data name="FileAttributes_ReparsePoint" xml:space="preserve">
         <value>Reparse Point</value>
@@ -971,7 +971,7 @@ Empty file.</value>
         <value>_Close</value>
     </data>
     <data name="Dialog_MoveToSelectedItem" xml:space="preserve">
-        <value>_Move to Selected Item</value>
+        <value>_Go to Selected Item</value>
     </data>
     <data name="Label_FoundItems" xml:space="preserve">
         <value>Found Items</value>
@@ -1724,8 +1724,8 @@ Please check back later.</value>
     <data name="Message_MissingPython" xml:space="preserve">
         <value>Python is not installed.
 
-Python is required to use the script. You can install it via Script Settings. 
-Would you like to open the settings?
+Python is required to run scripts. You can install it from Script Settings. 
+Would you like to open Script Settings?
 </value>
     </data>
     <data name="Dialog_Install" xml:space="preserve">
@@ -2128,7 +2128,7 @@ Are you sure you want to continue?</value>
         <value>(No Extension)</value>
     </data>
     <data name="FolderViewer_Others" xml:space="preserve">
-        <value>Others</value>
+        <value>Other</value>
     </data>
     <data name="FolderViewer_ItemsFormat" xml:space="preserve">
         <value>{0:plural:1 item|{:N0} items}</value>
@@ -2343,7 +2343,7 @@ Please try again later.</value>
         <value>Switch Pane Layout</value>
     </data>
     <data name="Settings_Label_ToolPaneDisplaySwitch" xml:space="preserve">
-        <value>Tool Pane Display Switch</value>
+        <value>Tool Pane Toggle</value>
     </data>
     <data name="Settings_Label_DetailsPaneDisplaySwitch" xml:space="preserve">
         <value>Details Pane Display Switch</value>
@@ -2352,10 +2352,10 @@ Please try again later.</value>
         <value>Restore cursor position for each folder</value>
     </data>
     <data name="Settings_Label_SplitFolderPaneDisplaySwitch" xml:space="preserve">
-        <value>Split Folder Pane Display Switch</value>
+        <value>Split Folder Pane Toggle</value>
     </data>
     <data name="Settings_Label_PaneLayoutSwitch" xml:space="preserve">
-        <value>Pane Layout Switch</value>
+        <value>Pane Layout Toggle</value>
     </data>
     <data name="FileMenu_ClearIconCache" xml:space="preserve">
         <value>Clear Icon Cache</value>
@@ -2367,7 +2367,7 @@ Please try again later.</value>
         <value>Folder Pane</value>
     </data>
     <data name="FileMenu_UnselectAllItems" xml:space="preserve">
-        <value>Unselect All Items</value>
+        <value>Deselect All Items</value>
     </data>
     <data name="FileMenu_Nop" xml:space="preserve">
         <value>Do nothing</value>

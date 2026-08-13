@@ -1374,7 +1374,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to _Move to Selected Item.
+        ///   Looks up a localized string similar to _Go to Selected Item.
         /// </summary>
         public static string Dialog_MoveToSelectedItem {
             get {
@@ -1632,7 +1632,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Read Only.
+        ///   Looks up a localized string similar to Read-only.
         /// </summary>
         public static string FileAttributes_ReadOnly {
             get {
@@ -3594,7 +3594,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Unselect All Items.
+        ///   Looks up a localized string similar to Deselect All Items.
         /// </summary>
         public static string FileMenu_UnselectAllItems {
             get {
@@ -3756,7 +3756,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Others.
+        ///   Looks up a localized string similar to Other.
         /// </summary>
         public static string FolderViewer_Others {
             get {
@@ -5039,7 +5039,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Already Exists.
+        ///   Looks up a localized string similar to An item with the same name already exists..
         /// </summary>
         public static string Message_CanModifyItemResults_AlreadyExists {
             get {
@@ -5048,7 +5048,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Empty Name.
+        ///   Looks up a localized string similar to The name cannot be empty..
         /// </summary>
         public static string Message_CanModifyItemResults_EmptyName {
             get {
@@ -5057,7 +5057,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The following characters cannot be used in the name
+        ///   Looks up a localized string similar to The name cannot contain the following characters:
         ///{0}.
         /// </summary>
         public static string Message_CanModifyItemResults_InvalidCharacterInName {
@@ -5085,7 +5085,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to This name is reserved and cannot be used.
+        ///   Looks up a localized string similar to This name is reserved and cannot be used..
         /// </summary>
         public static string Message_CanModifyItemResults_ReservedName {
             get {
@@ -5094,7 +5094,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Names cannot end with a period.
+        ///   Looks up a localized string similar to Names cannot end with a period..
         /// </summary>
         public static string Message_CanModifyItemResults_TrailingPeriod {
             get {
@@ -5711,7 +5711,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Failed to execute associated app..
+        ///   Looks up a localized string similar to Could not open the associated app..
         /// </summary>
         public static string Message_FailedToExecuteAssociatedApp {
             get {
@@ -5722,8 +5722,8 @@ namespace Filedini.Localization {
         /// <summary>
         ///   Looks up a localized string similar to {0}
         ///
-        ///Failed to execute external app.
-        ///The external app is not registered or does not exist..
+        ///Could not launch the external app.
+        ///The app is not configured or could not be found..
         /// </summary>
         public static string Message_FailedToExecuteExternalApp {
             get {
@@ -5872,8 +5872,8 @@ namespace Filedini.Localization {
         /// <summary>
         ///   Looks up a localized string similar to Python is not installed.
         ///
-        ///Python is required to use the script. You can install it via Script Settings. 
-        ///Would you like to open the settings?
+        ///Python is required to run scripts. You can install it from Script Settings. 
+        ///Would you like to open Script Settings?
         ///.
         /// </summary>
         public static string Message_MissingPython {
@@ -6968,7 +6968,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Pane Layout Switch.
+        ///   Looks up a localized string similar to Pane Layout Toggle.
         /// </summary>
         public static string Settings_Label_PaneLayoutSwitch {
             get {
@@ -7076,7 +7076,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Split Folder Pane Display Switch.
+        ///   Looks up a localized string similar to Split Folder Pane Toggle.
         /// </summary>
         public static string Settings_Label_SplitFolderPaneDisplaySwitch {
             get {
@@ -7256,7 +7256,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Tool Pane Display Switch.
+        ///   Looks up a localized string similar to Tool Pane Toggle.
         /// </summary>
         public static string Settings_Label_ToolPaneDisplaySwitch {
             get {
