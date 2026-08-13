@@ -106,10 +106,10 @@
         <value>右に移動</value>
     </data>
     <data name="FileMenu_MoveCursorSearchNext" xml:space="preserve">
-        <value>次検索</value>
+        <value>次を検索</value>
     </data>
     <data name="FileMenu_MoveCursorSearchPrevious" xml:space="preserve">
-        <value>前検索</value>
+        <value>前を検索</value>
     </data>
     <data name="FileMenu_MoveCursorUp" xml:space="preserve">
         <value>上に移動</value>
@@ -133,7 +133,7 @@
         <value>コピー</value>
     </data>
     <data name="FileMenu_SelectAllItems" xml:space="preserve">
-        <value>すべてのアイテムの選択</value>
+        <value>すべてのアイテムを選択</value>
     </data>
     <data name="FileMenu_SelectAllFiles" xml:space="preserve">
         <value>すべてのファイルの選択</value>
@@ -384,7 +384,7 @@
         <value>出力先フォルダー</value>
     </data>
     <data name="Message_FailedToSendToTrashCan" xml:space="preserve">
-        <value>ごみ箱への送信に失敗しました。</value>
+        <value>ごみ箱への移動に失敗しました。</value>
     </data>
     <data name="Message_FailedToDelete" xml:space="preserve">
         <value>削除に失敗しました。
@@ -837,10 +837,10 @@
         <value>サイズ</value>
     </data>
     <data name="Settings_Label_TimestampFormat" xml:space="preserve">
-        <value>タイムスタンプ形式</value>
+        <value>日時表示形式</value>
     </data>
     <data name="Settings_Label_Timestamp" xml:space="preserve">
-        <value>タイムスタンプ</value>
+        <value>更新日時</value>
     </data>
     <data name="Settings_Label_TimestampShowSeconds" xml:space="preserve">
         <value>秒を表示する</value>
@@ -1313,7 +1313,7 @@
         <value>更新</value>
     </data>
     <data name="Settings_LastWriteDisplay" xml:space="preserve">
-        <value>更新表示</value>
+        <value>更新日時の強調表示</value>
     </data>
     <data name="PeriodUnits_Days" xml:space="preserve">
         <value>日</value>
@@ -1373,7 +1373,7 @@
         <value>現在のファイル名</value>
     </data>
     <data name="VariableDetails_CurrentFileLine" xml:space="preserve">
-        <value>現在のファイルの行番</value>
+        <value>現在のファイルの行番号</value>
     </data>
     <data name="VariableDetails_CurrentFolder" xml:space="preserve">
         <value>現在のフォルダー名</value>
@@ -1608,13 +1608,13 @@
         <value>Python パッケージを展開しています...</value>
     </data>
     <data name="InstallState_PythonPackageExtractionComplete" xml:space="preserve">
-        <value>Python のインストールが完了しました。</value>
+        <value>Python パッケージの展開が完了しました。</value>
     </data>
     <data name="InstallState_InstallingDependencies" xml:space="preserve">
-        <value>依存ライブラリのインストール開始...</value>
+        <value>依存ライブラリをインストールしています...</value>
     </data>
     <data name="InstallState_DependencyInstallationComplete" xml:space="preserve">
-        <value>依存ライブラリのインストール終了</value>
+        <value>依存ライブラリのインストールが完了しました。</value>
     </data>
     <data name="InstallState_PythonPackageDownloadFailed" xml:space="preserve">
         <value>Python パッケージのダウンロード失敗</value>
@@ -1626,13 +1626,13 @@
         <value>依存ライブラリのインストール失敗</value>
     </data>
     <data name="InstallState_InstallingPython" xml:space="preserve">
-        <value>Python インストール開始...</value>
+        <value>Python をインストールしています...</value>
     </data>
     <data name="InstallState_PythonInstallationComplete" xml:space="preserve">
-        <value>Python インストール終了</value>
+        <value>Python のインストールが完了しました。</value>
     </data>
     <data name="InstallState_PythonPackageDownloadFailedToStart" xml:space="preserve">
-        <value>パッケージのダウンロードの開始に失敗</value>
+        <value>Python パッケージのダウンロードを開始できませんでした。</value>
     </data>
     <data name="Message_FailedToStartPython" xml:space="preserve">
         <value>Python の起動に失敗しました。</value>
@@ -1668,7 +1668,7 @@
         <value>Python がインストールされていません。
 
 スクリプトの実行には Python が必要です。
-スクリプト設定からインストールできます。
+スクリプト設定からインストールできます。スクリプト設定を開きますか？
 </value>
     </data>
     <data name="Dialog_Install" xml:space="preserve">
@@ -1974,7 +1974,7 @@
         <value>ターミナルフォントサイズ</value>
     </data>
     <data name="TerminalThemeModes_AppSetting" xml:space="preserve">
-        <value>アプリ設定を使う</value>
+        <value>アプリのテーマに追従</value>
     </data>
     <data name="TerminalThemeModes_AlwaysDarkTheme" xml:space="preserve">
         <value>常にダークテーマ</value>
@@ -1992,7 +1992,7 @@
         <value>スプレッドシートビューワーのテーマ</value>
     </data>
     <data name="PreviewThemeModes_AppSetting" xml:space="preserve">
-        <value>テーマ設定に追従</value>
+        <value>アプリのテーマに追従</value>
     </data>
     <data name="PreviewThemeModes_Light" xml:space="preserve">
         <value>ライト</value>
@@ -2513,7 +2513,7 @@ Filediniを気に入っていただけましたら、ぜひライセンスの購
     <data name="License_ErrorTimeout" xml:space="preserve"><value>ライセンスサーバーへの接続がタイムアウトしました。</value></data>
     <data name="License_ErrorNetwork" xml:space="preserve"><value>インターネット接続を確認して、もう一度お試しください。</value></data>
     <data name="License_ErrorUnavailableInBeta" xml:space="preserve"><value>ベータテスト版ではライセンス認証を利用できません。</value></data>
-    <data name="License_ErrorLicenseKeyFormat" xml:space="preserve"><value>無効な入力です</value></data>
+    <data name="License_ErrorLicenseKeyFormat" xml:space="preserve"><value>正しい形式のライセンスキーを入力してください。</value></data>
     <data name="License_ErrorProductUnknown" xml:space="preserve"><value>このライセンスのプロダクトは、このバージョンの Filedini では利用できません。</value></data>
     <data name="License_ErrorProductAlreadyActivated" xml:space="preserve"><value>このPCでは同じプロダクトのライセンスがすでに認証されています。別のキーを追加する前に認証を解除してください。</value></data>
     <data name="License_AlreadyPurchased" xml:space="preserve">
