@@ -1319,7 +1319,7 @@
         <value>日</value>
     </data>
     <data name="PeriodUnits_Hours" xml:space="preserve">
-        <value>時</value>
+        <value>時間</value>
     </data>
     <data name="PeriodUnits_Minutes" xml:space="preserve">
         <value>分</value>
