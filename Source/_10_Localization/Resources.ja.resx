@@ -268,10 +268,10 @@
         <value>新しいフォルダーウィンドウを開く</value>
     </data>
     <data name="FileMenu_LoadFolderWindowLayout" xml:space="preserve">
-        <value>ウィンドウサイズを復元</value>
+        <value>ウィンドウレイアウトを復元</value>
     </data>
     <data name="FileMenu_StoreFolderWindowLayout" xml:space="preserve">
-        <value>ウィンドウサイズを保存</value>
+        <value>ウィンドウレイアウトを保存</value>
     </data>
     <data name="Message_StoreWindowLayout" xml:space="preserve">
         <value>ウィンドウレイアウトを保存しました。</value>
@@ -307,26 +307,26 @@
         <value>ボリューム５に移動</value>
     </data>
     <data name="Message_CanModifyItemResults_AlreadyExists" xml:space="preserve">
-        <value>既に存在しています</value>
+        <value>既に存在しています。</value>
     </data>
     <data name="Message_CanModifyItemResults_EmptyName" xml:space="preserve">
-        <value>名前が指定されていません</value>
+        <value>名前が指定されていません。</value>
     </data>
     <data name="Message_CanModifyItemResults_InvalidCharacterInName" xml:space="preserve">
-        <value>名前には以下の文字は使えません
+        <value>名前に次の文字は使用できません：
 {0}</value>
     </data>
     <data name="Message_CanModifyItemResults_TrailingPeriod" xml:space="preserve">
-        <value>名前の末尾に . は使えません</value>
+        <value>名前の末尾にピリオド（.）は使用できません。</value>
     </data>
     <data name="Message_CanModifyItemResults_ReservedName" xml:space="preserve">
-        <value>この名前は予約名のため使えません</value>
+        <value>この名前は予約名のため使用できません。</value>
     </data>
     <data name="Message_CanModifyItemResults_ParentDoesNotExist" xml:space="preserve">
-        <value>親フォルダーが存在しません</value>
+        <value>親フォルダーが存在しません。</value>
     </data>
     <data name="Message_CanModifyItemResults_ParentIsNotWritable" xml:space="preserve">
-        <value>親フォルダーが書き込めません</value>
+        <value>親フォルダーに書き込めません。</value>
     </data>
     <data name="Message_FailedToCreateFile" xml:space="preserve">
         <value>ファイル作成に失敗しました。</value>
@@ -606,7 +606,7 @@
         <value>{0:N0} / {1:N0} 個のアイテム</value>
     </data>
     <data name="UI_Now" xml:space="preserve">
-        <value>現在の時間(_N)</value>
+        <value>現在時刻(_N)</value>
     </data>
     <data name="UI_Today" xml:space="preserve">
         <value>今日(_T)</value>
@@ -1079,8 +1079,7 @@
         <value>フォルダーをファイルで上書きすることはできません。</value>
     </data>
     <data name="Message_FoldersCanntOverwrittenWithFolders" xml:space="preserve">
-        <value>フォルダーを上書きすることはできません。
- </value>
+        <value>フォルダーを上書きすることはできません。</value>
     </data>
     <data name="UI_Preset" xml:space="preserve">
         <value>プリセット(_P)</value>
@@ -1173,10 +1172,10 @@
 </value>
     </data>
     <data name="Message_BetaTestingPeriodHasEnded" xml:space="preserve">
-        <value>ベータテスト期間が終了しました。最新状況はウェブサイトを参照ください。</value>
+        <value>ベータテスト期間が終了しました。最新の状況はウェブサイトをご確認ください。</value>
     </data>
     <data name="Message_CheckingForNewVersion" xml:space="preserve">
-        <value>新バージョン確認中</value>
+        <value>新しいバージョンを確認しています...</value>
     </data>
     <data name="Message_CurrentlyUsingLatestVersion" xml:space="preserve">
         <value>最新バージョンを利用中です。</value>
@@ -1668,7 +1667,8 @@
         <value>Python がインストールされていません。
 
 スクリプトの実行には Python が必要です。
-スクリプト設定からインストールできます。スクリプト設定を開きますか？
+スクリプト設定からインストールできます。
+スクリプト設定を開きますか？
 </value>
     </data>
     <data name="Dialog_Install" xml:space="preserve">
@@ -2077,7 +2077,7 @@
         <value>{0:N0} 個</value>
     </data>
     <data name="FolderViewer_EmptyFolder" xml:space="preserve">
-        <value>このフォルダーは空です</value>
+        <value>このフォルダーは空です。</value>
     </data>
     <data name="FolderViewer_CancelButton" xml:space="preserve">
         <value>キャンセル</value>
