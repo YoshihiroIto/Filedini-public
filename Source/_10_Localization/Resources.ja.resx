@@ -807,10 +807,10 @@
         <value>パス</value>
     </data>
     <data name="Settings_Label_SelectedItemOptions" xml:space="preserve">
-        <value>アイテム選択時オプション</value>
+        <value>アイテム選択時引数</value>
     </data>
     <data name="Settings_Label_NotSelectedItemOptions" xml:space="preserve">
-        <value>アイテム未選択時オプション</value>
+        <value>アイテム未選択時引数</value>
     </data>
     <data name="Settings_Label_CanExecuteInFolder" xml:space="preserve">
         <value>フォルダーで実行可能</value>
@@ -1364,7 +1364,7 @@
         <value>アプリ</value>
     </data>
     <data name="Settings_Label_Options" xml:space="preserve">
-        <value>オプション</value>
+        <value>引数</value>
     </data>
     <data name="Settings_Label_Caption" xml:space="preserve">
         <value>キャプション</value>

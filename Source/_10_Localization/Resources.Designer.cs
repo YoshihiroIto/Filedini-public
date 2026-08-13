@@ -1509,7 +1509,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to We’d love to hear your thoughts
+        ///   Looks up a localized string similar to We’d love to hear your thoughts.
         ///Even a short message is fine.
         ///Feel free to share feedback, ideas, or anything you found confusing..
         /// </summary>
@@ -1947,7 +1947,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Create Tab from Recent Folders.
+        ///   Looks up a localized string similar to Create Tab from Recent Folder.
         /// </summary>
         public static string FileMenu_CreateTabFromRecentlyUsedFolder {
             get {
@@ -2523,7 +2523,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Go to Recent Folders....
+        ///   Looks up a localized string similar to Go to Recent Folder....
         /// </summary>
         public static string FileMenu_MoveToRecentlyUsedFolder {
             get {
@@ -2973,7 +2973,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Open Recent Folders as Tab.
+        ///   Looks up a localized string similar to Open Recent Folder as Tab.
         /// </summary>
         public static string FileMenu_OpenRecentlyUsedFolderAsTab {
             get {
@@ -4972,7 +4972,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Granted.
+        ///   Looks up a localized string similar to Active.
         /// </summary>
         public static string License_StatusGranted {
             get {
@@ -5121,7 +5121,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Checking for new version.
+        ///   Looks up a localized string similar to Checking for updates..
         /// </summary>
         public static string Message_CheckingForNewVersion {
             get {
@@ -5319,7 +5319,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Please indicate the operation performed before the error.
+        ///   Looks up a localized string similar to Please describe what you were doing before the crash..
         /// </summary>
         public static string Message_CrashReporter_Comment {
             get {
@@ -5365,7 +5365,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ✅Log Sent.
+        ///   Looks up a localized string similar to ✅Log sent.
         /// </summary>
         public static string Message_CrashReporter_LogSent {
             get {
@@ -5392,7 +5392,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to If the mail app does not start, we would appreciate it if you could send it manually..
+        ///   Looks up a localized string similar to If your mail app does not open, please send the crash report manually..
         /// </summary>
         public static string Message_CrashReporter_Message2 {
             get {
@@ -5428,7 +5428,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Start Mail App....
+        ///   Looks up a localized string similar to Open Mail App....
         /// </summary>
         public static string Message_CrashReporter_StartMailApp {
             get {
@@ -5473,7 +5473,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Currently using the latest version..
+        ///   Looks up a localized string similar to You&apos;re using the latest version..
         /// </summary>
         public static string Message_CurrentlyUsingLatestVersion {
             get {
@@ -5581,7 +5581,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Emptied the trash.
+        ///   Looks up a localized string similar to Trash emptied..
         /// </summary>
         public static string Message_EmptiedTrashCan {
             get {
@@ -5983,7 +5983,7 @@ namespace Filedini.Localization {
         
         /// <summary>
         ///   Looks up a localized string similar to This feature is currently in development.
-        ///Please check back again later..
+        ///Please check back later..
         /// </summary>
         public static string Message_NotImprementYet {
             get {
@@ -6572,7 +6572,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Can Execute in Folder.
+        ///   Looks up a localized string similar to Enable for folders.
         /// </summary>
         public static string Settings_Label_CanExecuteInFolder {
             get {
@@ -6707,7 +6707,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Folder Open in Associated App Behavior.
+        ///   Looks up a localized string similar to &quot;Open in Associated App&quot;x Behavior for Folders.
         /// </summary>
         public static string Settings_Label_FolderOpenInAssociatedAppBehavior {
             get {
@@ -6941,7 +6941,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Options when item not selected.
+        ///   Looks up a localized string similar to Arguments when no item is selected.
         /// </summary>
         public static string Settings_Label_NotSelectedItemOptions {
             get {
@@ -6950,7 +6950,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Options.
+        ///   Looks up a localized string similar to Arguments.
         /// </summary>
         public static string Settings_Label_Options {
             get {
@@ -7022,7 +7022,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Options when item selected.
+        ///   Looks up a localized string similar to Arguments when an item is selected.
         /// </summary>
         public static string Settings_Label_SelectedItemOptions {
             get {
@@ -8710,8 +8710,8 @@ namespace Filedini.Localization {
         ///
         ///This helps us focus on the platforms and versions that matter most.
         ///
-        ///No personal data is collected,
-        ///and file names or contents are never shared.
+        ///No personal data,
+        ///file names, paths, or file contents are collected or transmitted. 
         ///
         ///You’re in control —
         ///you can turn this on or off anytime in the settings..

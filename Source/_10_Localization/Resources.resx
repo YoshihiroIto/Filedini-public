@@ -295,7 +295,7 @@ The external app is not registered or does not exist.</value>
         <value>Open Trash</value>
     </data>
     <data name="Message_EmptiedTrashCan" xml:space="preserve">
-        <value>Emptied the trash</value>
+        <value>Trash emptied.</value>
     </data>
     <data name="Message_TrashCanAlreadyEmpty" xml:space="preserve">
         <value>The trash is already empty.</value>
@@ -600,13 +600,13 @@ Do you want to proceed?</value>
         <value>Dragging {0:plural:1 folder|{:N0} folders}, {1:plural:1 file|{:N0} files}.</value>
     </data>
     <data name="FileMenu_MoveToRecentlyUsedFolder" xml:space="preserve">
-        <value>Go to Recent Folders...</value>
+        <value>Go to Recent Folder...</value>
     </data>
     <data name="FileMenu_CreateTabFromRecentlyUsedFolder" xml:space="preserve">
-        <value>Create Tab from Recent Folders</value>
+        <value>Create Tab from Recent Folder</value>
     </data>
     <data name="FileMenu_OpenRecentlyUsedFolderAsTab" xml:space="preserve">
-        <value>Open Recent Folders as Tab</value>
+        <value>Open Recent Folder as Tab</value>
     </data>
     <data name="DialogTitle_FolderSelection" xml:space="preserve">
         <value>Select Folder</value>
@@ -828,13 +828,13 @@ Do you want to proceed?</value>
         <value>Path</value>
     </data>
     <data name="Settings_Label_SelectedItemOptions" xml:space="preserve">
-        <value>Options when item selected</value>
+        <value>Arguments when an item is selected</value>
     </data>
     <data name="Settings_Label_NotSelectedItemOptions" xml:space="preserve">
-        <value>Options when item not selected</value>
+        <value>Arguments when no item is selected</value>
     </data>
     <data name="Settings_Label_CanExecuteInFolder" xml:space="preserve">
-        <value>Can Execute in Folder</value>
+        <value>Enable for folders</value>
     </data>
     <data name="Settings_Label_Name" xml:space="preserve">
         <value>Name</value>
@@ -1067,7 +1067,7 @@ Empty file.</value>
         <value>To help us diagnose and fix the problem, you can send us a crash report.</value>
     </data>
     <data name="Message_CrashReporter_Comment" xml:space="preserve">
-        <value>Please indicate the operation performed before the error</value>
+        <value>Please describe what you were doing before the crash.</value>
     </data>
     <data name="Message_CrashReporter_RestartFiledini" xml:space="preserve">
         <value>Restart Filedini</value>
@@ -1079,7 +1079,7 @@ Empty file.</value>
         <value>Crash Report</value>
     </data>
     <data name="Message_CrashReporter_Message2" xml:space="preserve">
-        <value>If the mail app does not start, we would appreciate it if you could send it manually.</value>
+        <value>If your mail app does not open, please send the crash report manually.</value>
     </data>
     <data name="Message_CrashReporter_CopyEmail" xml:space="preserve">
         <value>Copy Support Email Address</value>
@@ -1088,7 +1088,7 @@ Empty file.</value>
         <value>Copy Crash Report</value>
     </data>
     <data name="Message_CrashReporter_StartMailApp" xml:space="preserve">
-        <value>Start Mail App...</value>
+        <value>Open Mail App...</value>
     </data>
     <data name="FileMenu_MoveCursorPreviousPage" xml:space="preserve">
         <value>Move to Previous Page</value>
@@ -1201,10 +1201,10 @@ End date: {0}</value>
         <value>The beta testing period has ended. Please refer to the website for the latest status.</value>
     </data>
     <data name="Message_CheckingForNewVersion" xml:space="preserve">
-        <value>Checking for new version</value>
+        <value>Checking for updates.</value>
     </data>
     <data name="Message_CurrentlyUsingLatestVersion" xml:space="preserve">
-        <value>Currently using the latest version.</value>
+        <value>You're using the latest version.</value>
     </data>
     <data name="Message_NewVersionIsAvailable" xml:space="preserve">
         <value>A new version is now available.</value>
@@ -1315,7 +1315,7 @@ Invalid password.
         <value>Open in External App 2</value>
     </data>
     <data name="Settings_Label_FolderOpenInAssociatedAppBehavior" xml:space="preserve">
-        <value>Folder Open in Associated App Behavior</value>
+        <value>"Open in Associated App"x Behavior for Folders</value>
     </data>
     <data name="NameSortModes_Numeric" xml:space="preserve">
         <value>Numeric Sort</value>
@@ -1384,7 +1384,7 @@ Invalid password.
         <value>App</value>
     </data>
     <data name="Settings_Label_Options" xml:space="preserve">
-        <value>Options</value>
+        <value>Arguments</value>
     </data>
     <data name="Settings_Label_Caption" xml:space="preserve">
         <value>Caption</value>
@@ -1553,7 +1553,7 @@ Invalid password.
     </data>
     <data name="Message_NotImprementYet" xml:space="preserve">
         <value>This feature is currently in development.
-Please check back again later.</value>
+Please check back later.</value>
     </data>
     <data name="DialogTitle_Notice" xml:space="preserve">
         <value>Notice</value>
@@ -2187,8 +2187,8 @@ Your Filedini version
 
 This helps us focus on the platforms and versions that matter most.
 
-No personal data is collected,
-and file names or contents are never shared.
+No personal data,
+file names, paths, or file contents are collected or transmitted. 
 
 You’re in control —
 you can turn this on or off anytime in the settings.</value>
@@ -2284,7 +2284,7 @@ from the settings.</value>
         <value>Send feedback to Filedini</value>
     </data>
     <data name="DialogMessage_SendFeedback" xml:space="preserve">
-        <value>We’d love to hear your thoughts
+        <value>We’d love to hear your thoughts.
 Even a short message is fine.
 Feel free to share feedback, ideas, or anything you found confusing.</value>
     </data>
@@ -2328,7 +2328,7 @@ Please try again later.</value>
 Please try again later.</value>
     </data>
     <data name="Message_CrashReporter_LogSent" xml:space="preserve">
-        <value>✅Log Sent</value>
+        <value>✅Log sent</value>
     </data>
     <data name="FileMenu_ChangeHistory" xml:space="preserve">
         <value>Change History...</value>
@@ -2678,7 +2678,7 @@ If you enjoy Filedini, please consider purchasing a license.</value>
     <data name="License_Activate" xml:space="preserve"><value>Activate</value></data>
     <data name="License_ActivationSucceeded" xml:space="preserve"><value>License activated successfully.</value></data>
     <data name="License_ActivatedLicenses" xml:space="preserve"><value>Activated licenses</value></data>
-    <data name="License_StatusGranted" xml:space="preserve"><value>Granted</value></data>
+    <data name="License_StatusGranted" xml:space="preserve"><value>Active</value></data>
     <data name="License_StatusInvalid" xml:space="preserve"><value>Invalid</value></data>
     <data name="License_IssuedAt" xml:space="preserve"><value>License issued</value></data>
     <data name="License_LastChecked" xml:space="preserve"><value>Last checked</value></data>
