@@ -142,7 +142,7 @@ The external app is not registered or does not exist.</value>
         <value>Delete...</value>
     </data>
     <data name="FileMenu_MoveToTrashCan" xml:space="preserve">
-        <value>Move to Trash Can</value>
+        <value>Move to Trash</value>
     </data>
     <data name="FileMenu_RenameItem" xml:space="preserve">
         <value>Rename...</value>
@@ -163,7 +163,7 @@ The external app is not registered or does not exist.</value>
         <value>New Folder...</value>
     </data>
     <data name="FileMenu_EmptyTrashCan" xml:space="preserve">
-        <value>Empty Trash Can...</value>
+        <value>Empty Trash...</value>
     </data>
     <data name="FileMenu_Cut" xml:space="preserve">
         <value>Cut</value>
@@ -292,16 +292,16 @@ The external app is not registered or does not exist.</value>
         <value>Saved window layout.</value>
     </data>
     <data name="FileMenu_OpenTrashCan" xml:space="preserve">
-        <value>Open Trash Can</value>
+        <value>Open Trash</value>
     </data>
     <data name="Message_EmptiedTrashCan" xml:space="preserve">
-        <value>Emptied the trash can.</value>
+        <value>Emptied the trash</value>
     </data>
     <data name="Message_TrashCanAlreadyEmpty" xml:space="preserve">
-        <value>The trash can is already empty.</value>
+        <value>The trash is already empty.</value>
     </data>
     <data name="Dialog_SendToTrashCan" xml:space="preserve">
-        <value>_To Trash Can</value>
+        <value>_To Trash</value>
     </data>
     <data name="FileMenu_MoveToParentFolder" xml:space="preserve">
         <value>Go to Parent Folder</value>
@@ -383,7 +383,7 @@ The external app is not registered or does not exist.</value>
         <value>Rename Session</value>
     </data>
     <data name="Message_ConformationEmptyTrashCan" xml:space="preserve">
-        <value>Empty the trash can. This action cannot be undone.
+        <value>Empty the trash. This action cannot be undone.
 Do you want to proceed?</value>
     </data>
     <data name="UI_Bookmark" xml:space="preserve">
@@ -2385,7 +2385,7 @@ Please try again later.</value>
         <value>Delete completed successfully.</value>
     </data>
     <data name="Message_MovedToTrashCanCompletedSuccessfully" xml:space="preserve">
-        <value>Moved to Trash Can successfully.</value>
+        <value>Moved to Trash successfully.</value>
     </data>
     <data name="Label_Cancel" xml:space="preserve">
         <value>Cancel</value>
@@ -2400,10 +2400,10 @@ Please try again later.</value>
         <value>Deleting...</value>
     </data>
     <data name="StatusBar_MovingToTrashCan" xml:space="preserve">
-        <value>Moving to Trash Can...</value>
+        <value>Moving to Trash...</value>
     </data>
     <data name="StatusBar_EmptyingTrashCan" xml:space="preserve">
-        <value>Emptying Trash Can...</value>
+        <value>Emptying Trash...</value>
     </data>
     <data name="Message_FolderDoesNotExist" xml:space="preserve">
         <value>Folder does not exist.

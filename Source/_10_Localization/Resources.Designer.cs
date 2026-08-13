@@ -1437,7 +1437,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to _To Trash Can.
+        ///   Looks up a localized string similar to _To Trash.
         /// </summary>
         public static string Dialog_SendToTrashCan {
             get {
@@ -2028,7 +2028,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Empty Trash Can....
+        ///   Looks up a localized string similar to Empty Trash....
         /// </summary>
         public static string FileMenu_EmptyTrashCan {
             get {
@@ -2649,7 +2649,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Trash Can.
+        ///   Looks up a localized string similar to Move to Trash.
         /// </summary>
         public static string FileMenu_MoveToTrashCan {
             get {
@@ -2982,7 +2982,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Open Trash Can.
+        ///   Looks up a localized string similar to Open Trash.
         /// </summary>
         public static string FileMenu_OpenTrashCan {
             get {
@@ -5186,7 +5186,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Empty the trash can. This action cannot be undone.
+        ///   Looks up a localized string similar to Empty the trash. This action cannot be undone.
         ///Do you want to proceed?.
         /// </summary>
         public static string Message_ConformationEmptyTrashCan {
@@ -5581,7 +5581,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Emptied the trash can..
+        ///   Looks up a localized string similar to Emptied the trash.
         /// </summary>
         public static string Message_EmptiedTrashCan {
             get {
@@ -5892,7 +5892,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Moved to Trash Can successfully..
+        ///   Looks up a localized string similar to Moved to Trash successfully..
         /// </summary>
         public static string Message_MovedToTrashCanCompletedSuccessfully {
             get {
@@ -6149,7 +6149,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The trash can is already empty..
+        ///   Looks up a localized string similar to The trash is already empty..
         /// </summary>
         public static string Message_TrashCanAlreadyEmpty {
             get {
@@ -7751,7 +7751,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Emptying Trash Can....
+        ///   Looks up a localized string similar to Emptying Trash....
         /// </summary>
         public static string StatusBar_EmptyingTrashCan {
             get {
@@ -7778,7 +7778,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Moving to Trash Can....
+        ///   Looks up a localized string similar to Moving to Trash....
         /// </summary>
         public static string StatusBar_MovingToTrashCan {
             get {
