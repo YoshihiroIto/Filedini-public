@@ -87,7 +87,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Add random text.
+        ///   Looks up a localized string similar to Add random value.
         /// </summary>
         public static string BatchRename_AddRandomValue {
             get {
@@ -1086,7 +1086,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Capitalize Every Word.
+        ///   Looks up a localized string similar to Capitalize every word.
         /// </summary>
         public static string BatchRename_TextCaseWords {
             get {
@@ -1947,7 +1947,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Create Tab from Recent Folder.
+        ///   Looks up a localized string similar to Create Tab from Recent Folder....
         /// </summary>
         public static string FileMenu_CreateTabFromRecentlyUsedFolder {
             get {
@@ -2973,7 +2973,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Open Recent Folder as Tab.
+        ///   Looks up a localized string similar to Open Recent Folder as Tab....
         /// </summary>
         public static string FileMenu_OpenRecentlyUsedFolderAsTab {
             get {
@@ -5121,7 +5121,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Checking for updates..
+        ///   Looks up a localized string similar to Checking for updates....
         /// </summary>
         public static string Message_CheckingForNewVersion {
             get {
@@ -5130,7 +5130,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Compresses {0:plural:1 file|{:N0} files}..
+        ///   Looks up a localized string similar to Compress {0:plural:1 file|{:N0} files}..
         /// </summary>
         public static string Message_CompressFiles {
             get {
@@ -5139,7 +5139,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Compresses {0:plural:1 folder|{:N0} folders}..
+        ///   Looks up a localized string similar to Compress {0:plural:1 folder|{:N0} folders}..
         /// </summary>
         public static string Message_CompressFolders {
             get {
@@ -5148,7 +5148,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Compresses {0:plural:1 folder|{:N0} folders}, {1:plural:1 file|{:N0} files}..
+        ///   Looks up a localized string similar to Compress {0:plural:1 folder|{:N0} folders}, {1:plural:1 file|{:N0} files}..
         /// </summary>
         public static string Message_CompressFoldersAndFiles {
             get {
@@ -5157,7 +5157,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Compress `{0}&apos;..
+        ///   Looks up a localized string similar to Compress &quot;{0}&quot;..
         /// </summary>
         public static string Message_CompressItem {
             get {
@@ -5177,7 +5177,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Script &apos;{0}&apos; already exists. Do you want to overwrite it?.
+        ///   Looks up a localized string similar to Script &quot;{0}&quot; already exists. Do you want to overwrite it?.
         /// </summary>
         public static string Message_ConfirmOverwriteScript {
             get {
@@ -5256,7 +5256,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Copy `{0}&apos;..
+        ///   Looks up a localized string similar to Copy &quot;{0}&quot;..
         /// </summary>
         public static string Message_CopyItem {
             get {
@@ -5355,7 +5355,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Failed to send crash log.
+        ///   Looks up a localized string similar to Failed to send crash report.
         ///Please try again later..
         /// </summary>
         public static string Message_CrashReporter_ErrorSend {
@@ -5365,7 +5365,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ✅Log sent.
+        ///   Looks up a localized string similar to ✅Crash report sent.
         /// </summary>
         public static string Message_CrashReporter_LogSent {
             get {
@@ -5491,7 +5491,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Extract `{0}&apos;..
+        ///   Looks up a localized string similar to Extract &quot;{0}&quot;..
         /// </summary>
         public static string Message_DecompressItem {
             get {
@@ -5536,7 +5536,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Delete `{0}&apos;..
+        ///   Looks up a localized string similar to Delete &quot;{0}&quot;..
         /// </summary>
         public static string Message_DeleteItem {
             get {
@@ -5572,7 +5572,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Dragging `{0}&apos;.
+        ///   Looks up a localized string similar to Dragging &quot;{0}&quot;.
         /// </summary>
         public static string Message_DraggingItem {
             get {
@@ -5928,7 +5928,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move `{0}&apos;..
+        ///   Looks up a localized string similar to Move &quot;{0}&quot;..
         /// </summary>
         public static string Message_MoveItem {
             get {
@@ -6010,7 +6010,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Rename `{0}&apos;..
+        ///   Looks up a localized string similar to Rename &quot;{0}&quot;..
         /// </summary>
         public static string Message_RenameItem {
             get {
@@ -6046,9 +6046,9 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to A {0} with the same name already exists.
+        ///   Looks up a localized string similar to A &quot;{0}&quot; with the same name already exists.
         ///
-        ///&apos;{1}&apos;.
+        ///&quot;{1}&quot;.
         /// </summary>
         public static string Message_SameNameItemExisting {
             get {
@@ -6057,7 +6057,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Script &apos;{0}&apos; created successfully..
+        ///   Looks up a localized string similar to Script &quot;{0}&quot; created successfully..
         /// </summary>
         public static string Message_ScriptCreatedSuccess {
             get {
@@ -6095,7 +6095,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Change `{0}&apos; attributes..
+        ///   Looks up a localized string similar to Change &quot;{0}&quot; attributes..
         /// </summary>
         public static string Message_SetAttributesItem {
             get {
@@ -6104,7 +6104,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Change `{0}&apos; timestamp..
+        ///   Looks up a localized string similar to Change &quot;{0}&quot; timestamp..
         /// </summary>
         public static string Message_SetTimestampItem {
             get {
@@ -6131,7 +6131,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Create a symbolic link for `{0}&apos;..
+        ///   Looks up a localized string similar to Create a symbolic link for &quot;{0}&quot;..
         /// </summary>
         public static string Message_SymbolicLinkItem {
             get {
@@ -6707,7 +6707,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &quot;Open in Associated App&quot;x Behavior for Folders.
+        ///   Looks up a localized string similar to &quot;Open in Associated App&quot; Behavior for Folders.
         /// </summary>
         public static string Settings_Label_FolderOpenInAssociatedAppBehavior {
             get {
@@ -7571,7 +7571,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Remove `{0}&apos;.
+        ///   Looks up a localized string similar to Remove &quot;{0}&quot;.
         /// </summary>
         public static string Settings_RemoveHotkey {
             get {
@@ -8402,7 +8402,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to R_ecently Folders.
+        ///   Looks up a localized string similar to R_ecent Folders.
         /// </summary>
         public static string UI_RecentlyUsed {
             get {

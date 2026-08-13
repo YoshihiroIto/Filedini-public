@@ -436,10 +436,10 @@
         <value>{0:N0} 個のファイルを圧縮します。</value>
     </data>
     <data name="Message_CompressItem" xml:space="preserve">
-        <value>`{0}’ を圧縮します。</value>
+        <value>"{0}" を圧縮します。</value>
     </data>
     <data name="Message_DeleteItem" xml:space="preserve">
-        <value>`{0}’ を削除します。</value>
+        <value>"{0}" を削除します。</value>
     </data>
     <data name="Message_DeleteFolders" xml:space="preserve">
         <value>{0:N0} 個のフォルダーを削除します。</value>
@@ -454,7 +454,7 @@
         <value>コピー(_P)</value>
     </data>
     <data name="Message_CopyItem" xml:space="preserve">
-        <value>`{0}’  をコピーします。</value>
+        <value>"{0}" をコピーします。</value>
     </data>
     <data name="Message_CopyFiles" xml:space="preserve">
         <value>{0:N0} 個のファイルをコピーします。</value>
@@ -516,13 +516,13 @@
     <data name="Message_SameNameItemExisting" xml:space="preserve">
         <value>同じ名前の{0}が存在しています。
 
-`{1}’</value>
+"{1}"</value>
     </data>
     <data name="Label_OutputFolder_Move" xml:space="preserve">
         <value>移動先フォルダー</value>
     </data>
     <data name="Message_MoveItem" xml:space="preserve">
-        <value>`{0}’  を移動します。</value>
+        <value>"{0}" を移動します。</value>
     </data>
     <data name="Message_MoveFiles" xml:space="preserve">
         <value>{0:N0} 個のファイルを移動します。</value>
@@ -573,7 +573,7 @@
         <value>大きさ</value>
     </data>
     <data name="Message_DraggingItem" xml:space="preserve">
-        <value>`{0}’ をドラッグ中</value>
+        <value>"{0}" をドラッグ中</value>
     </data>
     <data name="Message_DraggingFiles" xml:space="preserve">
         <value>{0:N0} 個のファイルをドラッグ中です。</value>
@@ -885,7 +885,7 @@
         <value>ホットキーを追加...</value>
     </data>
     <data name="Settings_RemoveHotkey" xml:space="preserve">
-        <value>`{0}' を削除</value>
+        <value>"{0}" を削除</value>
     </data>
     <data name="FileMenu_SelectHotkeyDialog" xml:space="preserve">
         <value>ホットキーの選択</value>
@@ -1337,19 +1337,19 @@
         <value>最新の情報に更新</value>
     </data>
     <data name="Message_SetAttributesItem" xml:space="preserve">
-        <value>`{0}’  の属性を変更します。</value>
+        <value>"{0}" の属性を変更します。</value>
     </data>
     <data name="Message_DecompressItem" xml:space="preserve">
-        <value>`{0}’ を展開します。</value>
+        <value>"{0}" を展開します。</value>
     </data>
     <data name="Message_SymbolicLinkItem" xml:space="preserve">
-        <value>`{0}’  のシンボリックリンクを作成します。</value>
+        <value>"{0}" のシンボリックリンクを作成します。</value>
     </data>
     <data name="Message_RenameItem" xml:space="preserve">
-        <value>`{0}’ の名前を変更します。</value>
+        <value>"{0}" の名前を変更します。</value>
     </data>
     <data name="Message_SetTimestampItem" xml:space="preserve">
-        <value>`{0}’  のタイムスタンプを変更します。</value>
+        <value>"{0}" のタイムスタンプを変更します。</value>
     </data>
     <data name="FileMenu_Launcher" xml:space="preserve">
         <value>ランチャー...</value>
@@ -1578,13 +1578,13 @@
         <value>タブ数</value>
     </data>
     <data name="Message_ConfirmOverwriteScript" xml:space="preserve">
-        <value>スクリプト '{0}' は既に存在します。上書きしますか？</value>
+        <value>スクリプト "{0}" は既に存在します。上書きしますか？</value>
     </data>
     <data name="Message_FailedToCreateScript" xml:space="preserve">
         <value>スクリプトの作成に失敗しました: {0}</value>
     </data>
     <data name="Message_ScriptCreatedSuccess" xml:space="preserve">
-        <value>スクリプト '{0}' を作成しました。</value>
+        <value>スクリプト "{0}" を作成しました。</value>
     </data>
     <data name="Label_ScriptFilePath" xml:space="preserve">
         <value>スクリプトファイル</value>

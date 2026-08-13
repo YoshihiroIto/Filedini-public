@@ -442,19 +442,19 @@ Do you want to proceed?</value>
         <value>Preview</value>
     </data>
     <data name="Message_CompressFoldersAndFiles" xml:space="preserve">
-        <value>Compresses {0:plural:1 folder|{:N0} folders}, {1:plural:1 file|{:N0} files}.</value>
+        <value>Compress {0:plural:1 folder|{:N0} folders}, {1:plural:1 file|{:N0} files}.</value>
     </data>
     <data name="Message_CompressFolders" xml:space="preserve">
-        <value>Compresses {0:plural:1 folder|{:N0} folders}.</value>
+        <value>Compress {0:plural:1 folder|{:N0} folders}.</value>
     </data>
     <data name="Message_CompressFiles" xml:space="preserve">
-        <value>Compresses {0:plural:1 file|{:N0} files}.</value>
+        <value>Compress {0:plural:1 file|{:N0} files}.</value>
     </data>
     <data name="Message_CompressItem" xml:space="preserve">
-        <value>Compress `{0}'.</value>
+        <value>Compress "{0}".</value>
     </data>
     <data name="Message_DeleteItem" xml:space="preserve">
-        <value>Delete `{0}'.</value>
+        <value>Delete "{0}".</value>
     </data>
     <data name="Message_DeleteFiles" xml:space="preserve">
         <value>Delete {0:plural:1 file|{:N0} files}.</value>
@@ -469,7 +469,7 @@ Do you want to proceed?</value>
         <value>Co_py</value>
     </data>
     <data name="Message_CopyItem" xml:space="preserve">
-        <value>Copy `{0}'.</value>
+        <value>Copy "{0}".</value>
     </data>
     <data name="Message_CopyFiles" xml:space="preserve">
         <value>Copy {0:plural:1 file|{:N0} files}.</value>
@@ -529,15 +529,15 @@ Do you want to proceed?</value>
         <value>Use the same settings going _forward</value>
     </data>
     <data name="Message_SameNameItemExisting" xml:space="preserve">
-        <value>A {0} with the same name already exists.
+        <value>A "{0}" with the same name already exists.
 
-'{1}'</value>
+"{1}"</value>
     </data>
     <data name="Label_OutputFolder_Move" xml:space="preserve">
         <value>Destination Folder</value>
     </data>
     <data name="Message_MoveItem" xml:space="preserve">
-        <value>Move `{0}'.</value>
+        <value>Move "{0}".</value>
     </data>
     <data name="Message_MoveFiles" xml:space="preserve">
         <value>Move {0:plural:1 file|{:N0} files}.</value>
@@ -588,7 +588,7 @@ Do you want to proceed?</value>
         <value>Dimensions</value>
     </data>
     <data name="Message_DraggingItem" xml:space="preserve">
-        <value>Dragging `{0}'</value>
+        <value>Dragging "{0}"</value>
     </data>
     <data name="Message_DraggingFiles" xml:space="preserve">
         <value>Dragging {0:plural:1 file|{:N0} files}.</value>
@@ -603,16 +603,16 @@ Do you want to proceed?</value>
         <value>Go to Recent Folder...</value>
     </data>
     <data name="FileMenu_CreateTabFromRecentlyUsedFolder" xml:space="preserve">
-        <value>Create Tab from Recent Folder</value>
+        <value>Create Tab from Recent Folder...</value>
     </data>
     <data name="FileMenu_OpenRecentlyUsedFolderAsTab" xml:space="preserve">
-        <value>Open Recent Folder as Tab</value>
+        <value>Open Recent Folder as Tab...</value>
     </data>
     <data name="DialogTitle_FolderSelection" xml:space="preserve">
         <value>Select Folder</value>
     </data>
     <data name="UI_RecentlyUsed" xml:space="preserve">
-        <value>R_ecently Folders</value>
+        <value>R_ecent Folders</value>
     </data>
     <data name="UI_Folder" xml:space="preserve">
         <value>_Folder</value>
@@ -906,7 +906,7 @@ Do you want to proceed?</value>
         <value>Add Hotkey...</value>
     </data>
     <data name="Settings_RemoveHotkey" xml:space="preserve">
-        <value>Remove `{0}'</value>
+        <value>Remove "{0}"</value>
     </data>
     <data name="FileMenu_SelectHotkeyDialog" xml:space="preserve">
         <value>Select Hotkey</value>
@@ -1201,7 +1201,7 @@ End date: {0}</value>
         <value>The beta testing period has ended. Please refer to the website for the latest status.</value>
     </data>
     <data name="Message_CheckingForNewVersion" xml:space="preserve">
-        <value>Checking for updates.</value>
+        <value>Checking for updates...</value>
     </data>
     <data name="Message_CurrentlyUsingLatestVersion" xml:space="preserve">
         <value>You're using the latest version.</value>
@@ -1315,7 +1315,7 @@ Invalid password.
         <value>Open in External App 2</value>
     </data>
     <data name="Settings_Label_FolderOpenInAssociatedAppBehavior" xml:space="preserve">
-        <value>"Open in Associated App"x Behavior for Folders</value>
+        <value>"Open in Associated App" Behavior for Folders</value>
     </data>
     <data name="NameSortModes_Numeric" xml:space="preserve">
         <value>Numeric Sort</value>
@@ -1357,19 +1357,19 @@ Invalid password.
         <value>Reload</value>
     </data>
     <data name="Message_SetAttributesItem" xml:space="preserve">
-        <value>Change `{0}' attributes.</value>
+        <value>Change "{0}" attributes.</value>
     </data>
     <data name="Message_DecompressItem" xml:space="preserve">
-        <value>Extract `{0}'.</value>
+        <value>Extract "{0}".</value>
     </data>
     <data name="Message_SymbolicLinkItem" xml:space="preserve">
-        <value>Create a symbolic link for `{0}'.</value>
+        <value>Create a symbolic link for "{0}".</value>
     </data>
     <data name="Message_RenameItem" xml:space="preserve">
-        <value>Rename `{0}'.</value>
+        <value>Rename "{0}".</value>
     </data>
     <data name="Message_SetTimestampItem" xml:space="preserve">
-        <value>Change `{0}' timestamp.</value>
+        <value>Change "{0}" timestamp.</value>
     </data>
     <data name="FileMenu_Launcher" xml:space="preserve">
         <value>Launcher...</value>
@@ -1601,13 +1601,13 @@ Please check back later.</value>
         <value>Tab Count</value>
     </data>
     <data name="Message_ConfirmOverwriteScript" xml:space="preserve">
-        <value>Script '{0}' already exists. Do you want to overwrite it?</value>
+        <value>Script "{0}" already exists. Do you want to overwrite it?</value>
     </data>
     <data name="Message_FailedToCreateScript" xml:space="preserve">
         <value>Failed to create script: {0}</value>
     </data>
     <data name="Message_ScriptCreatedSuccess" xml:space="preserve">
-        <value>Script '{0}' created successfully.</value>
+        <value>Script "{0}" created successfully.</value>
     </data>
     <data name="Label_ScriptFilePath" xml:space="preserve">
         <value>Script File</value>
@@ -2324,11 +2324,11 @@ Please try again later.</value>
         <value>Thank you for your cooperation. Your report helps us improve the app.</value>
     </data>
     <data name="Message_CrashReporter_ErrorSend" xml:space="preserve">
-        <value>Failed to send crash log.
+        <value>Failed to send crash report.
 Please try again later.</value>
     </data>
     <data name="Message_CrashReporter_LogSent" xml:space="preserve">
-        <value>✅Log sent</value>
+        <value>✅Crash report sent</value>
     </data>
     <data name="FileMenu_ChangeHistory" xml:space="preserve">
         <value>Change History...</value>
@@ -2569,14 +2569,14 @@ Please try again later.</value>
     <data name="BatchRename_NoChanges" xml:space="preserve"><value>None of the selected items would be renamed.</value></data>
     <data name="BatchRename_ChangeTextCase" xml:space="preserve"><value>Change case</value></data>
     <data name="BatchRename_ExampleTextCase" xml:space="preserve"><value>Example: summer vacation → Summer Vacation</value></data>
-    <data name="BatchRename_AddRandomValue" xml:space="preserve"><value>Add random text</value></data>
+    <data name="BatchRename_AddRandomValue" xml:space="preserve"><value>Add random value</value></data>
     <data name="BatchRename_ExampleRandomValue" xml:space="preserve"><value>Example: photo-k7P2x9.jpg</value></data>
     <data name="BatchRename_AddPhotoMetadata" xml:space="preserve"><value>Add photo metadata</value></data>
     <data name="BatchRename_ExamplePhotoMetadata" xml:space="preserve"><value>Example: 2026-07-16_photo.jpg</value></data>
     <data name="BatchRename_TextCaseLower" xml:space="preserve"><value>lowercase</value></data>
     <data name="BatchRename_TextCaseUpper" xml:space="preserve"><value>UPPERCASE</value></data>
     <data name="BatchRename_TextCaseSentence" xml:space="preserve"><value>Sentence case</value></data>
-    <data name="BatchRename_TextCaseWords" xml:space="preserve"><value>Capitalize Every Word</value></data>
+    <data name="BatchRename_TextCaseWords" xml:space="preserve"><value>Capitalize every word</value></data>
     <data name="BatchRename_RandomAlphanumeric" xml:space="preserve"><value>Letters and numbers</value></data>
     <data name="BatchRename_RandomLetters" xml:space="preserve"><value>Letters only</value></data>
     <data name="BatchRename_RandomDigits" xml:space="preserve"><value>Numbers only</value></data>
