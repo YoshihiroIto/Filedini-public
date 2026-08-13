@@ -2670,7 +2670,7 @@ Please try again later.</value>
     <data name="Label_RestrictedMode" xml:space="preserve">
         <value>Restricted Mode</value>
     </data>
-    <data name="UI_Trial_BuyLicense" xml:space="preserve">
+    <data name="UI_Trial_PurchaseLicense" xml:space="preserve">
         <value>Purchase License...</value>
     </data>
     <data name="UI_Trial_EnterLicenseKey" xml:space="preserve">
@@ -2705,7 +2705,7 @@ If you enjoy Filedini, please consider purchasing a license.</value>
     <data name="License_LastChecked" xml:space="preserve"><value>Last checked</value></data>
     <data name="License_Refresh" xml:space="preserve"><value>Refresh license information</value></data>
     <data name="License_DeactivateThisPc" xml:space="preserve"><value>Deactivate</value></data>
-    <data name="License_OpenCustomerPortal" xml:space="preserve"><value>Manage Purchases...</value></data>
+    <data name="License_ManagePurchases" xml:space="preserve"><value>Manage Purchases...</value></data>
     <data name="License_ErrorLocalStateUnavailable" xml:space="preserve"><value>This PC's license information could not be verified. Activate again with your license key.</value></data>
     <data name="License_ErrorLicenseKeyRequired" xml:space="preserve"><value>Enter a license key.</value></data>
     <data name="License_ErrorConfigurationRequired" xml:space="preserve"><value>Polar license settings have not been configured yet.</value></data>

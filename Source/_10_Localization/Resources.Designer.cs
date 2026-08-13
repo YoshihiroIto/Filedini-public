@@ -5019,9 +5019,9 @@ namespace Filedini.Localization {
         /// <summary>
         ///   Looks up a localized string similar to Manage Purchases....
         /// </summary>
-        public static string License_OpenCustomerPortal {
+        public static string License_ManagePurchases {
             get {
-                return ResourceManager.GetString("License_OpenCustomerPortal", resourceCulture);
+                return ResourceManager.GetString("License_ManagePurchases", resourceCulture);
             }
         }
         
@@ -8573,15 +8573,6 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Purchase License....
-        /// </summary>
-        public static string UI_Trial_BuyLicense {
-            get {
-                return ResourceManager.GetString("UI_Trial_BuyLicense", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Continue in Restricted Mode.
         /// </summary>
         public static string UI_Trial_ContinueInRestrictedMode {
@@ -8596,6 +8587,15 @@ namespace Filedini.Localization {
         public static string UI_Trial_EnterLicenseKey {
             get {
                 return ResourceManager.GetString("UI_Trial_EnterLicenseKey", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Purchase License....
+        /// </summary>
+        public static string UI_Trial_PurchaseLicense {
+            get {
+                return ResourceManager.GetString("UI_Trial_PurchaseLicense", resourceCulture);
             }
         }
         
