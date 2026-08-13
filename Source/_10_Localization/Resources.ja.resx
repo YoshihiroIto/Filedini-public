@@ -27,7 +27,7 @@
         <value>サイズ(_S)</value>
     </data>
     <data name="SortItem_Mode_Timestamp" xml:space="preserve">
-        <value>タイムスタンプ(_T)</value>
+        <value>更新日時(_T)</value>
     </data>
     <data name="SortItem_Order_Ascending" xml:space="preserve">
         <value>昇順(_A)</value>
@@ -58,13 +58,13 @@
         <value>いいえ(_N)</value>
     </data>
     <data name="Message_FailedToExecuteAssociatedApp" xml:space="preserve">
-        <value>関連づいたアプリの起動に失敗しました。</value>
+        <value>関連アプリで開けませんでした。</value>
     </data>
     <data name="Message_FailedToExecuteExternalApp" xml:space="preserve">
         <value>{0}
 
 外部アプリの起動に失敗しました。
-外部アプリが登録されていないか、存在しません。</value>
+アプリのパスや設定を確認してください。</value>
     </data>
     <data name="Message_OmittedDueToLargeSize" xml:space="preserve">
         <value>サイズが大きいため省略しました。</value>
@@ -151,7 +151,7 @@
         <value>属性の変更...</value>
     </data>
     <data name="FileMenu_ChangeTimestamp" xml:space="preserve">
-        <value>タイムスタンプの変更...</value>
+        <value>更新日時の変更...</value>
     </data>
     <data name="FileMenu_CopyItem" xml:space="preserve">
         <value>コピー...</value>
@@ -205,13 +205,13 @@
         <value>ブックマーク...</value>
     </data>
     <data name="FileMenu_MoveToVolume" xml:space="preserve">
-        <value>ボリューム移動</value>
+        <value>ボリュームへ移動</value>
     </data>
     <data name="FileMenu_MoveToFolder" xml:space="preserve">
-        <value>フォルダー移動...</value>
+        <value>フォルダーへ移動...</value>
     </data>
     <data name="FileMenu_MoveToNetwork" xml:space="preserve">
-        <value>ネットワーク移動</value>
+        <value>ネットワークへ移動</value>
     </data>
     <data name="FileMenu_MoveToNextFolder" xml:space="preserve">
         <value>次のフォルダー</value>
@@ -478,7 +478,7 @@
         <value>スキップ(_S)</value>
     </data>
     <data name="Message_CopyItemMethod_WhenTimestampIsNew" xml:space="preserve">
-        <value>タイムスタンプが新しい時に{0}(_T)</value>
+        <value>更新日時が新しい時に{0}(_T)</value>
     </data>
     <data name="Message_CopyItemMethod_RenameSource" xml:space="preserve">
         <value>名前を変えて{0}(_R)</value>
@@ -989,10 +989,10 @@
         <value>サイズ / 昇順</value>
     </data>
     <data name="FileMenu_SortItemsTimestampAscending" xml:space="preserve">
-        <value>タイムスタンプ / 昇順</value>
+        <value>更新日時 / 昇順</value>
     </data>
     <data name="FileMenu_SortItemsTimestampDescending" xml:space="preserve">
-        <value>タイムスタンプ / 降順</value>
+        <value>更新日時 / 降順</value>
     </data>
     <data name="FileMenu_Sort" xml:space="preserve">
         <value>ソート</value>
@@ -1037,7 +1037,7 @@
         <value>検索</value>
     </data>
     <data name="Message_CrashReporter_Title" xml:space="preserve">
-        <value>ご迷惑おかけして申し訳ありません</value>
+        <value>ご迷惑をおかけして申し訳ありません</value>
     </data>
     <data name="Message_CrashReporter_Message0" xml:space="preserve">
         <value>Filedini の動作に問題が発生し、不正終了してしまいました。</value>
@@ -1046,7 +1046,7 @@
         <value>問題の原因特定と解決のためにご協力いただける方は、 クラッシュレポートの送信をお願いします。</value>
     </data>
     <data name="Message_CrashReporter_Comment" xml:space="preserve">
-        <value>エラーが発生する前に行った操作をご記入ください</value>
+        <value>クラッシュする直前に行っていた操作をご記入ください。</value>
     </data>
     <data name="Message_CrashReporter_QuitFiledini" xml:space="preserve">
         <value>Filedini を終了</value>
@@ -1161,7 +1161,7 @@
         <value>サードパーティーライブラリー</value>
     </data>
     <data name="Message_CrashReporter_Message3" xml:space="preserve">
-        <value>クラッシュレポートはプライバシーポリシーの元扱われます。</value>
+        <value>クラッシュレポートの取り扱いにはプライバシーポリシーが適用されます。</value>
     </data>
     <data name="Label_PrivacyPolicy" xml:space="preserve">
         <value>プライバシーポリシー</value>
@@ -1295,7 +1295,7 @@
         <value>数値による並び替え</value>
     </data>
     <data name="NameSortModes_Normal" xml:space="preserve">
-        <value>普通ソート</value>
+        <value>通常の並び替え</value>
     </data>
     <data name="Settings_Label_NameSortMode" xml:space="preserve">
         <value>ファイル名・拡張子・フォルダー名のソート方式</value>
@@ -1310,10 +1310,10 @@
         <value>Filedini 設定ファイル</value>
     </data>
     <data name="Settings_Label_LastWrite" xml:space="preserve">
-        <value>最終更新</value>
+        <value>更新</value>
     </data>
     <data name="Settings_LastWriteDisplay" xml:space="preserve">
-        <value>最終書き込み表示</value>
+        <value>更新表示</value>
     </data>
     <data name="PeriodUnits_Days" xml:space="preserve">
         <value>日</value>
@@ -1325,7 +1325,7 @@
         <value>分</value>
     </data>
     <data name="ItemProperty_Metadata_LastWrite" xml:space="preserve">
-        <value>最終書き込み</value>
+        <value>更新</value>
     </data>
     <data name="FileMenu_Reload" xml:space="preserve">
         <value>最新の情報に更新</value>
@@ -1343,7 +1343,7 @@
         <value>"{0}" の名前を変更します。</value>
     </data>
     <data name="Message_SetTimestampItem" xml:space="preserve">
-        <value>"{0}" のタイムスタンプを変更します。</value>
+        <value>"{0}" の更新日時を変更します。</value>
     </data>
     <data name="FileMenu_Launcher" xml:space="preserve">
         <value>ランチャー...</value>
@@ -1373,7 +1373,7 @@
         <value>現在のファイル名</value>
     </data>
     <data name="VariableDetails_CurrentFileLine" xml:space="preserve">
-        <value>現在のファイル行番</value>
+        <value>現在のファイルの行番</value>
     </data>
     <data name="VariableDetails_CurrentFolder" xml:space="preserve">
         <value>現在のフォルダー名</value>
@@ -1590,7 +1590,7 @@
         <value>フォーマット</value>
     </data>
     <data name="Settings_MultiExtensions" xml:space="preserve">
-        <value>多重拡張子</value>
+        <value>複合拡張子</value>
     </data>
     <data name="Settings_Label_InstallPython" xml:space="preserve">
         <value>Python をインストール(_I)</value>
@@ -1599,16 +1599,16 @@
         <value>Python をアンインストール</value>
     </data>
     <data name="InstallState_DownloadingPythonPackage" xml:space="preserve">
-        <value>Pythonパッケージのダウンロード開始...</value>
+        <value>Python パッケージをダウンロードしています...</value>
     </data>
     <data name="InstallState_PythonPackageDownloadComplete" xml:space="preserve">
-        <value>Pythonパッケージのダウンロード終了</value>
+        <value>Python パッケージのダウンロードが完了しました。</value>
     </data>
     <data name="InstallState_ExtractingPythonPackage" xml:space="preserve">
-        <value>Pythonパッケージの展開開始...</value>
+        <value>Python パッケージを展開しています...</value>
     </data>
     <data name="InstallState_PythonPackageExtractionComplete" xml:space="preserve">
-        <value>Pythonパッケージの展開終了</value>
+        <value>Python のインストールが完了しました。</value>
     </data>
     <data name="InstallState_InstallingDependencies" xml:space="preserve">
         <value>依存ライブラリのインストール開始...</value>
@@ -1617,28 +1617,28 @@
         <value>依存ライブラリのインストール終了</value>
     </data>
     <data name="InstallState_PythonPackageDownloadFailed" xml:space="preserve">
-        <value>Pythonパッケージのダウンロード失敗</value>
+        <value>Python パッケージのダウンロード失敗</value>
     </data>
     <data name="InstallState_PythonPackageExtractionFailed" xml:space="preserve">
-        <value>Pythonパッケージの展開失敗</value>
+        <value>Python パッケージの展開失敗</value>
     </data>
     <data name="InstallState_DependencyInstallationFailed" xml:space="preserve">
         <value>依存ライブラリのインストール失敗</value>
     </data>
     <data name="InstallState_InstallingPython" xml:space="preserve">
-        <value>Pythonインストール開始...</value>
+        <value>Python インストール開始...</value>
     </data>
     <data name="InstallState_PythonInstallationComplete" xml:space="preserve">
-        <value>Pythonインストール終了</value>
+        <value>Python インストール終了</value>
     </data>
     <data name="InstallState_PythonPackageDownloadFailedToStart" xml:space="preserve">
-        <value>パッケージのダウンロードを開始に失敗</value>
+        <value>パッケージのダウンロードの開始に失敗</value>
     </data>
     <data name="Message_FailedToStartPython" xml:space="preserve">
-        <value>Pythonの起動に失敗しました。</value>
+        <value>Python の起動に失敗しました。</value>
     </data>
     <data name="InstallState_PythonInstallationCanceled" xml:space="preserve">
-        <value>Pythonのインストールはキャンセルされました</value>
+        <value>Python のインストールはキャンセルされました</value>
     </data>
     <data name="Label_CancelInstallation" xml:space="preserve">
         <value>インストールをキャンセル(_C)</value>
@@ -1665,10 +1665,10 @@
         <value>Python スクリプトファイル</value>
     </data>
     <data name="Message_MissingPython" xml:space="preserve">
-        <value>Pythonがインストールされていません。
+        <value>Python がインストールされていません。
 
-スクリプトの利用にはPythonが必要です。
-スクリプト設定からインストールできますが、設定画面を開きますか？
+スクリプトの実行には Python が必要です。
+スクリプト設定からインストールできます。
 </value>
     </data>
     <data name="Dialog_Install" xml:space="preserve">
@@ -1854,37 +1854,37 @@
         <value>タブを検索...</value>
     </data>
     <data name="FileMenu_MoveToTab" xml:space="preserve">
-        <value>タブ移動</value>
+        <value>タブを切り替え</value>
     </data>
     <data name="FileMenu_MoveToTab1" xml:space="preserve">
-        <value>タブ１に移動</value>
+        <value>タブ１に切り替え</value>
     </data>
     <data name="FileMenu_MoveToTab2" xml:space="preserve">
-        <value>タブ２に移動</value>
+        <value>タブ２に切り替え</value>
     </data>
     <data name="FileMenu_MoveToTab3" xml:space="preserve">
-        <value>タブ３に移動</value>
+        <value>タブ３に切り替え</value>
     </data>
     <data name="FileMenu_MoveToTab4" xml:space="preserve">
-        <value>タブ４に移動</value>
+        <value>タブ４に切り替え</value>
     </data>
     <data name="FileMenu_MoveToTab5" xml:space="preserve">
-        <value>タブ５に移動</value>
+        <value>タブ５に切り替え</value>
     </data>
     <data name="FileMenu_MoveToTab6" xml:space="preserve">
-        <value>タブ６に移動</value>
+        <value>タブ６に切り替え</value>
     </data>
     <data name="FileMenu_MoveToTab7" xml:space="preserve">
-        <value>タブ７に移動</value>
+        <value>タブ７に切り替え</value>
     </data>
     <data name="FileMenu_MoveToTab8" xml:space="preserve">
-        <value>タブ８に移動</value>
+        <value>タブ８に切り替え</value>
     </data>
     <data name="FileMenu_MoveToTab9" xml:space="preserve">
-        <value>タブ９に移動</value>
+        <value>タブ９に切り替え</value>
     </data>
     <data name="FileMenu_MoveToTab0" xml:space="preserve">
-        <value>タブ０に移動</value>
+        <value>タブ０に切り替え</value>
     </data>
     <data name="FileMenu_SelectNextFolderPane" xml:space="preserve">
         <value>次のフォルダーペイン</value>
@@ -2035,7 +2035,7 @@
         <value>コマンドパレット (シェルモード）</value>
     </data>
     <data name="Message_ThisFolderIsEmpty" xml:space="preserve">
-        <value>このフォルダは空です。</value>
+        <value>このフォルダーは空です。</value>
     </data>
     <data name="Tooltip_NewTab" xml:space="preserve">
         <value>新しいタブ</value>
@@ -2047,7 +2047,7 @@
         <value>ターミナル(_R)</value>
     </data>
     <data name="FileMenu_OpenDefaultShell" xml:space="preserve">
-        <value>規定シェルを開く</value>
+        <value>既定シェルを開く</value>
     </data>
     <data name="FileItem_InsertSelectedItemPathIntoTerminal" xml:space="preserve">
         <value>選択アイテムパスをターミナルへ入力</value>
@@ -2147,7 +2147,7 @@
 時間をおいて、もう一度お試しください。</value>
     </data>
     <data name="Message_CrashReporter_LogSent" xml:space="preserve">
-        <value>✅ログ送信済み</value>
+        <value>✅ クラッシュレポート送信済み</value>
     </data>
     <data name="FileMenu_ChangeHistory" xml:space="preserve">
         <value>変更履歴...</value>
@@ -2441,9 +2441,6 @@
     <data name="BatchRename_ErrorOpenTextEditor" xml:space="preserve"><value>テキストエディタを開けません。</value></data>
     <data name="BatchRename_SelectedPhotoMetadata" xml:space="preserve"><value>付ける情報（上から順に追加）</value></data>
     <data name="BatchRename_AddPhotoMetadataItem" xml:space="preserve"><value>情報を追加</value></data>
-    <data name="Label_Contact" xml:space="preserve">
-        <value>コンタクト</value>
-    </data>
     <data name="Settings_MarkdownViewer" xml:space="preserve">
         <value>Markdown ビューワー</value>
     </data>

@@ -846,7 +846,7 @@ Do you want to proceed?</value>
         <value>Size</value>
     </data>
     <data name="Settings_Label_Timestamp" xml:space="preserve">
-        <value>Timestamp</value>
+        <value>Date Modified</value>
     </data>
     <data name="Settings_Label_TimestampShowSeconds" xml:space="preserve">
         <value>Show seconds</value>
@@ -2617,9 +2617,6 @@ Please try again later.</value>
     <data name="BatchRename_ErrorOpenTextEditor" xml:space="preserve"><value>The text editor could not be opened.</value></data>
     <data name="BatchRename_SelectedPhotoMetadata" xml:space="preserve"><value>Selected metadata (top to bottom)</value></data>
     <data name="BatchRename_AddPhotoMetadataItem" xml:space="preserve"><value>Add metadata</value></data>
-    <data name="Label_Contact" xml:space="preserve">
-        <value>Contact</value>
-    </data>
     <data name="Settings_MarkdownViewer" xml:space="preserve">
         <value>Markdown Viewer</value>
     </data>

@@ -4144,15 +4144,6 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Contact.
-        /// </summary>
-        public static string Label_Contact {
-            get {
-                return ResourceManager.GetString("Label_Contact", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Column.
         /// </summary>
         public static string Label_DB_Column {
@@ -7202,7 +7193,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Timestamp.
+        ///   Looks up a localized string similar to Date Modified.
         /// </summary>
         public static string Settings_Label_Timestamp {
             get {
