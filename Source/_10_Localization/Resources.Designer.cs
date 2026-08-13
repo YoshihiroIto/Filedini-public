@@ -1812,7 +1812,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Close previous tabs.
+        ///   Looks up a localized string similar to Close Previous Tabs.
         /// </summary>
         public static string FileMenu_CloseTabsToTheLeft {
             get {
@@ -1821,7 +1821,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Close following tabs.
+        ///   Looks up a localized string similar to Close Following Tabs.
         /// </summary>
         public static string FileMenu_CloseTabsToTheRight {
             get {
@@ -3423,7 +3423,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Timestamp / Ascending.
+        ///   Looks up a localized string similar to Date Modified / Ascending.
         /// </summary>
         public static string FileMenu_SortItemsTimestampAscending {
             get {
@@ -3432,7 +3432,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Timestamp / Descending.
+        ///   Looks up a localized string similar to Date Modified / Descending.
         /// </summary>
         public static string FileMenu_SortItemsTimestampDescending {
             get {
@@ -4648,15 +4648,6 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Sign in with Google.
-        /// </summary>
-        public static string Label_SignInWithGoogle {
-            get {
-                return ResourceManager.GetString("Label_SignInWithGoogle", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Sign out.
         /// </summary>
         public static string Label_SignOut {
@@ -5099,15 +5090,6 @@ namespace Filedini.Localization {
         public static string Message_CanModifyItemResults_TrailingPeriod {
             get {
                 return ResourceManager.GetString("Message_CanModifyItemResults_TrailingPeriod", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Could not connect to Google..
-        /// </summary>
-        public static string Message_CannotConnectGoogle {
-            get {
-                return ResourceManager.GetString("Message_CannotConnectGoogle", resourceCulture);
             }
         }
         
@@ -5723,7 +5705,7 @@ namespace Filedini.Localization {
         ///   Looks up a localized string similar to {0}
         ///
         ///Could not launch the external app.
-        ///The app is not configured or could not be found..
+        ///Check the app path and settings..
         /// </summary>
         public static string Message_FailedToExecuteExternalApp {
             get {
@@ -6626,7 +6608,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Details Pane Display Switch.
+        ///   Looks up a localized string similar to Details Pane Toggle.
         /// </summary>
         public static string Settings_Label_DetailsPaneDisplaySwitch {
             get {
@@ -7652,7 +7634,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Att_ribute.
+        ///   Looks up a localized string similar to Att_ributes.
         /// </summary>
         public static string SortItem_Mode_Attribute {
             get {
@@ -7697,7 +7679,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to _Timestamp.
+        ///   Looks up a localized string similar to _Date Modified.
         /// </summary>
         public static string SortItem_Mode_Timestamp {
             get {
@@ -8564,7 +8546,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Data sent.
+        ///   Looks up a localized string similar to Data that will be sent.
         /// </summary>
         public static string UsageDataConsent_DataSentTitle_US {
             get {
@@ -8618,7 +8600,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to No personal data is included..
+        ///   Looks up a localized string similar to No personal data, file names, paths, or contents are included..
         /// </summary>
         public static string UsageDataConsent_NoPersonalData_US {
             get {
@@ -8768,7 +8750,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to View data sent.
+        ///   Looks up a localized string similar to View data that will be sent.
         /// </summary>
         public static string UsageDataConsent_ViewDataSent_US {
             get {

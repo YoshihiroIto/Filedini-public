@@ -1154,14 +1154,8 @@
   <data name="Label_SignOut" xml:space="preserve">
     <value>ログアウト</value>
   </data>
-    <data name="Label_SignInWithGoogle" xml:space="preserve">
-        <value>Google でログイン</value>
-    </data>
     <data name="Message_CannotStartBrowser" xml:space="preserve">
         <value>ブラウザーが起動できません。</value>
-    </data>
-    <data name="Message_CannotConnectGoogle" xml:space="preserve">
-        <value>Google に接続できません。</value>
     </data>
     <data name="Label_ThirdPartyLibraries" xml:space="preserve">
         <value>サードパーティーライブラリー</value>
