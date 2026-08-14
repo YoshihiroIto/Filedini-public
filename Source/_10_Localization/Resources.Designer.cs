@@ -8665,8 +8665,7 @@ namespace Filedini.Localization {
         ///
         ///❌ファイル名・パス・内容などの個人データは一切送信されません。
         ///
-        ///ご協力は任意で、
-        ///設定からいつでも変更できます。.
+        ///ご協力は任意で、設定からいつでも変更できます。.
         /// </summary>
         public static string UsageDataConsent_Text_JP {
             get {
