@@ -2694,4 +2694,7 @@ If you enjoy Filedini, please consider purchasing a license.</value>
     <data name="License_AlreadyPurchased" xml:space="preserve">
         <value>Already purchased? No need to buy again. Find your license key in "Manage Purchases".</value>
     </data>
+    <data name="Label_OpenWithDefaultApp" xml:space="preserve">
+        <value>Open with Default App</value>
+    </data>
 </root>

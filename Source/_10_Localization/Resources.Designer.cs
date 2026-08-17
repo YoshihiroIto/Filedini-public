@@ -4423,6 +4423,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Open with Default App.
+        /// </summary>
+        public static string Label_OpenWithDefaultApp {
+            get {
+                return ResourceManager.GetString("Label_OpenWithDefaultApp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Output Folder.
         /// </summary>
         public static string Label_OutputFolder {
