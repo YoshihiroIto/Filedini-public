@@ -1070,7 +1070,16 @@
         <value>メールアプリを起動...</value>
     </data>
     <data name="FileMenu_MoveCursorPreviousPage" xml:space="preserve">
-        <value>前ページに移動</value>
+      <value>前ページに移動</value>
+    </data>
+    <data name="FileMenu_SelectPreviousItem" xml:space="preserve">
+      <value>前のアイテム</value>
+    </data>
+    <data name="FileMenu_SelectNextItem" xml:space="preserve">
+      <value>次のアイテム</value>
+    </data>
+    <data name="Message_PreviewNavigationPinned" xml:space="preserve">
+      <value>プレビューをピン留め中のため移動できません。</value>
     </data>
     <data name="Message_SearchLimit" xml:space="preserve">
         <value>検索結果は最大1,000件までです。</value>

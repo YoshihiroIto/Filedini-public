@@ -3160,6 +3160,15 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("FileMenu_SelectNextFolderPane", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Next Item.
+        /// </summary>
+        public static string FileMenu_SelectNextItem {
+            get {
+                return ResourceManager.GetString("FileMenu_SelectNextItem", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to Next Tab.
@@ -3176,6 +3185,24 @@ namespace Filedini.Localization {
         public static string FileMenu_SelectPreviousFolderPane {
             get {
                 return ResourceManager.GetString("FileMenu_SelectPreviousFolderPane", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Previous Item.
+        /// </summary>
+        public static string FileMenu_SelectPreviousItem {
+            get {
+                return ResourceManager.GetString("FileMenu_SelectPreviousItem", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Navigation is unavailable while preview is pinned.
+        /// </summary>
+        public static string Message_PreviewNavigationPinned {
+            get {
+                return ResourceManager.GetString("Message_PreviewNavigationPinned", resourceCulture);
             }
         }
         

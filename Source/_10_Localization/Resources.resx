@@ -1091,7 +1091,16 @@ Empty file.</value>
         <value>Open Mail App...</value>
     </data>
     <data name="FileMenu_MoveCursorPreviousPage" xml:space="preserve">
-        <value>Move to Previous Page</value>
+      <value>Move to Previous Page</value>
+    </data>
+    <data name="FileMenu_SelectPreviousItem" xml:space="preserve">
+      <value>Previous Item</value>
+    </data>
+    <data name="FileMenu_SelectNextItem" xml:space="preserve">
+      <value>Next Item</value>
+    </data>
+    <data name="Message_PreviewNavigationPinned" xml:space="preserve">
+      <value>Navigation is unavailable while preview is pinned.</value>
     </data>
     <data name="Message_SearchLimit" xml:space="preserve">
         <value>Search results are limited to 1000.</value>
