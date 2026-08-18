@@ -7,6 +7,7 @@
         <AssemblyName>Filedini.Localization</AssemblyName>
         <RootNamespace>Filedini.Localization</RootNamespace>
         <LangVersion>preview</LangVersion>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     </PropertyGroup>
 
     <ItemGroup>

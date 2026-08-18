@@ -21,9 +21,10 @@ public static class PluralizationFormatter
     public static string Format(string format, object? arg0, object? arg1, object? arg2)
         => FormatCore(format, new FormatArguments(arg0, arg1, arg2));
 
+    [SkipLocalsInit]
     private static string FormatCore(string format, in FormatArguments arguments)
     {
-        Span<char> initialBuffer = stackalloc char[InitialBufferSize];
+        var initialBuffer = (stackalloc char[InitialBufferSize]);
         var builder = new PooledCharBuilder(initialBuffer);
         var culture = CultureInfo.CurrentCulture;
 
@@ -406,7 +407,7 @@ public static class PluralizationFormatter
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         private void Append(string? value)
         {
-            if (value is not null)
+            if (value is { })
                 Append(value.AsSpan());
         }
 
@@ -418,7 +419,7 @@ public static class PluralizationFormatter
             var array = _arrayToReturnToPool;
             this = default;
 
-            if (array is not null)
+            if (array is { })
                 ArrayPool<char>.Shared.Return(array);
         }
 
@@ -433,7 +434,7 @@ public static class PluralizationFormatter
             _buffer = newArray;
             _arrayToReturnToPool = newArray;
 
-            if (previousArray is not null)
+            if (previousArray is { })
                 ArrayPool<char>.Shared.Return(previousArray);
         }
     }
