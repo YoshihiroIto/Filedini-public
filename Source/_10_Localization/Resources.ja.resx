@@ -1856,6 +1856,9 @@
     <data name="FileMenu_TogglePinTab" xml:space="preserve">
         <value>タブを固定 / 固定を解除</value>
     </data>
+    <data name="FileMenu_TogglePinPreview" xml:space="preserve">
+        <value>プレビューを固定 / 固定を解除</value>
+    </data>
     <data name="FileMenu_SelectNextTab" xml:space="preserve">
         <value>次のタブ</value>
     </data>

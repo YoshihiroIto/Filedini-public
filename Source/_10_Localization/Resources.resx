@@ -1949,6 +1949,9 @@ Destination:
     <data name="FileMenu_TogglePinTab" xml:space="preserve">
         <value>Pin Tab / Unpin Tab</value>
     </data>
+    <data name="FileMenu_TogglePinPreview" xml:space="preserve">
+        <value>Pin Preview / Unpin Preview</value>
+    </data>
     <data name="FileMenu_NewTab" xml:space="preserve">
         <value>New Tab</value>
     </data>

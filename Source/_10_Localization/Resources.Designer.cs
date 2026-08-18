@@ -3592,6 +3592,15 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("FileMenu_TogglePinTab", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Pin Preview / Unpin Preview.
+        /// </summary>
+        public static string FileMenu_TogglePinPreview {
+            get {
+                return ResourceManager.GetString("FileMenu_TogglePinPreview", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to Toggle Split Folder Pane.
