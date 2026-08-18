@@ -20,7 +20,7 @@ public static class StringResourceHelper
         if(s is null)
             return key;
         
-        return IsPlural(s) ? SmartFormat.Format(s, a0) : string.Format(s, a0);
+        return IsPlural(s) ? PluralizationFormatter.Format(s, a0) : string.Format(s, a0);
     }
 
     public static string GetString2(string key, object a0, object a1)
@@ -29,7 +29,7 @@ public static class StringResourceHelper
         if(s is null)
             return key;
         
-        return IsPlural(s) ? SmartFormat.Format(s, a0, a1) : string.Format(s, a0, a1);
+        return IsPlural(s) ? PluralizationFormatter.Format(s, a0, a1) : string.Format(s, a0, a1);
     }
 
     public static string GetString3(string key, object a0, object a1, object a2)
@@ -38,7 +38,7 @@ public static class StringResourceHelper
         if(s is null)
             return key;
         
-        return IsPlural(s) ? SmartFormat.Format(s, a0, a1, a2) : string.Format(s, a0, a1, a2);
+        return IsPlural(s) ? PluralizationFormatter.Format(s, a0, a1, a2) : string.Format(s, a0, a1, a2);
     }
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]

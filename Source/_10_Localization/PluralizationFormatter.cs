@@ -4,7 +4,7 @@ using System.Runtime.CompilerServices;
 
 namespace Filedini.Localization;
 
-public static class SmartFormat
+public static class PluralizationFormatter
 {
     private const int InitialBufferSize = 256;
     private const string PluralPrefix = "plural:";
@@ -58,9 +58,9 @@ public static class SmartFormat
             var braceIndex = position + relativeBraceIndex;
             builder.Append(format[position..braceIndex]);
 
-            if (format[braceIndex] == '{')
+            if (format[braceIndex] is '{')
             {
-                if (braceIndex + 1 < format.Length && format[braceIndex + 1] == '{')
+                if (braceIndex + 1 < format.Length && format[braceIndex + 1] is '{')
                 {
                     builder.Append('{');
                     position = braceIndex + 2;
@@ -80,7 +80,7 @@ public static class SmartFormat
                 continue;
             }
 
-            if (braceIndex + 1 < format.Length && format[braceIndex + 1] == '}')
+            if (braceIndex + 1 < format.Length && format[braceIndex + 1] is '}')
             {
                 builder.Append('}');
                 position = braceIndex + 2;
@@ -111,7 +111,7 @@ public static class SmartFormat
             return;
         }
 
-        if (placeholder[1] != ':')
+        if (placeholder[1] is not ':')
             ThrowInvalidFormat();
 
         var valueFormat = placeholder[2..];
@@ -161,7 +161,7 @@ public static class SmartFormat
             var braceIndex = position + relativeBraceIndex;
             builder.Append(branch[position..braceIndex]);
 
-            if (branch[braceIndex] == '{')
+            if (branch[braceIndex] is '{')
             {
                 if (braceIndex + 1 < branch.Length && branch[braceIndex + 1] == '{')
                 {
