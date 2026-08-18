@@ -4,7 +4,7 @@ using System.Runtime.CompilerServices;
 
 namespace Filedini.Localization;
 
-public static class FilediniSmart
+public static class SmartFormat
 {
     private const int InitialBufferSize = 256;
     private const string PluralPrefix = "plural:";
@@ -212,8 +212,10 @@ public static class FilediniSmart
             uint number => number == 1,
             long number => number == 1,
             ulong number => number == 1,
+            // ReSharper disable CompareOfFloatsByEqualityOperator
             float number => number == 1f,
             double number => number == 1d,
+            // ReSharper restore CompareOfFloatsByEqualityOperator
             decimal number => number == 1m,
             IConvertible convertible when value is not (bool or string) => ConvertToDecimalIsOne(convertible),
             _ => ThrowInvalidPluralValue(),
@@ -339,16 +341,11 @@ public static class FilediniSmart
         }
     }
 
-    private ref struct PooledCharBuilder
+    private ref struct PooledCharBuilder(Span<char> initialBuffer)
     {
-        private Span<char> _buffer;
+        private Span<char> _buffer = initialBuffer;
         private char[]? _arrayToReturnToPool;
         private int _position;
-
-        public PooledCharBuilder(Span<char> initialBuffer)
-        {
-            _buffer = initialBuffer;
-        }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public void Append(char value)
