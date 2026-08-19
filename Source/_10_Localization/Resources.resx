@@ -36,13 +36,13 @@
         <value>_Extension</value>
     </data>
     <data name="SortItem_Mode_Timestamp" xml:space="preserve">
-        <value>_Timestamp</value>
+        <value>_Date Modified</value>
     </data>
     <data name="SortItem_Mode_Size" xml:space="preserve">
         <value>_Size</value>
     </data>
     <data name="SortItem_Mode_Attribute" xml:space="preserve">
-        <value>Att_ribute</value>
+        <value>Att_ributes</value>
     </data>
     <data name="SortItem_Order_Ascending" xml:space="preserve">
         <value>_Ascending</value>
@@ -73,13 +73,13 @@ Do you want to delete this?</value>
         <value>_No</value>
     </data>
     <data name="Message_FailedToExecuteAssociatedApp" xml:space="preserve">
-        <value>Failed to execute associated app.</value>
+        <value>Could not open the associated app.</value>
     </data>
     <data name="Message_FailedToExecuteExternalApp" xml:space="preserve">
         <value>{0}
 
-Failed to execute external app.
-The external app is not registered or does not exist.</value>
+Could not launch the external app.
+Check the app path and settings.</value>
     </data>
     <data name="Message_OmittedDueToLargeSize" xml:space="preserve">
         <value>Omitted due to large size.</value>
@@ -127,10 +127,10 @@ The external app is not registered or does not exist.</value>
         <value>Open in Associated App</value>
     </data>
     <data name="FileMenu_OpenInExternalApp1" xml:space="preserve">
-        <value>Open in External App1</value>
+        <value>Open in External App 1</value>
     </data>
     <data name="FileMenu_OpenInExternalApp2" xml:space="preserve">
-        <value>Open in External App2</value>
+        <value>Open in External App 2</value>
     </data>
     <data name="FileMenu_MoveItem" xml:space="preserve">
         <value>Move...</value>
@@ -142,13 +142,13 @@ The external app is not registered or does not exist.</value>
         <value>Delete...</value>
     </data>
     <data name="FileMenu_MoveToTrashCan" xml:space="preserve">
-        <value>Move to Trash Can</value>
+        <value>Move to Trash</value>
     </data>
     <data name="FileMenu_RenameItem" xml:space="preserve">
         <value>Rename...</value>
     </data>
     <data name="FileMenu_ShowProperty" xml:space="preserve">
-        <value>Show Property</value>
+        <value>Properties</value>
     </data>
     <data name="FileMenu_ChangeAttributes" xml:space="preserve">
         <value>Change Attributes...</value>
@@ -163,7 +163,7 @@ The external app is not registered or does not exist.</value>
         <value>New Folder...</value>
     </data>
     <data name="FileMenu_EmptyTrashCan" xml:space="preserve">
-        <value>Empty Trash Can...</value>
+        <value>Empty Trash...</value>
     </data>
     <data name="FileMenu_Cut" xml:space="preserve">
         <value>Cut</value>
@@ -175,7 +175,7 @@ The external app is not registered or does not exist.</value>
         <value>Paste</value>
     </data>
     <data name="FileMenu_SwitchItemSelection" xml:space="preserve">
-        <value>Switch Selection</value>
+        <value>Toggle Selection</value>
     </data>
     <data name="FileMenu_SelectAllFiles" xml:space="preserve">
         <value>Select All Files</value>
@@ -223,22 +223,22 @@ The external app is not registered or does not exist.</value>
         <value>Move Right</value>
     </data>
     <data name="FileMenu_MoveToFolderTop" xml:space="preserve">
-        <value>Move to Folder Top</value>
+        <value>Go to First Folder</value>
     </data>
     <data name="FileMenu_MoveToFileTop" xml:space="preserve">
-        <value>Move to File Top</value>
+        <value>Go to First File</value>
     </data>
     <data name="FileMenu_MoveToBottom" xml:space="preserve">
-        <value>Move to Bottom</value>
+        <value>Go to Last Item</value>
     </data>
     <data name="FileMenu_MoveCursorUp" xml:space="preserve">
         <value>Move Up</value>
     </data>
     <data name="FileMenu_MoveCursorSearchNext" xml:space="preserve">
-        <value>Search Next</value>
+        <value>Find Next</value>
     </data>
     <data name="FileMenu_MoveCursorSearchPrevious" xml:space="preserve">
-        <value>Search Previous</value>
+        <value>Find Previous</value>
     </data>
     <data name="FileMenu_Bookmark" xml:space="preserve">
         <value>Bookmark...</value>
@@ -253,19 +253,19 @@ The external app is not registered or does not exist.</value>
         <value>Recent Folder...</value>
     </data>
     <data name="FileMenu_MoveToFolder" xml:space="preserve">
-        <value>Move to Folder...</value>
+        <value>Go to Folder...</value>
     </data>
     <data name="FileMenu_MoveToVolume" xml:space="preserve">
-        <value>Move to Volume</value>
+        <value>Go to Volume</value>
     </data>
     <data name="FileMenu_MoveToNetwork" xml:space="preserve">
-        <value>Move to Network...</value>
+        <value>Go to Network...</value>
     </data>
     <data name="FileMenu_CompressArchive" xml:space="preserve">
-        <value>Compress Archive...</value>
+        <value>Compress to Archive...</value>
     </data>
     <data name="FileMenu_DecompressArchive" xml:space="preserve">
-        <value>Decompress Archive...</value>
+        <value>Extract Archive...</value>
     </data>
     <data name="FileMenu_Search" xml:space="preserve">
         <value>Search</value>
@@ -280,7 +280,7 @@ The external app is not registered or does not exist.</value>
         <value>Switch View</value>
     </data>
     <data name="FileMenu_LoadFolderWindowLayout" xml:space="preserve">
-        <value>Load  Window Size</value>
+        <value>Restore Window Size</value>
     </data>
     <data name="FileMenu_StoreFolderWindowLayout" xml:space="preserve">
         <value>Save Window Size</value>
@@ -292,56 +292,56 @@ The external app is not registered or does not exist.</value>
         <value>Saved window layout.</value>
     </data>
     <data name="FileMenu_OpenTrashCan" xml:space="preserve">
-        <value>Open Trash Can</value>
+        <value>Open Trash</value>
     </data>
     <data name="Message_EmptiedTrashCan" xml:space="preserve">
-        <value>Emptied the trash can.</value>
+        <value>Trash emptied.</value>
     </data>
     <data name="Message_TrashCanAlreadyEmpty" xml:space="preserve">
-        <value>The trash can is already empty.</value>
+        <value>The trash is already empty.</value>
     </data>
     <data name="Dialog_SendToTrashCan" xml:space="preserve">
-        <value>_To Trash Can</value>
+        <value>_To Trash</value>
     </data>
     <data name="FileMenu_MoveToParentFolder" xml:space="preserve">
-        <value>Move to Parent Folder</value>
+        <value>Go to Parent Folder</value>
     </data>
     <data name="FileMenu_MoveToVolume1" xml:space="preserve">
-        <value>Move to Volume 1</value>
+        <value>Go to Volume 1</value>
     </data>
     <data name="FileMenu_MoveToVolume2" xml:space="preserve">
-        <value>Move to Volume 2</value>
+        <value>Go to Volume 2</value>
     </data>
     <data name="FileMenu_MoveToVolume3" xml:space="preserve">
-        <value>Move to Volume 3</value>
+        <value>Go to Volume 3</value>
     </data>
     <data name="FileMenu_MoveToVolume4" xml:space="preserve">
-        <value>Move to Volume 4</value>
+        <value>Go to Volume 4</value>
     </data>
     <data name="FileMenu_MoveToVolume5" xml:space="preserve">
-        <value>Move to Volume 5</value>
+        <value>Go to Volume 5</value>
     </data>
     <data name="Message_CanModifyItemResults_EmptyName" xml:space="preserve">
-        <value>Empty Name</value>
+        <value>The name cannot be empty.</value>
     </data>
     <data name="Message_CanModifyItemResults_InvalidCharacterInName" xml:space="preserve">
-        <value>The following characters cannot be used in the name
+        <value>The name cannot contain the following characters:
 {0}</value>
     </data>
     <data name="Message_CanModifyItemResults_TrailingPeriod" xml:space="preserve">
-        <value>Names cannot end with a period</value>
+        <value>Names cannot end with a period.</value>
     </data>
     <data name="Message_CanModifyItemResults_ReservedName" xml:space="preserve">
-        <value>This name is reserved and cannot be used</value>
+        <value>This name is reserved and cannot be used.</value>
     </data>
     <data name="Message_CanModifyItemResults_AlreadyExists" xml:space="preserve">
-        <value>Already Exists</value>
+        <value>An item with the same name already exists.</value>
     </data>
     <data name="Message_CanModifyItemResults_ParentDoesNotExist" xml:space="preserve">
-        <value>Parent folder does not Exist</value>
+        <value>The parent folder does not exist.</value>
     </data>
     <data name="Message_CanModifyItemResults_ParentIsNotWritable" xml:space="preserve">
-        <value>Parent folder is not Writable</value>
+        <value>The parent folder is not writable.</value>
     </data>
     <data name="Message_FailedToCreateFile" xml:space="preserve">
         <value>Failed to create file.</value>
@@ -365,13 +365,13 @@ The external app is not registered or does not exist.</value>
         <value>Display Mode</value>
     </data>
     <data name="Message_FailedToRename" xml:space="preserve">
-        <value>Failed to Rename item.</value>
+        <value>Failed to rename the item.</value>
     </data>
     <data name="Message_FailedToMove" xml:space="preserve">
-        <value>Failed to Move item.</value>
+        <value>Failed to move the item.</value>
     </data>
     <data name="Dialog_Decompress" xml:space="preserve">
-        <value>_Decompress</value>
+        <value>_Extract</value>
     </data>
     <data name="Dialog_Compress" xml:space="preserve">
         <value>Com_press</value>
@@ -383,7 +383,7 @@ The external app is not registered or does not exist.</value>
         <value>Rename Session</value>
     </data>
     <data name="Message_ConformationEmptyTrashCan" xml:space="preserve">
-        <value>Empty the trash can. This action cannot be undone.
+        <value>Empty the trash. This action cannot be undone.
 Do you want to proceed?</value>
     </data>
     <data name="UI_Bookmark" xml:space="preserve">
@@ -399,7 +399,7 @@ Do you want to proceed?</value>
         <value>Output Folder</value>
     </data>
     <data name="Message_FailedToSendToTrashCan" xml:space="preserve">
-        <value>Failed to send To trash can.</value>
+        <value>Failed to move the item to the trash.</value>
     </data>
     <data name="Message_FailedToDelete" xml:space="preserve">
         <value>Failed to delete.
@@ -424,7 +424,7 @@ Do you want to proceed?</value>
         <value>Go Forward</value>
     </data>
     <data name="FileMenu_SwitchDetailsPane" xml:space="preserve">
-        <value>Details View</value>
+        <value>Toggle Details Pane</value>
     </data>
     <data name="FileMenu_ClearSearchBox" xml:space="preserve">
         <value>Clear Search Box</value>
@@ -442,19 +442,19 @@ Do you want to proceed?</value>
         <value>Preview</value>
     </data>
     <data name="Message_CompressFoldersAndFiles" xml:space="preserve">
-        <value>Compresses {0:plural:1 folder|{:N0} folders}, {1:plural:1 file|{:N0} files}.</value>
+        <value>Compress {0:plural:1 folder|{:N0} folders}, {1:plural:1 file|{:N0} files}.</value>
     </data>
     <data name="Message_CompressFolders" xml:space="preserve">
-        <value>Compresses {0:plural:1 folder|{:N0} folders}.</value>
+        <value>Compress {0:plural:1 folder|{:N0} folders}.</value>
     </data>
     <data name="Message_CompressFiles" xml:space="preserve">
-        <value>Compresses {0:plural:1 file|{:N0} files}.</value>
+        <value>Compress {0:plural:1 file|{:N0} files}.</value>
     </data>
     <data name="Message_CompressItem" xml:space="preserve">
-        <value>Compress `{0}'.</value>
+        <value>Compress "{0}".</value>
     </data>
     <data name="Message_DeleteItem" xml:space="preserve">
-        <value>Delete `{0}'.</value>
+        <value>Delete "{0}".</value>
     </data>
     <data name="Message_DeleteFiles" xml:space="preserve">
         <value>Delete {0:plural:1 file|{:N0} files}.</value>
@@ -469,7 +469,7 @@ Do you want to proceed?</value>
         <value>Co_py</value>
     </data>
     <data name="Message_CopyItem" xml:space="preserve">
-        <value>Copy `{0}'.</value>
+        <value>Copy "{0}".</value>
     </data>
     <data name="Message_CopyFiles" xml:space="preserve">
         <value>Copy {0:plural:1 file|{:N0} files}.</value>
@@ -493,22 +493,22 @@ Do you want to proceed?</value>
         <value>_Skip</value>
     </data>
     <data name="Message_CopyItemMethod_WhenTimestampIsNew" xml:space="preserve">
-        <value>{0} when _timestamp is new</value>
+        <value>{0} if the source is _newer</value>
     </data>
     <data name="Message_CopyItemMethod_Override" xml:space="preserve">
         <value>_Overwrite</value>
     </data>
     <data name="Message_CopyItemMethod_RenameSource" xml:space="preserve">
-        <value>_Rename and {0}</value>
+        <value>_Rename source and {0}</value>
     </data>
     <data name="Message_CopyItemMethod_RenameDestination" xml:space="preserve">
-        <value>Rename and {0} _existing {1}</value>
+        <value>Rename existing {1} and {0}</value>
     </data>
     <data name="Message_CopyItemMethod_AutoRenameSource" xml:space="preserve">
-        <value>_Automatic naming</value>
+        <value>_Rename automatically</value>
     </data>
     <data name="Message_CopyItemMethod_AutoRenameDestination" xml:space="preserve">
-        <value>Automatic _naming</value>
+        <value>Rename _automatically</value>
     </data>
     <data name="CopyItemTypes_Copy" xml:space="preserve">
         <value>Copy</value>
@@ -523,21 +523,21 @@ Do you want to proceed?</value>
         <value>File</value>
     </data>
     <data name="ItemKinds_Unknown" xml:space="preserve">
-        <value>Uhknown</value>
+        <value>Unknown</value>
     </data>
     <data name="UI_UseSameSettingsGoingForward" xml:space="preserve">
         <value>Use the same settings going _forward</value>
     </data>
     <data name="Message_SameNameItemExisting" xml:space="preserve">
-        <value>{0} with same name exists.
+        <value>A {0} with the same name already exists.
 
-`{1}’</value>
+"{1}"</value>
     </data>
     <data name="Label_OutputFolder_Move" xml:space="preserve">
         <value>Destination Folder</value>
     </data>
     <data name="Message_MoveItem" xml:space="preserve">
-        <value>Move `{0}'.</value>
+        <value>Move "{0}".</value>
     </data>
     <data name="Message_MoveFiles" xml:space="preserve">
         <value>Move {0:plural:1 file|{:N0} files}.</value>
@@ -573,7 +573,7 @@ Do you want to proceed?</value>
         <value>Zoom Out</value>
     </data>
     <data name="FileMenu_MoveToRootFolder" xml:space="preserve">
-        <value>Move to Root Folder</value>
+        <value>Go to Root Folder</value>
     </data>
     <data name="ItemProperty_Metadata_Size" xml:space="preserve">
         <value>Size</value>
@@ -588,7 +588,7 @@ Do you want to proceed?</value>
         <value>Dimensions</value>
     </data>
     <data name="Message_DraggingItem" xml:space="preserve">
-        <value>Dragging `{0}'</value>
+        <value>Dragging "{0}"</value>
     </data>
     <data name="Message_DraggingFiles" xml:space="preserve">
         <value>Dragging {0:plural:1 file|{:N0} files}.</value>
@@ -599,20 +599,20 @@ Do you want to proceed?</value>
     <data name="Message_DraggingFoldersAndFiles" xml:space="preserve">
         <value>Dragging {0:plural:1 folder|{:N0} folders}, {1:plural:1 file|{:N0} files}.</value>
     </data>
-  <data name="FileMenu_MoveToRecentlyUsedFolder" xml:space="preserve">
-    <value>Move to Recently used folder...</value>
-  </data>
-  <data name="FileMenu_CreateTabFromRecentlyUsedFolder" xml:space="preserve">
-    <value>Create Tab from Recently Used Folder</value>
-  </data>
-  <data name="FileMenu_OpenRecentlyUsedFolderAsTab" xml:space="preserve">
-    <value>Open Recently Used Folder as Tab</value>
-  </data>
+    <data name="FileMenu_MoveToRecentlyUsedFolder" xml:space="preserve">
+        <value>Go to Recent Folder...</value>
+    </data>
+    <data name="FileMenu_CreateTabFromRecentlyUsedFolder" xml:space="preserve">
+        <value>Create Tab from Recent Folder...</value>
+    </data>
+    <data name="FileMenu_OpenRecentlyUsedFolderAsTab" xml:space="preserve">
+        <value>Open Recent Folder as Tab...</value>
+    </data>
     <data name="DialogTitle_FolderSelection" xml:space="preserve">
         <value>Select Folder</value>
     </data>
     <data name="UI_RecentlyUsed" xml:space="preserve">
-        <value>Recently _Used</value>
+        <value>R_ecent Folders</value>
     </data>
     <data name="UI_Folder" xml:space="preserve">
         <value>_Folder</value>
@@ -630,7 +630,7 @@ Do you want to proceed?</value>
         <value>C_hange</value>
     </data>
     <data name="UI_ProcessInFolders" xml:space="preserve">
-        <value>_Processes items below the folder</value>
+        <value>Also _process items inside folders</value>
     </data>
     <data name="ItemProperty_Metadata_Name" xml:space="preserve">
         <value>Name</value>
@@ -690,7 +690,7 @@ Do you want to proceed?</value>
         <value>Rename</value>
     </data>
     <data name="FileAttributes_ReadOnly" xml:space="preserve">
-        <value>Read Only</value>
+        <value>Read-only</value>
     </data>
     <data name="FileAttributes_ReparsePoint" xml:space="preserve">
         <value>Reparse Point</value>
@@ -810,10 +810,10 @@ Do you want to proceed?</value>
         <value>New Folder Name</value>
     </data>
     <data name="Settings_Label_ExternalApp1" xml:space="preserve">
-        <value>External App1</value>
+        <value>External App 1</value>
     </data>
     <data name="Settings_Label_ExternalApp2" xml:space="preserve">
-        <value>External App2</value>
+        <value>External App 2</value>
     </data>
     <data name="Settings_Label_DefaultShell" xml:space="preserve">
     <value>Default Shell</value>
@@ -828,13 +828,13 @@ Do you want to proceed?</value>
         <value>Path</value>
     </data>
     <data name="Settings_Label_SelectedItemOptions" xml:space="preserve">
-        <value>Options when item selected</value>
+        <value>Arguments when an item is selected</value>
     </data>
     <data name="Settings_Label_NotSelectedItemOptions" xml:space="preserve">
-        <value>Options when item not selected</value>
+        <value>Arguments when no item is selected</value>
     </data>
     <data name="Settings_Label_CanExecuteInFolder" xml:space="preserve">
-        <value>Can Execute in Folder</value>
+        <value>Enable for folders</value>
     </data>
     <data name="Settings_Label_Name" xml:space="preserve">
         <value>Name</value>
@@ -846,7 +846,7 @@ Do you want to proceed?</value>
         <value>Size</value>
     </data>
     <data name="Settings_Label_Timestamp" xml:space="preserve">
-        <value>Timestamp</value>
+        <value>Date Modified</value>
     </data>
     <data name="Settings_Label_TimestampShowSeconds" xml:space="preserve">
         <value>Show seconds</value>
@@ -906,13 +906,13 @@ Do you want to proceed?</value>
         <value>Add Hotkey...</value>
     </data>
     <data name="Settings_RemoveHotkey" xml:space="preserve">
-        <value>Remove `{0}'</value>
+        <value>Remove "{0}"</value>
     </data>
     <data name="FileMenu_SelectHotkeyDialog" xml:space="preserve">
         <value>Select Hotkey</value>
     </data>
     <data name="Message_EnterAnyKeyCombination" xml:space="preserve">
-        <value>Enter any key combination.</value>
+        <value>Press a key combination.</value>
     </data>
     <data name="Label_AlreadyAssignedTo" xml:space="preserve">
         <value>Already assigned to</value>
@@ -956,7 +956,7 @@ Empty file.</value>
         <value>Shared Icon Cache Size</value>
     </data>
     <data name="Settings_Note_EffectiveAfterRestart" xml:space="preserve">
-        <value>Note: Effective after restart</value>
+        <value>Takes effect after restart.</value>
     </data>
     <data name="FileMenu_InitialSearch" xml:space="preserve">
         <value>Initial Search</value>
@@ -971,7 +971,7 @@ Empty file.</value>
         <value>_Close</value>
     </data>
     <data name="Dialog_MoveToSelectedItem" xml:space="preserve">
-        <value>_Move to Selected Item</value>
+        <value>_Go to Selected Item</value>
     </data>
     <data name="Label_FoundItems" xml:space="preserve">
         <value>Found Items</value>
@@ -986,7 +986,7 @@ Empty file.</value>
         <value>Extension / Ascending</value>
     </data>
     <data name="FileMenu_SortItemsTimestampAscending" xml:space="preserve">
-        <value>Timestamp / Ascending</value>
+        <value>Date Modified / Ascending</value>
     </data>
     <data name="FileMenu_SortItemsAttributesAscending" xml:space="preserve">
         <value>Attributes / Ascending</value>
@@ -1004,7 +1004,7 @@ Empty file.</value>
         <value>Extension / Descending</value>
     </data>
     <data name="FileMenu_SortItemsTimestampDescending" xml:space="preserve">
-        <value>Timestamp / Descending</value>
+        <value>Date Modified / Descending</value>
     </data>
     <data name="FileMenu_SortItemsSizeDescending" xml:space="preserve">
         <value>Size / Descending</value>
@@ -1067,7 +1067,7 @@ Empty file.</value>
         <value>To help us diagnose and fix the problem, you can send us a crash report.</value>
     </data>
     <data name="Message_CrashReporter_Comment" xml:space="preserve">
-        <value>Please indicate the operation performed before the error</value>
+        <value>Please describe what you were doing before the crash.</value>
     </data>
     <data name="Message_CrashReporter_RestartFiledini" xml:space="preserve">
         <value>Restart Filedini</value>
@@ -1079,7 +1079,7 @@ Empty file.</value>
         <value>Crash Report</value>
     </data>
     <data name="Message_CrashReporter_Message2" xml:space="preserve">
-        <value>If the mail app does not start, we would appreciate it if you could send it manually.</value>
+        <value>If your mail app does not open, please send the crash report manually.</value>
     </data>
     <data name="Message_CrashReporter_CopyEmail" xml:space="preserve">
         <value>Copy Support Email Address</value>
@@ -1088,10 +1088,19 @@ Empty file.</value>
         <value>Copy Crash Report</value>
     </data>
     <data name="Message_CrashReporter_StartMailApp" xml:space="preserve">
-        <value>Start Mail App...</value>
+        <value>Open Mail App...</value>
     </data>
     <data name="FileMenu_MoveCursorPreviousPage" xml:space="preserve">
-        <value>Move to Previous Page</value>
+      <value>Move to Previous Page</value>
+    </data>
+    <data name="FileMenu_SelectPreviousItem" xml:space="preserve">
+      <value>Previous Item</value>
+    </data>
+    <data name="FileMenu_SelectNextItem" xml:space="preserve">
+      <value>Next Item</value>
+    </data>
+    <data name="Message_PreviewNavigationPinned" xml:space="preserve">
+      <value>Navigation is unavailable while preview is pinned.</value>
     </data>
     <data name="Message_SearchLimit" xml:space="preserve">
         <value>Search results are limited to 1000.</value>
@@ -1148,7 +1157,7 @@ Empty file.</value>
         <value>Layout by Display Mode</value>
     </data>
     <data name="Settings_Label_PaletteByTheme" xml:space="preserve">
-        <value>PaletteByTheme</value>
+        <value>Palette by Theme</value>
     </data>
     <data name="FileMenu_LicenseManager" xml:space="preserve">
         <value>License Manager...</value>
@@ -1159,59 +1168,8 @@ Empty file.</value>
     <data name="Label_RemainingTrialPeriod" xml:space="preserve">
         <value>Trial Ends In</value>
     </data>
-    <data name="TrialExpiredView_Title" xml:space="preserve">
-        <value>Trial Period Expired</value>
-    </data>
-    <data name="TrialExpiredView_Description" xml:space="preserve">
-        <value>Your trial period for this app has ended.</value>
-    </data>
-    <data name="TrialExpiredView_TrialInfo" xml:space="preserve">
-        <value>You can use the trial for 5 minutes after launching the app or for 30 days after your first sign-in.</value>
-    </data>
-    <data name="TrialExpiredView_SubscriptionInfo" xml:space="preserve">
-        <value>To continue using the app, you need to subscribe and sign in with a Google account.</value>
-    </data>
-    <data name="TrialExpiredView_BenefitsTitle" xml:space="preserve">
-        <value>🎉 Subscription Benefits 🎉</value>
-    </data>
-    <data name="TrialExpiredView_Benefit1" xml:space="preserve">
-        <value>✅ No time restrictions – use the app without limits</value>
-    </data>
-    <data name="TrialExpiredView_Benefit2" xml:space="preserve">
-        <value>✅ Access all features without restrictions</value>
-    </data>
-    <data name="TrialExpiredView_Benefit3" xml:space="preserve">
-        <value>✅ Receive regular updates and support</value>
-    </data>
-    <data name="TrialExpiredView_Benefit4" xml:space="preserve">
-        <value>✅ Cancel anytime, hassle-free</value>
-    </data>
-    <data name="Trial_Subscribe" xml:space="preserve">
-        <value>Subscribe Now</value>
-    </data>
     <data name="Trial_Exit" xml:space="preserve">
         <value>Exit</value>
-    </data>
-    <data name="DialogTitle_Trial" xml:space="preserve">
-        <value>Trial</value>
-    </data>
-    <data name="Trial_TrialStart" xml:space="preserve">
-        <value>Trial Start</value>
-    </data>
-    <data name="License_CancelSubscription" xml:space="preserve">
-        <value>Cancel Subscription</value>
-    </data>
-    <data name="License_PurchaseSubscription" xml:space="preserve">
-        <value>Purchase Subscription</value>
-    </data>
-    <data name="License_ChangeOrAddPaymentMethod" xml:space="preserve">
-        <value>Change or Add Payment Method</value>
-    </data>
-    <data name="License_ChangeBillingInformation" xml:space="preserve">
-        <value>Billing Information</value>
-    </data>
-    <data name="License_InvoiceHistory" xml:space="preserve">
-        <value>Invoice History</value>
     </data>
     <data name="UI_Reload" xml:space="preserve">
         <value>R_eload</value>
@@ -1225,20 +1183,8 @@ Empty file.</value>
   <data name="Label_SignOut" xml:space="preserve">
     <value>Sign out</value>
   </data>
-    <data name="Label_SignInWithGoogle" xml:space="preserve">
-        <value>Sign in with Google</value>
-    </data>
     <data name="Message_CannotStartBrowser" xml:space="preserve">
-        <value>Cannot Start Browser</value>
-    </data>
-    <data name="Message_CannotConnectGoogle" xml:space="preserve">
-        <value>Cannot Connect Google</value>
-    </data>
-    <data name="TrialExpiredView_SignInInstruction" xml:space="preserve">
-        <value>If you have already purchased a subscription, please sign in via the License Manager to continue using the app.</value>
-    </data>
-    <data name="Trial_LicenseManager" xml:space="preserve">
-        <value>License Manager</value>
+        <value>Could not open the browser.</value>
     </data>
     <data name="Label_ThirdPartyLibraries" xml:space="preserve">
         <value>Third-party Libraries</value>
@@ -1258,10 +1204,10 @@ End date: {0}</value>
         <value>The beta testing period has ended. Please refer to the website for the latest status.</value>
     </data>
     <data name="Message_CheckingForNewVersion" xml:space="preserve">
-        <value>Checking for new version</value>
+        <value>Checking for updates...</value>
     </data>
     <data name="Message_CurrentlyUsingLatestVersion" xml:space="preserve">
-        <value>Currently using the latest version.</value>
+        <value>You're using the latest version.</value>
     </data>
     <data name="Message_NewVersionIsAvailable" xml:space="preserve">
         <value>A new version is now available.</value>
@@ -1303,7 +1249,7 @@ End date: {0}</value>
         <value>Failed to end {0}.</value>
     </data>
     <data name="DialogTitle_InputPassword" xml:space="preserve">
-        <value>Input Password</value>
+        <value>Enter Password</value>
     </data>
     <data name="Message_EnterPassword" xml:space="preserve">
         <value>This file is password-protected. 
@@ -1318,19 +1264,19 @@ Invalid password.
         <value>Volume...</value>
     </data>
     <data name="FileMenu_MoveToVolume6" xml:space="preserve">
-        <value>Move to Volume 6</value>
+        <value>Go to Volume 6</value>
     </data>
     <data name="FileMenu_MoveToVolume7" xml:space="preserve">
-        <value>Move to Volume 7</value>
+        <value>Go to Volume 7</value>
     </data>
     <data name="FileMenu_MoveToVolume8" xml:space="preserve">
-        <value>Move to Volume 8</value>
+        <value>Go to Volume 8</value>
     </data>
     <data name="FileMenu_MoveToVolume9" xml:space="preserve">
-        <value>Move to Volume 9</value>
+        <value>Go to Volume 9</value>
     </data>
     <data name="FileMenu_MoveToVolume0" xml:space="preserve">
-        <value>Move to Volume 0</value>
+        <value>Go to Volume 0</value>
     </data>
     <data name="Settings_Details" xml:space="preserve">
         <value>Details</value>
@@ -1339,7 +1285,7 @@ Invalid password.
         <value>Open in Associated App</value>
     </data>
     <data name="FolderOpenInAssociatedAppBehaviors_MoveFolder" xml:space="preserve">
-        <value>Move Folder</value>
+        <value>Navigate to Folder</value>
     </data>
     <data name="FolderOpenInAssociatedAppBehaviors_OpenInNewTab" xml:space="preserve">
         <value>Open in New Tab</value>
@@ -1366,13 +1312,13 @@ Invalid password.
         <value>Open in Associated App</value>
     </data>
     <data name="FileDoubleClickBehaviors_OpenInExternalApp1" xml:space="preserve">
-        <value>Open in External App1</value>
+        <value>Open in External App 1</value>
     </data>
     <data name="FileDoubleClickBehaviors_OpenInExternalApp2" xml:space="preserve">
-        <value>Open in External App2</value>
+        <value>Open in External App 2</value>
     </data>
     <data name="Settings_Label_FolderOpenInAssociatedAppBehavior" xml:space="preserve">
-        <value>Folder Open in Associated App Behavior</value>
+        <value>"Open in Associated App" Behavior for Folders</value>
     </data>
     <data name="NameSortModes_Numeric" xml:space="preserve">
         <value>Numeric Sort</value>
@@ -1393,10 +1339,10 @@ Invalid password.
         <value>Filedini Settings File</value>
     </data>
     <data name="Settings_Label_LastWrite" xml:space="preserve">
-        <value>Last Write</value>
+        <value>Date Modified</value>
     </data>
     <data name="Settings_LastWriteDisplay" xml:space="preserve">
-        <value>Last Write Display</value>
+        <value>Date Modified Display</value>
     </data>
     <data name="PeriodUnits_Days" xml:space="preserve">
         <value>Days</value>
@@ -1408,25 +1354,25 @@ Invalid password.
         <value>Minutes</value>
     </data>
     <data name="ItemProperty_Metadata_LastWrite" xml:space="preserve">
-        <value>Last Write</value>
+        <value>Age</value>
     </data>
     <data name="FileMenu_Reload" xml:space="preserve">
         <value>Reload</value>
     </data>
     <data name="Message_SetAttributesItem" xml:space="preserve">
-        <value>Change `{0}' attributes.</value>
+        <value>Change attributes for "{0}".</value>
     </data>
     <data name="Message_DecompressItem" xml:space="preserve">
-        <value>Decompress `{0}'.</value>
+        <value>Extract "{0}".</value>
     </data>
     <data name="Message_SymbolicLinkItem" xml:space="preserve">
-        <value>Create a symbolic link for `{0}'.</value>
+        <value>Create a symbolic link for "{0}".</value>
     </data>
     <data name="Message_RenameItem" xml:space="preserve">
-        <value>Rename `{0}'.</value>
+        <value>Rename "{0}".</value>
     </data>
     <data name="Message_SetTimestampItem" xml:space="preserve">
-        <value>Change `{0}' timestamp.</value>
+        <value>Change timestamp for "{0}".</value>
     </data>
     <data name="FileMenu_Launcher" xml:space="preserve">
         <value>Launcher...</value>
@@ -1441,7 +1387,7 @@ Invalid password.
         <value>App</value>
     </data>
     <data name="Settings_Label_Options" xml:space="preserve">
-        <value>Options</value>
+        <value>Arguments</value>
     </data>
     <data name="Settings_Label_Caption" xml:space="preserve">
         <value>Caption</value>
@@ -1468,7 +1414,7 @@ Invalid password.
         <value>External App</value>
     </data>
     <data name="Settings_Label_Extensions" xml:space="preserve">
-        <value>Extensions(semicolon-separated)</value>
+        <value>Extensions (semicolon-separated)</value>
     </data>
     <data name="FileMenu_LaunchApp1" xml:space="preserve">
         <value>Launch App 1</value>
@@ -1610,7 +1556,7 @@ Invalid password.
     </data>
     <data name="Message_NotImprementYet" xml:space="preserve">
         <value>This feature is currently in development.
-Please check back again later.</value>
+Please check back later.</value>
     </data>
     <data name="DialogTitle_Notice" xml:space="preserve">
         <value>Notice</value>
@@ -1634,7 +1580,7 @@ Please check back again later.</value>
         <value>New Script...</value>
     </data>
     <data name="FileMenu_AiScriptGenerate" xml:space="preserve">
-        <value>AI Script Generate (WIP)...</value>
+        <value>Generate AI Script (WIP)...</value>
     </data>
     <data name="Message_EnterScriptName" xml:space="preserve">
         <value>Enter script name</value>
@@ -1658,13 +1604,13 @@ Please check back again later.</value>
         <value>Tab Count</value>
     </data>
     <data name="Message_ConfirmOverwriteScript" xml:space="preserve">
-        <value>Script '{0}' already exists. Do you want to overwrite it?</value>
+        <value>Script "{0}" already exists. Do you want to overwrite it?</value>
     </data>
     <data name="Message_FailedToCreateScript" xml:space="preserve">
         <value>Failed to create script: {0}</value>
     </data>
     <data name="Message_ScriptCreatedSuccess" xml:space="preserve">
-        <value>Script '{0}' created successfully.</value>
+        <value>Script "{0}" created successfully.</value>
     </data>
     <data name="Label_ScriptFilePath" xml:space="preserve">
         <value>Script File</value>
@@ -1694,13 +1640,13 @@ Please check back again later.</value>
         <value>LZMA2</value>
     </data>
     <data name="DetectableFileFormats_TarZstd" xml:space="preserve">
-        <value>ZStandard</value>
+        <value>Zstandard</value>
     </data>
     <data name="DetectableFileFormats_SevenZip" xml:space="preserve">
         <value>7-Zip</value>
     </data>
     <data name="Settings_MultiExtensions" xml:space="preserve">
-        <value>Multi Extensions</value>
+        <value>Compound Extensions</value>
     </data>
     <data name="DetectableFileFormats_Rar" xml:space="preserve">
         <value>RAR</value>
@@ -1767,7 +1713,7 @@ Please check back again later.</value>
         <value>Restart Python</value>
     </data>
     <data name="Tooltip_EditScriptFile" xml:space="preserve">
-        <value>Edit Scipt File</value>
+        <value>Edit Script File</value>
     </data>
     <data name="Tooltip_SelectScriptFile" xml:space="preserve">
         <value>Select Script File...</value>
@@ -1781,8 +1727,8 @@ Please check back again later.</value>
     <data name="Message_MissingPython" xml:space="preserve">
         <value>Python is not installed.
 
-Python is required to use the script. You can install it via Script Settings. 
-Would you like to open the settings?
+Python is required to run scripts. You can install it from Script Settings. 
+Would you like to open Script Settings?
 </value>
     </data>
     <data name="Dialog_Install" xml:space="preserve">
@@ -1807,7 +1753,7 @@ Destination:
         <value>Restoration failed.</value>
     </data>
     <data name="FileMenu_MoveToScriptsFolder" xml:space="preserve">
-        <value>Move to Scripts Folder</value>
+        <value>Go to Scripts Folder</value>
     </data>
     <data name="Message_ScriptFileNotFound" xml:space="preserve">
         <value>Script file not found.
@@ -1893,7 +1839,7 @@ Destination:
         <value>Web Viewer</value>
     </data>
     <data name="Settings_FileExtensionsDisplayedInWebViewer" xml:space="preserve">
-        <value>File extensions displayed in Web Viewer(semicolon-separated)</value>
+        <value>File extensions displayed in Web Viewer (semicolon-separated)</value>
     </data>
     <data name="Settings_MarkdownFileExtensionsDisplayedInWebViewer" xml:space="preserve">
         <value>File extensions to treat as Markdown (semicolon-separated)</value>
@@ -1932,10 +1878,10 @@ Destination:
         <value>Close Other Tabs</value>
     </data>
     <data name="FileMenu_CloseTabsToTheLeft" xml:space="preserve">
-        <value>Close previous tabs</value>
+        <value>Close Previous Tabs</value>
     </data>
     <data name="FileMenu_CloseTabsToTheRight" xml:space="preserve">
-        <value>Close following tabs</value>
+        <value>Close Following Tabs</value>
     </data>
     <data name="FileMenu_DuplicateTab" xml:space="preserve">
         <value>Duplicate Tab</value>
@@ -1947,7 +1893,7 @@ Destination:
         <value>Previous Tab</value>
     </data>
     <data name="FileMenu_SelectPreviousFolderPane" xml:space="preserve">
-        <value>Previous Folder Panel</value>
+        <value>Previous Folder Pane</value>
     </data>
     <data name="FileMenu_SelectNextTab" xml:space="preserve">
         <value>Next Tab</value>
@@ -1956,52 +1902,55 @@ Destination:
         <value>Search Tabs...</value>
     </data>
     <data name="FileMenu_MoveToTab" xml:space="preserve">
-        <value>Move to Tab</value>
+        <value>Switch to Tab</value>
     </data>
     <data name="FileMenu_MoveToTab1" xml:space="preserve">
-        <value>Move to Tab 1</value>
+        <value>Switch to Tab 1</value>
     </data>
     <data name="FileMenu_MoveToTab2" xml:space="preserve">
-        <value>Move to Tab 2</value>
+        <value>Switch to Tab 2</value>
     </data>
     <data name="FileMenu_MoveToTab3" xml:space="preserve">
-        <value>Move to Tab 3</value>
+        <value>Switch to Tab 3</value>
     </data>
     <data name="FileMenu_MoveToTab4" xml:space="preserve">
-        <value>Move to Tab 4</value>
+        <value>Switch to Tab 4</value>
     </data>
     <data name="FileMenu_MoveToTab5" xml:space="preserve">
-        <value>Move to Tab 5</value>
+        <value>Switch to Tab 5</value>
     </data>
     <data name="FileMenu_MoveToTab6" xml:space="preserve">
-        <value>Move to Tab 6</value>
+        <value>Switch to Tab 6</value>
     </data>
     <data name="FileMenu_MoveToTab7" xml:space="preserve">
-        <value>Move to Tab 7</value>
+        <value>Switch to Tab 7</value>
     </data>
     <data name="FileMenu_MoveToTab8" xml:space="preserve">
-        <value>Move to Tab 8</value>
+        <value>Switch to Tab 8</value>
     </data>
     <data name="FileMenu_MoveToTab9" xml:space="preserve">
-        <value>Move to Tab 9</value>
+        <value>Switch to Tab 9</value>
     </data>
     <data name="FileMenu_MoveToTab0" xml:space="preserve">
-        <value>Move to Tab 0</value>
+        <value>Switch to Tab 0</value>
     </data>
     <data name="FileMenu_SelectNextFolderPane" xml:space="preserve">
-        <value>Next Folder Panel</value>
+        <value>Next Folder Pane</value>
     </data>
     <data name="FileMenu_MoveTabLeft" xml:space="preserve">
-        <value>Move tab forward</value>
+        <value>Move Tab Forward</value>
     </data>
     <data name="FileMenu_MoveTabRight" xml:space="preserve">
-        <value>Move tab backward</value>
+        <value>Move Tab Backward</value>
     </data>
     <data name="FileMenu_MoveTabToNewWindow" xml:space="preserve">
         <value>Move Tab to New Window</value>
     </data>
     <data name="FileMenu_TogglePinTab" xml:space="preserve">
         <value>Pin Tab / Unpin Tab</value>
+    </data>
+    <data name="FileMenu_TogglePinPreview" xml:space="preserve">
+        <value>Pin Preview / Unpin Preview</value>
     </data>
     <data name="FileMenu_NewTab" xml:space="preserve">
         <value>New Tab</value>
@@ -2039,9 +1988,6 @@ Destination:
     <data name="Settings_Label_TabMode" xml:space="preserve">
         <value>Tab Mode</value>
     </data>
-    <data name="Settings_Label_PageBarScrollMode" xml:space="preserve">
-        <value>Scroll Bar</value>
-    </data>
     <data name="PageBarScrollModes_Page" xml:space="preserve">
         <value>Page</value>
     </data>
@@ -2049,7 +1995,7 @@ Destination:
         <value>Pixel</value>
     </data>
     <data name="FileMenu_SwitchToolPane" xml:space="preserve">
-        <value>Tool View</value>
+        <value>Toggle Tool Pane</value>
     </data>
     <data name="FileMenu_ToggleSplitFolderPane" xml:space="preserve">
         <value>Toggle Split Folder Pane</value>
@@ -2091,7 +2037,7 @@ Destination:
         <value>Terminal Font Size</value>
     </data>
     <data name="TerminalThemeModes_AppSetting" xml:space="preserve">
-        <value>Use App Setting</value>
+        <value>Follow App Theme</value>
     </data>
     <data name="TerminalThemeModes_AlwaysLightTheme" xml:space="preserve">
         <value>Always Light Theme</value>
@@ -2109,7 +2055,7 @@ Destination:
         <value>Spreadsheet Viewer Theme</value>
     </data>
     <data name="PreviewThemeModes_AppSetting" xml:space="preserve">
-        <value>Use App Setting</value>
+        <value>Follow App Theme</value>
     </data>
     <data name="PreviewThemeModes_Light" xml:space="preserve">
         <value>Light</value>
@@ -2133,8 +2079,8 @@ Destination:
         <value>Confirm Paste</value>
     </data>
     <data name="Terminal_ConfirmPasteMessage" xml:space="preserve">
-        <value>You are about to paste multi-line text.A
-re you sure you want to continue?</value>
+        <value>You are about to paste multiple lines of text.
+Are you sure you want to continue?</value>
     </data>
     <data name="Terminal_PasteOption_AsIs" xml:space="preserve">
         <value>Paste as is</value>
@@ -2146,7 +2092,7 @@ re you sure you want to continue?</value>
         <value>Command Palette...</value>
     </data>
     <data name="FileMenu_OpenHamburgerMenu" xml:space="preserve">
-        <value>Open Hamburger Menu</value>
+        <value>Open Main Menu</value>
     </data>
     <data name="FileMenu_CommandPaletteShellMode" xml:space="preserve">
         <value>Command Palette (Shell Mode)</value>
@@ -2188,7 +2134,7 @@ re you sure you want to continue?</value>
         <value>(No Extension)</value>
     </data>
     <data name="FolderViewer_Others" xml:space="preserve">
-        <value>Others</value>
+        <value>Other</value>
     </data>
     <data name="FolderViewer_ItemsFormat" xml:space="preserve">
         <value>{0:plural:1 item|{:N0} items}</value>
@@ -2235,8 +2181,7 @@ re you sure you want to continue?</value>
 
 ❌ファイル名・パス・内容などの個人データは一切送信されません。
 
-ご協力は任意で、
-設定からいつでも変更できます。</value>
+ご協力は任意で、設定からいつでも変更できます。</value>
     </data>
     <data name="UsageDataConsent_Text_US" xml:space="preserve">
         <value>You can help improve Filedini by sharing anonymous usage information.
@@ -2247,8 +2192,8 @@ Your Filedini version
 
 This helps us focus on the platforms and versions that matter most.
 
-No personal data is collected,
-and file names or contents are never shared.
+No personal data,
+file names, paths, or file contents are collected or transmitted. 
 
 You’re in control —
 you can turn this on or off anytime in the settings.</value>
@@ -2302,13 +2247,13 @@ from the settings.</value>
         <value>View data that will be sent</value>
     </data>
     <data name="UsageDataConsent_ViewDataSent_US" xml:space="preserve">
-        <value>View data sent</value>
+        <value>View data that will be sent</value>
     </data>
     <data name="UsageDataConsent_ViewDataSent_JP" xml:space="preserve">
         <value>送信内容を見る</value>
     </data>
     <data name="UsageDataConsent_NoPersonalData_US" xml:space="preserve">
-        <value>No personal data is included.</value>
+        <value>No personal data, file names, paths, or contents are included.</value>
     </data>
     <data name="UsageDataConsent_NoPersonalData_EU" xml:space="preserve">
         <value>No personal data, file names, paths, or contents are included.</value>
@@ -2320,7 +2265,7 @@ from the settings.</value>
         <value>送信される内容</value>
     </data>
     <data name="UsageDataConsent_DataSentTitle_US" xml:space="preserve">
-        <value>Data sent</value>
+        <value>Data that will be sent</value>
     </data>
     <data name="UsageDataConsent_DataSentTitle_EU" xml:space="preserve">
         <value>Data that will be sent</value>
@@ -2344,7 +2289,7 @@ from the settings.</value>
         <value>Send feedback to Filedini</value>
     </data>
     <data name="DialogMessage_SendFeedback" xml:space="preserve">
-        <value>We’d love to hear your thoughts
+        <value>We’d love to hear your thoughts.
 Even a short message is fine.
 Feel free to share feedback, ideas, or anything you found confusing.</value>
     </data>
@@ -2384,11 +2329,11 @@ Please try again later.</value>
         <value>Thank you for your cooperation. Your report helps us improve the app.</value>
     </data>
     <data name="Message_CrashReporter_ErrorSend" xml:space="preserve">
-        <value>Failed to send crash log.
+        <value>Failed to send crash report.
 Please try again later.</value>
     </data>
     <data name="Message_CrashReporter_LogSent" xml:space="preserve">
-        <value>✅Log Sent</value>
+        <value>✅ Crash report sent</value>
     </data>
     <data name="FileMenu_ChangeHistory" xml:space="preserve">
         <value>Change History...</value>
@@ -2403,19 +2348,19 @@ Please try again later.</value>
         <value>Switch Pane Layout</value>
     </data>
     <data name="Settings_Label_ToolPaneDisplaySwitch" xml:space="preserve">
-        <value>Tool Pane Display Swich</value>
+        <value>Tool Pane Toggle</value>
     </data>
     <data name="Settings_Label_DetailsPaneDisplaySwitch" xml:space="preserve">
-        <value>Detail Pane Display Swich</value>
+        <value>Details Pane Toggle</value>
     </data>
     <data name="Settings_Label_RestoreCursorPositionPerFolder" xml:space="preserve">
         <value>Restore cursor position for each folder</value>
     </data>
     <data name="Settings_Label_SplitFolderPaneDisplaySwitch" xml:space="preserve">
-        <value>Split Folder Pane Display Switch</value>
+        <value>Split Folder Pane Toggle</value>
     </data>
     <data name="Settings_Label_PaneLayoutSwitch" xml:space="preserve">
-        <value>Pane Layout Switch</value>
+        <value>Pane Layout Toggle</value>
     </data>
     <data name="FileMenu_ClearIconCache" xml:space="preserve">
         <value>Clear Icon Cache</value>
@@ -2427,7 +2372,7 @@ Please try again later.</value>
         <value>Folder Pane</value>
     </data>
     <data name="FileMenu_UnselectAllItems" xml:space="preserve">
-        <value>Unselect All Items</value>
+        <value>Deselect All Items</value>
     </data>
     <data name="FileMenu_Nop" xml:space="preserve">
         <value>Do nothing</value>
@@ -2442,7 +2387,7 @@ Please try again later.</value>
         <value>Delete completed successfully.</value>
     </data>
     <data name="Message_MovedToTrashCanCompletedSuccessfully" xml:space="preserve">
-        <value>Moved to Trash Can successfully.</value>
+        <value>Moved to Trash successfully.</value>
     </data>
     <data name="Label_Cancel" xml:space="preserve">
         <value>Cancel</value>
@@ -2457,20 +2402,20 @@ Please try again later.</value>
         <value>Deleting...</value>
     </data>
     <data name="StatusBar_MovingToTrashCan" xml:space="preserve">
-        <value>Moving to Trash Can...</value>
+        <value>Moving to Trash...</value>
     </data>
     <data name="StatusBar_EmptyingTrashCan" xml:space="preserve">
-        <value>Emptying Trash Can...</value>
+        <value>Emptying Trash...</value>
     </data>
     <data name="Message_FolderDoesNotExist" xml:space="preserve">
-        <value>Folder does not Exist
+        <value>Folder does not exist.
 {0}</value>
     </data>
     <data name="Message_FailedToInitializeWebView2" xml:space="preserve">
         <value>Failed to initialize WebView2.</value>
     </data>
     <data name="DialogTitle_RecentlyUsedFolder" xml:space="preserve">
-        <value>Recently Used Folder</value>
+        <value>Recent Folders</value>
     </data>
     <data name="Message_NoMatchingFilesFound" xml:space="preserve">
         <value>No matching files found.</value>
@@ -2518,10 +2463,10 @@ Please try again later.</value>
         <value>Open in _Associated App</value>
     </data>
     <data name="UI_OpenInExternalApp1" xml:space="preserve">
-        <value>Open in _External App1</value>
+        <value>Open in _External App 1</value>
     </data>
     <data name="UI_OpenInExternalApp2" xml:space="preserve">
-        <value>Open in E_xternal App2</value>
+        <value>Open in E_xternal App 2</value>
     </data>
     <data name="Tooltip_Add" xml:space="preserve">
         <value>Add</value>
@@ -2620,23 +2565,23 @@ Please try again later.</value>
     <data name="BatchRename_SummaryError" xml:space="preserve"><value>{0:plural:1 item cannot|{:N0} items cannot} be renamed. Fix the rule before continuing.</value></data>
     <data name="BatchRename_ApplyCount" xml:space="preserve"><value>Rename {0:plural:1 item|{:N0} items}</value></data>
     <data name="BatchRename_SearchRequired" xml:space="preserve"><value>Enter text to find.</value></data>
-    <data name="BatchRename_ErrorDuplicateName" xml:space="preserve"><value>The new name duplicates another item.</value></data>
+    <data name="BatchRename_ErrorDuplicateName" xml:space="preserve"><value>The new name conflicts with another item.</value></data>
     <data name="BatchRename_ErrorInvalidRegularExpression" xml:space="preserve"><value>The regular expression is invalid.</value></data>
     <data name="BatchRename_ErrorRegexSyntax" xml:space="preserve"><value>The regular expression is invalid: {0}</value></data>
     <data name="BatchRename_RegexMissingClosingParenthesis" xml:space="preserve"><value>missing closing parenthesis</value></data>
     <data name="BatchRename_RegexInvalidSyntax" xml:space="preserve"><value>invalid syntax</value></data>
     <data name="BatchRename_NoItemsSelected" xml:space="preserve"><value>Select at least one item to rename.</value></data>
-    <data name="BatchRename_NoChanges" xml:space="preserve"><value>No selected item has a name change.</value></data>
+    <data name="BatchRename_NoChanges" xml:space="preserve"><value>None of the selected items would be renamed.</value></data>
     <data name="BatchRename_ChangeTextCase" xml:space="preserve"><value>Change case</value></data>
     <data name="BatchRename_ExampleTextCase" xml:space="preserve"><value>Example: summer vacation → Summer Vacation</value></data>
-    <data name="BatchRename_AddRandomValue" xml:space="preserve"><value>Add random text</value></data>
+    <data name="BatchRename_AddRandomValue" xml:space="preserve"><value>Add random value</value></data>
     <data name="BatchRename_ExampleRandomValue" xml:space="preserve"><value>Example: photo-k7P2x9.jpg</value></data>
     <data name="BatchRename_AddPhotoMetadata" xml:space="preserve"><value>Add photo metadata</value></data>
     <data name="BatchRename_ExamplePhotoMetadata" xml:space="preserve"><value>Example: 2026-07-16_photo.jpg</value></data>
     <data name="BatchRename_TextCaseLower" xml:space="preserve"><value>lowercase</value></data>
     <data name="BatchRename_TextCaseUpper" xml:space="preserve"><value>UPPERCASE</value></data>
     <data name="BatchRename_TextCaseSentence" xml:space="preserve"><value>Sentence case</value></data>
-    <data name="BatchRename_TextCaseWords" xml:space="preserve"><value>Capitalize Every Word</value></data>
+    <data name="BatchRename_TextCaseWords" xml:space="preserve"><value>Capitalize every word</value></data>
     <data name="BatchRename_RandomAlphanumeric" xml:space="preserve"><value>Letters and numbers</value></data>
     <data name="BatchRename_RandomLetters" xml:space="preserve"><value>Letters only</value></data>
     <data name="BatchRename_RandomDigits" xml:space="preserve"><value>Numbers only</value></data>
@@ -2679,13 +2624,10 @@ Please try again later.</value>
     <data name="BatchRename_EditInTextEditor" xml:space="preserve"><value>Edit names in text editor</value></data>
     <data name="BatchRename_ExampleEditInTextEditor" xml:space="preserve"><value>Edit candidate names in a text editor</value></data>
     <data name="BatchRename_OpenTextEditor" xml:space="preserve"><value>Open text editor</value></data>
-    <data name="BatchRename_ExternalEditorDescription" xml:space="preserve"><value>Edit the names after the tab, then save. The preview updates automatically.</value></data>
+    <data name="BatchRename_ExternalEditorDescription" xml:space="preserve"><value>Edit the names after the tab character, then save. The preview updates automatically.</value></data>
     <data name="BatchRename_ErrorOpenTextEditor" xml:space="preserve"><value>The text editor could not be opened.</value></data>
     <data name="BatchRename_SelectedPhotoMetadata" xml:space="preserve"><value>Selected metadata (top to bottom)</value></data>
     <data name="BatchRename_AddPhotoMetadataItem" xml:space="preserve"><value>Add metadata</value></data>
-    <data name="Label_Contact" xml:space="preserve">
-        <value>Contact</value>
-    </data>
     <data name="Settings_MarkdownViewer" xml:space="preserve">
         <value>Markdown Viewer</value>
     </data>
@@ -2699,5 +2641,72 @@ Please try again later.</value>
     <data name="PortableExecutable_RunAsAdministrator" xml:space="preserve"><value>Run as administrator</value></data>
     <data name="Settings_Label_RunMode" xml:space="preserve">
         <value>Run Mode</value>
+    </data>
+    <data name="Dialog_Title_FilediniLicenseStatus" xml:space="preserve">
+        <value>Filedini License Status</value>
+    </data>
+    <data name="Message_TrialPeriodHasExpired" xml:space="preserve">
+        <value>Trial period has expired.</value>
+    </data>
+    <data name="Message_RestrictedModeFeatureUnavailable" xml:space="preserve">
+        <value>This feature cannot be used while Restricted Mode is active.</value>
+    </data>
+    <data name="Label_RestrictedMode" xml:space="preserve">
+        <value>Restricted Mode</value>
+    </data>
+    <data name="UI_Trial_PurchaseLicense" xml:space="preserve">
+        <value>Purchase License...</value>
+    </data>
+    <data name="UI_Trial_EnterLicenseKey" xml:space="preserve">
+        <value>Enter License Key...</value>
+    </data>
+    <data name="UI_Trial_ContinueInRestrictedMode" xml:space="preserve">
+        <value>Continue in Restricted Mode</value>
+    </data>
+    <data name="TrialStart_Title" xml:space="preserve">
+        <value>Try Filedini</value>
+    </data>
+    <data name="TrialStart_Message" xml:space="preserve">
+        <value>During the trial, you can use all features without restrictions for 10 minutes after startup.
+If you enjoy Filedini, please consider purchasing a license.</value>
+    </data>
+    <data name="TrialStart_StartTrial" xml:space="preserve">
+        <value>Start Trial</value>
+    </data>
+    <data name="Message_EnterLicenseKey" xml:space="preserve">
+        <value>Enter License Key</value>
+    </data>
+    <data name="License_LicenseKey" xml:space="preserve"><value>License Key</value></data>
+    <data name="License_Activate" xml:space="preserve"><value>Activate</value></data>
+    <data name="License_ActivationSucceeded" xml:space="preserve"><value>License activated successfully.</value></data>
+    <data name="License_ActivatedLicenses" xml:space="preserve"><value>Activated licenses</value></data>
+    <data name="License_StatusGranted" xml:space="preserve"><value>Active</value></data>
+    <data name="License_StatusInvalid" xml:space="preserve"><value>Invalid</value></data>
+    <data name="License_IssuedAt" xml:space="preserve"><value>License issued</value></data>
+    <data name="License_LastChecked" xml:space="preserve"><value>Last checked</value></data>
+    <data name="License_Refresh" xml:space="preserve"><value>Refresh license information</value></data>
+    <data name="License_DeactivateThisPc" xml:space="preserve"><value>Deactivate</value></data>
+    <data name="License_ManagePurchases" xml:space="preserve"><value>Manage Purchases...</value></data>
+    <data name="License_ErrorLocalStateUnavailable" xml:space="preserve"><value>This PC's license information could not be verified. Activate again with your license key.</value></data>
+    <data name="License_ErrorConfigurationRequired" xml:space="preserve"><value>Polar license settings have not been configured yet.</value></data>
+    <data name="License_ErrorNoActivation" xml:space="preserve"><value>This PC has no activation information.</value></data>
+    <data name="License_ErrorOfflineGracePeriod" xml:space="preserve"><value>Could not connect to the license server. You can continue using the app for 14 days after the last successful check.</value></data>
+    <data name="License_ErrorOnlineValidationRequired" xml:space="preserve"><value>Could not verify your license online. Check your internet connection.</value></data>
+    <data name="License_ErrorLicenseKeyNotFound" xml:space="preserve"><value>The license key could not be found.</value></data>
+    <data name="License_ErrorLicenseNotAuthorized" xml:space="preserve"><value>This license cannot be activated.</value></data>
+    <data name="License_ErrorActivationInvalid" xml:space="preserve"><value>This PC activation could not be verified. Remove this activation, then activate the license again.</value></data>
+    <data name="License_ErrorActivationLimitReached" xml:space="preserve"><value>The activation limit has been reached. Deactivate a device from License Manager or the Customer Portal, then try again.</value></data>
+    <data name="License_ErrorTooManyRequests" xml:space="preserve"><value>The license server is busy. Please try again shortly.</value></data>
+    <data name="License_ErrorTimeout" xml:space="preserve"><value>The connection to the license server timed out.</value></data>
+    <data name="License_ErrorNetwork" xml:space="preserve"><value>Check your internet connection and try again.</value></data>
+    <data name="License_ErrorUnavailableInBeta" xml:space="preserve"><value>License activation is unavailable in the beta build.</value></data>
+    <data name="License_ErrorLicenseKeyFormat" xml:space="preserve"><value>Enter a valid license key.</value></data>
+    <data name="License_ErrorProductUnknown" xml:space="preserve"><value>This license product is not supported by this version of Filedini.</value></data>
+    <data name="License_ErrorProductAlreadyActivated" xml:space="preserve"><value>A license for this product is already activated on this PC. Deactivate it before adding another key.</value></data>
+    <data name="License_AlreadyPurchased" xml:space="preserve">
+        <value>Already purchased? No need to buy again. Find your license key in "Manage Purchases".</value>
+    </data>
+    <data name="Label_OpenWithDefaultApp" xml:space="preserve">
+        <value>Open with Default App</value>
     </data>
 </root>

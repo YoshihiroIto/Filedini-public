@@ -87,7 +87,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Add random text.
+        ///   Looks up a localized string similar to Add random value.
         /// </summary>
         public static string BatchRename_AddRandomValue {
             get {
@@ -312,7 +312,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The new name duplicates another item..
+        ///   Looks up a localized string similar to The new name conflicts with another item..
         /// </summary>
         public static string BatchRename_ErrorDuplicateName {
             get {
@@ -474,7 +474,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Edit the names after the tab, then save. The preview updates automatically..
+        ///   Looks up a localized string similar to Edit the names after the tab character, then save. The preview updates automatically..
         /// </summary>
         public static string BatchRename_ExternalEditorDescription {
             get {
@@ -528,7 +528,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to No selected item has a name change..
+        ///   Looks up a localized string similar to None of the selected items would be renamed..
         /// </summary>
         public static string BatchRename_NoChanges {
             get {
@@ -1086,7 +1086,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Capitalize Every Word.
+        ///   Looks up a localized string similar to Capitalize every word.
         /// </summary>
         public static string BatchRename_TextCaseWords {
             get {
@@ -1275,7 +1275,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ZStandard.
+        ///   Looks up a localized string similar to Zstandard.
         /// </summary>
         public static string DetectableFileFormats_TarZstd {
             get {
@@ -1347,7 +1347,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to _Decompress.
+        ///   Looks up a localized string similar to _Extract.
         /// </summary>
         public static string Dialog_Decompress {
             get {
@@ -1374,7 +1374,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to _Move to Selected Item.
+        ///   Looks up a localized string similar to _Go to Selected Item.
         /// </summary>
         public static string Dialog_MoveToSelectedItem {
             get {
@@ -1437,7 +1437,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to _To Trash Can.
+        ///   Looks up a localized string similar to _To Trash.
         /// </summary>
         public static string Dialog_SendToTrashCan {
             get {
@@ -1473,6 +1473,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Filedini License Status.
+        /// </summary>
+        public static string Dialog_Title_FilediniLicenseStatus {
+            get {
+                return ResourceManager.GetString("Dialog_Title_FilediniLicenseStatus", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Select Font.
         /// </summary>
         public static string Dialog_Title_SelectFont {
@@ -1500,7 +1509,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to We’d love to hear your thoughts
+        ///   Looks up a localized string similar to We’d love to hear your thoughts.
         ///Even a short message is fine.
         ///Feel free to share feedback, ideas, or anything you found confusing..
         /// </summary>
@@ -1550,7 +1559,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Input Password.
+        ///   Looks up a localized string similar to Enter Password.
         /// </summary>
         public static string DialogTitle_InputPassword {
             get {
@@ -1568,7 +1577,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Recently Used Folder.
+        ///   Looks up a localized string similar to Recent Folders.
         /// </summary>
         public static string DialogTitle_RecentlyUsedFolder {
             get {
@@ -1591,15 +1600,6 @@ namespace Filedini.Localization {
         public static string DialogTitle_SendFeedback {
             get {
                 return ResourceManager.GetString("DialogTitle_SendFeedback", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Trial.
-        /// </summary>
-        public static string DialogTitle_Trial {
-            get {
-                return ResourceManager.GetString("DialogTitle_Trial", resourceCulture);
             }
         }
         
@@ -1632,7 +1632,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Read Only.
+        ///   Looks up a localized string similar to Read-only.
         /// </summary>
         public static string FileAttributes_ReadOnly {
             get {
@@ -1668,7 +1668,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Open in External App1.
+        ///   Looks up a localized string similar to Open in External App 1.
         /// </summary>
         public static string FileDoubleClickBehaviors_OpenInExternalApp1 {
             get {
@@ -1677,7 +1677,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Open in External App2.
+        ///   Looks up a localized string similar to Open in External App 2.
         /// </summary>
         public static string FileDoubleClickBehaviors_OpenInExternalApp2 {
             get {
@@ -1722,7 +1722,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to AI Script Generate (WIP)....
+        ///   Looks up a localized string similar to Generate AI Script (WIP)....
         /// </summary>
         public static string FileMenu_AiScriptGenerate {
             get {
@@ -1812,7 +1812,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Close previous tabs.
+        ///   Looks up a localized string similar to Close Previous Tabs.
         /// </summary>
         public static string FileMenu_CloseTabsToTheLeft {
             get {
@@ -1821,7 +1821,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Close following tabs.
+        ///   Looks up a localized string similar to Close Following Tabs.
         /// </summary>
         public static string FileMenu_CloseTabsToTheRight {
             get {
@@ -1848,7 +1848,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Compress Archive....
+        ///   Looks up a localized string similar to Compress to Archive....
         /// </summary>
         public static string FileMenu_CompressArchive {
             get {
@@ -1947,7 +1947,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Create Tab from Recently Used Folder.
+        ///   Looks up a localized string similar to Create Tab from Recent Folder....
         /// </summary>
         public static string FileMenu_CreateTabFromRecentlyUsedFolder {
             get {
@@ -1983,7 +1983,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Decompress Archive....
+        ///   Looks up a localized string similar to Extract Archive....
         /// </summary>
         public static string FileMenu_DecompressArchive {
             get {
@@ -2028,7 +2028,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Empty Trash Can....
+        ///   Looks up a localized string similar to Empty Trash....
         /// </summary>
         public static string FileMenu_EmptyTrashCan {
             get {
@@ -2325,7 +2325,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Load  Window Size.
+        ///   Looks up a localized string similar to Restore Window Size.
         /// </summary>
         public static string FileMenu_LoadFolderWindowLayout {
             get {
@@ -2379,7 +2379,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Search Next.
+        ///   Looks up a localized string similar to Find Next.
         /// </summary>
         public static string FileMenu_MoveCursorSearchNext {
             get {
@@ -2388,7 +2388,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Search Previous.
+        ///   Looks up a localized string similar to Find Previous.
         /// </summary>
         public static string FileMenu_MoveCursorSearchPrevious {
             get {
@@ -2415,7 +2415,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move tab forward.
+        ///   Looks up a localized string similar to Move Tab Forward.
         /// </summary>
         public static string FileMenu_MoveTabLeft {
             get {
@@ -2424,7 +2424,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move tab backward.
+        ///   Looks up a localized string similar to Move Tab Backward.
         /// </summary>
         public static string FileMenu_MoveTabRight {
             get {
@@ -2442,7 +2442,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Bottom.
+        ///   Looks up a localized string similar to Go to Last Item.
         /// </summary>
         public static string FileMenu_MoveToBottom {
             get {
@@ -2451,7 +2451,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to File Top.
+        ///   Looks up a localized string similar to Go to First File.
         /// </summary>
         public static string FileMenu_MoveToFileTop {
             get {
@@ -2460,7 +2460,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Folder....
+        ///   Looks up a localized string similar to Go to Folder....
         /// </summary>
         public static string FileMenu_MoveToFolder {
             get {
@@ -2469,7 +2469,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Folder Top.
+        ///   Looks up a localized string similar to Go to First Folder.
         /// </summary>
         public static string FileMenu_MoveToFolderTop {
             get {
@@ -2478,7 +2478,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Network....
+        ///   Looks up a localized string similar to Go to Network....
         /// </summary>
         public static string FileMenu_MoveToNetwork {
             get {
@@ -2496,7 +2496,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Parent Folder.
+        ///   Looks up a localized string similar to Go to Parent Folder.
         /// </summary>
         public static string FileMenu_MoveToParentFolder {
             get {
@@ -2523,7 +2523,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Recently used folder....
+        ///   Looks up a localized string similar to Go to Recent Folder....
         /// </summary>
         public static string FileMenu_MoveToRecentlyUsedFolder {
             get {
@@ -2532,7 +2532,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Root Folder.
+        ///   Looks up a localized string similar to Go to Root Folder.
         /// </summary>
         public static string FileMenu_MoveToRootFolder {
             get {
@@ -2541,7 +2541,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Scripts Folder.
+        ///   Looks up a localized string similar to Go to Scripts Folder.
         /// </summary>
         public static string FileMenu_MoveToScriptsFolder {
             get {
@@ -2550,7 +2550,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Tab.
+        ///   Looks up a localized string similar to Switch to Tab.
         /// </summary>
         public static string FileMenu_MoveToTab {
             get {
@@ -2559,7 +2559,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Tab 0.
+        ///   Looks up a localized string similar to Switch to Tab 0.
         /// </summary>
         public static string FileMenu_MoveToTab0 {
             get {
@@ -2568,7 +2568,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Tab 1.
+        ///   Looks up a localized string similar to Switch to Tab 1.
         /// </summary>
         public static string FileMenu_MoveToTab1 {
             get {
@@ -2577,7 +2577,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Tab 2.
+        ///   Looks up a localized string similar to Switch to Tab 2.
         /// </summary>
         public static string FileMenu_MoveToTab2 {
             get {
@@ -2586,7 +2586,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Tab 3.
+        ///   Looks up a localized string similar to Switch to Tab 3.
         /// </summary>
         public static string FileMenu_MoveToTab3 {
             get {
@@ -2595,7 +2595,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Tab 4.
+        ///   Looks up a localized string similar to Switch to Tab 4.
         /// </summary>
         public static string FileMenu_MoveToTab4 {
             get {
@@ -2604,7 +2604,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Tab 5.
+        ///   Looks up a localized string similar to Switch to Tab 5.
         /// </summary>
         public static string FileMenu_MoveToTab5 {
             get {
@@ -2613,7 +2613,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Tab 6.
+        ///   Looks up a localized string similar to Switch to Tab 6.
         /// </summary>
         public static string FileMenu_MoveToTab6 {
             get {
@@ -2622,7 +2622,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Tab 7.
+        ///   Looks up a localized string similar to Switch to Tab 7.
         /// </summary>
         public static string FileMenu_MoveToTab7 {
             get {
@@ -2631,7 +2631,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Tab 8.
+        ///   Looks up a localized string similar to Switch to Tab 8.
         /// </summary>
         public static string FileMenu_MoveToTab8 {
             get {
@@ -2640,7 +2640,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Tab 9.
+        ///   Looks up a localized string similar to Switch to Tab 9.
         /// </summary>
         public static string FileMenu_MoveToTab9 {
             get {
@@ -2649,7 +2649,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Trash Can.
+        ///   Looks up a localized string similar to Move to Trash.
         /// </summary>
         public static string FileMenu_MoveToTrashCan {
             get {
@@ -2658,7 +2658,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Volume.
+        ///   Looks up a localized string similar to Go to Volume.
         /// </summary>
         public static string FileMenu_MoveToVolume {
             get {
@@ -2667,7 +2667,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Volume 0.
+        ///   Looks up a localized string similar to Go to Volume 0.
         /// </summary>
         public static string FileMenu_MoveToVolume0 {
             get {
@@ -2676,7 +2676,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Volume 1.
+        ///   Looks up a localized string similar to Go to Volume 1.
         /// </summary>
         public static string FileMenu_MoveToVolume1 {
             get {
@@ -2685,7 +2685,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Volume 2.
+        ///   Looks up a localized string similar to Go to Volume 2.
         /// </summary>
         public static string FileMenu_MoveToVolume2 {
             get {
@@ -2694,7 +2694,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Volume 3.
+        ///   Looks up a localized string similar to Go to Volume 3.
         /// </summary>
         public static string FileMenu_MoveToVolume3 {
             get {
@@ -2703,7 +2703,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Volume 4.
+        ///   Looks up a localized string similar to Go to Volume 4.
         /// </summary>
         public static string FileMenu_MoveToVolume4 {
             get {
@@ -2712,7 +2712,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Volume 5.
+        ///   Looks up a localized string similar to Go to Volume 5.
         /// </summary>
         public static string FileMenu_MoveToVolume5 {
             get {
@@ -2721,7 +2721,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Volume 6.
+        ///   Looks up a localized string similar to Go to Volume 6.
         /// </summary>
         public static string FileMenu_MoveToVolume6 {
             get {
@@ -2730,7 +2730,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Volume 7.
+        ///   Looks up a localized string similar to Go to Volume 7.
         /// </summary>
         public static string FileMenu_MoveToVolume7 {
             get {
@@ -2739,7 +2739,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Volume 8.
+        ///   Looks up a localized string similar to Go to Volume 8.
         /// </summary>
         public static string FileMenu_MoveToVolume8 {
             get {
@@ -2748,7 +2748,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move to Volume 9.
+        ///   Looks up a localized string similar to Go to Volume 9.
         /// </summary>
         public static string FileMenu_MoveToVolume9 {
             get {
@@ -2901,7 +2901,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Open Hamburger Menu.
+        ///   Looks up a localized string similar to Open Main Menu.
         /// </summary>
         public static string FileMenu_OpenHamburgerMenu {
             get {
@@ -2919,7 +2919,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Open in External App1.
+        ///   Looks up a localized string similar to Open in External App 1.
         /// </summary>
         public static string FileMenu_OpenInExternalApp1 {
             get {
@@ -2928,7 +2928,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Open in External App2.
+        ///   Looks up a localized string similar to Open in External App 2.
         /// </summary>
         public static string FileMenu_OpenInExternalApp2 {
             get {
@@ -2973,7 +2973,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Open Recently Used Folder as Tab.
+        ///   Looks up a localized string similar to Open Recent Folder as Tab....
         /// </summary>
         public static string FileMenu_OpenRecentlyUsedFolderAsTab {
             get {
@@ -2982,7 +2982,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Open Trash Can.
+        ///   Looks up a localized string similar to Open Trash.
         /// </summary>
         public static string FileMenu_OpenTrashCan {
             get {
@@ -3153,11 +3153,20 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Next Folder Panel.
+        ///   Looks up a localized string similar to Next Folder Pane.
         /// </summary>
         public static string FileMenu_SelectNextFolderPane {
             get {
                 return ResourceManager.GetString("FileMenu_SelectNextFolderPane", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Next Item.
+        /// </summary>
+        public static string FileMenu_SelectNextItem {
+            get {
+                return ResourceManager.GetString("FileMenu_SelectNextItem", resourceCulture);
             }
         }
         
@@ -3171,11 +3180,29 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Previous Folder Panel.
+        ///   Looks up a localized string similar to Previous Folder Pane.
         /// </summary>
         public static string FileMenu_SelectPreviousFolderPane {
             get {
                 return ResourceManager.GetString("FileMenu_SelectPreviousFolderPane", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Previous Item.
+        /// </summary>
+        public static string FileMenu_SelectPreviousItem {
+            get {
+                return ResourceManager.GetString("FileMenu_SelectPreviousItem", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Navigation is unavailable while preview is pinned.
+        /// </summary>
+        public static string Message_PreviewNavigationPinned {
+            get {
+                return ResourceManager.GetString("Message_PreviewNavigationPinned", resourceCulture);
             }
         }
         
@@ -3297,7 +3324,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Show Property.
+        ///   Looks up a localized string similar to Properties.
         /// </summary>
         public static string FileMenu_ShowProperty {
             get {
@@ -3423,7 +3450,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Timestamp / Ascending.
+        ///   Looks up a localized string similar to Date Modified / Ascending.
         /// </summary>
         public static string FileMenu_SortItemsTimestampAscending {
             get {
@@ -3432,7 +3459,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Timestamp / Descending.
+        ///   Looks up a localized string similar to Date Modified / Descending.
         /// </summary>
         public static string FileMenu_SortItemsTimestampDescending {
             get {
@@ -3468,7 +3495,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Details View.
+        ///   Looks up a localized string similar to Toggle Details Pane.
         /// </summary>
         public static string FileMenu_SwitchDetailsPane {
             get {
@@ -3486,7 +3513,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Switch Selection.
+        ///   Looks up a localized string similar to Toggle Selection.
         /// </summary>
         public static string FileMenu_SwitchItemSelection {
             get {
@@ -3513,7 +3540,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Tool View.
+        ///   Looks up a localized string similar to Toggle Tool Pane.
         /// </summary>
         public static string FileMenu_SwitchToolPane {
             get {
@@ -3565,6 +3592,15 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("FileMenu_TogglePinTab", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Pin Preview / Unpin Preview.
+        /// </summary>
+        public static string FileMenu_TogglePinPreview {
+            get {
+                return ResourceManager.GetString("FileMenu_TogglePinPreview", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to Toggle Split Folder Pane.
@@ -3594,7 +3630,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Unselect All Items.
+        ///   Looks up a localized string similar to Deselect All Items.
         /// </summary>
         public static string FileMenu_UnselectAllItems {
             get {
@@ -3657,7 +3693,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move Folder.
+        ///   Looks up a localized string similar to Navigate to Folder.
         /// </summary>
         public static string FolderOpenInAssociatedAppBehaviors_MoveFolder {
             get {
@@ -3756,7 +3792,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Others.
+        ///   Looks up a localized string similar to Other.
         /// </summary>
         public static string FolderViewer_Others {
             get {
@@ -3919,7 +3955,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Uhknown.
+        ///   Looks up a localized string similar to Unknown.
         /// </summary>
         public static string ItemKinds_Unknown {
             get {
@@ -3982,7 +4018,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Last Write.
+        ///   Looks up a localized string similar to Age.
         /// </summary>
         public static string ItemProperty_Metadata_LastWrite {
             get {
@@ -4140,15 +4176,6 @@ namespace Filedini.Localization {
         public static string Label_Clear {
             get {
                 return ResourceManager.GetString("Label_Clear", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Contact.
-        /// </summary>
-        public static string Label_Contact {
-            get {
-                return ResourceManager.GetString("Label_Contact", resourceCulture);
             }
         }
         
@@ -4432,6 +4459,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Open with Default App.
+        /// </summary>
+        public static string Label_OpenWithDefaultApp {
+            get {
+                return ResourceManager.GetString("Label_OpenWithDefaultApp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Output Folder.
         /// </summary>
         public static string Label_OutputFolder {
@@ -4594,6 +4630,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Restricted Mode.
+        /// </summary>
+        public static string Label_RestrictedMode {
+            get {
+                return ResourceManager.GetString("Label_RestrictedMode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Script File.
         /// </summary>
         public static string Label_ScriptFilePath {
@@ -4635,15 +4680,6 @@ namespace Filedini.Localization {
         public static string Label_SignIn {
             get {
                 return ResourceManager.GetString("Label_SignIn", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Sign in with Google.
-        /// </summary>
-        public static string Label_SignInWithGoogle {
-            get {
-                return ResourceManager.GetString("Label_SignInWithGoogle", resourceCulture);
             }
         }
         
@@ -4729,47 +4765,254 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cancel Subscription.
+        ///   Looks up a localized string similar to Activate.
         /// </summary>
-        public static string License_CancelSubscription {
+        public static string License_Activate {
             get {
-                return ResourceManager.GetString("License_CancelSubscription", resourceCulture);
+                return ResourceManager.GetString("License_Activate", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Billing Information.
+        ///   Looks up a localized string similar to Activated licenses.
         /// </summary>
-        public static string License_ChangeBillingInformation {
+        public static string License_ActivatedLicenses {
             get {
-                return ResourceManager.GetString("License_ChangeBillingInformation", resourceCulture);
+                return ResourceManager.GetString("License_ActivatedLicenses", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Change or Add Payment Method.
+        ///   Looks up a localized string similar to License activated successfully..
         /// </summary>
-        public static string License_ChangeOrAddPaymentMethod {
+        public static string License_ActivationSucceeded {
             get {
-                return ResourceManager.GetString("License_ChangeOrAddPaymentMethod", resourceCulture);
+                return ResourceManager.GetString("License_ActivationSucceeded", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Invoice History.
+        ///   Looks up a localized string similar to Already purchased? No need to buy again. Find your license key in &quot;Manage Purchases&quot;..
         /// </summary>
-        public static string License_InvoiceHistory {
+        public static string License_AlreadyPurchased {
             get {
-                return ResourceManager.GetString("License_InvoiceHistory", resourceCulture);
+                return ResourceManager.GetString("License_AlreadyPurchased", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Purchase Subscription.
+        ///   Looks up a localized string similar to Deactivate.
         /// </summary>
-        public static string License_PurchaseSubscription {
+        public static string License_DeactivateThisPc {
             get {
-                return ResourceManager.GetString("License_PurchaseSubscription", resourceCulture);
+                return ResourceManager.GetString("License_DeactivateThisPc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This PC activation could not be verified. Remove this activation, then activate the license again..
+        /// </summary>
+        public static string License_ErrorActivationInvalid {
+            get {
+                return ResourceManager.GetString("License_ErrorActivationInvalid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The activation limit has been reached. Deactivate a device from License Manager or the Customer Portal, then try again..
+        /// </summary>
+        public static string License_ErrorActivationLimitReached {
+            get {
+                return ResourceManager.GetString("License_ErrorActivationLimitReached", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Polar license settings have not been configured yet..
+        /// </summary>
+        public static string License_ErrorConfigurationRequired {
+            get {
+                return ResourceManager.GetString("License_ErrorConfigurationRequired", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter a valid license key..
+        /// </summary>
+        public static string License_ErrorLicenseKeyFormat {
+            get {
+                return ResourceManager.GetString("License_ErrorLicenseKeyFormat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The license key could not be found..
+        /// </summary>
+        public static string License_ErrorLicenseKeyNotFound {
+            get {
+                return ResourceManager.GetString("License_ErrorLicenseKeyNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This license cannot be activated..
+        /// </summary>
+        public static string License_ErrorLicenseNotAuthorized {
+            get {
+                return ResourceManager.GetString("License_ErrorLicenseNotAuthorized", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This PC&apos;s license information could not be verified. Activate again with your license key..
+        /// </summary>
+        public static string License_ErrorLocalStateUnavailable {
+            get {
+                return ResourceManager.GetString("License_ErrorLocalStateUnavailable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Check your internet connection and try again..
+        /// </summary>
+        public static string License_ErrorNetwork {
+            get {
+                return ResourceManager.GetString("License_ErrorNetwork", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This PC has no activation information..
+        /// </summary>
+        public static string License_ErrorNoActivation {
+            get {
+                return ResourceManager.GetString("License_ErrorNoActivation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Could not connect to the license server. You can continue using the app for 14 days after the last successful check..
+        /// </summary>
+        public static string License_ErrorOfflineGracePeriod {
+            get {
+                return ResourceManager.GetString("License_ErrorOfflineGracePeriod", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Could not verify your license online. Check your internet connection..
+        /// </summary>
+        public static string License_ErrorOnlineValidationRequired {
+            get {
+                return ResourceManager.GetString("License_ErrorOnlineValidationRequired", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to A license for this product is already activated on this PC. Deactivate it before adding another key..
+        /// </summary>
+        public static string License_ErrorProductAlreadyActivated {
+            get {
+                return ResourceManager.GetString("License_ErrorProductAlreadyActivated", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This license product is not supported by this version of Filedini..
+        /// </summary>
+        public static string License_ErrorProductUnknown {
+            get {
+                return ResourceManager.GetString("License_ErrorProductUnknown", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The connection to the license server timed out..
+        /// </summary>
+        public static string License_ErrorTimeout {
+            get {
+                return ResourceManager.GetString("License_ErrorTimeout", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The license server is busy. Please try again shortly..
+        /// </summary>
+        public static string License_ErrorTooManyRequests {
+            get {
+                return ResourceManager.GetString("License_ErrorTooManyRequests", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to License activation is unavailable in the beta build..
+        /// </summary>
+        public static string License_ErrorUnavailableInBeta {
+            get {
+                return ResourceManager.GetString("License_ErrorUnavailableInBeta", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to License issued.
+        /// </summary>
+        public static string License_IssuedAt {
+            get {
+                return ResourceManager.GetString("License_IssuedAt", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Last checked.
+        /// </summary>
+        public static string License_LastChecked {
+            get {
+                return ResourceManager.GetString("License_LastChecked", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to License Key.
+        /// </summary>
+        public static string License_LicenseKey {
+            get {
+                return ResourceManager.GetString("License_LicenseKey", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Manage Purchases....
+        /// </summary>
+        public static string License_ManagePurchases {
+            get {
+                return ResourceManager.GetString("License_ManagePurchases", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Refresh license information.
+        /// </summary>
+        public static string License_Refresh {
+            get {
+                return ResourceManager.GetString("License_Refresh", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Active.
+        /// </summary>
+        public static string License_StatusGranted {
+            get {
+                return ResourceManager.GetString("License_StatusGranted", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Invalid.
+        /// </summary>
+        public static string License_StatusInvalid {
+            get {
+                return ResourceManager.GetString("License_StatusInvalid", resourceCulture);
             }
         }
         
@@ -4823,7 +5066,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Already Exists.
+        ///   Looks up a localized string similar to An item with the same name already exists..
         /// </summary>
         public static string Message_CanModifyItemResults_AlreadyExists {
             get {
@@ -4832,7 +5075,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Empty Name.
+        ///   Looks up a localized string similar to The name cannot be empty..
         /// </summary>
         public static string Message_CanModifyItemResults_EmptyName {
             get {
@@ -4841,7 +5084,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The following characters cannot be used in the name
+        ///   Looks up a localized string similar to The name cannot contain the following characters:
         ///{0}.
         /// </summary>
         public static string Message_CanModifyItemResults_InvalidCharacterInName {
@@ -4851,7 +5094,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Parent folder does not Exist.
+        ///   Looks up a localized string similar to The parent folder does not exist..
         /// </summary>
         public static string Message_CanModifyItemResults_ParentDoesNotExist {
             get {
@@ -4860,7 +5103,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Parent folder is not Writable.
+        ///   Looks up a localized string similar to The parent folder is not writable..
         /// </summary>
         public static string Message_CanModifyItemResults_ParentIsNotWritable {
             get {
@@ -4869,7 +5112,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to This name is reserved and cannot be used.
+        ///   Looks up a localized string similar to This name is reserved and cannot be used..
         /// </summary>
         public static string Message_CanModifyItemResults_ReservedName {
             get {
@@ -4878,7 +5121,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Names cannot end with a period.
+        ///   Looks up a localized string similar to Names cannot end with a period..
         /// </summary>
         public static string Message_CanModifyItemResults_TrailingPeriod {
             get {
@@ -4887,16 +5130,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cannot Connect Google.
-        /// </summary>
-        public static string Message_CannotConnectGoogle {
-            get {
-                return ResourceManager.GetString("Message_CannotConnectGoogle", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Cannot Start Browser.
+        ///   Looks up a localized string similar to Could not open the browser..
         /// </summary>
         public static string Message_CannotStartBrowser {
             get {
@@ -4905,7 +5139,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Checking for new version.
+        ///   Looks up a localized string similar to Checking for updates....
         /// </summary>
         public static string Message_CheckingForNewVersion {
             get {
@@ -4914,7 +5148,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Compresses {0:plural:1 file|{:N0} files}..
+        ///   Looks up a localized string similar to Compress {0:plural:1 file|{:N0} files}..
         /// </summary>
         public static string Message_CompressFiles {
             get {
@@ -4923,7 +5157,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Compresses {0:plural:1 folder|{:N0} folders}..
+        ///   Looks up a localized string similar to Compress {0:plural:1 folder|{:N0} folders}..
         /// </summary>
         public static string Message_CompressFolders {
             get {
@@ -4932,7 +5166,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Compresses {0:plural:1 folder|{:N0} folders}, {1:plural:1 file|{:N0} files}..
+        ///   Looks up a localized string similar to Compress {0:plural:1 folder|{:N0} folders}, {1:plural:1 file|{:N0} files}..
         /// </summary>
         public static string Message_CompressFoldersAndFiles {
             get {
@@ -4941,7 +5175,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Compress `{0}&apos;..
+        ///   Looks up a localized string similar to Compress &quot;{0}&quot;..
         /// </summary>
         public static string Message_CompressItem {
             get {
@@ -4961,7 +5195,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Script &apos;{0}&apos; already exists. Do you want to overwrite it?.
+        ///   Looks up a localized string similar to Script &quot;{0}&quot; already exists. Do you want to overwrite it?.
         /// </summary>
         public static string Message_ConfirmOverwriteScript {
             get {
@@ -4970,7 +5204,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Empty the trash can. This action cannot be undone.
+        ///   Looks up a localized string similar to Empty the trash. This action cannot be undone.
         ///Do you want to proceed?.
         /// </summary>
         public static string Message_ConformationEmptyTrashCan {
@@ -5040,7 +5274,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Copy `{0}&apos;..
+        ///   Looks up a localized string similar to Copy &quot;{0}&quot;..
         /// </summary>
         public static string Message_CopyItem {
             get {
@@ -5049,7 +5283,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Automatic _naming.
+        ///   Looks up a localized string similar to Rename _automatically.
         /// </summary>
         public static string Message_CopyItemMethod_AutoRenameDestination {
             get {
@@ -5058,7 +5292,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to _Automatic naming.
+        ///   Looks up a localized string similar to _Rename automatically.
         /// </summary>
         public static string Message_CopyItemMethod_AutoRenameSource {
             get {
@@ -5076,7 +5310,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Rename and {0} _existing {1}.
+        ///   Looks up a localized string similar to Rename existing {1} and {0}.
         /// </summary>
         public static string Message_CopyItemMethod_RenameDestination {
             get {
@@ -5085,7 +5319,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to _Rename and {0}.
+        ///   Looks up a localized string similar to _Rename source and {0}.
         /// </summary>
         public static string Message_CopyItemMethod_RenameSource {
             get {
@@ -5094,7 +5328,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {0} when _timestamp is new.
+        ///   Looks up a localized string similar to {0} if the source is _newer.
         /// </summary>
         public static string Message_CopyItemMethod_WhenTimestampIsNew {
             get {
@@ -5103,7 +5337,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Please indicate the operation performed before the error.
+        ///   Looks up a localized string similar to Please describe what you were doing before the crash..
         /// </summary>
         public static string Message_CrashReporter_Comment {
             get {
@@ -5139,7 +5373,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Failed to send crash log.
+        ///   Looks up a localized string similar to Failed to send crash report.
         ///Please try again later..
         /// </summary>
         public static string Message_CrashReporter_ErrorSend {
@@ -5149,7 +5383,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ✅Log Sent.
+        ///   Looks up a localized string similar to ✅ Crash report sent.
         /// </summary>
         public static string Message_CrashReporter_LogSent {
             get {
@@ -5176,7 +5410,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to If the mail app does not start, we would appreciate it if you could send it manually..
+        ///   Looks up a localized string similar to If your mail app does not open, please send the crash report manually..
         /// </summary>
         public static string Message_CrashReporter_Message2 {
             get {
@@ -5212,7 +5446,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Start Mail App....
+        ///   Looks up a localized string similar to Open Mail App....
         /// </summary>
         public static string Message_CrashReporter_StartMailApp {
             get {
@@ -5257,7 +5491,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Currently using the latest version..
+        ///   Looks up a localized string similar to You&apos;re using the latest version..
         /// </summary>
         public static string Message_CurrentlyUsingLatestVersion {
             get {
@@ -5275,7 +5509,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Decompress `{0}&apos;..
+        ///   Looks up a localized string similar to Extract &quot;{0}&quot;..
         /// </summary>
         public static string Message_DecompressItem {
             get {
@@ -5320,7 +5554,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Delete `{0}&apos;..
+        ///   Looks up a localized string similar to Delete &quot;{0}&quot;..
         /// </summary>
         public static string Message_DeleteItem {
             get {
@@ -5356,7 +5590,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Dragging `{0}&apos;.
+        ///   Looks up a localized string similar to Dragging &quot;{0}&quot;.
         /// </summary>
         public static string Message_DraggingItem {
             get {
@@ -5365,7 +5599,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Emptied the trash can..
+        ///   Looks up a localized string similar to Trash emptied..
         /// </summary>
         public static string Message_EmptiedTrashCan {
             get {
@@ -5385,11 +5619,20 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Enter any key combination..
+        ///   Looks up a localized string similar to Press a key combination..
         /// </summary>
         public static string Message_EnterAnyKeyCombination {
             get {
                 return ResourceManager.GetString("Message_EnterAnyKeyCombination", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter License Key.
+        /// </summary>
+        public static string Message_EnterLicenseKey {
+            get {
+                return ResourceManager.GetString("Message_EnterLicenseKey", resourceCulture);
             }
         }
         
@@ -5486,7 +5729,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Failed to execute associated app..
+        ///   Looks up a localized string similar to Could not open the associated app..
         /// </summary>
         public static string Message_FailedToExecuteAssociatedApp {
             get {
@@ -5497,8 +5740,8 @@ namespace Filedini.Localization {
         /// <summary>
         ///   Looks up a localized string similar to {0}
         ///
-        ///Failed to execute external app.
-        ///The external app is not registered or does not exist..
+        ///Could not launch the external app.
+        ///Check the app path and settings..
         /// </summary>
         public static string Message_FailedToExecuteExternalApp {
             get {
@@ -5525,7 +5768,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Failed to Move item..
+        ///   Looks up a localized string similar to Failed to move the item..
         /// </summary>
         public static string Message_FailedToMove {
             get {
@@ -5534,7 +5777,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Failed to Rename item..
+        ///   Looks up a localized string similar to Failed to rename the item..
         /// </summary>
         public static string Message_FailedToRename {
             get {
@@ -5543,14 +5786,14 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Failed to send To trash can..
+        ///   Looks up a localized string similar to Failed to move the item to the trash..
         /// </summary>
         public static string Message_FailedToSendToTrashCan {
             get {
                 return ResourceManager.GetString("Message_FailedToSendToTrashCan", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Failed to change the attributes..
         /// </summary>
@@ -5559,7 +5802,7 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Message_FailedToSetAttributes", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Failed to change the timestamp..
         /// </summary>
@@ -5588,7 +5831,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Folder does not Exist
+        ///   Looks up a localized string similar to Folder does not exist.
         ///{0}.
         /// </summary>
         public static string Message_FolderDoesNotExist {
@@ -5647,8 +5890,8 @@ namespace Filedini.Localization {
         /// <summary>
         ///   Looks up a localized string similar to Python is not installed.
         ///
-        ///Python is required to use the script. You can install it via Script Settings. 
-        ///Would you like to open the settings?
+        ///Python is required to run scripts. You can install it from Script Settings. 
+        ///Would you like to open Script Settings?
         ///.
         /// </summary>
         public static string Message_MissingPython {
@@ -5667,7 +5910,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Moved to Trash Can successfully..
+        ///   Looks up a localized string similar to Moved to Trash successfully..
         /// </summary>
         public static string Message_MovedToTrashCanCompletedSuccessfully {
             get {
@@ -5703,7 +5946,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move `{0}&apos;..
+        ///   Looks up a localized string similar to Move &quot;{0}&quot;..
         /// </summary>
         public static string Message_MoveItem {
             get {
@@ -5758,7 +6001,7 @@ namespace Filedini.Localization {
         
         /// <summary>
         ///   Looks up a localized string similar to This feature is currently in development.
-        ///Please check back again later..
+        ///Please check back later..
         /// </summary>
         public static string Message_NotImprementYet {
             get {
@@ -5785,7 +6028,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Rename `{0}&apos;..
+        ///   Looks up a localized string similar to Rename &quot;{0}&quot;..
         /// </summary>
         public static string Message_RenameItem {
             get {
@@ -5812,9 +6055,18 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {0} with same name exists.
+        ///   Looks up a localized string similar to This feature cannot be used while Restricted Mode is active..
+        /// </summary>
+        public static string Message_RestrictedModeFeatureUnavailable {
+            get {
+                return ResourceManager.GetString("Message_RestrictedModeFeatureUnavailable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to A {0} with the same name already exists.
         ///
-        ///`{1}’.
+        ///&quot;{1}&quot;.
         /// </summary>
         public static string Message_SameNameItemExisting {
             get {
@@ -5823,7 +6075,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Script &apos;{0}&apos; created successfully..
+        ///   Looks up a localized string similar to Script &quot;{0}&quot; created successfully..
         /// </summary>
         public static string Message_ScriptCreatedSuccess {
             get {
@@ -5861,7 +6113,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Change `{0}&apos; attributes..
+        ///   Looks up a localized string similar to Change attributes for &quot;{0}&quot;..
         /// </summary>
         public static string Message_SetAttributesItem {
             get {
@@ -5870,7 +6122,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Change `{0}&apos; timestamp..
+        ///   Looks up a localized string similar to Change timestamp for &quot;{0}&quot;..
         /// </summary>
         public static string Message_SetTimestampItem {
             get {
@@ -5897,7 +6149,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Create a symbolic link for `{0}&apos;..
+        ///   Looks up a localized string similar to Create a symbolic link for &quot;{0}&quot;..
         /// </summary>
         public static string Message_SymbolicLinkItem {
             get {
@@ -5915,11 +6167,20 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The trash can is already empty..
+        ///   Looks up a localized string similar to The trash is already empty..
         /// </summary>
         public static string Message_TrashCanAlreadyEmpty {
             get {
                 return ResourceManager.GetString("Message_TrashCanAlreadyEmpty", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Trial period has expired..
+        /// </summary>
+        public static string Message_TrialPeriodHasExpired {
+            get {
+                return ResourceManager.GetString("Message_TrialPeriodHasExpired", resourceCulture);
             }
         }
         
@@ -6131,7 +6392,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Use App Setting.
+        ///   Looks up a localized string similar to Follow App Theme.
         /// </summary>
         public static string PreviewThemeModes_AppSetting {
             get {
@@ -6239,7 +6500,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to File extensions displayed in Web Viewer(semicolon-separated).
+        ///   Looks up a localized string similar to File extensions displayed in Web Viewer (semicolon-separated).
         /// </summary>
         public static string Settings_FileExtensionsDisplayedInWebViewer {
             get {
@@ -6329,7 +6590,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Can Execute in Folder.
+        ///   Looks up a localized string similar to Enable for folders.
         /// </summary>
         public static string Settings_Label_CanExecuteInFolder {
             get {
@@ -6383,7 +6644,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Detail Pane Display Swich.
+        ///   Looks up a localized string similar to Details Pane Toggle.
         /// </summary>
         public static string Settings_Label_DetailsPaneDisplaySwitch {
             get {
@@ -6401,7 +6662,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Extensions(semicolon-separated).
+        ///   Looks up a localized string similar to Extensions (semicolon-separated).
         /// </summary>
         public static string Settings_Label_Extensions {
             get {
@@ -6419,7 +6680,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to External App1.
+        ///   Looks up a localized string similar to External App 1.
         /// </summary>
         public static string Settings_Label_ExternalApp1 {
             get {
@@ -6428,7 +6689,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to External App2.
+        ///   Looks up a localized string similar to External App 2.
         /// </summary>
         public static string Settings_Label_ExternalApp2 {
             get {
@@ -6464,7 +6725,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Folder Open in Associated App Behavior.
+        ///   Looks up a localized string similar to &quot;Open in Associated App&quot; Behavior for Folders.
         /// </summary>
         public static string Settings_Label_FolderOpenInAssociatedAppBehavior {
             get {
@@ -6527,7 +6788,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Last Write.
+        ///   Looks up a localized string similar to Date Modified.
         /// </summary>
         public static string Settings_Label_LastWrite {
             get {
@@ -6698,7 +6959,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Options when item not selected.
+        ///   Looks up a localized string similar to Arguments when no item is selected.
         /// </summary>
         public static string Settings_Label_NotSelectedItemOptions {
             get {
@@ -6707,7 +6968,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Options.
+        ///   Looks up a localized string similar to Arguments.
         /// </summary>
         public static string Settings_Label_Options {
             get {
@@ -6716,16 +6977,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Scroll Bar.
-        /// </summary>
-        public static string Settings_Label_PageBarScrollMode {
-            get {
-                return ResourceManager.GetString("Settings_Label_PageBarScrollMode", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to PaletteByTheme.
+        ///   Looks up a localized string similar to Palette by Theme.
         /// </summary>
         public static string Settings_Label_PaletteByTheme {
             get {
@@ -6734,7 +6986,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Pane Layout Switch.
+        ///   Looks up a localized string similar to Pane Layout Toggle.
         /// </summary>
         public static string Settings_Label_PaneLayoutSwitch {
             get {
@@ -6788,7 +7040,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Options when item selected.
+        ///   Looks up a localized string similar to Arguments when an item is selected.
         /// </summary>
         public static string Settings_Label_SelectedItemOptions {
             get {
@@ -6842,7 +7094,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Split Folder Pane Display Switch.
+        ///   Looks up a localized string similar to Split Folder Pane Toggle.
         /// </summary>
         public static string Settings_Label_SplitFolderPaneDisplaySwitch {
             get {
@@ -6986,7 +7238,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Timestamp.
+        ///   Looks up a localized string similar to Date Modified.
         /// </summary>
         public static string Settings_Label_Timestamp {
             get {
@@ -7022,7 +7274,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Tool Pane Display Swich.
+        ///   Looks up a localized string similar to Tool Pane Toggle.
         /// </summary>
         public static string Settings_Label_ToolPaneDisplaySwitch {
             get {
@@ -7049,7 +7301,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Last Write Display.
+        ///   Looks up a localized string similar to Date Modified Display.
         /// </summary>
         public static string Settings_LastWriteDisplay {
             get {
@@ -7076,7 +7328,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Multi Extensions.
+        ///   Looks up a localized string similar to Compound Extensions.
         /// </summary>
         public static string Settings_MultiExtensions {
             get {
@@ -7085,7 +7337,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Note: Effective after restart.
+        ///   Looks up a localized string similar to Takes effect after restart..
         /// </summary>
         public static string Settings_Note_EffectiveAfterRestart {
             get {
@@ -7337,7 +7589,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Remove `{0}&apos;.
+        ///   Looks up a localized string similar to Remove &quot;{0}&quot;.
         /// </summary>
         public static string Settings_RemoveHotkey {
             get {
@@ -7418,7 +7670,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Att_ribute.
+        ///   Looks up a localized string similar to Att_ributes.
         /// </summary>
         public static string SortItem_Mode_Attribute {
             get {
@@ -7463,7 +7715,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to _Timestamp.
+        ///   Looks up a localized string similar to _Date Modified.
         /// </summary>
         public static string SortItem_Mode_Timestamp {
             get {
@@ -7508,7 +7760,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Emptying Trash Can....
+        ///   Looks up a localized string similar to Emptying Trash....
         /// </summary>
         public static string StatusBar_EmptyingTrashCan {
             get {
@@ -7535,7 +7787,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Moving to Trash Can....
+        ///   Looks up a localized string similar to Moving to Trash....
         /// </summary>
         public static string StatusBar_MovingToTrashCan {
             get {
@@ -7599,8 +7851,8 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to You are about to paste multi-line text.A
-        ///re you sure you want to continue?.
+        ///   Looks up a localized string similar to You are about to paste multiple lines of text.
+        ///Are you sure you want to continue?.
         /// </summary>
         public static string Terminal_ConfirmPasteMessage {
             get {
@@ -7654,7 +7906,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Use App Setting.
+        ///   Looks up a localized string similar to Follow App Theme.
         /// </summary>
         public static string TerminalThemeModes_AppSetting {
             get {
@@ -7762,7 +8014,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Edit Scipt File.
+        ///   Looks up a localized string similar to Edit Script File.
         /// </summary>
         public static string Tooltip_EditScriptFile {
             get {
@@ -8032,119 +8284,30 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to License Manager.
+        ///   Looks up a localized string similar to During the trial, you can use all features without restrictions for 10 minutes after startup.
+        ///If you enjoy Filedini, please consider purchasing a license..
         /// </summary>
-        public static string Trial_LicenseManager {
+        public static string TrialStart_Message {
             get {
-                return ResourceManager.GetString("Trial_LicenseManager", resourceCulture);
+                return ResourceManager.GetString("TrialStart_Message", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Subscribe Now.
+        ///   Looks up a localized string similar to Start Trial.
         /// </summary>
-        public static string Trial_Subscribe {
+        public static string TrialStart_StartTrial {
             get {
-                return ResourceManager.GetString("Trial_Subscribe", resourceCulture);
+                return ResourceManager.GetString("TrialStart_StartTrial", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Trial Start.
+        ///   Looks up a localized string similar to Try Filedini.
         /// </summary>
-        public static string Trial_TrialStart {
+        public static string TrialStart_Title {
             get {
-                return ResourceManager.GetString("Trial_TrialStart", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to ✅ No time restrictions – use the app without limits.
-        /// </summary>
-        public static string TrialExpiredView_Benefit1 {
-            get {
-                return ResourceManager.GetString("TrialExpiredView_Benefit1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to ✅ Access all features without restrictions.
-        /// </summary>
-        public static string TrialExpiredView_Benefit2 {
-            get {
-                return ResourceManager.GetString("TrialExpiredView_Benefit2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to ✅ Receive regular updates and support.
-        /// </summary>
-        public static string TrialExpiredView_Benefit3 {
-            get {
-                return ResourceManager.GetString("TrialExpiredView_Benefit3", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to ✅ Cancel anytime, hassle-free.
-        /// </summary>
-        public static string TrialExpiredView_Benefit4 {
-            get {
-                return ResourceManager.GetString("TrialExpiredView_Benefit4", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 🎉 Subscription Benefits 🎉.
-        /// </summary>
-        public static string TrialExpiredView_BenefitsTitle {
-            get {
-                return ResourceManager.GetString("TrialExpiredView_BenefitsTitle", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Your trial period for this app has ended..
-        /// </summary>
-        public static string TrialExpiredView_Description {
-            get {
-                return ResourceManager.GetString("TrialExpiredView_Description", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to If you have already purchased a subscription, please sign in via the License Manager to continue using the app..
-        /// </summary>
-        public static string TrialExpiredView_SignInInstruction {
-            get {
-                return ResourceManager.GetString("TrialExpiredView_SignInInstruction", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to To continue using the app, you need to subscribe and sign in with a Google account..
-        /// </summary>
-        public static string TrialExpiredView_SubscriptionInfo {
-            get {
-                return ResourceManager.GetString("TrialExpiredView_SubscriptionInfo", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Trial Period Expired.
-        /// </summary>
-        public static string TrialExpiredView_Title {
-            get {
-                return ResourceManager.GetString("TrialExpiredView_Title", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to You can use the trial for 5 minutes after launching the app or for 30 days after your first sign-in..
-        /// </summary>
-        public static string TrialExpiredView_TrialInfo {
-            get {
-                return ResourceManager.GetString("TrialExpiredView_TrialInfo", resourceCulture);
+                return ResourceManager.GetString("TrialStart_Title", resourceCulture);
             }
         }
         
@@ -8212,7 +8375,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Open in _External App1.
+        ///   Looks up a localized string similar to Open in _External App 1.
         /// </summary>
         public static string UI_OpenInExternalApp1 {
             get {
@@ -8221,7 +8384,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Open in E_xternal App2.
+        ///   Looks up a localized string similar to Open in E_xternal App 2.
         /// </summary>
         public static string UI_OpenInExternalApp2 {
             get {
@@ -8248,7 +8411,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to _Processes items below the folder.
+        ///   Looks up a localized string similar to Also _process items inside folders.
         /// </summary>
         public static string UI_ProcessInFolders {
             get {
@@ -8257,7 +8420,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Recently _Used.
+        ///   Looks up a localized string similar to R_ecent Folders.
         /// </summary>
         public static string UI_RecentlyUsed {
             get {
@@ -8338,6 +8501,33 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Continue in Restricted Mode.
+        /// </summary>
+        public static string UI_Trial_ContinueInRestrictedMode {
+            get {
+                return ResourceManager.GetString("UI_Trial_ContinueInRestrictedMode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter License Key....
+        /// </summary>
+        public static string UI_Trial_EnterLicenseKey {
+            get {
+                return ResourceManager.GetString("UI_Trial_EnterLicenseKey", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Purchase License....
+        /// </summary>
+        public static string UI_Trial_PurchaseLicense {
+            get {
+                return ResourceManager.GetString("UI_Trial_PurchaseLicense", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Use the same settings going _forward.
         /// </summary>
         public static string UI_UseSameSettingsGoingForward {
@@ -8392,7 +8582,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Data sent.
+        ///   Looks up a localized string similar to Data that will be sent.
         /// </summary>
         public static string UsageDataConsent_DataSentTitle_US {
             get {
@@ -8446,7 +8636,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to No personal data is included..
+        ///   Looks up a localized string similar to No personal data, file names, paths, or contents are included..
         /// </summary>
         public static string UsageDataConsent_NoPersonalData_US {
             get {
@@ -8520,8 +8710,7 @@ namespace Filedini.Localization {
         ///
         ///❌ファイル名・パス・内容などの個人データは一切送信されません。
         ///
-        ///ご協力は任意で、
-        ///設定からいつでも変更できます。.
+        ///ご協力は任意で、設定からいつでも変更できます。.
         /// </summary>
         public static string UsageDataConsent_Text_JP {
             get {
@@ -8538,8 +8727,8 @@ namespace Filedini.Localization {
         ///
         ///This helps us focus on the platforms and versions that matter most.
         ///
-        ///No personal data is collected,
-        ///and file names or contents are never shared.
+        ///No personal data,
+        ///file names, paths, or file contents are collected or transmitted. 
         ///
         ///You’re in control —
         ///you can turn this on or off anytime in the settings..
@@ -8596,7 +8785,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to View data sent.
+        ///   Looks up a localized string similar to View data that will be sent.
         /// </summary>
         public static string UsageDataConsent_ViewDataSent_US {
             get {

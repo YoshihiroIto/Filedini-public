@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <TargetFramework>net10.0</TargetFramework>
@@ -7,6 +7,7 @@
         <AssemblyName>Filedini.Localization</AssemblyName>
         <RootNamespace>Filedini.Localization</RootNamespace>
         <LangVersion>preview</LangVersion>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     </PropertyGroup>
 
     <ItemGroup>
@@ -22,10 +23,6 @@
         <LastGenOutput>Resources.Designer.cs</LastGenOutput>
         <Generator>PublicResXFileCodeGenerator</Generator>
       </EmbeddedResource>
-    </ItemGroup>
-  
-    <ItemGroup>
-      <PackageReference Include="SmartFormat" Version="3.6.1" />
     </ItemGroup>
     
 </Project>
