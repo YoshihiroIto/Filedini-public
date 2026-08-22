@@ -2712,4 +2712,13 @@ If you enjoy Filedini, please consider purchasing a license.</value>
     <data name="FileItem_InsertCurrentFolderPathIntoTerminal" xml:space="preserve">
         <value>Insert Current Folder Path into Terminal</value>
     </data>
+    <data name="FileMenu_CopyItemWithDialog" xml:space="preserve">
+        <value>Copy to Selected Folder...</value>
+    </data>
+    <data name="FileMenu_MoveItemWithDialog" xml:space="preserve">
+        <value>Move to Selected Folder...</value>
+    </data>
+    <data name="FileMenu_DecompressArchiveWithDialog" xml:space="preserve">
+        <value>Extract Archive to Selected Folder...</value>
+    </data>
 </root>

@@ -1911,6 +1911,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Copy to Selected Folder....
+        /// </summary>
+        public static string FileMenu_CopyItemWithDialog {
+            get {
+                return ResourceManager.GetString("FileMenu_CopyItemWithDialog", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Copy to Clipboard.
         /// </summary>
         public static string FileMenu_CopyPreviewToClipboard {
@@ -1997,6 +2006,15 @@ namespace Filedini.Localization {
         public static string FileMenu_DecompressArchive {
             get {
                 return ResourceManager.GetString("FileMenu_DecompressArchive", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Extract Archive to Selected Folder....
+        /// </summary>
+        public static string FileMenu_DecompressArchiveWithDialog {
+            get {
+                return ResourceManager.GetString("FileMenu_DecompressArchiveWithDialog", resourceCulture);
             }
         }
         
@@ -2420,6 +2438,15 @@ namespace Filedini.Localization {
         public static string FileMenu_MoveItem {
             get {
                 return ResourceManager.GetString("FileMenu_MoveItem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Move to Selected Folder....
+        /// </summary>
+        public static string FileMenu_MoveItemWithDialog {
+            get {
+                return ResourceManager.GetString("FileMenu_MoveItemWithDialog", resourceCulture);
             }
         }
         

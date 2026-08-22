@@ -2537,4 +2537,13 @@ Filediniを気に入っていただけましたら、ぜひライセンスの購
     <data name="FileItem_InsertCurrentFolderPathIntoTerminal" xml:space="preserve">
         <value>カレントフォルダーのパスをターミナルに入力</value>
     </data>
+    <data name="FileMenu_CopyItemWithDialog" xml:space="preserve">
+        <value>コピー先を指定してコピー...</value>
+    </data>
+    <data name="FileMenu_MoveItemWithDialog" xml:space="preserve">
+        <value>移動先を指定して移動...</value>
+    </data>
+    <data name="FileMenu_DecompressArchiveWithDialog" xml:space="preserve">
+        <value>展開先を指定してアーカイブを展開...</value>
+    </data>
 </root>
