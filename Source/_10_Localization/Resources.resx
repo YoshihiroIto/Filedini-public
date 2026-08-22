@@ -2709,4 +2709,7 @@ If you enjoy Filedini, please consider purchasing a license.</value>
     <data name="Label_OpenWithDefaultApp" xml:space="preserve">
         <value>Open with Default App</value>
     </data>
+    <data name="FileItem_InsertCurrentFolderPathIntoTerminal" xml:space="preserve">
+        <value>Insert Current Folder Path into Terminal</value>
+    </data>
 </root>

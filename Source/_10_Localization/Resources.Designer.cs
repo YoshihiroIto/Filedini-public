@@ -1695,6 +1695,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Insert Current Folder Path into Terminal.
+        /// </summary>
+        public static string FileItem_InsertCurrentFolderPathIntoTerminal {
+            get {
+                return ResourceManager.GetString("FileItem_InsertCurrentFolderPathIntoTerminal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Insert Selected Item Path into Terminal.
         /// </summary>
         public static string FileItem_InsertSelectedItemPathIntoTerminal {
@@ -3160,7 +3169,7 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("FileMenu_SelectNextFolderPane", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Next Item.
         /// </summary>
@@ -3187,22 +3196,13 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("FileMenu_SelectPreviousFolderPane", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Previous Item.
         /// </summary>
         public static string FileMenu_SelectPreviousItem {
             get {
                 return ResourceManager.GetString("FileMenu_SelectPreviousItem", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Navigation is unavailable while preview is pinned.
-        /// </summary>
-        public static string Message_PreviewNavigationPinned {
-            get {
-                return ResourceManager.GetString("Message_PreviewNavigationPinned", resourceCulture);
             }
         }
         
@@ -3585,20 +3585,20 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Pin Tab / Unpin Tab.
-        /// </summary>
-        public static string FileMenu_TogglePinTab {
-            get {
-                return ResourceManager.GetString("FileMenu_TogglePinTab", resourceCulture);
-            }
-        }
-
-        /// <summary>
         ///   Looks up a localized string similar to Pin Preview / Unpin Preview.
         /// </summary>
         public static string FileMenu_TogglePinPreview {
             get {
                 return ResourceManager.GetString("FileMenu_TogglePinPreview", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pin Tab / Unpin Tab.
+        /// </summary>
+        public static string FileMenu_TogglePinTab {
+            get {
+                return ResourceManager.GetString("FileMenu_TogglePinTab", resourceCulture);
             }
         }
         
@@ -6015,6 +6015,15 @@ namespace Filedini.Localization {
         public static string Message_OmittedDueToLargeSize {
             get {
                 return ResourceManager.GetString("Message_OmittedDueToLargeSize", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Navigation is unavailable while preview is pinned..
+        /// </summary>
+        public static string Message_PreviewNavigationPinned {
+            get {
+                return ResourceManager.GetString("Message_PreviewNavigationPinned", resourceCulture);
             }
         }
         

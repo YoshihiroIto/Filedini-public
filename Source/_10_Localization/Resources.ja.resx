@@ -2534,4 +2534,7 @@ Filediniを気に入っていただけましたら、ぜひライセンスの購
     <data name="Label_OpenWithDefaultApp" xml:space="preserve">
         <value>標準アプリで開く</value>
     </data>
+    <data name="FileItem_InsertCurrentFolderPathIntoTerminal" xml:space="preserve">
+        <value>カレントフォルダーのパスをターミナルに入力</value>
+    </data>
 </root>
