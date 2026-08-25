@@ -6615,6 +6615,15 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Settings_Label_AutoNameWidth", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Adapt information to prioritize the name.
+        /// </summary>
+        public static string Settings_Label_AdaptiveNameWidth {
+            get {
+                return ResourceManager.GetString("Settings_Label_AdaptiveNameWidth", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to Binary Viewer Buffer Size.

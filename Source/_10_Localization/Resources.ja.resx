@@ -821,6 +821,9 @@
     <data name="Settings_Label_AutoNameWidth" xml:space="preserve">
         <value>名前の幅を自動調整</value>
     </data>
+    <data name="Settings_Label_AdaptiveNameWidth" xml:space="preserve">
+        <value>名前を優先して情報表示を調整する</value>
+    </data>
     <data name="Settings_Label_CombinedNameAndExtension" xml:space="preserve">
         <value>名前と拡張子を結合して表示する</value>
     </data>

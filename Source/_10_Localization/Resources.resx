@@ -866,6 +866,9 @@ Do you want to proceed?</value>
     <data name="Settings_Label_AutoNameWidth" xml:space="preserve">
         <value>Auto Name Width</value>
     </data>
+    <data name="Settings_Label_AdaptiveNameWidth" xml:space="preserve">
+        <value>Adapt information to prioritize the name</value>
+    </data>
     <data name="Settings_Label_TimestampFormat" xml:space="preserve">
         <value>Timestamp Format</value>
     </data>
