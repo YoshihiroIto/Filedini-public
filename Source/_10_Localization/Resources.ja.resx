@@ -97,13 +97,13 @@
         <value>ウィンドウ(_W)</value>
     </data>
     <data name="FileMenu_MoveCursorDown" xml:space="preserve">
-        <value>下に移動</value>
+        <value>下へ移動</value>
     </data>
     <data name="FileMenu_MoveCursorLeft" xml:space="preserve">
-        <value>左に移動</value>
+        <value>左へ移動</value>
     </data>
     <data name="FileMenu_MoveCursorRight" xml:space="preserve">
-        <value>右に移動</value>
+        <value>右へ移動</value>
     </data>
     <data name="FileMenu_MoveCursorSearchNext" xml:space="preserve">
         <value>次を検索</value>
@@ -112,16 +112,16 @@
         <value>前を検索</value>
     </data>
     <data name="FileMenu_MoveCursorUp" xml:space="preserve">
-        <value>上に移動</value>
+        <value>上へ移動</value>
     </data>
     <data name="FileMenu_MoveToBottom" xml:space="preserve">
-        <value>最後尾に移動</value>
+        <value>最後尾へ移動</value>
     </data>
     <data name="FileMenu_MoveToFileTop" xml:space="preserve">
-        <value>先頭ファイルに移動</value>
+        <value>先頭ファイルへ移動</value>
     </data>
     <data name="FileMenu_MoveToFolderTop" xml:space="preserve">
-        <value>先頭フォルダーに移動</value>
+        <value>先頭フォルダーへ移動</value>
     </data>
     <data name="FileMenu_PasteItemFromClipboard" xml:space="preserve">
         <value>貼り付け</value>
@@ -289,22 +289,22 @@
         <value>ごみ箱へ(_T)</value>
     </data>
     <data name="FileMenu_MoveToParentFolder" xml:space="preserve">
-        <value>親フォルダーに移動</value>
+        <value>親フォルダーへ移動</value>
     </data>
     <data name="FileMenu_MoveToVolume1" xml:space="preserve">
-        <value>ボリューム１に移動</value>
+        <value>ボリューム１へ移動</value>
     </data>
     <data name="FileMenu_MoveToVolume2" xml:space="preserve">
-        <value>ボリューム２に移動</value>
+        <value>ボリューム２へ移動</value>
     </data>
     <data name="FileMenu_MoveToVolume3" xml:space="preserve">
-        <value>ボリューム３に移動</value>
+        <value>ボリューム３へ移動</value>
     </data>
     <data name="FileMenu_MoveToVolume4" xml:space="preserve">
-        <value>ボリューム４に移動</value>
+        <value>ボリューム４へ移動</value>
     </data>
     <data name="FileMenu_MoveToVolume5" xml:space="preserve">
-        <value>ボリューム５に移動</value>
+        <value>ボリューム５へ移動</value>
     </data>
     <data name="Message_CanModifyItemResults_AlreadyExists" xml:space="preserve">
         <value>既に存在しています。</value>
@@ -558,7 +558,7 @@
         <value>ズームアウト</value>
     </data>
     <data name="FileMenu_MoveToRootFolder" xml:space="preserve">
-        <value>ルートフォルダーに移動</value>
+        <value>ルートフォルダーへ移動</value>
     </data>
     <data name="ItemProperty_Metadata_Folder" xml:space="preserve">
         <value>フォルダー</value>
@@ -585,7 +585,7 @@
         <value>{0:N0} 個のフォルダー、{1:N0} 個のファイルをドラッグ中です。</value>
     </data>
     <data name="FileMenu_MoveToRecentlyUsedFolder" xml:space="preserve">
-        <value>最近利用したフォルダーに移動...</value>
+        <value>最近利用したフォルダーへ移動...</value>
     </data>
     <data name="FileMenu_CreateTabFromRecentlyUsedFolder" xml:space="preserve">
         <value>最近利用したフォルダーからタブを作成...</value>
@@ -926,7 +926,7 @@
         <value>リスト</value>
     </data>
     <data name="FileMenu_MoveCursorNextPage" xml:space="preserve">
-        <value>次ページに移動</value>
+        <value>次ページへ移動</value>
     </data>
     <data name="Settings_Label_IconCacheSize" xml:space="preserve">
         <value>アイコンキャッシュサイズ</value>
@@ -953,7 +953,7 @@
         <value>閉じる(_C)</value>
     </data>
     <data name="Dialog_MoveToSelectedItem" xml:space="preserve">
-        <value>選択アイテムに移動(_M)</value>
+        <value>選択アイテムへ移動(_M)</value>
     </data>
     <data name="Label_FoundItems" xml:space="preserve">
         <value>見つかったアイテム</value>
@@ -1073,7 +1073,7 @@
         <value>メールアプリを起動...</value>
     </data>
     <data name="FileMenu_MoveCursorPreviousPage" xml:space="preserve">
-      <value>前ページに移動</value>
+        <value>前ページへ移動</value>
     </data>
     <data name="FileMenu_SelectPreviousItem" xml:space="preserve">
       <value>前のアイテム</value>
@@ -1246,19 +1246,19 @@
         <value>ボリューム...</value>
     </data>
     <data name="FileMenu_MoveToVolume0" xml:space="preserve">
-        <value>ボリューム０に移動</value>
+        <value>ボリューム０へ移動</value>
     </data>
     <data name="FileMenu_MoveToVolume6" xml:space="preserve">
-        <value>ボリューム６に移動</value>
+        <value>ボリューム６へ移動</value>
     </data>
     <data name="FileMenu_MoveToVolume8" xml:space="preserve">
-        <value>ボリューム８に移動</value>
+        <value>ボリューム８へ移動</value>
     </data>
     <data name="FileMenu_MoveToVolume7" xml:space="preserve">
-        <value>ボリューム７に移動</value>
+        <value>ボリューム７へ移動</value>
     </data>
     <data name="FileMenu_MoveToVolume9" xml:space="preserve">
-        <value>ボリューム９に移動</value>
+        <value>ボリューム９へ移動</value>
     </data>
     <data name="Settings_Details" xml:space="preserve">
         <value>詳細</value>
@@ -1705,7 +1705,7 @@
         <value>復元に失敗しました。</value>
     </data>
     <data name="FileMenu_MoveToScriptsFolder" xml:space="preserve">
-        <value>スクリプトフォルダーに移動</value>
+        <value>スクリプトフォルダーへ移動</value>
     </data>
     <data name="Message_ScriptFileNotFound" xml:space="preserve">
         <value>スクリプトファイルが見つかりません。
@@ -1911,10 +1911,10 @@
         <value>前のフォルダーペイン</value>
     </data>
     <data name="FileMenu_MoveTabLeft" xml:space="preserve">
-        <value>タブを前に移動</value>
+        <value>タブを前へ移動</value>
     </data>
     <data name="FileMenu_MoveTabRight" xml:space="preserve">
-        <value>タブを後ろに移動</value>
+        <value>タブを後ろへ移動</value>
     </data>
     <data name="FileMenu_Tab" xml:space="preserve">
         <value>タブ(_B)</value>
@@ -2231,7 +2231,7 @@
         <value>削除中...</value>
     </data>
     <data name="StatusBar_MovingToTrashCan" xml:space="preserve">
-        <value>ごみ箱に移動中...</value>
+        <value>ごみ箱へ移動中...</value>
     </data>
     <data name="StatusBar_EmptyingTrashCan" xml:space="preserve">
         <value>ごみ箱を空にしています...</value>
