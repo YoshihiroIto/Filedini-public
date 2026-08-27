@@ -534,16 +534,16 @@
         <value>{0:N0} 個のフォルダー、{1:N0} 個のファイルを移動します。</value>
     </data>
     <data name="ContextMenu_Copy" xml:space="preserve">
-        <value>コピー(_C)</value>
+        <value>コピー</value>
     </data>
     <data name="ContextMenu_ExtractWithFolders" xml:space="preserve">
-        <value>フォルダー付きで展開(_F)</value>
+        <value>フォルダー付きで展開</value>
     </data>
     <data name="ContextMenu_ExtractWithoutFolders" xml:space="preserve">
-        <value>フォルダー無しで展開(_N)</value>
+        <value>フォルダー無しで展開</value>
     </data>
     <data name="ContextMenu_Move" xml:space="preserve">
-        <value>移動(_M)</value>
+        <value>移動</value>
     </data>
     <data name="Dialog_AutoRename" xml:space="preserve">
         <value>自動で名前を変更(_A)</value>
@@ -2548,5 +2548,14 @@ Filediniを気に入っていただけましたら、ぜひライセンスの購
     </data>
     <data name="FileMenu_DecompressArchiveWithDialog" xml:space="preserve">
         <value>展開先を指定してアーカイブを展開...</value>
+    </data>
+    <data name="ContextMenu_Open" xml:space="preserve">
+        <value>開く</value>
+    </data>
+    <data name="ContextMenu_OpenAsNewTab" xml:space="preserve">
+        <value>新しいタブとして開く</value>
+    </data>
+    <data name="ContextMenu_SelectAll" xml:space="preserve">
+        <value>すべて選択</value>
     </data>
 </root>

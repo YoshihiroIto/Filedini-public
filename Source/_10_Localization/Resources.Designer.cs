@@ -1131,7 +1131,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to _Copy.
+        ///   Looks up a localized string similar to Copy.
         /// </summary>
         public static string ContextMenu_Copy {
             get {
@@ -1149,7 +1149,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Extract with _Folders.
+        ///   Looks up a localized string similar to Extract with Folders.
         /// </summary>
         public static string ContextMenu_ExtractWithFolders {
             get {
@@ -1158,7 +1158,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Extract witho_ut Folders.
+        ///   Looks up a localized string similar to Extract without Folders.
         /// </summary>
         public static string ContextMenu_ExtractWithoutFolders {
             get {
@@ -1167,11 +1167,38 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to _Move.
+        ///   Looks up a localized string similar to Move.
         /// </summary>
         public static string ContextMenu_Move {
             get {
                 return ResourceManager.GetString("ContextMenu_Move", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open.
+        /// </summary>
+        public static string ContextMenu_Open {
+            get {
+                return ResourceManager.GetString("ContextMenu_Open", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open as New Tab.
+        /// </summary>
+        public static string ContextMenu_OpenAsNewTab {
+            get {
+                return ResourceManager.GetString("ContextMenu_OpenAsNewTab", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select  All.
+        /// </summary>
+        public static string ContextMenu_SelectAll {
+            get {
+                return ResourceManager.GetString("ContextMenu_SelectAll", resourceCulture);
             }
         }
         
@@ -6590,6 +6617,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Adapt information to prioritize the name.
+        /// </summary>
+        public static string Settings_Label_AdaptiveNameWidth {
+            get {
+                return ResourceManager.GetString("Settings_Label_AdaptiveNameWidth", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to App.
         /// </summary>
         public static string Settings_Label_App {
@@ -6613,15 +6649,6 @@ namespace Filedini.Localization {
         public static string Settings_Label_AutoNameWidth {
             get {
                 return ResourceManager.GetString("Settings_Label_AutoNameWidth", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Adapt information to prioritize the name.
-        /// </summary>
-        public static string Settings_Label_AdaptiveNameWidth {
-            get {
-                return ResourceManager.GetString("Settings_Label_AdaptiveNameWidth", resourceCulture);
             }
         }
         

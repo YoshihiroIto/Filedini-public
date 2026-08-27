@@ -549,16 +549,16 @@ Do you want to proceed?</value>
         <value>Move {0:plural:1 folder|{:N0} folders}, {1:plural:1 file|{:N0} files}.</value>
     </data>
     <data name="ContextMenu_Copy" xml:space="preserve">
-        <value>_Copy</value>
+        <value>Copy</value>
     </data>
     <data name="ContextMenu_ExtractWithFolders" xml:space="preserve">
-        <value>Extract with _Folders</value>
+        <value>Extract with Folders</value>
     </data>
     <data name="ContextMenu_ExtractWithoutFolders" xml:space="preserve">
-        <value>Extract witho_ut Folders</value>
+        <value>Extract without Folders</value>
     </data>
     <data name="ContextMenu_Move" xml:space="preserve">
-        <value>_Move</value>
+        <value>Move</value>
     </data>
     <data name="Dialog_AutoRename" xml:space="preserve">
         <value>_Automatic naming</value>
@@ -2723,5 +2723,14 @@ If you enjoy Filedini, please consider purchasing a license.</value>
     </data>
     <data name="FileMenu_DecompressArchiveWithDialog" xml:space="preserve">
         <value>Extract Archive to Selected Folder...</value>
+    </data>
+    <data name="ContextMenu_Open" xml:space="preserve">
+        <value>Open</value>
+    </data>
+    <data name="ContextMenu_OpenAsNewTab" xml:space="preserve">
+        <value>Open as New Tab</value>
+    </data>
+    <data name="ContextMenu_SelectAll" xml:space="preserve">
+        <value>Select  All</value>
     </data>
 </root>
