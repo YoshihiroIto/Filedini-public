@@ -1287,6 +1287,39 @@
     <data name="Settings_Label_NewWorkspaceInsertPosition" xml:space="preserve">
         <value>新規タブの追加位置</value>
     </data>
+    <data name="Settings_Label_NewTabActivationBehavior" xml:space="preserve">
+        <value>新規タブで開いた後</value>
+    </data>
+    <data name="NewTabActivationBehaviors_ActivateNewTab" xml:space="preserve">
+        <value>新規タブに切り替える</value>
+    </data>
+    <data name="NewTabActivationBehaviors_KeepCurrentTab" xml:space="preserve">
+        <value>現在のタブに留まる</value>
+    </data>
+    <data name="NewTabActivationLocations_FolderItems" xml:space="preserve">
+        <value>フォルダー項目</value>
+    </data>
+    <data name="NewTabActivationLocations_BookmarkDialog" xml:space="preserve">
+        <value>ブックマークダイアログ</value>
+    </data>
+    <data name="NewTabActivationLocations_SelectFolderDialog" xml:space="preserve">
+        <value>フォルダー選択ダイアログ</value>
+    </data>
+    <data name="NewTabActivationLocations_RecentlyUsedFolderDialog" xml:space="preserve">
+        <value>最近利用したフォルダーダイアログ</value>
+    </data>
+    <data name="NewTabActivationLocations_Volume" xml:space="preserve">
+        <value>ボリューム</value>
+    </data>
+    <data name="NewTabActivationLocations_FindItemDialog" xml:space="preserve">
+        <value>アイテム検索ダイアログ</value>
+    </data>
+    <data name="NewTabActivationLocations_PathBox" xml:space="preserve">
+        <value>パスボックス</value>
+    </data>
+    <data name="NewTabActivationLocations_SearchInFilesDialog" xml:space="preserve">
+        <value>ファイル内検索ダイアログ</value>
+    </data>
     <data name="FileDoubleClickBehaviors_Preview" xml:space="preserve">
         <value>プレビューで開く</value>
     </data>

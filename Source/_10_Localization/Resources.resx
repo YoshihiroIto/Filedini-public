@@ -1308,6 +1308,39 @@ Invalid password.
     <data name="Settings_Label_NewWorkspaceInsertPosition" xml:space="preserve">
         <value>New Tab Insert Position</value>
     </data>
+    <data name="Settings_Label_NewTabActivationBehavior" xml:space="preserve">
+        <value>After Opening a New Tab</value>
+    </data>
+    <data name="NewTabActivationBehaviors_ActivateNewTab" xml:space="preserve">
+        <value>Switch to New Tab</value>
+    </data>
+    <data name="NewTabActivationBehaviors_KeepCurrentTab" xml:space="preserve">
+        <value>Stay on Current Tab</value>
+    </data>
+    <data name="NewTabActivationLocations_FolderItems" xml:space="preserve">
+        <value>Folder Items</value>
+    </data>
+    <data name="NewTabActivationLocations_BookmarkDialog" xml:space="preserve">
+        <value>Bookmark Dialog</value>
+    </data>
+    <data name="NewTabActivationLocations_SelectFolderDialog" xml:space="preserve">
+        <value>Select Folder Dialog</value>
+    </data>
+    <data name="NewTabActivationLocations_RecentlyUsedFolderDialog" xml:space="preserve">
+        <value>Recently Used Folders Dialog</value>
+    </data>
+    <data name="NewTabActivationLocations_Volume" xml:space="preserve">
+        <value>Volume</value>
+    </data>
+    <data name="NewTabActivationLocations_FindItemDialog" xml:space="preserve">
+        <value>Find Item Dialog</value>
+    </data>
+    <data name="NewTabActivationLocations_PathBox" xml:space="preserve">
+        <value>Path Box</value>
+    </data>
+    <data name="NewTabActivationLocations_SearchInFilesDialog" xml:space="preserve">
+        <value>Search in Files Dialog</value>
+    </data>
     <data name="FileDoubleClickBehaviors_Preview" xml:space="preserve">
         <value>Preview</value>
     </data>

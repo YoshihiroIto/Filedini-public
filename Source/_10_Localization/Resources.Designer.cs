@@ -6273,6 +6273,96 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("NameSortModes_Numeric", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Switch to New Tab.
+        /// </summary>
+        public static string NewTabActivationBehaviors_ActivateNewTab {
+            get {
+                return ResourceManager.GetString("NewTabActivationBehaviors_ActivateNewTab", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Stay on Current Tab.
+        /// </summary>
+        public static string NewTabActivationBehaviors_KeepCurrentTab {
+            get {
+                return ResourceManager.GetString("NewTabActivationBehaviors_KeepCurrentTab", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Bookmark Dialog.
+        /// </summary>
+        public static string NewTabActivationLocations_BookmarkDialog {
+            get {
+                return ResourceManager.GetString("NewTabActivationLocations_BookmarkDialog", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Find Item Dialog.
+        /// </summary>
+        public static string NewTabActivationLocations_FindItemDialog {
+            get {
+                return ResourceManager.GetString("NewTabActivationLocations_FindItemDialog", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Folder Items.
+        /// </summary>
+        public static string NewTabActivationLocations_FolderItems {
+            get {
+                return ResourceManager.GetString("NewTabActivationLocations_FolderItems", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Path Box.
+        /// </summary>
+        public static string NewTabActivationLocations_PathBox {
+            get {
+                return ResourceManager.GetString("NewTabActivationLocations_PathBox", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Recently Used Folders Dialog.
+        /// </summary>
+        public static string NewTabActivationLocations_RecentlyUsedFolderDialog {
+            get {
+                return ResourceManager.GetString("NewTabActivationLocations_RecentlyUsedFolderDialog", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Search in Files Dialog.
+        /// </summary>
+        public static string NewTabActivationLocations_SearchInFilesDialog {
+            get {
+                return ResourceManager.GetString("NewTabActivationLocations_SearchInFilesDialog", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Select Folder Dialog.
+        /// </summary>
+        public static string NewTabActivationLocations_SelectFolderDialog {
+            get {
+                return ResourceManager.GetString("NewTabActivationLocations_SelectFolderDialog", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Volume.
+        /// </summary>
+        public static string NewTabActivationLocations_Volume {
+            get {
+                return ResourceManager.GetString("NewTabActivationLocations_Volume", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to After Current Tab.
@@ -7018,6 +7108,15 @@ namespace Filedini.Localization {
         public static string Settings_Label_NewFolderName {
             get {
                 return ResourceManager.GetString("Settings_Label_NewFolderName", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to After Opening a New Tab.
+        /// </summary>
+        public static string Settings_Label_NewTabActivationBehavior {
+            get {
+                return ResourceManager.GetString("Settings_Label_NewTabActivationBehavior", resourceCulture);
             }
         }
         
