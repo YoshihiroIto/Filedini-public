@@ -1296,9 +1296,6 @@
     <data name="NewTabActivationBehaviors_KeepCurrentTab" xml:space="preserve">
         <value>現在のタブに留まる</value>
     </data>
-    <data name="NewTabActivationLocations_FolderItems" xml:space="preserve">
-        <value>フォルダー項目</value>
-    </data>
     <data name="NewTabActivationLocations_CreateTabsFromSelectedFolders" xml:space="preserve">
         <value>選択フォルダーからタブを作成</value>
     </data>
@@ -1306,25 +1303,25 @@
         <value>選択フォルダーをタブとして開く</value>
     </data>
     <data name="NewTabActivationLocations_BookmarkDialog" xml:space="preserve">
-        <value>ブックマークダイアログ</value>
+        <value>ブックマーク</value>
     </data>
     <data name="NewTabActivationLocations_SelectFolderDialog" xml:space="preserve">
-        <value>フォルダー選択ダイアログ</value>
+        <value>フォルダーへ移動</value>
     </data>
     <data name="NewTabActivationLocations_RecentlyUsedFolderDialog" xml:space="preserve">
-        <value>最近利用したフォルダーダイアログ</value>
+        <value>最近利用したフォルダーへ移動</value>
     </data>
-    <data name="NewTabActivationLocations_Volume" xml:space="preserve">
+    <data name="NewTabActivationLocations_VolumeDialog" xml:space="preserve">
         <value>ボリューム</value>
     </data>
     <data name="NewTabActivationLocations_FindItemDialog" xml:space="preserve">
-        <value>アイテム検索ダイアログ</value>
+        <value>アイテムの検索</value>
     </data>
     <data name="NewTabActivationLocations_PathBox" xml:space="preserve">
-        <value>パスボックス</value>
+        <value>パス入力欄</value>
     </data>
     <data name="NewTabActivationLocations_SearchInFilesDialog" xml:space="preserve">
-        <value>ファイル内検索ダイアログ</value>
+        <value>フォルダー内検索</value>
     </data>
     <data name="FileDoubleClickBehaviors_Preview" xml:space="preserve">
         <value>プレビューで開く</value>

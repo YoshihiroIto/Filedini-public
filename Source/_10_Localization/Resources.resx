@@ -1317,9 +1317,6 @@ Invalid password.
     <data name="NewTabActivationBehaviors_KeepCurrentTab" xml:space="preserve">
         <value>Stay on Current Tab</value>
     </data>
-    <data name="NewTabActivationLocations_FolderItems" xml:space="preserve">
-        <value>Folder Items</value>
-    </data>
     <data name="NewTabActivationLocations_CreateTabsFromSelectedFolders" xml:space="preserve">
         <value>Create Tabs from Selected Folders</value>
     </data>
@@ -1327,25 +1324,25 @@ Invalid password.
         <value>Open Selected Folders as Tabs</value>
     </data>
     <data name="NewTabActivationLocations_BookmarkDialog" xml:space="preserve">
-        <value>Bookmark Dialog</value>
+        <value>Bookmark</value>
     </data>
     <data name="NewTabActivationLocations_SelectFolderDialog" xml:space="preserve">
-        <value>Select Folder Dialog</value>
+        <value>Go to Folder</value>
     </data>
     <data name="NewTabActivationLocations_RecentlyUsedFolderDialog" xml:space="preserve">
-        <value>Recently Used Folders Dialog</value>
+        <value>Go to Recent Folder</value>
     </data>
-    <data name="NewTabActivationLocations_Volume" xml:space="preserve">
+    <data name="NewTabActivationLocations_VolumeDialog" xml:space="preserve">
         <value>Volume</value>
     </data>
     <data name="NewTabActivationLocations_FindItemDialog" xml:space="preserve">
-        <value>Find Item Dialog</value>
+        <value>Find Item</value>
     </data>
     <data name="NewTabActivationLocations_PathBox" xml:space="preserve">
         <value>Path Box</value>
     </data>
     <data name="NewTabActivationLocations_SearchInFilesDialog" xml:space="preserve">
-        <value>Search in Files Dialog</value>
+        <value>Search in Files</value>
     </data>
     <data name="FileDoubleClickBehaviors_Preview" xml:space="preserve">
         <value>Preview</value>

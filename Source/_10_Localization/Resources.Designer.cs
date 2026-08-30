@@ -6273,7 +6273,7 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("NameSortModes_Numeric", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Switch to New Tab.
         /// </summary>
@@ -6282,7 +6282,7 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("NewTabActivationBehaviors_ActivateNewTab", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Stay on Current Tab.
         /// </summary>
@@ -6291,34 +6291,43 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("NewTabActivationBehaviors_KeepCurrentTab", resourceCulture);
             }
         }
-
+        
         /// <summary>
-        ///   Looks up a localized string similar to Bookmark Dialog.
+        ///   Looks up a localized string similar to Bookmark.
         /// </summary>
         public static string NewTabActivationLocations_BookmarkDialog {
             get {
                 return ResourceManager.GetString("NewTabActivationLocations_BookmarkDialog", resourceCulture);
             }
         }
-
+        
         /// <summary>
-        ///   Looks up a localized string similar to Find Item Dialog.
+        ///   Looks up a localized string similar to Create Tabs from Selected Folders.
+        /// </summary>
+        public static string NewTabActivationLocations_CreateTabsFromSelectedFolders {
+            get {
+                return ResourceManager.GetString("NewTabActivationLocations_CreateTabsFromSelectedFolders", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Find Item.
         /// </summary>
         public static string NewTabActivationLocations_FindItemDialog {
             get {
                 return ResourceManager.GetString("NewTabActivationLocations_FindItemDialog", resourceCulture);
             }
         }
-
+        
         /// <summary>
-        ///   Looks up a localized string similar to Folder Items.
+        ///   Looks up a localized string similar to Open Selected Folders as Tabs.
         /// </summary>
-        public static string NewTabActivationLocations_FolderItems {
+        public static string NewTabActivationLocations_OpenAsTabsFromSelectedFolders {
             get {
-                return ResourceManager.GetString("NewTabActivationLocations_FolderItems", resourceCulture);
+                return ResourceManager.GetString("NewTabActivationLocations_OpenAsTabsFromSelectedFolders", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Path Box.
         /// </summary>
@@ -6327,40 +6336,40 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("NewTabActivationLocations_PathBox", resourceCulture);
             }
         }
-
+        
         /// <summary>
-        ///   Looks up a localized string similar to Recently Used Folders Dialog.
+        ///   Looks up a localized string similar to Go to Recent Folder.
         /// </summary>
         public static string NewTabActivationLocations_RecentlyUsedFolderDialog {
             get {
                 return ResourceManager.GetString("NewTabActivationLocations_RecentlyUsedFolderDialog", resourceCulture);
             }
         }
-
+        
         /// <summary>
-        ///   Looks up a localized string similar to Search in Files Dialog.
+        ///   Looks up a localized string similar to Search in Files.
         /// </summary>
         public static string NewTabActivationLocations_SearchInFilesDialog {
             get {
                 return ResourceManager.GetString("NewTabActivationLocations_SearchInFilesDialog", resourceCulture);
             }
         }
-
+        
         /// <summary>
-        ///   Looks up a localized string similar to Select Folder Dialog.
+        ///   Looks up a localized string similar to Go to Folder.
         /// </summary>
         public static string NewTabActivationLocations_SelectFolderDialog {
             get {
                 return ResourceManager.GetString("NewTabActivationLocations_SelectFolderDialog", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Volume.
         /// </summary>
-        public static string NewTabActivationLocations_Volume {
+        public static string NewTabActivationLocations_VolumeDialog {
             get {
-                return ResourceManager.GetString("NewTabActivationLocations_Volume", resourceCulture);
+                return ResourceManager.GetString("NewTabActivationLocations_VolumeDialog", resourceCulture);
             }
         }
         
@@ -7110,7 +7119,7 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Settings_Label_NewFolderName", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to After Opening a New Tab.
         /// </summary>
