@@ -1320,6 +1320,12 @@ Invalid password.
     <data name="NewTabActivationLocations_FolderItems" xml:space="preserve">
         <value>Folder Items</value>
     </data>
+    <data name="NewTabActivationLocations_CreateTabsFromSelectedFolders" xml:space="preserve">
+        <value>Create Tabs from Selected Folders</value>
+    </data>
+    <data name="NewTabActivationLocations_OpenAsTabsFromSelectedFolders" xml:space="preserve">
+        <value>Open Selected Folders as Tabs</value>
+    </data>
     <data name="NewTabActivationLocations_BookmarkDialog" xml:space="preserve">
         <value>Bookmark Dialog</value>
     </data>

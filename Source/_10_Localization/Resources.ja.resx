@@ -1299,6 +1299,12 @@
     <data name="NewTabActivationLocations_FolderItems" xml:space="preserve">
         <value>フォルダー項目</value>
     </data>
+    <data name="NewTabActivationLocations_CreateTabsFromSelectedFolders" xml:space="preserve">
+        <value>選択フォルダーからタブを作成</value>
+    </data>
+    <data name="NewTabActivationLocations_OpenAsTabsFromSelectedFolders" xml:space="preserve">
+        <value>選択フォルダーをタブとして開く</value>
+    </data>
     <data name="NewTabActivationLocations_BookmarkDialog" xml:space="preserve">
         <value>ブックマークダイアログ</value>
     </data>
