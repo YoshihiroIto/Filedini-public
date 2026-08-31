@@ -258,6 +258,15 @@
     <data name="FileMenu_SetDisplayMode5" xml:space="preserve">
         <value>表示モード５</value>
     </data>
+    <data name="FileMenu_IncreaseFontSize" xml:space="preserve">
+        <value>フォントサイズを大きくする</value>
+    </data>
+    <data name="FileMenu_DecreaseFontSize" xml:space="preserve">
+        <value>フォントサイズを小さくする</value>
+    </data>
+    <data name="FileMenu_ResetFontSize" xml:space="preserve">
+        <value>フォントサイズをリセット</value>
+    </data>
     <data name="FileMenu_SortItems" xml:space="preserve">
         <value>アイテムのソート...</value>
     </data>

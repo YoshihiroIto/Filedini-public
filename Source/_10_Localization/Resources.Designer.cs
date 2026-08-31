@@ -3331,6 +3331,33 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("FileMenu_SetDisplayMode5", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Increase Font Size.
+        /// </summary>
+        public static string FileMenu_IncreaseFontSize {
+            get {
+                return ResourceManager.GetString("FileMenu_IncreaseFontSize", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Decrease Font Size.
+        /// </summary>
+        public static string FileMenu_DecreaseFontSize {
+            get {
+                return ResourceManager.GetString("FileMenu_DecreaseFontSize", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Reset Font Size.
+        /// </summary>
+        public static string FileMenu_ResetFontSize {
+            get {
+                return ResourceManager.GetString("FileMenu_ResetFontSize", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to Settings....

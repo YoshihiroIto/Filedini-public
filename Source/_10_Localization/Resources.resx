@@ -204,6 +204,15 @@ Check the app path and settings.</value>
     <data name="FileMenu_SetDisplayMode5" xml:space="preserve">
         <value>Display Mode #5</value>
     </data>
+    <data name="FileMenu_IncreaseFontSize" xml:space="preserve">
+        <value>Increase Font Size</value>
+    </data>
+    <data name="FileMenu_DecreaseFontSize" xml:space="preserve">
+        <value>Decrease Font Size</value>
+    </data>
+    <data name="FileMenu_ResetFontSize" xml:space="preserve">
+        <value>Reset Font Size</value>
+    </data>
     <data name="FileMenu_SortItems" xml:space="preserve">
         <value>Sort Items...</value>
     </data>
