@@ -2603,4 +2603,7 @@ Filediniを気に入っていただけましたら、ぜひライセンスの購
     <data name="ContextMenu_SelectAll" xml:space="preserve">
         <value>すべて選択</value>
     </data>
+    <data name="NewTabActivationLocations_MainMenu" xml:space="preserve">
+        <value>メインメニュー</value>
+    </data>
 </root>

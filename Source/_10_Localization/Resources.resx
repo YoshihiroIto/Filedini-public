@@ -2778,4 +2778,7 @@ If you enjoy Filedini, please consider purchasing a license.</value>
     <data name="ContextMenu_SelectAll" xml:space="preserve">
         <value>Select  All</value>
     </data>
+    <data name="NewTabActivationLocations_MainMenu" xml:space="preserve">
+        <value>Main Menu</value>
+    </data>
 </root>

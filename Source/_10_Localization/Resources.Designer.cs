@@ -2046,6 +2046,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Decrease Font Size.
+        /// </summary>
+        public static string FileMenu_DecreaseFontSize {
+            get {
+                return ResourceManager.GetString("FileMenu_DecreaseFontSize", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Delete....
         /// </summary>
         public static string FileMenu_DeleteItem {
@@ -2231,6 +2240,15 @@ namespace Filedini.Localization {
         public static string FileMenu_ImportSettings {
             get {
                 return ResourceManager.GetString("FileMenu_ImportSettings", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Increase Font Size.
+        /// </summary>
+        public static string FileMenu_IncreaseFontSize {
+            get {
+                return ResourceManager.GetString("FileMenu_IncreaseFontSize", resourceCulture);
             }
         }
         
@@ -3117,6 +3135,15 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Reset Font Size.
+        /// </summary>
+        public static string FileMenu_ResetFontSize {
+            get {
+                return ResourceManager.GetString("FileMenu_ResetFontSize", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Save Session....
         /// </summary>
         public static string FileMenu_SaveSession {
@@ -3329,33 +3356,6 @@ namespace Filedini.Localization {
         public static string FileMenu_SetDisplayMode5 {
             get {
                 return ResourceManager.GetString("FileMenu_SetDisplayMode5", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Increase Font Size.
-        /// </summary>
-        public static string FileMenu_IncreaseFontSize {
-            get {
-                return ResourceManager.GetString("FileMenu_IncreaseFontSize", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Decrease Font Size.
-        /// </summary>
-        public static string FileMenu_DecreaseFontSize {
-            get {
-                return ResourceManager.GetString("FileMenu_DecreaseFontSize", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Reset Font Size.
-        /// </summary>
-        public static string FileMenu_ResetFontSize {
-            get {
-                return ResourceManager.GetString("FileMenu_ResetFontSize", resourceCulture);
             }
         }
         
@@ -6343,6 +6343,15 @@ namespace Filedini.Localization {
         public static string NewTabActivationLocations_FindItemDialog {
             get {
                 return ResourceManager.GetString("NewTabActivationLocations_FindItemDialog", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Main Menu.
+        /// </summary>
+        public static string NewTabActivationLocations_MainMenu {
+            get {
+                return ResourceManager.GetString("NewTabActivationLocations_MainMenu", resourceCulture);
             }
         }
         
