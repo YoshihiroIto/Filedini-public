@@ -7119,6 +7119,15 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Settings_Label_NameSortMode", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Show parent folder "..".
+        /// </summary>
+        public static string Settings_Label_ShowParentFolder {
+            get {
+                return ResourceManager.GetString("Settings_Label_ShowParentFolder", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to Darkness.

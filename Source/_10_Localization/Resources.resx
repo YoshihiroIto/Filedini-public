@@ -1377,6 +1377,9 @@ Invalid password.
     <data name="Settings_Label_NameSortMode" xml:space="preserve">
         <value>File Name / Extension / Folder Name Sort Mode</value>
     </data>
+    <data name="Settings_Label_ShowParentFolder" xml:space="preserve">
+        <value>Show parent folder ".."</value>
+    </data>
     <data name="FileMenu_ImportSettings" xml:space="preserve">
         <value>Import Settings...</value>
     </data>
