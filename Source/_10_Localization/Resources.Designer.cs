@@ -7128,6 +7128,15 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("Settings_Label_ShowParentFolder", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Folders to exclude when expanding.
+        /// </summary>
+        public static string Settings_Label_ExcludedFoldersOnExpansion {
+            get {
+                return ResourceManager.GetString("Settings_Label_ExcludedFoldersOnExpansion", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to Darkness.

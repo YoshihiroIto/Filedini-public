@@ -1359,6 +1359,9 @@
     <data name="Settings_Label_ShowParentFolder" xml:space="preserve">
         <value>親フォルダー「..」を表示する</value>
     </data>
+    <data name="Settings_Label_ExcludedFoldersOnExpansion" xml:space="preserve">
+        <value>フォルダー展開時に除外するフォルダー</value>
+    </data>
     <data name="FileMenu_ExportSettings" xml:space="preserve">
         <value>設定をエクスポート...</value>
     </data>
