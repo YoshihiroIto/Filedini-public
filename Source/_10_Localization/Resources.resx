@@ -629,6 +629,24 @@ Do you want to proceed?</value>
     <data name="StatusBar_ItemsCount" xml:space="preserve">
         <value>{0:N0} / {1:plural:1 item|{:N0} items}</value>
     </data>
+    <data name="StatusBar_SelectedItemsLabel" xml:space="preserve">
+        <value>selected</value>
+    </data>
+    <data name="StatusBar_ItemsLabel" xml:space="preserve">
+        <value>{0:plural:item|items}</value>
+    </data>
+    <data name="StatusBar_FilesTotalSize" xml:space="preserve">
+        <value>Folder total: {0}</value>
+    </data>
+    <data name="StatusBar_SelectedSize" xml:space="preserve">
+        <value>Selected: {0}</value>
+    </data>
+    <data name="StatusBar_SelectedSizeLabel" xml:space="preserve">
+        <value>Selected</value>
+    </data>
+    <data name="StatusBar_FilesTotalSizeLabel" xml:space="preserve">
+        <value>Total</value>
+    </data>
     <data name="UI_Today" xml:space="preserve">
         <value>_Today</value>
     </data>

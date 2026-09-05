@@ -8010,7 +8010,61 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("StatusBar_ItemsCount", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to selected.
+        /// </summary>
+        public static string StatusBar_SelectedItemsLabel {
+            get {
+                return ResourceManager.GetString("StatusBar_SelectedItemsLabel", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to {0:plural:item|items}.
+        /// </summary>
+        public static string StatusBar_ItemsLabel {
+            get {
+                return ResourceManager.GetString("StatusBar_ItemsLabel", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Folder total: {0}.
+        /// </summary>
+        public static string StatusBar_FilesTotalSize {
+            get {
+                return ResourceManager.GetString("StatusBar_FilesTotalSize", resourceCulture);
+            }
+        }
         
+        /// <summary>
+        ///   Looks up a localized string similar to Selected: {0}.
+        /// </summary>
+        public static string StatusBar_SelectedSize {
+            get {
+                return ResourceManager.GetString("StatusBar_SelectedSize", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Selected.
+        /// </summary>
+        public static string StatusBar_SelectedSizeLabel {
+            get {
+                return ResourceManager.GetString("StatusBar_SelectedSizeLabel", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Total.
+        /// </summary>
+        public static string StatusBar_FilesTotalSizeLabel {
+            get {
+                return ResourceManager.GetString("StatusBar_FilesTotalSizeLabel", resourceCulture);
+            }
+        }
+
         /// <summary>
         ///   Looks up a localized string similar to Moving....
         /// </summary>
