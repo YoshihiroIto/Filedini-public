@@ -8167,7 +8167,7 @@ namespace Filedini.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Paste as newline (\n).
+        ///   Looks up a localized string similar to Paste as terminal newline.
         /// </summary>
         public static string Terminal_PasteOption_AsNewline {
             get {

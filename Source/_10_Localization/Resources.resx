@@ -2158,7 +2158,7 @@ Are you sure you want to continue?</value>
         <value>Paste as is</value>
     </data>
     <data name="Terminal_PasteOption_AsNewline" xml:space="preserve">
-        <value>Paste as newline (\n)</value>
+        <value>Paste as terminal newline</value>
     </data>
     <data name="FileMenu_CommandPalette" xml:space="preserve">
         <value>Command Palette...</value>
