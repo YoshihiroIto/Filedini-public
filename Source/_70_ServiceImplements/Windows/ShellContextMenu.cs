@@ -52,7 +52,7 @@ internal sealed class ShellContextMenu
                 menu, TPM.RETURNCMD, x, y, (IntPtr)handleOwner, IntPtr.Zero);
 
             if (selectedIndex >= CMD_FIRST)
-                InvokeCommand(contextMenu, selectedIndex, GetInvokeDirectory(files[0]), x, y);
+                InvokeCommand(contextMenu, handleOwner.Value, selectedIndex, GetInvokeDirectory(files[0]), x, y);
         }
         finally
         {
@@ -172,13 +172,20 @@ internal sealed class ShellContextMenu
         }
     }
 
-    private static unsafe void InvokeCommand(IContextMenu contextMenu, uint cmd, string folderName, int x, int y)
+    private static unsafe void InvokeCommand(
+        IContextMenu contextMenu,
+        IntPtr hwndOwner,
+        uint cmd,
+        string folderName,
+        int x,
+        int y)
     {
         fixed (char* p = folderName)
         {
             var command = new CMINVOKECOMMANDINFOEX
             {
                 cbSize = sizeof(CMINVOKECOMMANDINFOEX),
+                hwnd = hwndOwner,
                 lpVerb = (IntPtr)(cmd - CMD_FIRST),
                 lpDirectory = p,
                 lpVerbW = (IntPtr)(cmd - CMD_FIRST),
