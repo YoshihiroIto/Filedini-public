@@ -9,7 +9,6 @@ using CommunityToolkit.Diagnostics;
 namespace Filedini.ServiceImplements.Windows;
 
 using static WindowsNativeMethods;
-using static ComHelper;
 
 internal sealed class ShellContextMenu
 {
@@ -29,13 +28,14 @@ internal sealed class ShellContextMenu
         IntPtr[] idls = [];
         var hook = default(Hook);
         var menu = IntPtr.Zero;
+        var comObjects = new ComObjectScope();
 
         try
         {
             if (!TryCreateAbsoluteIdls(files, out idls))
                 return;
 
-            if (!TryGetContextMenuInterfaces(idls, out var contextMenu, out var contextMenu2,
+            if (!TryGetContextMenuInterfaces(idls, comObjects, out var contextMenu, out var contextMenu2,
                     out var contextMenu3))
                 return;
 
@@ -56,51 +56,68 @@ internal sealed class ShellContextMenu
         }
         finally
         {
-            hook?.Dispose();
-
-            if (menu != IntPtr.Zero)
-                DestroyMenu(menu);
-
-            FreeIdls(idls);
+            try
+            {
+                hook?.Dispose();
+            }
+            finally
+            {
+                try
+                {
+                    if (menu != IntPtr.Zero)
+                        DestroyMenu(menu);
+                }
+                finally
+                {
+                    try
+                    {
+                        // The window hook and native menu must stop using the
+                        // interfaces before their owning wrappers are released.
+                        comObjects.Dispose();
+                    }
+                    finally
+                    {
+                        FreeIdls(idls);
+                    }
+                }
+            }
         }
     }
 
     private static bool TryGetContextMenuInterfaces(
         IntPtr[] idls,
+        ComObjectScope comObjects,
         out IContextMenu contextMenu,
         out IContextMenu2? contextMenu2,
         out IContextMenu3? contextMenu3)
     {
+        contextMenu = null!;
+        contextMenu2 = null;
+        contextMenu3 = null;
+
         var result = SHCreateShellItemArrayFromIDLists((uint)idls.Length, idls, out var unknownShellItemArray);
         if (result is not S_OK)
         {
-            contextMenu = null!;
-            contextMenu2 = null;
-            contextMenu3 = null;
+            if (unknownShellItemArray != IntPtr.Zero)
+                Marshal.Release(unknownShellItemArray);
             return false;
         }
 
-        var shellItemArray = GetOrCreateObjectForComInstance<IShellItemArray>(unknownShellItemArray);
+        var shellItemArray = comObjects.GetObjectForOwnedReference<IShellItemArray>(unknownShellItemArray);
         result = shellItemArray.BindToHandler(IntPtr.Zero, in BHID_SFUIObject, in IID_IContextMenu, out var unknownContextMenu);
 
         if (result is not S_OK)
         {
-            contextMenu = null!;
-            contextMenu2 = null;
-            contextMenu3 = null;
+            if (unknownContextMenu != IntPtr.Zero)
+                Marshal.Release(unknownContextMenu);
             return false;
         }
 
-        contextMenu = GetOrCreateObjectForComInstance<IContextMenu>(unknownContextMenu);
-
-        contextMenu2 = null;
-        contextMenu3 = null;
-
-        if (Marshal.QueryInterface(unknownContextMenu, in IID_IContextMenu2, out var unknownContextMenu2) is S_OK)
-            contextMenu2 = GetOrCreateObjectForComInstance<IContextMenu2>(unknownContextMenu2);
-
-        if (Marshal.QueryInterface(unknownContextMenu, in IID_IContextMenu3, out var unknownContextMenu3) is S_OK)
-            contextMenu3 = GetOrCreateObjectForComInstance<IContextMenu3>(unknownContextMenu3);
+        contextMenu = comObjects.GetObjectForOwnedReference<IContextMenu>(unknownContextMenu);
+        // Generated COM interface casts query and cache optional interfaces in
+        // the same uniquely owned wrapper, which releases all of them together.
+        contextMenu2 = contextMenu as IContextMenu2;
+        contextMenu3 = contextMenu as IContextMenu3;
 
         return true;
     }
