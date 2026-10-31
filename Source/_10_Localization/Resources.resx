@@ -2805,4 +2805,7 @@ If you enjoy Filedini, please consider purchasing a license.</value>
     <data name="NewTabActivationLocations_MainMenu" xml:space="preserve">
         <value>Main Menu</value>
     </data>
+  <data name="VolumeDialog_DriveLetterNavigation" xml:space="preserve">
+    <value>Navigate by drive letter</value>
+  </data>
 </root>

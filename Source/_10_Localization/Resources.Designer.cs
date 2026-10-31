@@ -22,6 +22,15 @@ namespace Filedini.Localization {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class Resources {
+
+        /// <summary>
+        ///   Navigate by drive letter
+        /// </summary>
+        public static string VolumeDialog_DriveLetterNavigation {
+            get {
+                return ResourceManager.GetString("VolumeDialog_DriveLetterNavigation", resourceCulture);
+            }
+        }
         
         private static global::System.Resources.ResourceManager resourceMan;
         

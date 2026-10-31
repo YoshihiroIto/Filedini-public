@@ -2630,4 +2630,7 @@ Filediniを気に入っていただけましたら、ぜひライセンスの購
     <data name="NewTabActivationLocations_MainMenu" xml:space="preserve">
         <value>メインメニュー</value>
     </data>
+  <data name="VolumeDialog_DriveLetterNavigation" xml:space="preserve">
+    <value>ドライブレターの入力で移動する</value>
+  </data>
 </root>
