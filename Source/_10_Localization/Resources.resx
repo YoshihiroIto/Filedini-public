@@ -2808,4 +2808,10 @@ If you enjoy Filedini, please consider purchasing a license.</value>
   <data name="VolumeDialog_DriveLetterNavigation" xml:space="preserve">
     <value>Navigate by drive letter</value>
   </data>
+    <data name="Label_Administrator" xml:space="preserve">
+        <value>Administrator</value>
+    </data>
+    <data name="Tooltip_RunningAsAdministrator" xml:space="preserve">
+        <value>Running as administrator</value>
+    </data>
 </root>

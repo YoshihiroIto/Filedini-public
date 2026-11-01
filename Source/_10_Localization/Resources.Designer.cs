@@ -24,6 +24,24 @@ namespace Filedini.Localization {
     public class Resources {
 
         /// <summary>
+        ///   Administrator
+        /// </summary>
+        public static string Label_Administrator {
+            get {
+                return ResourceManager.GetString("Label_Administrator", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Running as administrator
+        /// </summary>
+        public static string Tooltip_RunningAsAdministrator {
+            get {
+                return ResourceManager.GetString("Tooltip_RunningAsAdministrator", resourceCulture);
+            }
+        }
+
+        /// <summary>
         ///   Navigate by drive letter
         /// </summary>
         public static string VolumeDialog_DriveLetterNavigation {

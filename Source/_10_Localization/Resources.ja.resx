@@ -2633,4 +2633,10 @@ Filediniを気に入っていただけましたら、ぜひライセンスの購
   <data name="VolumeDialog_DriveLetterNavigation" xml:space="preserve">
     <value>ドライブレターの入力で移動する</value>
   </data>
+    <data name="Label_Administrator" xml:space="preserve">
+        <value>管理者</value>
+    </data>
+    <data name="Tooltip_RunningAsAdministrator" xml:space="preserve">
+        <value>管理者権限で実行中</value>
+    </data>
 </root>
