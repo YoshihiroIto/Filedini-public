@@ -116,7 +116,9 @@ internal sealed class ShellContextMenu
         contextMenu = comObjects.GetObjectForOwnedReference<IContextMenu>(unknownContextMenu);
         // Generated COM interface casts query and cache optional interfaces in
         // the same uniquely owned wrapper, which releases all of them together.
+        // ReSharper disable once SuspiciousTypeConversion.Global
         contextMenu2 = contextMenu as IContextMenu2;
+        // ReSharper disable once SuspiciousTypeConversion.Global
         contextMenu3 = contextMenu as IContextMenu3;
 
         return true;
