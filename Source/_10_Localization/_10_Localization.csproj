@@ -8,6 +8,7 @@
         <RootNamespace>Filedini.Localization</RootNamespace>
         <LangVersion>preview</LangVersion>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <Features>runtime-async=on</Features>
     </PropertyGroup>
 
     <ItemGroup>
