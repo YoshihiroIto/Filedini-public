@@ -1,4 +1,4 @@
-<root>
+﻿<root>
     <resheader name="resmimetype">
         <value>text/microsoft-resx</value>
     </resheader>
@@ -2639,4 +2639,58 @@ Filediniを気に入っていただけましたら、ぜひライセンスの購
     <data name="Tooltip_RunningAsAdministrator" xml:space="preserve">
         <value>管理者権限で実行中</value>
     </data>
+  <data name="Hotkey_ByFunction" xml:space="preserve">
+    <value>機能別</value>
+  </data>
+  <data name="Hotkey_ByKey" xml:space="preserve">
+    <value>キー別</value>
+  </data>
+  <data name="Hotkey_View" xml:space="preserve">
+    <value>表示</value>
+  </data>
+  <data name="Hotkey_Mode" xml:space="preserve">
+    <value>動作モード</value>
+  </data>
+  <data name="Hotkey_Normal" xml:space="preserve">
+    <value>通常</value>
+  </data>
+  <data name="Hotkey_InitialSearch" xml:space="preserve">
+    <value>インクリメンタルサーチ</value>
+  </data>
+  <data name="Hotkey_Preview" xml:space="preserve">
+    <value>プレビュー</value>
+  </data>
+  <data name="Hotkey_UnassignedOnly" xml:space="preserve">
+    <value>未割り当てのみ</value>
+  </data>
+  <data name="Hotkey_Key" xml:space="preserve">
+    <value>キー</value>
+  </data>
+  <data name="Hotkey_AssignedFunction" xml:space="preserve">
+    <value>割り当て済み機能</value>
+  </data>
+  <data name="Hotkey_Assign" xml:space="preserve">
+    <value>選択キーを選択機能に割り当て</value>
+  </data>
+  <data name="Hotkey_Remove" xml:space="preserve">
+    <value>選択キーの割り当てを解除</value>
+  </data>
+  <data name="Hotkey_Unassigned" xml:space="preserve">
+    <value>未割り当て</value>
+  </data>
+  <data name="Hotkey_SearchFunctions" xml:space="preserve">
+    <value>機能を検索</value>
+  </data>
+  <data name="Hotkey_ConfirmReplace" xml:space="preserve">
+    <value>{0} の割り当てを置き換えますか？
+
+現在: {1}
+変更先: {2}</value>
+  </data>
+  <data name="Hotkey_ScriptUsed" xml:space="preserve">
+    <value>スクリプトで使用中: {0}</value>
+  </data>
+  <data name="Hotkey_NormalAssignment" xml:space="preserve">
+    <value>通常モードの割り当て: {0}</value>
+  </data>
 </root>

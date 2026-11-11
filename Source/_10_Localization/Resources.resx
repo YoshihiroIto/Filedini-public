@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 
 <root>
     <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
@@ -2814,4 +2814,58 @@ If you enjoy Filedini, please consider purchasing a license.</value>
     <data name="Tooltip_RunningAsAdministrator" xml:space="preserve">
         <value>Running as administrator</value>
     </data>
+  <data name="Hotkey_ByFunction" xml:space="preserve">
+    <value>By function</value>
+  </data>
+  <data name="Hotkey_ByKey" xml:space="preserve">
+    <value>By key</value>
+  </data>
+  <data name="Hotkey_View" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Hotkey_Mode" xml:space="preserve">
+    <value>Mode</value>
+  </data>
+  <data name="Hotkey_Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="Hotkey_InitialSearch" xml:space="preserve">
+    <value>Incremental search</value>
+  </data>
+  <data name="Hotkey_Preview" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="Hotkey_UnassignedOnly" xml:space="preserve">
+    <value>Unassigned only</value>
+  </data>
+  <data name="Hotkey_Key" xml:space="preserve">
+    <value>Key</value>
+  </data>
+  <data name="Hotkey_AssignedFunction" xml:space="preserve">
+    <value>Assigned function</value>
+  </data>
+  <data name="Hotkey_Assign" xml:space="preserve">
+    <value>Assign selected key to selected function</value>
+  </data>
+  <data name="Hotkey_Remove" xml:space="preserve">
+    <value>Remove selected key assignment</value>
+  </data>
+  <data name="Hotkey_Unassigned" xml:space="preserve">
+    <value>Unassigned</value>
+  </data>
+  <data name="Hotkey_SearchFunctions" xml:space="preserve">
+    <value>Search functions</value>
+  </data>
+  <data name="Hotkey_ConfirmReplace" xml:space="preserve">
+    <value>Replace the assignment for {0}?
+
+Current: {1}
+New: {2}</value>
+  </data>
+  <data name="Hotkey_ScriptUsed" xml:space="preserve">
+    <value>Used by script: {0}</value>
+  </data>
+  <data name="Hotkey_NormalAssignment" xml:space="preserve">
+    <value>Normal mode assignment: {0}</value>
+  </data>
 </root>

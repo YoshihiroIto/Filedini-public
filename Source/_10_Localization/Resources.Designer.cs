@@ -9161,5 +9161,22 @@ namespace Filedini.Localization {
                 return ResourceManager.GetString("VariableDetails_CurrentFolder", resourceCulture);
             }
         }
+        public static string Hotkey_ByFunction => ResourceManager.GetString("Hotkey_ByFunction", resourceCulture)!;
+        public static string Hotkey_ByKey => ResourceManager.GetString("Hotkey_ByKey", resourceCulture)!;
+        public static string Hotkey_View => ResourceManager.GetString("Hotkey_View", resourceCulture)!;
+        public static string Hotkey_Mode => ResourceManager.GetString("Hotkey_Mode", resourceCulture)!;
+        public static string Hotkey_Normal => ResourceManager.GetString("Hotkey_Normal", resourceCulture)!;
+        public static string Hotkey_InitialSearch => ResourceManager.GetString("Hotkey_InitialSearch", resourceCulture)!;
+        public static string Hotkey_Preview => ResourceManager.GetString("Hotkey_Preview", resourceCulture)!;
+        public static string Hotkey_UnassignedOnly => ResourceManager.GetString("Hotkey_UnassignedOnly", resourceCulture)!;
+        public static string Hotkey_Key => ResourceManager.GetString("Hotkey_Key", resourceCulture)!;
+        public static string Hotkey_AssignedFunction => ResourceManager.GetString("Hotkey_AssignedFunction", resourceCulture)!;
+        public static string Hotkey_Assign => ResourceManager.GetString("Hotkey_Assign", resourceCulture)!;
+        public static string Hotkey_Remove => ResourceManager.GetString("Hotkey_Remove", resourceCulture)!;
+        public static string Hotkey_Unassigned => ResourceManager.GetString("Hotkey_Unassigned", resourceCulture)!;
+        public static string Hotkey_SearchFunctions => ResourceManager.GetString("Hotkey_SearchFunctions", resourceCulture)!;
+        public static string Hotkey_ConfirmReplace => ResourceManager.GetString("Hotkey_ConfirmReplace", resourceCulture)!;
+        public static string Hotkey_ScriptUsed => ResourceManager.GetString("Hotkey_ScriptUsed", resourceCulture)!;
+        public static string Hotkey_NormalAssignment => ResourceManager.GetString("Hotkey_NormalAssignment", resourceCulture)!;
     }
 }
