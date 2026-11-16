@@ -84,7 +84,7 @@ internal static partial class WindowsNativeMethods
     }
 
     [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Auto)]
-    public unsafe struct SHELLEXECUTEINFO
+    public struct SHELLEXECUTEINFO
     {
         public int cbSize;
         public uint fMask;
@@ -106,7 +106,7 @@ internal static partial class WindowsNativeMethods
     }
 
     [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Auto)]
-    public unsafe struct SHFILEINFO
+    public struct SHFILEINFO
     {
         public IntPtr hIcon;
         public int iIcon;
@@ -117,7 +117,7 @@ internal static partial class WindowsNativeMethods
     }
 
     [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Auto)]
-    public unsafe struct SHFILEOPSTRUCT
+    public struct SHFILEOPSTRUCT
     {
         public IntPtr hwnd;
 

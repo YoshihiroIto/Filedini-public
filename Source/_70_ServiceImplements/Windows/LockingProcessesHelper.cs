@@ -35,7 +35,7 @@ public static partial class LockingProcessesHelper
     }
 
     [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Unicode)]
-    private unsafe struct RM_PROCESS_INFO
+    private struct RM_PROCESS_INFO
     {
         public RM_UNIQUE_PROCESS Process;
         public fixed char strAppName[CCH_RM_MAX_APP_NAME + 1];
@@ -254,7 +254,7 @@ public static partial class LockingProcessesHelper
         }
     }
 
-    private static unsafe int ReadProcessesFromRestartManager(
+    private static int ReadProcessesFromRestartManager(
         uint handle,
         uint needed,
         IDictionary<int, Process> processes,
@@ -268,7 +268,7 @@ public static partial class LockingProcessesHelper
     }
 
     [SkipLocalsInit]
-    private static unsafe int ReadProcessesFromRestartManagerStackalloc(
+    private static int ReadProcessesFromRestartManagerStackalloc(
         uint handle,
         int infoCount,
         IDictionary<int, Process> processes,
@@ -296,7 +296,7 @@ public static partial class LockingProcessesHelper
         }
     }
 
-    private static unsafe int ReadProcessesFromRestartManagerCore(
+    private static int ReadProcessesFromRestartManagerCore(
         uint handle,
         Span<RM_PROCESS_INFO> infos,
         IDictionary<int, Process> processes,
