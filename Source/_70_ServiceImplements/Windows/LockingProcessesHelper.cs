@@ -205,7 +205,7 @@ public static partial class LockingProcessesHelper
         CollectProcessesFromHandles(normalizedTargets, processes);
         CollectProcessesFromModules(normalizedTargets, processes);
 
-        return processes.Values.OrderBy(x => x.ProcessName).ThenBy(x => x.Id).ToList();
+        return [.. processes.Values.OrderBy(x => x.ProcessName, StringComparer.Ordinal).ThenBy(x => x.Id)];
     }
 
     private static void CollectProcessesFromRestartManager(
