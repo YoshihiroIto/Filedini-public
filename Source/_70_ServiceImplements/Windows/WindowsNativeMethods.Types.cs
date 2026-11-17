@@ -153,7 +153,7 @@ internal static partial class WindowsNativeMethods
     }
 
     [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Unicode)]
-    public unsafe struct CMINVOKECOMMANDINFOEX
+    public struct CMINVOKECOMMANDINFOEX
     {
         public int cbSize;
         public CMIC fMask;
